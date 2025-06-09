@@ -3,18 +3,24 @@ import os
 import re
 import json
 
-# Set headers for the request
+json_entries = {}
+
+# set headers for the request
 headers = {"Content-Type": "application/json"}
 
-# Step 1: Read the prompt template
-with open('ana_pipe_test.txt', 'r', encoding='utf-8') as file:
+# read the prompt template
+with open('prompt_template.txt', 'r', encoding='utf-8') as file:
     prompt_template = file.read()
 
-# Step 2: Read the sample text
-with open('dev_full.txt', 'r', encoding='utf-8') as file:
+# read the example
+with open('platinum_example.txt', 'r', encoding='utf-8') as file:
+    example = file.read()
+
+# read the sample text
+with open('articles_train_platinum.txt', 'r', encoding='utf-8') as file:
     all_samples = file.read().splitlines()
 
-# Step 3: Extract and group title + abstract by PMID
+# extract and group title + abstract by PMID
 title_pattern = re.compile(r"^(\d{8})\|t\|(.*)")
 abstract_pattern = re.compile(r"^(\d{8})\|a\|(.*)")
 
@@ -32,19 +38,22 @@ for line in all_samples:
         abstract = a_match.group(2).strip()
         samples.setdefault(pmid, {})['abstract'] = abstract
 
-# Step 4: Process each sample
+# process each sample
 for pmid, sections in samples.items():
     title = sections.get('title', '')
     abstract = sections.get('abstract', '')
 
-    # Fill in prompt
-    full_prompt = prompt_template.replace("[TITLEHERE]", title).replace("[ABSTRACHERE]", abstract)
+    # fill in prompt
+    full_prompt = prompt_template \
+                    .replace("{example}", example) \
+                    .replace("{title_here}", title) \
+                    .replace("{abstract_here}", abstract)
 
     data = {
         "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
         "prompt": full_prompt,
         "temperature": 0.6,
-        "max_tokens": 2048
+        "max_tokens": 2400
     }
 
     response = requests.post("http://localhost:8000/v1/completions", headers=headers, json=data, verify=False)
@@ -55,27 +64,27 @@ for pmid, sections in samples.items():
         if json_match:
             try:
                 json_str = json_match.group()
-                tagged_data = json.loads(json_str)
+                relations = json.loads(json_str)
 
-                tagged_title = tagged_data.get("tagged_title", "")
-                tagged_abstract = tagged_data.get("tagged_abstract", "")
+                json_entries[pmid] = {
+                    "metadata": {
+                        "title": title,
+                        "abstract": abstract
+                    },
+                    "relations": relations
+                }
 
-                # Save JSON
-                entity_folder = "anatomical_location"
-                os.makedirs(entity_folder, exist_ok=True)
-                output_path = os.path.join(entity_folder, f"{pmid}_tagged.json")
-
-                with open(output_path, 'w', encoding='utf-8') as f:
-                    json.dump({
-                        "tagged_title": tagged_title,
-                        "tagged_abstract": tagged_abstract
-                    }, f, indent=2)
-
-                print(f"[✓] Tagged sample for PMID {pmid} saved to {output_path}")
-                # else:
-                #     print(f"YOU GOT A PROBLEM BIG DAWG")
+                print(f"[✓] Extracted relations for PMID {pmid} saved")
 
             except json.JSONDecodeError:
                 print(f"[⚠️] Invalid JSON returned for PMID {pmid}:\n{assistant_text}")
     else:
         print(f"[❌] Error processing sample for PMID {pmid}: {response.status_code}")
+
+# save JSON
+output_folder_name = "platinum_data"
+folder = output_folder_name
+os.makedirs(folder, exist_ok=True)
+
+with open(output_folder_name, 'w', encoding='utf-8') as f:
+    json.dump(json_entries, f, indent=2)
