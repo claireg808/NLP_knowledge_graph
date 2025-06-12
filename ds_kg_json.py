@@ -3,8 +3,6 @@ import os
 import re
 import json
 
-json_entries = {}
-
 # set headers for the request
 headers = {"Content-Type": "application/json"}
 
@@ -17,7 +15,7 @@ with open('platinum_example.txt', 'r', encoding='utf-8') as file:
     example = file.read()
 
 # read the sample text
-with open('articles_train_platinum.txt', 'r', encoding='utf-8') as file:
+with open('test.txt', 'r', encoding='utf-8') as file:
     all_samples = file.read().splitlines()
 
 # extract and group title + abstract by PMID
@@ -53,38 +51,35 @@ for pmid, sections in samples.items():
         "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
         "prompt": full_prompt,
         "temperature": 0.6,
-        "max_tokens": 2400
+        "max_tokens": 2048
     }
 
     response = requests.post("http://localhost:8000/v1/completions", headers=headers, json=data, verify=False)
 
     if response.status_code == 200:
         assistant_text = response.json()['choices'][0]['text'].strip()
-        json_match = re.search(r"\{.*\}", assistant_text, re.DOTALL)
+        json_match = re.search(r"[.*]", assistant_text, re.DOTALL)
         if json_match:
             try:
                 json_str = json_match.group()
                 relations = json.loads(json_str)
+                print(f"relations: {relations}")
 
-                json_entries[pmid] = {
-                    "metadata": {
+                # save JSON
+                folder = "platinum_relations"
+                os.makedirs(folder, exist_ok=True)
+                output_path = os.path.join(folder, f"{pmid}_relations.json")
+
+                with open(output_path, 'w', encoding='utf-8') as f:
+                    json.dump({
                         "title": title,
-                        "abstract": abstract
-                    },
-                    "relations": relations
-                }
+                        "abstract": abstract,
+                        "relations": relations
+                    }, f, indent=2)
 
-                print(f"[✓] Extracted relations for PMID {pmid} saved")
+                print(f"Success: Extracted relations for PMID {pmid} saved")
 
             except json.JSONDecodeError:
-                print(f"[⚠️] Invalid JSON returned for PMID {pmid}:\n{assistant_text}")
+                print(f"Error: Invalid JSON returned for PMID {pmid}:\n{assistant_text}")
     else:
-        print(f"[❌] Error processing sample for PMID {pmid}: {response.status_code}")
-
-# save JSON
-output_folder_name = "platinum_data"
-folder = output_folder_name
-os.makedirs(folder, exist_ok=True)
-
-with open(output_folder_name, 'w', encoding='utf-8') as f:
-    json.dump(json_entries, f, indent=2)
+        print(f"Error: Problem processing sample for PMID {pmid}: {response.status_code}")

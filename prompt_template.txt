@@ -6,11 +6,13 @@ You are a data scientist working for a company that is building a knowledge grap
 - It is important that the head and tail exists as nodes that are related by the relation. If you can't pair a relationship with a pair of nodes don't add it.
 - When you find a node or relationship you want to add try to create a generic TYPE for it that describes the entity you can also think of it as a label.
 - You must generate the output in a JSON format containing a list with JSON objects. Each object should have the keys: "head", "head_type", "relation" "tail", and "tail_type"
+- Do not include any thoughts, markdown, comments, or extra text — only the output JSON object.
 - Be Concise.
 
 <Examples>
-Examples: {examples}
+Examples: {example}
 
 <Sample Input>
 For the following text, extract entities and relations as in the provided example.
-Text: {input}
+{title_here}
+{abstract_here}
