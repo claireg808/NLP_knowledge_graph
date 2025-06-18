@@ -1,0 +1,251 @@
+{
+  "title": "Gastrointestinal and Microbiome Profiling in Rodent Models of Neurological and Psychiatric Disorders.",
+  "abstract": "Mice and other rodent models have been widely used to understand the role of the gut microbiome in various neurological and psychiatric disorders. Here we describe a protocol to characterize the structural and functional phenotype of the rodent gut and to examine the gut microbiota composition through V4 16S rRNA gene sequencing and microbiome profiling. This protocol will have utility for those investigating the gut, and associated microbiota, in a wide range of different rodent models of human disorders.",
+  "relations": {
+    "37464165": {
+      "head": "gastrointestinal",
+      "head_type": "profile",
+      "relation": "related to",
+      "tail": "microbiome profiling",
+      "tail_type": "method"
+    },
+    "37464166": {
+      "head": "rodent models",
+      "head_type": "animal model",
+      "relation": "used for",
+      "tail": "neurological disorders",
+      "tail_type": "disease"
+    },
+    "37464167": {
+      "head": "rodent models",
+      "head_type": "animal model",
+      "relation": "used for",
+      "tail": "psychiatric disorders",
+      "tail_type": "disease"
+    },
+    "37464168": {
+      "head": "mice",
+      "head_type": "animal",
+      "relation": "part of",
+      "tail": "rodent models",
+      "tail_type": "animal model"
+    },
+    "37464169": {
+      "head": "gut microbiome",
+      "head_type": "microbiome",
+      "relation": "related to",
+      "tail": "neurological disorders",
+      "tail_type": "disease"
+    },
+    "37464170": {
+      "head": "gut microbiome",
+      "head_type": "microbiome",
+      "relation": "related to",
+      "tail": "psychiatric disorders",
+      "tail_type": "disease"
+    },
+    "37464171": {
+      "head": "gut",
+      "head_type": "organ",
+      "relation": "characterized by",
+      "tail": "structural phenotype",
+      "tail_type": "phenotype"
+    },
+    "37464172": {
+      "head": "gut",
+      "head_type": "organ",
+      "relation": "characterized by",
+      "tail": "functional phenotype",
+      "tail_type": "phenotype"
+    },
+    "37464173": {
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "examined by",
+      "tail": "V4 16S rRNA gene sequencing",
+      "tail_type": "method"
+    },
+    "37464174": {
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "examined by",
+      "tail": "microbiome profiling",
+      "tail_type": "method"
+    },
+    "37464175": {
+      "head": "protocol",
+      "head_type": "method",
+      "relation": "used to",
+      "tail": "examine gut microbiota",
+      "tail_type": "process"
+    },
+    "37464176": {
+      "head": "protocol",
+      "head_type": "method",
+      "relation": "used to",
+      "tail": "evaluate treatment effects",
+      "tail_type": "process"
+    },
+    "37464177": {
+      "head": "gut microbiome",
+      "head_type": "microbiome",
+      "relation": "influenced by",
+      "tail": "specific treatments",
+      "tail_type": "treatment"
+    },
+    "37464178": {
+      "head": "gut microbiome",
+      "head_type": "microbiome",
+      "relation": "related to",
+      "tail": "host",
+      "tail_type": "organism"
+    },
+    "37464179": {
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "related to",
+      "tail": "host",
+      "tail_type": "organism"
+    },
+    "37464180": {
+      "head": "rodent models",
+      "head_type": "animal model",
+      "relation": "used for",
+      "tail": "human disorders",
+      "tail_type": "disease"
+    },
+    "37464181": {
+      "head": "gut",
+      "head_type": "organ",
+      "relation": "associated with",
+      "tail": "microbiota",
+      "tail_type": "microbiome"
+    },
+    "37464182": {
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "examined by",
+      "tail": "V4 16S rRNA gene sequencing",
+      "tail_type": "method"
+    },
+    "37464183": {
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "examined by",
+      "tail": "microbiome profiling",
+      "tail_type": "method"
+    },
+    "37464184": {
+      "head": "protocol",
+      "head_type": "method",
+      "relation": "used to",
+      "tail": "examine gut microbiota",
+      "tail_type": "process"
+    },
+    "37464185": {
+      "head": "protocol",
+      "head_type": "method",
+      "relation": "used to",
+      "tail": "evaluate treatment effects",
+      "tail_type": "process"
+    },
+    "37464186": {
+      "head": "gut microbiome",
+      "head_type": "microbiome",
+      "relation": "influenced by",
+      "tail": "specific treatments",
+      "tail_type": "treatment"
+    },
+    "37464187": {
+      "head": "gut microbiome",
+      "head_type": "microbiome",
+      "relation": "related to",
+      "tail": "host",
+      "tail_type": "organism"
+    },
+    "37464188": {
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "related to",
+      "tail": "host",
+      "tail_type": "organism"
+    },
+    "37464189": {
+      "head": "rodent models",
+      "head_type": "animal model",
+      "relation": "used for",
+      "tail": "human disorders",
+      "tail_type": "disease"
+    },
+    "37464190": {
+      "head": "gut",
+      "head_type": "organ",
+      "relation": "associated with",
+      "tail": "microbiota",
+      "tail_type": "microbiome"
+    },
+    "37464191": {
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "examined by",
+      "tail": "V4 16S rRNA gene sequencing",
+      "tail_type": "method"
+    },
+    "37464192": {
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "examined by",
+      "tail": "microbiome profiling",
+      "tail_type": "method"
+    },
+    "37464193": {
+      "head": "protocol",
+      "head_type": "method",
+      "relation": "used to",
+      "tail": "examine gut microbiota",
+      "tail_type": "process"
+    },
+    "37464194": {
+      "head": "protocol",
+      "head_type": "method",
+      "relation": "used to",
+      "tail": "evaluate treatment effects",
+      "tail_type": "process"
+    },
+    "37464195": {
+      "head": "gut microbiome",
+      "head_type": "microbiome",
+      "relation": "influenced by",
+      "tail": "specific treatments",
+      "tail_type": "treatment"
+    },
+    "37464196": {
+      "head": "gut microbiome",
+      "head_type": "microbiome",
+      "relation": "related to",
+      "tail": "host",
+      "tail_type": "organism"
+    },
+    "37464197": {
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "related to",
+      "tail": "host",
+      "tail_type": "organism"
+    },
+    "37464198": {
+      "head": "rodent models",
+      "head_type": "animal model",
+      "relation": "used for",
+      "tail": "human disorders",
+      "tail_type": "disease"
+    },
+    "37464199": {
+      "head": "gut",
+      "head_type": "organ",
+      "relation": "associated with",
+      "tail": "microbiota",
+      "tail_type": "microbiome"
+    }
+  }
+}

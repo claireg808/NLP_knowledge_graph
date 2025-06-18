@@ -1,0 +1,132 @@
+{
+  "title": "Chronic alcohol overconsumption may alter gut microbial metabolism: a retrospective study of 719 <sup>13</sup>C-D-xylose breath test results.",
+  "abstract": "<b>Objective</b>: Alterations of gut microbiota composition or function may participate in the pathophysiology of several diseases. We aimed to explore the effect of chronic alcohol overconsumption on gut microbial metabolism, as assessed by evaluating <sup>13</sup>C-D-xylose breath test results. <b>Materials and methods</b>: We investigated all <sup>13</sup>C-D-xylose breath tests performed at Lovisenberg Diaconal Hospital during the years 2005 to 2011, using patient files for diagnosing the patients into one of three patient categories: alcohol overconsumption, coeliac disease and functional bowel disorder. In addition, a group of healthy controls was included. The time curves of <sup>13</sup>CO<sub>2</sub> excretion in breath samples were divided into two phases, evaluating small intestinal absorption (0-60\u00a0min) and colonic microbial metabolism (90-240\u00a0min), respectively. <b>Results</b>: A total of 719 patients underwent <sup>13</sup>C-D-xylose breath testing during the inclusion period. Thirty-five had a history of alcohol overconsumption, 66 had coeliac disease, and 216 had a functional bowel disorder, while 44 healthy controls were included for comparison. The alcohol overconsumption group had similar small intestinal phase results as the group of patients with untreated coeliac disease. During the colonic phase, the group of patients with alcohol overconsumption differed from all the other groups in terms of <sup>13</sup>C-xylose recovery, with significantly less <sup>13</sup>CO<sub>2</sub> excretion compared to the other groups. <b>Conclusion</b>: The results suggest that patients with a history of alcohol overconsumption suffer from both small intestinal malabsorption and impaired colonic microbial metabolism. The role of gut microbiota in chronic alcohol overconsumption should be investigated further.",
+  "relations": {
+    "28572753": {
+      "head": "chronic alcohol overconsumption",
+      "head_type": "condition",
+      "relation": "may alter",
+      "tail": "gut microbial metabolism",
+      "tail_type": "biological process"
+    },
+    "28572754": {
+      "head": "gut microbiota composition",
+      "head_type": "biological entity",
+      "relation": "participate in",
+      "tail": "pathophysiology of diseases",
+      "tail_type": "biological process"
+    },
+    "28572755": {
+      "head": "gut microbial metabolism",
+      "head_type": "biological process",
+      "relation": "assessed by",
+      "tail": "13C-D-xylose breath test results",
+      "tail_type": "diagnostic method"
+    },
+    "28572756": {
+      "head": "13C-D-xylose breath test",
+      "head_type": "diagnostic method",
+      "relation": "used in",
+      "tail": "study",
+      "tail_type": "research method"
+    },
+    "28572757": {
+      "head": "chronic alcohol overconsumption",
+      "head_type": "condition",
+      "relation": "classified into",
+      "tail": "patient categories",
+      "tail_type": "classification"
+    },
+    "28572758": {
+      "head": "patient categories",
+      "head_type": "classification",
+      "relation": "include",
+      "tail": "alcohol overconsumption",
+      "tail_type": "condition"
+    },
+    "28572759": {
+      "head": "patient categories",
+      "head_type": "classification",
+      "relation": "include",
+      "tail": "coeliac disease",
+      "tail_type": "condition"
+    },
+    "28572760": {
+      "head": "patient categories",
+      "head_type": "classification",
+      "relation": "include",
+      "tail": "functional bowel disorder",
+      "tail_type": "condition"
+    },
+    "28572761": {
+      "head": "healthy controls",
+      "head_type": "group",
+      "relation": "included for",
+      "tail": "comparison",
+      "tail_type": "research method"
+    },
+    "28572762": {
+      "head": "13CO2 excretion",
+      "head_type": "biological marker",
+      "relation": "evaluated in",
+      "tail": "small intestinal absorption",
+      "tail_type": "biological process"
+    },
+    "28572763": {
+      "head": "13CO2 excretion",
+      "head_type": "biological marker",
+      "relation": "evaluated in",
+      "tail": "colonic microbial metabolism",
+      "tail_type": "biological process"
+    },
+    "28572764": {
+      "head": "small intestinal phase",
+      "head_type": "biological process",
+      "relation": "similar in",
+      "tail": "alcohol overconsumption group",
+      "tail_type": "patient group"
+    },
+    "28572765": {
+      "head": "small intestinal phase",
+      "head_type": "biological process",
+      "relation": "similar in",
+      "tail": "untreated coeliac disease group",
+      "tail_type": "patient group"
+    },
+    "28572766": {
+      "head": "colonic phase",
+      "head_type": "biological process",
+      "relation": "differed in",
+      "tail": "alcohol overconsumption group",
+      "tail_type": "patient group"
+    },
+    "28572767": {
+      "head": "13C-xylose recovery",
+      "head_type": "biological marker",
+      "relation": "significantly less in",
+      "tail": "alcohol overconsumption group",
+      "tail_type": "patient group"
+    },
+    "28572768": {
+      "head": "alcohol overconsumption group",
+      "head_type": "patient group",
+      "relation": "suffer from",
+      "tail": "small intestinal malabsorption",
+      "tail_type": "condition"
+    },
+    "28572769": {
+      "head": "alcohol overconsumption group",
+      "head_type": "patient group",
+      "relation": "suffer from",
+      "tail": "impaired colonic microbial metabolism",
+      "tail_type": "condition"
+    },
+    "28572770": {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "implicated in",
+      "tail": "chronic alcohol overconsumption",
+      "tail_type": "condition"
+    }
+  }
+}

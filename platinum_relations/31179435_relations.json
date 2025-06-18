@@ -1,0 +1,62 @@
+{
+  "title": "Effects of regulating intestinal microbiota on anxiety symptoms: A systematic review.",
+  "abstract": "Anxiety symptoms are common in mental diseases and a variety of physical disorders, especially in disorders related to stress. More and more basic studies have indicated that gut microbiota can regulate brain function through the gut-brain axis, and dysbiosis of intestinal microbiota was related to anxiety. However, there is no specific evidence to support treatment of anxiety by regulating intestinal microbiota. To find evidence supporting improvement of anxiety symptoms by regulation of intestinal microbiota. This systematic review of randomised controlled trials was searched based on the following databases: PubMed, EMBASE, the Cochrane Library, OVID, Web of Knowledge, China National Knowledge Infrastructure (CNKI), Wanfang Data, VIP databases and SinoMed. The retrieval time dated back to 25 July 2018. Then we screened research literatures based on established inclusion and exclusion criteria. Quality evaluation for each included study was done using the Cochrane risk of bias and the Jadad scale. A total of 3334 articles were retrieved and 21 studies were included which contained 1503 subjects. In the 21 studies, 15 chose probiotics as interventions to regulate intestinal microbiota and six chose non-probiotic ways such as adjusting daily diets. Probiotic supplements in seven studies contained only one kind of probiotic, two studies used a product that contained two kinds of probiotics and the supplements used in the other five studies included at least three kinds of probiotics. In the studies that used treatment as usual plus interventions regulating intestinal flora (IRIF) as interventions (five studies), only non-probiotic ways were effective (two studies), which means 40% of studies were effective; in the studies that used IRIF alone (16 studies, 11 studies used probiotic ways and 5 studies used non-probiotic ways), 56% of studies could improve anxiety symptoms, and 80% of studies that conducted the non-probiotic interventions were effective, while 45% of studies that used probiotic supplementations had positive effects on anxiety symptoms. Overall, 11 studies showed a positive effect on anxiety symptoms by regulating intestinal microbiota, which indicated 52% of the 21 studies were effective, and there were five studies that used probiotic supplements as interventions and six used non-probiotic interventions. In addition, it should be noted that six of seven studies showed that regulation of intestinal microbiota could treat anxiety symptoms, the rate of efficacy was 86%. We find that more than half of the studies included showed it was positive to treat anxiety symptoms by regulation of intestinal microbiota. There are two kinds of interventions (probiotic and non-probiotic interventions) to regulate intestinal microbiota, and it should be highlighted that the non-probiotic interventions were more effective than the probiotic interventions. More studies are needed to clarify this conclusion since we still cannot run meta-analysis so far.",
+  "relations": {
+    "31179436": {
+      "head": "intestine",
+      "head_type": "organ",
+      "relation": "regulate",
+      "tail": "anxiety symptoms",
+      "tail_type": "symptom"
+    },
+    "31179437": {
+      "head": "gut microbiota",
+      "head_type": "microorganism",
+      "relation": "regulate",
+      "tail": "brain function",
+      "tail_type": "function"
+    },
+    "31179438": {
+      "head": "dysbiosis",
+      "head_type": "condition",
+      "relation": "relate",
+      "tail": "anxiety",
+      "tail_type": "mental state"
+    },
+    "31179439": {
+      "head": "probiotics",
+      "head_type": "intervention",
+      "relation": "regulate",
+      "tail": "intestine",
+      "tail_type": "organ"
+    },
+    "31179440": {
+      "head": "non-probiotic ways",
+      "head_type": "intervention",
+      "relation": "regulate",
+      "tail": "intestine",
+      "tail_type": "organ"
+    },
+    "31179441": {
+      "head": "intestine",
+      "head_type": "organ",
+      "relation": "affect",
+      "tail": "anxiety symptoms",
+      "tail_type": "symptom"
+    },
+    "31179442": {
+      "head": "probiotic ways",
+      "head_type": "intervention",
+      "relation": "improve",
+      "tail": "anxiety symptoms",
+      "tail_type": "symptom"
+    },
+    "31179443": {
+      "head": "non-probiotic ways",
+      "head_type": "intervention",
+      "relation": "improve",
+      "tail": "anxiety symptoms",
+      "tail_type": "symptom"
+    }
+  }
+}

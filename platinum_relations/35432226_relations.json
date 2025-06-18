@@ -1,0 +1,76 @@
+{
+  "title": "To the Gut Microbiome and Beyond: The Brain-First or Body-First Hypothesis in Parkinson's Disease.",
+  "abstract": "There is continued debate regarding Parkinson's disease etiology and whether it originates in the brain or begins in the gut. Recently, evidence has been provided for both, with Parkinson's disease onset presenting as either a \"body-first\" or \"brain-first\" progression. Most research indicates those with Parkinson's disease have an altered gut microbiome compared to controls. However, some studies do not report gut microbiome differences, potentially due to the brain or body-first progression type. Based on the etiology of each proposed progression, individuals with the body-first progression may exhibit altered gut microbiomes, i.e., where short-chain fatty acid producing bacteria are reduced, while the brain-first progression may not. Future microbiome research should consider this hypothesis and investigate whether gut microbiome differences exist between each type of progression. This may further elucidate the impact of the gut microbiome in Parkinson's disease and show how it may not be homogenous across individuals with Parkinson's disease.",
+  "relations": {
+    "35432227": {
+      "head": "Gut Microbiome",
+      "head_type": "Biology",
+      "relation": "related to",
+      "tail": "Parkinson's Disease",
+      "tail_type": "Disease"
+    },
+    "35432228": {
+      "head": "Parkinson's Disease",
+      "head_type": "Disease",
+      "relation": "etiology",
+      "tail": "Brain-First Hypothesis",
+      "tail_type": "Hypothesis"
+    },
+    "35432229": {
+      "head": "Parkinson's Disease",
+      "head_type": "Disease",
+      "relation": "etiology",
+      "tail": "Body-First Hypothesis",
+      "tail_type": "Hypothesis"
+    },
+    "35432230": {
+      "head": "Gut Microbiome",
+      "head_type": "Biology",
+      "relation": "altered in",
+      "tail": "Individuals with Body-First Progression",
+      "tail_type": "Group"
+    },
+    "35432231": {
+      "head": "Short-Chain Fatty Acid Producing Bacteria",
+      "head_type": "Microbiology",
+      "relation": "reduced in",
+      "tail": "Gut Microbiome",
+      "tail_type": "Biology"
+    },
+    "35432232": {
+      "head": "Gut Microbiome",
+      "head_type": "Biology",
+      "relation": "target for",
+      "tail": "Therapeutic Applications",
+      "tail_type": "Application"
+    },
+    "35432233": {
+      "head": "Gut Microbiome",
+      "head_type": "Biology",
+      "relation": "target for",
+      "tail": "Diagnostic Applications",
+      "tail_type": "Application"
+    },
+    "35432234": {
+      "head": "Parkinson's Disease",
+      "head_type": "Disease",
+      "relation": "impacted by",
+      "tail": "Gut Microbiome",
+      "tail_type": "Biology"
+    },
+    "35432235": {
+      "head": "Gut Microbiome",
+      "head_type": "Biology",
+      "relation": "investigated in",
+      "tail": "Future Research",
+      "tail_type": "Research"
+    },
+    "35432236": {
+      "head": "Parkinson's Disease",
+      "head_type": "Disease",
+      "relation": "non-homogeneous impact",
+      "tail": "Gut Microbiome",
+      "tail_type": "Biology"
+    }
+  }
+}

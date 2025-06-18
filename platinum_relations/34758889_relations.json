@@ -1,0 +1,321 @@
+{
+  "title": "A fiber-deprived diet causes cognitive impairment and hippocampal microglia-mediated synaptic loss through the gut microbiota and metabolites.",
+  "abstract": "Cognitive impairment, an increasing mental health issue, is a core feature of the aging brain and neurodegenerative diseases. Industrialized nations especially, have experienced a marked decrease in dietary fiber intake, but the potential mechanism linking low fiber intake and cognitive impairment is poorly understood. Emerging research reported that the diversity of gut microbiota in Western populations is significantly reduced. However, it is unknown whether a fiber-deficient diet (which alters gut microbiota) could impair cognition and brain functional elements through the gut-brain axis. In this study, a mouse model of long-term (15 weeks) dietary fiber deficiency (FD) was used to mimic a sustained low fiber intake in humans. We found that FD mice showed impaired cognition, including deficits in object location memory, temporal order memory, and the ability to perform daily living activities. The hippocampal synaptic ultrastructure was damaged in FD mice, characterized by widened synaptic clefts and thinned postsynaptic densities. A hippocampal proteomic analysis further identified a deficit of CaMKIId and its associated synaptic proteins (including GAP43 and SV2C) in the FD mice, along with neuroinflammation and microglial engulfment of synapses. The FD mice also exhibited gut microbiota dysbiosis (decreased Bacteroidetes and increased Proteobacteria), which was significantly associated with the cognitive deficits. Of note, a rapid differentiating microbiota change was observed in the mice with a short-term FD diet (7 days) before cognitive impairment, highlighting a possible causal impact of the gut microbiota profile on cognitive outcomes. Moreover, the FD diet compromised the intestinal barrier and reduced short-chain fatty acid (SCFA) production. We exploit these findings for SCFA receptor knockout mice and oral SCFA supplementation that verified SCFA playing a critical role linking the altered gut microbiota and cognitive impairment. This study, for the first time, reports that a fiber-deprived diet leads to cognitive impairment through altering the gut microbiota-hippocampal axis, which is pathologically distinct from normal brain aging. These findings alert the adverse impact of dietary fiber deficiency on brain function, and highlight an increase in fiber intake as a nutritional strategy to reduce the risk of developing diet-associated cognitive decline and neurodegenerative diseases. Video Abstract.",
+  "relations": {
+    "34758890": {
+      "head": "fiber-deprived diet",
+      "head_type": "diet",
+      "relation": "causes",
+      "tail": "cognitive impairment",
+      "tail_type": "health issue"
+    },
+    "34758891": {
+      "head": "fiber-deprived diet",
+      "head_type": "diet",
+      "relation": "causes",
+      "tail": "hippocampal microglia-mediated synaptic loss",
+      "tail_type": "biological process"
+    },
+    "34758892": {
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "mediates",
+      "tail": "cognitive impairment",
+      "tail_type": "health issue"
+    },
+    "34758893": {
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "mediates",
+      "tail": "hippocampal microglia-mediated synaptic loss",
+      "tail_type": "biological process"
+    },
+    "34758894": {
+      "head": "metabolites",
+      "head_type": "substance",
+      "relation": "mediates",
+      "tail": "cognitive impairment",
+      "tail_type": "health issue"
+    },
+    "34758895": {
+      "head": "metabolites",
+      "head_type": "substance",
+      "relation": "mediates",
+      "tail": "hippocampal microglia-mediated synaptic loss",
+      "tail_type": "biological process"
+    },
+    "34758896": {
+      "head": "cognitive impairment",
+      "head_type": "health issue",
+      "relation": "is feature of",
+      "tail": "aging brain",
+      "tail_type": "biological structure"
+    },
+    "34758897": {
+      "head": "cognitive impairment",
+      "head_type": "health issue",
+      "relation": "is feature of",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "disease"
+    },
+    "34758898": {
+      "head": "dietary fiber intake",
+      "head_type": "nutrient intake",
+      "relation": "decreases in",
+      "tail": "industrialized nations",
+      "tail_type": "geographical region"
+    },
+    "34758899": {
+      "head": "low fiber intake",
+      "head_type": "nutrient intake",
+      "relation": "linked to",
+      "tail": "cognitive impairment",
+      "tail_type": "health issue"
+    },
+    "34758900": {
+      "head": "gut microbiota diversity",
+      "head_type": "biological diversity",
+      "relation": "reduced in",
+      "tail": "Western populations",
+      "tail_type": "population"
+    },
+    "34758901": {
+      "head": "fiber-deficient diet",
+      "head_type": "diet",
+      "relation": "alters",
+      "tail": "gut microbiota",
+      "tail_type": "microbiota"
+    },
+    "34758902": {
+      "head": "fiber-deficient diet",
+      "head_type": "diet",
+      "relation": "impairs",
+      "tail": "cognition",
+      "tail_type": "mental function"
+    },
+    "34758903": {
+      "head": "fiber-deficient diet",
+      "head_type": "diet",
+      "relation": "impairs",
+      "tail": "brain functional elements",
+      "tail_type": "biological structure"
+    },
+    "34758904": {
+      "head": "FD mice",
+      "head_type": "animal model",
+      "relation": "show",
+      "tail": "impaired cognition",
+      "tail_type": "mental function"
+    },
+    "34758905": {
+      "head": "impaired cognition",
+      "head_type": "mental function",
+      "relation": "includes",
+      "tail": "object location memory deficits",
+      "tail_type": "cognitive deficit"
+    },
+    "34758906": {
+      "head": "impaired cognition",
+      "head_type": "mental function",
+      "relation": "includes",
+      "tail": "temporal order memory deficits",
+      "tail_type": "cognitive deficit"
+    },
+    "34758907": {
+      "head": "impaired cognition",
+      "head_type": "mental function",
+      "relation": "includes",
+      "tail": "deficits in daily living activities",
+      "tail_type": "cognitive deficit"
+    },
+    "34758908": {
+      "head": "hippocampal synaptic ultrastructure",
+      "head_type": "biological structure",
+      "relation": "damaged in",
+      "tail": "FD mice",
+      "tail_type": "animal model"
+    },
+    "34758909": {
+      "head": "hippocampal synaptic ultrastructure damage",
+      "head_type": "pathological condition",
+      "relation": "characterized by",
+      "tail": "widened synaptic clefts",
+      "tail_type": "biological structure"
+    },
+    "34758910": {
+      "head": "hippocampal synaptic ultrastructure damage",
+      "head_type": "pathological condition",
+      "relation": "characterized by",
+      "tail": "thinned postsynaptic densities",
+      "tail_type": "biological structure"
+    },
+    "34758911": {
+      "head": "hippocampal proteomic analysis",
+      "head_type": "biological analysis",
+      "relation": "identifies",
+      "tail": "CaMKIId deficit",
+      "tail_type": "protein deficit"
+    },
+    "34758912": {
+      "head": "CaMKIId deficit",
+      "head_type": "protein deficit",
+      "relation": "associated with",
+      "tail": "synaptic proteins",
+      "tail_type": "protein"
+    },
+    "34758913": {
+      "head": "synaptic proteins",
+      "head_type": "protein",
+      "relation": "include",
+      "tail": "GAP43",
+      "tail_type": "protein"
+    },
+    "34758914": {
+      "head": "synaptic proteins",
+      "head_type": "protein",
+      "relation": "include",
+      "tail": "SV2C",
+      "tail_type": "protein"
+    },
+    "34758915": {
+      "head": "hippocampal proteomic analysis",
+      "head_type": "biological analysis",
+      "relation": "identifies",
+      "tail": "neuroinflammation",
+      "tail_type": "inflammatory condition"
+    },
+    "34758916": {
+      "head": "neuroinflammation",
+      "head_type": "inflammatory condition",
+      "relation": "associated with",
+      "tail": "microglial engulfment of synapses",
+      "tail_type": "biological process"
+    },
+    "34758917": {
+      "head": "FD mice",
+      "head_type": "animal model",
+      "relation": "exhibit",
+      "tail": "gut microbiota dysbiosis",
+      "tail_type": "microbial imbalance"
+    },
+    "34758918": {
+      "head": "gut microbiota dysbiosis",
+      "head_type": "microbial imbalance",
+      "relation": "characterized by",
+      "tail": "decreased Bacteroidetes",
+      "tail_type": "microbial population"
+    },
+    "34758919": {
+      "head": "gut microbiota dysbiosis",
+      "head_type": "microbial imbalance",
+      "relation": "characterized by",
+      "tail": "increased Proteobacteria",
+      "tail_type": "microbial population"
+    },
+    "34758920": {
+      "head": "gut microbiota dysbiosis",
+      "head_type": "microbial imbalance",
+      "relation": "associated with",
+      "tail": "cognitive deficits",
+      "tail_type": "cognitive deficit"
+    },
+    "34758921": {
+      "head": "short-term FD diet",
+      "head_type": "diet",
+      "relation": "causes",
+      "tail": "rapid microbiota change",
+      "tail_type": "microbial change"
+    },
+    "34758922": {
+      "head": "gut microbiota profile",
+      "head_type": "microbial profile",
+      "relation": "impacts",
+      "tail": "cognitive outcomes",
+      "tail_type": "cognitive function"
+    },
+    "34758923": {
+      "head": "FD diet",
+      "head_type": "diet",
+      "relation": "compromises",
+      "tail": "intestinal barrier",
+      "tail_type": "biological barrier"
+    },
+    "34758924": {
+      "head": "FD diet",
+      "head_type": "diet",
+      "relation": "reduces",
+      "tail": "short-chain fatty acid production",
+      "tail_type": "metabolic process"
+    },
+    "34758925": {
+      "head": "SCFA receptor knockout mice",
+      "head_type": "animal model",
+      "relation": "used to study",
+      "tail": "SCFA role",
+      "tail_type": "biological function"
+    },
+    "34758926": {
+      "head": "oral SCFA supplementation",
+      "head_type": "nutritional intervention",
+      "relation": "used to study",
+      "tail": "SCFA role",
+      "tail_type": "biological function"
+    },
+    "34758927": {
+      "head": "SCFA",
+      "head_type": "substance",
+      "relation": "plays role",
+      "tail": "linking gut microbiota and cognitive impairment",
+      "tail_type": "biological process"
+    },
+    "34758928": {
+      "head": "altered gut microbiota",
+      "head_type": "microbial change",
+      "relation": "linked to",
+      "tail": "cognitive impairment",
+      "tail_type": "cognitive deficit"
+    },
+    "34758929": {
+      "head": "fiber-deprived diet",
+      "head_type": "diet",
+      "relation": "leads to",
+      "tail": "cognitive impairment",
+      "tail_type": "cognitive deficit"
+    },
+    "34758930": {
+      "head": "cognitive impairment",
+      "head_type": "cognitive deficit",
+      "relation": "mediated by",
+      "tail": "gut microbiota-hippocampal axis",
+      "tail_type": "biological axis"
+    },
+    "34758931": {
+      "head": "cognitive impairment",
+      "head_type": "cognitive deficit",
+      "relation": "distinct from",
+      "tail": "normal brain aging",
+      "tail_type": "biological process"
+    },
+    "34758932": {
+      "head": "dietary fiber deficiency",
+      "head_type": "nutrient deficiency",
+      "relation": "adversely impacts",
+      "tail": "brain function",
+      "tail_type": "biological function"
+    },
+    "34758933": {
+      "head": "increased fiber intake",
+      "head_type": "nutritional strategy",
+      "relation": "reduces risk of",
+      "tail": "diet-associated cognitive decline",
+      "tail_type": "cognitive deficit"
+    },
+    "34758934": {
+      "head": "increased fiber intake",
+      "head_type": "nutritional strategy",
+      "relation": "reduces risk of",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "disease"
+    }
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "title": "Probiotic consumption relieved human stress and anxiety symptoms possibly via modulating the neuroactive potential of the gut microbiota.",
+  "abstract": "Stress has been shown to disturb the balance of human intestinal microbiota and subsequently causes mental health problems like anxiety and depression. Our previous study showed that ingesting the probiotic strain, <i>Lactobacillus</i> (<i>L</i>.) <i>plantarum</i> P-8, for 12 weeks could alleviate stress and anxiety of stressed adults. The current study was a follow-up work aiming to investigate the functional role of the gut metagenomes in the observed beneficial effects. The fecal metagenomes of the probiotic (n\u00a0=\u00a043) and placebo (n\u00a0=\u00a036) receivers were analyzed in depth. The gut microbiomes of the placebo group at weeks 0 and 12 showed a significantly greater Aitchison distance (<i>P</i>\u00a0<\u00a00.001) compared with the probiotic group. Meanwhile, the Shannon diversity index of the placebo group (<i>P</i>\u00a0<\u00a00.05) but not the probiotic group decreased significantly at week 12. Additionally, significantly more species-level genome bins (SGBs) of <i>Bifidobacterium adolescentis</i>, <i>Bifidobacterium longum</i>, and <i>Fecalibacterium prausnitzii</i> (<i>P</i>\u00a0<\u00a00.01) were identified in the fecal metagenomes of the probiotic group, while the abundances of SGBs representing the species <i>Roseburia faecis</i> and <i>Fusicatenibacter saccharivorans</i> decreased significantly (<i>P</i>\u00a0<\u00a00.05). Furthermore, the 12-week probiotic supplementation enhanced the diversity of neurotransmitter-synthesizing/consuming SGBs and the levels of some predicted microbial neuroactive metabolites (e.g., short-chain fatty acids, gamma-aminobutyric acid, arachidonic acid, and sphingomyelin). Our results showed a potential link between probiotic-induced gut microbiota modulation and stress/anxiety alleviation in stressed adults, supporting that the gut-brain axis was involved in relieving stress-related symptoms. The beneficial effect relied not only on microbial diversity changes but more importantly gut metagenome modulations at the SGB and functional gene levels.",
+  "relations": {
+    "33511259": {
+      "head": "probiotic consumption",
+      "head_type": "behavior",
+      "relation": "relieved",
+      "tail": "human stress",
+      "tail_type": "condition"
+    },
+    "33511260": {
+      "head": "probiotic consumption",
+      "head_type": "behavior",
+      "relation": "relieved",
+      "tail": "anxiety symptoms",
+      "tail_type": "condition"
+    },
+    "33511261": {
+      "head": "probiotic consumption",
+      "head_type": "behavior",
+      "relation": "via",
+      "tail": "modulating",
+      "tail_type": "process"
+    },
+    "33511262": {
+      "head": "modulating",
+      "head_type": "process",
+      "relation": "of",
+      "tail": "neuroactive potential",
+      "tail_type": "property"
+    },
+    "33511263": {
+      "head": "neuroactive potential",
+      "head_type": "property",
+      "relation": "of",
+      "tail": "gut microbiota",
+      "tail_type": "microbial community"
+    },
+    "33511264": {
+      "head": "stress",
+      "head_type": "condition",
+      "relation": "disturbed",
+      "tail": "balance",
+      "tail_type": "state"
+    },
+    "33511265": {
+      "head": "balance",
+      "head_type": "state",
+      "relation": "of",
+      "tail": "human intestinal microbiota",
+      "tail_type": "microbial community"
+    },
+    "33511266": {
+      "head": "stress",
+      "head_type": "condition",
+      "relation": "causes",
+      "tail": "mental health problems",
+      "tail_type": "condition"
+    },
+    "33511267": {
+      "head": "mental health problems",
+      "head_type": "condition",
+      "relation": "include",
+      "tail": "anxiety",
+      "tail_type": "condition"
+    },
+    "33511268": {
+      "head": "mental health problems",
+      "head_type": "condition",
+      "relation": "include",
+      "tail": "depression",
+      "tail_type": "condition"
+    },
+    "33511269": {
+      "head": "ingesting",
+      "head_type": "process",
+      "relation": "of",
+      "tail": "probiotic strain",
+      "tail_type": "microbial strain"
+    },
+    "33511270": {
+      "head": "probiotic strain",
+      "head_type": "microbial strain",
+      "relation": "is",
+      "tail": "Lactobacillus plantarum P-8",
+      "tail_type": "microbial strain"
+    },
+    "33511271": {
+      "head": "ingesting",
+      "head_type": "process",
+      "relation": "alleviated",
+      "tail": "stress",
+      "tail_type": "condition"
+    },
+    "33511272": {
+      "head": "ingesting",
+      "head_type": "process",
+      "relation": "alleviated",
+      "tail": "anxiety",
+      "tail_type": "condition"
+    },
+    "33511273": {
+      "head": "stressed adults",
+      "head_type": "human group",
+      "relation": "received",
+      "tail": "probiotic",
+      "tail_type": "treatment"
+    },
+    "33511274": {
+      "head": "stressed adults",
+      "head_type": "human group",
+      "relation": "received",
+      "tail": "placebo",
+      "tail_type": "treatment"
+    },
+    "33511275": {
+      "head": "fecal metagenomes",
+      "head_type": "biological sample",
+      "relation": "analyzed",
+      "tail": "probiotic group",
+      "tail_type": "human group"
+    },
+    "33511276": {
+      "head": "fecal metagenomes",
+      "head_type": "biological sample",
+      "relation": "analyzed",
+      "tail": "placebo group",
+      "tail_type": "human group"
+    },
+    "33511277": {
+      "head": "gut microbiomes",
+      "head_type": "microbial community",
+      "relation": "showed",
+      "tail": "Aitchison distance",
+      "tail_type": "metric"
+    },
+    "33511278": {
+      "head": "Aitchison distance",
+      "head_type": "metric",
+      "relation": "was",
+      "tail": "greater",
+      "tail_type": "state"
+    },
+    "33511279": {
+      "head": "greater",
+      "head_type": "state",
+      "relation": "in",
+      "tail": "placebo group",
+      "tail_type": "human group"
+    },
+    "33511280": {
+      "head": "Shannon diversity index",
+      "head_type": "metric",
+      "relation": "decreased",
+      "tail": "in",
+      "tail_type": "placebo group"
+    },
+    "33511281": {
+      "head": "decreased",
+      "head_type": "state",
+      "relation": "at",
+      "tail": "week 12",
+      "tail_type": "time point"
+    },
+    "33511282": {
+      "head": "species-level genome bins",
+      "head_type": "genomic data",
+      "relation": "identified",
+      "tail": "Bifidobacterium adolescentis",
+      "tail_type": "microbial species"
+    },
+    "33511283": {
+      "head": "species-level genome bins",
+      "head_type": "genomic data",
+      "relation": "identified",
+      "tail": "Bifidobacterium longum",
+      "tail_type": "microbial species"
+    },
+    "33511284": {
+      "head": "species-level genome bins",
+      "head_type": "genomic data",
+      "relation": "identified",
+      "tail": "Fecalibacterium prausnitzii",
+      "tail_type": "microbial species"
+    },
+    "33511285": {
+      "head": "abundances",
+      "head_type": "quantity",
+      "relation": "decreased",
+      "tail": "Roseburia faecis",
+      "tail_type": "microbial species"
+    },
+    "33511286": {
+      "head": "abundances",
+      "head_type": "quantity",
+      "relation": "decreased",
+      "tail": "Fusicatenibacter saccharivorans",
+      "tail_type": "microbial species"
+    },
+    "33511287": {
+      "head": "probiotic supplementation",
+      "head_type": "treatment",
+      "relation": "enhanced",
+      "tail": "diversity",
+      "tail_type": "state"
+    },
+    "33511288": {
+      "head": "diversity",
+      "head_type": "state",
+      "relation": "of",
+      "tail": "neurotransmitter-synthesizing/consuming SGBs",
+      "tail_type": "genomic data"
+    },
+    "33511289": {
+      "head": "probiotic supplementation",
+      "head_type": "treatment",
+      "relation": "increased",
+      "tail": "levels",
+      "tail_type": "quantity"
+    },
+    "33511290": {
+      "head": "levels",
+      "head_type": "quantity",
+      "relation": "of",
+      "tail": "microbial neuroactive metabolites",
+      "tail_type": "biochemical compound"
+    },
+    "33511291": {
+      "head": "microbial neuroactive metabolites",
+      "head_type": "biochemical compound",
+      "relation": "include",
+      "tail": "short-chain fatty acids",
+      "tail_type": "compound"
+    },
+    "33511292": {
+      "head": "microbial neuroactive metabolites",
+      "head_type": "biochemical compound",
+      "relation": "include",
+      "tail": "gamma-aminobutyric acid",
+      "tail_type": "compound"
+    },
+    "33511293": {
+      "head": "microbial neuroactive metabolites",
+      "head_type": "biochemical compound",
+      "relation": "include",
+      "tail": "arachidonic acid",
+      "tail_type": "compound"
+    },
+    "33511294": {
+      "head": "microbial neuroactive metabolites",
+      "head_type": "biochemical compound",
+      "relation": "include",
+      "tail": "sphingomyelin",
+      "tail_type": "compound"
+    },
+    "33511295": {
+      "head": "probiotic-induced gut microbiota modulation",
+      "head_type": "process",
+      "relation": "linked to",
+      "tail": "stress/anxiety alleviation",
+      "tail_type": "condition"
+    },
+    "33511296": {
+      "head": "stress/anxiety alleviation",
+      "head_type": "condition",
+      "relation": "in",
+      "tail": "stressed adults",
+      "tail_type": "human group"
+    },
+    "33511297": {
+      "head": "gut-brain axis",
+      "head_type": "biological system",
+      "relation": "involved in",
+      "tail": "relieving stress-related symptoms",
+      "tail_type": "process"
+    },
+    "33511298": {
+      "head": "beneficial effect",
+      "head_type": "outcome",
+      "relation": "relied on",
+      "tail": "microbial diversity changes",
+      "tail_type": "state"
+    },
+    "33511299": {
+      "head": "beneficial effect",
+      "head_type": "outcome",
+      "relation": "relied on",
+      "tail": "gut metagenome modulations",
+      "tail_type": "process"
+    },
+    "33511300": {
+      "head": "gut metagenome modulations",
+      "head_type": "process",
+      "relation": "at",
+      "tail": "SGB level",
+      "tail_type": "genomic data"
+    },
+    "33511301": {
+      "head": "gut metagenome modulations",
+      "head_type": "process",
+      "relation": "at",
+      "tail": "functional gene level",
+      "tail_type": "genomic data"
+    },
+    "33511302": {
+      "head": "gut microbiome analysis",
+      "head_type": "process",
+      "relation": "indicated",
+      "tail": "effect of probiotic strain P-8",
+      "tail_type": "outcome"
+    },
+    "33511303": {
+      "head": "effect of probiotic strain P-8",
+      "head_type": "outcome",
+      "relation": "via",
+      "tail": "modulating gut microbiota",
+      "tail_type": "process"
+    },
+    "33511304": {
+      "head": "modulating gut microbiota",
+      "head_type": "process",
+      "relation": "and",
+      "tail": "its metabolites",
+      "tail_type": "biochemical compound"
+    },
+    "33511305": {
+      "head": "metabolites",
+      "head_type": "biochemical compound",
+      "relation": "key players",
+      "tail": "gut-brain axis communication",
+      "tail_type": "process"
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "title": "Shotgun metagenomics reveals both taxonomic and tryptophan pathway differences of gut microbiota in bipolar disorder with current major depressive episode patients.",
+  "abstract": "The microbiome-gut-brain axis, especially the microbial tryptophan biosynthesis and metabolism pathway (MiTBamp), is closely connected to bipolar disorder with current major depressive episode (BPD). We performed shotgun metagenomics sequencing (SMS) of faecal samples from 25 BPD patients and 28 healthy controls (HCs). Except for the microbiota taxa and MiTBamp analyses, we also built a classification model using the Random Forests (RF) and Boruta algorithm to find the microbial biomarkers for BPD. Compared to HCs, the phylum Bacteroidetes abundance was significantly reduced, whereas that of the Actinobacteria and Firmicutes were significantly increased in BPD patients. We also identified 38 species increased and 6 species decreased significantly in the BPD group. In the MiTBamp, we identified that two Kyoto Encyclopedia of Genes and Genomes (KEGG) orthologies (KOs) (K00658 and K00837) were significantly lower in the BPD, and five KOs (K01696, K00382, K00626, K01667, and K03781) were significantly higher in the BPD group. We also identified significant genera and species which were closely related to these KOs. Finally, RF classification based on gut microbiota at the genus level can achieve an area under the receiver operating characteristic curve of 0.997. The features of cross-sectional design, limited sample size, the heterogeneity of bipolar disorders, and a lack of serum/plasma tryptophan concentration measurements. The present findings enable a better understanding of changes in gastrointestinal microbiome and MiTBamp in BPD. Alterations of microbes may have potential as biomarkers for distinguishing the BPD patients form HCs.",
+  "relations": {
+    "32979563": {
+      "head": "shotgun metagenomics",
+      "head_type": "method",
+      "relation": "reveals",
+      "tail": "gut microbiota differences",
+      "tail_type": "finding"
+    },
+    "32979564": {
+      "head": "gut microbiota",
+      "head_type": "entity",
+      "relation": "differs in",
+      "tail": "bipolar disorder",
+      "tail_type": "disease"
+    },
+    "32979565": {
+      "head": "bipolar disorder",
+      "head_type": "disease",
+      "relation": "has",
+      "tail": "current major depressive episode",
+      "tail_type": "condition"
+    },
+    "32979566": {
+      "head": "microbiome-gut-brain axis",
+      "head_type": "biological system",
+      "relation": "connected to",
+      "tail": "bipolar disorder",
+      "tail_type": "disease"
+    },
+    "32979567": {
+      "head": "microbial tryptophan biosynthesis and metabolism pathway",
+      "head_type": "metabolic pathway",
+      "relation": "related to",
+      "tail": "bipolar disorder",
+      "tail_type": "disease"
+    },
+    "32979568": {
+      "head": "shotgun metagenomics sequencing",
+      "head_type": "method",
+      "relation": "performed on",
+      "tail": "faecal samples",
+      "tail_type": "biological sample"
+    },
+    "32979569": {
+      "head": "bipolar disorder patients",
+      "head_type": "patient group",
+      "relation": "compared to",
+      "tail": "healthy controls",
+      "tail_type": "control group"
+    },
+    "32979570": {
+      "head": "phylum Bacteroidetes",
+      "head_type": "taxonomic group",
+      "relation": "reduced in",
+      "tail": "bipolar disorder patients",
+      "tail_type": "patient group"
+    },
+    "32979571": {
+      "head": "phylum Actinobacteria",
+      "head_type": "taxonomic group",
+      "relation": "increased in",
+      "tail": "bipolar disorder patients",
+      "tail_type": "patient group"
+    },
+    "32979572": {
+      "head": "phylum Firmicutes",
+      "head_type": "taxonomic group",
+      "relation": "increased in",
+      "tail": "bipolar disorder patients",
+      "tail_type": "patient group"
+    },
+    "32979573": {
+      "head": "38 species",
+      "head_type": "taxonomic group",
+      "relation": "increased in",
+      "tail": "bipolar disorder patients",
+      "tail_type": "patient group"
+    },
+    "32979574": {
+      "head": "6 species",
+      "head_type": "taxonomic group",
+      "relation": "decreased in",
+      "tail": "bipolar disorder patients",
+      "tail_type": "patient group"
+    },
+    "32979575": {
+      "head": "KEGG orthology K00658",
+      "head_type": "genetic entity",
+      "relation": "lower in",
+      "tail": "bipolar disorder patients",
+      "tail_type": "patient group"
+    },
+    "32979576": {
+      "head": "KEGG orthology K00837",
+      "head_type": "genetic entity",
+      "relation": "lower in",
+      "tail": "bipolar disorder patients",
+      "tail_type": "patient group"
+    },
+    "32979577": {
+      "head": "KEGG orthology K01696",
+      "head_type": "genetic entity",
+      "relation": "higher in",
+      "tail": "bipolar disorder patients",
+      "tail_type": "patient group"
+    },
+    "32979578": {
+      "head": "KEGG orthology K00382",
+      "head_type": "genetic entity",
+      "relation": "higher in",
+      "tail": "bipolar disorder patients",
+      "tail_type": "patient group"
+    },
+    "32979579": {
+      "head": "KEGG orthology K00626",
+      "head_type": "genetic entity",
+      "relation": "higher in",
+      "tail": "bipolar disorder patients",
+      "tail_type": "patient group"
+    },
+    "32979580": {
+      "head": "KEGG orthology K01667",
+      "head_type": "genetic entity",
+      "relation": "higher in",
+      "tail": "bipolar disorder patients",
+      "tail_type": "patient group"
+    },
+    "32979581": {
+      "head": "KEGG orthology K03781",
+      "head_type": "genetic entity",
+      "relation": "higher in",
+      "tail": "bipolar disorder patients",
+      "tail_type": "patient group"
+    },
+    "32979582": {
+      "head": "Random Forests",
+      "head_type": "machine learning algorithm",
+      "relation": "used for",
+      "tail": "classification model",
+      "tail_type": "model"
+    },
+    "32979583": {
+      "head": "Boruta algorithm",
+      "head_type": "feature selection algorithm",
+      "relation": "used for",
+      "tail": "biomarker identification",
+      "tail_type": "process"
+    },
+    "32979584": {
+      "head": "gut microbiota at genus level",
+      "head_type": "microbial data",
+      "relation": "used in",
+      "tail": "RF classification",
+      "tail_type": "classification method"
+    },
+    "32979585": {
+      "head": "area under the receiver operating characteristic curve",
+      "head_type": "metric",
+      "relation": "achieved",
+      "tail": "0.997",
+      "tail_type": "value"
+    },
+    "32979586": {
+      "head": "cross-sectional design",
+      "head_type": "study design",
+      "relation": "feature of",
+      "tail": "present study",
+      "tail_type": "research"
+    },
+    "32979587": {
+      "head": "limited sample size",
+      "head_type": "study limitation",
+      "relation": "feature of",
+      "tail": "present study",
+      "tail_type": "research"
+    },
+    "32979588": {
+      "head": "heterogeneity of bipolar disorders",
+      "head_type": "study limitation",
+      "relation": "feature of",
+      "tail": "present study",
+      "tail_type": "research"
+    },
+    "32979589": {
+      "head": "lack of serum/plasma tryptophan concentration measurements",
+      "head_type": "study limitation",
+      "relation": "feature of",
+      "tail": "present study",
+      "tail_type": "research"
+    },
+    "32979590": {
+      "head": "alterations of microbes",
+      "head_type": "biological change",
+      "relation": "may serve as",
+      "tail": "biomarkers",
+      "tail_type": "biomarker"
+    },
+    "32979591": {
+      "head": "biomarkers",
+      "head_type": "biomarker",
+      "relation": "used for",
+      "tail": "distinguishing BPD patients from HCs",
+      "tail_type": "diagnosis"
+    },
+    "32979592": {
+      "head": "gut microbiome",
+      "head_type": "biological system",
+      "relation": "plays role in",
+      "tail": "bipolar disorder",
+      "tail_type": "disease"
+    },
+    "32979593": {
+      "head": "present study",
+      "head_type": "research",
+      "relation": "extends understanding of",
+      "tail": "gut microbiome role in BPD",
+      "tail_type": "research finding"
+    }
+  }
+}

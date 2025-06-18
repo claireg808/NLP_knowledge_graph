@@ -1,0 +1,279 @@
+{
+  "title": "The Gut Microbiome Feelings of the Brain: A Perspective for Non-Microbiologists.",
+  "abstract": "<b>Objectives:</b> To comprehensively review the scientific knowledge on the gut-brain axis. <b>Methods:</b> Various publications on the gut-brain axis, until 31 July 2017, were screened using the Medline, Google, and Cochrane Library databases. The search was performed using the following keywords: \"gut-brain axis\", \"gut-microbiota-brain axis\", \"nutrition microbiome/microbiota\", \"enteric nervous system\", \"enteric glial cells/network\", \"gut-brain pathways\", \"microbiome immune system\", \"microbiome neuroendocrine system\" and \"intestinal/gut/enteric neuropeptides\". Relevant articles were selected and reviewed. <b>Results:</b> Tremendous progress has been made in exploring the interactions between nutrients, the microbiome, and the intestinal, epithelium-enteric nervous, endocrine and immune systems and the brain. The basis of the gut-brain axis comprises of an array of multichannel sensing and trafficking pathways that are suggested to convey the enteric signals to the brain. These are mediated by neuroanatomy (represented by the vagal and spinal afferent neurons), the neuroendocrine-hypothalamic-pituitary-adrenal (HPA) axis (represented by the gut hormones), immune routes (represented by multiple cytokines), microbially-derived neurotransmitters, and finally the gate keepers of the intestinal and brain barriers. Their mutual and harmonious but intricate interaction is essential for human life and brain performance. However, a failure in the interaction leads to a number of inflammatory-, autoimmune-, neurodegenerative-, metabolic-, mood-, behavioral-, cognitive-, autism-spectrum-, stress- and pain-related disorders. The limited availability of information on the mechanisms, pathways and cause-and-effect relationships hinders us from translating and implementing the knowledge from the bench to the clinic. <b>Implications:</b> Further understanding of this intricate field might potentially shed light on novel preventive and therapeutic strategies to combat these disorders. Nutritional approaches, microbiome manipulations, enteric and brain barrier reinforcement and sensing and trafficking modulation might improve physical and mental health outcomes.",
+  "relations": {
+    "29023381": {
+      "head": "gut microbiome",
+      "head_type": "biological system",
+      "relation": "interacts with",
+      "tail": "brain",
+      "tail_type": "biological system"
+    },
+    "29023382": {
+      "head": "gut-brain axis",
+      "head_type": "biological system",
+      "relation": "comprises",
+      "tail": "multichannel sensing pathways",
+      "tail_type": "biological pathways"
+    },
+    "29023383": {
+      "head": "enteric nervous system",
+      "head_type": "biological system",
+      "relation": "part of",
+      "tail": "gut-brain axis",
+      "tail_type": "biological system"
+    },
+    "29023384": {
+      "head": "enteric glial cells",
+      "head_type": "biological entity",
+      "relation": "part of",
+      "tail": "enteric nervous system",
+      "tail_type": "biological system"
+    },
+    "29023385": {
+      "head": "gut-brain pathways",
+      "head_type": "biological pathways",
+      "relation": "mediated by",
+      "tail": "neuroanatomy",
+      "tail_type": "biological structure"
+    },
+    "29023386": {
+      "head": "HPA axis",
+      "head_type": "biological system",
+      "relation": "part of",
+      "tail": "neuroendocrine system",
+      "tail_type": "biological system"
+    },
+    "29023387": {
+      "head": "gut hormones",
+      "head_type": "biological molecule",
+      "relation": "mediated by",
+      "tail": "HPA axis",
+      "tail_type": "biological system"
+    },
+    "29023388": {
+      "head": "immune routes",
+      "head_type": "biological pathways",
+      "relation": "mediated by",
+      "tail": "cytokines",
+      "tail_type": "biological molecule"
+    },
+    "29023389": {
+      "head": "microbially-derived neurotransmitters",
+      "head_type": "biological molecule",
+      "relation": "mediated by",
+      "tail": "gut-brain axis",
+      "tail_type": "biological system"
+    },
+    "29023390": {
+      "head": "intestinal barrier",
+      "head_type": "biological structure",
+      "relation": "part of",
+      "tail": "gut-brain axis",
+      "tail_type": "biological system"
+    },
+    "29023391": {
+      "head": "brain barrier",
+      "head_type": "biological structure",
+      "relation": "part of",
+      "tail": "gut-brain axis",
+      "tail_type": "biological system"
+    },
+    "29023392": {
+      "head": "inflammatory disorders",
+      "head_type": "disease",
+      "relation": "caused by",
+      "tail": "failure of gut-brain axis",
+      "tail_type": "biological dysfunction"
+    },
+    "29023393": {
+      "head": "autoimmune disorders",
+      "head_type": "disease",
+      "relation": "caused by",
+      "tail": "failure of gut-brain axis",
+      "tail_type": "biological dysfunction"
+    },
+    "29023394": {
+      "head": "neurodegenerative disorders",
+      "head_type": "disease",
+      "relation": "caused by",
+      "tail": "failure of gut-brain axis",
+      "tail_type": "biological dysfunction"
+    },
+    "29023395": {
+      "head": "metabolic disorders",
+      "head_type": "disease",
+      "relation": "caused by",
+      "tail": "failure of gut-brain axis",
+      "tail_type": "biological dysfunction"
+    },
+    "29023396": {
+      "head": "mood disorders",
+      "head_type": "disease",
+      "relation": "caused by",
+      "tail": "failure of gut-brain axis",
+      "tail_type": "biological dysfunction"
+    },
+    "29023397": {
+      "head": "behavioral disorders",
+      "head_type": "disease",
+      "relation": "caused by",
+      "tail": "failure of gut-brain axis",
+      "tail_type": "biological dysfunction"
+    },
+    "29023398": {
+      "head": "cognitive disorders",
+      "head_type": "disease",
+      "relation": "caused by",
+      "tail": "failure of gut-brain axis",
+      "tail_type": "biological dysfunction"
+    },
+    "29023399": {
+      "head": "autism-spectrum disorders",
+      "head_type": "disease",
+      "relation": "caused by",
+      "tail": "failure of gut-brain axis",
+      "tail_type": "biological dysfunction"
+    },
+    "29023400": {
+      "head": "stress-related disorders",
+      "head_type": "disease",
+      "relation": "caused by",
+      "tail": "failure of gut-brain axis",
+      "tail_type": "biological dysfunction"
+    },
+    "29023401": {
+      "head": "pain-related disorders",
+      "head_type": "disease",
+      "relation": "caused by",
+      "tail": "failure of gut-brain axis",
+      "tail_type": "biological dysfunction"
+    },
+    "29023402": {
+      "head": "nutritional approaches",
+      "head_type": "therapeutic strategy",
+      "relation": "improves",
+      "tail": "physical health",
+      "tail_type": "health outcome"
+    },
+    "29023403": {
+      "head": "nutritional approaches",
+      "head_type": "therapeutic strategy",
+      "relation": "improves",
+      "tail": "mental health",
+      "tail_type": "health outcome"
+    },
+    "29023404": {
+      "head": "microbiome manipulations",
+      "head_type": "therapeutic strategy",
+      "relation": "improves",
+      "tail": "physical health",
+      "tail_type": "health outcome"
+    },
+    "29023405": {
+      "head": "microbiome manipulations",
+      "head_type": "therapeutic strategy",
+      "relation": "improves",
+      "tail": "mental health",
+      "tail_type": "health outcome"
+    },
+    "29023406": {
+      "head": "enteric barrier reinforcement",
+      "head_type": "therapeutic strategy",
+      "relation": "improves",
+      "tail": "physical health",
+      "tail_type": "health outcome"
+    },
+    "29023407": {
+      "head": "enteric barrier reinforcement",
+      "head_type": "therapeutic strategy",
+      "relation": "improves",
+      "tail": "mental health",
+      "tail_type": "health outcome"
+    },
+    "29023408": {
+      "head": "brain barrier reinforcement",
+      "head_type": "therapeutic strategy",
+      "relation": "improves",
+      "tail": "physical health",
+      "tail_type": "health outcome"
+    },
+    "29023409": {
+      "head": "brain barrier reinforcement",
+      "head_type": "therapeutic strategy",
+      "relation": "improves",
+      "tail": "mental health",
+      "tail_type": "health outcome"
+    },
+    "29023410": {
+      "head": "sensing and trafficking modulation",
+      "head_type": "therapeutic strategy",
+      "relation": "improves",
+      "tail": "physical health",
+      "tail_type": "health outcome"
+    },
+    "29023411": {
+      "head": "sensing and trafficking modulation",
+      "head_type": "therapeutic strategy",
+      "relation": "improves",
+      "tail": "mental health",
+      "tail_type": "health outcome"
+    },
+    "29023412": {
+      "head": "personalized medicine",
+      "head_type": "medical approach",
+      "relation": "benefited by",
+      "tail": "gut-brain axis understanding",
+      "tail_type": "biological knowledge"
+    },
+    "29023413": {
+      "head": "gut-brain axis",
+      "head_type": "biological system",
+      "relation": "target for",
+      "tail": "future research",
+      "tail_type": "research focus"
+    },
+    "29023414": {
+      "head": "gut-brain axis",
+      "head_type": "biological system",
+      "relation": "associated with",
+      "tail": "brain disorders",
+      "tail_type": "disease"
+    },
+    "29023415": {
+      "head": "gut-brain axis",
+      "head_type": "biological system",
+      "relation": "associated with",
+      "tail": "systemic disorders",
+      "tail_type": "disease"
+    },
+    "29023416": {
+      "head": "gut-brain axis",
+      "head_type": "biological system",
+      "relation": "essential for",
+      "tail": "normal brain function",
+      "tail_type": "biological function"
+    },
+    "29023417": {
+      "head": "gut-brain axis",
+      "head_type": "biological system",
+      "relation": "essential for",
+      "tail": "normal behavior",
+      "tail_type": "biological function"
+    },
+    "29023418": {
+      "head": "gut-brain axis",
+      "head_type": "biological system",
+      "relation": "maintains balance of",
+      "tail": "body",
+      "tail_type": "biological system"
+    },
+    "29023419": {
+      "head": "gut-brain axis",
+      "head_type": "biological system",
+      "relation": "maintains balance of",
+      "tail": "brain",
+      "tail_type": "biological system"
+    }
+  }
+}

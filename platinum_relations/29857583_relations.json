@@ -1,0 +1,167 @@
+{
+  "title": "Changes of Colonic Bacterial Composition in Parkinson's Disease and Other Neurodegenerative Diseases.",
+  "abstract": "In recent years evidence has emerged that neurodegenerative diseases (NDs) are strongly associated with the microbiome composition in the gut. Parkinson's disease (PD) is the most intensively studied neurodegenerative disease in this context. In this review, we performed a systematic evaluation of the published literature comparing changes in colonic microbiome in PD to the ones observed in other NDs including Alzheimer's disease (AD), multiple system atrophy (MSA), multiple sclerosis (MS), neuromyelitis optica (NMO) and amyotrophic lateral sclerosis (ALS). To enhance the comparability of different studies, only human case-control studies were included. Several studies showed an increase of <i>Lactobacillus</i>, <i>Bifidobacterium</i>, Verrucomicrobiaceae and <i>Akkermansia</i> in PD. A decrease of <i>Faecalibacterium</i> spp., <i>Coprococcus</i> spp., <i>Blautia</i> spp., <i>Prevotella</i> spp. and Prevotellaceae was observed in PD. On a low taxonomic resolution, like the phylum level, the changes are not disease-specific and are inconsistent. However, on a higher taxonomic resolution like genus or species level, a minor overlap was observed between PD and MSA, both alpha synucleinopathies. We show that standardization of sample collection and analysis is necessary for ensuring the reproducibility and comparability of data. We also provide evidence that assessing the microbiota composition at high taxonomic resolution reveals changes in relative abundance that may be specific to or characteristic of one disease or disease group, and might evolve discriminative power. The interactions between bacterial species and strains and the co-abundances must be investigated before assumptions about the effects of specific bacteria on the host can be made with certainty.",
+  "relations": {
+    "29857584": {
+      "head": "Colonic Bacterial Composition",
+      "head_type": "Biological Entity",
+      "relation": "associated with",
+      "tail": "Parkinson's Disease",
+      "tail_type": "Neurodegenerative Disease"
+    },
+    "29857585": {
+      "head": "Colonic Bacterial Composition",
+      "head_type": "Biological Entity",
+      "relation": "associated with",
+      "tail": "Neurodegenerative Diseases",
+      "tail_type": "Disease Group"
+    },
+    "29857586": {
+      "head": "Neurodegenerative Diseases",
+      "head_type": "Disease Group",
+      "relation": "include",
+      "tail": "Parkinson's Disease",
+      "tail_type": "Neurodegenerative Disease"
+    },
+    "29857587": {
+      "head": "Neurodegenerative Diseases",
+      "head_type": "Disease Group",
+      "relation": "include",
+      "tail": "Alzheimer's Disease",
+      "tail_type": "Neurodegenerative Disease"
+    },
+    "29857588": {
+      "head": "Neurodegenerative Diseases",
+      "head_type": "Disease Group",
+      "relation": "include",
+      "tail": "Multiple System Atrophy",
+      "tail_type": "Neurodegenerative Disease"
+    },
+    "29857589": {
+      "head": "Neurodegenerative Diseases",
+      "head_type": "Disease Group",
+      "relation": "include",
+      "tail": "Multiple Sclerosis",
+      "tail_type": "Neurodegenerative Disease"
+    },
+    "29857590": {
+      "head": "Neurodegenerative Diseases",
+      "head_type": "Disease Group",
+      "relation": "include",
+      "tail": "Neuromyelitis Optica",
+      "tail_type": "Neurodegenerative Disease"
+    },
+    "29857591": {
+      "head": "Neurodegenerative Diseases",
+      "head_type": "Disease Group",
+      "relation": "include",
+      "tail": "Amyotrophic Lateral Sclerosis",
+      "tail_type": "Neurodegenerative Disease"
+    },
+    "29857592": {
+      "head": "Parkinson's Disease",
+      "head_type": "Neurodegenerative Disease",
+      "relation": "has",
+      "tail": "Lactobacillus",
+      "tail_type": "Bacterial Species"
+    },
+    "29857593": {
+      "head": "Parkinson's Disease",
+      "head_type": "Neurodegenerative Disease",
+      "relation": "has",
+      "tail": "Bifidobacterium",
+      "tail_type": "Bacterial Species"
+    },
+    "29857594": {
+      "head": "Parkinson's Disease",
+      "head_type": "Neurodegenerative Disease",
+      "relation": "has",
+      "tail": "Verrucomicrobiaceae",
+      "tail_type": "Bacterial Family"
+    },
+    "29857595": {
+      "head": "Parkinson's Disease",
+      "head_type": "Neurodegenerative Disease",
+      "relation": "has",
+      "tail": "Akkermansia",
+      "tail_type": "Bacterial Genus"
+    },
+    "29857596": {
+      "head": "Parkinson's Disease",
+      "head_type": "Neurodegenerative Disease",
+      "relation": "has",
+      "tail": "Faecalibacterium spp.",
+      "tail_type": "Bacterial Species"
+    },
+    "29857597": {
+      "head": "Parkinson's Disease",
+      "head_type": "Neurodegenerative Disease",
+      "relation": "has",
+      "tail": "Coprococcus spp.",
+      "tail_type": "Bacterial Species"
+    },
+    "29857598": {
+      "head": "Parkinson's Disease",
+      "head_type": "Neurodegenerative Disease",
+      "relation": "has",
+      "tail": "Blautia spp.",
+      "tail_type": "Bacterial Species"
+    },
+    "29857599": {
+      "head": "Parkinson's Disease",
+      "head_type": "Neurodegenerative Disease",
+      "relation": "has",
+      "tail": "Prevotella spp.",
+      "tail_type": "Bacterial Species"
+    },
+    "29857600": {
+      "head": "Parkinson's Disease",
+      "head_type": "Neurodegenerative Disease",
+      "relation": "has",
+      "tail": "Prevotellaceae",
+      "tail_type": "Bacterial Family"
+    },
+    "29857601": {
+      "head": "Parkinson's Disease",
+      "head_type": "Neurodegenerative Disease",
+      "relation": "has",
+      "tail": "gut microbiome",
+      "tail_type": "Biological Entity"
+    },
+    "29857602": {
+      "head": "Multiple System Atrophy",
+      "head_type": "Neurodegenerative Disease",
+      "relation": "overlap with",
+      "tail": "Parkinson's Disease",
+      "tail_type": "Neurodegenerative Disease"
+    },
+    "29857603": {
+      "head": "Neurodegenerative Diseases",
+      "head_type": "Disease Group",
+      "relation": "require",
+      "tail": "standardization of sample collection",
+      "tail_type": "Research Methodology"
+    },
+    "29857604": {
+      "head": "Neurodegenerative Diseases",
+      "head_type": "Disease Group",
+      "relation": "require",
+      "tail": "standardization of analysis",
+      "tail_type": "Research Methodology"
+    },
+    "29857605": {
+      "head": "gut microbiome",
+      "head_type": "Biological Entity",
+      "relation": "serve as",
+      "tail": "biomarkers",
+      "tail_type": "Biological Marker"
+    },
+    "29857606": {
+      "head": "gut microbiome",
+      "head_type": "Biological Entity",
+      "relation": "serve as",
+      "tail": "therapeutic target",
+      "tail_type": "Therapeutic Target"
+    }
+  }
+}

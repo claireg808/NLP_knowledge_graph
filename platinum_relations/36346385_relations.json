@@ -1,0 +1,328 @@
+{
+  "title": "A prebiotic diet modulates microglial states and motor deficits in \u03b1-synuclein overexpressing mice.",
+  "abstract": "Parkinson's disease (PD) is a movement disorder characterized by neuroinflammation, \u03b1-synuclein pathology, and neurodegeneration. Most cases of PD are non-hereditary, suggesting a strong role for environmental factors, and it has been speculated that disease may originate in peripheral tissues such as the gastrointestinal (GI) tract before affecting the brain. The gut microbiome is altered in PD and may impact motor and GI symptoms as indicated by animal studies, although mechanisms of gut-brain interactions remain incompletely defined. Intestinal bacteria ferment dietary fibers into short-chain fatty acids, with fecal levels of these molecules differing between PD and healthy controls and in mouse models. Among other effects, dietary microbial metabolites can modulate activation of microglia, brain-resident immune cells implicated in PD. We therefore investigated whether a fiber-rich diet influences microglial function in \u03b1-synuclein overexpressing (ASO) mice, a preclinical model with PD-like symptoms and pathology. Feeding a prebiotic high-fiber diet attenuates motor deficits and reduces \u03b1-synuclein aggregation in the substantia nigra of mice. Concomitantly, the gut microbiome of ASO mice adopts a profile correlated with health upon prebiotic treatment, which also reduces microglial activation. Single-cell RNA-seq analysis of microglia from the substantia nigra and striatum uncovers increased pro-inflammatory signaling and reduced homeostatic responses in ASO mice compared to wild-type counterparts on standard diets. However, prebiotic feeding reverses pathogenic microglial states in ASO mice and promotes expansion of protective disease-associated macrophage (DAM) subsets of microglia. Notably, depletion of microglia using a CSF1R inhibitor eliminates the beneficial effects of prebiotics by restoring motor deficits to ASO mice despite feeding a prebiotic diet. These studies uncover a novel microglia-dependent interaction between diet and motor symptoms in mice, findings that may have implications for neuroinflammation and PD.",
+  "relations": {
+    "36346386": {
+      "head": "prebiotic high-fiber diet",
+      "head_type": "diet",
+      "relation": "attenuates",
+      "tail": "motor deficits",
+      "tail_type": "symptom"
+    },
+    "36346387": {
+      "head": "prebiotic high-fiber diet",
+      "head_type": "diet",
+      "relation": "reduces",
+      "tail": "\u03b1-synuclein aggregation",
+      "tail_type": "pathology"
+    },
+    "36346388": {
+      "head": "gut microbiome",
+      "head_type": "microbiome",
+      "relation": "correlated with",
+      "tail": "health",
+      "tail_type": "state"
+    },
+    "36346389": {
+      "head": "prebiotic treatment",
+      "head_type": "treatment",
+      "relation": "reduces",
+      "tail": "microglial activation",
+      "tail_type": "activation"
+    },
+    "36346390": {
+      "head": "single-cell RNA-seq analysis",
+      "head_type": "analysis",
+      "relation": "uncovers",
+      "tail": "pro-inflammatory signaling",
+      "tail_type": "signaling"
+    },
+    "36346391": {
+      "head": "single-cell RNA-seq analysis",
+      "head_type": "analysis",
+      "relation": "uncovers",
+      "tail": "homeostatic responses",
+      "tail_type": "response"
+    },
+    "36346392": {
+      "head": "prebiotic feeding",
+      "head_type": "feeding",
+      "relation": "reverses",
+      "tail": "pathogenic microglial states",
+      "tail_type": "state"
+    },
+    "36346393": {
+      "head": "prebiotic feeding",
+      "head_type": "feeding",
+      "relation": "promotes expansion of",
+      "tail": "protective disease-associated macrophage subsets",
+      "tail_type": "subset"
+    },
+    "36346394": {
+      "head": "CSF1R inhibitor",
+      "head_type": "inhibitor",
+      "relation": "eliminates",
+      "tail": "beneficial effects",
+      "tail_type": "effect"
+    },
+    "36346395": {
+      "head": "prebiotic diet",
+      "head_type": "diet",
+      "relation": "modulates",
+      "tail": "microglial states",
+      "tail_type": "state"
+    },
+    "36346396": {
+      "head": "prebiotic diet",
+      "head_type": "diet",
+      "relation": "modulates",
+      "tail": "motor deficits",
+      "tail_type": "symptom"
+    },
+    "36346397": {
+      "head": "Parkinson's disease",
+      "head_type": "disease",
+      "relation": "characterized by",
+      "tail": "neuroinflammation",
+      "tail_type": "condition"
+    },
+    "36346398": {
+      "head": "Parkinson's disease",
+      "head_type": "disease",
+      "relation": "characterized by",
+      "tail": "\u03b1-synuclein pathology",
+      "tail_type": "pathology"
+    },
+    "36346399": {
+      "head": "Parkinson's disease",
+      "head_type": "disease",
+      "relation": "characterized by",
+      "tail": "neurodegeneration",
+      "tail_type": "condition"
+    },
+    "36346400": {
+      "head": "environmental factors",
+      "head_type": "factors",
+      "relation": "suggest",
+      "tail": "strong role",
+      "tail_type": "role"
+    },
+    "36346401": {
+      "head": "gut-brain interactions",
+      "head_type": "interactions",
+      "relation": "remain",
+      "tail": "incompletely defined",
+      "tail_type": "state"
+    },
+    "36346402": {
+      "head": "intestestinal bacteria",
+      "head_type": "bacteria",
+      "relation": "ferment",
+      "tail": "dietary fibers",
+      "tail_type": "fiber"
+    },
+    "36346403": {
+      "head": "fecal levels",
+      "head_type": "levels",
+      "relation": "differ",
+      "tail": "PD",
+      "tail_type": "disease"
+    },
+    "36346404": {
+      "head": "fecal levels",
+      "head_type": "levels",
+      "relation": "differ",
+      "tail": "healthy controls",
+      "tail_type": "control"
+    },
+    "36346405": {
+      "head": "fecal levels",
+      "head_type": "levels",
+      "relation": "differ",
+      "tail": "mouse models",
+      "tail_type": "model"
+    },
+    "36346406": {
+      "head": "dietary microbial metabolites",
+      "head_type": "metabolites",
+      "relation": "modulate activation of",
+      "tail": "microglia",
+      "tail_type": "cell"
+    },
+    "36346407": {
+      "head": "\u03b1-synuclein overexpressing mice",
+      "head_type": "mice",
+      "relation": "have",
+      "tail": "PD-like symptoms",
+      "tail_type": "symptom"
+    },
+    "36346408": {
+      "head": "\u03b1-synuclein overexpressing mice",
+      "head_type": "mice",
+      "relation": "have",
+      "tail": "pathology",
+      "tail_type": "condition"
+    },
+    "36346409": {
+      "head": "prebiotic high-fiber diet",
+      "head_type": "diet",
+      "relation": "attenuates",
+      "tail": "motor deficits",
+      "tail_type": "symptom"
+    },
+    "36346410": {
+      "head": "prebiotic high-fiber diet",
+      "head_type": "diet",
+      "relation": "reduces",
+      "tail": "\u03b1-synuclein aggregation",
+      "tail_type": "pathology"
+    },
+    "36346411": {
+      "head": "gut microbiome",
+      "head_type": "microbiome",
+      "relation": "adopts",
+      "tail": "profile",
+      "tail_type": "profile"
+    },
+    "36346412": {
+      "head": "prebiotic treatment",
+      "head_type": "treatment",
+      "relation": "reduces",
+      "tail": "microglial activation",
+      "tail_type": "activation"
+    },
+    "36346413": {
+      "head": "single-cell RNA-seq analysis",
+      "head_type": "analysis",
+      "relation": "uncovers",
+      "tail": "pro-inflammatory signaling",
+      "tail_type": "signaling"
+    },
+    "36346414": {
+      "head": "single-cell RNA-seq analysis",
+      "head_type": "analysis",
+      "relation": "uncovers",
+      "tail": "homeostatic responses",
+      "tail_type": "response"
+    },
+    "36346415": {
+      "head": "prebiotic feeding",
+      "head_type": "feeding",
+      "relation": "reverses",
+      "tail": "pathogenic microglial states",
+      "tail_type": "state"
+    },
+    "36346416": {
+      "head": "prebiotic feeding",
+      "head_type": "feeding",
+      "relation": "promotes expansion of",
+      "tail": "protective disease-associated macrophage subsets",
+      "tail_type": "subset"
+    },
+    "36346417": {
+      "head": "CSF1R inhibitor",
+      "head_type": "inhibitor",
+      "relation": "eliminates",
+      "tail": "beneficial effects",
+      "tail_type": "effect"
+    },
+    "36346418": {
+      "head": "prebiotic diet",
+      "head_type": "diet",
+      "relation": "modulates",
+      "tail": "microglial states",
+      "tail_type": "state"
+    },
+    "36346419": {
+      "head": "prebiotic diet",
+      "head_type": "diet",
+      "relation": "modulates",
+      "tail": "motor deficits",
+      "tail_type": "symptom"
+    },
+    "36346420": {
+      "head": "Parkinson's disease",
+      "head_type": "disease",
+      "relation": "characterized by",
+      "tail": "neuroinflammation",
+      "tail_type": "condition"
+    },
+    "36346421": {
+      "head": "Parkinson's disease",
+      "head_type": "disease",
+      "relation": "characterized by",
+      "tail": "\u03b1-synuclein pathology",
+      "tail_type": "pathology"
+    },
+    "36346422": {
+      "head": "Parkinson's disease",
+      "head_type": "disease",
+      "relation": "characterized by",
+      "tail": "neurodegeneration",
+      "tail_type": "condition"
+    },
+    "36346423": {
+      "head": "environmental factors",
+      "head_type": "factors",
+      "relation": "suggest",
+      "tail": "strong role",
+      "tail_type": "role"
+    },
+    "36346424": {
+      "head": "gut-brain interactions",
+      "head_type": "interactions",
+      "relation": "remain",
+      "tail": "incompletely defined",
+      "tail_type": "state"
+    },
+    "36346425": {
+      "head": "intestestinal bacteria",
+      "head_type": "bacteria",
+      "relation": "ferment",
+      "tail": "dietary fibers",
+      "tail_type": "fiber"
+    },
+    "36346426": {
+      "head": "fecal levels",
+      "head_type": "levels",
+      "relation": "differ",
+      "tail": "PD",
+      "tail_type": "disease"
+    },
+    "36346427": {
+      "head": "fecal levels",
+      "head_type": "levels",
+      "relation": "differ",
+      "tail": "healthy controls",
+      "tail_type": "control"
+    },
+    "36346428": {
+      "head": "fecal levels",
+      "head_type": "levels",
+      "relation": "differ",
+      "tail": "mouse models",
+      "tail_type": "model"
+    },
+    "36346429": {
+      "head": "dietary microbial metabolites",
+      "head_type": "metabolites",
+      "relation": "modulate activation of",
+      "tail": "microglia",
+      "tail_type": "cell"
+    },
+    "36346430": {
+      "head": "\u03b1-synuclein overexpressing mice",
+      "head_type": "mice",
+      "relation": "have",
+      "tail": "PD-like symptoms",
+      "tail_type": "symptom"
+    },
+    "36346431": {
+      "head": "\u03b1-synuclein overexpressing mice",
+      "head_type": "mice",
+      "relation": "have",
+      "tail": "pathology",
+      "tail_type": "condition"
+    }
+  }
+}

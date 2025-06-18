@@ -1,0 +1,118 @@
+{
+  "title": "Neuroendocrine, neurotransmitter, and gut microbiota imbalance contributing to potential psychiatric disorder prevalence in polycystic ovarian syndrome.",
+  "abstract": "Polycystic ovarian syndrome (PCOS) is the most common endocrine disorder in women, affecting up to 15% of reproductive-aged women. Polycystic ovarian syndrome is a heterogeneous disorder, both in the sense that many different factors may play a role in its manifestation and that multiple systems throughout the body can be affected. Polycystic ovarian syndrome has been linked to an increased prevalence of various psychiatric disorders, including depression and anxiety. Despite the socioeconomic effect that these disorders may have on patients with PCOS and society as a whole, this association is largely lacking in research. There are currently several theories regarding the link between PCOS and mental health. Some suggest that the overactive hypothalamic-pituitary-ovarian and hypothalamic-pituitary-adrenal axes in PCOS patients may alter the hormonal profile and contribute to the development of psychiatric disorders. Other studies speculate that abnormal levels of neurotransmitters and neuronal signaling may play a role. Recently, more research has begun to focus on the gut-brain axis, addressing the nutritional needs of PCOS patients. Studies show that dietary factors such as probiotics and micronutrient supplementation may significantly improve psychiatric symptoms in PCOS patients while helping regulate neurotransmitter levels in the body. In this review, we examine different theories regarding the association between PCOS and psychiatric disorders and point out different areas of research that are needed to broaden our understanding of this association.",
+  "relations": {
+    "38204949": {
+      "head": "neuroendocrine",
+      "head_type": "biological process",
+      "relation": "contributes to",
+      "tail": "psychiatric disorder prevalence",
+      "tail_type": "health condition"
+    },
+    "38204950": {
+      "head": "neurotransmitter",
+      "head_type": "biological process",
+      "relation": "contributes to",
+      "tail": "psychiatric disorder prevalence",
+      "tail_type": "health condition"
+    },
+    "38204951": {
+      "head": "gut microbiota imbalance",
+      "head_type": "biological process",
+      "relation": "contributes to",
+      "tail": "psychiatric disorder prevalence",
+      "tail_type": "health condition"
+    },
+    "38204952": {
+      "head": "PCOS",
+      "head_type": "health condition",
+      "relation": "linked to",
+      "tail": "psychiatric disorders",
+      "tail_type": "health condition"
+    },
+    "38204953": {
+      "head": "PCOS",
+      "head_type": "health condition",
+      "relation": "linked to",
+      "tail": "depression",
+      "tail_type": "mental disorder"
+    },
+    "38204954": {
+      "head": "PCOS",
+      "head_type": "health condition",
+      "relation": "linked to",
+      "tail": "anxiety",
+      "tail_type": "mental disorder"
+    },
+    "38204955": {
+      "head": "overactive hypothalamic-pituitary-ovarian axes",
+      "head_type": "biological process",
+      "relation": "contributes to",
+      "tail": "psychiatric disorders",
+      "tail_type": "health condition"
+    },
+    "38204956": {
+      "head": "overactive hypothalamic-pituitary-adrenal axes",
+      "head_type": "biological process",
+      "relation": "contributes to",
+      "tail": "psychiatric disorders",
+      "tail_type": "health condition"
+    },
+    "38204957": {
+      "head": "altered hormonal profile",
+      "head_type": "biological process",
+      "relation": "contributes to",
+      "tail": "psychiatric disorders",
+      "tail_type": "health condition"
+    },
+    "38204958": {
+      "head": "abnormal neurotransmitter levels",
+      "head_type": "biological process",
+      "relation": "contributes to",
+      "tail": "psychiatric disorders",
+      "tail_type": "health condition"
+    },
+    "38204959": {
+      "head": "neuronal signaling",
+      "head_type": "biological process",
+      "relation": "contributes to",
+      "tail": "psychiatric disorders",
+      "tail_type": "health condition"
+    },
+    "38204960": {
+      "head": "gut-brain axis",
+      "head_type": "biological process",
+      "relation": "contributes to",
+      "tail": "psychiatric disorders",
+      "tail_type": "health condition"
+    },
+    "38204961": {
+      "head": "probiotics",
+      "head_type": "dietary factor",
+      "relation": "improves",
+      "tail": "psychiatric symptoms",
+      "tail_type": "symptom"
+    },
+    "38204962": {
+      "head": "micronutrient supplementation",
+      "head_type": "dietary factor",
+      "relation": "improves",
+      "tail": "psychiatric symptoms",
+      "tail_type": "symptom"
+    },
+    "38204963": {
+      "head": "probiotics",
+      "head_type": "dietary factor",
+      "relation": "regulates",
+      "tail": "neurotransmitter levels",
+      "tail_type": "biological process"
+    },
+    "38204964": {
+      "head": "micronutrient supplementation",
+      "head_type": "dietary factor",
+      "relation": "regulates",
+      "tail": "neurotransmitter levels",
+      "tail_type": "biological process"
+    }
+  }
+}

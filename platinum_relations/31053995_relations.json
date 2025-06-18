@@ -1,0 +1,181 @@
+{
+  "title": "Gender specific decrease of a set of circulating N-acylphosphatidyl ethanolamines (NAPEs) in the plasma of Parkinson's disease patients.",
+  "abstract": "Current markers of Parkinson's disease (PD) fail to detect the early progression of disease state. Conversely, current omics techniques allow the investigation of hundreds of molecules potentially altered by disease conditions. Based on evidence previously collected by our group in a mouse model of PD, we speculated that a particular set of circulating lipids might be significantly altered by the pathology. The aim of current study was to evaluate the potential of a particular set of N-acyl-phosphatidylethanolamines (NAPEs) as potential non-invasive plasma markers of ongoing neurodegeneration from Parkinson's disease in human subjects. A panel of seven NAPEs were quantified by LC-MS/MS in the plasma of 587 individuals (healthy controls, n\u2009=\u2009319; Parkinson's disease, n\u2009=\u2009268); Random Forest classification and statistical modeling was applied to compare Parkinson's disease versus controls. All p-values obtained in different tests were corrected for multiplicity by controlling the false discovery rate (FDR). The results indicate that this panel of NAPEs is able to distinguish female PD patients from the corresponding healthy controls. Further to this, the observed downregulation of these NAPEs is in line with the results in plasma of a mouse model of Parkinson's (6-OHDA). In the current study we have shown the downregulation of NAPEs in plasma of PD patients and we thus speculate that these lipids might serve as candidate biomarkers for PD. We also suggest a molecular mechanism, explaining our findings, which involves gut microbiota.",
+  "relations": {
+    "31053996": {
+      "head": "gender specific decrease",
+      "head_type": "biological process",
+      "relation": "affects",
+      "tail": "circulating N-acylphosphatidyl ethanolamines",
+      "tail_type": "lipid"
+    },
+    "31053997": {
+      "head": "circulating N-acylphosphatidyl ethanolamines",
+      "head_type": "lipid",
+      "relation": "are located in",
+      "tail": "plasma",
+      "tail_type": "biological fluid"
+    },
+    "31053998": {
+      "head": "plasma",
+      "head_type": "biological fluid",
+      "relation": "from",
+      "tail": "Parkinson's disease patients",
+      "tail_type": "patient"
+    },
+    "31053999": {
+      "head": "current markers",
+      "head_type": "biomarker",
+      "relation": "fail to detect",
+      "tail": "early progression of disease state",
+      "tail_type": "disease progression"
+    },
+    "31054000": {
+      "head": "omics techniques",
+      "head_type": "technology",
+      "relation": "allow investigation of",
+      "tail": "hundreds of molecules",
+      "tail_type": "biological molecules"
+    },
+    "31054001": {
+      "head": "molecules",
+      "head_type": "biological molecules",
+      "relation": "are altered by",
+      "tail": "disease conditions",
+      "tail_type": "disease state"
+    },
+    "31054002": {
+      "head": "circulating lipids",
+      "head_type": "lipid",
+      "relation": "are significantly altered by",
+      "tail": "pathology",
+      "tail_type": "disease"
+    },
+    "31054003": {
+      "head": "NAPEs",
+      "head_type": "lipid",
+      "relation": "are potential",
+      "tail": "non-invasive plasma markers",
+      "tail_type": "biomarker"
+    },
+    "31054004": {
+      "head": "plasma markers",
+      "head_type": "biomarker",
+      "relation": "indicate",
+      "tail": "neurodegeneration",
+      "tail_type": "biological process"
+    },
+    "31054005": {
+      "head": "neurodegeneration",
+      "head_type": "biological process",
+      "relation": "is associated with",
+      "tail": "Parkinson's disease",
+      "tail_type": "disease"
+    },
+    "31054006": {
+      "head": "NAPEs",
+      "head_type": "lipid",
+      "relation": "are quantified by",
+      "tail": "LC-MS/MS",
+      "tail_type": "analytical technique"
+    },
+    "31054007": {
+      "head": "LC-MS/MS",
+      "head_type": "analytical technique",
+      "relation": "is applied to",
+      "tail": "plasma",
+      "tail_type": "biological fluid"
+    },
+    "31054008": {
+      "head": "plasma",
+      "head_type": "biological fluid",
+      "relation": "from",
+      "tail": "healthy controls",
+      "tail_type": "control group"
+    },
+    "31054009": {
+      "head": "plasma",
+      "head_type": "biological fluid",
+      "relation": "from",
+      "tail": "Parkinson's disease",
+      "tail_type": "patient group"
+    },
+    "31054010": {
+      "head": "Random Forest classification",
+      "head_type": "machine learning method",
+      "relation": "is applied to",
+      "tail": "compare Parkinson's disease versus controls",
+      "tail_type": "study comparison"
+    },
+    "31054011": {
+      "head": "FDR",
+      "head_type": "statistical method",
+      "relation": "corrects",
+      "tail": "p-values",
+      "tail_type": "statistical measure"
+    },
+    "31054012": {
+      "head": "NAPEs",
+      "head_type": "lipid",
+      "relation": "distinguish",
+      "tail": "female PD patients",
+      "tail_type": "patient subgroup"
+    },
+    "31054013": {
+      "head": "NAPEs",
+      "head_type": "lipid",
+      "relation": "are downregulated in",
+      "tail": "mouse model of Parkinson's",
+      "tail_type": "animal model"
+    },
+    "31054014": {
+      "head": "mouse model of Parkinson's",
+      "head_type": "animal model",
+      "relation": "uses",
+      "tail": "6-OHDA",
+      "tail_type": "toxin"
+    },
+    "31054015": {
+      "head": "decrease of NAPEs",
+      "head_type": "biological process",
+      "relation": "is due to",
+      "tail": "decrease of gut microbiota",
+      "tail_type": "microbiome change"
+    },
+    "31054016": {
+      "head": "gut microbiota",
+      "head_type": "microbial community",
+      "relation": "is known factor in",
+      "tail": "Parkinson's disease",
+      "tail_type": "disease"
+    },
+    "31054017": {
+      "head": "gut microbiota",
+      "head_type": "microbial community",
+      "relation": "influences",
+      "tail": "immune system",
+      "tail_type": "biological system"
+    },
+    "31054018": {
+      "head": "immune system",
+      "head_type": "biological system",
+      "relation": "is known factor in",
+      "tail": "Parkinson's disease",
+      "tail_type": "disease"
+    },
+    "31054019": {
+      "head": "decrease in NAPEs",
+      "head_type": "biological process",
+      "relation": "is downstream effect of",
+      "tail": "immune system alterations",
+      "tail_type": "biological process"
+    },
+    "31054020": {
+      "head": "immune system alterations",
+      "head_type": "biological process",
+      "relation": "are associated with",
+      "tail": "Parkinson's disease",
+      "tail_type": "disease"
+    }
+  }
+}

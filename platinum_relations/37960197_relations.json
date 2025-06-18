@@ -1,0 +1,195 @@
+{
+  "title": "Causality Investigation between Gut Microbiota, Derived Metabolites, and Obstructive Sleep Apnea: A Bidirectional Mendelian Randomization Study.",
+  "abstract": "Various studies have highlighted the important associations between obstructive sleep apnea (OSA) and gut microbiota and related metabolites. Nevertheless, the establishment of causal relationships between these associations remains to be determined. Multiple mendelian randomization (MR) analyses were performed to genetically predict the causative impact of 196 gut microbiota and 83 metabolites on OSA. Two-sample MR was used to assess the potential association, and causality was evaluated using inverse variance weighted (IVW), MR-Egger, and weighted median (WM) methods. Multivariable MR (MVMR) was employed to ascertain the causal independence between gut microbiota and the metabolites linked to OSA. Additionally, Cochran's Q test, the MR Egger intercept test and the MR Steiger test were used for the sensitivity analyses. The analysis of the 196 gut microbiota revealed that <i>genus</i>_<i>Ruminococcaceae</i> (<i>UCG009</i>) (P<sub>IVW</sub> = 0.010) and <i>genus</i>_<i>Subdoligranulum</i> (P<sub>IVW</sub> = 0.041) were associated with an increased risk of OSA onset. Conversely, <i>Family</i>_<i>Ruminococcaceae</i> (P<sub>IVW</sub> = 0.030), <i>genus</i>_<i>Coprococcus2</i> (P<sub>WM</sub> = 0.025), <i>genus</i>_<i>Eggerthella</i> (P<sub>IVW</sub> = 0.011), and <i>genus</i>_<i>Eubacterium</i> (<i>xylanophilum</i>_<i>group</i>) (P<sub>IVW</sub> = 0.001) were negatively related to the risk of OSA. Among the 83 metabolites evaluated, 3-dehydrocarnitine, epiandrosterone sulfate, and leucine were determined to be potential independent risk factors associated with OSA. Moreover, the reverse MR analysis demonstrated a suggestive association between OSA exposure and six microbiota taxa. This study offers compelling evidence regarding the potential beneficial or detrimental causative impact of the gut microbiota and its associated metabolites on OSA risk, thereby providing new insights into the mechanisms of gut microbiome-mediated OSA development.",
+  "relations": {
+    "37960198": {
+      "head": "Causality Investigation",
+      "head_type": "Study",
+      "relation": "investigates",
+      "tail": "Gut Microbiota",
+      "tail_type": "Biological Entity"
+    },
+    "37960199": {
+      "head": "Causality Investigation",
+      "head_type": "Study",
+      "relation": "investigates",
+      "tail": "Derived Metabolites",
+      "tail_type": "Biological Entity"
+    },
+    "37960200": {
+      "head": "Causality Investigation",
+      "head_type": "Study",
+      "relation": "investigates",
+      "tail": "Obstructive Sleep Apnea",
+      "tail_type": "Medical Condition"
+    },
+    "37960201": {
+      "head": "Gut Microbiota",
+      "head_type": "Biological Entity",
+      "relation": "associated with",
+      "tail": "Obstructive Sleep Apnea",
+      "tail_type": "Medical Condition"
+    },
+    "37960202": {
+      "head": "Derived Metabolites",
+      "head_type": "Biological Entity",
+      "relation": "associated with",
+      "tail": "Obstructive Sleep Apnea",
+      "tail_type": "Medical Condition"
+    },
+    "37960203": {
+      "head": "Mendelian Randomization",
+      "head_type": "Method",
+      "relation": "analyzes",
+      "tail": "Gut Microbiota",
+      "tail_type": "Biological Entity"
+    },
+    "37960204": {
+      "head": "Mendelian Randomization",
+      "head_type": "Method",
+      "relation": "analyzes",
+      "tail": "Metabolites",
+      "tail_type": "Biological Entity"
+    },
+    "37960205": {
+      "head": "Mendelian Randomization",
+      "head_type": "Method",
+      "relation": "evaluates",
+      "tail": "Causality",
+      "tail_type": "Concept"
+    },
+    "37960206": {
+      "head": "Inverse Variance Weighted",
+      "head_type": "Method",
+      "relation": "assesses",
+      "tail": "Causality",
+      "tail_type": "Concept"
+    },
+    "37960207": {
+      "head": "MR-Egger",
+      "head_type": "Method",
+      "relation": "assesses",
+      "tail": "Causality",
+      "tail_type": "Concept"
+    },
+    "37960208": {
+      "head": "Weighted Median",
+      "head_type": "Method",
+      "relation": "assesses",
+      "tail": "Causality",
+      "tail_type": "Concept"
+    },
+    "37960209": {
+      "head": "Multivariable MR",
+      "head_type": "Method",
+      "relation": "evaluates",
+      "tail": "Causal Independence",
+      "tail_type": "Concept"
+    },
+    "37960210": {
+      "head": "Cochran's Q Test",
+      "head_type": "Method",
+      "relation": "performs",
+      "tail": "Sensitivity Analysis",
+      "tail_type": "Concept"
+    },
+    "37960211": {
+      "head": "MR Egger Intercept Test",
+      "head_type": "Method",
+      "relation": "performs",
+      "tail": "Sensitivity Analysis",
+      "tail_type": "Concept"
+    },
+    "37960212": {
+      "head": "MR Steiger Test",
+      "head_type": "Method",
+      "relation": "performs",
+      "tail": "Sensitivity Analysis",
+      "tail_type": "Concept"
+    },
+    "37960213": {
+      "head": "genus_Ruminococcaceae_UCG009",
+      "head_type": "Microbiota Taxa",
+      "relation": "increases risk of",
+      "tail": "OSA",
+      "tail_type": "Medical Condition"
+    },
+    "37960214": {
+      "head": "genus_Subdoligranulum",
+      "head_type": "Microbiota Taxa",
+      "relation": "increases risk of",
+      "tail": "OSA",
+      "tail_type": "Medical Condition"
+    },
+    "37960215": {
+      "head": "Family_Ruminococcaceae",
+      "head_type": "Microbiota Taxa",
+      "relation": "decreases risk of",
+      "tail": "OSA",
+      "tail_type": "Medical Condition"
+    },
+    "37960216": {
+      "head": "genus_Coprococcus2",
+      "head_type": "Microbiota Taxa",
+      "relation": "decreases risk of",
+      "tail": "OSA",
+      "tail_type": "Medical Condition"
+    },
+    "37960217": {
+      "head": "genus_Eggerthella",
+      "head_type": "Microbiota Taxa",
+      "relation": "decreases risk of",
+      "tail": "OSA",
+      "tail_type": "Medical Condition"
+    },
+    "37960218": {
+      "head": "genus_Eubacterium_xylanophilum_group",
+      "head_type": "Microbiota Taxa",
+      "relation": "decreases risk of",
+      "tail": "OSA",
+      "tail_type": "Medical Condition"
+    },
+    "37960219": {
+      "head": "3-dehydrocarnitine",
+      "head_type": "Metabolite",
+      "relation": "risk factor for",
+      "tail": "OSA",
+      "tail_type": "Medical Condition"
+    },
+    "37960220": {
+      "head": "epiandrosterone sulfate",
+      "head_type": "Metabolite",
+      "relation": "risk factor for",
+      "tail": "OSA",
+      "tail_type": "Medical Condition"
+    },
+    "37960221": {
+      "head": "leucine",
+      "head_type": "Metabolite",
+      "relation": "risk factor for",
+      "tail": "OSA",
+      "tail_type": "Medical Condition"
+    },
+    "37960222": {
+      "head": "OSA",
+      "head_type": "Medical Condition",
+      "relation": "associated with",
+      "tail": "Microbiota Taxa",
+      "tail_type": "Biological Entity"
+    },
+    "37960223": {
+      "head": "Gut Microbiome",
+      "head_type": "Biological Entity",
+      "relation": "influences",
+      "tail": "OSA Pathogenesis",
+      "tail_type": "Concept"
+    },
+    "37960224": {
+      "head": "Gut Microbiome",
+      "head_type": "Biological Entity",
+      "relation": "contributes to",
+      "tail": "OSA Development",
+      "tail_type": "Concept"
+    }
+  }
+}

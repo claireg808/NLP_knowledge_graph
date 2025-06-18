@@ -1,0 +1,216 @@
+{
+  "title": "Systematic profiling of the chicken gut microbiome reveals dietary supplementation with antibiotics alters expression of multiple microbial pathways with minimal impact on community structure.",
+  "abstract": "The emergence of antimicrobial resistance is a major threat to global health and has placed pressure on the livestock industry to eliminate the use of antibiotic growth promotants (AGPs) as feed additives. To mitigate their removal, efficacious alternatives are required. AGPs are thought to operate through modulating the gut microbiome to limit opportunities for colonization by pathogens, increase nutrient utilization, and reduce inflammation. However, little is known concerning the underlying mechanisms. Previous studies investigating the effects of AGPs on the poultry gut microbiome have largely focused on 16S rDNA surveys based on a single gastrointestinal (GI) site, diet, and/or timepoint, resulting in an inconsistent view of their impact on community composition. In this study, we perform a systematic investigation of both the composition and function of the chicken gut microbiome, in response to AGPs. Birds were raised under two different diets and AGP treatments, and 16S rDNA surveys applied to six GI sites sampled at three key timepoints of the poultry life cycle. Functional investigations were performed through metatranscriptomics analyses and metabolomics. Our study reveals a more nuanced view of the impact of AGPs, dependent on age of bird, diet, and intestinal site sampled. Although AGPs have a limited impact on taxonomic abundances, they do appear to redefine influential taxa that may promote the exclusion of other taxa. Microbiome expression profiles further reveal a complex landscape in both the expression and taxonomic representation of multiple pathways including cell wall biogenesis, antimicrobial resistance, and several involved in energy, amino acid, and nucleotide metabolism. Many AGP-induced changes in metabolic enzyme expression likely serve to redirect metabolic flux with the potential to regulate bacterial growth or produce metabolites that impact the host. As alternative feed additives are developed to mimic the action of AGPs, our study highlights the need to ensure such alternatives result in functional changes that are consistent with site-, age-, and diet-associated taxa. The genes and pathways identified in this study are therefore expected to drive future studies, applying tools such as community-based metabolic modeling, focusing on the mechanistic impact of different dietary regimes on the microbiome. Consequently, the data generated in this study will be crucial for the development of next-generation feed additives targeting gut health and poultry production. Video Abstract.",
+  "relations": {
+    "35965350": {
+      "head": "chicken gut microbiome",
+      "head_type": "microbiome",
+      "relation": "altered by",
+      "tail": "antibiotic supplementation",
+      "tail_type": "dietary supplement"
+    },
+    "35965351": {
+      "head": "antimicrobial resistance",
+      "head_type": "resistance",
+      "relation": "threatens",
+      "tail": "global health",
+      "tail_type": "health condition"
+    },
+    "35965352": {
+      "head": "antibiotic growth promotants",
+      "head_type": "AGPs",
+      "relation": "used in",
+      "tail": "livestock industry",
+      "tail_type": "industry"
+    },
+    "35965353": {
+      "head": "AGPs",
+      "head_type": "dietary supplement",
+      "relation": "modulate",
+      "tail": "gut microbiome",
+      "tail_type": "microbiome"
+    },
+    "35965354": {
+      "head": "gut microbiome",
+      "head_type": "microbiome",
+      "relation": "reduces",
+      "tail": "inflammation",
+      "tail_type": "biological process"
+    },
+    "35965355": {
+      "head": "16S rDNA surveys",
+      "head_type": "survey method",
+      "relation": "focus on",
+      "tail": "single GI site",
+      "tail_type": "anatomical site"
+    },
+    "35965356": {
+      "head": "systematic investigation",
+      "head_type": "study",
+      "relation": "performed by",
+      "tail": "16S rDNA surveys",
+      "tail_type": "survey method"
+    },
+    "35965357": {
+      "head": "metatranscriptomics analyses",
+      "head_type": "functional analysis",
+      "relation": "performed in",
+      "tail": "microbiome study",
+      "tail_type": "research study"
+    },
+    "35965358": {
+      "head": "metabolomics",
+      "head_type": "functional analysis",
+      "relation": "performed in",
+      "tail": "microbiome study",
+      "tail_type": "research study"
+    },
+    "35965359": {
+      "head": "AGPs",
+      "head_type": "dietary supplement",
+      "relation": "impact",
+      "tail": "taxonomic abundances",
+      "tail_type": "microbial community"
+    },
+    "35965360": {
+      "head": "taxa",
+      "head_type": "microbial group",
+      "relation": "excluded by",
+      "tail": "AGPs",
+      "tail_type": "dietary supplement"
+    },
+    "35965361": {
+      "head": "microbiome expression profiles",
+      "head_type": "expression data",
+      "relation": "reveal",
+      "tail": "pathways",
+      "tail_type": "biological pathways"
+    },
+    "35965362": {
+      "head": "cell wall biogenesis",
+      "head_type": "pathway",
+      "relation": "impacted by",
+      "tail": "AGPs",
+      "tail_type": "dietary supplement"
+    },
+    "35965363": {
+      "head": "antimicrobial resistance",
+      "head_type": "pathway",
+      "relation": "impacted by",
+      "tail": "AGPs",
+      "tail_type": "dietary supplement"
+    },
+    "35965364": {
+      "head": "energy metabolism",
+      "head_type": "pathway",
+      "relation": "impacted by",
+      "tail": "AGPs",
+      "tail_type": "dietary supplement"
+    },
+    "35965365": {
+      "head": "amino acid metabolism",
+      "head_type": "pathway",
+      "relation": "impacted by",
+      "tail": "AGPs",
+      "tail_type": "dietary supplement"
+    },
+    "35965366": {
+      "head": "nucleotide metabolism",
+      "head_type": "pathway",
+      "relation": "impacted by",
+      "tail": "AGPs",
+      "tail_type": "dietary supplement"
+    },
+    "35965367": {
+      "head": "metabolic enzyme expression",
+      "head_type": "gene expression",
+      "relation": "changed by",
+      "tail": "AGPs",
+      "tail_type": "dietary supplement"
+    },
+    "35965368": {
+      "head": "metabolic flux",
+      "head_type": "biological process",
+      "relation": "redirected by",
+      "tail": "AGP-induced changes",
+      "tail_type": "dietary effect"
+    },
+    "35965369": {
+      "head": "bacterial growth",
+      "head_type": "biological process",
+      "relation": "regulated by",
+      "tail": "AGP-induced changes",
+      "tail_type": "dietary effect"
+    },
+    "35965370": {
+      "head": "host metabolites",
+      "head_type": "biochemical",
+      "relation": "produced by",
+      "tail": "AGP-induced changes",
+      "tail_type": "dietary effect"
+    },
+    "35965371": {
+      "head": "alternative feed additives",
+      "head_type": "dietary supplement",
+      "relation": "developed to",
+      "tail": "mimic AGPs",
+      "tail_type": "dietary supplement"
+    },
+    "35965372": {
+      "head": "functional changes",
+      "head_type": "biological process",
+      "relation": "ensured by",
+      "tail": "alternative additives",
+      "tail_type": "dietary supplement"
+    },
+    "35965373": {
+      "head": "site-associated taxa",
+      "head_type": "microbial group",
+      "relation": "influenced by",
+      "tail": "alternative additives",
+      "tail_type": "dietary supplement"
+    },
+    "35965374": {
+      "head": "age-associated taxa",
+      "head_type": "microbial group",
+      "relation": "influenced by",
+      "tail": "alternative additives",
+      "tail_type": "dietary supplement"
+    },
+    "35965375": {
+      "head": "diet-associated taxa",
+      "head_type": "microbial group",
+      "relation": "influenced by",
+      "tail": "alternative additives",
+      "tail_type": "dietary supplement"
+    },
+    "35965376": {
+      "head": "community-based metabolic modeling",
+      "head_type": "research tool",
+      "relation": "applied to",
+      "tail": "microbiome study",
+      "tail_type": "research study"
+    },
+    "35965377": {
+      "head": "dietary regimes",
+      "head_type": "dietary plan",
+      "relation": "impact",
+      "tail": "microbiome function",
+      "tail_type": "biological process"
+    },
+    "35965378": {
+      "head": "next-generation feed additives",
+      "head_type": "dietary supplement",
+      "relation": "target",
+      "tail": "gut health",
+      "tail_type": "biological process"
+    },
+    "35965379": {
+      "head": "next-generation feed additives",
+      "head_type": "dietary supplement",
+      "relation": "target",
+      "tail": "poultry production",
+      "tail_type": "agricultural process"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "title": "Multi-Omics Approach Reveals Prebiotic and Potential Antioxidant Effects of Essential Oils from the Mediterranean Diet on Cardiometabolic Disorder Using Humanized Gnotobiotic Mice.",
+  "abstract": "Essential oils sourced from herbs commonly used in the Mediterranean diet have demonstrated advantageous attributes as nutraceuticals and prebiotics within a model of severe cardiometabolic disorder. The primary objective of this study was to assess the influences exerted by essential oils derived from thyme (<i>Thymus vulgaris</i>) and oregano (<i>Origanum vulgare</i>) via a comprehensive multi-omics approach within a gnotobiotic murine model featuring colonic microbiota acquired from patients diagnosed with coronary artery disease (CAD) and type-2 diabetes mellitus (T2DM). Our findings demonstrated prebiotic and potential antioxidant effects elicited by these essential oils. We observed a substantial increase in the relative abundance of the <i>Lactobacillus</i> genus in the gut microbiota, accompanied by higher levels of short-chain fatty acids and a reduction in trimethylamine N-oxide levels and protein oxidation in the plasma. Moreover, functional enrichment analysis of the cardiac tissue proteome unveiled an over-representation of pathways related to mitochondrial function, oxidative stress, and cardiac contraction. These findings provide compelling evidence of the prebiotic and antioxidant actions of thyme- and oregano-derived essential oils, which extend to cardiac function. These results encourage further investigation into the promising utility of essential oils derived from herbs commonly used in the Mediterranean diet as potential nutraceutical interventions for mitigating chronic diseases linked to CAD and T2DM.",
+  "relations": {
+    "37627639": {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "source",
+      "tail": "Mediterranean diet",
+      "tail_type": "Diet"
+    },
+    "37627640": {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "demonstrate",
+      "tail": "nutraceuticals",
+      "tail_type": "Substance"
+    },
+    "37627641": {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "demonstrate",
+      "tail": "prebiotics",
+      "tail_type": "Substance"
+    },
+    "37627642": {
+      "head": "Thyme",
+      "head_type": "Plant",
+      "relation": "derive",
+      "tail": "Essential oils",
+      "tail_type": "Substance"
+    },
+    "37627643": {
+      "head": "Oregano",
+      "head_type": "Plant",
+      "relation": "derive",
+      "tail": "Essential oils",
+      "tail_type": "Substance"
+    },
+    "37627644": {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "exert influence",
+      "tail": "cardiometabolic disorder",
+      "tail_type": "Disease"
+    },
+    "37627645": {
+      "head": "Lactobacillus",
+      "head_type": "Genus",
+      "relation": "increase",
+      "tail": "gut microbiota",
+      "tail_type": "Microbiome"
+    },
+    "37627646": {
+      "head": "Short-chain fatty acids",
+      "head_type": "Metabolite",
+      "relation": "increase",
+      "tail": "gut microbiota",
+      "tail_type": "Microbiome"
+    },
+    "37627647": {
+      "head": "Trimethylamine N-oxide",
+      "head_type": "Metabolite",
+      "relation": "reduce",
+      "tail": "plasma",
+      "tail_type": "Biological Fluid"
+    },
+    "37627648": {
+      "head": "Protein oxidation",
+      "head_type": "Process",
+      "relation": "reduce",
+      "tail": "plasma",
+      "tail_type": "Biological Fluid"
+    },
+    "37627649": {
+      "head": "Mitochondrial function",
+      "head_type": "Process",
+      "relation": "enrich",
+      "tail": "cardiac tissue proteome",
+      "tail_type": "Proteome"
+    },
+    "37627650": {
+      "head": "Oxidative stress",
+      "head_type": "Process",
+      "relation": "enrich",
+      "tail": "cardiac tissue proteome",
+      "tail_type": "Proteome"
+    },
+    "37627651": {
+      "head": "Cardiac contraction",
+      "head_type": "Process",
+      "relation": "enrich",
+      "tail": "cardiac tissue proteome",
+      "tail_type": "Proteome"
+    },
+    "37627652": {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "have effect",
+      "tail": "prebiotic",
+      "tail_type": "Effect"
+    },
+    "37627653": {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "have effect",
+      "tail": "antioxidant",
+      "tail_type": "Effect"
+    },
+    "37627654": {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "mitigate",
+      "tail": "chronic diseases",
+      "tail_type": "Disease"
+    },
+    "37627655": {
+      "head": "CAD",
+      "head_type": "Disease",
+      "relation": "link",
+      "tail": "chronic diseases",
+      "tail_type": "Disease"
+    },
+    "37627656": {
+      "head": "T2DM",
+      "head_type": "Disease",
+      "relation": "link",
+      "tail": "chronic diseases",
+      "tail_type": "Disease"
+    },
+    "37627657": {
+      "head": "Gnotobiotic mice",
+      "head_type": "Model",
+      "relation": "feature",
+      "tail": "colonic microbiota",
+      "tail_type": "Microbiome"
+    },
+    "37627658": {
+      "head": "Colonic microbiota",
+      "head_type": "Microbiome",
+      "relation": "acquire",
+      "tail": "patients",
+      "tail_type": "Human"
+    },
+    "37627659": {
+      "head": "Patients",
+      "head_type": "Human",
+      "relation": "diagnose",
+      "tail": "CAD",
+      "tail_type": "Disease"
+    },
+    "37627660": {
+      "head": "Patients",
+      "head_type": "Human",
+      "relation": "diagnose",
+      "tail": "T2DM",
+      "tail_type": "Disease"
+    },
+    "37627661": {
+      "head": "Thyme",
+      "head_type": "Plant",
+      "relation": "species",
+      "tail": "Thymus vulgaris",
+      "tail_type": "Scientific Name"
+    },
+    "37627662": {
+      "head": "Oregano",
+      "head_type": "Plant",
+      "relation": "species",
+      "tail": "Origanum vulgare",
+      "tail_type": "Scientific Name"
+    }
+  }
+}

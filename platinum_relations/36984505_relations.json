@@ -1,0 +1,244 @@
+{
+  "title": "Controlling the Impact of <i>Helicobacter pylori</i>-Related Hyperhomocysteinemia on Neurodegeneration.",
+  "abstract": "<i>Helicobacter pylori</i> infection consists a high global burden affecting more than 50% of the world's population. It is implicated, beyond substantiated local gastric pathologies, i.e., peptic ulcers and gastric cancer, in the pathophysiology of several neurodegenerative disorders, mainly by inducing hyperhomocysteinemia-related brain cortical thinning (BCT). BCT has been advocated as a possible biomarker associated with neurodegenerative central nervous system disorders such as Alzheimer's disease, Parkinson's disease, multiple sclerosis, and/or glaucoma, termed as \"ocular Alzheimer's disease\". According to the infection hypothesis in relation to neurodegeneration, <i>Helicobacter pylori</i> as non-commensal gut microbiome has been advocated as trigger and/or mediator of neurodegenerative diseases, such as the development of Alzheimer's disease. Among others, <i>Helicobacter pylori</i>-related inflammatory mediators, defensins, autophagy, vitamin D, dietary factors, role of probiotics, and some pathogenetic considerations including relevant involved genes are discussed within this opinion article. In conclusion, by controlling the impact of <i>Helicobacter pylori</i>-related hyperhomocysteinemia on neurodegenerative disorders might offer benefits, and additional research is warranted to clarify this crucial topic currently representing a major worldwide burden.",
+  "relations": {
+    "36984506": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "implicated in",
+      "tail": "neurodegenerative disorders",
+      "tail_type": "Disease"
+    },
+    "36984507": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "induces",
+      "tail": "hyperhomocysteinemia",
+      "tail_type": "Condition"
+    },
+    "36984508": {
+      "head": "hyperhomocysteinemia",
+      "head_type": "Condition",
+      "relation": "causes",
+      "tail": "brain cortical thinning",
+      "tail_type": "Pathology"
+    },
+    "36984509": {
+      "head": "brain cortical thinning",
+      "head_type": "Pathology",
+      "relation": "associated with",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "Disease"
+    },
+    "36984510": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "linked to",
+      "tail": "Alzheimer's disease",
+      "tail_type": "Disease"
+    },
+    "36984511": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "linked to",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    "36984512": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "linked to",
+      "tail": "multiple sclerosis",
+      "tail_type": "Disease"
+    },
+    "36984513": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "linked to",
+      "tail": "glaucoma",
+      "tail_type": "Disease"
+    },
+    "36984514": {
+      "head": "hyperhomocysteinemia",
+      "head_type": "Condition",
+      "relation": "related to",
+      "tail": "neurodegenerative central nervous system disorders",
+      "tail_type": "Disease"
+    },
+    "36984515": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "triggers",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "Disease"
+    },
+    "36984516": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "mediates",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "Disease"
+    },
+    "36984517": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "affects",
+      "tail": "vitamin D levels",
+      "tail_type": "Biochemical Factor"
+    },
+    "36984518": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "influences",
+      "tail": "autophagy",
+      "tail_type": "Biological Process"
+    },
+    "36984519": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "interacts with",
+      "tail": "defensins",
+      "tail_type": "Protein"
+    },
+    "36984520": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "related to",
+      "tail": "inflammatory mediators",
+      "tail_type": "Biological Molecule"
+    },
+    "36984521": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "impacts",
+      "tail": "dietary factors",
+      "tail_type": "Nutritional Factor"
+    },
+    "36984522": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "connected to",
+      "tail": "probiotics",
+      "tail_type": "Microbial Agent"
+    },
+    "36984523": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "associated with",
+      "tail": "pathogenetic considerations",
+      "tail_type": "Pathological Process"
+    },
+    "36984524": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "linked to",
+      "tail": "relevant genes",
+      "tail_type": "Genetic Factor"
+    },
+    "36984525": {
+      "head": "controlling",
+      "head_type": "Action",
+      "relation": "affects",
+      "tail": "Helicobacter pylori-related hyperhomocysteinemia",
+      "tail_type": "Condition"
+    },
+    "36984526": {
+      "head": "Helicobacter pylori-related hyperhomocysteinemia",
+      "head_type": "Condition",
+      "relation": "affects",
+      "tail": "neurodegenerative disorders",
+      "tail_type": "Disease"
+    },
+    "36984527": {
+      "head": "neurodegenerative disorders",
+      "head_type": "Disease",
+      "relation": "poses",
+      "tail": "worldwide burden",
+      "tail_type": "Public Health Issue"
+    },
+    "36984528": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "infects",
+      "tail": "global population",
+      "tail_type": "Population"
+    },
+    "36984529": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "affects",
+      "tail": "more than 50% of the world's population",
+      "tail_type": "Population"
+    },
+    "36984530": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "causes",
+      "tail": "peptic ulcers",
+      "tail_type": "Disease"
+    },
+    "36984531": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "causes",
+      "tail": "gastric cancer",
+      "tail_type": "Disease"
+    },
+    "36984532": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "linked to",
+      "tail": "ocular Alzheimer's disease",
+      "tail_type": "Disease"
+    },
+    "36984533": {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "serves as",
+      "tail": "non-commensal gut microbiome",
+      "tail_type": "Microbial Role"
+    },
+    "36984534": {
+      "head": "infection hypothesis",
+      "head_type": "Concept",
+      "relation": "relates",
+      "tail": "Helicobacter pylori",
+      "tail_type": "Organism"
+    },
+    "36984535": {
+      "head": "infection hypothesis",
+      "head_type": "Concept",
+      "relation": "relates",
+      "tail": "neurodegeneration",
+      "tail_type": "Pathological Process"
+    },
+    "36984536": {
+      "head": "additional research",
+      "head_type": "Action",
+      "relation": "warranted for",
+      "tail": "Helicobacter pylori-related hyperhomocysteinemia",
+      "tail_type": "Condition"
+    },
+    "36984537": {
+      "head": "additional research",
+      "head_type": "Action",
+      "relation": "warranted for",
+      "tail": "neurodegenerative disorders",
+      "tail_type": "Disease"
+    },
+    "36984538": {
+      "head": "additional research",
+      "head_type": "Action",
+      "relation": "needed for",
+      "tail": "crucial topic",
+      "tail_type": "Subject Area"
+    },
+    "36984539": {
+      "head": "crucial topic",
+      "head_type": "Subject Area",
+      "relation": "represents",
+      "tail": "major worldwide burden",
+      "tail_type": "Public Health Issue"
+    }
+  }
+}

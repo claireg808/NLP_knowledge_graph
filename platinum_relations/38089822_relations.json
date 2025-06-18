@@ -1,0 +1,174 @@
+{
+  "title": "The relationship between gut microbiota and insomnia: a bi-directional two-sample Mendelian randomization research.",
+  "abstract": "Insomnia is the second most common mental health issue, also is a social and financial burden. Insomnia affects the balance between sleep, the immune system, and the central nervous system, which may raise the risk of different systemic disorders. The gut microbiota, referred to as the \"second genome,\" has the ability to control host homeostasis. It has been discovered that disruption of the gut-brain axis is linked to insomnia. In this study, we conducted MR analysis between large-scale GWAS data of GMs and insomnia to uncover potential associations. Ten GM taxa were detected to have causal associations with insomnia. Among them, class <i>Negativicutes</i>, genus <i>Clostridiuminnocuumgroup</i>, genus <i>Dorea</i>, genus <i>Lachnoclostridium</i>, genus <i>Prevotella7</i>, and order <i>Selenomonadalesare</i> were linked to a higher risk of insomnia. In reverse MR analysis, we discovered a causal link between insomnia and six other GM taxa. It suggested that the relationship between insomnia and intestinal flora was convoluted. Our findings may offer beneficial biomarkers for disease development and prospective candidate treatment targets for insomnia.",
+  "relations": {
+    "38089823": {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "has association with",
+      "tail": "insomnia",
+      "tail_type": "mental health issue"
+    },
+    "38089824": {
+      "head": "insomnia",
+      "head_type": "mental health issue",
+      "relation": "affects",
+      "tail": "sleep balance",
+      "tail_type": "physiological process"
+    },
+    "38089825": {
+      "head": "insomnia",
+      "head_type": "mental health issue",
+      "relation": "affects",
+      "tail": "immune system",
+      "tail_type": "physiological system"
+    },
+    "38089826": {
+      "head": "insomnia",
+      "head_type": "mental health issue",
+      "relation": "affects",
+      "tail": "central nervous system",
+      "tail_type": "physiological system"
+    },
+    "38089827": {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "controls",
+      "tail": "host homeostasis",
+      "tail_type": "physiological state"
+    },
+    "38089828": {
+      "head": "gut-brain axis disruption",
+      "head_type": "physiological condition",
+      "relation": "linked to",
+      "tail": "insomnia",
+      "tail_type": "mental health issue"
+    },
+    "38089829": {
+      "head": "GWAS data of GMs",
+      "head_type": "genetic data",
+      "relation": "used in",
+      "tail": "MR analysis",
+      "tail_type": "research method"
+    },
+    "38089830": {
+      "head": "MR analysis",
+      "head_type": "research method",
+      "relation": "uncover potential associations between",
+      "tail": "gut microbiota",
+      "tail_type": "biological entity"
+    },
+    "38089831": {
+      "head": "MR analysis",
+      "head_type": "research method",
+      "relation": "uncover potential associations between",
+      "tail": "insomnia",
+      "tail_type": "mental health issue"
+    },
+    "38089832": {
+      "head": "Negativicutes",
+      "head_type": "taxonomic class",
+      "relation": "linked to",
+      "tail": "insomnia",
+      "tail_type": "mental health issue"
+    },
+    "38089833": {
+      "head": "Clostridiuminnocuumgroup",
+      "head_type": "taxonomic genus",
+      "relation": "linked to",
+      "tail": "insomnia",
+      "tail_type": "mental health issue"
+    },
+    "38089834": {
+      "head": "Dorea",
+      "head_type": "taxonomic genus",
+      "relation": "linked to",
+      "tail": "insomnia",
+      "tail_type": "mental health issue"
+    },
+    "38089835": {
+      "head": "Lachnoclostridium",
+      "head_type": "taxonomic genus",
+      "relation": "linked to",
+      "tail": "insomnia",
+      "tail_type": "mental health issue"
+    },
+    "38089836": {
+      "head": "Prevotella7",
+      "head_type": "taxonomic genus",
+      "relation": "linked to",
+      "tail": "insomnia",
+      "tail_type": "mental health issue"
+    },
+    "38089837": {
+      "head": "Selenomonadalesare",
+      "head_type": "taxonomic order",
+      "relation": "linked to",
+      "tail": "insomnia",
+      "tail_type": "mental health issue"
+    },
+    "38089838": {
+      "head": "insomnia",
+      "head_type": "mental health issue",
+      "relation": "causally linked to",
+      "tail": "six other GM taxa",
+      "tail_type": "biological entities"
+    },
+    "38089839": {
+      "head": "findings",
+      "head_type": "research outcome",
+      "relation": "offer",
+      "tail": "biomarkers",
+      "tail_type": "biological marker"
+    },
+    "38089840": {
+      "head": "biomarkers",
+      "head_type": "biological marker",
+      "relation": "used for",
+      "tail": "disease development",
+      "tail_type": "medical process"
+    },
+    "38089841": {
+      "head": "findings",
+      "head_type": "research outcome",
+      "relation": "offer",
+      "tail": "candidate treatment targets",
+      "tail_type": "medical intervention"
+    },
+    "38089842": {
+      "head": "candidate treatment targets",
+      "head_type": "medical intervention",
+      "relation": "targeted for",
+      "tail": "insomnia",
+      "tail_type": "mental health issue"
+    },
+    "38089843": {
+      "head": "MR analysis",
+      "head_type": "research method",
+      "relation": "provides",
+      "tail": "new research direction",
+      "tail_type": "scientific approach"
+    },
+    "38089844": {
+      "head": "new research direction",
+      "head_type": "scientific approach",
+      "relation": "explores",
+      "tail": "causality",
+      "tail_type": "scientific concept"
+    },
+    "38089845": {
+      "head": "causality",
+      "head_type": "scientific concept",
+      "relation": "between",
+      "tail": "gut microbiota",
+      "tail_type": "biological entity"
+    },
+    "38089846": {
+      "head": "causality",
+      "head_type": "scientific concept",
+      "relation": "between",
+      "tail": "mental disorders",
+      "tail_type": "health issue"
+    }
+  }
+}

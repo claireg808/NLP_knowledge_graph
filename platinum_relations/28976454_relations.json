@@ -1,0 +1,174 @@
+{
+  "title": "The Gut and Its Microbiome as Related to Central Nervous System Functioning and Psychological Well-being: Introduction to the Special Issue of Psychosomatic Medicine.",
+  "abstract": "Accumulating evidence indicates bidirectional associations between the brain and the gut microbiome with both top-down and bottom-up processes. This article describes new developments in brain-gut interactions as an introduction to a special issue of Psychosomatic Medicine, based on a joint symposium of the American Psychosomatic Society and the American Gastroenterological Association. Literature review articles indicate that several psychiatric disorders are associated with altered gut microbiota, whereas evidence linking functional gastrointestinal disorders and dysbiosis has not been firmly established. The association between dysbiosis with obesity, metabolic syndrome, and Type 2 diabetes mellitus is still inconclusive, but evidence suggests that bariatric surgery may favorably alter the gut microbial community structure. Consistent with the literature linking psychiatric disorders with dysbiosis is that life adversity during childhood and certain temperaments that develop early in life are associated with altered gut microbiota, particularly the Prevotella species. Some studies reported in this issue support the hypothesis that brain-gut interactions are adversely influenced by reduced functional activation of the hippocampus and autonomic nervous system dysregulation. The evidence for the effects of probiotics in the treatment of Clostridium difficile colitis is relatively well established, but effects on mental health and psychophysiological stress reactivity are either inconclusive or still in progress. To conceptualize brain-gut interactions, a holistic, systems-based perspective on health and disease is needed, integrating gut microbial with environmental ecology. More translational research is needed to examine the mental and physical health effects of prebiotics and probiotics, in well-phenotyped human populations with sufficiently large sample sizes.",
+  "relations": {
+    "28976455": {
+      "head": "Gut",
+      "head_type": "Organ",
+      "relation": "related_to",
+      "tail": "Microbiome",
+      "tail_type": "Microbial Community"
+    },
+    "28976456": {
+      "head": "Gut",
+      "head_type": "Organ",
+      "relation": "related_to",
+      "tail": "Central Nervous System",
+      "tail_type": "Anatomical System"
+    },
+    "28976457": {
+      "head": "Microbiome",
+      "head_type": "Microbial Community",
+      "relation": "associated_with",
+      "tail": "Psychological Well-being",
+      "tail_type": "Health Condition"
+    },
+    "28976458": {
+      "head": "Brain",
+      "head_type": "Organ",
+      "relation": "interacts_with",
+      "tail": "Gut Microbiome",
+      "tail_type": "Microbial Community"
+    },
+    "28976459": {
+      "head": "Psychiatric Disorders",
+      "head_type": "Disease",
+      "relation": "associated_with",
+      "tail": "Altered Gut Microbiota",
+      "tail_type": "Microbial State"
+    },
+    "28976460": {
+      "head": "Functional Gastrointestinal Disorders",
+      "head_type": "Disease",
+      "relation": "linked_to",
+      "tail": "Dysbiosis",
+      "tail_type": "Microbial State"
+    },
+    "28976461": {
+      "head": "Dysbiosis",
+      "head_type": "Microbial State",
+      "relation": "associated_with",
+      "tail": "Obesity",
+      "tail_type": "Health Condition"
+    },
+    "28976462": {
+      "head": "Dysbiosis",
+      "head_type": "Microbial State",
+      "relation": "associated_with",
+      "tail": "Metabolic Syndrome",
+      "tail_type": "Health Condition"
+    },
+    "28976463": {
+      "head": "Dysbiosis",
+      "head_type": "Microbial State",
+      "relation": "associated_with",
+      "tail": "Type 2 Diabetes Mellitus",
+      "tail_type": "Disease"
+    },
+    "28976464": {
+      "head": "Bariatric Surgery",
+      "head_type": "Medical Procedure",
+      "relation": "affects",
+      "tail": "Gut Microbial Community",
+      "tail_type": "Microbial Community"
+    },
+    "28976465": {
+      "head": "Life Adversity",
+      "head_type": "Environmental Factor",
+      "relation": "associated_with",
+      "tail": "Altered Gut Microbiota",
+      "tail_type": "Microbial State"
+    },
+    "28976466": {
+      "head": "Temperaments",
+      "head_type": "Personality Trait",
+      "relation": "associated_with",
+      "tail": "Altered Gut Microbiota",
+      "tail_type": "Microbial State"
+    },
+    "28976467": {
+      "head": "Prevotella Species",
+      "head_type": "Microbial Species",
+      "relation": "linked_to",
+      "tail": "Altered Gut Microbiota",
+      "tail_type": "Microbial State"
+    },
+    "28976468": {
+      "head": "Brain-Gut Interactions",
+      "head_type": "Physiological Process",
+      "relation": "influenced_by",
+      "tail": "Hippocampus Activation",
+      "tail_type": "Neurological Process"
+    },
+    "28976469": {
+      "head": "Brain-Gut Interactions",
+      "head_type": "Physiological Process",
+      "relation": "influenced_by",
+      "tail": "Autonomic Nervous System",
+      "tail_type": "Neurological System"
+    },
+    "28976470": {
+      "head": "Probiotics",
+      "head_type": "Therapeutic Agent",
+      "relation": "effective_against",
+      "tail": "Clostridium Difficile Colitis",
+      "tail_type": "Infection"
+    },
+    "28976471": {
+      "head": "Probiotics",
+      "head_type": "Therapeutic Agent",
+      "relation": "affects",
+      "tail": "Mental Health",
+      "tail_type": "Health Condition"
+    },
+    "28976472": {
+      "head": "Probiotics",
+      "head_type": "Therapeutic Agent",
+      "relation": "affects",
+      "tail": "Psychophysiological Stress Reactivity",
+      "tail_type": "Physiological Response"
+    },
+    "28976473": {
+      "head": "Prebiotics",
+      "head_type": "Therapeutic Agent",
+      "relation": "needs",
+      "tail": "Translational Research",
+      "tail_type": "Research Field"
+    },
+    "28976474": {
+      "head": "Probiotics",
+      "head_type": "Therapeutic Agent",
+      "relation": "needs",
+      "tail": "Translational Research",
+      "tail_type": "Research Field"
+    },
+    "28976475": {
+      "head": "Translational Research",
+      "head_type": "Research Field",
+      "relation": "examines",
+      "tail": "Mental Health",
+      "tail_type": "Health Condition"
+    },
+    "28976476": {
+      "head": "Translational Research",
+      "head_type": "Research Field",
+      "relation": "examines",
+      "tail": "Physical Health",
+      "tail_type": "Health Condition"
+    },
+    "28976477": {
+      "head": "Well-phenotyped Human Populations",
+      "head_type": "Study Population",
+      "relation": "required_for",
+      "tail": "Translational Research",
+      "tail_type": "Research Field"
+    },
+    "28976478": {
+      "head": "Sufficiently Large Sample Sizes",
+      "head_type": "Sample Size Requirement",
+      "relation": "required_for",
+      "tail": "Translational Research",
+      "tail_type": "Research Field"
+    }
+  }
+}

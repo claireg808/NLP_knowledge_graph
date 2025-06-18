@@ -1,0 +1,216 @@
+{
+  "title": "Ameliorative effect of Lactobacillus plantarum CCFM8661 on oleic acid-induced acne: integrated gut microbiota link to acne pathogenesis.",
+  "abstract": "Acne vulgaris is an inflammatory disease of the pilosebaceous unit of the skin that has serious adverse effects on the physical and mental health of patients. Probiotics are extensively employed in dermatology and could be an alternative option for acne therapy. Here, we evaluated the effect of oral ingestion of live and inactivated Lactobacillus plantarum CCFM8661 on oleic acid-induced acne using a mouse model. Results indicated that live L. plantarum CCFM8661 suppressed skin inflammation and serum hormone (insulin and testosterone) production in acne mice. Parallelly, live L. plantarum CCFM8661 effectively reduced the formation of skin lipids (triglycerides and non-esterified free fatty acids), and normalized the expression of skin lipid metabolism-related genes (PPAR-\u03b3, SREBP-1c, ACC\u03b1, FASN, PPAR-\u03b1, ACOX1, HSL and ATGL). In comparison, inactivated L. plantarum CCFM8661 had no effect on skin inflammation or serum hormone secretion, but decreased skin triglycerides and normalized the expression of skin lipid metabolism-related genes (PPAR-\u03b3, SREBP-1c, FASN and ATGL) in acne mice. Both live and inactivated L. plantarum CCFM8661 raised the richness of gut microbiota, reduced the ratio of Bacteroidetes to Firmicutes and decreased the relative abundance of Staphylococcus in the feces of acne mice. Oral ingestion of L. plantarum CCFM8661, particularly live cells, could alleviate acne by suppressing skin inflammation, normalizing the metabolism of hormones and skin lipids, which may be achieved by improving the gut microbial ecosystem. \u00a9 2023 Society of Chemical Industry.",
+  "relations": {
+    "37574819": {
+      "head": "Ameliorative effect",
+      "head_type": "Effect",
+      "relation": "related to",
+      "tail": "Lactobacillus plantarum CCFM8661",
+      "tail_type": "Probiotic"
+    },
+    "37574820": {
+      "head": "Lactobacillus plantarum CCFM8661",
+      "head_type": "Probiotic",
+      "relation": "suppresses",
+      "tail": "skin inflammation",
+      "tail_type": "Pathological Process"
+    },
+    "37574821": {
+      "head": "Lactobacillus plantarum CCFM8661",
+      "head_type": "Probiotic",
+      "relation": "suppresses",
+      "tail": "serum hormone production",
+      "tail_type": "Physiological Process"
+    },
+    "37574822": {
+      "head": "Lactobacillus plantarum CCFM8661",
+      "head_type": "Probiotic",
+      "relation": "reduces",
+      "tail": "formation of skin lipids",
+      "tail_type": "Physiological Process"
+    },
+    "37574823": {
+      "head": "Lactobacillus plantarum CCFM8661",
+      "head_type": "Probiotic",
+      "relation": "normalizes",
+      "tail": "expression of lipid metabolism genes",
+      "tail_type": "Genetic Process"
+    },
+    "37574824": {
+      "head": "inactivated Lactobacillus plantarum CCFM8661",
+      "head_type": "Probiotic",
+      "relation": "reduces",
+      "tail": "skin triglycerides",
+      "tail_type": "Physiological Process"
+    },
+    "37574825": {
+      "head": "inactivated Lactobacillus plantarum CCFM8661",
+      "head_type": "Probiotic",
+      "relation": "normalizes",
+      "tail": "expression of lipid metabolism genes",
+      "tail_type": "Genetic Process"
+    },
+    "37574826": {
+      "head": "Lactobacillus plantarum CCFM8661",
+      "head_type": "Probiotic",
+      "relation": "increases",
+      "tail": "gut microbiota richness",
+      "tail_type": "Physiological Process"
+    },
+    "37574827": {
+      "head": "Lactobacillus plantarum CCFM8661",
+      "head_type": "Probiotic",
+      "relation": "reduces",
+      "tail": "Bacteroidetes to Firmicutes ratio",
+      "tail_type": "Physiological Process"
+    },
+    "37574828": {
+      "head": "Lactobacillus plantarum CCFM8661",
+      "head_type": "Probiotic",
+      "relation": "decreases",
+      "tail": "Staphylococcus abundance",
+      "tail_type": "Physiological Process"
+    },
+    "37574829": {
+      "head": "oral ingestion",
+      "head_type": "Method",
+      "relation": "administers",
+      "tail": "Lactobacillus plantarum CCFM8661",
+      "tail_type": "Probiotic"
+    },
+    "37574830": {
+      "head": "Lactobacillus plantarum CCFM8661",
+      "head_type": "Probiotic",
+      "relation": "alleviates",
+      "tail": "acne",
+      "tail_type": "Disease"
+    },
+    "37574831": {
+      "head": "acne",
+      "head_type": "Disease",
+      "relation": "affects",
+      "tail": "pilosebaceous unit",
+      "tail_type": "Anatomical Structure"
+    },
+    "37574832": {
+      "head": "acne",
+      "head_type": "Disease",
+      "relation": "causes",
+      "tail": "skin inflammation",
+      "tail_type": "Pathological Process"
+    },
+    "37574833": {
+      "head": "acne",
+      "head_type": "Disease",
+      "relation": "impacts",
+      "tail": "physical and mental health",
+      "tail_type": "Health Aspect"
+    },
+    "37574834": {
+      "head": "probiotics",
+      "head_type": "Therapeutic Agent",
+      "relation": "used in",
+      "tail": "dermatology",
+      "tail_type": "Medical Field"
+    },
+    "37574835": {
+      "head": "probiotics",
+      "head_type": "Therapeutic Agent",
+      "relation": "treats",
+      "tail": "acne",
+      "tail_type": "Disease"
+    },
+    "37574836": {
+      "head": "insulin",
+      "head_type": "Hormone",
+      "relation": "produced in",
+      "tail": "acne mice",
+      "tail_type": "Animal Model"
+    },
+    "37574837": {
+      "head": "testosterone",
+      "head_type": "Hormone",
+      "relation": "produced in",
+      "tail": "acne mice",
+      "tail_type": "Animal Model"
+    },
+    "37574838": {
+      "head": "triglycerides",
+      "head_type": "Lipid",
+      "relation": "formed in",
+      "tail": "acne mice",
+      "tail_type": "Animal Model"
+    },
+    "37574839": {
+      "head": "non-esterified free fatty acids",
+      "head_type": "Lipid",
+      "relation": "formed in",
+      "tail": "acne mice",
+      "tail_type": "Animal Model"
+    },
+    "37574840": {
+      "head": "PPAR-\u03b3",
+      "head_type": "Gene",
+      "relation": "expressed in",
+      "tail": "skin",
+      "tail_type": "Anatomical Structure"
+    },
+    "37574841": {
+      "head": "SREBP-1c",
+      "head_type": "Gene",
+      "relation": "expressed in",
+      "tail": "skin",
+      "tail_type": "Anatomical Structure"
+    },
+    "37574842": {
+      "head": "ACC\u03b1",
+      "head_type": "Gene",
+      "relation": "expressed in",
+      "tail": "skin",
+      "tail_type": "Anatomical Structure"
+    },
+    "37574843": {
+      "head": "FASN",
+      "head_type": "Gene",
+      "relation": "expressed in",
+      "tail": "skin",
+      "tail_type": "Anatomical Structure"
+    },
+    "37574844": {
+      "head": "PPAR-\u03b1",
+      "head_type": "Gene",
+      "relation": "expressed in",
+      "tail": "skin",
+      "tail_type": "Anatomical Structure"
+    },
+    "37574845": {
+      "head": "ACOX1",
+      "head_type": "Gene",
+      "relation": "expressed in",
+      "tail": "skin",
+      "tail_type": "Anatomical Structure"
+    },
+    "37574846": {
+      "head": "HSL",
+      "head_type": "Gene",
+      "relation": "expressed in",
+      "tail": "skin",
+      "tail_type": "Anatomical Structure"
+    },
+    "37574847": {
+      "head": "ATGL",
+      "head_type": "Gene",
+      "relation": "expressed in",
+      "tail": "skin",
+      "tail_type": "Anatomical Structure"
+    },
+    "37574848": {
+      "head": "gut microbiota",
+      "head_type": "Microbial Community",
+      "relation": "impacts",
+      "tail": "acne pathogenesis",
+      "tail_type": "Pathological Process"
+    }
+  }
+}

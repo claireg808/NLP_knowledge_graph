@@ -1,0 +1,328 @@
+{
+  "title": "Global research trends and focus on the link between colorectal cancer and gut flora: a bibliometric analysis from 2001 to 2021.",
+  "abstract": "Colorectal cancer (CRC) is a highly prevalent cancer, and the global healthcare system bears a significant burden due to its incidence. Modulating the gut microbiota is a promising approach to enhance the efficacy of CRC treatment and reduce its adverse effects. The causal relationship between specific microorganisms' presence and CRC development has been widely validated. However, few studies have investigated this relationship using bibliometric methods. Therefore, this study analyzed the research hotspots and trends in human gut microbiology and CRC over the last two decades from a bibliometric perspective. The study aims to provide novel insights into basic and clinical research in this field. The articles and reviews on gut microbiota in CRC were obtained from the Web of Science Core Collection (WOSCC) on November 2, 2022. CiteSpace and VOSviewer were used to conduct the bibliometric and knowledge-map analysis. A total of 2,707 publications were obtained, with a rapid increase in the number of publications since 2015. The United States and China are the main contributors in this field and have established a network of partnerships in several countries. 414 academic journals have published articles on this topic. The author with the highest number of publications is Jun Yu from the Chinese University of Hong Kong. In addition to \"intestinal flora\" and \"colorectal cancer,\" high frequency terms in the keyword co-occurrence network analysis included inflammatory bowel disease, <i>Fusobacterium nucleatum</i>, inflammation, long-chain fatty acids, ulcerative colitis, bile acids, and resistant starch. Analysis of keyword trends using burst testing revealed that biomarkers, abnormal crypt foci, bifidobacteria, \u03b2-glucuronidase, short-chain fatty acids, bile acids, and DNA methylation are at the forefront of research in this area. The findings of this study provide a bibliometric analysis and visualization of the key research areas in gut microbiota and CRC over the past 20\u2009years. The results suggest that the role of gut microbiota in CRC and its underlying mechanisms should be closely monitored, particularly in the areas of biomarkers, metabolic pathways, and DNA methylation, which may emerge as hot topics in this field.",
+  "relations": {
+    "37213509": {
+      "head": "global research trends",
+      "head_type": "research trends",
+      "relation": "focus on",
+      "tail": "link between colorectal cancer",
+      "tail_type": "link"
+    },
+    "37213510": {
+      "head": "link between colorectal cancer",
+      "head_type": "link",
+      "relation": "relates to",
+      "tail": "gut flora",
+      "tail_type": "biological entity"
+    },
+    "37213511": {
+      "head": "bibliometric analysis",
+      "head_type": "analysis",
+      "relation": "covers time period",
+      "tail": "2001 to 2021",
+      "tail_type": "time period"
+    },
+    "37213512": {
+      "head": "colorectal cancer",
+      "head_type": "disease",
+      "relation": "is",
+      "tail": "highly prevalent cancer",
+      "tail_type": "disease classification"
+    },
+    "37213513": {
+      "head": "global healthcare system",
+      "head_type": "system",
+      "relation": "bears burden due to",
+      "tail": "incidence of colorectal cancer",
+      "tail_type": "disease incidence"
+    },
+    "37213514": {
+      "head": "modulating gut microbiota",
+      "head_type": "approach",
+      "relation": "enhances",
+      "tail": "efficacy of CRC treatment",
+      "tail_type": "treatment efficacy"
+    },
+    "37213515": {
+      "head": "modulating gut microbiota",
+      "head_type": "approach",
+      "relation": "reduces",
+      "tail": "adverse effects of CRC treatment",
+      "tail_type": "treatment adverse effects"
+    },
+    "37213516": {
+      "head": "specific microorganisms",
+      "head_type": "microorganisms",
+      "relation": "have causal relationship with",
+      "tail": "CRC development",
+      "tail_type": "disease development"
+    },
+    "37213517": {
+      "head": "bibliometric methods",
+      "head_type": "methods",
+      "relation": "analyze",
+      "tail": "relationship between microorganisms and CRC",
+      "tail_type": "research method"
+    },
+    "37213518": {
+      "head": "bibliometric analysis",
+      "head_type": "analysis",
+      "relation": "aims to provide",
+      "tail": "novel insights into basic research",
+      "tail_type": "research insights"
+    },
+    "37213519": {
+      "head": "bibliometric analysis",
+      "head_type": "analysis",
+      "relation": "aims to provide",
+      "tail": "novel insights into clinical research",
+      "tail_type": "research insights"
+    },
+    "37213520": {
+      "head": "articles and reviews",
+      "head_type": "publications",
+      "relation": "obtained from",
+      "tail": "Web of Science Core Collection",
+      "tail_type": "database"
+    },
+    "37213521": {
+      "head": "bibliometric analysis",
+      "head_type": "analysis",
+      "relation": "conducted using",
+      "tail": "CiteSpace",
+      "tail_type": "software tool"
+    },
+    "37213522": {
+      "head": "bibliometric analysis",
+      "head_type": "analysis",
+      "relation": "conducted using",
+      "tail": "VOSviewer",
+      "tail_type": "software tool"
+    },
+    "37213523": {
+      "head": "total publications",
+      "head_type": "publication count",
+      "relation": "amount to",
+      "tail": "2,707",
+      "tail_type": "numeric value"
+    },
+    "37213524": {
+      "head": "publications",
+      "head_type": "publications",
+      "relation": "increase rapidly since",
+      "tail": "2015",
+      "tail_type": "time period"
+    },
+    "37213525": {
+      "head": "United States",
+      "head_type": "country",
+      "relation": "is main contributor",
+      "tail": "research in gut microbiota and CRC",
+      "tail_type": "research contributor"
+    },
+    "37213526": {
+      "head": "China",
+      "head_type": "country",
+      "relation": "is main contributor",
+      "tail": "research in gut microbiota and CRC",
+      "tail_type": "research contributor"
+    },
+    "37213527": {
+      "head": "network of partnerships",
+      "head_type": "collaboration network",
+      "relation": "established with",
+      "tail": "several countries",
+      "tail_type": "international collaboration"
+    },
+    "37213528": {
+      "head": "academic journals",
+      "head_type": "journals",
+      "relation": "number of",
+      "tail": "414",
+      "tail_type": "numeric value"
+    },
+    "37213529": {
+      "head": "Jun Yu",
+      "head_type": "researcher",
+      "relation": "has highest number of publications",
+      "tail": "publications",
+      "tail_type": "publication count"
+    },
+    "37213530": {
+      "head": "Jun Yu",
+      "head_type": "researcher",
+      "relation": "affiliated with",
+      "tail": "Chinese University of Hong Kong",
+      "tail_type": "institution"
+    },
+    "37213531": {
+      "head": "high frequency terms",
+      "head_type": "keywords",
+      "relation": "include",
+      "tail": "intestinal flora",
+      "tail_type": "keyword"
+    },
+    "37213532": {
+      "head": "high frequency terms",
+      "head_type": "keywords",
+      "relation": "include",
+      "tail": "colorectal cancer",
+      "tail_type": "keyword"
+    },
+    "37213533": {
+      "head": "high frequency terms",
+      "head_type": "keywords",
+      "relation": "include",
+      "tail": "inflammatory bowel disease",
+      "tail_type": "disease"
+    },
+    "37213534": {
+      "head": "high frequency terms",
+      "head_type": "keywords",
+      "relation": "include",
+      "tail": "Fusobacterium nucleatum",
+      "tail_type": "microorganism"
+    },
+    "37213535": {
+      "head": "high frequency terms",
+      "head_type": "keywords",
+      "relation": "include",
+      "tail": "inflammation",
+      "tail_type": "biological process"
+    },
+    "37213536": {
+      "head": "high frequency terms",
+      "head_type": "keywords",
+      "relation": "include",
+      "tail": "long-chain fatty acids",
+      "tail_type": "biochemical compound"
+    },
+    "37213537": {
+      "head": "high frequency terms",
+      "head_type": "keywords",
+      "relation": "include",
+      "tail": "ulcerative colitis",
+      "tail_type": "disease"
+    },
+    "37213538": {
+      "head": "high frequency terms",
+      "head_type": "keywords",
+      "relation": "include",
+      "tail": "bile acids",
+      "tail_type": "biochemical compound"
+    },
+    "37213539": {
+      "head": "high frequency terms",
+      "head_type": "keywords",
+      "relation": "include",
+      "tail": "resistant starch",
+      "tail_type": "nutrient"
+    },
+    "37213540": {
+      "head": "keyword trends",
+      "head_type": "research trends",
+      "relation": "revealed by",
+      "tail": "burst testing",
+      "tail_type": "analysis method"
+    },
+    "37213541": {
+      "head": "biomarkers",
+      "head_type": "biomarkers",
+      "relation": "are forefront of research",
+      "tail": "research area",
+      "tail_type": "research focus"
+    },
+    "37213542": {
+      "head": "abnormal crypt foci",
+      "head_type": "biological marker",
+      "relation": "are forefront of research",
+      "tail": "research area",
+      "tail_type": "research focus"
+    },
+    "37213543": {
+      "head": "bifidobacteria",
+      "head_type": "microorganism",
+      "relation": "are forefront of research",
+      "tail": "research area",
+      "tail_type": "research focus"
+    },
+    "37213544": {
+      "head": "\u03b2-glucuronidase",
+      "head_type": "enzyme",
+      "relation": "are forefront of research",
+      "tail": "research area",
+      "tail_type": "research focus"
+    },
+    "37213545": {
+      "head": "short-chain fatty acids",
+      "head_type": "biochemical compound",
+      "relation": "are forefront of research",
+      "tail": "research area",
+      "tail_type": "research focus"
+    },
+    "37213546": {
+      "head": "bile acids",
+      "head_type": "biochemical compound",
+      "relation": "are forefront of research",
+      "tail": "research area",
+      "tail_type": "research focus"
+    },
+    "37213547": {
+      "head": "DNA methylation",
+      "head_type": "epigenetic process",
+      "relation": "are forefront of research",
+      "tail": "research area",
+      "tail_type": "research focus"
+    },
+    "37213548": {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "role in CRC",
+      "tail": "underlying mechanisms",
+      "tail_type": "biological process"
+    },
+    "37213549": {
+      "head": "biomarkers",
+      "head_type": "biomarkers",
+      "relation": "emerging as hot topics",
+      "tail": "research area",
+      "tail_type": "research focus"
+    },
+    "37213550": {
+      "head": "metabolic pathways",
+      "head_type": "biological pathways",
+      "relation": "emerging as hot topics",
+      "tail": "research area",
+      "tail_type": "research focus"
+    },
+    "37213551": {
+      "head": "DNA methylation",
+      "head_type": "epigenetic process",
+      "relation": "emerging as hot topics",
+      "tail": "research area",
+      "tail_type": "research focus"
+    },
+    "37213552": {
+      "head": "research hotspots",
+      "head_type": "research focus",
+      "relation": "covered in",
+      "tail": "gut microbiota and CRC",
+      "tail_type": "research field"
+    },
+    "37213553": {
+      "head": "research trends",
+      "head_type": "research focus",
+      "relation": "covered in",
+      "tail": "gut microbiota and CRC",
+      "tail_type": "research field"
+    },
+    "37213554": {
+      "head": "bibliometric analysis",
+      "head_type": "analysis",
+      "relation": "provides",
+      "tail": "comprehensive overview",
+      "tail_type": "research summary"
+    }
+  }
+}

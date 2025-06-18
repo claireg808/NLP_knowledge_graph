@@ -1,0 +1,146 @@
+{
+  "title": "Antidepression of Xingpijieyu formula targets gut microbiota derived from depressive disorder.",
+  "abstract": "This investigation aims to determine the antidepressant role of Xingpijieyu formula (XPJYF) mediated via gut microbiota (GM)-brain axis. We collected fecal microbiota from patients with depressive disorder (DD) and cultured microbiota in vitro. Some of microbiota were transplanted into germ-free rats with the intragastric administration of XPJYF grain at the dose of 1.533\u00a0g/kg/day. The behaviors were studied by forced swimming test, open field test, sucrose preference test, and body weight. Products of hypothalamus-pituitary-adrenocortical (HPA) axis, neurotransmitter, and serum cytokines were investigated by enzyme linked immunosorbent assay. Glial fibrillary acidic protein (GFAP), a biomarker of astrocyte, was quantified using immunofluorescence. Microbiota culturing in vitro after XPJYF treatment was analyze by 16\u2009s RNA sequencing technology. We used lipopolysaccharide (LPS) to mimic activated rat primary astrocyte in vitro. Brain-derived neurotrophic factor (BDNF), cytokines, and oxidative stress factors were determined by western blotting, and glycometabolism in astrocyte was investigated by 2-deoxy-D-glucose (2-DG) uptake, adenosine triphosphate (ATP), and glucose-1-phosphate (G1P) kits. Microbiota composition during 8\u00a0mg/ml of XPJYF (H12-8) for 12\u2009h showed the more consistency. Lactococcus is enriched in DD-derived microbiota composition, and Biffdobacterium and Lactobacillus in H12-8 group. GLUCOSE1PMETAB-PWY and PWY-7328 of which biofunctions were dominantly encoded by Biffdobacterium were the top two of altered pathways. XPJYF improved behaviors and repressed astrocyte activation in depression rats. XPJYF elevated 2-DG uptake, ATP, glucose-1-phosphate, and brain-derived neurotrophic factor (BDNF), and inhibited cytokines and oxidative stress in LPS-induced astrocyte. XPJYF treatment targets inflammation, activation, and glycometabolim in astrocyte via gut microbiota modulation, thereby improve animal behaviors, HPA axis dysfunction, and neurotransmitter synthesis in depression rats.",
+  "relations": {
+    "36550592": {
+      "head": "Xingpijieyu formula",
+      "head_type": "formula",
+      "relation": "targets",
+      "tail": "gut microbiota",
+      "tail_type": "microbiota"
+    },
+    "36550593": {
+      "head": "Xingpijieyu formula",
+      "head_type": "formula",
+      "relation": "mediated via",
+      "tail": "gut microbiota-brain axis",
+      "tail_type": "axis"
+    },
+    "36550594": {
+      "head": "Xingpijieyu formula",
+      "head_type": "formula",
+      "relation": "improved",
+      "tail": "behaviors",
+      "tail_type": "behaviors"
+    },
+    "36550595": {
+      "head": "Xingpijieyu formula",
+      "head_type": "formula",
+      "relation": "repressed",
+      "tail": "astrocyte activation",
+      "tail_type": "activation"
+    },
+    "36550596": {
+      "head": "Xingpijieyu formula",
+      "head_type": "formula",
+      "relation": "elevated",
+      "tail": "2-DG uptake",
+      "tail_type": "metabolism"
+    },
+    "36550597": {
+      "head": "Xingpijieyu formula",
+      "head_type": "formula",
+      "relation": "elevated",
+      "tail": "ATP",
+      "tail_type": "metabolism"
+    },
+    "36550598": {
+      "head": "Xingpijieyu formula",
+      "head_type": "formula",
+      "relation": "elevated",
+      "tail": "glucose-1-phosphate",
+      "tail_type": "metabolism"
+    },
+    "36550599": {
+      "head": "Xingpijieyu formula",
+      "head_type": "formula",
+      "relation": "elevated",
+      "tail": "BDNF",
+      "tail_type": "neurotrophin"
+    },
+    "36550600": {
+      "head": "Xingpijieyu formula",
+      "head_type": "formula",
+      "relation": "inhibited",
+      "tail": "cytokines",
+      "tail_type": "inflammation"
+    },
+    "36550601": {
+      "head": "Xingpijieyu formula",
+      "head_type": "formula",
+      "relation": "inhibited",
+      "tail": "oxidative stress",
+      "tail_type": "stress"
+    },
+    "36550602": {
+      "head": "Xingpijieyu formula",
+      "head_type": "formula",
+      "relation": "targeted",
+      "tail": "inflammation",
+      "tail_type": "condition"
+    },
+    "36550603": {
+      "head": "Xingpijieyu formula",
+      "head_type": "formula",
+      "relation": "targeted",
+      "tail": "activation",
+      "tail_type": "condition"
+    },
+    "36550604": {
+      "head": "Xingpijieyu formula",
+      "head_type": "formula",
+      "relation": "targeted",
+      "tail": "glycometabolism",
+      "tail_type": "metabolism"
+    },
+    "36550605": {
+      "head": "Xingpijieyu formula",
+      "head_type": "formula",
+      "relation": "improved",
+      "tail": "HPA axis dysfunction",
+      "tail_type": "dysfunction"
+    },
+    "36550606": {
+      "head": "Xingpijieyu formula",
+      "head_type": "formula",
+      "relation": "improved",
+      "tail": "neurotransmitter synthesis",
+      "tail_type": "synthesis"
+    },
+    "36550607": {
+      "head": "Lactococcus",
+      "head_type": "bacteria",
+      "relation": "enriched in",
+      "tail": "DD-derived microbiota",
+      "tail_type": "microbiota"
+    },
+    "36550608": {
+      "head": "Bifidobacterium",
+      "head_type": "bacteria",
+      "relation": "enriched in",
+      "tail": "H12-8 group",
+      "tail_type": "group"
+    },
+    "36550609": {
+      "head": "Lactobacillus",
+      "head_type": "bacteria",
+      "relation": "enriched in",
+      "tail": "H12-8 group",
+      "tail_type": "group"
+    },
+    "36550610": {
+      "head": "GLUCOSE1PMETAB-PWY",
+      "head_type": "pathway",
+      "relation": "encoded by",
+      "tail": "Bifidobacterium",
+      "tail_type": "bacteria"
+    },
+    "36550611": {
+      "head": "PWY-7328",
+      "head_type": "pathway",
+      "relation": "encoded by",
+      "tail": "Bifidobacterium",
+      "tail_type": "bacteria"
+    }
+  }
+}

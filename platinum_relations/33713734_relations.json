@@ -1,0 +1,125 @@
+{
+  "title": "Affective disorders impact prevalence of Flavonifractor and abundance of Christensenellaceae in gut microbiota.",
+  "abstract": "Background Affective disorders (AD) have been associated with a higher prevalence of the gut Flavonifractor genus and a lower abundance of the gut Christensenellaceae family. Objective and methods By pooling two independent study samples of patients with AD (n\u00a0=\u00a0176), their unaffected first-degree relatives (n\u00a0=\u00a070) and healthy controls (n\u00a0=\u00a0101) we aimed to replicate and extend our prior findings of differential Flavonifractor prevalence and Christensenellaceae abundance when comparing patients with AD and healthy controls. The gut microbiota was profiled using 16S rRNA gene amplicon sequencing. Results The pattern of higher prevalence of Flavonifractor and lower Centered Log-Ratio (CLR) abundance of Christensenellaceae was associated with AD. In generalized linear models the CLR abundance of Christensenellaceae was lower in patients with AD (p\u00a0=\u00a00.024), and in smokers (p\u00a0=\u00a01.9*10<sup>-4</sup>), and inversely associated with increasing waist circumference (p\u00a0=\u00a00.031). The prevalence of Flavonifractor was higher in patients with AD (p\u00a0=\u00a00.033) and in smokers (p\u00a0=\u00a00.036). No impact of psychotropic medication was found. The CLR abundance of Christensenellaceae (p\u00a0=\u00a00.041), but not the prevalence of Flavonifractor (p\u00a0=\u00a00.20) could distinguish non-smoking patients with AD from non-smoking healthy controls, whereas no such associations were found in smokers. Unaffected relatives neither differed from patients with AD nor from healthy controls. Conclusion Compared with findings in healthy controls, AD was associated with a significantly lower CLR abundance of the health-linked Christensenellaceae and a significantly higher prevalence of Flavonifractor; findings that are associated with enhanced oxidative stress and systemic low-grade inflammation. If our observations are validated in future independent studies, they support the notion that parts of aberrant gut microbiota are shared by AD and states of dysmetabolism.",
+  "relations": {
+    "33713735": {
+      "head": "Affective disorders",
+      "head_type": "disease",
+      "relation": "impact prevalence of",
+      "tail": "Flavonifractor",
+      "tail_type": "genus"
+    },
+    "33713736": {
+      "head": "Affective disorders",
+      "head_type": "disease",
+      "relation": "impact abundance of",
+      "tail": "Christensenellaceae",
+      "tail_type": "family"
+    },
+    "33713737": {
+      "head": "AD",
+      "head_type": "disease",
+      "relation": "associated with",
+      "tail": "higher prevalence of",
+      "tail_type": "measure"
+    },
+    "33713738": {
+      "head": "AD",
+      "head_type": "disease",
+      "relation": "associated with",
+      "tail": "lower abundance of",
+      "tail_type": "measure"
+    },
+    "33713739": {
+      "head": "Flavonifractor",
+      "head_type": "genus",
+      "relation": "higher prevalence in",
+      "tail": "patients with AD",
+      "tail_type": "human"
+    },
+    "33713740": {
+      "head": "Christensenellaceae",
+      "head_type": "family",
+      "relation": "lower abundance in",
+      "tail": "patients with AD",
+      "tail_type": "human"
+    },
+    "33713741": {
+      "head": "AD",
+      "head_type": "disease",
+      "relation": "associated with",
+      "tail": "lower CLR abundance",
+      "tail_type": "measure"
+    },
+    "33713742": {
+      "head": "AD",
+      "head_type": "disease",
+      "relation": "associated with",
+      "tail": "higher prevalence",
+      "tail_type": "measure"
+    },
+    "33713743": {
+      "head": "smokers",
+      "head_type": "human",
+      "relation": "associated with",
+      "tail": "lower abundance of",
+      "tail_type": "measure"
+    },
+    "33713744": {
+      "head": "smokers",
+      "head_type": "human",
+      "relation": "associated with",
+      "tail": "higher prevalence of",
+      "tail_type": "measure"
+    },
+    "33713745": {
+      "head": "waist circumference",
+      "head_type": "measure",
+      "relation": "associated with",
+      "tail": "lower abundance of",
+      "tail_type": "measure"
+    },
+    "33713746": {
+      "head": "AD",
+      "head_type": "disease",
+      "relation": "associated with",
+      "tail": "enhanced oxidative stress",
+      "tail_type": "condition"
+    },
+    "33713747": {
+      "head": "AD",
+      "head_type": "disease",
+      "relation": "associated with",
+      "tail": "systemic low-grade inflammation",
+      "tail_type": "condition"
+    },
+    "33713748": {
+      "head": "gut microbiota",
+      "head_type": "microbial community",
+      "relation": "differential in",
+      "tail": "patients with AD",
+      "tail_type": "human"
+    },
+    "33713749": {
+      "head": "gut microbiota",
+      "head_type": "microbial community",
+      "relation": "differential in",
+      "tail": "healthy controls",
+      "tail_type": "human"
+    },
+    "33713750": {
+      "head": "AD",
+      "head_type": "disease",
+      "relation": "share parts of aberrant",
+      "tail": "gut microbiota",
+      "tail_type": "microbial community"
+    },
+    "33713751": {
+      "head": "AD",
+      "head_type": "disease",
+      "relation": "share parts of aberrant",
+      "tail": "dysmetabolism",
+      "tail_type": "condition"
+    }
+  }
+}

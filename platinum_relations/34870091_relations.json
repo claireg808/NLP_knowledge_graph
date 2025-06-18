@@ -1,0 +1,412 @@
+{
+  "title": "Compositional and functional alterations in the oral and gut microbiota in patients with psychosis or schizophrenia: A systematic review.",
+  "abstract": "<b>Background:</b> Gut and oral microbiota are intrinsically linked to human health. Recent studies suggest a direct link with mental health through bidirectional gut-brain pathways. Emerging evidence suggests that the composition and/or function of intestinal microbiome differs in those with psychosis and schizophrenia as compared with controls. There is relatively little research on the predicted or actual functional alterations associated with the composition of oral and gut microbiota in patients with psychosis. We will perform a systematic review and meta-analysis to identify, evaluate and if possible, combine the published literature on compositional alterations in the oral and gut microbiota in patients with psychosis or schizophrenia compared with healthy controls. We also aim to explore the potential functional impact of any compositional changes. <b>Methods:</b> Original studies involving humans and animals using a case-control, cohort or cross-sectional design will be included. The electronic databases PsycINFO, EMBASE, Web of Science, PubMed/MEDLINE and Cochrane will be systematically searched. Quantitative analyses will be performed using random-effects meta-analyses to calculate mean difference with 95% confidence intervals. <b>Discussion:</b> Changes in microbiota composition in psychosis and schizophrenia have been correlated with alternations in brain structure and function, altered immunity, altered metabolic pathways and symptom severity. Changes have also been identified as potential biomarkers for psychosis that might aid in diagnosis. Understanding how predicted or actual functional alterations in microbial genes or metabolic pathways influence symptomatic expression and downstream clinical outcomes may contribute to the development of microbiome targeted interventions for psychosis. <b>Registration:</b> The study is prospectively registered in PROSPERO, the International Prospective Register of Systematic Reviews (CRD42021260208).",
+  "relations": {
+    "34870092": {
+      "head": "oral microbiota",
+      "head_type": "microbiota_type",
+      "relation": "linked_to",
+      "tail": "human health",
+      "tail_type": "health_aspect"
+    },
+    "34870093": {
+      "head": "gut microbiota",
+      "head_type": "microbiota_type",
+      "relation": "linked_to",
+      "tail": "human health",
+      "tail_type": "health_aspect"
+    },
+    "34870094": {
+      "head": "mental health",
+      "head_type": "health_aspect",
+      "relation": "linked_through",
+      "tail": "gut-brain pathways",
+      "tail_type": "biological_pathway"
+    },
+    "34870095": {
+      "head": "psychosis",
+      "head_type": "mental_condition",
+      "relation": "associated_with",
+      "tail": "microbiome composition",
+      "tail_type": "microbiome_feature"
+    },
+    "34870096": {
+      "head": "schizophrenia",
+      "head_type": "mental_condition",
+      "relation": "associated_with",
+      "tail": "microbiome composition",
+      "tail_type": "microbiome_feature"
+    },
+    "34870097": {
+      "head": "oral microbiota",
+      "head_type": "microbiota_type",
+      "relation": "differ_in",
+      "tail": "psychosis patients",
+      "tail_type": "patient_group"
+    },
+    "34870098": {
+      "head": "gut microbiota",
+      "head_type": "microbiota_type",
+      "relation": "differ_in",
+      "tail": "schizophrenia patients",
+      "tail_type": "patient_group"
+    },
+    "34870099": {
+      "head": "microbiota composition",
+      "head_type": "microbiome_feature",
+      "relation": "correlated_with",
+      "tail": "brain structure changes",
+      "tail_type": "biological_change"
+    },
+    "34870100": {
+      "head": "microbiota composition",
+      "head_type": "microbiome_feature",
+      "relation": "correlated_with",
+      "tail": "brain function changes",
+      "tail_type": "biological_change"
+    },
+    "34870101": {
+      "head": "microbiota composition",
+      "head_type": "microbiome_feature",
+      "relation": "correlated_with",
+      "tail": "immune system alterations",
+      "tail_type": "biological_change"
+    },
+    "34870102": {
+      "head": "microbiota composition",
+      "head_type": "microbiome_feature",
+      "relation": "correlated_with",
+      "tail": "metabolic pathway changes",
+      "tail_type": "biological_process"
+    },
+    "34870103": {
+      "head": "microbiota composition",
+      "head_type": "microbiome_feature",
+      "relation": "correlated_with",
+      "tail": "symptom severity",
+      "tail_type": "health_outcome"
+    },
+    "34870104": {
+      "head": "microbial genes",
+      "head_type": "genetic_feature",
+      "relation": "influence",
+      "tail": "symptomatic expression",
+      "tail_type": "symptom"
+    },
+    "34870105": {
+      "head": "microbial genes",
+      "head_type": "genetic_feature",
+      "relation": "influence",
+      "tail": "clinical outcomes",
+      "tail_type": "health_outcome"
+    },
+    "34870106": {
+      "head": "microbiome targeted interventions",
+      "head_type": "intervention_strategy",
+      "relation": "target",
+      "tail": "psychosis",
+      "tail_type": "mental_condition"
+    },
+    "34870107": {
+      "head": "psychosis",
+      "head_type": "mental_condition",
+      "relation": "linked_with",
+      "tail": "microbiota changes",
+      "tail_type": "microbiome_feature"
+    },
+    "34870108": {
+      "head": "schizophrenia",
+      "head_type": "mental_condition",
+      "relation": "linked_with",
+      "tail": "microbiota changes",
+      "tail_type": "microbiome_feature"
+    },
+    "34870109": {
+      "head": "microbiota composition",
+      "head_type": "microbiome_feature",
+      "relation": "predicted_or_actual_functional_alterations",
+      "tail": "functional impact",
+      "tail_type": "biological_effect"
+    },
+    "34870110": {
+      "head": "compositional alterations",
+      "head_type": "microbiome_feature",
+      "relation": "associated_with",
+      "tail": "psychosis",
+      "tail_type": "mental_condition"
+    },
+    "34870111": {
+      "head": "compositional alterations",
+      "head_type": "microbiome_feature",
+      "relation": "associated_with",
+      "tail": "schizophrenia",
+      "tail_type": "mental_condition"
+    },
+    "34870112": {
+      "head": "psychosis",
+      "head_type": "mental_condition",
+      "relation": "linked_to",
+      "tail": "microbiota",
+      "tail_type": "microbiota_type"
+    },
+    "34870113": {
+      "head": "schizophrenia",
+      "head_type": "mental_condition",
+      "relation": "linked_to",
+      "tail": "microbiota",
+      "tail_type": "microbiota_type"
+    },
+    "34870114": {
+      "head": "microbiome",
+      "head_type": "microbiome_feature",
+      "relation": "influences",
+      "tail": "symptomatic expression",
+      "tail_type": "symptom"
+    },
+    "34870115": {
+      "head": "microbiome",
+      "head_type": "microbiome_feature",
+      "relation": "influences",
+      "tail": "clinical outcomes",
+      "tail_type": "health_outcome"
+    },
+    "34870116": {
+      "head": "psychosis",
+      "head_type": "mental_condition",
+      "relation": "linked_with",
+      "tail": "microbiome",
+      "tail_type": "microbiome_feature"
+    },
+    "34870117": {
+      "head": "schizophrenia",
+      "head_type": "mental_condition",
+      "relation": "linked_with",
+      "tail": "microbiome",
+      "tail_type": "microbiome_feature"
+    },
+    "34870118": {
+      "head": "mental health",
+      "head_type": "health_aspect",
+      "relation": "linked_to",
+      "tail": "gut-brain pathways",
+      "tail_type": "biological_pathway"
+    },
+    "34870119": {
+      "head": "psychosis patients",
+      "head_type": "patient_group",
+      "relation": "have",
+      "tail": "microbiome differences",
+      "tail_type": "microbiome_feature"
+    },
+    "34870120": {
+      "head": "schizophrenia patients",
+      "head_type": "patient_group",
+      "relation": "have",
+      "tail": "microbiome differences",
+      "tail_type": "microbiome_feature"
+    },
+    "34870121": {
+      "head": "microbiome changes",
+      "head_type": "microbiome_feature",
+      "relation": "linked_to",
+      "tail": "brain structure",
+      "tail_type": "biological_structure"
+    },
+    "34870122": {
+      "head": "microbiome changes",
+      "head_type": "microbiome_feature",
+      "relation": "linked_to",
+      "tail": "brain function",
+      "tail_type": "biological_function"
+    },
+    "34870123": {
+      "head": "microbiome changes",
+      "head_type": "microbiome_feature",
+      "relation": "linked_to",
+      "tail": "immune system",
+      "tail_type": "biological_system"
+    },
+    "34870124": {
+      "head": "microbiome changes",
+      "head_type": "microbiome_feature",
+      "relation": "linked_to",
+      "tail": "metabolic pathways",
+      "tail_type": "biological_process"
+    },
+    "34870125": {
+      "head": "microbiome changes",
+      "head_type": "microbiome_feature",
+      "relation": "linked_to",
+      "tail": "symptom severity",
+      "tail_type": "health_outcome"
+    },
+    "34870126": {
+      "head": "microbiome",
+      "head_type": "microbiome_feature",
+      "relation": "linked_to",
+      "tail": "biomarkers",
+      "tail_type": "biomarker"
+    },
+    "34870127": {
+      "head": "biomarkers",
+      "head_type": "biomarker",
+      "relation": "used_for",
+      "tail": "diagnosis",
+      "tail_type": "diagnostic_process"
+    },
+    "34870128": {
+      "head": "microbiome",
+      "head_type": "microbiome_feature",
+      "relation": "linked_to",
+      "tail": "therapeutic targets",
+      "tail_type": "therapeutic_target"
+    },
+    "34870129": {
+      "head": "psychosis",
+      "head_type": "mental_condition",
+      "relation": "linked_to",
+      "tail": "therapeutic targets",
+      "tail_type": "therapeutic_target"
+    },
+    "34870130": {
+      "head": "schizophrenia",
+      "head_type": "mental_condition",
+      "relation": "linked_to",
+      "tail": "therapeutic targets",
+      "tail_type": "therapeutic_target"
+    },
+    "34870131": {
+      "head": "systematic review",
+      "head_type": "research_method",
+      "relation": "examines",
+      "tail": "microbiota",
+      "tail_type": "microbiota_type"
+    },
+    "34870132": {
+      "head": "systematic review",
+      "head_type": "research_method",
+      "relation": "examines",
+      "tail": "psychosis",
+      "tail_type": "mental_condition"
+    },
+    "34870133": {
+      "head": "systematic review",
+      "head_type": "research_method",
+      "relation": "examines",
+      "tail": "schizophrenia",
+      "tail_type": "mental_condition"
+    },
+    "34870134": {
+      "head": "meta-analysis",
+      "head_type": "research_method",
+      "relation": "performs",
+      "tail": "quantitative analysis",
+      "tail_type": "analysis_type"
+    },
+    "34870135": {
+      "head": "meta-analysis",
+      "head_type": "research_method",
+      "relation": "calculates",
+      "tail": "mean difference",
+      "tail_type": "statistical_measure"
+    },
+    "34870136": {
+      "head": "meta-analysis",
+      "head_type": "research_method",
+      "relation": "calculates",
+      "tail": "95% confidence intervals",
+      "tail_type": "statistical_measure"
+    },
+    "34870137": {
+      "head": "psychosis",
+      "head_type": "mental_condition",
+      "relation": "linked_to",
+      "tail": "microbiome composition",
+      "tail_type": "microbiome_feature"
+    },
+    "34870138": {
+      "head": "schizophrenia",
+      "head_type": "mental_condition",
+      "relation": "linked_to",
+      "tail": "microbiome composition",
+      "tail_type": "microbiome_feature"
+    },
+    "34870139": {
+      "head": "microbiome composition",
+      "head_type": "microbiome_feature",
+      "relation": "linked_to",
+      "tail": "functional alterations",
+      "tail_type": "biological_change"
+    },
+    "34870140": {
+      "head": "psychosis",
+      "head_type": "mental_condition",
+      "relation": "linked_to",
+      "tail": "functional alterations",
+      "tail_type": "biological_change"
+    },
+    "34870141": {
+      "head": "schizophrenia",
+      "head_type": "mental_condition",
+      "relation": "linked_to",
+      "tail": "functional alterations",
+      "tail_type": "biological_change"
+    },
+    "34870142": {
+      "head": "microbiome",
+      "head_type": "microbiome_feature",
+      "relation": "linked_to",
+      "tail": "interventions",
+      "tail_type": "intervention_strategy"
+    },
+    "34870143": {
+      "head": "psychosis",
+      "head_type": "mental_condition",
+      "relation": "linked_to",
+      "tail": "interventions",
+      "tail_type": "intervention_strategy"
+    },
+    "34870144": {
+      "head": "schizophrenia",
+      "head_type": "mental_condition",
+      "relation": "linked_to",
+      "tail": "interventions",
+      "tail_type": "intervention_strategy"
+    },
+    "34870145": {
+      "head": "psychosis",
+      "head_type": "mental_condition",
+      "relation": "linked_to",
+      "tail": "microbiota composition",
+      "tail_type": "microbiome_feature"
+    },
+    "34870146": {
+      "head": "schizophrenia",
+      "head_type": "mental_condition",
+      "relation": "linked_to",
+      "tail": "microbiota composition",
+      "tail_type": "microbiome_feature"
+    },
+    "34870147": {
+      "head": "microbiota composition",
+      "head_type": "microbiome_feature",
+      "relation": "linked_to",
+      "tail": "functional impact",
+      "tail_type": "biological_effect"
+    },
+    "34870148": {
+      "head": "psychosis",
+      "head_type": "mental_condition",
+      "relation": "linked_to",
+      "tail": "functional impact",
+      "tail_type": "biological_effect"
+    },
+    "34870149": {
+      "head": "schizophrenia",
+      "head_type": "mental_condition",
+      "relation": "linked_to",
+      "tail": "functional impact",
+      "tail_type": "biological_effect"
+    }
+  }
+}

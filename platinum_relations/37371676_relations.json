@@ -1,0 +1,356 @@
+{
+  "title": "Using the Microbiome as a Regenerative Medicine Strategy for Autoimmune Diseases.",
+  "abstract": "Autoimmune (AI) diseases, which present in a multitude of systemic manifestations, have been connected to many underlying factors. These factors include the environment, genetics, individual microbiomes, and diet. An individual's gut microbiota is an integral aspect of human functioning, as it is intimately integrated into the metabolic, mechanical, immunological, and neurologic pathways of the body. The microbiota dynamically changes throughout our lifetimes and is individually unique. While the gut microbiome is ever-adaptive, gut dysbiosis can exert a significant influence on physical and mental health. Gut dysbiosis is a common factor in various AI, and diets with elevated fat and sugar content have been linked to gut microbiome alterations, contributing to increased systemic inflammation. Additionally, multiple AI's have increased levels of certain inflammatory markers such as TNF-a, IL-6, and IL-17 that have been shown to contribute to arthropathy and are also linked to increased levels of gut dysbiosis. While chronic inflammation has been shown to affect many physiologic systems, this review explores the connection between gut microbiota, bone metabolism, and the skeletal and joint destruction associated with various AI, including psoriatic arthritis, systemic lupus erythematosus, irritable bowel disease, and rheumatoid arthritis. This review aims to define the mechanisms of microbiome crosstalk between the cells of bone and cartilage, as well as to investigate the potential bidirectional connections between AI, bony and cartilaginous tissue, and the gut microbiome. By doing this, the review also introduces the concept of altering an individual's specific gut microbiota as a form of regenerative medicine and potential tailored therapy for joint destruction seen in AI. We hope to show multiple, specific ways to target the microbiome through diet changes, rebalancing microbial diversity, or decreasing specific microbes associated with increased gut permeability, leading to reduced systemic inflammation contributing to joint pathology. Additionally, we plan to show that diet alterations can promote beneficial changes in the gut microbiota, supporting the body's own endogenous processes to decrease inflammation and increase healing. This concept of microbial alteration falls under the definition of regenerative medicine and should be included accordingly. By implementing microbial alterations in regenerative medicine, this current study could lend increasing support to the current research on the associations of the gut microbiota, bone metabolism, and AI-related musculoskeletal pathology.",
+  "relations": {
+    "37371677": {
+      "head": "Microbiome",
+      "head_type": "Strategy",
+      "relation": "regenerative medicine strategy",
+      "tail": "Autoimmune Diseases",
+      "tail_type": "Disease"
+    },
+    "37371678": {
+      "head": "Autoimmune diseases",
+      "head_type": "Disease",
+      "relation": "connected to",
+      "tail": "environment",
+      "tail_type": "Factor"
+    },
+    "37371679": {
+      "head": "Autoimmune diseases",
+      "head_type": "Disease",
+      "relation": "connected to",
+      "tail": "genetics",
+      "tail_type": "Factor"
+    },
+    "37371680": {
+      "head": "Autoimmune diseases",
+      "head_type": "Disease",
+      "relation": "connected to",
+      "tail": "individual microbiomes",
+      "tail_type": "Factor"
+    },
+    "37371681": {
+      "head": "Autoimmune diseases",
+      "head_type": "Disease",
+      "relation": "connected to",
+      "tail": "diet",
+      "tail_type": "Factor"
+    },
+    "37371682": {
+      "head": "Gut microbiota",
+      "head_type": "Microbiome",
+      "relation": "integral aspect of",
+      "tail": "human functioning",
+      "tail_type": "Physiology"
+    },
+    "37371683": {
+      "head": "Gut microbiota",
+      "head_type": "Microbiome",
+      "relation": "integrated into",
+      "tail": "metabolic pathways",
+      "tail_type": "Physiology"
+    },
+    "37371684": {
+      "head": "Gut microbiota",
+      "head_type": "Microbiome",
+      "relation": "integrated into",
+      "tail": "mechanical pathways",
+      "tail_type": "Physiology"
+    },
+    "37371685": {
+      "head": "Gut microbiota",
+      "head_type": "Microbiome",
+      "relation": "integrated into",
+      "tail": "immunological pathways",
+      "tail_type": "Physiology"
+    },
+    "37371686": {
+      "head": "Gut microbiota",
+      "head_type": "Microbiome",
+      "relation": "integrated into",
+      "tail": "neurologic pathways",
+      "tail_type": "Physiology"
+    },
+    "37371687": {
+      "head": "Gut microbiome",
+      "head_type": "Microbiome",
+      "relation": "dynamically changes",
+      "tail": "lifetimes",
+      "tail_type": "Time"
+    },
+    "37371688": {
+      "head": "Gut microbiome",
+      "head_type": "Microbiome",
+      "relation": "individually unique",
+      "tail": "individuals",
+      "tail_type": "Human"
+    },
+    "37371689": {
+      "head": "Gut dysbiosis",
+      "head_type": "Gut Condition",
+      "relation": "influence",
+      "tail": "physical health",
+      "tail_type": "Health"
+    },
+    "37371690": {
+      "head": "Gut dysbiosis",
+      "head_type": "Gut Condition",
+      "relation": "influence",
+      "tail": "mental health",
+      "tail_type": "Health"
+    },
+    "37371691": {
+      "head": "Gut dysbiosis",
+      "head_type": "Gut Condition",
+      "relation": "common factor in",
+      "tail": "Autoimmune diseases",
+      "tail_type": "Disease"
+    },
+    "37371692": {
+      "head": "Diets",
+      "head_type": "Diet",
+      "relation": "linked to",
+      "tail": "gut microbiome alterations",
+      "tail_type": "Microbiome Change"
+    },
+    "37371693": {
+      "head": "Diets",
+      "head_type": "Diet",
+      "relation": "linked to",
+      "tail": "increased systemic inflammation",
+      "tail_type": "Inflammation"
+    },
+    "37371694": {
+      "head": "Inflammatory markers",
+      "head_type": "Biological Marker",
+      "relation": "increased levels in",
+      "tail": "AI diseases",
+      "tail_type": "Disease"
+    },
+    "37371695": {
+      "head": "Inflammatory markers",
+      "head_type": "Biological Marker",
+      "relation": "contribute to",
+      "tail": "arthropathy",
+      "tail_type": "Condition"
+    },
+    "37371696": {
+      "head": "Inflammatory markers",
+      "head_type": "Biological Marker",
+      "relation": "linked to",
+      "tail": "gut dysbiosis",
+      "tail_type": "Gut Condition"
+    },
+    "37371697": {
+      "head": "Chronic inflammation",
+      "head_type": "Inflammation",
+      "relation": "affect",
+      "tail": "physiologic systems",
+      "tail_type": " Physiology"
+    },
+    "37371698": {
+      "head": "Gut microbiota",
+      "head_type": "Microbiome",
+      "relation": "connected to",
+      "tail": "bone metabolism",
+      "tail_type": "Physiology"
+    },
+    "37371699": {
+      "head": "Gut microbiota",
+      "head_type": "Microbiome",
+      "relation": "connected to",
+      "tail": "skeletal destruction",
+      "tail_type": "Condition"
+    },
+    "37371700": {
+      "head": "Gut microbiota",
+      "head_type": "Microbiome",
+      "relation": "connected to",
+      "tail": "joint destruction",
+      "tail_type": "Condition"
+    },
+    "37371701": {
+      "head": "Psoriatic arthritis",
+      "head_type": "Disease",
+      "relation": "associated with",
+      "tail": "Autoimmune diseases",
+      "tail_type": "Disease"
+    },
+    "37371702": {
+      "head": "Systemic lupus erythematosus",
+      "head_type": "Disease",
+      "relation": "associated with",
+      "tail": "Autoimmune diseases",
+      "tail_type": "Disease"
+    },
+    "37371703": {
+      "head": "Irritable bowel disease",
+      "head_type": "Disease",
+      "relation": "associated with",
+      "tail": "Autoimmune diseases",
+      "tail_type": "Disease"
+    },
+    "37371704": {
+      "head": "Rheumatoid arthritis",
+      "head_type": "Disease",
+      "relation": "associated with",
+      "tail": "Autoimmune diseases",
+      "tail_type": "Disease"
+    },
+    "37371705": {
+      "head": "Microbiome crosstalk",
+      "head_type": "Communication Mechanism",
+      "relation": "between",
+      "tail": "bone cells",
+      "tail_type": "Cell"
+    },
+    "37371706": {
+      "head": "Microbiome crosstalk",
+      "head_type": "Communication Mechanism",
+      "relation": "between",
+      "tail": "cartilage cells",
+      "tail_type": "Cell"
+    },
+    "37371707": {
+      "head": "Microbial alteration",
+      "head_type": "Therapeutic Strategy",
+      "relation": "form of",
+      "tail": "regenerative medicine",
+      "tail_type": "Medicine"
+    },
+    "37371708": {
+      "head": "Microbial alteration",
+      "head_type": "Therapeutic Strategy",
+      "relation": "potential therapy for",
+      "tail": "joint destruction",
+      "tail_type": "Condition"
+    },
+    "37371709": {
+      "head": "Diet changes",
+      "head_type": "Therapeutic Strategy",
+      "relation": "target",
+      "tail": "microbiome",
+      "tail_type": "Microbiome"
+    },
+    "37371710": {
+      "head": "Rebalancing microbial diversity",
+      "head_type": "Therapeutic Strategy",
+      "relation": "target",
+      "tail": "microbiome",
+      "tail_type": "Microbiome"
+    },
+    "37371711": {
+      "head": "Decreasing specific microbes",
+      "head_type": "Therapeutic Strategy",
+      "relation": "target",
+      "tail": "gut permeability",
+      "tail_type": "Physiology"
+    },
+    "37371712": {
+      "head": "Diet alterations",
+      "head_type": "Therapeutic Strategy",
+      "relation": "promote",
+      "tail": "beneficial changes",
+      "tail_type": "Microbiome"
+    },
+    "37371713": {
+      "head": "Gut microbiota",
+      "head_type": "Microbiome",
+      "relation": "support",
+      "tail": "endogenous processes",
+      "tail_type": "Physiology"
+    },
+    "37371714": {
+      "head": "Endogenous processes",
+      "head_type": "Physiology",
+      "relation": "decrease",
+      "tail": "inflammation",
+      "tail_type": "Inflammation"
+    },
+    "37371715": {
+      "head": "Endogenous processes",
+      "head_type": "Physiology",
+      "relation": "increase",
+      "tail": "healing",
+      "tail_type": "Health"
+    },
+    "37371716": {
+      "head": "Microbial alteration",
+      "head_type": "Therapeutic Strategy",
+      "relation": "included in",
+      "tail": "regenerative medicine",
+      "tail_type": "Medicine"
+    },
+    "37371717": {
+      "head": "Gut microbiota",
+      "head_type": "Microbiome",
+      "relation": "linked to",
+      "tail": "bone metabolism",
+      "tail_type": "Physiology"
+    },
+    "37371718": {
+      "head": "Gut microbiota",
+      "head_type": "Microbiome",
+      "relation": "linked to",
+      "tail": "AI-related musculoskeletal pathology",
+      "tail_type": "Disease"
+    },
+    "37371719": {
+      "head": "Multidisciplinary approach",
+      "head_type": "Approach",
+      "relation": "includes",
+      "tail": "dietitians",
+      "tail_type": "Professional"
+    },
+    "37371720": {
+      "head": "Multidisciplinary approach",
+      "head_type": "Approach",
+      "relation": "includes",
+      "tail": "immunologists",
+      "tail_type": "Professional"
+    },
+    "37371721": {
+      "head": "Multidisciplinary approach",
+      "head_type": "Approach",
+      "relation": "includes",
+      "tail": "microbiologists",
+      "tail_type": "Professional"
+    },
+    "37371722": {
+      "head": "Multidisciplinary approach",
+      "head_type": "Approach",
+      "relation": "includes",
+      "tail": "orthopedic surgeons",
+      "tail_type": "Professional"
+    },
+    "37371723": {
+      "head": "Comprehensive understanding",
+      "head_type": "Understanding",
+      "relation": "linking",
+      "tail": "gut",
+      "tail_type": "Organ"
+    },
+    "37371724": {
+      "head": "Comprehensive understanding",
+      "head_type": "Understanding",
+      "relation": "linking",
+      "tail": "bone",
+      "tail_type": "Organ"
+    },
+    "37371725": {
+      "head": "Comprehensive understanding",
+      "head_type": "Understanding",
+      "relation": "linking",
+      "tail": "cartilage",
+      "tail_type": "Organ"
+    },
+    "37371726": {
+      "head": "Potential therapeutic strategies",
+      "head_type": "Strategy",
+      "relation": "for",
+      "tail": "AI patients",
+      "tail_type": "Patients"
+    }
+  }
+}

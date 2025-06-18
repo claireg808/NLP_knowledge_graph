@@ -1,0 +1,160 @@
+{
+  "title": "Association of homelessness and diet on the gut microbiome: a United States-Veteran Microbiome Project (US-VMP) study.",
+  "abstract": "Military veterans account for 8% of homeless individuals living in the United States. To highlight associations between history of homelessness and the gut microbiome, we compared the gut microbiome of veterans who reported having a previous experience of homelessness to those from individuals who reported never having experienced a period of homelessness. Moreover, we examined the impact of the cumulative exposure of prior and current homelessness to understand possible associations between these experiences and the gut microbiome. Microbiome samples underwent genomic sequencing and were analyzed based on alpha diversity, beta diversity, and taxonomic differences. Additionally, demographic information, dietary data, and mental health history were collected. A lifetime history of homelessness was found to be associated with alcohol use disorder, substance use disorder, and healthy eating index compared to those without such a history. In terms of differences in gut microbiota, beta diversity was significantly different between veterans who had experienced homelessness and veterans who had never been homeless (<i>P</i> = 0.047, weighted UniFrac), while alpha diversity was similar. The microbial community differences were, in part, driven by a lower relative abundance of <i>Akkermansia</i> in veterans who had experienced homelessness (mean; range [in percentages], 1.07; 0-33.9) compared to veterans who had never been homeless (2.02; 0-36.8) (<i>P</i> = 0.014, ancom-bc2). Additional research is required to facilitate understanding regarding the complex associations between homelessness, the gut microbiome, and mental and physical health conditions, with a focus on increasing understanding regarding the longitudinal impact of housing instability throughout the lifespan.IMPORTANCEAlthough there are known stressors related to homelessness as well as chronic health conditions experienced by those without stable housing, there has been limited work evaluating the associations between microbial community composition and homelessness. We analyzed, for the first time, bacterial gut microbiome associations among those with experiences of homelessness on alpha diversity, beta diversity, and taxonomic differences. Additionally, we characterized the influences of diet, demographic characteristics, military service history, and mental health conditions on the microbiome of veterans with and without any lifetime history of homelessness. Future longitudinal research to evaluate the complex relationships between homelessness, the gut microbiome, and mental health outcomes is recommended. Ultimately, differences in the gut microbiome of individuals experiencing and not experiencing homelessness could assist in identification of treatment targets to improve health outcomes.",
+  "relations": {
+    "38132706": {
+      "head": "homelessness",
+      "head_type": "condition",
+      "relation": "associated with",
+      "tail": "gut microbiome",
+      "tail_type": "biome"
+    },
+    "38132707": {
+      "head": "homelessness",
+      "head_type": "condition",
+      "relation": "affects",
+      "tail": "alpha diversity",
+      "tail_type": "diversity metric"
+    },
+    "38132708": {
+      "head": "homelessness",
+      "head_type": "condition",
+      "relation": "affects",
+      "tail": "beta diversity",
+      "tail_type": "diversity metric"
+    },
+    "38132709": {
+      "head": "homelessness",
+      "head_type": "condition",
+      "relation": "impacts",
+      "tail": "Akkermansia",
+      "tail_type": "microbial genus"
+    },
+    "38132710": {
+      "head": "homelessness",
+      "head_type": "condition",
+      "relation": "linked to",
+      "tail": "alcohol use disorder",
+      "tail_type": "disorder"
+    },
+    "38132711": {
+      "head": "homelessness",
+      "head_type": "condition",
+      "relation": "linked to",
+      "tail": "substance use disorder",
+      "tail_type": "disorder"
+    },
+    "38132712": {
+      "head": "homelessness",
+      "head_type": "condition",
+      "relation": "linked to",
+      "tail": "healthy eating index",
+      "tail_type": "dietary index"
+    },
+    "38132713": {
+      "head": "veterans",
+      "head_type": "demographic group",
+      "relation": "compose",
+      "tail": "8% of homeless individuals",
+      "tail_type": "statistic"
+    },
+    "38132714": {
+      "head": "veterans",
+      "head_type": "demographic group",
+      "relation": "participate in",
+      "tail": "US-VMP study",
+      "tail_type": "research project"
+    },
+    "38132715": {
+      "head": "gut microbiome",
+      "head_type": "biome",
+      "relation": "analyzed for",
+      "tail": "alpha diversity",
+      "tail_type": "diversity metric"
+    },
+    "38132716": {
+      "head": "gut microbiome",
+      "head_type": "biome",
+      "relation": "analyzed for",
+      "tail": "beta diversity",
+      "tail_type": "diversity metric"
+    },
+    "38132717": {
+      "head": "gut microbiome",
+      "head_type": "biome",
+      "relation": "analyzed for",
+      "tail": "taxonomic differences",
+      "tail_type": "taxonomic analysis"
+    },
+    "38132718": {
+      "head": "dietary data",
+      "head_type": "data type",
+      "relation": "collected for",
+      "tail": "veterans",
+      "tail_type": "demographic group"
+    },
+    "38132719": {
+      "head": "mental health history",
+      "head_type": "health data",
+      "relation": "collected for",
+      "tail": "veterans",
+      "tail_type": "demographic group"
+    },
+    "38132720": {
+      "head": "Akkermansia",
+      "head_type": "microbial genus",
+      "relation": "shows lower abundance in",
+      "tail": "homeless veterans",
+      "tail_type": "demographic subgroup"
+    },
+    "38132721": {
+      "head": "homelessness",
+      "head_type": "condition",
+      "relation": "impacts",
+      "tail": "mental health outcomes",
+      "tail_type": "health outcome"
+    },
+    "38132722": {
+      "head": "homelessness",
+      "head_type": "condition",
+      "relation": "impacts",
+      "tail": "physical health conditions",
+      "tail_type": "health condition"
+    },
+    "38132723": {
+      "head": "homelessness",
+      "head_type": "condition",
+      "relation": "impacts",
+      "tail": "longitudinal health outcomes",
+      "tail_type": "longitudinal study"
+    },
+    "38132724": {
+      "head": "US-VMP study",
+      "head_type": "research project",
+      "relation": "examines",
+      "tail": "homelessness",
+      "tail_type": "condition"
+    },
+    "38132725": {
+      "head": "US-VMP study",
+      "head_type": "research project",
+      "relation": "examines",
+      "tail": "gut microbiome",
+      "tail_type": "biome"
+    },
+    "38132726": {
+      "head": "US-VMP study",
+      "head_type": "research project",
+      "relation": "examines",
+      "tail": "mental health",
+      "tail_type": "health aspect"
+    },
+    "38132727": {
+      "head": "US-VMP study",
+      "head_type": "research project",
+      "relation": "examines",
+      "tail": "physical health",
+      "tail_type": "health aspect"
+    }
+  }
+}

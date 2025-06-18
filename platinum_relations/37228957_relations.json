@@ -1,0 +1,146 @@
+{
+  "title": "The microbiota-gut-brain axis and three common neurological disorders: a mini-review.",
+  "abstract": "Neurological disorders are an important cause of disability and death globally. Recently, a large body of research shows that the gut microbiome affects the brain and its conditions, through the gut-brain axis. The purpose of this mini-review is to provide a brief overview of the relationship between the microbiota-gut-brain axis in three neurological disorders: epilepsy, Parkinson's disease, and migraine. The authors chose these three disorders because of their burdensome and great effect on health care. We live on a microbial planet. Before humans, microorganisms existed for a hundred million years. Today, there are trillions of these microbes living in our bodies, it is called human microbiota. These organisms have a crucial role in our homeostasis and survival. Most of the human microbiota live in the gut. The number of gut microbiota is much more than the number of body cells. Gut microbiota has been regarded as a crucial regulator of the gut-brain axis. The discovery of the microbiota-gut-brain axis is described as a major advancement in neuroscience because it influences the pathophysiology of several neurological and psychiatric disorders. From this, more studies of the microbiota-gut-brain axis are needed in the future, to provide a better understanding of brain disorders and so that better treatment and prognosis.",
+  "relations": {
+    "37228958": {
+      "head": "microbiota-gut-brain axis",
+      "head_type": "biological axis",
+      "relation": "relates to",
+      "tail": "neurological disorders",
+      "tail_type": "disease"
+    },
+    "37228959": {
+      "head": "gut microbiome",
+      "head_type": "microbiome",
+      "relation": "affects",
+      "tail": "brain",
+      "tail_type": "organ"
+    },
+    "37228960": {
+      "head": "gut-brain axis",
+      "head_type": "biological axis",
+      "relation": "regulates",
+      "tail": "neurological disorders",
+      "tail_type": "disease"
+    },
+    "37228961": {
+      "head": "epilepsy",
+      "head_type": "disease",
+      "relation": "associated with",
+      "tail": "microbiota-gut-brain axis",
+      "tail_type": "biological axis"
+    },
+    "37228962": {
+      "head": "Parkinson's disease",
+      "head_type": "disease",
+      "relation": "associated with",
+      "tail": "microbiota-gut-brain axis",
+      "tail_type": "biological axis"
+    },
+    "37228963": {
+      "head": "migraine",
+      "head_type": "disease",
+      "relation": "associated with",
+      "tail": "microbiota-gut-brain axis",
+      "tail_type": "biological axis"
+    },
+    "37228964": {
+      "head": "human microbiota",
+      "head_type": "microbiota",
+      "relation": "exists in",
+      "tail": "human body",
+      "tail_type": "organism"
+    },
+    "37228965": {
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "influences",
+      "tail": "gut-brain axis",
+      "tail_type": "biological axis"
+    },
+    "37228966": {
+      "head": "microbial",
+      "head_type": "microbe",
+      "relation": "exists on",
+      "tail": "planet",
+      "tail_type": "celestial body"
+    },
+    "37228967": {
+      "head": "microorganisms",
+      "head_type": "microbe",
+      "relation": "existed for",
+      "tail": "hundred million years",
+      "tail_type": "time period"
+    },
+    "37228968": {
+      "head": "trillions of microbes",
+      "head_type": "microbe",
+      "relation": "live in",
+      "tail": "human bodies",
+      "tail_type": "organism"
+    },
+    "37228969": {
+      "head": "human microbiota",
+      "head_type": "microbiota",
+      "relation": "plays role in",
+      "tail": "homeostasis",
+      "tail_type": "physiological process"
+    },
+    "37228970": {
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "exceeds",
+      "tail": "number of body cells",
+      "tail_type": "cell count"
+    },
+    "37228971": {
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "regulates",
+      "tail": "gut-brain axis",
+      "tail_type": "biological axis"
+    },
+    "37228972": {
+      "head": "microbiota-gut-brain axis",
+      "head_type": "biological axis",
+      "relation": "influences",
+      "tail": "pathophysiology",
+      "tail_type": "physiological process"
+    },
+    "37228973": {
+      "head": "neurological disorders",
+      "head_type": "disease",
+      "relation": "impacted by",
+      "tail": "microbiota-gut-brain axis",
+      "tail_type": "biological axis"
+    },
+    "37228974": {
+      "head": "psychiatric disorders",
+      "head_type": "disease",
+      "relation": "impacted by",
+      "tail": "microbiota-gut-brain axis",
+      "tail_type": "biological axis"
+    },
+    "37228975": {
+      "head": "future studies",
+      "head_type": "research",
+      "relation": "needed for",
+      "tail": "microbiota-gut-brain axis",
+      "tail_type": "biological axis"
+    },
+    "37228976": {
+      "head": "better understanding",
+      "head_type": "knowledge",
+      "relation": "leads to",
+      "tail": "brain disorders",
+      "tail_type": "disease"
+    },
+    "37228977": {
+      "head": "new treatment options",
+      "head_type": "therapy",
+      "relation": "developed from",
+      "tail": "microbiota-gut-brain axis",
+      "tail_type": "biological axis"
+    }
+  }
+}

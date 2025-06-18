@@ -1,0 +1,209 @@
+{
+  "title": "Porphyra haitanensis Polysaccharides Attenuates Blood Lipid via Gut-Liver Axis in Diet-Induced High-Fat Mesocricetus auratus through Multiple Integrated Omics.",
+  "abstract": "Hyperlipidemia is currently a global public health problem severely affecting people's physical and mental health, as well as their quality of life. The present study is aimed at revealing the mechanism of Porphyra haitanensis polysaccharide (PHP) in decreasing blood lipids by acting through gut-liver axis in Mesocricetus auratus fed a high-fat diet. PHP significantly prevented increases in serum total cholesterol, triglycerides and low-density lipoprotein cholesterol, and alleviated damage to liver cells induced by a high-fat diet M. auratus, in a dose-dependent manner. PHP promotes proliferation of Muribaculaceae and Faecalibaculum, thereby enhancing the production of butyric acid both in the colon and liver, particularly high-dose PHP (HPHP). Low-dose PHP (LPHP) promotes the expression of phosphatidylcholine metabolites and fatty acid transport genes, and inhibits the expression of genes involved in fat degradation (Abhd5), adipogenesis (Me1), fatty acid synthesis (Fasn and Pnpla3), and fatty acid chain elongation (Elovl6) in the liver. However, HPHP inhibits the expression of triglyceride metabolites and promotes the expression of fatty acid transporter (CD36), fatty acid oxidation (Acacb), and peroxisome proliferator-activated receptor gamma (PPARg)\u00a0genes in the liver. PHP regulates lipid metabolism through the gut microbiota, and the gut-liver axis plays an important role in its hypolipidemic effects.",
+  "relations": {
+    "36517710": {
+      "head": "Porphyra haitanensis Polysaccharides",
+      "head_type": "substance",
+      "relation": "attenuates",
+      "tail": "Blood Lipid",
+      "tail_type": "biological substance"
+    },
+    "36517711": {
+      "head": "PHP",
+      "head_type": "substance",
+      "relation": "prevents",
+      "tail": "increases in serum total cholesterol",
+      "tail_type": "biological process"
+    },
+    "36517712": {
+      "head": "PHP",
+      "head_type": "substance",
+      "relation": "prevents",
+      "tail": "increases in triglycerides",
+      "tail_type": "biological process"
+    },
+    "36517713": {
+      "head": "PHP",
+      "head_type": "substance",
+      "relation": "prevents",
+      "tail": "increases in low-density lipoprotein cholesterol",
+      "tail_type": "biological process"
+    },
+    "36517714": {
+      "head": "PHP",
+      "head_type": "substance",
+      "relation": "alleviates",
+      "tail": "damage to liver cells",
+      "tail_type": "biological process"
+    },
+    "36517715": {
+      "head": "PHP",
+      "head_type": "substance",
+      "relation": "promotes",
+      "tail": "proliferation of Muribaculaceae",
+      "tail_type": "biological process"
+    },
+    "36517716": {
+      "head": "PHP",
+      "head_type": "substance",
+      "relation": "promotes",
+      "tail": "proliferation of Faecalibaculum",
+      "tail_type": "biological process"
+    },
+    "36517717": {
+      "head": "PHP",
+      "head_type": "substance",
+      "relation": "enhances",
+      "tail": "production of butyric acid",
+      "tail_type": "biological process"
+    },
+    "36517718": {
+      "head": "Low-dose PHP",
+      "head_type": "substance",
+      "relation": "promotes",
+      "tail": "expression of phosphatidylcholine metabolites",
+      "tail_type": "biological process"
+    },
+    "36517719": {
+      "head": "Low-dose PHP",
+      "head_type": "substance",
+      "relation": "promotes",
+      "tail": "expression of fatty acid transport genes",
+      "tail_type": "biological process"
+    },
+    "36517720": {
+      "head": "Low-dose PHP",
+      "head_type": "substance",
+      "relation": "inhibits",
+      "tail": "expression of Abhd5",
+      "tail_type": "gene"
+    },
+    "36517721": {
+      "head": "Low-dose PHP",
+      "head_type": "substance",
+      "relation": "inhibits",
+      "tail": "expression of Me1",
+      "tail_type": "gene"
+    },
+    "36517722": {
+      "head": "Low-dose PHP",
+      "head_type": "substance",
+      "relation": "inhibits",
+      "tail": "expression of Fasn",
+      "tail_type": "gene"
+    },
+    "36517723": {
+      "head": "Low-dose PHP",
+      "head_type": "substance",
+      "relation": "inhibits",
+      "tail": "expression of Pnpla3",
+      "tail_type": "gene"
+    },
+    "36517724": {
+      "head": "Low-dose PHP",
+      "head_type": "substance",
+      "relation": "inhibits",
+      "tail": "expression of Elovl6",
+      "tail_type": "gene"
+    },
+    "36517725": {
+      "head": "High-dose PHP",
+      "head_type": "substance",
+      "relation": "inhibits",
+      "tail": "expression of triglyceride metabolites",
+      "tail_type": "biological process"
+    },
+    "36517726": {
+      "head": "High-dose PHP",
+      "head_type": "substance",
+      "relation": "promotes",
+      "tail": "expression of fatty acid transporter CD36",
+      "tail_type": "gene"
+    },
+    "36517727": {
+      "head": "High-dose PHP",
+      "head_type": "substance",
+      "relation": "promotes",
+      "tail": "expression of Acacb",
+      "tail_type": "gene"
+    },
+    "36517728": {
+      "head": "High-dose PHP",
+      "head_type": "substance",
+      "relation": "promotes",
+      "tail": "expression of PPARg",
+      "tail_type": "gene"
+    },
+    "36517729": {
+      "head": "PHP",
+      "head_type": "substance",
+      "relation": "regulates",
+      "tail": "lipid metabolism",
+      "tail_type": "biological process"
+    },
+    "36517730": {
+      "head": "gut-liver axis",
+      "head_type": "biological system",
+      "relation": "plays role",
+      "tail": "hypolipidemic effects",
+      "tail_type": "biological process"
+    },
+    "36517731": {
+      "head": "gut microbiota",
+      "head_type": "biological system",
+      "relation": "mediates",
+      "tail": "lipid metabolism regulation",
+      "tail_type": "biological process"
+    },
+    "36517732": {
+      "head": "Mesocricetus auratus",
+      "head_type": "organism",
+      "relation": "fed",
+      "tail": "high-fat diet",
+      "tail_type": "diet"
+    },
+    "36517733": {
+      "head": "Hyperlipidemia",
+      "head_type": "disease",
+      "relation": "affects",
+      "tail": "people's physical health",
+      "tail_type": "health condition"
+    },
+    "36517734": {
+      "head": "Hyperlipidemia",
+      "head_type": "disease",
+      "relation": "affects",
+      "tail": "people's mental health",
+      "tail_type": "health condition"
+    },
+    "36517735": {
+      "head": "Hyperlipidemia",
+      "head_type": "disease",
+      "relation": "impacts",
+      "tail": "quality of life",
+      "tail_type": "quality of life"
+    },
+    "36517736": {
+      "head": "PHP",
+      "head_type": "substance",
+      "relation": "used as",
+      "tail": "potential functional food",
+      "tail_type": "food product"
+    },
+    "36517737": {
+      "head": "PHP",
+      "head_type": "substance",
+      "relation": "used for",
+      "tail": "prevention of hyperlipidemia",
+      "tail_type": "preventive measure"
+    },
+    "36517738": {
+      "head": "PHP",
+      "head_type": "substance",
+      "relation": "used for",
+      "tail": "treatment of hyperlipidemia",
+      "tail_type": "therapeutic measure"
+    }
+  }
+}

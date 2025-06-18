@@ -1,0 +1,125 @@
+{
+  "title": "Effects of Berberine on Gut Microbiota in Patients with Mild Metabolic Disorders Induced by Olanzapine.",
+  "abstract": "Secondary metabolic disturbances in patients with schizophrenia or bipolar disorder may be attributed to olanzapine. It is important to prevent mild metabolic disorders progressing to metabolic syndrome. This study aims to investigate the effects of berberine on intestinal flora in patients with mild metabolic disorders induced by olanzapine. A total of 132 patients with schizophrenia, bipolar disorder, or schizoaffective psychosis that had been treated with olanzapine for at least 9 months were randomly assigned ([Formula: see text] = 66 each) to receive berberine or placebo tablets for 12 weeks. Metabolic assessments and intestinal flora were quantified at baseline and after 4, 8, and 12 weeks of treatment. Incidence rates of adverse reactions were recorded. FPG, FPI, HOMA-IR, HbA1, TG, BMI, and WC were significantly lower in patients who received berberine compared to placebo after 12 weeks of treatment ([Formula: see text]< 0.05). The abundance of firmicutes and coliform were significantly lower and the abundance of bacteroides significantly higher in patients who received berberine compared to placebo after 12 weeks of treatment ([Formula: see text]< 0.05). In patients who received berberine, the abundance of firmicutes was significantly decreased, and the abundance of bacteroides was significantly increased, and in patients who received placebo, the abundance of firmicutes was significantly increased post-treatment, compared to baseline (both [Formula: see text]< 0.05). In conclusions, berberine may regulate intestinal flora and metabolism in patients with schizophrenia or bipolar disorder and mild metabolic disturbances induced by olanzapine.",
+  "relations": {
+    "34961419": {
+      "head": "Berberine",
+      "head_type": "Substance",
+      "relation": "affects",
+      "tail": "Gut Microbiota",
+      "tail_type": "Organism"
+    },
+    "34961420": {
+      "head": "Berberine",
+      "head_type": "Substance",
+      "relation": "treats",
+      "tail": "Mild Metabolic Disorders",
+      "tail_type": "Disease"
+    },
+    "34961421": {
+      "head": "Olanzapine",
+      "head_type": "Substance",
+      "relation": "induces",
+      "tail": "Mild Metabolic Disorders",
+      "tail_type": "Disease"
+    },
+    "34961422": {
+      "head": "Schizophrenia",
+      "head_type": "Disease",
+      "relation": "associated_with",
+      "tail": "Patients",
+      "tail_type": "Human"
+    },
+    "34961423": {
+      "head": "Bipolar Disorder",
+      "head_type": "Disease",
+      "relation": "associated_with",
+      "tail": "Patients",
+      "tail_type": "Human"
+    },
+    "34961424": {
+      "head": "Mild Metabolic Disorders",
+      "head_type": "Disease",
+      "relation": "progresses_to",
+      "tail": "Metabolic Syndrome",
+      "tail_type": "Disease"
+    },
+    "34961425": {
+      "head": "Berberine",
+      "head_type": "Substance",
+      "relation": "administered_to",
+      "tail": "Patients",
+      "tail_type": "Human"
+    },
+    "34961426": {
+      "head": "Placebo",
+      "head_type": "Substance",
+      "relation": "administered_to",
+      "tail": "Patients",
+      "tail_type": "Human"
+    },
+    "34961427": {
+      "head": "Berberine",
+      "head_type": "Substance",
+      "relation": "reduces",
+      "tail": "Firmicutes",
+      "tail_type": "Organism"
+    },
+    "34961428": {
+      "head": "Berberine",
+      "head_type": "Substance",
+      "relation": "increases",
+      "tail": "Bacteroides",
+      "tail_type": "Organism"
+    },
+    "34961429": {
+      "head": "Placebo",
+      "head_type": "Substance",
+      "relation": "increases",
+      "tail": "Firmicutes",
+      "tail_type": "Organism"
+    },
+    "34961430": {
+      "head": "Berberine",
+      "head_type": "Substance",
+      "relation": "improves",
+      "tail": "Metabolism",
+      "tail_type": "BiologicalProcess"
+    },
+    "34961431": {
+      "head": "Berberine",
+      "head_type": "Substance",
+      "relation": "reduces",
+      "tail": "Adverse Reactions",
+      "tail_type": "Event"
+    },
+    "34961432": {
+      "head": "Olanzapine",
+      "head_type": "Substance",
+      "relation": "used_in",
+      "tail": "Treatment",
+      "tail_type": "Procedure"
+    },
+    "34961433": {
+      "head": "Schizophrenia",
+      "head_type": "Disease",
+      "relation": "treated_with",
+      "tail": "Olanzapine",
+      "tail_type": "Substance"
+    },
+    "34961434": {
+      "head": "Bipolar Disorder",
+      "head_type": "Disease",
+      "relation": "treated_with",
+      "tail": "Olanzapine",
+      "tail_type": "Substance"
+    },
+    "34961435": {
+      "head": "Berberine",
+      "head_type": "Substance",
+      "relation": "potential_treatment_for",
+      "tail": "Mild Metabolic Disorders",
+      "tail_type": "Disease"
+    }
+  }
+}

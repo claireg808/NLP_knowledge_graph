@@ -1,0 +1,209 @@
+{
+  "title": "The impact of dextran sodium sulphate and probiotic pre-treatment in a murine model of Parkinson's disease.",
+  "abstract": "Recent work has established that Parkinson's disease (PD) patients have an altered gut microbiome, along with signs of intestinal inflammation. This could help explain the high degree of gastric disturbances in PD patients, as well as potentially be linked to the migration of peripheral inflammatory factors into the brain. To our knowledge, this is the first study to examine microbiome alteration prior to the induction of a PD murine model. We presently assessed whether pre-treatment with the probiotic, VSL #3, or the inflammatory inducer, dextran sodium sulphate (DSS), would influence the PD-like pathology provoked by a dual hit toxin model using lipopolysaccharide (LPS) and paraquat exposure. While VSL #3 has been reported to have anti-inflammatory effects, DSS is often used as a model of colitis because of the gut inflammation and the breach of the intestinal barrier that it induces. We found that VSL#3 did not have any significant effects (beyond a blunting of LPS paraquat-induced weight loss). However, the DSS treatment caused marked changes in the gut microbiome and was also associated with augmented behavioral and inflammatory outcomes. In fact, DSS markedly increased taxa belonging to the Bacteroidaceae and Porphyromonadaceae families but reduced those from Rikencellaceae and S24-7, as well as provoking colonic pro-inflammatory cytokine expression, consistent with an inflamed gut. The DSS also increased the impact of LPS plus paraquat upon microglial morphology, along with circulating lipocalin-2 (neutrophil marker) and IL-6. Yet, neither DSS nor VSL#3 influenced the loss of substantia nigra dopamine neurons or the astrocytic and cytoskeleton remodeling protein changes that were provoked by the LPS followed by paraquat treatment. These data suggest that disruption of the intestinal integrity and the associated microbiome can interact with systemic inflammatory events to promote widespread brain-gut changes that could be relevant for PD and at the very least, suggestive of novel neuro-immune communication.",
+  "relations": {
+    "33422111": {
+      "head": "dextran sodium sulphate",
+      "head_type": "chemical",
+      "relation": "used in",
+      "tail": "murine model",
+      "tail_type": "experimental model"
+    },
+    "33422112": {
+      "head": "probiotic pre-treatment",
+      "head_type": "treatment",
+      "relation": "used in",
+      "tail": "murine model",
+      "tail_type": "experimental model"
+    },
+    "33422113": {
+      "head": "Parkinson's disease",
+      "head_type": "disease",
+      "relation": "has",
+      "tail": "gut microbiome alteration",
+      "tail_type": "biological process"
+    },
+    "33422114": {
+      "head": "Parkinson's disease",
+      "head_type": "disease",
+      "relation": "has",
+      "tail": "intestinal inflammation",
+      "tail_type": "pathological condition"
+    },
+    "33422115": {
+      "head": "gastric disturbances",
+      "head_type": "symptom",
+      "relation": "present in",
+      "tail": "PD patients",
+      "tail_type": "human"
+    },
+    "33422116": {
+      "head": "peripheral inflammatory factors",
+      "head_type": "biological factor",
+      "relation": "migrate to",
+      "tail": "brain",
+      "tail_type": "organ"
+    },
+    "33422117": {
+      "head": "microbiome alteration",
+      "head_type": "biological process",
+      "relation": "examined in",
+      "tail": "PD murine model",
+      "tail_type": "experimental model"
+    },
+    "33422118": {
+      "head": "VSL #3",
+      "head_type": "probiotic",
+      "relation": "has",
+      "tail": "anti-inflammatory effects",
+      "tail_type": "therapeutic effect"
+    },
+    "33422119": {
+      "head": "dextran sodium sulphate",
+      "head_type": "chemical",
+      "relation": "induces",
+      "tail": "gut inflammation",
+      "tail_type": "pathological condition"
+    },
+    "33422120": {
+      "head": "dextran sodium sulphate",
+      "head_type": "chemical",
+      "relation": "induces",
+      "tail": "intestinal barrier breach",
+      "tail_type": "pathological condition"
+    },
+    "33422121": {
+      "head": "VSL#3",
+      "head_type": "probiotic",
+      "relation": "has",
+      "tail": "blunting of weight loss",
+      "tail_type": "therapeutic effect"
+    },
+    "33422122": {
+      "head": "DSS treatment",
+      "head_type": "treatment",
+      "relation": "causes",
+      "tail": "gut microbiome changes",
+      "tail_type": "biological process"
+    },
+    "33422123": {
+      "head": "DSS treatment",
+      "head_type": "treatment",
+      "relation": "associated with",
+      "tail": "augmented behavioral outcomes",
+      "tail_type": "pathological condition"
+    },
+    "33422124": {
+      "head": "DSS treatment",
+      "head_type": "treatment",
+      "relation": "associated with",
+      "tail": "augmented inflammatory outcomes",
+      "tail_type": "pathological condition"
+    },
+    "33422125": {
+      "head": "DSS",
+      "head_type": "chemical",
+      "relation": "increases",
+      "tail": "Bacteroidaceae",
+      "tail_type": "microbial family"
+    },
+    "33422126": {
+      "head": "DSS",
+      "head_type": "chemical",
+      "relation": "increases",
+      "tail": "Porphyromonadaceae",
+      "tail_type": "microbial family"
+    },
+    "33422127": {
+      "head": "DSS",
+      "head_type": "chemical",
+      "relation": "reduces",
+      "tail": "Rikencellaceae",
+      "tail_type": "microbial family"
+    },
+    "33422128": {
+      "head": "DSS",
+      "head_type": "chemical",
+      "relation": "reduces",
+      "tail": "S24-7",
+      "tail_type": "microbial family"
+    },
+    "33422129": {
+      "head": "DSS",
+      "head_type": "chemical",
+      "relation": "provokes",
+      "tail": "colonic pro-inflammatory cytokine expression",
+      "tail_type": "biological process"
+    },
+    "33422130": {
+      "head": "DSS",
+      "head_type": "chemical",
+      "relation": "increases",
+      "tail": "impact on microglial morphology",
+      "tail_type": "biological effect"
+    },
+    "33422131": {
+      "head": "DSS",
+      "head_type": "chemical",
+      "relation": "increases",
+      "tail": "circulating lipocalin-2",
+      "tail_type": "biomarker"
+    },
+    "33422132": {
+      "head": "DSS",
+      "head_type": "chemical",
+      "relation": "increases",
+      "tail": "IL-6",
+      "tail_type": "biomarker"
+    },
+    "33422133": {
+      "head": "LPS plus paraquat",
+      "head_type": "toxic exposure",
+      "relation": "provokes",
+      "tail": "loss of substantia nigra dopamine neurons",
+      "tail_type": "neurological damage"
+    },
+    "33422134": {
+      "head": "LPS plus paraquat",
+      "head_type": "toxic exposure",
+      "relation": "provokes",
+      "tail": "astrocytic remodeling",
+      "tail_type": "neurological change"
+    },
+    "33422135": {
+      "head": "LPS plus paraquat",
+      "head_type": "toxic exposure",
+      "relation": "provokes",
+      "tail": "cytoskeleton remodeling",
+      "tail_type": "neurological change"
+    },
+    "33422136": {
+      "head": "intestinal integrity disruption",
+      "head_type": "pathological condition",
+      "relation": "interacts with",
+      "tail": "systemic inflammatory events",
+      "tail_type": "biological process"
+    },
+    "33422137": {
+      "head": "gut microbiome",
+      "head_type": "biological system",
+      "relation": "contributes to",
+      "tail": "brain-gut changes",
+      "tail_type": "physiological process"
+    },
+    "33422138": {
+      "head": "gut microbiome",
+      "head_type": "biological system",
+      "relation": "contributes to",
+      "tail": "neuro-immune communication",
+      "tail_type": "biological process"
+    },
+    "33422139": {
+      "head": "gut microbiome",
+      "head_type": "biological system",
+      "relation": "has unclear role in",
+      "tail": "PD pathogenesis",
+      "tail_type": "disease mechanism"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "title": "Hydrogen Sulfide Produced by Gut Bacteria May Induce Parkinson's Disease.",
+  "abstract": "Several bacterial species can generate hydrogen sulfide (H<sub>2</sub>S). Study evidence favors the view that the microbiome of the colon harbors increased amounts of H<sub>2</sub>S producing bacteria in Parkinson's disease. Additionally, H<sub>2</sub>S can easily penetrate cell membranes and enter the cell interior. In the cells, excessive amounts of H<sub>2</sub>S can potentially release cytochrome c protein from the mitochondria, increase the iron content of the cytosolic iron pool, and increase the amount of reactive oxygen species. These events can lead to the formation of alpha-synuclein oligomers and fibrils in cells containing the alpha-synuclein protein. In addition, bacterially produced H<sub>2</sub>S can interfere with the body urate metabolism and affect the blood erythrocytes and lymphocytes. Gut bacteria responsible for increased H<sub>2</sub>S production, especially the mucus-associated species of the bacterial genera belonging to the Desulfovibrionaceae and Enterobacteriaceae families, are likely play a role in the pathogenesis of Parkinson's disease. Special attention should be devoted to changes not only in the colonic but also in the duodenal microbiome composition with regard to the pathogenesis of Parkinson's disease. Influenza infections may increase the risk of Parkinson's disease by causing the overgrowth of H<sub>2</sub>S-producing bacteria both in the colon and duodenum.",
+  "relations": {
+    "35326430": {
+      "head": "Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "produced by",
+      "tail": "Gut Bacteria",
+      "tail_type": "Organism"
+    },
+    "35326431": {
+      "head": "Parkinson's Disease",
+      "head_type": "Disease",
+      "relation": "induced by",
+      "tail": "Hydrogen Sulfide",
+      "tail_type": "Chemical"
+    },
+    "35326432": {
+      "head": "Several bacterial species",
+      "head_type": "Organism",
+      "relation": "generate",
+      "tail": "Hydrogen Sulfide",
+      "tail_type": "Chemical"
+    },
+    "35326433": {
+      "head": "Microbiome",
+      "head_type": "Organism Community",
+      "relation": "harbors",
+      "tail": "Hydrogen Sulfide producing bacteria",
+      "tail_type": "Organism"
+    },
+    "35326434": {
+      "head": "Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "penetrate",
+      "tail": "Cell Membranes",
+      "tail_type": "Biological Structure"
+    },
+    "35326435": {
+      "head": "Excessive Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "release",
+      "tail": "Cytochrome c protein",
+      "tail_type": "Protein"
+    },
+    "35326436": {
+      "head": "Excessive Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "increase",
+      "tail": "Iron Content",
+      "tail_type": "Chemical"
+    },
+    "35326437": {
+      "head": "Excessive Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "increase",
+      "tail": "Reactive Oxygen Species",
+      "tail_type": "Chemical"
+    },
+    "35326438": {
+      "head": "Alpha-synuclein oligomers",
+      "head_type": "Protein Aggregate",
+      "relation": "form",
+      "tail": "Cells",
+      "tail_type": "Biological Structure"
+    },
+    "35326439": {
+      "head": "Alpha-synuclein protein",
+      "head_type": "Protein",
+      "relation": "present in",
+      "tail": "Cells",
+      "tail_type": "Biological Structure"
+    },
+    "35326440": {
+      "head": "Bacterially produced Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "interfere with",
+      "tail": "Urate Metabolism",
+      "tail_type": "Biological Process"
+    },
+    "35326441": {
+      "head": "Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "affect",
+      "tail": "Erythrocytes",
+      "tail_type": "Cell"
+    },
+    "35326442": {
+      "head": "Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "affect",
+      "tail": "Lymphocytes",
+      "tail_type": "Cell"
+    },
+    "35326443": {
+      "head": "Gut bacteria",
+      "head_type": "Organism",
+      "relation": "responsible for",
+      "tail": "Increased H<sub>2</sub>S production",
+      "tail_type": "Chemical Process"
+    },
+    "35326444": {
+      "head": "Desulfovibrionaceae",
+      "head_type": "Taxonomic Family",
+      "relation": "include",
+      "tail": "Mucus-associated species",
+      "tail_type": "Organism"
+    },
+    "35326445": {
+      "head": "Enterobacteriaceae",
+      "head_type": "Taxonomic Family",
+      "relation": "include",
+      "tail": "Mucus-associated species",
+      "tail_type": "Organism"
+    },
+    "35326446": {
+      "head": "Changes in colonic microbiome",
+      "head_type": "Biological Process",
+      "relation": "relate to",
+      "tail": "Parkinson's Disease pathogenesis",
+      "tail_type": "Disease Process"
+    },
+    "35326447": {
+      "head": "Changes in duodenal microbiome",
+      "head_type": "Biological Process",
+      "relation": "relate to",
+      "tail": "Parkinson's Disease pathogenesis",
+      "tail_type": "Disease Process"
+    },
+    "35326448": {
+      "head": "Influenza infections",
+      "head_type": "Infectious Disease",
+      "relation": "increase risk of",
+      "tail": "Parkinson's Disease",
+      "tail_type": "Disease"
+    },
+    "35326449": {
+      "head": "Influenza infections",
+      "head_type": "Infectious Disease",
+      "relation": "cause",
+      "tail": "Overgrowth of H<sub>2</sub>S-producing bacteria",
+      "tail_type": "Organism"
+    },
+    "35326450": {
+      "head": "Antacids",
+      "head_type": "Medication",
+      "relation": "increase",
+      "tail": "Stomach pH",
+      "tail_type": "Chemical Property"
+    },
+    "35326451": {
+      "head": "Antacids",
+      "head_type": "Medication",
+      "relation": "increase",
+      "tail": "Duodenum pH",
+      "tail_type": "Chemical Property"
+    },
+    "35326452": {
+      "head": "Increased pH",
+      "head_type": "Chemical Property",
+      "relation": "favor",
+      "tail": "H<sub>2</sub>S-producing bacteria",
+      "tail_type": "Organism"
+    },
+    "35326453": {
+      "head": "H<sub>2</sub>S-producing bacteria",
+      "head_type": "Organism",
+      "relation": "contribute to",
+      "tail": "Parkinson's Disease",
+      "tail_type": "Disease"
+    }
+  }
+}

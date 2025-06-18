@@ -1,0 +1,167 @@
+{
+  "title": "Oral Probiotics Ameliorate the Behavioral Deficits Induced by Chronic Mild Stress in Mice via the Gut Microbiota-Inflammation Axis.",
+  "abstract": "In recent years, a burgeoning body of research has revealed links between depression and the gut microbiota, leading to the therapeutic use of probiotics for stress-related disorders. In this study, we explored the potential antidepressant efficacy of a multi-strain probiotics treatment (<i>Lactobacillus helveticus R0052</i>, <i>Lactobacillus plantarum R1012</i>, and <i>Bifidobacterium longum R0175</i>) in a chronic mild stress (CMS) mouse model of depression and determined its probable mechanism of action. Our findings revealed that mice subjected to CMS exhibited anxiety- and depressive-like behaviors in the sucrose preference test, elevated plus maze, and forced swim test, along with increased interferon-\u03b3, tumor necrosis factor-\u03b1, and indoleamine 2,3-dioxygenase-1 levels in the hippocampus. Moreover, the microbiota distinctly changed from the non-stress group and was characterized by highly diverse bacterial communities associated with significant reductions in <i>Lactobacillus</i> species. Probiotics attenuated CMS-induced anxiety- and depressive-like behaviors, significantly increased <i>Lactobacillus</i> abundance, and reversed the CMS-induced immune changes in the hippocampus. Thus, the possible mechanism involved in the antidepressant-like activity of probiotics is correlated with <i>Lactobacillus</i> species via the gut microbiota-inflammation-brain axis.",
+  "relations": {
+    "30459575": {
+      "head": "Oral Probiotics",
+      "head_type": "Substance",
+      "relation": "ameliorate",
+      "tail": "Behavioral Deficits",
+      "tail_type": "Condition"
+    },
+    "30459576": {
+      "head": "Chronic Mild Stress",
+      "head_type": "Stress Type",
+      "relation": "induce",
+      "tail": "Behavioral Deficits",
+      "tail_type": "Condition"
+    },
+    "30459577": {
+      "head": "Gut Microbiota",
+      "head_type": "Biological Entity",
+      "relation": "mediate",
+      "tail": "Inflammation",
+      "tail_type": "Biological Process"
+    },
+    "30459578": {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "used for",
+      "tail": "Stress-related Disorders",
+      "tail_type": "Condition"
+    },
+    "30459579": {
+      "head": "Lactobacillus helveticus R0052",
+      "head_type": "Probiotic Strain",
+      "relation": "part of",
+      "tail": "Multi-strain Probiotics",
+      "tail_type": "Substance"
+    },
+    "30459580": {
+      "head": "Lactobacillus plantarum R1012",
+      "head_type": "Probiotic Strain",
+      "relation": "part of",
+      "tail": "Multi-strain Probiotics",
+      "tail_type": "Substance"
+    },
+    "30459581": {
+      "head": "Bifidobacterium longum R0175",
+      "head_type": "Probiotic Strain",
+      "relation": "part of",
+      "tail": "Multi-strain Probiotics",
+      "tail_type": "Substance"
+    },
+    "30459582": {
+      "head": "Chronic Mild Stress",
+      "head_type": "Stress Type",
+      "relation": "used in",
+      "tail": "Mouse Model",
+      "tail_type": "Research Model"
+    },
+    "30459583": {
+      "head": "Sucrose Preference Test",
+      "head_type": "Behavioral Test",
+      "relation": "measure",
+      "tail": "Depressive-like Behavior",
+      "tail_type": "Behavioral Trait"
+    },
+    "30459584": {
+      "head": "Elevated Plus Maze",
+      "head_type": "Behavioral Test",
+      "relation": "measure",
+      "tail": "Anxiety-like Behavior",
+      "tail_type": "Behavioral Trait"
+    },
+    "30459585": {
+      "head": "Forced Swim Test",
+      "head_type": "Behavioral Test",
+      "relation": "measure",
+      "tail": "Depressive-like Behavior",
+      "tail_type": "Behavioral Trait"
+    },
+    "30459586": {
+      "head": "Interferon-\u03b3",
+      "head_type": "Cytokine",
+      "relation": "increase",
+      "tail": "Hippocampus Inflammation",
+      "tail_type": "Biological Process"
+    },
+    "30459587": {
+      "head": "Tumor Necrosis Factor-\u03b1",
+      "head_type": "Cytokine",
+      "relation": "increase",
+      "tail": "Hippocampus Inflammation",
+      "tail_type": "Biological Process"
+    },
+    "30459588": {
+      "head": "Indoleamine 2,3-dioxygenase-1",
+      "head_type": "Enzyme",
+      "relation": "increase",
+      "tail": "Hippocampus Inflammation",
+      "tail_type": "Biological Process"
+    },
+    "30459589": {
+      "head": "Lactobacillus",
+      "head_type": "Microbial Genus",
+      "relation": "decrease",
+      "tail": "Depression Model",
+      "tail_type": "Condition"
+    },
+    "30459590": {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "attenuate",
+      "tail": "Anxiety-like Behavior",
+      "tail_type": "Behavioral Trait"
+    },
+    "30459591": {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "attenuate",
+      "tail": "Depressive-like Behavior",
+      "tail_type": "Behavioral Trait"
+    },
+    "30459592": {
+      "head": "Lactobacillus",
+      "head_type": "Microbial Genus",
+      "relation": "increase",
+      "tail": "Probiotic Treatment",
+      "tail_type": "Therapy"
+    },
+    "30459593": {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "reverse",
+      "tail": "Immune Changes",
+      "tail_type": "Biological Process"
+    },
+    "30459594": {
+      "head": "Gut Microbiota",
+      "head_type": "Biological Entity",
+      "relation": "linked to",
+      "tail": "Inflammation",
+      "tail_type": "Biological Process"
+    },
+    "30459595": {
+      "head": "Gut Microbiota",
+      "head_type": "Biological Entity",
+      "relation": "linked to",
+      "tail": "Brain Axis",
+      "tail_type": "Neurobiological Pathway"
+    },
+    "30459596": {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "serve as",
+      "tail": "Therapeutic Strategy",
+      "tail_type": "Treatment Approach"
+    },
+    "30459597": {
+      "head": "Stress-related Disorders",
+      "head_type": "Condition",
+      "relation": "treated with",
+      "tail": "Probiotics",
+      "tail_type": "Substance"
+    }
+  }
+}

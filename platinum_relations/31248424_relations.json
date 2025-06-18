@@ -1,0 +1,251 @@
+{
+  "title": "Altered gut microbiota and inflammatory cytokine responses in patients with Parkinson's disease.",
+  "abstract": "Emerging evidence suggests that gut microbiome composition alterations affect neurodegeneration through neuroinflammation in the pathogenesis of Parkinson's disease (PD). Here, we evaluate gut microbiota alterations and host cytokine responses in a population of Taiwanese patients with PD. Fecal microbiota communities from 80 patients with PD and 77 age and gender-matched controls were assessed by sequencing the V3-V4 region of the 16S ribosomal RNA gene. Diet and comorbidities were controlled in the analyses. Plasma concentrations of IL-1\u03b2, IL-2, IL-4, IL-6, IL-13, IL-18, GM-CSF, IFN\u03b3, and TNF\u03b1 were measured by a multiplex immunoassay and relationships between microbiota, clinical characteristics, and cytokine levels were analyzed in the PD group. We further examined the cytokine changes associated with the altered gut microbiota seen in patients with PD in another independent cohort of 120 PD patients and 120 controls. Microbiota from patients with PD was altered relative to controls and dominated by Verrucomicrobia, Mucispirillum, Porphyromonas, Lactobacillus, and Parabacteroides. In contrast, Prevotella was more abundant in controls. The abundances of Bacteroides were more increased in patients with non-tremor PD subtype than patients with tremor subtype. Bacteroides abundance was correlated with motor symptom severity defined by UPDRS part III motor scores (rho\u2009=\u20090.637 [95% confidence interval 0.474 to 0.758], P\u2009<\u20090.01). Altered microbiota was correlated with plasma concentrations of IFN\u03b3 and TNF\u03b1. There was a correlation between Bacteroides and plasma level of TNF\u03b1 (rho\u2009=\u20090.638 [95% CI: 0.102-0.887], P\u2009=\u20090.02); and a correlation between Verrucomicrobia abundance and plasma concentrations of IFN\u03b3 (rho\u2009=\u20090.545 [95% CI -\u20090.043-0.852], P\u2009=\u20090.05). The elevated plasma cytokine responses were confirmed in an additional independent 120 patients with PD and 120 controls (TNF\u03b1: PD vs. control 8.51\u00a0\u00b1\u00a04.63\u2009pg/ml vs. 4.82\u00a0\u00b1\u00a02.23\u2009pg/ml, P\u2009<\u20090.01; and IFN\u03b3: PD vs. control: 38.45\u00a0\u00b1\u00a07.12\u2009pg/ml vs. 32.79\u00a0\u00b1\u00a08.03\u2009pg/ml, P\u2009=\u20090.03). This study reveals altered gut microbiota in PD and its correlation with clinical phenotypes and severity in our population. The altered plasma cytokine profiles associated with gut microbiome composition alterations suggest aberrant immune responses may contribute to inflammatory processes in PD.",
+  "relations": {
+    "31248425": {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "alter",
+      "tail": "patients with Parkinson's disease",
+      "tail_type": "human"
+    },
+    "31248426": {
+      "head": "inflammatory cytokine responses",
+      "head_type": "biological process",
+      "relation": "present in",
+      "tail": "patients with Parkinson's disease",
+      "tail_type": "human"
+    },
+    "31248427": {
+      "head": "gut microbiome composition",
+      "head_type": "biological entity",
+      "relation": "alter",
+      "tail": "neurodegeneration",
+      "tail_type": "biological process"
+    },
+    "31248428": {
+      "head": "neuroinflammation",
+      "head_type": "biological process",
+      "relation": "contribute to",
+      "tail": "pathogenesis of Parkinson's disease",
+      "tail_type": "biological process"
+    },
+    "31248429": {
+      "head": "fecal microbiota",
+      "head_type": "biological entity",
+      "relation": "assessed by",
+      "tail": "16S ribosomal RNA gene sequencing",
+      "tail_type": "method"
+    },
+    "31248430": {
+      "head": "IL-1\u03b2",
+      "head_type": "cytokine",
+      "relation": "measured by",
+      "tail": "multiplex immunoassay",
+      "tail_type": "method"
+    },
+    "31248431": {
+      "head": "IL-2",
+      "head_type": "cytokine",
+      "relation": "measured by",
+      "tail": "multiplex immunoassay",
+      "tail_type": "method"
+    },
+    "31248432": {
+      "head": "IL-4",
+      "head_type": "cytokine",
+      "relation": "measured by",
+      "tail": "multiplex immunoassay",
+      "tail_type": "method"
+    },
+    "31248433": {
+      "head": "IL-6",
+      "head_type": "cytokine",
+      "relation": "measured by",
+      "tail": "multiplex immunoassay",
+      "tail_type": "method"
+    },
+    "31248434": {
+      "head": "IL-13",
+      "head_type": "cytokine",
+      "relation": "measured by",
+      "tail": "multiplex immunoassay",
+      "tail_type": "method"
+    },
+    "31248435": {
+      "head": "IL-18",
+      "head_type": "cytokine",
+      "relation": "measured by",
+      "tail": "multiplex immunoassay",
+      "tail_type": "method"
+    },
+    "31248436": {
+      "head": "GM-CSF",
+      "head_type": "cytokine",
+      "relation": "measured by",
+      "tail": "multiplex immunoassay",
+      "tail_type": "method"
+    },
+    "31248437": {
+      "head": "IFN\u03b3",
+      "head_type": "cytokine",
+      "relation": "measured by",
+      "tail": "multiplex immunoassay",
+      "tail_type": "method"
+    },
+    "31248438": {
+      "head": "TNF\u03b1",
+      "head_type": "cytokine",
+      "relation": "measured by",
+      "tail": "multiplex immunoassay",
+      "tail_type": "method"
+    },
+    "31248439": {
+      "head": "Verrucomicrobia",
+      "head_type": "microbial genus",
+      "relation": "dominate",
+      "tail": "gut microbiota of PD patients",
+      "tail_type": "biological entity"
+    },
+    "31248440": {
+      "head": "Mucispirillum",
+      "head_type": "microbial genus",
+      "relation": "dominate",
+      "tail": "gut microbiota of PD patients",
+      "tail_type": "biological entity"
+    },
+    "31248441": {
+      "head": "Porphyromonas",
+      "head_type": "microbial genus",
+      "relation": "dominate",
+      "tail": "gut microbiota of PD patients",
+      "tail_type": "biological entity"
+    },
+    "31248442": {
+      "head": "Lactobacillus",
+      "head_type": "microbial genus",
+      "relation": "dominate",
+      "tail": "gut microbiota of PD patients",
+      "tail_type": "biological entity"
+    },
+    "31248443": {
+      "head": "Parabacteroides",
+      "head_type": "microbial genus",
+      "relation": "dominate",
+      "tail": "gut microbiota of PD patients",
+      "tail_type": "biological entity"
+    },
+    "31248444": {
+      "head": "Prevotella",
+      "head_type": "microbial genus",
+      "relation": "more abundant",
+      "tail": "controls",
+      "tail_type": "biological entity"
+    },
+    "31248445": {
+      "head": "Bacteroides",
+      "head_type": "microbial genus",
+      "relation": "more increased",
+      "tail": "non-tremor PD subtype",
+      "tail_type": "biological entity"
+    },
+    "31248446": {
+      "head": "Bacteroides",
+      "head_type": "microbial genus",
+      "relation": "correlate with",
+      "tail": "motor symptom severity",
+      "tail_type": "biological process"
+    },
+    "31248447": {
+      "head": "altered microbiota",
+      "head_type": "biological entity",
+      "relation": "correlate with",
+      "tail": "plasma concentrations of IFN\u03b3",
+      "tail_type": "biological process"
+    },
+    "31248448": {
+      "head": "altered microbiota",
+      "head_type": "biological entity",
+      "relation": "correlate with",
+      "tail": "plasma concentrations of TNF\u03b1",
+      "tail_type": "biological process"
+    },
+    "31248449": {
+      "head": "Bacteroides",
+      "head_type": "microbial genus",
+      "relation": "correlate with",
+      "tail": "plasma level of TNF\u03b1",
+      "tail_type": "biological process"
+    },
+    "31248450": {
+      "head": "Verrucomicrobia",
+      "head_type": "microbial genus",
+      "relation": "correlate with",
+      "tail": "plasma concentrations of IFN\u03b3",
+      "tail_type": "biological process"
+    },
+    "31248451": {
+      "head": "elevated plasma cytokine responses",
+      "head_type": "biological process",
+      "relation": "confirmed in",
+      "tail": "independent cohort",
+      "tail_type": "biological entity"
+    },
+    "31248452": {
+      "head": "TNF\u03b1",
+      "head_type": "cytokine",
+      "relation": "elevated in",
+      "tail": "patients with PD",
+      "tail_type": "human"
+    },
+    "31248453": {
+      "head": "IFN\u03b3",
+      "head_type": "cytokine",
+      "relation": "elevated in",
+      "tail": "patients with PD",
+      "tail_type": "human"
+    },
+    "31248454": {
+      "head": "altered gut microbiota",
+      "head_type": "biological entity",
+      "relation": "correlate with",
+      "tail": "clinical phenotypes",
+      "tail_type": "biological process"
+    },
+    "31248455": {
+      "head": "altered gut microbiota",
+      "head_type": "biological entity",
+      "relation": "correlate with",
+      "tail": "severity",
+      "tail_type": "biological process"
+    },
+    "31248456": {
+      "head": "altered plasma cytokine profiles",
+      "head_type": "biological process",
+      "relation": "suggest",
+      "tail": "aberrant immune responses",
+      "tail_type": "biological process"
+    },
+    "31248457": {
+      "head": "aberrant immune responses",
+      "head_type": "biological process",
+      "relation": "contribute to",
+      "tail": "inflammatory processes in PD",
+      "tail_type": "biological process"
+    },
+    "31248458": {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "interplay with",
+      "tail": "host immune responses",
+      "tail_type": "biological process"
+    },
+    "31248459": {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "involved in",
+      "tail": "PD pathogenesis",
+      "tail_type": "biological process"
+    }
+  }
+}

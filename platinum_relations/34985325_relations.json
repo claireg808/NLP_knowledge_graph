@@ -1,0 +1,321 @@
+{
+  "title": "A Comprehensive Review on the Role of the Gut Microbiome in Human Neurological Disorders.",
+  "abstract": "The human body is full of an extensive number of commensal microbes, consisting of bacteria, viruses, and fungi, collectively termed the human microbiome. The initial acquisition of microbiota occurs from both the external and maternal environments, and the vast majority of them colonize the gastrointestinal tract (GIT). These microbial communities play a central role in the maturation and development of the immune system, the central nervous system, and the GIT system and are also responsible for essential metabolic pathways. Various factors, including host genetic predisposition, environmental factors, lifestyle, diet, antibiotic or nonantibiotic drug use, etc., affect the composition of the gut microbiota. Recent publications have highlighted that an imbalance in the gut microflora, known as dysbiosis, is associated with the onset and progression of neurological disorders. Moreover, characterization of the microbiome-host cross talk pathways provides insight into novel therapeutic strategies. Novel preclinical and clinical research on interventions related to the gut microbiome for treating neurological conditions, including autism spectrum disorders, Parkinson's disease, schizophrenia, multiple sclerosis, Alzheimer's disease, epilepsy, and stroke, hold significant promise. This review aims to present a comprehensive overview of the potential involvement of the human gut microbiome in the pathogenesis of neurological disorders, with a particular emphasis on the potential of microbe-based therapies and/or diagnostic microbial biomarkers. This review also discusses the potential health benefits of the administration of probiotics, prebiotics, postbiotics, and synbiotics and fecal microbiota transplantation in neurological disorders.",
+  "relations": {
+    "34985326": {
+      "head": "human body",
+      "head_type": "biological entity",
+      "relation": "contains",
+      "tail": "commensal microbes",
+      "tail_type": "microbial entity"
+    },
+    "34985327": {
+      "head": "commensal microbes",
+      "head_type": "microbial entity",
+      "relation": "include",
+      "tail": "bacteria",
+      "tail_type": "microbial type"
+    },
+    "34985328": {
+      "head": "commensal microbes",
+      "head_type": "microbial entity",
+      "relation": "include",
+      "tail": "viruses",
+      "tail_type": "microbial type"
+    },
+    "34985329": {
+      "head": "commensal microbes",
+      "head_type": "microbial entity",
+      "relation": "include",
+      "tail": "fungi",
+      "tail_type": "microbial type"
+    },
+    "34985330": {
+      "head": "human microbiome",
+      "head_type": "biological system",
+      "relation": "comprise",
+      "tail": "microbiota",
+      "tail_type": "microbial community"
+    },
+    "34985331": {
+      "head": "microbiota",
+      "head_type": "microbial community",
+      "relation": "acquired from",
+      "tail": "external environment",
+      "tail_type": "environmental source"
+    },
+    "34985332": {
+      "head": "microbiota",
+      "head_type": "microbial community",
+      "relation": "acquired from",
+      "tail": "maternal environment",
+      "tail_type": "environmental source"
+    },
+    "34985333": {
+      "head": "majority of microbiota",
+      "head_type": "microbial community",
+      "relation": "colonize",
+      "tail": "gastrointestinal tract",
+      "tail_type": "anatomical system"
+    },
+    "34985334": {
+      "head": "microbial communities",
+      "head_type": "biological system",
+      "relation": "play role in",
+      "tail": "maturation of immune system",
+      "tail_type": "biological process"
+    },
+    "34985335": {
+      "head": "microbial communities",
+      "head_type": "biological system",
+      "relation": "play role in",
+      "tail": "development of central nervous system",
+      "tail_type": "biological process"
+    },
+    "34985336": {
+      "head": "microbial communities",
+      "head_type": "biological system",
+      "relation": "play role in",
+      "tail": "development of GIT system",
+      "tail_type": "biological process"
+    },
+    "34985337": {
+      "head": "microbial communities",
+      "head_type": "biological system",
+      "relation": "responsible for",
+      "tail": "essential metabolic pathways",
+      "tail_type": "biological function"
+    },
+    "34985338": {
+      "head": "composition of gut microbiota",
+      "head_type": "biological system",
+      "relation": "affected by",
+      "tail": "host genetic predisposition",
+      "tail_type": "genetic factor"
+    },
+    "34985339": {
+      "head": "composition of gut microbiota",
+      "head_type": "biological system",
+      "relation": "affected by",
+      "tail": "environmental factors",
+      "tail_type": "external condition"
+    },
+    "34985340": {
+      "head": "composition of gut microbiota",
+      "head_type": "biological system",
+      "relation": "affected by",
+      "tail": "lifestyle",
+      "tail_type": "behavioral factor"
+    },
+    "34985341": {
+      "head": "composition of gut microbiota",
+      "head_type": "biological system",
+      "relation": "affected by",
+      "tail": "diet",
+      "tail_type": "nutritional intake"
+    },
+    "34985342": {
+      "head": "composition of gut microbiota",
+      "head_type": "biological system",
+      "relation": "affected by",
+      "tail": "antibiotic use",
+      "tail_type": "medical intervention"
+    },
+    "34985343": {
+      "head": "composition of gut microbiota",
+      "head_type": "biological system",
+      "relation": "affected by",
+      "tail": "nonantibiotic drug use",
+      "tail_type": "medical intervention"
+    },
+    "34985344": {
+      "head": "imbalance in gut microflora",
+      "head_type": "biological condition",
+      "relation": "known as",
+      "tail": "dysbiosis",
+      "tail_type": "medical term"
+    },
+    "34985345": {
+      "head": "dysbiosis",
+      "head_type": "biological condition",
+      "relation": "associated with",
+      "tail": "onset of neurological disorders",
+      "tail_type": "medical condition"
+    },
+    "34985346": {
+      "head": "dysbiosis",
+      "head_type": "biological condition",
+      "relation": "associated with",
+      "tail": "progression of neurological disorders",
+      "tail_type": "medical condition"
+    },
+    "34985347": {
+      "head": "microbiome-host cross talk pathways",
+      "head_type": "biological interaction",
+      "relation": "provide insight into",
+      "tail": "novel therapeutic strategies",
+      "tail_type": "medical research"
+    },
+    "34985348": {
+      "head": "preclinical research",
+      "head_type": "scientific study",
+      "relation": "focus on",
+      "tail": "interventions related to gut microbiome",
+      "tail_type": "medical intervention"
+    },
+    "34985349": {
+      "head": "clinical research",
+      "head_type": "scientific study",
+      "relation": "focus on",
+      "tail": "interventions related to gut microbiome",
+      "tail_type": "medical intervention"
+    },
+    "34985350": {
+      "head": "interventions related to gut microbiome",
+      "head_type": "medical intervention",
+      "relation": "target",
+      "tail": "autism spectrum disorders",
+      "tail_type": "neurological disorder"
+    },
+    "34985351": {
+      "head": "interventions related to gut microbiome",
+      "head_type": "medical intervention",
+      "relation": "target",
+      "tail": "Parkinson's disease",
+      "tail_type": "neurological disorder"
+    },
+    "34985352": {
+      "head": "interventions related to gut microbiome",
+      "head_type": "medical intervention",
+      "relation": "target",
+      "tail": "schizophrenia",
+      "tail_type": "neurological disorder"
+    },
+    "34985353": {
+      "head": "interventions related to gut microbiome",
+      "head_type": "medical intervention",
+      "relation": "target",
+      "tail": "multiple sclerosis",
+      "tail_type": "neurological disorder"
+    },
+    "34985354": {
+      "head": "interventions related to gut microbiome",
+      "head_type": "medical intervention",
+      "relation": "target",
+      "tail": "Alzheimer's disease",
+      "tail_type": "neurological disorder"
+    },
+    "34985355": {
+      "head": "interventions related to gut microbiome",
+      "head_type": "medical intervention",
+      "relation": "target",
+      "tail": "epilepsy",
+      "tail_type": "neurological disorder"
+    },
+    "34985356": {
+      "head": "interventions related to gut microbiome",
+      "head_type": "medical intervention",
+      "relation": "target",
+      "tail": "stroke",
+      "tail_type": "neurological disorder"
+    },
+    "34985357": {
+      "head": "review",
+      "head_type": "scientific document",
+      "relation": "present",
+      "tail": "comprehensive overview",
+      "tail_type": "informational content"
+    },
+    "34985358": {
+      "head": "human gut microbiome",
+      "head_type": "biological system",
+      "relation": "involved in",
+      "tail": "pathogenesis of neurological disorders",
+      "tail_type": "medical condition"
+    },
+    "34985359": {
+      "head": "microbe-based therapies",
+      "head_type": "medical intervention",
+      "relation": "potential for",
+      "tail": "therapeutic strategies",
+      "tail_type": "medical application"
+    },
+    "34985360": {
+      "head": "diagnostic microbial biomarkers",
+      "head_type": "biological marker",
+      "relation": "potential for",
+      "tail": "diagnostic tools",
+      "tail_type": "medical application"
+    },
+    "34985361": {
+      "head": "administration of probiotics",
+      "head_type": "medical intervention",
+      "relation": "benefit",
+      "tail": "neurological disorders",
+      "tail_type": "medical condition"
+    },
+    "34985362": {
+      "head": "administration of prebiotics",
+      "head_type": "medical intervention",
+      "relation": "benefit",
+      "tail": "neurological disorders",
+      "tail_type": "medical condition"
+    },
+    "34985363": {
+      "head": "administration of postbiotics",
+      "head_type": "medical intervention",
+      "relation": "benefit",
+      "tail": "neurological disorders",
+      "tail_type": "medical condition"
+    },
+    "34985364": {
+      "head": "administration of synbiotics",
+      "head_type": "medical intervention",
+      "relation": "benefit",
+      "tail": "neurological disorders",
+      "tail_type": "medical condition"
+    },
+    "34985365": {
+      "head": "fecal microbiota transplantation",
+      "head_type": "medical intervention",
+      "relation": "benefit",
+      "tail": "neurological disorders",
+      "tail_type": "medical condition"
+    },
+    "34985366": {
+      "head": "review",
+      "head_type": "scientific document",
+      "relation": "discuss",
+      "tail": "limitations in field",
+      "tail_type": "research constraint"
+    },
+    "34985367": {
+      "head": "review",
+      "head_type": "scientific document",
+      "relation": "discuss",
+      "tail": "challenges in field",
+      "tail_type": "research obstacle"
+    },
+    "34985368": {
+      "head": "lack of standardized protocols",
+      "head_type": "research constraint",
+      "relation": "impede",
+      "tail": "translation of research findings",
+      "tail_type": "scientific process"
+    },
+    "34985369": {
+      "head": "heterogeneity of gut microbiome",
+      "head_type": "research constraint",
+      "relation": "impede",
+      "tail": "translation of research findings",
+      "tail_type": "scientific process"
+    },
+    "34985370": {
+      "head": "heterogeneity of gut microbiome",
+      "head_type": "research constraint",
+      "relation": "exist across studies",
+      "tail": "research variability",
+      "tail_type": "scientific observation"
+    }
+  }
+}
