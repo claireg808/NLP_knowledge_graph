@@ -2,6 +2,7 @@ import requests
 import os
 import re
 import json
+import ast
 
 # set headers for the request
 headers = {"Content-Type": "application/json"}
@@ -15,7 +16,7 @@ with open('platinum_example.txt', 'r', encoding='utf-8') as file:
     example = file.read()
 
 # read the sample text
-with open('test.txt', 'r', encoding='utf-8') as file:
+with open('articles_train_platinum.txt', 'r', encoding='utf-8') as file:
     all_samples = file.read().splitlines()
 
 # extract and group title + abstract by PMID
@@ -58,28 +59,38 @@ for pmid, sections in samples.items():
 
     if response.status_code == 200:
         assistant_text = response.json()['choices'][0]['text'].strip()
-        json_match = re.search(r"[.*]", assistant_text, re.DOTALL)
-        if json_match:
-            try:
-                json_str = json_match.group()
-                relations = json.loads(json_str)
-                print(f"relations: {relations}")
+        start = assistant_text.find('[')
+        end = assistant_text.find(']')+1
+        relations_str = assistant_text[start:end]
+        try:
+            relations = ast.literal_eval(relations_str)
+            r_pmid = int(pmid)
+            relations_dict = {}
+            for r in relations:
+                r_pmid = r_pmid + 1
+                relations_dict[r_pmid] = {
+                    "head": r[0], 
+                    "head_type": r[1], 
+                    "relation": r[2], 
+                    "tail": r[3],
+                    "tail_type": r[4]
+                }
 
-                # save JSON
-                folder = "platinum_relations"
-                os.makedirs(folder, exist_ok=True)
-                output_path = os.path.join(folder, f"{pmid}_relations.json")
+            # save JSON
+            folder = "platinum_relations"
+            os.makedirs(folder, exist_ok=True)
+            output_path = os.path.join(folder, f"{pmid}_relations.json")
 
-                with open(output_path, 'w', encoding='utf-8') as f:
-                    json.dump({
-                        "title": title,
-                        "abstract": abstract,
-                        "relations": relations
-                    }, f, indent=2)
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump({
+                    "title": title,
+                    "abstract": abstract,
+                    "relations": relations_dict
+                }, f, indent=2)
 
-                print(f"Success: Extracted relations for PMID {pmid} saved")
+            print(f"Success: Extracted relations for PMID {pmid} saved")
 
-            except json.JSONDecodeError:
-                print(f"Error: Invalid JSON returned for PMID {pmid}:\n{assistant_text}")
+        except (SyntaxError, ValueError):
+            print(f"Error: Invalid output returned for PMID {pmid}:\nrelations:{relations_str}\nwhole text:{assistant_text}")
     else:
         print(f"Error: Problem processing sample for PMID {pmid}: {response.status_code}")
