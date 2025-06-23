@@ -1,1 +1,0 @@
-[("mental deterioation", "DDF", "target", "patients", "human"), ("mood disorders", "DDF", "target", "people", "human"), ("depressive symptoms", "DDF", "target", "bariatric patients", "human")]
