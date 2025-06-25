@@ -2,42 +2,36 @@ import requests
 import os
 import re
 import json
-import ast
-from strictjson import *
+from dotenv import load_dotenv
+import getpass
+from langchain_deepseek import ChatDeepSeek
+from typing import List
+from typing_extensions import Annotated, TypedDict
+
+class Relations(TypedDict):
+    head: Annotated[str, "The first entity"]
+    head_type: Annotated[str, "The type of entity"]
+    relation: Annotated[str, "The relationship between the two entities"]
+    tail: Annotated[str, "The second entity"]
+    tail_type: Annotated[str, "The type of entity"]
+
+class FullOutput(TypedDict):
+    title: Annotated[str, "The provided title"]
+    abstract: Annotated[str, "The provided abstract"]
+    relations: Annotated[List[Relations], "List of extracted relations from the text"]
 
 
-def llm(system_prompt: str, user_prompt: str) -> str:
-    data = {
-        "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-8B",
-        "prompt": system_prompt+ '\n\n' + user_prompt,
-        "temperature": 0.6,
-        "max_tokens": 2048
-    }
+load_dotenv()
 
-    response = requests.post("http://localhost:8000/v1/completions", headers=headers, json=data, verify=False)
-
-    if response.status_code != 200:
-        raise Exception(f"API request failed: {response.status_code}")
-
-    return response.json()['choices'][0]['text'].strip()
-
+if not os.getenv("DEEPSEEK_API_KEY"):
+    os.environ["DEEPSEEK_API_KEY"] = getpass.getpass("Enter your DeepSeek API key: ")
 
 # set headers for the request
 headers = {"Content-Type": "application/json"}
 
 # read the prompt template
-with open('sys_prompt_template.txt', 'r', encoding='utf-8') as file:
-    sys_prompt_template = file.read()
-with open('usr_prompt_template.txt', 'r', encoding='utf-8') as file:
-    usr_prompt_template = file.read()
-
-# read in output format
-with open('output_format.txt', 'r', encoding='utf-8') as file:
-    output_format_template = file.read()
-
-# read the example
-with open('platinum_example.txt', 'r', encoding='utf-8') as file:
-    example = file.read()
+with open('prompt_template.txt', 'r', encoding='utf-8') as file:
+    prompt_template = file.read()
 
 # read the sample text
 with open('test.txt', 'r', encoding='utf-8') as file:
@@ -47,6 +41,7 @@ with open('test.txt', 'r', encoding='utf-8') as file:
 title_pattern = re.compile(r"^(\d{8})\|t\|(.*)")
 abstract_pattern = re.compile(r"^(\d{8})\|a\|(.*)")
 
+samples = {}
 for line in all_samples:
     t_match = title_pattern.match(line)
     a_match = abstract_pattern.match(line)
@@ -60,33 +55,38 @@ for line in all_samples:
         abstract = a_match.group(2).strip()
         samples.setdefault(pmid, {})['abstract'] = abstract
 
+llm = ChatDeepSeek(
+    model="deepseek-chat",
+    temperature=0.6,
+    max_tokens=2048,
+    timeout=None,
+    max_retries=2
+)
+
+structured_llm = llm.with_structured_output(FullOutput)
+
 # process each sample
 for pmid, sections in samples.items():
+    title = sections.get('title', '')
+    abstract = sections.get('abstract', '')
+
+    # fill in prompt
+    full_prompt = prompt_template \
+                    .replace("{title_here}", title) \
+                    .replace("{abstract_here}", abstract)
+
     try:
-        title = sections.get('title', '')
-        abstract = sections.get('abstract', '')
+        response = structured_llm.invoke(full_prompt)
 
-        current_usr_prompt = usr_prompt_template \
-                        .replace("{title_here}", title) \
-                        .replace("{abstract_here}", abstract)
-
-        response = strict_json(
-                        system_prompt = sys_prompt_template,
-                        user_prompt = current_usr_prompt,
-                        output_format = output_format_template,
-                        llm = llm,
-                        return_as_json = True
-                    )
-                                        
         # save JSON
-        folder = "platinum_relations"
+        folder = "test_platinum_relations"
         os.makedirs(folder, exist_ok=True)
         output_path = os.path.join(folder, f"{pmid}_relations.json")
 
         with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(response)
+            json.dump(response, f, indent=2)
 
         print(f"Success: Extracted relations for PMID {pmid} saved")
 
-    except Exception as E:
+    except Exception as e:
         print(f"Error processing PMID {pmid}: {str(e)}")

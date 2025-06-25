@@ -1,3 +1,0 @@
-For the following text, extract entities and relations formatted as a list of tuples.
-{title_here}
-{abstract_here}
