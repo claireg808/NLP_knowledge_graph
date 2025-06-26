@@ -5,197 +5,204 @@
     {
       "head": "Parkinson's disease",
       "head_type": "Disease",
-      "relation": "has altered",
-      "tail": "gut microbiome",
-      "tail_type": "Biological Entity"
+      "relation": "associated_with",
+      "tail": "altered gut microbiome",
+      "tail_type": "Biological Process"
     },
     {
       "head": "Parkinson's disease",
       "head_type": "Disease",
-      "relation": "has signs of",
+      "relation": "associated_with",
       "tail": "intestinal inflammation",
-      "tail_type": "Condition"
+      "tail_type": "Pathological Process"
     },
     {
       "head": "Parkinson's disease",
       "head_type": "Disease",
-      "relation": "has",
+      "relation": "has_symptom",
       "tail": "gastric disturbances",
       "tail_type": "Symptom"
     },
     {
-      "head": "gut inflammation",
-      "head_type": "Condition",
-      "relation": "linked to",
-      "tail": "migration of peripheral inflammatory factors into the brain",
-      "tail_type": "Biological Process"
+      "head": "gut microbiome",
+      "head_type": "Biological Process",
+      "relation": "linked_to",
+      "tail": "migration of peripheral inflammatory factors",
+      "tail_type": "Pathological Process"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "Biological Process",
+      "relation": "linked_to",
+      "tail": "brain",
+      "tail_type": "Organ"
     },
     {
       "head": "VSL #3",
       "head_type": "Probiotic",
-      "relation": "has",
-      "tail": "anti-inflammatory effects",
+      "relation": "has_effect",
+      "tail": "anti-inflammatory",
       "tail_type": "Effect"
     },
     {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
-      "relation": "used as model of",
-      "tail": "colitis",
-      "tail_type": "Disease"
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
+      "relation": "used_as",
+      "tail": "model of colitis",
+      "tail_type": "Disease Model"
     },
     {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
       "relation": "induces",
       "tail": "gut inflammation",
-      "tail_type": "Condition"
+      "tail_type": "Pathological Process"
     },
     {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
-      "relation": "causes",
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
+      "relation": "induces",
       "tail": "breach of intestinal barrier",
-      "tail_type": "Biological Process"
+      "tail_type": "Pathological Process"
     },
     {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
       "relation": "causes",
-      "tail": "marked changes in gut microbiome",
+      "tail": "changes in gut microbiome",
       "tail_type": "Biological Process"
     },
     {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
-      "relation": "associated with",
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
+      "relation": "associated_with",
       "tail": "augmented behavioral outcomes",
       "tail_type": "Outcome"
     },
     {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
-      "relation": "associated with",
-      "tail": "augmented inflammatory outcomes",
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
+      "relation": "associated_with",
+      "tail": "inflammatory outcomes",
       "tail_type": "Outcome"
     },
     {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
       "relation": "increases",
       "tail": "Bacteroidaceae",
-      "tail_type": "Taxa"
+      "tail_type": "Taxonomic Family"
     },
     {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
       "relation": "increases",
       "tail": "Porphyromonadaceae",
-      "tail_type": "Taxa"
+      "tail_type": "Taxonomic Family"
     },
     {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
       "relation": "reduces",
       "tail": "Rikencellaceae",
-      "tail_type": "Taxa"
+      "tail_type": "Taxonomic Family"
     },
     {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
       "relation": "reduces",
       "tail": "S24-7",
-      "tail_type": "Taxa"
+      "tail_type": "Taxonomic Family"
     },
     {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
       "relation": "provokes",
       "tail": "colonic pro-inflammatory cytokine expression",
-      "tail_type": "Biological Process"
+      "tail_type": "Pathological Process"
     },
     {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
       "relation": "increases",
-      "tail": "impact of LPS plus paraquat upon microglial morphology",
-      "tail_type": "Biological Process"
+      "tail": "impact of LPS plus paraquat",
+      "tail_type": "Toxic Exposure"
     },
     {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
+      "relation": "increases",
+      "tail": "microglial morphology",
+      "tail_type": "Pathological Process"
+    },
+    {
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
       "relation": "increases",
       "tail": "circulating lipocalin-2",
       "tail_type": "Protein"
     },
     {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
       "relation": "increases",
       "tail": "IL-6",
       "tail_type": "Cytokine"
     },
     {
-      "head": "VSL#3",
-      "head_type": "Probiotic",
-      "relation": "blunts",
-      "tail": "LPS paraquat-induced weight loss",
-      "tail_type": "Effect"
-    },
-    {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
-      "relation": "does not influence",
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
+      "relation": "does_not_influence",
       "tail": "loss of substantia nigra dopamine neurons",
-      "tail_type": "Biological Process"
+      "tail_type": "Neurological Process"
     },
     {
-      "head": "VSL#3",
+      "head": "VSL #3",
       "head_type": "Probiotic",
-      "relation": "does not influence",
+      "relation": "does_not_influence",
       "tail": "loss of substantia nigra dopamine neurons",
-      "tail_type": "Biological Process"
+      "tail_type": "Neurological Process"
     },
     {
-      "head": "DSS",
-      "head_type": "Inflammatory Inducer",
-      "relation": "does not influence",
-      "tail": "astrocytic and cytoskeleton remodeling protein changes",
-      "tail_type": "Biological Process"
+      "head": "Dextran Sodium Sulphate",
+      "head_type": "Chemical",
+      "relation": "does_not_influence",
+      "tail": "astrocytic and cytoskeleton remodeling",
+      "tail_type": "Pathological Process"
     },
     {
-      "head": "VSL#3",
+      "head": "VSL #3",
       "head_type": "Probiotic",
-      "relation": "does not influence",
-      "tail": "astrocytic and cytoskeleton remodeling protein changes",
-      "tail_type": "Biological Process"
+      "relation": "does_not_influence",
+      "tail": "astrocytic and cytoskeleton remodeling",
+      "tail_type": "Pathological Process"
     },
     {
       "head": "disruption of intestinal integrity",
-      "head_type": "Condition",
-      "relation": "interacts with",
+      "head_type": "Pathological Process",
+      "relation": "interacts_with",
       "tail": "systemic inflammatory events",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "associated microbiome disruption",
-      "head_type": "Condition",
-      "relation": "interacts with",
-      "tail": "systemic inflammatory events",
-      "tail_type": "Biological Process"
+      "tail_type": "Pathological Process"
     },
     {
       "head": "disruption of intestinal integrity",
-      "head_type": "Condition",
+      "head_type": "Pathological Process",
       "relation": "promotes",
       "tail": "brain-gut changes",
-      "tail_type": "Biological Process"
+      "tail_type": "Pathological Process"
     },
     {
-      "head": "associated microbiome disruption",
-      "head_type": "Condition",
-      "relation": "promotes",
-      "tail": "brain-gut changes",
+      "head": "disruption of intestinal integrity",
+      "head_type": "Pathological Process",
+      "relation": "relevant_for",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "disruption of intestinal integrity",
+      "head_type": "Pathological Process",
+      "relation": "suggestive_of",
+      "tail": "neuro-immune communication",
       "tail_type": "Biological Process"
     }
   ]

@@ -3,123 +3,74 @@
   "abstract": "A large number of existing reviews have discussed the role of the gut microbiota in affective disorders, though syntheses have been overwhelmingly narrative in their focus. In this correspondence, we compliment Sanada et\u00a0al. (2020) on their recent systematic review of the gut microbiota in Major Depressive Disorder (MDD), the first to incorporate a meta-analysis. We also comment on how this synthesis should be extended in future research. Sanada et\u00a0al. (2020) conducted a meta-analysis of alpha diversity in participants with MDD compared to controls, whereby they unexpectedly observed no significant difference between groups. A meta-analysis was only able to be performed on alpha diversity indices. Future research should consider research quality, other forms of depression, incorporate comprehensive meta-analyses, where possible, as well as investigate associations between anxiety/depression symptom measures and the gut microbiota. Further consideration of papers which incorporate functional analyses (e.g., metabolomics) is required to integrate this body of literature. Research investigating the microbiota-gut-brain axis in affective disorders has been met with great enthusiasm, offering promising direction for novel therapeutics in conditions such as depression. We encourage further systematic reviews in this space, particularly which consider research quality and incorporate comprehensive meta-analyses.",
   "relations": [
     {
-      "head": "human gut microbiota",
-      "head_type": "biological entity",
-      "relation": "associated with",
-      "tail": "depression",
-      "tail_type": "mental disorder"
-    },
-    {
       "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "involved in",
+      "head_type": "Biological Entity",
+      "relation": "associated_with",
       "tail": "affective disorders",
-      "tail_type": "mental disorders"
+      "tail_type": "Disease"
     },
     {
       "head": "Sanada et al. (2020)",
-      "head_type": "research study",
-      "relation": "conducted",
+      "head_type": "Research Study",
+      "relation": "performed",
       "tail": "systematic review",
-      "tail_type": "research method"
+      "tail_type": "Review Type"
     },
     {
       "head": "Sanada et al. (2020)",
-      "head_type": "research study",
+      "head_type": "Research Study",
       "relation": "included",
       "tail": "meta-analysis",
-      "tail_type": "research method"
+      "tail_type": "Statistical Method"
     },
     {
       "head": "meta-analysis",
-      "head_type": "research method",
-      "relation": "focused on",
+      "head_type": "Statistical Method",
+      "relation": "focused_on",
       "tail": "alpha diversity",
-      "tail_type": "biological measure"
+      "tail_type": "Biological Measurement"
     },
     {
-      "head": "participants with MDD",
-      "head_type": "study group",
-      "relation": "compared to",
-      "tail": "controls",
-      "tail_type": "study group"
+      "head": "participant",
+      "head_type": "Human",
+      "relation": "has_condition",
+      "tail": "Major Depressive Disorder (MDD)",
+      "tail_type": "Disease"
     },
     {
       "head": "future research",
-      "head_type": "research activity",
-      "relation": "should consider",
+      "head_type": "Research Activity",
+      "relation": "should_consider",
       "tail": "research quality",
-      "tail_type": "research aspect"
+      "tail_type": "Research Metric"
     },
     {
       "head": "future research",
-      "head_type": "research activity",
-      "relation": "should consider",
-      "tail": "other forms of depression",
-      "tail_type": "mental disorder"
+      "head_type": "Research Activity",
+      "relation": "should_investigate",
+      "tail": "association",
+      "tail_type": "Relationship"
     },
     {
-      "head": "future research",
-      "head_type": "research activity",
-      "relation": "should incorporate",
-      "tail": "comprehensive meta-analyses",
-      "tail_type": "research method"
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "linked_to",
+      "tail": "anxiety/depression symptom measures",
+      "tail_type": "Psychological Measurement"
     },
     {
-      "head": "future research",
-      "head_type": "research activity",
-      "relation": "should investigate",
-      "tail": "associations between anxiety/depression symptom measures and the gut microbiota",
-      "tail_type": "research topic"
-    },
-    {
-      "head": "papers",
-      "head_type": "research publication",
-      "relation": "should incorporate",
-      "tail": "functional analyses",
-      "tail_type": "research method"
+      "head": "research",
+      "head_type": "Research Activity",
+      "relation": "investigates",
+      "tail": "microbiota-gut-brain axis",
+      "tail_type": "Biological System"
     },
     {
       "head": "microbiota-gut-brain axis",
-      "head_type": "biological pathway",
-      "relation": "investigated in",
+      "head_type": "Biological System",
+      "relation": "impacts",
       "tail": "affective disorders",
-      "tail_type": "mental disorders"
-    },
-    {
-      "head": "research",
-      "head_type": "research activity",
-      "relation": "offers direction for",
-      "tail": "novel therapeutics",
-      "tail_type": "treatment approach"
-    },
-    {
-      "head": "research",
-      "head_type": "research activity",
-      "relation": "targets",
-      "tail": "depression",
-      "tail_type": "mental disorder"
-    },
-    {
-      "head": "authors",
-      "head_type": "researchers",
-      "relation": "encourage",
-      "tail": "further systematic reviews",
-      "tail_type": "research method"
-    },
-    {
-      "head": "systematic reviews",
-      "head_type": "research method",
-      "relation": "should consider",
-      "tail": "research quality",
-      "tail_type": "research aspect"
-    },
-    {
-      "head": "systematic reviews",
-      "head_type": "research method",
-      "relation": "should incorporate",
-      "tail": "comprehensive meta-analyses",
-      "tail_type": "research method"
+      "tail_type": "Disease"
     }
   ]
 }

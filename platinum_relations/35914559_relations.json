@@ -3,67 +3,88 @@
   "abstract": "Microbial alterations within the gut microbiome appear to be a common feature of individuals with Parkinson's disease (PD), providing further evidence for the role of the gut-brain axis in PD development. As a major site of contact with the environment, questions have emerged surrounding the cause and effect of alterations to the gut microbiome by environmental contaminants associated with PD risk, such as pesticides, metals, and organic solvents. Recent data from our lab shows that ingestion of the industrial byproduct and environmental pollutant trichloroethylene (TCE) induces key Parkinsonian pathology within aged rats, including the degeneration of dopaminergic neurons, \u03b1-synuclein accumulation, neuroinflammation, and endolysosomal deficits. As TCE is the most common organic contaminant within drinking water, we postulated that ingestion of TCE associated with PD-related neurodegeneration may alter the gut microbiome to a similar extent as observed in persons with PD. To assess this, we collected fecal samples from adult rats treated with 200\u00a0mg/kg TCE over 6\u00a0weeks via oral gavage - the dose that produced nigrostriatal neurodegeneration - and analyzed the gut microbiome via whole genome shotgun sequencing. Our results showed changes in gut microorganisms reflective of the microbial signatures observed in individuals with idiopathic PD, such as decreased abundance of short-chain fatty acid producing Blautia and elevated lactic-acid producing Bifidobacteria, as well as genera who contain species previously reported as opportunistic pathogens such as Clostridium. From these experimental data, we postulate that TCE exposure within contaminated drinking water could induce alterations of the gut microbiome that contributes to chronic disease risk, including idiopathic PD.",
   "relations": [
     {
-      "head": "trichloroethylene",
-      "head_type": "chemical",
-      "relation": "causes",
-      "tail": "Parkinson's disease",
-      "tail_type": "disease"
+      "head": "Oral ingestion",
+      "head_type": "Action",
+      "relation": "induces",
+      "tail": "Alterations in the gut microbiome",
+      "tail_type": "Biological process"
     },
     {
-      "head": "trichloroethylene",
-      "head_type": "chemical",
-      "relation": "affects",
-      "tail": "gut microbiome",
-      "tail_type": "biological system"
-    },
-    {
-      "head": "gut microbiome",
-      "head_type": "biological system",
+      "head": "Trichloroethylene",
+      "head_type": "Chemical",
       "relation": "associated with",
       "tail": "Parkinson's disease",
-      "tail_type": "disease"
+      "tail_type": "Disease"
     },
     {
-      "head": "trichloroethylene",
-      "head_type": "chemical",
-      "relation": "found in",
-      "tail": "drinking water",
-      "tail_type": "environmental medium"
-    },
-    {
-      "head": "trichloroethylene",
-      "head_type": "chemical",
-      "relation": "causes",
-      "tail": "neurodegeneration",
-      "tail_type": "biological process"
-    },
-    {
-      "head": "gut microbiome alterations",
-      "head_type": "biological process",
+      "head": "Gut microbiome alterations",
+      "head_type": "Biological process",
       "relation": "linked to",
-      "tail": "idiopathic Parkinson's disease",
-      "tail_type": "disease"
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
     },
     {
-      "head": "trichloroethylene",
-      "head_type": "chemical",
+      "head": "Trichloroethylene",
+      "head_type": "Chemical",
       "relation": "induces",
-      "tail": "gut microbiome changes",
-      "tail_type": "biological process"
+      "tail": "Parkinsonian pathology",
+      "tail_type": "Pathological process"
     },
     {
-      "head": "gut microbiome",
-      "head_type": "biological system",
-      "relation": "impacted by",
-      "tail": "trichloroethylene",
-      "tail_type": "chemical"
+      "head": "Parkinsonian pathology",
+      "head_type": "Pathological process",
+      "relation": "includes",
+      "tail": "Degeneration of dopaminergic neurons",
+      "tail_type": "Pathological process"
     },
     {
-      "head": "trichloroethylene",
-      "head_type": "chemical",
-      "relation": "contributes to",
-      "tail": "chronic disease risk",
-      "tail_type": "health outcome"
+      "head": "Parkinsonian pathology",
+      "head_type": "Pathological process",
+      "relation": "includes",
+      "tail": "\u03b1-synuclein accumulation",
+      "tail_type": "Pathological process"
+    },
+    {
+      "head": "Parkinsonian pathology",
+      "head_type": "Pathological process",
+      "relation": "includes",
+      "tail": "Neuroinflammation",
+      "tail_type": "Pathological process"
+    },
+    {
+      "head": "Parkinsonian pathology",
+      "head_type": "Pathological process",
+      "relation": "includes",
+      "tail": "Endolysosomal deficits",
+      "tail_type": "Pathological process"
+    },
+    {
+      "head": "Trichloroethylene",
+      "head_type": "Chemical",
+      "relation": "found in",
+      "tail": "Drinking water",
+      "tail_type": "Environmental medium"
+    },
+    {
+      "head": "TCE exposure",
+      "head_type": "Exposure",
+      "relation": "linked to",
+      "tail": "Alterations in the gut microbiome",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Alterations in the gut microbiome",
+      "head_type": "Biological process",
+      "relation": "linked to",
+      "tail": "Chronic disease risk",
+      "tail_type": "Health condition"
+    },
+    {
+      "head": "Alterations in the gut microbiome",
+      "head_type": "Biological process",
+      "relation": "linked to",
+      "tail": "Idiopathic PD",
+      "tail_type": "Disease"
     }
   ]
 }

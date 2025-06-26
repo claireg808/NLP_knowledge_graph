@@ -3,50 +3,50 @@
   "abstract": "Autoimmunity, gastrointestinal (GI) disorders and schizophrenia have been associated with one another for a long time. This paper reviews these connections and provides a context by which multiple risk factors for schizophrenia may be related. Epidemiological studies strongly link schizophrenia with autoimmune disorders including enteropathic celiac disease. Exposure to wheat gluten and bovine milk casein also contribute to non-celiac food sensitivities in susceptible individuals. Co-morbid GI inflammation accompanies humoral immunity to food antigens, occurs early during the course of schizophrenia and appears to be independent from antipsychotic-generated motility effects. This inflammation impacts endothelial barrier permeability and can precipitate translocation of gut bacteria into systemic circulation. Infection by the neurotropic gut pathogen, Toxoplasma gondii, will elicit an inflammatory GI environment. Such processes trigger innate immunity, including activation of complement C1q, which also functions at synapses in the brain. The emerging field of microbiome research lies at the center of these interactions with evidence that the abundance and diversity of resident gut microbiota contribute to digestion, inflammation, gut permeability and behavior. Dietary modifications of core bacterial compositions may explain inefficient gluten digestion and how immigrant status in certain situations is a risk factor for schizophrenia. Gut microbiome research in schizophrenia is in its infancy, but data in related fields suggest disease-associated altered phylogenetic compositions. In summary, this review surveys associative and experimental data linking autoimmunity, GI activity and schizophrenia, and proposes that understanding of disrupted biological pathways outside of the brain can lend valuable information regarding pathogeneses of complex, polygenic brain disorders.",
   "relations": [
     {
-      "head": "Autoimmunity",
-      "head_type": "Condition",
-      "relation": "associated_with",
-      "tail": "Gastrointestinal disorders",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "Autoimmunity",
-      "head_type": "Condition",
+      "head": "Autoimmune diseases",
+      "head_type": "Disease",
       "relation": "associated_with",
       "tail": "Schizophrenia",
-      "tail_type": "Condition"
+      "tail_type": "Disease"
     },
     {
       "head": "Gastrointestinal disorders",
-      "head_type": "Condition",
+      "head_type": "Disease",
       "relation": "associated_with",
       "tail": "Schizophrenia",
-      "tail_type": "Condition"
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Microbiome",
+      "head_type": "Biological Entity",
+      "relation": "associated_with",
+      "tail": "Schizophrenia",
+      "tail_type": "Disease"
     },
     {
       "head": "Schizophrenia",
-      "head_type": "Condition",
+      "head_type": "Disease",
       "relation": "linked_to",
       "tail": "Autoimmune disorders",
-      "tail_type": "Condition"
+      "tail_type": "Disease"
     },
     {
       "head": "Schizophrenia",
-      "head_type": "Condition",
+      "head_type": "Disease",
       "relation": "linked_to",
       "tail": "Enteropathic celiac disease",
-      "tail_type": "Condition"
+      "tail_type": "Disease"
     },
     {
-      "head": "Exposure to wheat gluten",
-      "head_type": "Exposure",
+      "head": "Wheat gluten",
+      "head_type": "Food",
       "relation": "contributes_to",
       "tail": "Non-celiac food sensitivities",
       "tail_type": "Condition"
     },
     {
-      "head": "Exposure to bovine milk casein",
-      "head_type": "Exposure",
+      "head": "Bovine milk casein",
+      "head_type": "Food",
       "relation": "contributes_to",
       "tail": "Non-celiac food sensitivities",
       "tail_type": "Condition"
@@ -61,23 +61,16 @@
     {
       "head": "Co-morbid GI inflammation",
       "head_type": "Condition",
-      "relation": "occurs_during",
+      "relation": "occurs_early",
       "tail": "Schizophrenia",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "Co-morbid GI inflammation",
-      "head_type": "Condition",
-      "relation": "independent_from",
-      "tail": "Antipsychotic-generated motility effects",
-      "tail_type": "Side Effect"
+      "tail_type": "Disease"
     },
     {
       "head": "GI inflammation",
       "head_type": "Condition",
       "relation": "impacts",
       "tail": "Endothelial barrier permeability",
-      "tail_type": "Biological Process"
+      "tail_type": "Physiological Process"
     },
     {
       "head": "GI inflammation",
@@ -103,41 +96,41 @@
     {
       "head": "Innate immunity",
       "head_type": "Immune Response",
-      "relation": "activates",
-      "tail": "Complement C1q",
-      "tail_type": "Protein"
+      "relation": "includes",
+      "tail": "Activation of complement C1q",
+      "tail_type": "Biological Process"
     },
     {
       "head": "Complement C1q",
       "head_type": "Protein",
       "relation": "functions_at",
-      "tail": "Synapses in the brain",
+      "tail": "Synapses",
       "tail_type": "Anatomical Structure"
     },
     {
-      "head": "Microbiome research",
-      "head_type": "Research Field",
+      "head": "Microbiome",
+      "head_type": "Biological Entity",
       "relation": "contributes_to",
       "tail": "Digestion",
       "tail_type": "Biological Process"
     },
     {
-      "head": "Microbiome research",
-      "head_type": "Research Field",
+      "head": "Microbiome",
+      "head_type": "Biological Entity",
       "relation": "contributes_to",
       "tail": "Inflammation",
-      "tail_type": "Biological Process"
+      "tail_type": "Condition"
     },
     {
-      "head": "Microbiome research",
-      "head_type": "Research Field",
+      "head": "Microbiome",
+      "head_type": "Biological Entity",
       "relation": "contributes_to",
       "tail": "Gut permeability",
-      "tail_type": "Biological Process"
+      "tail_type": "Physiological Process"
     },
     {
-      "head": "Microbiome research",
-      "head_type": "Research Field",
+      "head": "Microbiome",
+      "head_type": "Biological Entity",
       "relation": "contributes_to",
       "tail": "Behavior",
       "tail_type": "Behavioral Process"
@@ -145,30 +138,44 @@
     {
       "head": "Dietary modifications",
       "head_type": "Intervention",
-      "relation": "modify",
+      "relation": "modifies",
       "tail": "Core bacterial compositions",
-      "tail_type": "Microbiome"
+      "tail_type": "Biological Entity"
     },
     {
-      "head": "Inefficient gluten digestion",
-      "head_type": "Condition",
-      "relation": "explained_by",
-      "tail": "Dietary modifications",
-      "tail_type": "Intervention"
+      "head": "Dietary modifications",
+      "head_type": "Intervention",
+      "relation": "explains",
+      "tail": "Inefficient gluten digestion",
+      "tail_type": "Condition"
     },
     {
       "head": "Immigrant status",
       "head_type": "Demographic Factor",
-      "relation": "risk_factor_for",
+      "relation": "is_risk_factor",
       "tail": "Schizophrenia",
-      "tail_type": "Condition"
+      "tail_type": "Disease"
     },
     {
-      "head": "Gut microbiome research",
-      "head_type": "Research Field",
-      "relation": "suggests",
-      "tail": "Disease-associated altered phylogenetic compositions",
+      "head": "Gut microbiome",
+      "head_type": "Biological Entity",
+      "relation": "research_focus",
+      "tail": "Schizophrenia",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Schizophrenia",
+      "head_type": "Disease",
+      "relation": "has_associated",
+      "tail": "Altered phylogenetic compositions",
       "tail_type": "Biological Process"
+    },
+    {
+      "head": "Disrupted biological pathways",
+      "head_type": "Biological Process",
+      "relation": "related_to",
+      "tail": "Pathogenesis",
+      "tail_type": "Disease Process"
     }
   ]
 }

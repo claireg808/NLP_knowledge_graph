@@ -4,38 +4,73 @@
   "relations": [
     {
       "head": "Berberine",
-      "head_type": "Medicine",
-      "relation": "treats",
+      "head_type": "Substance",
+      "relation": "affects",
+      "tail": "Gut Microbiota",
+      "tail_type": "Organism"
+    },
+    {
+      "head": "Berberine",
+      "head_type": "Substance",
+      "relation": "reduces",
+      "tail": "Firmicutes",
+      "tail_type": "Organism"
+    },
+    {
+      "head": "Berberine",
+      "head_type": "Substance",
+      "relation": "reduces",
+      "tail": "Coliform",
+      "tail_type": "Organism"
+    },
+    {
+      "head": "Berberine",
+      "head_type": "Substance",
+      "relation": "increases",
+      "tail": "Bacteroides",
+      "tail_type": "Organism"
+    },
+    {
+      "head": "Olanzapine",
+      "head_type": "Substance",
+      "relation": "causes",
       "tail": "Mild Metabolic Disorders",
       "tail_type": "Disease"
     },
     {
       "head": "Olanzapine",
-      "head_type": "Medicine",
-      "relation": "causes",
-      "tail": "Secondary Metabolic Disturbances",
-      "tail_type": "Condition"
+      "head_type": "Substance",
+      "relation": "used_in_treatment_of",
+      "tail": "Schizophrenia",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Olanzapine",
+      "head_type": "Substance",
+      "relation": "used_in_treatment_of",
+      "tail": "Bipolar Disorder",
+      "tail_type": "Disease"
     },
     {
       "head": "Schizophrenia",
       "head_type": "Disease",
       "relation": "associated_with",
-      "tail": "Bipolar Disorder",
+      "tail": "Mild Metabolic Disorders",
       "tail_type": "Disease"
     },
     {
-      "head": "Berberine",
-      "head_type": "Medicine",
-      "relation": "affects",
-      "tail": "Intestinal Flora",
-      "tail_type": "Biological Entity"
+      "head": "Bipolar Disorder",
+      "head_type": "Disease",
+      "relation": "associated_with",
+      "tail": "Mild Metabolic Disorders",
+      "tail_type": "Disease"
     },
     {
-      "head": "Intestinal Flora",
-      "head_type": "Biological Entity",
-      "relation": "regulates",
-      "tail": "Metabolism",
-      "tail_type": "Biological Process"
+      "head": "Mild Metabolic Disorders",
+      "head_type": "Disease",
+      "relation": "progresses_to",
+      "tail": "Metabolic Syndrome",
+      "tail_type": "Disease"
     }
   ]
 }

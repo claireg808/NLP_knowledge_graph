@@ -5,79 +5,58 @@
     {
       "head": "Pharmacomicrobiomics",
       "head_type": "Scientific Field",
-      "relation": "involves",
-      "tail": "Antidepressants",
+      "relation": "interacts_with",
+      "tail": "Antidepressant medications",
       "tail_type": "Medication"
     },
     {
-      "head": "Antidepressants",
+      "head": "Antidepressant medications",
       "head_type": "Medication",
       "relation": "alter",
-      "tail": "Gut Microbiota Composition",
+      "tail": "gut microbiota composition",
       "tail_type": "Biological Entity"
     },
     {
-      "head": "Gut Microbiota",
+      "head": "gut microbiota",
       "head_type": "Biological Entity",
       "relation": "alter",
-      "tail": "Bioavailability",
+      "tail": "bioavailability",
       "tail_type": "Pharmacokinetic Property"
     },
     {
-      "head": "Gut Microbiota",
+      "head": "gut microbiota",
       "head_type": "Biological Entity",
       "relation": "modulate",
-      "tail": "Mood Modifying Effects",
+      "tail": "mood modifying effects",
       "tail_type": "Physiological Effect"
     },
     {
-      "head": "PubMed",
-      "head_type": "Database",
-      "relation": "contains",
-      "tail": "Studies",
-      "tail_type": "Research Study"
+      "head": "Pharmacomicrobiomics",
+      "head_type": "Scientific Field",
+      "relation": "impacts",
+      "tail": "human health",
+      "tail_type": "Health Outcome"
     },
     {
-      "head": "Studies",
-      "head_type": "Research Study",
-      "relation": "assess",
-      "tail": "Risk of Bias",
-      "tail_type": "Research Methodology"
+      "head": "baseline changes in microbiota",
+      "head_type": "Biological Change",
+      "relation": "mediates",
+      "tail": "therapeutic responses",
+      "tail_type": "Therapeutic Outcome"
+    },
+    {
+      "head": "treatment-emergent changes in microbiota",
+      "head_type": "Biological Change",
+      "relation": "moderates",
+      "tail": "adverse responses",
+      "tail_type": "Adverse Effect"
     },
     {
       "head": "Pharmacomicrobiomics",
       "head_type": "Scientific Field",
-      "relation": "relates to",
-      "tail": "Human Health",
-      "tail_type": "Health Domain"
-    },
-    {
-      "head": "Baseline Changes",
-      "head_type": "Change Type",
-      "relation": "affect",
-      "tail": "Therapeutic Responses",
-      "tail_type": "Treatment Outcome"
-    },
-    {
-      "head": "Treatment-Emergent Changes",
-      "head_type": "Change Type",
-      "relation": "affect",
-      "tail": "Adverse Responses",
-      "tail_type": "Treatment Outcome"
-    },
-    {
-      "head": "Pharmacomicrobiomics",
-      "head_type": "Scientific Field",
-      "relation": "influences",
-      "tail": "Antidepressant Treatment Selection",
-      "tail_type": "Medical Decision"
-    },
-    {
-      "head": "Pharmacomicrobiomics",
-      "head_type": "Scientific Field",
-      "relation": "influences",
-      "tail": "Response Prediction",
-      "tail_type": "Predictive Analytics"
+      "relation": "contributes_to",
+      "tail": "personalizing antidepressant treatment",
+      "tail_type": "Treatment Strategy"
     }
   ]
 }

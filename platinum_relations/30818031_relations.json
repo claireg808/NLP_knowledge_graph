@@ -3,25 +3,67 @@
   "abstract": "Dysfunctional processing of fear memory may be involved in the pathophysiology of fear of cancer recurrence (FCR), which is cited as the major unmet psychological need of cancer survivors. Emerging evidence has shown that the microbiota-gut-brain (MGB) axis affects depressive and anxiety disorders, and chemotherapy-associated psychological distress. We therefore hypothesized that the gut microbiota is associated with FCR in cancer survivors. This cross-sectional study enrolled women diagnosed with invasive breast cancer who were not currently undergoing chemotherapy. Fecal samples were obtained to assess the gut microbiota. FCR grade was assessed using the Concerns About Recurrence Scale (CARS). Mean age of the participants (n\u202f=\u202f126) was 58\u202fyears; 47% had stage I disease. Multiple regression analysis with adjustment for possible confounders showed that the relative abundance of the Bacteroides genus (beta\u202f=\u202f0.180, p\u202f=\u202f0.03) was significantly and directly associated with FCR. In the 57 participants with a history of chemotherapy, higher FCR was associated with lower microbial diversity (p\u202f=\u202f0.04), lower relative abundance of Firmicutes (p\u202f=\u202f0.03) and higher relative abundance of Bacteroidetes (p\u202f=\u202f0.04) at the phylum level, and higher relative abundance of Bacteroides (p\u202f<\u202f0.01) and lower relative abundance of Lachnospiraceae.g (p\u202f=\u202f0.03) and Ruminococcus (p\u202f=\u202f0.02) at the genus level. Our findings provide the first evidence of an association between the gut microbiota and FCR and suggest that chemotherapy-induced changes in gut microbiota can influence FCR. Further studies should examine the effects of the gut microbiota on FCR using a prospective design.",
   "relations": [
     {
-      "head": "Fear of cancer recurrence",
-      "head_type": "Psychological condition",
+      "head": "fear of cancer recurrence",
+      "head_type": "Psychological Condition",
       "relation": "associated with",
-      "tail": "Gut microbiota",
-      "tail_type": "Biological entity"
+      "tail": "gut microbiota",
+      "tail_type": "Biological Entity"
     },
     {
-      "head": "Chemotherapy",
-      "head_type": "Medical treatment",
+      "head": "chemotherapy",
+      "head_type": "Medical Treatment",
       "relation": "induces changes in",
-      "tail": "Gut microbiota",
-      "tail_type": "Biological entity"
+      "tail": "gut microbiota",
+      "tail_type": "Biological Entity"
     },
     {
-      "head": "Gut microbiota",
-      "head_type": "Biological entity",
-      "relation": "influences",
-      "tail": "Fear of cancer recurrence",
-      "tail_type": "Psychological condition"
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "affects",
+      "tail": "fear of cancer recurrence",
+      "tail_type": "Psychological Condition"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "has lower microbial diversity",
+      "tail": "participants with chemotherapy history",
+      "tail_type": "Human Population"
+    },
+    {
+      "head": "Bacteroides",
+      "head_type": "Microbial Genus",
+      "relation": "has higher relative abundance",
+      "tail": "participants with chemotherapy history",
+      "tail_type": "Human Population"
+    },
+    {
+      "head": "Firmicutes",
+      "head_type": "Microbial Phylum",
+      "relation": "has lower relative abundance",
+      "tail": "participants with chemotherapy history",
+      "tail_type": "Human Population"
+    },
+    {
+      "head": "Bacteroidetes",
+      "head_type": "Microbial Phylum",
+      "relation": "has higher relative abundance",
+      "tail": "participants with chemotherapy history",
+      "tail_type": "Human Population"
+    },
+    {
+      "head": "Lachnospiraceae",
+      "head_type": "Microbial Family",
+      "relation": "has lower relative abundance",
+      "tail": "participants with chemotherapy history",
+      "tail_type": "Human Population"
+    },
+    {
+      "head": "Ruminococcus",
+      "head_type": "Microbial Genus",
+      "relation": "has lower relative abundance",
+      "tail": "participants with chemotherapy history",
+      "tail_type": "Human Population"
     }
   ]
 }

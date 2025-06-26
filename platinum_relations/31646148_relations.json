@@ -4,143 +4,62 @@
   "relations": [
     {
       "head": "gut microbiota",
-      "head_type": "ecosystem",
-      "relation": "interacts with",
-      "tail": "host",
-      "tail_type": "host"
+      "head_type": "organism",
+      "relation": "connected",
+      "tail": "gastrointestinal function",
+      "tail_type": "biological process"
     },
     {
       "head": "gut microbiota",
-      "head_type": "ecosystem",
-      "relation": "produces",
-      "tail": "metabolic products",
-      "tail_type": "metabolites"
+      "relation": "connected",
+      "tail": "central function",
+      "tail_type": "biological process"
     },
     {
-      "head": "gut-brain axis",
-      "head_type": "axis",
-      "relation": "contributes to",
-      "tail": "pathophysiology of depression",
-      "tail_type": "pathophysiology"
+      "head": "gut microbiota",
+      "head_type": "organism",
+      "relation": "contribute",
+      "tail": "depression",
+      "tail_type": "disease"
+    },
+    {
+      "head": "microbially-derived molecules",
+      "head_type": "biochemical",
+      "relation": "play role",
+      "tail": "emotional behavior",
+      "tail_type": "behavior"
     },
     {
       "head": "gut microbial metabolites",
-      "head_type": "metabolites",
+      "head_type": "biochemical",
       "relation": "affect",
       "tail": "depressive behavior",
       "tail_type": "behavior"
     },
     {
-      "head": "microbially-derived molecules",
-      "head_type": "molecules",
-      "relation": "include",
-      "tail": "neurotransmitters",
-      "tail_type": "neurotransmitters"
-    },
-    {
-      "head": "microbially-derived molecules",
-      "head_type": "molecules",
-      "relation": "include",
-      "tail": "short-chain fatty acids",
-      "tail_type": "fatty acids"
-    },
-    {
-      "head": "microbially-derived molecules",
-      "head_type": "molecules",
-      "relation": "include",
-      "tail": "indoles",
-      "tail_type": "indoles"
-    },
-    {
-      "head": "microbially-derived molecules",
-      "head_type": "molecules",
-      "relation": "include",
-      "tail": "bile acids",
-      "tail_type": "bile acids"
-    },
-    {
-      "head": "microbially-derived molecules",
-      "head_type": "molecules",
-      "relation": "include",
-      "tail": "choline metabolites",
-      "tail_type": "metabolites"
-    },
-    {
-      "head": "microbially-derived molecules",
-      "head_type": "molecules",
-      "relation": "include",
-      "tail": "lactate",
-      "tail_type": "lactate"
-    },
-    {
-      "head": "microbially-derived molecules",
-      "head_type": "molecules",
-      "relation": "include",
-      "tail": "vitamins",
-      "tail_type": "vitamins"
-    },
-    {
       "head": "gut microbial metabolites",
-      "head_type": "metabolites",
       "relation": "stimulate",
       "tail": "central receptors",
-      "tail_type": "receptors"
+      "tail_type": "biological structure"
     },
     {
       "head": "gut microbial metabolites",
-      "head_type": "metabolites",
       "relation": "stimulate",
-      "tail": "neural mediators",
-      "tail_type": "mediators"
+      "tail": "peripheral neural, endocrine, and immune mediators",
+      "tail_type": "biological structure"
     },
     {
       "head": "gut microbial metabolites",
-      "head_type": "metabolites",
-      "relation": "stimulate",
-      "tail": "endocrine mediators",
-      "tail_type": "mediators"
-    },
-    {
-      "head": "gut microbial metabolites",
-      "head_type": "metabolites",
-      "relation": "stimulate",
-      "tail": "immune mediators",
-      "tail_type": "mediators"
-    },
-    {
-      "head": "gut microbial metabolites",
-      "head_type": "metabolites",
       "relation": "regulate",
-      "tail": "epigenetic processes",
-      "tail_type": "processes"
-    },
-    {
-      "head": "gut microbial metabolites",
-      "head_type": "metabolites",
-      "relation": "affect",
-      "tail": "DNA methylation",
-      "tail_type": "epigenetic modification"
-    },
-    {
-      "head": "gut microbial metabolites",
-      "head_type": "metabolites",
-      "relation": "affect",
-      "tail": "histone acetylation",
-      "tail_type": "epigenetic modification"
+      "tail": "epigenetic regulation",
+      "tail_type": "biological process"
     },
     {
       "head": "dietary interventions",
-      "head_type": "interventions",
+      "head_type": "therapeutic strategy",
       "relation": "represent",
-      "tail": "therapeutic strategies",
-      "tail_type": "strategies"
-    },
-    {
-      "head": "dietary interventions",
-      "head_type": "interventions",
-      "relation": "target",
-      "tail": "major depressive disorder",
-      "tail_type": "disorder"
+      "tail": "novel therapeutic strategies",
+      "tail_type": "therapeutic strategy"
     }
   ]
 }

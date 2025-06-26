@@ -4,59 +4,122 @@
   "relations": [
     {
       "head": "Neuroactive compounds",
-      "head_type": "Biological Compound",
-      "relation": "Synthesized by",
-      "tail": "Plants",
+      "head_type": "Chemical",
+      "relation": "synthesized by",
+      "tail": "plants",
       "tail_type": "Organism"
     },
     {
       "head": "Neuroactive compounds",
-      "head_type": "Biological Compound",
-      "relation": "Synthesized by",
-      "tail": "Microorganisms",
+      "head_type": "Chemical",
+      "relation": "synthesized by",
+      "tail": "microorganisms",
       "tail_type": "Organism"
     },
     {
-      "head": "Fermented foods",
+      "head": "neuroactive compounds",
+      "head_type": "Chemical",
+      "relation": "found in",
+      "tail": "fermented foods",
+      "tail_type": "Food"
+    },
+    {
+      "head": "fermented foods",
       "head_type": "Food",
-      "relation": "Contain",
-      "tail": "Neuroactive compounds",
-      "tail_type": "Biological Compound"
+      "relation": "affect",
+      "tail": "human health",
+      "tail_type": "Health"
     },
     {
-      "head": "Food processing",
+      "head": "fermented foods",
+      "head_type": "Food",
+      "relation": "affect",
+      "tail": "human mood",
+      "tail_type": "Health"
+    },
+    {
+      "head": "food processing",
       "head_type": "Process",
-      "relation": "Alter",
-      "tail": "Neuroactive compounds",
-      "tail_type": "Biological Compound"
+      "relation": "alter",
+      "tail": "amount of neuroactive compounds",
+      "tail_type": "Chemical"
     },
     {
-      "head": "Gut microbiota",
+      "head": "food processing",
+      "head_type": "Process",
+      "relation": "alter",
+      "tail": "profile of neuroactive compounds",
+      "tail_type": "Chemical"
+    },
+    {
+      "head": "neuroactive compounds",
+      "head_type": "Chemical",
+      "relation": "formed by",
+      "tail": "gut microbiota",
+      "tail_type": "Organism"
+    },
+    {
+      "head": "gut microbiota",
       "head_type": "Organism",
-      "relation": "Form",
-      "tail": "Neuroactive compounds",
-      "tail_type": "Biological Compound"
+      "relation": "interact with",
+      "tail": "mental health",
+      "tail_type": "Health"
     },
     {
-      "head": "Microbiota-gut-brain axis",
+      "head": "microbiota-gut-brain axis",
       "head_type": "Biological System",
-      "relation": "Investigate effects of",
-      "tail": "Diet",
-      "tail_type": "Dietary Intake"
+      "relation": "calls for",
+      "tail": "investigation of diet effects",
+      "tail_type": "Research"
     },
     {
-      "head": "Probiotics",
-      "head_type": "Biological Agent",
-      "relation": "Contribute to understanding",
-      "tail": "Food-mood relationship",
-      "tail_type": "Concept"
+      "head": "diet",
+      "head_type": "Nutrition",
+      "relation": "affects",
+      "tail": "formation of neuroactive compounds",
+      "tail_type": "Chemical"
     },
     {
-      "head": "Prebiotics",
-      "head_type": "Biological Agent",
-      "relation": "Contribute to understanding",
-      "tail": "Food-mood relationship",
-      "tail_type": "Concept"
+      "head": "probiotics",
+      "head_type": "Food",
+      "relation": "related to",
+      "tail": "food-mood relationship",
+      "tail_type": "Health"
+    },
+    {
+      "head": "prebiotics",
+      "head_type": "Food",
+      "relation": "related to",
+      "tail": "food-mood relationship",
+      "tail_type": "Health"
+    },
+    {
+      "head": "neuroactive compounds",
+      "head_type": "Chemical",
+      "relation": "discussed in",
+      "tail": "review",
+      "tail_type": "Literature"
+    },
+    {
+      "head": "formation pathways",
+      "head_type": "Process",
+      "relation": "discussed in",
+      "tail": "review",
+      "tail_type": "Literature"
+    },
+    {
+      "head": "potential health effects",
+      "head_type": "Health",
+      "relation": "discussed in",
+      "tail": "review",
+      "tail_type": "Literature"
+    },
+    {
+      "head": "gut-brain axis",
+      "head_type": "Biological System",
+      "relation": "discussed in",
+      "tail": "review",
+      "tail_type": "Literature"
     }
   ]
 }

@@ -4,73 +4,38 @@
   "relations": [
     {
       "head": "Haemophilus",
-      "head_type": "Bacterial Taxon",
-      "relation": "is positively correlated with",
-      "tail": "negative psychiatric symptoms",
-      "tail_type": "Psychiatric Symptoms"
-    },
-    {
-      "head": "Coprococcus",
-      "head_type": "Bacterial Taxon",
-      "relation": "is negatively correlated with",
-      "tail": "negative psychiatric symptoms",
-      "tail_type": "Psychiatric Symptoms"
+      "head_type": "Bacteria",
+      "relation": "is_associated_with",
+      "tail": "Negative symptoms of schizophrenia",
+      "tail_type": "Symptom"
     },
     {
       "head": "Haemophilus",
-      "head_type": "Bacterial Taxon",
-      "relation": "is positively correlated with",
-      "tail": "cognition",
+      "head_type": "Bacteria",
+      "relation": "is_associated_with",
+      "tail": "Cognition",
       "tail_type": "Cognitive Function"
     },
     {
       "head": "Haemophilus",
-      "head_type": "Bacterial Taxon",
-      "relation": "is positively correlated with",
-      "tail": "excitement",
-      "tail_type": "Psychiatric Symptoms"
+      "head_type": "Bacteria",
+      "relation": "is_associated_with",
+      "tail": "Excitement",
+      "tail_type": "Emotion"
     },
     {
       "head": "Haemophilus",
-      "head_type": "Bacterial Taxon",
-      "relation": "is positively correlated with",
-      "tail": "depression",
-      "tail_type": "Mental Disorder"
+      "head_type": "Bacteria",
+      "relation": "is_associated_with",
+      "tail": "Depression",
+      "tail_type": "Mental Health Condition"
     },
     {
-      "head": "Gut Microbiota",
-      "head_type": "Microbial Community",
-      "relation": "alters",
-      "tail": "psychological symptoms",
-      "tail_type": "Psychological Symptoms"
-    },
-    {
-      "head": "Gut Microbiota",
-      "head_type": "Microbial Community",
-      "relation": "is associated with",
-      "tail": "schizophrenia",
-      "tail_type": "Mental Disorder"
-    },
-    {
-      "head": "16S rRNA sequencing",
-      "head_type": "Sequencing Method",
-      "relation": "evaluates",
-      "tail": "microbiota compositions",
-      "tail_type": "Microbial Community"
-    },
-    {
-      "head": "Positive and Negative Syndrome Scale",
-      "head_type": "Assessment Tool",
-      "relation": "evaluates",
-      "tail": "psychotic symptoms",
-      "tail_type": "Psychiatric Symptoms"
-    },
-    {
-      "head": "NCBI",
-      "head_type": "Database",
-      "relation": "contains",
-      "tail": "data",
-      "tail_type": "Research Data"
+      "head": "Coprococcus",
+      "head_type": "Bacteria",
+      "relation": "is_associated_with",
+      "tail": "Negative symptoms of schizophrenia",
+      "tail_type": "Symptom"
     }
   ]
 }

@@ -1,116 +1,165 @@
 {
   "title": "Multi-omics analyses demonstrate the modulating role of gut microbiota on the associations of unbalanced dietary intake with gastrointestinal symptoms in children with autism spectrum disorder.",
-  "abstract": "Our previous work revealed that unbalanced dietary intake was an important independent factor associated with constipation and gastrointestinal (GI) symptoms in children with autism spectrum disorder (ASD). Growing evidence has shown the alterations in the gut microbiota and gut microbiota-derived metabolites in ASD. However, how the altered microbiota might affect the associations between unbalanced diets and GI symptoms in ASD remains unknown. We analyzed microbiome and metabolomics data in 90 ASD and 90 typically developing (TD) children based on 16S rRNA and untargeted metabolomics, together with dietary intake and GI symptoms assessment. We found that there existed 11 altered gut microbiota (FDR-corrected P-value <0.05) and 397 altered metabolites (P-value <0.05) in children with ASD compared with TD children. Among the 11 altered microbiota, the <i>Turicibacter</i>, <i>Coprococcus 1</i>, and <i>Lachnospiraceae FCS020 group</i> were positively correlated with constipation (FDR-corrected P-value <0.25). The Eggerthellaceae was positively correlated with total GI symptoms (FDR-corrected P-value <0.25). More importantly, three increased microbiota including <i>Turicibacter</i>, <i>Coprococcus 1</i>, and Eggerthellaceae positively modulated the associations of unbalanced dietary intake with constipation and total GI symptoms, and the decreased <i>Clostridium sp. BR31</i> negatively modulated their associations in ASD children (P-value <0.05). Together, the altered microbiota strengthens the relationship between unbalanced dietary intake and GI symptoms. Among the altered metabolites, ten metabolites derived from microbiota (<i>Turicibacter</i>, <i>Coprococcus 1</i>, Eggerthellaceae, and <i>Clostridium sp. BR31</i>) were screened out, enriched in eight metabolic pathways, and were identified to correlate with constipation and total GI symptoms in ASD children (FDR-corrected P-value <0.25). These metabolomics findings further support the modulating role of gut microbiota on the associations of unbalanced dietary intake with GI symptoms. Collectively, our research provides insights into the relationship between diet, the gut microbiota, and GI symptoms in children with ASD.",
+  "abstract": "Our previous work revealed that unbalanced dietary intake was an important independent factor associated with constipation and gastrointestinal (GI) symptoms in children with autism spectrum disorder (ASD). Growing evidence has shown the alterations in the gut microbiota and gut microbiota-derived metabolites in ASD. However, how the altered microbiota might affect the associations between unbalanced diets and GI symptoms in ASD remains unknown. We analyzed microbiome and metabolomics data in 90 ASD and 90 typically developing (TD) children based on 16S rRNA and untargeted metabolomics, together with dietary intake and GI symptoms assessment. We found that there existed 11 altered gut microbiota (FDR-corrected P-value <0.05) and 397 altered metabolites (P-value <0.05) in children with ASD compared with TD children. Among the 11 altered microbiota, the Turicibacter, Coprococcus 1, and Lachnospiraceae FCS020 group were positively correlated with constipation (FDR-corrected P-value <0.25). The Eggerthellaceae was positively correlated with total GI symptoms (FDR-corrected P-value <0.25). More importantly, three increased microbiota including Turicibacter, Coprococcus 1, and Eggerthellaceae positively modulated the associations of unbalanced dietary intake with constipation and total GI symptoms, and the decreased Clostridium sp. BR31 negatively modulated their associations in ASD children (P-value <0.05). Together, the altered microbiota strengthens the relationship between unbalanced dietary intake and GI symptoms. Among the altered metabolites, ten metabolites derived from microbiota (Turicibacter, Coprococcus 1, Eggerthellaceae, and Clostridium sp. BR31) were screened out, enriched in eight metabolic pathways, and were identified to correlate with constipation and total GI symptoms in ASD children (FDR-corrected P-value <0.25). These metabolomics findings further support the modulating role of gut microbiota on the associations of unbalanced dietary intake with GI symptoms. Collectively, our research provides insights into the relationship between diet, the gut microbiota, and GI symptoms in children with ASD.",
   "relations": [
     {
       "head": "unbalanced dietary intake",
-      "head_type": "dietary factor",
-      "relation": "associated with",
+      "head_type": "diet",
+      "relation": "associated_with",
       "tail": "constipation",
       "tail_type": "gastrointestinal symptom"
     },
     {
       "head": "unbalanced dietary intake",
-      "head_type": "dietary factor",
-      "relation": "associated with",
+      "head_type": "diet",
+      "relation": "associated_with",
       "tail": "gastrointestinal symptoms",
       "tail_type": "gastrointestinal symptom"
     },
     {
       "head": "gut microbiota",
-      "head_type": "microbial entity",
-      "relation": "altered in",
+      "head_type": "microbiota",
+      "relation": "altered_in",
       "tail": "ASD",
-      "tail_type": "neurodevelopmental disorder"
+      "tail_type": "disorder"
     },
     {
       "head": "gut microbiota-derived metabolites",
-      "head_type": "metabolite",
-      "relation": "altered in",
+      "head_type": "metabolites",
+      "relation": "altered_in",
       "tail": "ASD",
-      "tail_type": "neurodevelopmental disorder"
+      "tail_type": "disorder"
     },
     {
       "head": "gut microbiota",
-      "head_type": "microbial entity",
-      "relation": "affects",
-      "tail": "associations between unbalanced dietary intake and GI symptoms",
-      "tail_type": "biological association"
+      "head_type": "microbiota",
+      "relation": "affects_associations",
+      "tail": "unbalanced dietary intake",
+      "tail_type": "diet"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "affects_associations",
+      "tail": "gastrointestinal symptoms",
+      "tail_type": "gastrointestinal symptom"
     },
     {
       "head": "Turicibacter",
-      "head_type": "bacterial genus",
-      "relation": "positively correlated with",
+      "head_type": "microbiota",
+      "relation": "positively_correlated_with",
       "tail": "constipation",
       "tail_type": "gastrointestinal symptom"
     },
     {
       "head": "Coprococcus 1",
-      "head_type": "bacterial genus",
-      "relation": "positively correlated with",
+      "head_type": "microbiota",
+      "relation": "positively_correlated_with",
       "tail": "constipation",
       "tail_type": "gastrointestinal symptom"
     },
     {
       "head": "Lachnospiraceae FCS020 group",
-      "head_type": "bacterial group",
-      "relation": "positively correlated with",
+      "head_type": "microbiota",
+      "relation": "positively_correlated_with",
       "tail": "constipation",
       "tail_type": "gastrointestinal symptom"
     },
     {
       "head": "Eggerthellaceae",
-      "head_type": "bacterial family",
-      "relation": "positively correlated with",
+      "head_type": "microbiota",
+      "relation": "positively_correlated_with",
       "tail": "total GI symptoms",
       "tail_type": "gastrointestinal symptom"
     },
     {
       "head": "Turicibacter",
-      "head_type": "bacterial genus",
-      "relation": "positively modulates",
-      "tail": "associations of unbalanced dietary intake with constipation",
-      "tail_type": "biological association"
+      "head_type": "microbiota",
+      "relation": "positively_modulates_associations",
+      "tail": "unbalanced dietary intake",
+      "tail_type": "diet"
     },
     {
       "head": "Coprococcus 1",
-      "head_type": "bacterial genus",
-      "relation": "positively modulates",
-      "tail": "associations of unbalanced dietary intake with constipation",
-      "tail_type": "biological association"
+      "head_type": "microbiota",
+      "relation": "positively_modulates_associations",
+      "tail": "unbalanced dietary intake",
+      "tail_type": "diet"
     },
     {
       "head": "Eggerthellaceae",
-      "head_type": "bacterial family",
-      "relation": "positively modulates",
-      "tail": "associations of unbalanced dietary intake with total GI symptoms",
-      "tail_type": "biological association"
+      "head_type": "microbiota",
+      "relation": "positively_modulates_associations",
+      "tail": "unbalanced dietary intake",
+      "tail_type": "diet"
     },
     {
       "head": "Clostridium sp. BR31",
-      "head_type": "bacterial species",
-      "relation": "negatively modulates",
-      "tail": "associations of unbalanced dietary intake with GI symptoms",
-      "tail_type": "biological association"
+      "head_type": "microbiota",
+      "relation": "negatively_modulates_associations",
+      "tail": "unbalanced dietary intake",
+      "tail_type": "diet"
     },
     {
       "head": "gut microbiota",
-      "head_type": "microbial entity",
-      "relation": "strengthens",
-      "tail": "relationship between unbalanced dietary intake and GI symptoms",
-      "tail_type": "biological association"
+      "head_type": "microbiota",
+      "relation": "strengthens_relationship",
+      "tail": "unbalanced dietary intake",
+      "tail_type": "diet"
     },
     {
-      "head": "metabolites derived from microbiota",
-      "head_type": "metabolite",
-      "relation": "correlate with",
+      "head": "gut microbiota",
+      "head_type": "microbiota",
+      "relation": "strengthens_relationship",
+      "tail": "gastrointestinal symptoms",
+      "tail_type": "gastrointestinal symptom"
+    },
+    {
+      "head": "metabolites",
+      "head_type": "metabolites",
+      "relation": "derived_from",
+      "tail": "Turicibacter",
+      "tail_type": "microbiota"
+    },
+    {
+      "head": "metabolites",
+      "head_type": "metabolites",
+      "relation": "derived_from",
+      "tail": "Coprococcus 1",
+      "tail_type": "microbiota"
+    },
+    {
+      "head": "metabolites",
+      "head_type": "metabolites",
+      "relation": "derived_from",
+      "tail": "Eggerthellaceae",
+      "tail_type": "microbiota"
+    },
+    {
+      "head": "metabolites",
+      "head_type": "metabolites",
+      "relation": "derived_from",
+      "tail": "Clostridium sp. BR31",
+      "tail_type": "microbiota"
+    },
+    {
+      "head": "metabolites",
+      "head_type": "metabolites",
+      "relation": "enriched_in",
+      "tail": "metabolic pathways",
+      "tail_type": "biological process"
+    },
+    {
+      "head": "metabolites",
+      "head_type": "metabolites",
+      "relation": "correlate_with",
       "tail": "constipation",
       "tail_type": "gastrointestinal symptom"
     },
     {
-      "head": "metabolites derived from microbiota",
-      "head_type": "metabolite",
-      "relation": "correlate with",
+      "head": "metabolites",
+      "head_type": "metabolites",
+      "relation": "correlate_with",
       "tail": "total GI symptoms",
       "tail_type": "gastrointestinal symptom"
     }

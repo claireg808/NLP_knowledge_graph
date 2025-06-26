@@ -1,216 +1,307 @@
 {
-  "title": "The different trends in the burden of neurological and mental disorders following dietary transition in China, the USA, and the world: An extension analysis for the Global Burden of Disease Study 2019.",
+  "title": "The different trends in the burden of neurological and mental disorders following dietary transition in China, the USA, and the world: An extension analysis for the Global Burden of Disease Study 2019",
   "abstract": "The highly processed western diet is substituting the low-processed traditional diet in the last decades globally. Increasing research found that a diet with poor quality such as western diet disrupts gut microbiota and increases the susceptibility to various neurological and mental disorders, while a balanced diet regulates gut microbiota and prevents and alleviates the neurological and mental disorders. Yet, there is limited research on the association between the disease burden expanding of neurological and mental disorders with a dietary transition. We compared the disability-adjusted life-years (DALYs) trend by age for neurological and mental disorders in China, in the United States of America (USA), and across the world from 1990 to 2019, evaluated the dietary transition in the past 60 years, and analyzed the association between the burden trend of the two disorders with the changes in diet composition and food production. We identified an age-related upward pattern in disease burden in China. Compared with the USA and the world, the Chinese neurological and mental disorders DALY percent was least in the generation over 75 but rapidly increased in younger generations and surpassed the USA and/or the world in the last decades. The age-related upward pattern in Chinese disease burdens had not only shown in the presence of cardiovascular diseases, neoplasms, and diabetes mellitus but also appeared in the presence of depressive disorders, Parkinson's disease, Alzheimer's disease and other dementias, schizophrenia, headache disorders, anxiety disorders, conduct disorders, autism spectrum disorders, and eating disorders, successively. Additionally, the upward trend was associated with the dramatic dietary transition including a reduction in dietary quality and food production sustainability, during which the younger generation is more affected than the older. Following the increase in total calorie intake, alcohol intake, ratios of animal to vegetal foods, and poultry meat to pulses, the burdens of the above diseases continuously rose. Then, following the rise of the ratios of meat to pulses, eggs to pulses, and pork to pulses, the usage of fertilizers, the farming density of pigs, and the burdens of the above disease except diabetes mellitus were also ever-increasing. Even the usage of pesticides was positively correlated with the burdens of Parkinson's disease, schizophrenia, cardiovascular diseases, and neoplasms. Contrary to China, the corresponding burdens of the USA trended to reduce with the improvements in diet quality and food production sustainability. Our results suggest that improving diet quality and food production sustainability might be a promising way to stop the expanding burdens of neurological and mental disorders.",
   "relations": [
     {
       "head": "western diet",
-      "head_type": "Diet Type",
+      "head_type": "diet",
       "relation": "disrupts",
       "tail": "gut microbiota",
-      "tail_type": "Biological Process"
+      "tail_type": "biological process"
     },
     {
       "head": "western diet",
-      "head_type": "Diet Type",
-      "relation": "increases susceptibility",
+      "head_type": "diet",
+      "relation": "increases susceptibility to",
       "tail": "neurological and mental disorders",
-      "tail_type": "Disease Category"
+      "tail_type": "disease"
     },
     {
       "head": "balanced diet",
-      "head_type": "Diet Type",
+      "head_type": "diet",
       "relation": "regulates",
       "tail": "gut microbiota",
-      "tail_type": "Biological Process"
+      "tail_type": "biological process"
     },
     {
       "head": "balanced diet",
-      "head_type": "Diet Type",
+      "head_type": "diet",
       "relation": "prevents",
       "tail": "neurological and mental disorders",
-      "tail_type": "Disease Category"
+      "tail_type": "disease"
     },
     {
       "head": "balanced diet",
-      "head_type": "Diet Type",
+      "head_type": "diet",
       "relation": "alleviates",
       "tail": "neurological and mental disorders",
-      "tail_type": "Disease Category"
+      "tail_type": "disease"
     },
     {
       "head": "dietary transition",
-      "head_type": "Dietary Pattern",
+      "head_type": "dietary change",
       "relation": "associated with",
       "tail": "disease burden",
-      "tail_type": "Health Metric"
+      "tail_type": "health metric"
     },
     {
-      "head": "DALYs",
-      "head_type": "Health Metric",
-      "relation": "trend",
+      "head": "disability-adjusted life-years (DALYs)",
+      "head_type": "health metric",
+      "relation": "trend by age",
       "tail": "neurological and mental disorders",
-      "tail_type": "Disease Category"
+      "tail_type": "disease"
+    },
+    {
+      "head": "dietary transition",
+      "head_type": "dietary change",
+      "relation": "associated with",
+      "tail": "changes in diet composition",
+      "tail_type": "diet component"
+    },
+    {
+      "head": "dietary transition",
+      "head_type": "dietary change",
+      "relation": "associated with",
+      "tail": "food production",
+      "tail_type": "economic activity"
+    },
+    {
+      "head": "age-related upward pattern",
+      "head_type": "trend",
+      "relation": "present in",
+      "tail": "disease burden",
+      "tail_type": "health metric"
     },
     {
       "head": "China",
-      "head_type": "Country",
+      "head_type": "country",
       "relation": "has",
       "tail": "age-related upward pattern",
-      "tail_type": "Trend Pattern"
+      "tail_type": "trend"
     },
     {
       "head": "USA",
-      "head_type": "Country",
-      "relation": "has",
-      "tail": "lower DALY percent",
-      "tail_type": "Health Metric"
+      "head_type": "country",
+      "relation": "has lower",
+      "tail": "DALY percent",
+      "tail_type": "health metric"
     },
     {
       "head": "world",
-      "head_type": "Global",
-      "relation": "has",
-      "tail": "lower DALY percent",
-      "tail_type": "Health Metric"
+      "head_type": "global",
+      "relation": "has lower",
+      "tail": "DALY percent",
+      "tail_type": "health metric"
     },
     {
       "head": "China",
-      "head_type": "Country",
-      "relation": "surpasses",
-      "tail": "USA",
-      "tail_type": "Country"
+      "head_type": "country",
+      "relation": "has increased",
+      "tail": "DALY percent",
+      "tail_type": "health metric"
     },
     {
-      "head": "China",
-      "head_type": "Country",
-      "relation": "surpasses",
-      "tail": "world",
-      "tail_type": "Global"
+      "head": "neurological and mental disorders",
+      "head_type": "disease",
+      "relation": "include",
+      "tail": "depressive disorders",
+      "tail_type": "disease"
+    },
+    {
+      "head": "neurological and mental disorders",
+      "head_type": "disease",
+      "relation": "include",
+      "tail": "Parkinson's disease",
+      "tail_type": "disease"
+    },
+    {
+      "head": "neurological and mental disorders",
+      "head_type": "disease",
+      "relation": "include",
+      "tail": "Alzheimer's disease",
+      "tail_type": "disease"
+    },
+    {
+      "head": "neurological and mental disorders",
+      "head_type": "disease",
+      "relation": "include",
+      "tail": "other dementias",
+      "tail_type": "disease"
+    },
+    {
+      "head": "neurological and mental disorders",
+      "head_type": "disease",
+      "relation": "include",
+      "tail": "schizophrenia",
+      "tail_type": "disease"
+    },
+    {
+      "head": "neurological and mental disorders",
+      "head_type": "disease",
+      "relation": "include",
+      "tail": "headache disorders",
+      "tail_type": "disease"
+    },
+    {
+      "head": "neurological and mental disorders",
+      "head_type": "disease",
+      "relation": "include",
+      "tail": "anxiety disorders",
+      "tail_type": "disease"
+    },
+    {
+      "head": "neurological and mental disorders",
+      "head_type": "disease",
+      "relation": "include",
+      "tail": "conduct disorders",
+      "tail_type": "disease"
+    },
+    {
+      "head": "neurological and mental disorders",
+      "head_type": "disease",
+      "relation": "include",
+      "tail": "autism spectrum disorders",
+      "tail_type": "disease"
+    },
+    {
+      "head": "neurological and mental disorders",
+      "head_type": "disease",
+      "relation": "include",
+      "tail": "eating disorders",
+      "tail_type": "disease"
     },
     {
       "head": "dietary transition",
-      "head_type": "Dietary Pattern",
+      "head_type": "dietary change",
       "relation": "associated with",
       "tail": "reduction in dietary quality",
-      "tail_type": "Dietary Quality"
+      "tail_type": "diet component"
     },
     {
       "head": "dietary transition",
-      "head_type": "Dietary Pattern",
+      "head_type": "dietary change",
       "relation": "associated with",
       "tail": "food production sustainability",
-      "tail_type": "Food Production"
+      "tail_type": "economic activity"
+    },
+    {
+      "head": "younger generation",
+      "head_type": "demographic",
+      "relation": "more affected than",
+      "tail": "older generation",
+      "tail_type": "demographic"
     },
     {
       "head": "increase in total calorie intake",
-      "head_type": "Nutritional Intake",
-      "relation": "leads to",
-      "tail": "rising disease burdens",
-      "tail_type": "Health Metric"
+      "head_type": "diet component",
+      "relation": "linked to",
+      "tail": "burden of diseases",
+      "tail_type": "health metric"
     },
     {
-      "head": "alcohol intake",
-      "head_type": "Nutritional Intake",
-      "relation": "leads to",
-      "tail": "rising disease burdens",
-      "tail_type": "Health Metric"
+      "head": "increase in alcohol intake",
+      "head_type": "diet component",
+      "relation": "linked to",
+      "tail": "burden of diseases",
+      "tail_type": "health metric"
     },
     {
       "head": "ratios of animal to vegetal foods",
-      "head_type": "Dietary Composition",
-      "relation": "leads to",
-      "tail": "rising disease burdens",
-      "tail_type": "Health Metric"
+      "head_type": "diet component",
+      "relation": "linked to",
+      "tail": "burden of diseases",
+      "tail_type": "health metric"
     },
     {
-      "head": "poultry meat to pulses",
-      "head_type": "Dietary Composition",
-      "relation": "leads to",
-      "tail": "rising disease burdens",
-      "tail_type": "Health Metric"
+      "head": "ratios of poultry meat to pulses",
+      "head_type": "diet component",
+      "relation": "linked to",
+      "tail": "burden of diseases",
+      "tail_type": "health metric"
     },
     {
       "head": "ratios of meat to pulses",
-      "head_type": "Dietary Composition",
-      "relation": "leads to",
-      "tail": "rising disease burdens",
-      "tail_type": "Health Metric"
+      "head_type": "diet component",
+      "relation": "linked to",
+      "tail": "burden of diseases",
+      "tail_type": "health metric"
     },
     {
-      "head": "eggs to pulses",
-      "head_type": "Dietary Composition",
-      "relation": "leads to",
-      "tail": "rising disease burdens",
-      "tail_type": "Health Metric"
+      "head": "ratios of eggs to pulses",
+      "head_type": "diet component",
+      "relation": "linked to",
+      "tail": "burden of diseases",
+      "tail_type": "health metric"
     },
     {
-      "head": "pork to pulses",
-      "head_type": "Dietary Composition",
-      "relation": "leads to",
-      "tail": "rising disease burdens",
-      "tail_type": "Health Metric"
+      "head": "ratios of pork to pulses",
+      "head_type": "diet component",
+      "relation": "linked to",
+      "tail": "burden of diseases",
+      "tail_type": "health metric"
     },
     {
       "head": "usage of fertilizers",
-      "head_type": "Agricultural Practice",
-      "relation": "leads to",
-      "tail": "rising disease burdens",
-      "tail_type": "Health Metric"
+      "head_type": "agricultural practice",
+      "relation": "linked to",
+      "tail": "burden of diseases",
+      "tail_type": "health metric"
     },
     {
       "head": "farming density of pigs",
-      "head_type": "Agricultural Practice",
-      "relation": "leads to",
-      "tail": "rising disease burdens",
-      "tail_type": "Health Metric"
+      "head_type": "agricultural practice",
+      "relation": "linked to",
+      "tail": "burden of diseases",
+      "tail_type": "health metric"
     },
     {
       "head": "usage of pesticides",
-      "head_type": "Agricultural Practice",
+      "head_type": "agricultural practice",
       "relation": "positively correlated with",
       "tail": "Parkinson's disease",
-      "tail_type": "Disease"
+      "tail_type": "disease"
     },
     {
       "head": "usage of pesticides",
-      "head_type": "Agricultural Practice",
+      "head_type": "agricultural practice",
       "relation": "positively correlated with",
       "tail": "schizophrenia",
-      "tail_type": "Disease"
+      "tail_type": "disease"
     },
     {
       "head": "usage of pesticides",
-      "head_type": "Agricultural Practice",
+      "head_type": "agricultural practice",
       "relation": "positively correlated with",
       "tail": "cardiovascular diseases",
-      "tail_type": "Disease Category"
+      "tail_type": "disease"
     },
     {
       "head": "usage of pesticides",
-      "head_type": "Agricultural Practice",
+      "head_type": "agricultural practice",
       "relation": "positively correlated with",
       "tail": "neoplasms",
-      "tail_type": "Disease Category"
+      "tail_type": "disease"
     },
     {
       "head": "USA",
-      "head_type": "Country",
-      "relation": "has",
-      "tail": "reducing disease burdens",
-      "tail_type": "Health Metric"
+      "head_type": "country",
+      "relation": "has reduced",
+      "tail": "burden of diseases",
+      "tail_type": "health metric"
     },
     {
       "head": "diet quality",
-      "head_type": "Dietary Quality",
+      "head_type": "diet component",
       "relation": "improves",
-      "tail": "disease burden",
-      "tail_type": "Health Metric"
+      "tail": "health outcomes",
+      "tail_type": "health metric"
     },
     {
       "head": "food production sustainability",
-      "head_type": "Food Production",
+      "head_type": "economic activity",
       "relation": "improves",
-      "tail": "disease burden",
-      "tail_type": "Health Metric"
+      "tail": "health outcomes",
+      "tail_type": "health metric"
     }
   ]
 }

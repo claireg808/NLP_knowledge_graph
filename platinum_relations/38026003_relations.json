@@ -1,146 +1,139 @@
 {
-  "title": "The importance of the intestinal microbiota in humans and dogs in the neonatal period",
+  "title": "The importance of the intestinal microbiota in humans and dogs in the neonatal period.",
   "abstract": "The neonatal period represents a critical stage for the establishment and development of the gut microbiota, which profoundly influences the future health trajectory of individuals. This review examines the importance of intestinal microbiota in humans and dogs, aiming to elucidate the distinct characteristics and variations in the composition between these two species. In humans, the intestinal microbiota contributes to several crucial physiological processes, including digestion, nutrient absorption, immune system development, and modulation of host metabolism. Dysbiosis, an imbalance or disruption of the gut microbial community, has been linked to various disorders, such as inflammatory bowel disease, obesity, and even neurological conditions. Furthermore, recent research has unveiled the profound influence of the gut-brain axis, emphasizing the bidirectional communication between the gut microbiota and the central nervous system, impacting cognitive function and mental health. Similarly, alterations in the canine intestinal microbiota have been associated with gastrointestinal disorders, including chronic enteropathy, such as inflammatory bowel disease, food allergies, and ulcerative histiocytic colitis. However, our understanding of the intricacies and functional significance of the intestinal microbiota in dogs remains limited. Understanding the complex dynamics of the intestinal microbiota in both humans and dogs is crucial for devising effective strategies to promote health and manage disease. Moreover, exploring the similarities and differences in the gut microbial composition between these two species can facilitate translational research, potentially leading to innovative therapeutic interventions and strategies to enhance the well-being of both humans and dogs.",
   "relations": [
     {
       "head": "neonatal period",
-      "head_type": "Life Stage",
-      "relation": "influences",
-      "tail": "gut microbiota development",
-      "tail_type": "Biological Process"
+      "head_type": "Time Period",
+      "relation": "is critical stage for",
+      "tail": "gut microbiota establishment",
+      "tail_type": "Physiological Process"
     },
     {
       "head": "gut microbiota",
-      "head_type": "Microbial Community",
+      "head_type": "Physiological Process",
+      "relation": "influences",
+      "tail": "future health trajectory",
+      "tail_type": "Health Outcome"
+    },
+    {
+      "head": "intestinal microbiota",
+      "head_type": "Physiological Process",
       "relation": "contributes to",
       "tail": "digestion",
       "tail_type": "Physiological Process"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "Microbial Community",
+      "head": "intestinal microbiota",
+      "head_type": "Physiological Process",
       "relation": "contributes to",
       "tail": "nutrient absorption",
       "tail_type": "Physiological Process"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "Microbial Community",
+      "head": "intestinal microbiota",
+      "head_type": "Physiological Process",
       "relation": "contributes to",
       "tail": "immune system development",
       "tail_type": "Physiological Process"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "Microbial Community",
+      "head": "intestinal microbiota",
+      "head_type": "Physiological Process",
       "relation": "contributes to",
       "tail": "modulation of host metabolism",
       "tail_type": "Physiological Process"
     },
     {
       "head": "dysbiosis",
-      "head_type": "Microbial Imbalance",
+      "head_type": "Physiological State",
       "relation": "linked to",
       "tail": "inflammatory bowel disease",
       "tail_type": "Disease"
     },
     {
       "head": "dysbiosis",
-      "head_type": "Microbial Imbalance",
+      "head_type": "Physiological State",
       "relation": "linked to",
       "tail": "obesity",
       "tail_type": "Disease"
     },
     {
       "head": "dysbiosis",
-      "head_type": "Microbial Imbalance",
+      "head_type": "Physiological State",
       "relation": "linked to",
       "tail": "neurological conditions",
       "tail_type": "Disease"
     },
     {
       "head": "gut-brain axis",
-      "head_type": "Physiological System",
+      "head_type": "Physiological Process",
       "relation": "influences",
       "tail": "cognitive function",
-      "tail_type": "Physiological Function"
+      "tail_type": "Health Outcome"
     },
     {
       "head": "gut-brain axis",
-      "head_type": "Physiological System",
+      "head_type": "Physiological Process",
       "relation": "influences",
       "tail": "mental health",
-      "tail_type": "Health Aspect"
+      "tail_type": "Health Outcome"
     },
     {
       "head": "canine intestinal microbiota",
-      "head_type": "Microbial Community",
+      "head_type": "Physiological Process",
       "relation": "associated with",
       "tail": "gastrointestinal disorders",
       "tail_type": "Disease"
     },
     {
-      "head": "gastrointestinal disorders",
-      "head_type": "Disease",
-      "relation": "includes",
+      "head": "canine intestinal microbiota",
+      "head_type": "Physiological Process",
+      "relation": "associated with",
       "tail": "chronic enteropathy",
       "tail_type": "Disease"
     },
     {
-      "head": "gastrointestinal disorders",
-      "head_type": "Disease",
-      "relation": "includes",
+      "head": "canine intestinal microbiota",
+      "head_type": "Physiological Process",
+      "relation": "associated with",
       "tail": "inflammatory bowel disease",
       "tail_type": "Disease"
     },
     {
-      "head": "gastrointestinal disorders",
-      "head_type": "Disease",
-      "relation": "includes",
+      "head": "canine intestinal microbiota",
+      "head_type": "Physiological Process",
+      "relation": "associated with",
       "tail": "food allergies",
       "tail_type": "Disease"
     },
     {
-      "head": "gastrointestinal disorders",
-      "head_type": "Disease",
-      "relation": "includes",
+      "head": "canine intestinal microbiota",
+      "head_type": "Physiological Process",
+      "relation": "associated with",
       "tail": "ulcerative histiocytic colitis",
       "tail_type": "Disease"
     },
     {
-      "head": "intestine microbiota dynamics",
-      "head_type": "Biological Process",
-      "relation": "crucial for",
-      "tail": "health promotion",
-      "tail_type": "Health Outcome"
-    },
-    {
-      "head": "intestine microbiota dynamics",
-      "head_type": "Biological Process",
-      "relation": "crucial for",
-      "tail": "disease management",
-      "tail_type": "Health Outcome"
-    },
-    {
-      "head": "gut microbial composition similarities",
-      "head_type": "Biological Comparison",
-      "relation": "facilitates",
+      "head": "gut microbial composition",
+      "head_type": "Physiological Process",
+      "relation": "similarities and differences",
       "tail": "translational research",
-      "tail_type": "Research Activity"
+      "tail_type": "Research Field"
     },
     {
       "head": "translational research",
-      "head_type": "Research Activity",
+      "head_type": "Research Field",
       "relation": "leads to",
       "tail": "therapeutic interventions",
       "tail_type": "Medical Treatment"
     },
     {
-      "head": "therapeutic interventions",
-      "head_type": "Medical Treatment",
-      "relation": "enhances",
-      "tail": "well-being",
-      "tail_type": "Health Outcome"
+      "head": "translational research",
+      "head_type": "Research Field",
+      "relation": "leads to",
+      "tail": "strategies to enhance well-being",
+      "tail_type": "Health Strategy"
     }
   ]
 }

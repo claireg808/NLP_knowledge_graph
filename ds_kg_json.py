@@ -54,7 +54,7 @@ llm = ChatOpenAI(
     model="deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
     temperature=0.6,
     max_tokens=4500,
-    timeout=120
+    timeout=200
 )
 
 structured_llm = llm.with_structured_output(FullOutput)

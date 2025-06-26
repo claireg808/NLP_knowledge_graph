@@ -3,221 +3,53 @@
   "abstract": "A decade ago, the advancements in the microbiome data sequencing techniques initiated the development of research of the microbiome and its relationship with the host organism. The development of sophisticated bioinformatics and data science tools for the analysis of large amounts of data followed. Since then, the analyzed gut microbiome data, where microbiome is defined as a network of microorganisms inhabiting the human intestinal system, has been associated with several conditions such as irritable bowel syndrome - IBS, colorectal cancer, diabetes, obesity, and metabolic syndrome, and lately in the study of Parkinson's and Alzheimer's diseases as well. This paper aims to provide an understanding of differences between microbial data of individuals who have been diagnosed with multiple sclerosis and those who were not by exploiting data science techniques on publicly available data. This study examines the relationship between multiple sclerosis (MS), an autoimmune central nervous system disease, and gut microbial community composition, using the samples acquired by 16s rRNA sequencing technique. We have used three different sets of MS samples sequenced during three independent studies (Jangi et al, Nat Commun 7:1-11, 2016), (Miyake et al, PLoS ONE 10:0137429, 2015), (McDonald et al, Msystems 3:00031-18, 2018) and this approach strengthens our results. Analyzed sequences were from healthy control and MS groups of sequences. The extracted set of statistically significant bacteria from the (Jangi et al, Nat Commun 7:1-11, 2016) dataset samples and their statistically significant predictive functions were used to develop a Random Forest classifier. In total, 8 models based on two criteria: bacteria abundance (at six taxonomic levels) and predictive functions (at two levels), were constructed and evaluated. These include using taxa abundances at different taxonomy levels as well as predictive function analysis at different hierarchical levels of KEGG pathways. The highest accuracy of the classification model was obtained at the genus level of taxonomy (76.82%) and the third hierarchical level of KEGG pathways (70.95%). The second dataset's 18 MS samples (Miyake et al, PLoS ONE 10:0137429, 2015) and 18 self-reported healthy samples from the (McDonald et al, Msystems 3:00031-18, 2018) dataset were used to validate the developed classification model. The significance of this step is to show that the model is not overtrained for a specific dataset but can also be used on other independent datasets. Again, the highest classification model accuracy for both validating datasets combined was obtained at the genus level of taxonomy (70.98%) and third hierarchical level of KEGG pathways (67.24%). The accuracy of the independent set remained very relevant. Our results demonstrate that the developed classification model provides a good tool that can be used to suggest the presence or absence of MS condition by collecting and analyzing gut microbiome samples. The accuracy of the model can be further increased by using sequencing methods that allow higher taxa resolution (i.e. shotgun metagenomic sequencing).",
   "relations": [
     {
-      "head": "Microbiome data sequencing techniques",
-      "head_type": "Technique",
-      "relation": "Initiated development of",
-      "tail": "Research on microbiome-host relationship",
-      "tail_type": "Research Field"
-    },
-    {
-      "head": "Bioinformatics tools",
-      "head_type": "Tool",
-      "relation": "Used for analysis of",
-      "tail": "Large amounts of data",
-      "tail_type": "Data"
-    },
-    {
-      "head": "Gut microbiome data",
-      "head_type": "Data",
-      "relation": "Associated with",
-      "tail": "Irritable bowel syndrome (IBS)",
+      "head": "gut microbiome",
+      "head_type": "Biological Data",
+      "relation": "associated with",
+      "tail": "multiple sclerosis",
       "tail_type": "Disease"
     },
     {
-      "head": "Gut microbiome data",
-      "head_type": "Data",
-      "relation": "Associated with",
-      "tail": "Colorectal cancer",
-      "tail_type": "Disease"
+      "head": "data science techniques",
+      "head_type": "Methodology",
+      "relation": "used for",
+      "tail": "analyzing gut microbiome data",
+      "tail_type": "Data Analysis"
     },
     {
-      "head": "Gut microbiome data",
-      "head_type": "Data",
-      "relation": "Associated with",
-      "tail": "Diabetes",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Gut microbiome data",
-      "head_type": "Data",
-      "relation": "Associated with",
-      "tail": "Obesity",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "Gut microbiome data",
-      "head_type": "Data",
-      "relation": "Associated with",
-      "tail": "Metabolic syndrome",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "Gut microbiome data",
-      "head_type": "Data",
-      "relation": "Associated with",
-      "tail": "Parkinson's disease",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Gut microbiome data",
-      "head_type": "Data",
-      "relation": "Associated with",
-      "tail": "Alzheimer's disease",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Microbial data",
-      "head_type": "Data",
-      "relation": "Compares between",
-      "tail": "Individuals with multiple sclerosis",
-      "tail_type": "Group"
-    },
-    {
-      "head": "Microbial data",
-      "head_type": "Data",
-      "relation": "Compares between",
-      "tail": "Individuals without multiple sclerosis",
-      "tail_type": "Group"
-    },
-    {
-      "head": "Multiple sclerosis (MS)",
-      "head_type": "Disease",
-      "relation": "Is an",
-      "tail": "Autoimmune central nervous system disease",
-      "tail_type": "Disease Type"
-    },
-    {
-      "head": "Gut microbial community composition",
-      "head_type": "Community",
-      "relation": "Examines relationship with",
-      "tail": "Multiple sclerosis (MS)",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Samples",
-      "head_type": "Samples",
-      "relation": "Acquired using",
-      "tail": "16s rRNA sequencing technique",
-      "tail_type": "Technique"
-    },
-    {
-      "head": "MS samples",
-      "head_type": "Samples",
-      "relation": "Sequenced in",
-      "tail": "Jangi et al study",
-      "tail_type": "Study"
-    },
-    {
-      "head": "MS samples",
-      "head_type": "Samples",
-      "relation": "Sequenced in",
-      "tail": "Miyake et al study",
-      "tail_type": "Study"
-    },
-    {
-      "head": "MS samples",
-      "head_type": "Samples",
-      "relation": "Sequenced in",
-      "tail": "McDonald et al study",
-      "tail_type": "Study"
-    },
-    {
-      "head": "Jangi et al dataset",
-      "head_type": "Dataset",
-      "relation": "Extracted statistically significant bacteria from",
-      "tail": "Samples",
-      "tail_type": "Samples"
-    },
-    {
-      "head": "Jangi et al dataset",
-      "head_type": "Dataset",
-      "relation": "Extracted statistically significant predictive functions from",
-      "tail": "Samples",
-      "tail_type": "Samples"
+      "head": "16s rRNA sequencing technique",
+      "head_type": "Sequencing Method",
+      "relation": "used in",
+      "tail": "samples acquisition",
+      "tail_type": "Research Method"
     },
     {
       "head": "Random Forest classifier",
-      "head_type": "Model",
-      "relation": "Developed using",
-      "tail": "Extracted bacteria and predictive functions",
-      "tail_type": "Data"
+      "head_type": "Machine Learning Model",
+      "relation": "developed using",
+      "tail": "statistically significant bacteria",
+      "tail_type": "Microbial Data"
     },
     {
-      "head": "Classification models",
-      "head_type": "Models",
-      "relation": "Constructed based on",
-      "tail": "Bacteria abundance",
-      "tail_type": "Measure"
+      "head": "genus level of taxonomy",
+      "head_type": "Taxonomic Level",
+      "relation": "highest accuracy achieved at",
+      "tail": "76.82%",
+      "tail_type": "Accuracy Rate"
     },
     {
-      "head": "Classification models",
-      "head_type": "Models",
-      "relation": "Constructed based on",
-      "tail": "Predictive functions",
-      "tail_type": "Analysis"
+      "head": "third hierarchical level of KEGG pathways",
+      "head_type": "Pathway Level",
+      "relation": "highest accuracy achieved at",
+      "tail": "70.95%",
+      "tail_type": "Accuracy Rate"
     },
     {
-      "head": "Classification model accuracy",
-      "head_type": "Performance Metric",
-      "relation": "Obtained at",
-      "tail": "Genus level of taxonomy",
-      "tail_type": "Taxonomic Level"
-    },
-    {
-      "head": "Classification model accuracy",
-      "head_type": "Performance Metric",
-      "relation": "Obtained at",
-      "tail": "Third hierarchical level of KEGG pathways",
-      "tail_type": "Pathway Level"
-    },
-    {
-      "head": "Second dataset",
-      "head_type": "Dataset",
-      "relation": "Contains",
-      "tail": "18 MS samples from Miyake et al",
-      "tail_type": "Samples"
-    },
-    {
-      "head": "Second dataset",
-      "head_type": "Dataset",
-      "relation": "Contains",
-      "tail": "18 healthy samples from McDonald et al",
-      "tail_type": "Samples"
-    },
-    {
-      "head": "Classification model",
-      "head_type": "Model",
-      "relation": "Validated using",
-      "tail": "Second dataset",
-      "tail_type": "Dataset"
-    },
-    {
-      "head": "Classification model accuracy",
-      "head_type": "Performance Metric",
-      "relation": "Obtained at",
-      "tail": "Genus level of taxonomy",
-      "tail_type": "Taxonomic Level"
-    },
-    {
-      "head": "Classification model accuracy",
-      "head_type": "Performance Metric",
-      "relation": "Obtained at",
-      "tail": "Third hierarchical level of KEGG pathways",
-      "tail_type": "Pathway Level"
-    },
-    {
-      "head": "Classification model",
-      "head_type": "Model",
-      "relation": "Provides tool for",
-      "tail": "Suggesting presence or absence of MS",
-      "tail_type": "Diagnostic Tool"
-    },
-    {
-      "head": "Model accuracy",
-      "head_type": "Performance Metric",
-      "relation": "Can be increased by using",
-      "tail": "Shotgun metagenomic sequencing",
-      "tail_type": "Technique"
+      "head": "shotgun metagenomic sequencing",
+      "head_type": "Sequencing Method",
+      "relation": "can increase",
+      "tail": "model accuracy",
+      "tail_type": "Performance Metric"
     }
   ]
 }

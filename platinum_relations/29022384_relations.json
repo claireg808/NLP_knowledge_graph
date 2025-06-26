@@ -5,44 +5,72 @@
     {
       "head": "maternal vaginal microbiota",
       "head_type": "microbiota",
-      "relation": "play a minor role in",
-      "tail": "seeding infant stool microbiota",
+      "relation": "play a role in",
+      "tail": "seeding the microbiota",
+      "tail_type": "process"
+    },
+    {
+      "head": "maternal vaginal microbiota",
+      "head_type": "microbiota",
+      "relation": "overlap with",
+      "tail": "infant faecal microbiota",
       "tail_type": "microbiota"
     },
     {
       "head": "maternal rectal microbiota",
       "head_type": "microbiota",
-      "relation": "play a larger role in",
-      "tail": "seeding infant stool microbiota",
-      "tail_type": "microbiota"
-    },
-    {
-      "head": "delivery mode",
-      "head_type": "delivery mode",
-      "relation": "independent of",
-      "tail": "findings",
-      "tail_type": "findings"
-    },
-    {
-      "head": "maternal vaginal microbes",
-      "head_type": "microbiota",
-      "relation": "reduced transfer of",
-      "tail": "main mechanism",
-      "tail_type": "mechanism"
-    },
-    {
-      "head": "maternal microbiota",
-      "head_type": "microbiota",
-      "relation": "sources of",
+      "relation": "similarity with",
       "tail": "infant microbiota",
       "tail_type": "microbiota"
     },
     {
-      "head": "infant gut microbiota",
+      "head": "infant's nasal microbiota",
       "head_type": "microbiota",
-      "relation": "dominated by",
+      "relation": "similarity to",
+      "tail": "mother's microbiota",
+      "tail_type": "microbiota"
+    },
+    {
+      "head": "maternal vaginal microbiota",
+      "head_type": "microbiota",
+      "relation": "transfer play a minor role in",
+      "tail": "seeding infant stool microbiota",
+      "tail_type": "process"
+    },
+    {
+      "head": "maternal rectal microbiota",
+      "head_type": "microbiota",
+      "relation": "transfer play a larger role in",
+      "tail": "seeding infant stool microbiota",
+      "tail_type": "process"
+    },
+    {
+      "head": "infants born by Caesarean section",
+      "head_type": "infant",
+      "relation": "have a clear difference in",
+      "tail": "microbiota",
+      "tail_type": "microbiota"
+    },
+    {
+      "head": "feeding mode",
+      "head_type": "feeding",
+      "relation": "impact on",
+      "tail": "infant gut microbiota",
+      "tail_type": "microbiota"
+    },
+    {
+      "head": "vaginally delivered, fully breastfed infants",
+      "head_type": "infant",
+      "relation": "have gut microbiota dominated by",
       "tail": "Bifidobacteria",
       "tail_type": "bacteria"
+    },
+    {
+      "head": "maternal vaginal microbial transfer",
+      "head_type": "transfer",
+      "relation": "not the main mechanism underlying",
+      "tail": "differential infant microbiota composition",
+      "tail_type": "composition"
     }
   ]
 }

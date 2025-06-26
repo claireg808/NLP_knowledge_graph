@@ -4,276 +4,157 @@
   "relations": [
     {
       "head": "Gut microbial changes",
-      "head_type": "Biological process",
-      "relation": "associated with",
-      "tail": "psychotic disorders",
-      "tail_type": "Mental disorder"
-    },
-    {
-      "head": "Gut microbial changes",
-      "head_type": "Biological process",
-      "relation": "associated with",
-      "tail": "affective disorders",
-      "tail_type": "Mental disorder"
-    },
-    {
-      "head": "Mental disorders",
-      "head_type": "Disease",
+      "head_type": "Biological Process",
       "relation": "linked to",
-      "tail": "inflammatory pathophysiologic mechanisms",
-      "tail_type": "Pathophysiological mechanism"
+      "tail": "mental disorders",
+      "tail_type": "Disease"
     },
     {
       "head": "Gut microbiota",
-      "head_type": "Microbial community",
-      "relation": "linked to",
+      "head_type": "Microbial Community",
+      "relation": "associated with",
       "tail": "mental health",
-      "tail_type": "Health condition"
+      "tail_type": "Health Condition"
     },
     {
-      "head": "Studies",
-      "head_type": "Research study",
-      "relation": "compare",
-      "tail": "gut microbiota",
-      "tail_type": "Microbial community"
+      "head": "Alterations in gut microbiota",
+      "head_type": "Biological Change",
+      "relation": "observed in",
+      "tail": "patients",
+      "tail_type": "Patient Population"
     },
     {
-      "head": "Patients",
-      "head_type": "Human subjects",
+      "head": "patients",
+      "head_type": "Patient Population",
       "relation": "suffer from",
       "tail": "psychotic disorders",
-      "tail_type": "Mental disorder"
+      "tail_type": "Disease"
     },
     {
-      "head": "Patients",
-      "head_type": "Human subjects",
+      "head": "patients",
+      "head_type": "Patient Population",
       "relation": "suffer from",
       "tail": "bipolar disorder",
-      "tail_type": "Mental disorder"
+      "tail_type": "Disease"
     },
     {
-      "head": "Patients",
-      "head_type": "Human subjects",
+      "head": "patients",
+      "head_type": "Patient Population",
       "relation": "suffer from",
       "tail": "depression",
-      "tail_type": "Mental disorder"
+      "tail_type": "Disease"
     },
     {
-      "head": "Studies",
-      "head_type": "Research study",
-      "relation": "include",
+      "head": "studies",
+      "head_type": "Research Study",
+      "relation": "compared",
       "tail": "healthy controls",
-      "tail_type": "Human subjects"
+      "tail_type": "Control Group"
     },
     {
-      "head": "Databases",
-      "head_type": "Data repository",
-      "relation": "searched",
-      "tail": "CENTRAL",
-      "tail_type": "Database"
+      "head": "gut microbiota",
+      "head_type": "Microbial Community",
+      "relation": "compared between",
+      "tail": "patients and healthy controls",
+      "tail_type": "Population Group"
     },
     {
-      "head": "Databases",
-      "head_type": "Data repository",
-      "relation": "searched",
-      "tail": "PubMed",
-      "tail_type": "Database"
+      "head": "microbiota changes",
+      "head_type": "Biological Change",
+      "relation": "included",
+      "tail": "higher abundance of Actinobacteria",
+      "tail_type": "Microbial Abundance"
     },
     {
-      "head": "Databases",
-      "head_type": "Data repository",
-      "relation": "searched",
-      "tail": "EMBASE",
-      "tail_type": "Database"
+      "head": "microbiota changes",
+      "head_type": "Biological Change",
+      "relation": "included",
+      "tail": "lower abundance of Firmicutes",
+      "tail_type": "Microbial Abundance"
     },
     {
-      "head": "Databases",
-      "head_type": "Data repository",
-      "relation": "searched",
-      "tail": "PsycINFO",
-      "tail_type": "Database"
+      "head": "microbiota changes",
+      "head_type": "Biological Change",
+      "relation": "included",
+      "tail": "lower abundance of Lachnospiraceae",
+      "tail_type": "Microbial Abundance"
     },
     {
-      "head": "Databases",
-      "head_type": "Data repository",
-      "relation": "searched",
-      "tail": "LILACS",
-      "tail_type": "Database"
+      "head": "microbiota changes",
+      "head_type": "Biological Change",
+      "relation": "included",
+      "tail": "lower abundance of Faecalibacterium",
+      "tail_type": "Microbial Abundance"
     },
     {
-      "head": "Primary outcome",
-      "head_type": "Research objective",
-      "relation": "compare",
-      "tail": "gut microbiota",
-      "tail_type": "Microbial community"
-    },
-    {
-      "head": "Research",
-      "head_type": "Research activity",
-      "relation": "identified",
-      "tail": "17 studies",
-      "tail_type": "Research studies"
-    },
-    {
-      "head": "17 studies",
-      "head_type": "Research studies",
-      "relation": "cover",
-      "tail": "744 patients",
-      "tail_type": "Human subjects"
-    },
-    {
-      "head": "17 studies",
-      "head_type": "Research studies",
-      "relation": "cover",
-      "tail": "620 healthy controls",
-      "tail_type": "Human subjects"
-    },
-    {
-      "head": "Microbiota changes",
-      "head_type": "Biological change",
-      "relation": "show tendency towards higher abundance of",
-      "tail": "Actinobacteria",
-      "tail_type": "Microbial phylum"
-    },
-    {
-      "head": "Microbiota changes",
-      "head_type": "Biological change",
-      "relation": "show lower abundance of",
-      "tail": "Firmicutes",
-      "tail_type": "Microbial phylum"
-    },
-    {
-      "head": "Microbiota changes",
-      "head_type": "Biological change",
-      "relation": "show lower abundance of",
-      "tail": "Lachnospiraceae",
-      "tail_type": "Microbial family"
-    },
-    {
-      "head": "Microbiota changes",
-      "head_type": "Biological change",
-      "relation": "show lower abundance of",
-      "tail": "Faecalibacterium",
-      "tail_type": "Microbial genus"
-    },
-    {
-      "head": "All studies",
-      "head_type": "Research studies",
-      "relation": "have",
+      "head": "studies",
+      "head_type": "Research Study",
+      "relation": "had",
       "tail": "risk of bias",
-      "tail_type": "Research limitation"
+      "tail_type": "Methodological Limitation"
     },
     {
-      "head": "Included studies",
-      "head_type": "Research studies",
-      "relation": "display variability in",
-      "tail": "methods of storage",
-      "tail_type": "Methodology"
+      "head": "included studies",
+      "head_type": "Research Study",
+      "relation": "displayed",
+      "tail": "variability in methods",
+      "tail_type": "Methodological Variation"
     },
     {
-      "head": "Included studies",
-      "head_type": "Research studies",
-      "relation": "display variability in",
-      "tail": "analysis of fecal samples",
-      "tail_type": "Methodology"
-    },
-    {
-      "head": "Included studies",
-      "head_type": "Research studies",
-      "relation": "display variability in",
-      "tail": "reporting of results",
-      "tail_type": "Methodology"
-    },
-    {
-      "head": "Included studies",
-      "head_type": "Research studies",
-      "relation": "display variability in",
-      "tail": "statistics used",
-      "tail_type": "Methodology"
-    },
-    {
-      "head": "Findings",
-      "head_type": "Research results",
-      "relation": "should be interpreted with",
-      "tail": "caution",
-      "tail_type": "Interpretation"
-    },
-    {
-      "head": "Larger studies",
-      "head_type": "Research studies",
-      "relation": "needed",
-      "tail": "schizophrenia",
-      "tail_type": "Mental disorder"
-    },
-    {
-      "head": "Larger studies",
-      "head_type": "Research studies",
-      "relation": "needed",
-      "tail": "major depressive disorder",
-      "tail_type": "Mental disorder"
-    },
-    {
-      "head": "Factors",
-      "head_type": "Influencing factors",
-      "relation": "influence",
-      "tail": "microbiota analysis",
-      "tail_type": "Biological analysis"
-    },
-    {
-      "head": "Factors",
-      "head_type": "Influencing factors",
+      "head": "factors influencing microbiota analysis",
+      "head_type": "Influencing Factors",
       "relation": "include",
-      "tail": "BMI",
-      "tail_type": "Health metric"
+      "tail": "body mass index (BMI)",
+      "tail_type": "Demographic Factor"
     },
     {
-      "head": "Factors",
-      "head_type": "Influencing factors",
+      "head": "factors influencing microbiota analysis",
+      "head_type": "Influencing Factors",
       "relation": "include",
       "tail": "smoking",
-      "tail_type": "Behavioral factor"
+      "tail_type": "Behavioral Factor"
     },
     {
-      "head": "Factors",
-      "head_type": "Influencing factors",
+      "head": "factors influencing microbiota analysis",
+      "head_type": "Influencing Factors",
       "relation": "include",
       "tail": "alcohol consumption",
-      "tail_type": "Behavioral factor"
+      "tail_type": "Behavioral Factor"
     },
     {
-      "head": "Factors",
-      "head_type": "Influencing factors",
+      "head": "factors influencing microbiota analysis",
+      "head_type": "Influencing Factors",
       "relation": "include",
       "tail": "diet habits",
-      "tail_type": "Behavioral factor"
+      "tail_type": "Behavioral Factor"
     },
     {
-      "head": "Factors",
-      "head_type": "Influencing factors",
+      "head": "factors influencing microbiota analysis",
+      "head_type": "Influencing Factors",
       "relation": "include",
       "tail": "antibiotics",
       "tail_type": "Medication"
     },
     {
-      "head": "Factors",
-      "head_type": "Influencing factors",
+      "head": "factors influencing microbiota analysis",
+      "head_type": "Influencing Factors",
       "relation": "include",
       "tail": "sample handling",
-      "tail_type": "Methodology"
+      "tail_type": "Methodological Factor"
     },
     {
-      "head": "Factors",
-      "head_type": "Influencing factors",
+      "head": "factors influencing microbiota analysis",
+      "head_type": "Influencing Factors",
       "relation": "include",
       "tail": "wet laboratory methods",
-      "tail_type": "Methodology"
+      "tail_type": "Methodological Factor"
     },
     {
-      "head": "Factors",
-      "head_type": "Influencing factors",
+      "head": "factors influencing microbiota analysis",
+      "head_type": "Influencing Factors",
       "relation": "include",
       "tail": "statistics",
-      "tail_type": "Methodology"
+      "tail_type": "Analytical Method"
     }
   ]
 }

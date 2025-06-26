@@ -7,105 +7,119 @@
       "head_type": "Disease",
       "relation": "is the most common",
       "tail": "demyelinating disease",
-      "tail_type": "Disease Type"
+      "tail_type": "Disease"
     },
     {
       "head": "cuprizone",
       "head_type": "Chemical",
       "relation": "produces",
       "tail": "demyelination",
-      "tail_type": "Pathological Process"
+      "tail_type": "Pathological process"
     },
     {
       "head": "vagus nerve",
-      "head_type": "Anatomical Structure",
+      "head_type": "Anatomical structure",
       "relation": "plays a role in",
       "tail": "gut-microbiota-brain axis",
-      "tail_type": "Physiological System"
+      "tail_type": "Physiological system"
     },
     {
       "head": "subdiaphragmatic vagotomy",
-      "head_type": "Medical Procedure",
+      "head_type": "Medical procedure",
       "relation": "affects",
       "tail": "demyelination",
-      "tail_type": "Pathological Process"
+      "tail_type": "Pathological process"
     },
     {
       "head": "subdiaphragmatic vagotomy",
-      "head_type": "Medical Procedure",
+      "head_type": "Medical procedure",
       "relation": "ameliorates",
       "tail": "demyelination",
-      "tail_type": "Pathological Process"
+      "tail_type": "Pathological process"
     },
     {
       "head": "subdiaphragmatic vagotomy",
-      "head_type": "Medical Procedure",
+      "head_type": "Medical procedure",
       "relation": "reduces",
       "tail": "microglial activation",
-      "tail_type": "Cellular Process"
+      "tail_type": "Pathological process"
     },
     {
-      "head": "gut microbiota composition",
-      "head_type": "Microbial Community",
-      "relation": "is improved by",
-      "tail": "subdiaphragmatic vagotomy",
-      "tail_type": "Medical Procedure"
+      "head": "16S ribosomal RNA analysis",
+      "head_type": "Lab test",
+      "relation": "reveals",
+      "tail": "abnormal gut microbiota composition",
+      "tail_type": "Condition"
     },
     {
-      "head": "blood levels of metabolites",
-      "head_type": "Biochemical Marker",
-      "relation": "are improved by",
-      "tail": "subdiaphragmatic vagotomy",
-      "tail_type": "Medical Procedure"
+      "head": "subdiaphragmatic vagotomy",
+      "head_type": "Medical procedure",
+      "relation": "improves",
+      "tail": "gut microbiota composition",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "untargeted metabolomic analysis",
+      "head_type": "Lab test",
+      "relation": "demonstrates",
+      "tail": "abnormal blood levels of metabolites",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "subdiaphragmatic vagotomy",
+      "head_type": "Medical procedure",
+      "relation": "improves",
+      "tail": "blood levels of metabolites",
+      "tail_type": "Condition"
     },
     {
       "head": "demyelination",
-      "head_type": "Pathological Process",
-      "relation": "is correlated with",
-      "tail": "microbiome populations",
-      "tail_type": "Microbial Community"
+      "head_type": "Pathological process",
+      "relation": "correlates with",
+      "tail": "relative abundance of microbiome populations",
+      "tail_type": "Biological entity"
     },
     {
       "head": "microglial activation",
-      "head_type": "Cellular Process",
-      "relation": "is correlated with",
-      "tail": "microbiome populations",
-      "tail_type": "Microbial Community"
+      "head_type": "Pathological process",
+      "relation": "correlates with",
+      "tail": "relative abundance of microbiome populations",
+      "tail_type": "Biological entity"
     },
     {
       "head": "demyelination",
-      "head_type": "Pathological Process",
-      "relation": "is correlated with",
+      "head_type": "Pathological process",
+      "relation": "correlates with",
       "tail": "blood levels of metabolites",
-      "tail_type": "Biochemical Marker"
+      "tail_type": "Condition"
     },
     {
       "head": "microglial activation",
-      "head_type": "Cellular Process",
-      "relation": "is correlated with",
+      "head_type": "Pathological process",
+      "relation": "correlates with",
       "tail": "blood levels of metabolites",
-      "tail_type": "Biochemical Marker"
+      "tail_type": "Condition"
     },
     {
       "head": "cuprizone",
       "head_type": "Chemical",
-      "relation": "induces",
+      "relation": "produces",
       "tail": "demyelination",
-      "tail_type": "Pathological Process"
+      "tail_type": "Pathological process"
     },
     {
       "head": "cuprizone",
       "head_type": "Chemical",
-      "relation": "affects",
+      "relation": "affects through",
       "tail": "gut-microbiota-brain axis",
-      "tail_type": "Physiological System"
+      "tail_type": "Physiological system"
     },
     {
-      "head": "cuprizone",
-      "head_type": "Chemical",
-      "relation": "influences",
+      "head": "gut-microbiota-brain axis",
+      "head_type": "Physiological system",
+      "relation": "mediated by",
       "tail": "subdiaphragmatic vagus nerve",
-      "tail_type": "Anatomical Structure"
+      "tail_type": "Anatomical structure"
     }
   ]
 }

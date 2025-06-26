@@ -7,182 +7,343 @@
       "head_type": "Pigment",
       "relation": "plays important roles in",
       "tail": "Immune system",
-      "tail_type": "Biological System"
+      "tail_type": "Biological system"
     },
     {
       "head": "Melanin",
       "head_type": "Pigment",
-      "relation": "contains precursors in",
-      "tail": "Almost all cells",
-      "tail_type": "Cell"
+      "relation": "includes",
+      "tail": "scavenging reactive oxygen species",
+      "tail_type": "Biological process"
     },
     {
       "head": "Melanin",
       "head_type": "Pigment",
+      "relation": "includes",
+      "tail": "absorbing metals",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Pigment",
+      "relation": "includes",
+      "tail": "thermal regulation",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Pigment",
+      "relation": "includes",
+      "tail": "drug uptake",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Pigment",
+      "relation": "includes",
+      "tail": "innate immune system functions",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Pigment",
+      "relation": "includes",
+      "tail": "redox",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Pigment",
+      "relation": "includes",
+      "tail": "energy transduction",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Pigment",
+      "relation": "contained in",
+      "tail": "brain",
+      "tail_type": "Tissue type"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Pigment",
+      "relation": "contained in",
+      "tail": "heart",
+      "tail_type": "Tissue type"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Pigment",
+      "relation": "contained in",
+      "tail": "arteries",
+      "tail_type": "Tissue type"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Pigment",
+      "relation": "contained in",
+      "tail": "ovaries",
+      "tail_type": "Tissue type"
+    },
+    {
+      "head": "Diseases",
+      "head_type": "Disease category",
       "relation": "linked with",
       "tail": "Alzheimer's disease",
       "tail_type": "Disease"
     },
     {
-      "head": "Melanin",
-      "head_type": "Pigment",
+      "head": "Diseases",
+      "head_type": "Disease category",
       "relation": "linked with",
       "tail": "Parkinson's disease",
       "tail_type": "Disease"
     },
     {
-      "head": "Melanin",
-      "head_type": "Pigment",
+      "head": "Diseases",
+      "head_type": "Disease category",
       "relation": "linked with",
       "tail": "Lewy Body Dementia",
       "tail_type": "Disease"
     },
     {
-      "head": "Melanin",
-      "head_type": "Pigment",
+      "head": "Diseases",
+      "head_type": "Disease category",
       "relation": "linked with",
-      "tail": "Vitiligo",
+      "tail": "vitiligo",
       "tail_type": "Disease"
     },
     {
       "head": "Alzheimer's disease",
       "head_type": "Disease",
       "relation": "linked with",
-      "tail": "Herpesvirus",
+      "tail": "herpesvirus",
       "tail_type": "Virus"
     },
     {
       "head": "Parkinson's disease",
       "head_type": "Disease",
       "relation": "linked with",
-      "tail": "Herpesvirus",
+      "tail": "herpesvirus",
       "tail_type": "Virus"
     },
     {
       "head": "Lewy Body Dementia",
       "head_type": "Disease",
       "relation": "linked with",
-      "tail": "Herpesvirus",
+      "tail": "herpesvirus",
       "tail_type": "Virus"
     },
     {
-      "head": "Vitiligo",
+      "head": "vitiligo",
       "head_type": "Disease",
       "relation": "linked with",
-      "tail": "Herpesvirus",
+      "tail": "herpesvirus",
       "tail_type": "Virus"
     },
     {
-      "head": "Herpesvirus",
-      "head_type": "Virus",
+      "head": "Alzheimer's disease",
+      "head_type": "Disease",
       "relation": "linked with",
-      "tail": "Gut dysbiosis",
+      "tail": "gut dysbiosis",
       "tail_type": "Condition"
     },
     {
-      "head": "Herpesvirus",
+      "head": "Parkinson's disease",
+      "head_type": "Disease",
+      "relation": "linked with",
+      "tail": "gut dysbiosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Lewy Body Dementia",
+      "head_type": "Disease",
+      "relation": "linked with",
+      "tail": "gut dysbiosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "vitiligo",
+      "head_type": "Disease",
+      "relation": "linked with",
+      "tail": "gut dysbiosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Alzheimer's disease",
+      "head_type": "Disease",
+      "relation": "linked with",
+      "tail": "inflammation",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Parkinson's disease",
+      "head_type": "Disease",
+      "relation": "linked with",
+      "tail": "inflammation",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Lewy Body Dementia",
+      "head_type": "Disease",
+      "relation": "linked with",
+      "tail": "inflammation",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "vitiligo",
+      "head_type": "Disease",
+      "relation": "linked with",
+      "tail": "inflammation",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "herpesvirus",
       "head_type": "Virus",
       "relation": "linked with",
-      "tail": "Inflammation",
-      "tail_type": "Biological Process"
+      "tail": "gut dysbiosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "herpesvirus",
+      "head_type": "Virus",
+      "relation": "linked with",
+      "tail": "inflammation",
+      "tail_type": "Biological process"
     },
     {
       "head": "Melanin",
       "head_type": "Pigment",
       "relation": "retains energy from",
-      "tail": "Electromagnetic radiation",
-      "tail_type": "Energy Source"
+      "tail": "electromagnetic radiation",
+      "tail_type": "Energy source"
     },
     {
       "head": "Melanin",
       "head_type": "Pigment",
-      "relation": "used to fuel",
-      "tail": "Cells",
-      "tail_type": "Cell"
+      "relation": "fuels",
+      "tail": "cells",
+      "tail_type": "Cell type"
     },
     {
-      "head": "Melanin",
-      "head_type": "Pigment",
-      "relation": "complements energy supply with",
-      "tail": "ATP",
-      "tail_type": "Biochemical"
-    },
-    {
-      "head": "Loss of melanin",
-      "head_type": "Condition",
-      "relation": "reduces energy supply in",
-      "tail": "Cells",
-      "tail_type": "Cell"
+      "head": "Energy from ATP",
+      "head_type": "Energy source",
+      "relation": "compliments",
+      "tail": "energy supply from melanin",
+      "tail_type": "Energy supply"
     },
     {
       "head": "Loss of melanin",
       "head_type": "Condition",
-      "relation": "results in inability to sustain",
-      "tail": "Immune system defenses",
-      "tail_type": "Biological Process"
+      "relation": "reduces",
+      "tail": "energy supply of cells",
+      "tail_type": "Energy supply"
     },
     {
-      "head": "Loss of melanin",
-      "head_type": "Condition",
-      "relation": "results in inability to remove",
-      "tail": "Plaques",
-      "tail_type": "Pathological Structure"
+      "head": "AD",
+      "head_type": "Disease",
+      "relation": "results in",
+      "tail": "inability to sustain immune system defenses",
+      "tail_type": "Biological process"
     },
     {
-      "head": "Plaques",
-      "head_type": "Pathological Structure",
-      "relation": "part of immune system's attempt to eradicate",
-      "tail": "Pathogens",
-      "tail_type": "Microbial Agents"
+      "head": "AD",
+      "head_type": "Disease",
+      "relation": "results in",
+      "tail": "inability to remove plaques",
+      "tail_type": "Biological process"
     },
     {
-      "head": "Inflammation in the brain",
-      "head_type": "Condition",
+      "head": "PD",
+      "head_type": "Disease",
+      "relation": "results in",
+      "tail": "inability to sustain immune system defenses",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "PD",
+      "head_type": "Disease",
+      "relation": "results in",
+      "tail": "inability to remove plaques",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "LBD",
+      "head_type": "Disease",
+      "relation": "results in",
+      "tail": "inability to sustain immune system defenses",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "LBD",
+      "head_type": "Disease",
+      "relation": "results in",
+      "tail": "inability to remove plaques",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "plagues",
+      "head_type": "Pathological feature",
+      "relation": "appear to be part of",
+      "tail": "immune system's attempt to eradicate pathogens",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "cognitive symptoms",
+      "head_type": "Symptom",
+      "relation": "caused by",
+      "tail": "inflammation in the brain",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "inflammation in the brain",
+      "head_type": "Biological process",
       "relation": "results from",
-      "tail": "Immune system's response to pathogens",
-      "tail_type": "Biological Process"
+      "tail": "immune system's response to pathogens",
+      "tail_type": "Biological process"
     },
     {
-      "head": "Alteration of melanin levels",
-      "head_type": "Condition",
-      "relation": "may be at the core of",
-      "tail": "Many diseases",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Melanin levels",
-      "head_type": "Biochemical",
-      "relation": "supported by studies showing alterations in",
+      "head": "melanin",
+      "head_type": "Pigment",
+      "relation": "linked with",
       "tail": "ATP production",
-      "tail_type": "Biochemical Process"
+      "tail_type": "Energy production"
     },
     {
-      "head": "Melanin levels",
-      "head_type": "Biochemical",
-      "relation": "supported by studies showing alterations in",
-      "tail": "Melanomas",
-      "tail_type": "Disease"
+      "head": "melanomas",
+      "head_type": "Disease",
+      "relation": "show alterations in ATP production",
+      "tail": "melanin levels",
+      "tail_type": "Pigment level"
     },
     {
-      "head": "Melanin levels",
-      "head_type": "Biochemical",
-      "relation": "supported by studies showing alterations in",
-      "tail": "Vitiligo",
-      "tail_type": "Disease"
+      "head": "vitiligo",
+      "head_type": "Disease",
+      "relation": "show alterations in ATP production",
+      "tail": "melanin levels",
+      "tail_type": "Pigment level"
     },
     {
-      "head": "Melanin levels",
-      "head_type": "Biochemical",
-      "relation": "supported by studies showing alterations in",
-      "tail": "Healthy cells",
-      "tail_type": "Cell"
+      "head": "healthy cells",
+      "head_type": "Cell type",
+      "relation": "show alterations in ATP production",
+      "tail": "melanin levels",
+      "tail_type": "Pigment level"
     },
     {
-      "head": "Regulating melanin levels",
-      "head_type": "Therapeutic Strategy",
-      "relation": "may offer new avenues for",
-      "tail": "Treatment development",
-      "tail_type": "Medical Process"
+      "head": "melanin levels",
+      "head_type": "Pigment level",
+      "relation": "may be at the core of",
+      "tail": "many diseases",
+      "tail_type": "Disease category"
+    },
+    {
+      "head": "melanin levels",
+      "head_type": "Pigment level",
+      "relation": "regulation may offer",
+      "tail": "new avenues for treatment development",
+      "tail_type": "Treatment approach"
     }
   ]
 }

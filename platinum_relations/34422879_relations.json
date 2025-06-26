@@ -1,0 +1,314 @@
+{
+  "title": "Memorable Food: Fighting Age-Related Neurodegeneration by Precision Nutrition",
+  "abstract": "Healthcare systems worldwide are seriously challenged by a rising prevalence of neurodegenerative diseases (NDDs), which mostly, but not exclusively, affect the ever-growing population of the elderly. The most known neurodegenerative diseases are Alzheimer's (AD) and Parkinson's disease, multiple sclerosis, and amyotrophic lateral sclerosis, but some viral infections of the brain and traumatic brain injury may also cause NDD. Typical for NDD are the malfunctioning of neurons and their irreversible loss, which often progress irreversibly to dementia and ultimately to death. Numerous factors are involved in the pathogenesis of NDD: genetic variability, epigenetic changes, extent of oxidative/nitrosative stress, mitochondrial dysfunction, and DNA damage. The complex interplay of all the above-mentioned factors may be a fingerprint of neurodegeneration, with different diseases being affected to different extents by particular factors. There is a voluminous body of evidence showing the benefits of regular exercise to brain health and cognitive functions. Moreover, the importance of a healthy diet, balanced in macro- and micro-nutrients, in preventing neurodegeneration and slowing down a progression to full-blown disease is evident. Individuals affected by NDD almost inevitably have low-grade inflammation and anomalies in lipid metabolism. Metabolic and lipid profiles in NDD can be improved by the Mediterranean diet. Many studies have associated the Mediterranean diet with a decreased risk of dementia and AD, but a cause-and-effect relationship has not been deduced. Studies with caloric restriction showed neuroprotective effects in animal models, but the results in humans are inconsistent. The pathologies of NDD are complex and there is a great inter-individual (epi)genetic variance within any population. Furthermore, the gut microbiome, being deeply involved in nutrient uptake and lipid metabolism, also represents a pillar of the gut microbiome-brain axis and is linked with the pathogenesis of NDD. Numerous studies on the role of different micronutrients (omega-3 fatty acids, bioactive polyphenols from fruit and medicinal plants) in the prevention, prediction, and treatment of NDD have been conducted, but we are still far away from a personalized diet plan for individual NDD patients. For this to be realized, large-scale cohorts that would include the precise monitoring of food intake, mapping of genetic variants, epigenetic data, microbiome studies, and metabolome, lipidome, and transcriptome data are needed.",
+  "relations": [
+    {
+      "head": "Healthcare systems",
+      "head_type": "System",
+      "relation": "challenged by",
+      "tail": "rising prevalence of neurodegenerative diseases",
+      "tail_type": "Health Issue"
+    },
+    {
+      "head": "Neurodegenerative diseases",
+      "head_type": "Disease",
+      "relation": "affect",
+      "tail": "elderly population",
+      "tail_type": "Demographic"
+    },
+    {
+      "head": "Alzheimer's disease",
+      "head_type": "Disease",
+      "relation": "is a type of",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Parkinson's disease",
+      "head_type": "Disease",
+      "relation": "is a type of",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Multiple sclerosis",
+      "head_type": "Disease",
+      "relation": "is a type of",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Amyotrophic lateral sclerosis",
+      "head_type": "Disease",
+      "relation": "is a type of",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Viral infections of the brain",
+      "head_type": "Infection",
+      "relation": "cause",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Traumatic brain injury",
+      "head_type": "Injury",
+      "relation": "cause",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Neurodegenerative diseases",
+      "head_type": "Disease",
+      "relation": "characterized by",
+      "tail": "malfunctioning of neurons",
+      "tail_type": "Physiological Process"
+    },
+    {
+      "head": "Neurodegenerative diseases",
+      "head_type": "Disease",
+      "relation": "characterized by",
+      "tail": "irreversible loss of neurons",
+      "tail_type": "Physiological Process"
+    },
+    {
+      "head": "Neurodegenerative diseases",
+      "head_type": "Disease",
+      "relation": "progress to",
+      "tail": "dementia",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Neurodegenerative diseases",
+      "head_type": "Disease",
+      "relation": "lead to",
+      "tail": "death",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Genetic variability",
+      "head_type": "Factor",
+      "relation": "involved in",
+      "tail": "pathogenesis of neurodegenerative diseases",
+      "tail_type": "Pathogenesis"
+    },
+    {
+      "head": "Epigenetic changes",
+      "head_type": "Factor",
+      "relation": "involved in",
+      "tail": "pathogenesis of neurodegenerative diseases",
+      "tail_type": "Pathogenesis"
+    },
+    {
+      "head": "Oxidative stress",
+      "head_type": "Factor",
+      "relation": "involved in",
+      "tail": "pathogenesis of neurodegenerative diseases",
+      "tail_type": "Pathogenesis"
+    },
+    {
+      "head": "Nitrosative stress",
+      "head_type": "Factor",
+      "relation": "involved in",
+      "tail": "pathogenesis of neurodegenerative diseases",
+      "tail_type": "Pathogenesis"
+    },
+    {
+      "head": "Mitochondrial dysfunction",
+      "head_type": "Factor",
+      "relation": "involved in",
+      "tail": "pathogenesis of neurodegenerative diseases",
+      "tail_type": "Pathogenesis"
+    },
+    {
+      "head": "DNA damage",
+      "head_type": "Factor",
+      "relation": "involved in",
+      "tail": "pathogenesis of neurodegenerative diseases",
+      "tail_type": "Pathogenesis"
+    },
+    {
+      "head": "Regular exercise",
+      "head_type": "Activity",
+      "relation": "benefits",
+      "tail": "brain health",
+      "tail_type": "Health Aspect"
+    },
+    {
+      "head": "Regular exercise",
+      "head_type": "Activity",
+      "relation": "benefits",
+      "tail": "cognitive functions",
+      "tail_type": "Health Aspect"
+    },
+    {
+      "head": "Healthy diet",
+      "head_type": "Diet",
+      "relation": "prevents",
+      "tail": "neurodegeneration",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Healthy diet",
+      "head_type": "Diet",
+      "relation": "slows down",
+      "tail": "progression to full-blown disease",
+      "tail_type": "Disease Progression"
+    },
+    {
+      "head": "Individuals affected by NDD",
+      "head_type": "Population",
+      "relation": "have",
+      "tail": "low-grade inflammation",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Individuals affected by NDD",
+      "head_type": "Population",
+      "relation": "have",
+      "tail": "anomalies in lipid metabolism",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Mediterranean diet",
+      "head_type": "Diet",
+      "relation": "improves",
+      "tail": "metabolic profiles",
+      "tail_type": "Health Aspect"
+    },
+    {
+      "head": "Mediterranean diet",
+      "head_type": "Diet",
+      "relation": "improves",
+      "tail": "lipid profiles",
+      "tail_type": "Health Aspect"
+    },
+    {
+      "head": "Mediterranean diet",
+      "head_type": "Diet",
+      "relation": "associated with",
+      "tail": "decreased risk of dementia",
+      "tail_type": "Health Outcome"
+    },
+    {
+      "head": "Mediterranean diet",
+      "head_type": "Diet",
+      "relation": "associated with",
+      "tail": "decreased risk of Alzheimer's disease",
+      "tail_type": "Health Outcome"
+    },
+    {
+      "head": "Caloric restriction",
+      "head_type": "Intervention",
+      "relation": "shows",
+      "tail": "neuroprotective effects",
+      "tail_type": "Effect"
+    },
+    {
+      "head": "Caloric restriction",
+      "head_type": "Intervention",
+      "relation": "has inconsistent results in",
+      "tail": "humans",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Gut microbiome",
+      "head_type": "Biological System",
+      "relation": "involved in",
+      "tail": "nutrient uptake",
+      "tail_type": "Physiological Process"
+    },
+    {
+      "head": "Gut microbiome",
+      "head_type": "Biological System",
+      "relation": "involved in",
+      "tail": "lipid metabolism",
+      "tail_type": "Physiological Process"
+    },
+    {
+      "head": "Gut microbiome",
+      "head_type": "Biological System",
+      "relation": "part of",
+      "tail": "gut microbiome-brain axis",
+      "tail_type": "Biological System"
+    },
+    {
+      "head": "Gut microbiome",
+      "head_type": "Biological System",
+      "relation": "linked with",
+      "tail": "pathogenesis of NDD",
+      "tail_type": "Pathogenesis"
+    },
+    {
+      "head": "Omega-3 fatty acids",
+      "head_type": "Micronutrient",
+      "relation": "studied for",
+      "tail": "prevention of NDD",
+      "tail_type": "Application"
+    },
+    {
+      "head": "Bioactive polyphenols",
+      "head_type": "Micronutrient",
+      "relation": "studied for",
+      "tail": "prevention of NDD",
+      "tail_type": "Application"
+    },
+    {
+      "head": "Bioactive polyphenols",
+      "head_type": "Micronutrient",
+      "relation": "from fruit",
+      "tail": "medicinal plants",
+      "tail_type": "Plant"
+    },
+    {
+      "head": "Large-scale cohorts",
+      "head_type": "Study",
+      "relation": "monitor",
+      "tail": "food intake",
+      "tail_type": "Diet"
+    },
+    {
+      "head": "Large-scale cohorts",
+      "head_type": "Study",
+      "relation": "map",
+      "tail": "genetic variants",
+      "tail_type": "Genetic Data"
+    },
+    {
+      "head": "Large-scale cohorts",
+      "head_type": "Study",
+      "relation": "include",
+      "tail": "epigenetic data",
+      "tail_type": "Epigenetic Data"
+    },
+    {
+      "head": "Large-scale cohorts",
+      "head_type": "Study",
+      "relation": "conduct",
+      "tail": "microbiome studies",
+      "tail_type": "Study Type"
+    },
+    {
+      "head": "Large-scale cohorts",
+      "head_type": "Study",
+      "relation": "analyze",
+      "tail": "metabolome",
+      "tail_type": "Biochemical Data"
+    },
+    {
+      "head": "Large-scale cohorts",
+      "head_type": "Study",
+      "relation": "analyze",
+      "tail": "lipidome",
+      "tail_type": "Biochemical Data"
+    },
+    {
+      "head": "Large-scale cohorts",
+      "head_type": "Study",
+      "relation": "analyze",
+      "tail": "transcriptome data",
+      "tail_type": "Biochemical Data"
+    }
+  ]
+}

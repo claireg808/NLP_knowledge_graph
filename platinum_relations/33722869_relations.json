@@ -13,190 +13,267 @@
       "head": "Bugs and Brains Study",
       "head_type": "Study",
       "relation": "investigates",
-      "tail": "function",
+      "tail": "microbiota function",
       "tail_type": "Biological Process"
     },
     {
       "head": "Bugs and Brains Study",
       "head_type": "Study",
-      "relation": "investigates",
-      "tail": "anxiety",
-      "tail_type": "Mental Disorder"
+      "relation": "aims to recruit",
+      "tail": "160 females",
+      "tail_type": "Sample"
     },
     {
       "head": "Bugs and Brains Study",
       "head_type": "Study",
-      "relation": "investigates",
-      "tail": "depression",
-      "tail_type": "Mental Disorder"
+      "relation": "involves",
+      "tail": "comprehensive questionnaires",
+      "tail_type": "Methodology"
     },
     {
       "head": "Bugs and Brains Study",
       "head_type": "Study",
-      "relation": "investigates",
-      "tail": "irritable bowel syndrome",
-      "tail_type": "Gastrointestinal Disorder"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "Microbiota",
-      "relation": "associated with",
-      "tail": "host mood",
-      "tail_type": "Physiological State"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "Microbiota",
-      "relation": "associated with",
-      "tail": "gastrointestinal functioning",
-      "tail_type": "Physiological Function"
-    },
-    {
-      "head": "mental health disorders",
-      "head_type": "Health Condition",
-      "relation": "co-occur with",
-      "tail": "functional gastrointestinal disorders",
-      "tail_type": "Health Condition"
+      "relation": "involves",
+      "tail": "anthropometrics",
+      "tail_type": "Methodology"
     },
     {
       "head": "Bugs and Brains Study",
       "head_type": "Study",
-      "relation": "compares",
-      "tail": "gut microbiota",
-      "tail_type": "Microbiota"
+      "relation": "involves",
+      "tail": "diagnostic clinical interview",
+      "tail_type": "Methodology"
     },
     {
       "head": "Bugs and Brains Study",
       "head_type": "Study",
-      "relation": "compares",
-      "tail": "oral microbiota",
-      "tail_type": "Microbiota"
-    },
-    {
-      "head": "participants",
-      "head_type": "Human",
-      "relation": "have",
-      "tail": "depressive/anxiety disorder",
-      "tail_type": "Mental Disorder"
-    },
-    {
-      "head": "participants",
-      "head_type": "Human",
-      "relation": "have",
-      "tail": "IBS",
-      "tail_type": "Gastrointestinal Disorder"
+      "relation": "involves",
+      "tail": "collection of saliva samples",
+      "tail_type": "Methodology"
     },
     {
       "head": "Bugs and Brains Study",
       "head_type": "Study",
-      "relation": "investigates",
-      "tail": "diet",
-      "tail_type": "Nutritional Factor"
+      "relation": "involves",
+      "tail": "stool samples",
+      "tail_type": "Sample"
     },
     {
       "head": "Bugs and Brains Study",
       "head_type": "Study",
-      "relation": "investigates",
-      "tail": "psychosocial factors",
-      "tail_type": "Social Factor"
+      "relation": "involves",
+      "tail": "urine samples",
+      "tail_type": "Sample"
     },
     {
       "head": "Bugs and Brains Study",
       "head_type": "Study",
-      "relation": "investigates",
-      "tail": "gastrointestinal symptoms",
-      "tail_type": "Symptom"
+      "relation": "involves",
+      "tail": "hair samples",
+      "tail_type": "Sample"
     },
     {
       "head": "Bugs and Brains Study",
       "head_type": "Study",
-      "relation": "investigates",
-      "tail": "mental health symptoms",
-      "tail_type": "Symptom"
-    },
-    {
-      "head": "participants",
-      "head_type": "Human",
-      "relation": "report",
-      "tail": "oral health",
-      "tail_type": "Health Condition"
-    },
-    {
-      "head": "participants",
-      "head_type": "Human",
-      "relation": "report",
-      "tail": "substance use",
-      "tail_type": "Behavior"
-    },
-    {
-      "head": "participants",
-      "head_type": "Human",
-      "relation": "report",
-      "tail": "medical history",
-      "tail_type": "Health History"
-    },
-    {
-      "head": "participants",
-      "head_type": "Human",
-      "relation": "report",
-      "tail": "early life adversity",
-      "tail_type": "Life Event"
-    },
-    {
-      "head": "participants",
-      "head_type": "Human",
-      "relation": "report",
-      "tail": "diet",
-      "tail_type": "Nutritional Factor"
-    },
-    {
-      "head": "participants",
-      "head_type": "Human",
-      "relation": "report",
-      "tail": "exercise",
-      "tail_type": "Activity"
+      "relation": "uses",
+      "tail": "systems biology approach",
+      "tail_type": "Methodology"
     },
     {
       "head": "Bugs and Brains Study",
       "head_type": "Study",
       "relation": "uses",
       "tail": "16S rRNA gene sequencing",
-      "tail_type": "Methodology"
+      "tail_type": "Technique"
     },
     {
       "head": "Bugs and Brains Study",
       "head_type": "Study",
       "relation": "uses",
       "tail": "nuclear MR spectroscopy",
-      "tail_type": "Methodology"
+      "tail_type": "Technique"
     },
     {
-      "head": "University of Melbourne Human Research Ethics Committee",
-      "head_type": "Ethics Committee",
-      "relation": "approved",
-      "tail": "Bugs and Brains Study",
-      "tail_type": "Study"
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "approved by",
+      "tail": "University of Melbourne Human Research Ethics Committee",
+      "tail_type": "Institution"
     },
     {
-      "head": "participants",
-      "head_type": "Human",
-      "relation": "provided",
-      "tail": "informed consent",
-      "tail_type": "Legal Document"
-    },
-    {
-      "head": "results",
-      "head_type": "Research Outcome",
-      "relation": "will be published in",
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "will publish results in",
       "tail": "peer-reviewed journals",
       "tail_type": "Publication"
     },
     {
-      "head": "results",
-      "head_type": "Research Outcome",
-      "relation": "will be presented at",
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "will present results at",
       "tail": "scientific conferences",
       "tail_type": "Event"
+    },
+    {
+      "head": "microbiota composition",
+      "head_type": "Biological Process",
+      "relation": "related to",
+      "tail": "host mood",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "microbiota composition",
+      "head_type": "Biological Process",
+      "relation": "related to",
+      "tail": "gastrointestinal functioning",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "mental health disorders",
+      "head_type": "Disease",
+      "relation": "co-occur with",
+      "tail": "functional gastrointestinal disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "anxiety/depression",
+      "head_type": "Disease",
+      "relation": "linked to",
+      "tail": "IBS",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Process",
+      "relation": "compared in",
+      "tail": "females with anxiety/depression",
+      "tail_type": "Population"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Process",
+      "relation": "compared in",
+      "tail": "females with IBS",
+      "tail_type": "Population"
+    },
+    {
+      "head": "oral microbiota",
+      "head_type": "Biological Process",
+      "relation": "compared in",
+      "tail": "females with anxiety/depression",
+      "tail_type": "Population"
+    },
+    {
+      "head": "oral microbiota",
+      "head_type": "Biological Process",
+      "relation": "compared in",
+      "tail": "females with IBS",
+      "tail_type": "Population"
+    },
+    {
+      "head": "diet",
+      "head_type": "Factor",
+      "relation": "associated with",
+      "tail": "microbiota composition",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "diet",
+      "head_type": "Factor",
+      "relation": "associated with",
+      "tail": "microbiota function",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "psychosocial factors",
+      "head_type": "Factor",
+      "relation": "associated with",
+      "tail": "microbiota composition",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "psychosocial factors",
+      "head_type": "Factor",
+      "relation": "associated with",
+      "tail": "microbiota function",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "gastrointestinal symptoms",
+      "head_type": "Symptom",
+      "relation": "explored in",
+      "tail": "larger sample",
+      "tail_type": "Population"
+    },
+    {
+      "head": "mental health symptoms",
+      "head_type": "Symptom",
+      "relation": "explored in",
+      "tail": "larger sample",
+      "tail_type": "Population"
+    },
+    {
+      "head": "diet",
+      "head_type": "Factor",
+      "relation": "explored in",
+      "tail": "larger sample",
+      "tail_type": "Population"
+    },
+    {
+      "head": "exercise",
+      "head_type": "Factor",
+      "relation": "explored in",
+      "tail": "larger sample",
+      "tail_type": "Population"
+    },
+    {
+      "head": "oral health",
+      "head_type": "Health Aspect",
+      "relation": "explored in",
+      "tail": "larger sample",
+      "tail_type": "Population"
+    },
+    {
+      "head": "substance use",
+      "head_type": "Behavior",
+      "relation": "explored in",
+      "tail": "larger sample",
+      "tail_type": "Population"
+    },
+    {
+      "head": "medical history",
+      "head_type": "Health Aspect",
+      "relation": "explored in",
+      "tail": "larger sample",
+      "tail_type": "Population"
+    },
+    {
+      "head": "early life adversity",
+      "head_type": "Factor",
+      "relation": "explored in",
+      "tail": "larger sample",
+      "tail_type": "Population"
+    },
+    {
+      "head": "psychosocial factors",
+      "head_type": "Factor",
+      "relation": "explored in",
+      "tail": "larger sample",
+      "tail_type": "Population"
+    },
+    {
+      "head": "participants",
+      "head_type": "Population",
+      "relation": "provided",
+      "tail": "informed consent",
+      "tail_type": "Action"
+    },
+    {
+      "head": "participants",
+      "head_type": "Population",
+      "relation": "voluntarily provided",
+      "tail": "samples",
+      "tail_type": "Sample"
     }
   ]
 }

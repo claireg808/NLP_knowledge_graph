@@ -1,3 +1,202 @@
 {
-  "title": "Studies on blood enrichment and anti-tumor effects of combined Danggui Buxue Decoction, Fe and rhEPO based on colon cancer-related anemia model and gut microbiota modulation."
+  "title": "Studies on blood enrichment and anti-tumor effects of combined Danggui Buxue Decoction, Fe and rhEPO based on colon cancer-related anemia model and gut microbiota modulation.",
+  "abstract": "Colon cancer-related anemia (CCRA) is mainly caused by systemic inflammation, intestinal bleeding, iron deficiency and chemotherapy-induced myelosuppression in colon cancer. However, the best therapeutic schedule and related mechanism on CCRA were still uncertain. Studies on blood enrichment and anti-tumor effects of combined Danggui Buxue Decoction (DBD), Fe and rhEPO based on CCRA and gut microbiota modulation were conducted in this paper. Here, CCRA model was successfully induced by subcutaneous inoculation of CT-26 and i.p. oxaliplatin, rhEPO + DBD high dosage + Fe (EDF) and rhEPO + DBD high dosage (ED) groups had the best blood enrichment effect. Attractively, EDF group also showed antitumor activity. The sequencing results of gut microbiota showed that compared to P group, the relative abundances of Lachnospiraceae and opportunistic pathogen (Odoribacter) in ED and EDF groups were decreased. Interestingly, EDF also decreased the relative abundances of cancer-related bacteria (Helicobacter, Lactococcus, Alloprevotella) and imbalance-inducing bacteria (Escherichia-Shigella and Parabacteroides) and increased the relative abundances of butyrate-producing bacteria (Ruminococcaceae_UCG-014), however, ED showed the opposite effects to EDF, this might be the reason of the smaller tumor volume in EDF group. Our findings proposed the best treatment combination of DBD, rhEPO and Fe in CCRA and provided theoretical basis and literature reference for CCRA-induced intestinal flora disorder and the regulatory mechanism of EDF.",
+  "relations": [
+    {
+      "head": "Colon cancer-related anemia (CCRA)",
+      "head_type": "Medical Condition",
+      "relation": "caused by",
+      "tail": "systemic inflammation",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Colon cancer-related anemia (CCRA)",
+      "head_type": "Medical Condition",
+      "relation": "caused by",
+      "tail": "intestinal bleeding",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Colon cancer-related anemia (CCRA)",
+      "head_type": "Medical Condition",
+      "relation": "caused by",
+      "tail": "iron deficiency",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Colon cancer-related anemia (CCRA)",
+      "head_type": "Medical Condition",
+      "relation": "caused by",
+      "tail": "chemotherapy-induced myelosuppression",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Danggui Buxue Decoction (DBD)",
+      "head_type": "Herbal Medicine",
+      "relation": "combined with",
+      "tail": "Fe",
+      "tail_type": "Chemical Element"
+    },
+    {
+      "head": "Danggui Buxue Decoction (DBD)",
+      "head_type": "Herbal Medicine",
+      "relation": "combined with",
+      "tail": "rhEPO",
+      "tail_type": "Biological Agent"
+    },
+    {
+      "head": "CT-26",
+      "head_type": "Cell Line",
+      "relation": "used in",
+      "tail": "CCRA model",
+      "tail_type": "Experimental Model"
+    },
+    {
+      "head": "oxaliplatin",
+      "head_type": "Chemotherapy Drug",
+      "relation": "used in",
+      "tail": "CCRA model",
+      "tail_type": "Experimental Model"
+    },
+    {
+      "head": "EDF group",
+      "head_type": "Treatment Group",
+      "relation": "has effect",
+      "tail": "blood enrichment",
+      "tail_type": "Therapeutic Effect"
+    },
+    {
+      "head": "ED group",
+      "head_type": "Treatment Group",
+      "relation": "has effect",
+      "tail": "blood enrichment",
+      "tail_type": "Therapeutic Effect"
+    },
+    {
+      "head": "EDF group",
+      "head_type": "Treatment Group",
+      "relation": "exhibits",
+      "tail": "antitumor activity",
+      "tail_type": "Therapeutic Effect"
+    },
+    {
+      "head": "EDF group",
+      "head_type": "Treatment Group",
+      "relation": "decreases",
+      "tail": "relative abundances of Lachnospiraceae",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "EDF group",
+      "head_type": "Treatment Group",
+      "relation": "decreases",
+      "tail": "relative abundances of Odoribacter",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "EDF group",
+      "head_type": "Treatment Group",
+      "relation": "decreases",
+      "tail": "relative abundances of Helicobacter",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "EDF group",
+      "head_type": "Treatment Group",
+      "relation": "decreases",
+      "tail": "relative abundances of Lactococcus",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "EDF group",
+      "head_type": "Treatment Group",
+      "relation": "decreases",
+      "tail": "relative abundances of Alloprevotella",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "EDF group",
+      "head_type": "Treatment Group",
+      "relation": "decreases",
+      "tail": "relative abundances of Escherichia-Shigella",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "EDF group",
+      "head_type": "Treatment Group",
+      "relation": "decreases",
+      "tail": "relative abundances of Parabacteroides",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "EDF group",
+      "head_type": "Treatment Group",
+      "relation": "increases",
+      "tail": "relative abundances of Ruminococcaceae_UCG-014",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "ED group",
+      "head_type": "Treatment Group",
+      "relation": "increases",
+      "tail": "relative abundances of Lachnospiraceae",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "ED group",
+      "head_type": "Treatment Group",
+      "relation": "increases",
+      "tail": "relative abundances of Odoribacter",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "ED group",
+      "head_type": "Treatment Group",
+      "relation": "increases",
+      "tail": "relative abundances of Helicobacter",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "ED group",
+      "head_type": "Treatment Group",
+      "relation": "increases",
+      "tail": "relative abundances of Lactococcus",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "ED group",
+      "head_type": "Treatment Group",
+      "relation": "increases",
+      "tail": "relative abundances of Alloprevotella",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "ED group",
+      "head_type": "Treatment Group",
+      "relation": "increases",
+      "tail": "relative abundances of Escherichia-Shigella",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "ED group",
+      "head_type": "Treatment Group",
+      "relation": "increases",
+      "tail": "relative abundances of Parabacteroides",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "ED group",
+      "head_type": "Treatment Group",
+      "relation": "decreases",
+      "tail": "relative abundances of Ruminococcaceae_UCG-014",
+      "tail_type": "Microbial Abundance"
+    },
+    {
+      "head": "EDF group",
+      "head_type": "Treatment Group",
+      "relation": "has effect",
+      "tail": "smaller tumor volume",
+      "tail_type": "Therapeutic Outcome"
+    }
+  ]
 }

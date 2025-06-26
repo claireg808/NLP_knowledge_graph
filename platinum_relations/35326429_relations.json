@@ -3,116 +3,116 @@
   "abstract": "Several bacterial species can generate hydrogen sulfide (H<sub>2</sub>S). Study evidence favors the view that the microbiome of the colon harbors increased amounts of H<sub>2</sub>S producing bacteria in Parkinson's disease. Additionally, H<sub>2</sub>S can easily penetrate cell membranes and enter the cell interior. In the cells, excessive amounts of H<sub>2</sub>S can potentially release cytochrome c protein from the mitochondria, increase the iron content of the cytosolic iron pool, and increase the amount of reactive oxygen species. These events can lead to the formation of alpha-synuclein oligomers and fibrils in cells containing the alpha-synuclein protein. In addition, bacterially produced H<sub>2</sub>S can interfere with the body urate metabolism and affect the blood erythrocytes and lymphocytes. Gut bacteria responsible for increased H<sub>2</sub>S production, especially the mucus-associated species of the bacterial genera belonging to the Desulfovibrionaceae and Enterobacteriaceae families, are likely play a role in the pathogenesis of Parkinson's disease. Special attention should be devoted to changes not only in the colonic but also in the duodenal microbiome composition with regard to the pathogenesis of Parkinson's disease. Influenza infections may increase the risk of Parkinson's disease by causing the overgrowth of H<sub>2</sub>S-producing bacteria both in the colon and duodenum.",
   "relations": [
     {
-      "head": "hydrogen sulfide",
-      "head_type": "chemical",
+      "head": "Hydrogen Sulfide",
+      "head_type": "Chemical",
       "relation": "produced_by",
-      "tail": "gut bacteria",
-      "tail_type": "organism"
+      "tail": "Gut Bacteria",
+      "tail_type": "Organism"
     },
     {
-      "head": "H2S producing bacteria",
-      "head_type": "organism",
-      "relation": "linked_to",
-      "tail": "Parkinson's disease",
-      "tail_type": "disease"
+      "head": "Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "harbors",
+      "tail": "Microbiome of the colon",
+      "tail_type": "Organism"
     },
     {
-      "head": "H2S",
-      "head_type": "chemical",
-      "relation": "penetrates",
-      "tail": "cell membranes",
-      "tail_type": "biological structure"
+      "head": "Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "penetrate",
+      "tail": "Cell Membranes",
+      "tail_type": "Cellular Component"
     },
     {
-      "head": "excessive H2S",
-      "head_type": "chemical",
-      "relation": "causes_release_of",
-      "tail": "cytochrome c protein",
-      "tail_type": "protein"
+      "head": "Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "release",
+      "tail": "Cytochrome c protein",
+      "tail_type": "Protein"
     },
     {
-      "head": "excessive H2S",
-      "head_type": "chemical",
-      "relation": "increases",
-      "tail": "iron content",
-      "tail_type": "chemical"
+      "head": "Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "increase",
+      "tail": "Iron content",
+      "tail_type": "Chemical"
     },
     {
-      "head": "excessive H2S",
-      "head_type": "chemical",
-      "relation": "increases",
-      "tail": "reactive oxygen species",
-      "tail_type": "chemical"
+      "head": "Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "increase",
+      "tail": "Reactive Oxygen Species",
+      "tail_type": "Chemical"
     },
     {
-      "head": "H2S",
-      "head_type": "chemical",
-      "relation": "leads_to",
-      "tail": "alpha-synuclein oligomers",
-      "tail_type": "protein"
+      "head": "Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "lead_to",
+      "tail": "Alpha-synuclein oligomers",
+      "tail_type": "Protein"
     },
     {
-      "head": "H2S",
-      "head_type": "chemical",
-      "relation": "leads_to",
-      "tail": "alpha-synuclein fibrils",
-      "tail_type": "protein"
+      "head": "Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "lead_to",
+      "tail": "Alpha-synuclein fibrils",
+      "tail_type": "Protein"
     },
     {
-      "head": "H2S",
-      "head_type": "chemical",
-      "relation": "interferes_with",
-      "tail": "urate metabolism",
-      "tail_type": "biological process"
+      "head": "Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "interfere_with",
+      "tail": "Urate Metabolism",
+      "tail_type": "Biological Process"
     },
     {
-      "head": "H2S",
-      "head_type": "chemical",
-      "relation": "affects",
-      "tail": "erythrocytes",
-      "tail_type": "cell"
+      "head": "Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "affect",
+      "tail": "Blood Erythrocytes",
+      "tail_type": "Cell"
     },
     {
-      "head": "H2S",
-      "head_type": "chemical",
-      "relation": "affects",
-      "tail": "lymphocytes",
-      "tail_type": "cell"
+      "head": "Hydrogen Sulfide",
+      "head_type": "Chemical",
+      "relation": "affect",
+      "tail": "Lymphocytes",
+      "tail_type": "Cell"
     },
     {
-      "head": "gut bacteria",
-      "head_type": "organism",
-      "relation": "linked_to",
-      "tail": "Parkinson's disease",
-      "tail_type": "disease"
+      "head": "Gut Bacteria",
+      "head_type": "Organism",
+      "relation": "play_role",
+      "tail": "Pathogenesis of Parkinson's Disease",
+      "tail_type": "Disease"
     },
     {
       "head": "Desulfovibrionaceae",
-      "head_type": "organism",
-      "relation": "linked_to",
-      "tail": "Parkinson's disease",
-      "tail_type": "disease"
+      "head_type": "Organism",
+      "relation": "belong_to",
+      "tail": "Families",
+      "tail_type": "Taxonomic Group"
     },
     {
       "head": "Enterobacteriaceae",
-      "head_type": "organism",
-      "relation": "linked_to",
-      "tail": "Parkinson's disease",
-      "tail_type": "disease"
+      "head_type": "Organism",
+      "relation": "belong_to",
+      "tail": "Families",
+      "tail_type": "Taxonomic Group"
     },
     {
-      "head": "influenza infections",
-      "head_type": "disease",
-      "relation": "increases_risk_of",
-      "tail": "Parkinson's disease",
-      "tail_type": "disease"
+      "head": "Influenza Infections",
+      "head_type": "Disease",
+      "relation": "increase_risk",
+      "tail": "Parkinson's Disease",
+      "tail_type": "Disease"
     },
     {
-      "head": "influenza infections",
-      "head_type": "disease",
-      "relation": "causes_overgrowth_of",
-      "tail": "H2S-producing bacteria",
-      "tail_type": "organism"
+      "head": "Influenza Infections",
+      "head_type": "Disease",
+      "relation": "cause",
+      "tail": "Overgrowth of H<sub>2</sub>S-producing bacteria",
+      "tail_type": "Organism"
     }
   ]
 }

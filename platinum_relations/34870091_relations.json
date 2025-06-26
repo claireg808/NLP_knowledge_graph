@@ -1,146 +1,97 @@
 {
   "title": "Compositional and functional alterations in the oral and gut microbiota in patients with psychosis or schizophrenia: A systematic review.",
-  "abstract": "Background: Gut and oral microbiota are intrinsically linked to human health. Recent studies suggest a direct link with mental health through bidirectional gut-brain pathways. Emerging evidence suggests that the composition and/or function of intestinal microbiome differs in those with psychosis and schizophrenia as compared with controls. There is relatively little research on the predicted or actual functional alterations associated with the composition of oral and gut microbiota in patients with psychosis. We will perform a systematic review and meta-analysis to identify, evaluate and if possible, combine the published literature on compositional alterations in the oral and gut microbiota in patients with psychosis or schizophrenia compared with healthy controls. We also aim to explore the potential functional impact of any compositional changes. Methods: Original studies involving humans and animals using a case-control, cohort or cross-sectional design will be included. The electronic databases PsycINFO, EMBASE, Web of Science, PubMed/MEDLINE and Cochrane will be systematically searched. Quantitative analyses will be performed using random-effects meta-analyses to calculate mean difference with 95% confidence intervals. Discussion: Changes in microbiota composition in psychosis and schizophrenia have been correlated with alternations in brain structure and function, altered immunity, altered metabolic pathways and symptom severity. Changes have also been identified as potential biomarkers for psychosis that might aid in diagnosis. Understanding how predicted or actual functional alterations in microbial genes or metabolic pathways influence symptomatic expression and downstream clinical outcomes may contribute to the development of microbiome targeted interventions for psychosis. Registration: The study is prospectively registered in PROSPERO, the International Prospective Register of Systematic Reviews (CRD42021260208).",
+  "abstract": "<b>Background:</b> Gut and oral microbiota are intrinsically linked to human health. Recent studies suggest a direct link with mental health through bidirectional gut-brain pathways. Emerging evidence suggests that the composition and/or function of intestinal microbiome differs in those with psychosis and schizophrenia as compared with controls. There is relatively little research on the predicted or actual functional alterations associated with the composition of oral and gut microbiota in patients with psychosis. We will perform a systematic review and meta-analysis to identify, evaluate and if possible, combine the published literature on compositional alterations in the oral and gut microbiota in patients with psychosis or schizophrenia compared with healthy controls. We also aim to explore the potential functional impact of any compositional changes. <b>Methods:</b> Original studies involving humans and animals using a case-control, cohort or cross-sectional design will be included. The electronic databases PsycINFO, EMBASE, Web of Science, PubMed/MEDLINE and Cochrane will be systematically searched. Quantitative analyses will be performed using random-effects meta-analyses to calculate mean difference with 95% confidence intervals. <b>Discussion:</b> Changes in microbiota composition in psychosis and schizophrenia have been correlated with alternations in brain structure and function, altered immunity, altered metabolic pathways and symptom severity. Changes have also been identified as potential biomarkers for psychosis that might aid in diagnosis. Understanding how predicted or actual functional alterations in microbial genes or metabolic pathways influence symptomatic expression and downstream clinical outcomes may contribute to the development of microbiome targeted interventions for psychosis. <b>Registration:</b> The study is prospectively registered in PROSPERO, the International Prospective Register of Systematic Reviews (CRD42021260208).",
   "relations": [
     {
-      "head": "Gut and oral microbiota",
-      "head_type": "Microbiota",
-      "relation": "linked_to",
-      "tail": "human health",
-      "tail_type": "Health"
+      "head": "Gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "Linked with",
+      "tail": "Human health",
+      "tail_type": "Health Condition"
     },
     {
-      "head": "Gut and oral microbiota",
-      "head_type": "Microbiota",
-      "relation": "linked_with",
-      "tail": "mental health",
-      "tail_type": "Health"
+      "head": "Oral microbiota",
+      "head_type": "Biological Entity",
+      "relation": "Linked with",
+      "tail": "Human health",
+      "tail_type": "Health Condition"
     },
     {
-      "head": "gut-brain pathways",
-      "head_type": "Pathway",
-      "relation": "connect",
-      "tail": "gut and oral microbiota",
-      "tail_type": "Microbiota"
+      "head": "Gut-brain pathways",
+      "head_type": "Biological Pathway",
+      "relation": "Linked with",
+      "tail": "Mental health",
+      "tail_type": "Health Condition"
     },
     {
-      "head": "intestinal microbiome",
-      "head_type": "Microbiome",
-      "relation": "differs_in",
-      "tail": "patients with psychosis and schizophrenia",
-      "tail_type": "Patients"
+      "head": "Intestinal microbiome",
+      "head_type": "Biological Entity",
+      "relation": "Differs in",
+      "tail": "Psychosis",
+      "tail_type": "Disease"
     },
     {
-      "head": "oral and gut microbiota",
-      "head_type": "Microbiota",
-      "relation": "associated_with",
-      "tail": "psychosis",
-      "tail_type": "Mental Disorder"
+      "head": "Intestinal microbiome",
+      "head_type": "Biological Entity",
+      "relation": "Differs in",
+      "tail": "Schizophrenia",
+      "tail_type": "Disease"
     },
     {
-      "head": "oral and gut microbiota",
-      "head_type": "Microbiota",
-      "relation": "associated_with",
-      "tail": "schizophrenia",
-      "tail_type": "Mental Disorder"
-    },
-    {
-      "head": "systematic review",
-      "head_type": "Study",
-      "relation": "aims_to",
-      "tail": "identify compositional alterations",
-      "tail_type": "Alteration"
-    },
-    {
-      "head": "systematic review",
-      "head_type": "Study",
-      "relation": "aims_to",
-      "tail": "evaluate functional impact",
-      "tail_type": "Impact"
-    },
-    {
-      "head": "original studies",
-      "head_type": "Study",
-      "relation": "include",
-      "tail": "human and animal subjects",
-      "tail_type": "Subjects"
-    },
-    {
-      "head": "electronic databases",
-      "head_type": "Database",
-      "relation": "searched",
-      "tail": "PsycINFO, EMBASE, Web of Science, PubMed/MEDLINE, Cochrane",
-      "tail_type": "Databases"
-    },
-    {
-      "head": "quantitative analyses",
-      "head_type": "Analysis",
-      "relation": "use",
-      "tail": "random-effects meta-analyses",
-      "tail_type": "Method"
-    },
-    {
-      "head": "microbiota composition changes",
+      "head": "Compositional alterations",
       "head_type": "Change",
-      "relation": "correlated_with",
-      "tail": "brain structure alterations",
-      "tail_type": "Alteration"
+      "relation": "Found in",
+      "tail": "Oral microbiota",
+      "tail_type": "Biological Entity"
     },
     {
-      "head": "microbiota composition changes",
+      "head": "Compositional alterations",
       "head_type": "Change",
-      "relation": "correlated_with",
-      "tail": "function alterations",
-      "tail_type": "Alteration"
+      "relation": "Found in",
+      "tail": "Gut microbiota",
+      "tail_type": "Biological Entity"
     },
     {
-      "head": "microbiota composition changes",
+      "head": "Changes in microbiota composition",
       "head_type": "Change",
-      "relation": "correlated_with",
-      "tail": "immune alterations",
-      "tail_type": "Alteration"
+      "relation": "Correlated with",
+      "tail": "Brain structure",
+      "tail_type": "Anatomical Structure"
     },
     {
-      "head": "microbiota composition changes",
+      "head": "Changes in microbiota composition",
       "head_type": "Change",
-      "relation": "correlated_with",
-      "tail": "metabolic pathway alterations",
-      "tail_type": "Alteration"
+      "relation": "Correlated with",
+      "tail": "Brain function",
+      "tail_type": "Physiological Function"
     },
     {
-      "head": "microbiota composition changes",
+      "head": "Changes in microbiota composition",
       "head_type": "Change",
-      "relation": "correlated_with",
-      "tail": "symptom severity",
-      "tail_type": "Symptom"
+      "relation": "Correlated with",
+      "tail": "Immunity",
+      "tail_type": "Physiological Function"
     },
     {
-      "head": "microbiota composition changes",
+      "head": "Changes in microbiota composition",
       "head_type": "Change",
-      "relation": "serve_as",
-      "tail": "biomarkers for psychosis",
-      "tail_type": "Biomarker"
+      "relation": "Correlated with",
+      "tail": "Metabolic pathways",
+      "tail_type": "Biological Pathway"
     },
     {
-      "head": "functional alterations",
-      "head_type": "Alteration",
-      "relation": "influence",
-      "tail": "symptomatic expression",
-      "tail_type": "Expression"
+      "head": "Changes in microbiota composition",
+      "head_type": "Change",
+      "relation": "Correlated with",
+      "tail": "Symptom severity",
+      "tail_type": "Health Condition"
     },
     {
-      "head": "functional alterations",
-      "head_type": "Alteration",
-      "relation": "influence",
-      "tail": "clinical outcomes",
-      "tail_type": "Outcome"
-    },
-    {
-      "head": "study",
-      "head_type": "Study",
-      "relation": "registered_in",
-      "tail": "PROSPERO",
-      "tail_type": "Registry"
+      "head": "Changes in microbiota composition",
+      "head_type": "Change",
+      "relation": "Potential biomarkers for",
+      "tail": "Psychosis",
+      "tail_type": "Disease"
     }
   ]
 }

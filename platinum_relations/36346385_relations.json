@@ -1,4 +1,104 @@
 {
   "title": "A prebiotic diet modulates microglial states and motor deficits in \u03b1-synuclein overexpressing mice.",
-  "abstract": "Parkinson's disease (PD) is a movement disorder characterized by neuroinflammation, \u03b1-synuclein pathology, and neurodegeneration. Most cases of PD are non-hereditary, suggesting a strong role for environmental factors, and it has been speculated that disease may originate in peripheral tissues such as the gastrointestinal (GI) tract before affecting the brain. The gut microbiome is altered in PD and may impact motor and GI symptoms as indicated by animal studies, although mechanisms of gut-brain interactions remain incompletely defined. Intestinal bacteria ferment dietary fibers into short-chain fatty acids, with fecal levels of these molecules differing between PD and healthy controls and in mouse models. Among other effects, dietary microbial metabolites can modulate activation of microglia, brain-resident immune cells implicated in PD. We therefore investigated whether a fiber-rich diet influences microglial function in \u03b1-synuclein overexpressing (ASO) mice, a preclinical model with PD-like symptoms and pathology. Feeding a prebiotic high-fiber diet attenuates motor deficits and reduces \u03b1-synuclein aggregation in the substantia nigra of mice. Concomitantly, the gut microbiome of ASO mice adopts a profile correlated with health upon prebiotic treatment, which also reduces microglial activation. Single-cell RNA-seq analysis of microglia from the substantia nigra and striatum uncovers increased pro-inflammatory signaling and reduced homeostatic responses in ASO mice compared to wild-type counterparts on standard diets. However, prebiotic feeding reverses pathogenic microglial states in ASO mice and promotes expansion of protective disease-associated macrophage (DAM) subsets of microglia. Notably, depletion of microglia using a CSF1R inhibitor eliminates the beneficial effects of prebiotics by restoring motor deficits to ASO mice despite feeding a prebiotic diet. These studies uncover a novel microglia-dependent interaction between diet and motor symptoms in mice, findings that may have implications for neuroinflammation and PD."
+  "abstract": "Parkinson's disease (PD) is a movement disorder characterized by neuroinflammation, \u03b1-synuclein pathology, and neurodegeneration. Most cases of PD are non-hereditary, suggesting a strong role for environmental factors, and it has been speculated that disease may originate in peripheral tissues such as the gastrointestinal (GI) tract before affecting the brain. The gut microbiome is altered in PD and may impact motor and GI symptoms as indicated by animal studies, although mechanisms of gut-brain interactions remain incompletely defined. Intestinal bacteria ferment dietary fibers into short-chain fatty acids, with fecal levels of these molecules differing between PD and healthy controls and in mouse models. Among other effects, dietary microbial metabolites can modulate activation of microglia, brain-resident immune cells implicated in PD. We therefore investigated whether a fiber-rich diet influences microglial function in \u03b1-synuclein overexpressing (ASO) mice, a preclinical model with PD-like symptoms and pathology. Feeding a prebiotic high-fiber diet attenuates motor deficits and reduces \u03b1-synuclein aggregation in the substantia nigra of mice. Concomitantly, the gut microbiome of ASO mice adopts a profile correlated with health upon prebiotic treatment, which also reduces microglial activation. Single-cell RNA-seq analysis of microglia from the substantia nigra and striatum uncovers increased pro-inflammatory signaling and reduced homeostatic responses in ASO mice compared to wild-type counterparts on standard diets. However, prebiotic feeding reverses pathogenic microglial states in ASO mice and promotes expansion of protective disease-associated macrophage (DAM) subsets of microglia. Notably, depletion of microglia using a CSF1R inhibitor eliminates the beneficial effects of prebiotics by restoring motor deficits to ASO mice despite feeding a prebiotic diet. These studies uncover a novel microglia-dependent interaction between diet and motor symptoms in mice, findings that may have implications for neuroinflammation and PD.",
+  "relations": [
+    {
+      "head": "prebiotic diet",
+      "head_type": "diet",
+      "relation": "modulates",
+      "tail": "microglial states",
+      "tail_type": "cellular state"
+    },
+    {
+      "head": "prebiotic diet",
+      "head_type": "diet",
+      "relation": "attenuates",
+      "tail": "motor deficits",
+      "tail_type": "symptom"
+    },
+    {
+      "head": "prebiotic diet",
+      "head_type": "diet",
+      "relation": "reduces",
+      "tail": "\u03b1-synuclein aggregation",
+      "tail_type": "pathology"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "microbiome",
+      "relation": "impacts",
+      "tail": "motor symptoms",
+      "tail_type": "symptom"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "microbiome",
+      "relation": "impacts",
+      "tail": "GI symptoms",
+      "tail_type": "symptom"
+    },
+    {
+      "head": "dietary fibers",
+      "head_type": "dietary component",
+      "relation": "fermented into",
+      "tail": "short-chain fatty acids",
+      "tail_type": "metabolite"
+    },
+    {
+      "head": "dietary microbial metabolites",
+      "head_type": "metabolite",
+      "relation": "modulates",
+      "tail": "microglia activation",
+      "tail_type": "cellular activity"
+    },
+    {
+      "head": "\u03b1-synuclein overexpressing mice",
+      "head_type": "animal model",
+      "relation": "exhibits",
+      "tail": "PD-like symptoms",
+      "tail_type": "symptom"
+    },
+    {
+      "head": "\u03b1-synuclein overexpressing mice",
+      "head_type": "animal model",
+      "relation": "exhibits",
+      "tail": "pathology",
+      "tail_type": "pathology"
+    },
+    {
+      "head": "prebiotic high-fiber diet",
+      "head_type": "diet",
+      "relation": "reduces",
+      "tail": "microglial activation",
+      "tail_type": "cellular activity"
+    },
+    {
+      "head": "prebiotic feeding",
+      "head_type": "dietary intervention",
+      "relation": "reverses",
+      "tail": "pathogenic microglial states",
+      "tail_type": "cellular state"
+    },
+    {
+      "head": "prebiotic feeding",
+      "head_type": "dietary intervention",
+      "relation": "promotes",
+      "tail": "DAM subsets of microglia",
+      "tail_type": "cell type"
+    },
+    {
+      "head": "CSF1R inhibitor",
+      "head_type": "pharmacological agent",
+      "relation": "depletes",
+      "tail": "microglia",
+      "tail_type": "cell type"
+    },
+    {
+      "head": "CSF1R inhibitor",
+      "head_type": "pharmacological agent",
+      "relation": "eliminates",
+      "tail": "beneficial effects of prebiotics",
+      "tail_type": "therapeutic effect"
+    }
+  ]
 }

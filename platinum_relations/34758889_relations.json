@@ -1,76 +1,258 @@
 {
-  "title": "A fiber-deprived diet causes cognitive impairment and hippocampal microglia-mediated synaptic loss through the gut microbiota and metabolites.",
+  "title": "A fiber-deprived diet causes cognitive impairment and hippocampal microglia-mediated synaptic loss through the gut microbiota and metabolites",
   "abstract": "Cognitive impairment, an increasing mental health issue, is a core feature of the aging brain and neurodegenerative diseases. Industrialized nations especially, have experienced a marked decrease in dietary fiber intake, but the potential mechanism linking low fiber intake and cognitive impairment is poorly understood. Emerging research reported that the diversity of gut microbiota in Western populations is significantly reduced. However, it is unknown whether a fiber-deficient diet (which alters gut microbiota) could impair cognition and brain functional elements through the gut-brain axis. In this study, a mouse model of long-term (15 weeks) dietary fiber deficiency (FD) was used to mimic a sustained low fiber intake in humans. We found that FD mice showed impaired cognition, including deficits in object location memory, temporal order memory, and the ability to perform daily living activities. The hippocampal synaptic ultrastructure was damaged in FD mice, characterized by widened synaptic clefts and thinned postsynaptic densities. A hippocampal proteomic analysis further identified a deficit of CaMKIId and its associated synaptic proteins (including GAP43 and SV2C) in the FD mice, along with neuroinflammation and microglial engulfment of synapses. The FD mice also exhibited gut microbiota dysbiosis (decreased Bacteroidetes and increased Proteobacteria), which was significantly associated with the cognitive deficits. Of note, a rapid differentiating microbiota change was observed in the mice with a short-term FD diet (7 days) before cognitive impairment, highlighting a possible causal impact of the gut microbiota profile on cognitive outcomes. Moreover, the FD diet compromised the intestinal barrier and reduced short-chain fatty acid (SCFA) production. We exploit these findings for SCFA receptor knockout mice and oral SCFA supplementation that verified SCFA playing a critical role linking the altered gut microbiota and cognitive impairment. This study, for the first time, reports that a fiber-deprived diet leads to cognitive impairment through altering the gut microbiota-hippocampal axis, which is pathologically distinct from normal brain aging. These findings alert the adverse impact of dietary fiber deficiency on brain function, and highlight an increase in fiber intake as a nutritional strategy to reduce the risk of developing diet-associated cognitive decline and neurodegenerative diseases. Video Abstract.",
   "relations": [
     {
-      "head": "Fiber-deprived diet",
-      "head_type": "Diet Type",
-      "relation": "causes",
-      "tail": "Cognitive impairment",
-      "tail_type": "Health Condition"
+      "head": "Cognitive impairment",
+      "head_type": "Disease",
+      "relation": "is a feature of",
+      "tail": "aging brain",
+      "tail_type": "Organ"
     },
     {
-      "head": "Fiber-deprived diet",
-      "head_type": "Diet Type",
-      "relation": "leads to",
-      "tail": "Gut microbiota dysbiosis",
-      "tail_type": "Microbial Condition"
+      "head": "Cognitive impairment",
+      "head_type": "Disease",
+      "relation": "is a feature of",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Industrialized nations",
+      "head_type": "Geographical region",
+      "relation": "have experienced",
+      "tail": "decrease in dietary fiber intake",
+      "tail_type": "Behavior"
+    },
+    {
+      "head": "Low fiber intake",
+      "head_type": "Dietary factor",
+      "relation": "linked to",
+      "tail": "cognitive impairment",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Gut microbiota diversity",
+      "head_type": "Microbial community",
+      "relation": "reduced in",
+      "tail": "Western populations",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Fiber-deficient diet",
+      "head_type": "Dietary factor",
+      "relation": "alters",
+      "tail": "gut microbiota",
+      "tail_type": "Microbial community"
+    },
+    {
+      "head": "Fiber-deficient diet",
+      "head_type": "Dietary factor",
+      "relation": "impairs",
+      "tail": "cognition",
+      "tail_type": "Cognitive function"
+    },
+    {
+      "head": "Fiber-deficient diet",
+      "head_type": "Dietary factor",
+      "relation": "impairs",
+      "tail": "brain functional elements",
+      "tail_type": "Organ part"
+    },
+    {
+      "head": "Dietary fiber deficiency",
+      "head_type": "Dietary factor",
+      "relation": "mimicked by",
+      "tail": "mouse model",
+      "tail_type": "Animal model"
+    },
+    {
+      "head": "FD mice",
+      "head_type": "Animal model",
+      "relation": "show",
+      "tail": "impaired cognition",
+      "tail_type": "Cognitive function"
+    },
+    {
+      "head": "FD mice",
+      "head_type": "Animal model",
+      "relation": "show",
+      "tail": "deficits in object location memory",
+      "tail_type": "Cognitive function"
+    },
+    {
+      "head": "FD mice",
+      "head_type": "Animal model",
+      "relation": "show",
+      "tail": "deficits in temporal order memory",
+      "tail_type": "Cognitive function"
+    },
+    {
+      "head": "FD mice",
+      "head_type": "Animal model",
+      "relation": "show",
+      "tail": "deficits in daily living activities",
+      "tail_type": "Behavior"
+    },
+    {
+      "head": "Hippocampal synaptic ultrastructure",
+      "head_type": "Organ part",
+      "relation": "damaged in",
+      "tail": "FD mice",
+      "tail_type": "Animal model"
+    },
+    {
+      "head": "Synaptic clefts",
+      "head_type": "Anatomical structure",
+      "relation": "widened in",
+      "tail": "FD mice",
+      "tail_type": "Animal model"
+    },
+    {
+      "head": "Postsynaptic densities",
+      "head_type": "Anatomical structure",
+      "relation": "thinned in",
+      "tail": "FD mice",
+      "tail_type": "Animal model"
+    },
+    {
+      "head": "Hippocampal proteomic analysis",
+      "head_type": "Biological process",
+      "relation": "identifies deficit of",
+      "tail": "CaMKIId",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "CaMKIId",
+      "head_type": "Protein",
+      "relation": "associated with",
+      "tail": "synaptic proteins",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "FD mice",
+      "head_type": "Animal model",
+      "relation": "show",
+      "tail": "neuroinflammation",
+      "tail_type": "Pathological condition"
+    },
+    {
+      "head": "Microglia",
+      "head_type": "Cell type",
+      "relation": "engulf",
+      "tail": "synapses",
+      "tail_type": "Anatomical structure"
+    },
+    {
+      "head": "FD mice",
+      "head_type": "Animal model",
+      "relation": "exhibit",
+      "tail": "gut microbiota dysbiosis",
+      "tail_type": "Microbial community"
     },
     {
       "head": "Gut microbiota dysbiosis",
-      "head_type": "Microbial Condition",
+      "head_type": "Microbial community",
       "relation": "associated with",
-      "tail": "Cognitive deficits",
-      "tail_type": "Health Condition"
+      "tail": "cognitive deficits",
+      "tail_type": "Cognitive function"
     },
     {
-      "head": "Fiber-deprived diet",
-      "head_type": "Diet Type",
-      "relation": "impairs",
-      "tail": "Hippocampal synaptic ultrastructure",
-      "tail_type": "Brain Structure"
+      "head": "Microbiota change",
+      "head_type": "Microbial community",
+      "relation": "observed in",
+      "tail": "mice with short-term FD diet",
+      "tail_type": "Animal model"
     },
     {
-      "head": "Fiber-deprived diet",
-      "head_type": "Diet Type",
-      "relation": "reduces",
-      "tail": "Short-chain fatty acid production",
-      "tail_type": "Metabolite Production"
+      "head": "Short-term FD diet",
+      "head_type": "Dietary factor",
+      "relation": "linked to",
+      "tail": "cognitive impairment",
+      "tail_type": "Disease"
     },
     {
-      "head": "Short-chain fatty acids",
-      "head_type": "Metabolite",
-      "relation": "play a role in",
-      "tail": "Cognitive impairment",
-      "tail_type": "Health Condition"
+      "head": "Gut microbiota profile",
+      "head_type": "Microbial community",
+      "relation": "impacts",
+      "tail": "cognitive outcomes",
+      "tail_type": "Cognitive function"
     },
     {
-      "head": "Fiber-deprived diet",
-      "head_type": "Diet Type",
+      "head": "FD diet",
+      "head_type": "Dietary factor",
       "relation": "compromises",
-      "tail": "Intestinal barrier",
-      "tail_type": "Physiological Barrier"
+      "tail": "intestinal barrier",
+      "tail_type": "Organ part"
+    },
+    {
+      "head": "FD diet",
+      "head_type": "Dietary factor",
+      "relation": "reduces",
+      "tail": "short-chain fatty acid production",
+      "tail_type": "Biochemical process"
     },
     {
       "head": "SCFA receptor knockout mice",
-      "head_type": "Experimental Model",
-      "relation": "used to study",
-      "tail": "Role of SCFAs",
-      "tail_type": "Metabolite Function"
+      "head_type": "Animal model",
+      "relation": "used to",
+      "tail": "study SCFA role",
+      "tail_type": "Biological process"
     },
     {
-      "head": "SCFA supplementation",
-      "head_type": "Therapeutic Intervention",
-      "relation": "mitigates",
-      "tail": "Cognitive impairment",
-      "tail_type": "Health Condition"
+      "head": "Oral SCFA supplementation",
+      "head_type": "Therapeutic intervention",
+      "relation": "used to",
+      "tail": "study SCFA role",
+      "tail_type": "Biological process"
     },
     {
-      "head": "Fiber deficiency",
-      "head_type": "Nutritional Deficiency",
-      "relation": "associated with",
-      "tail": "Neurodegenerative diseases",
-      "tail_type": "Health Condition"
+      "head": "SCFA",
+      "head_type": "Biochemical compound",
+      "relation": "plays critical role in",
+      "tail": "linking gut microbiota and cognitive impairment",
+      "tail_type": "Pathophysiological process"
+    },
+    {
+      "head": "Fiber-deprived diet",
+      "head_type": "Dietary factor",
+      "relation": "leads to",
+      "tail": "cognitive impairment",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Fiber-deprived diet",
+      "head_type": "Dietary factor",
+      "relation": "alters",
+      "tail": "gut microbiota-hippocampal axis",
+      "tail_type": "Biological pathway"
+    },
+    {
+      "head": "Gut microbiota-hippocampal axis",
+      "head_type": "Biological pathway",
+      "relation": "linked to",
+      "tail": "cognitive impairment",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Dietary fiber deficiency",
+      "head_type": "Dietary factor",
+      "relation": "adversely impacts",
+      "tail": "brain function",
+      "tail_type": "Organ function"
+    },
+    {
+      "head": "Increase in fiber intake",
+      "head_type": "Nutritional strategy",
+      "relation": "reduces risk of",
+      "tail": "diet-associated cognitive decline",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Increase in fiber intake",
+      "head_type": "Nutritional strategy",
+      "relation": "reduces risk of",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "Disease"
     }
   ]
 }

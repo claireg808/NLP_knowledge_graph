@@ -1,230 +1,76 @@
 {
   "title": "Maternal prenatal gut microbiota composition predicts child behaviour.",
-  "abstract": "Murine studies demonstrate that maternal prenatal gut microbiota influences brain development and behaviour of offspring. No human study has related maternal gut microbiota to behavioural outcomes during early life. This study aimed to evaluate relationships between the prenatal faecal microbiota, prenatal diet and childhood behaviour. A sub-cohort of 213 mothers and 215 children were selected from a longitudinal pre-birth cohort. Maternal prenatal exposure measures collected during the third trimester included the faecal microbiota (generated using 16S rRNA amplicon sequencing), and dietary intake. The behavioural outcome used the Childhood Behaviour Checklist at age two. Models were adjusted for prenatal diet, smoking, perceived stress, maternal age and sample batch. We found evidence that the alpha diversity of the maternal faecal microbiota during the third trimester of pregnancy predicts child internalising behaviour at two years of age (-2\u00b774, (-4\u00b771, -0\u00b778), p = 0\u00b701 (Wald test), R\u00b2=0\u00b707). Taxa from butyrate-producing families, Lachnospiraceae and Ruminococcaceae, were more abundant in mothers of children with normative behaviour. A healthy prenatal diet indirectly related to decreased child internalising behaviours via higher alpha diversity of maternal faecal microbiota. These findings support animal studies showing that the composition of maternal prenatal gut microbiota is related to offspring brain development and behaviour. Our findings highlight the need to evaluate potential impacts of the prenatal gut microbiota on early life brain development. This study was funded by the National Health and Medical Research Council of Australia (1082307, 1147980), Murdoch Children's Research Institute, Barwon Health and Deakin University.",
+  "abstract": "Murine studies demonstrate that maternal prenatal gut microbiota influences brain development and behaviour of offspring. No human study has related maternal gut microbiota to behavioural outcomes during early life. This study aimed to evaluate relationships between the prenatal faecal microbiota, prenatal diet and childhood behaviour. A sub-cohort of 213 mothers and 215 children were selected from a longitudinal pre-birth cohort. Maternal prenatal exposure measures collected during the third trimester included the faecal microbiota (generated using 16S rRNA amplicon sequencing), and dietary intake. The behavioural outcome used the Childhood Behaviour Checklist at age two. Models were adjusted for prenatal diet, smoking, perceived stress, maternal age and sample batch. We found evidence that the alpha diversity of the maternal faecal microbiota during the third trimester of pregnancy predicts child internalising behaviour at two years of age (-2\u00b774, (-4\u00b771, -0\u00b778), p\u00a0=\u00a00\u00b701 (Wald test), R<sup>2</sup>=0\u00b707). Taxa from butyrate-producing families, Lachnospiraceae and Ruminococcaceae, were more abundant in mothers of children with normative behaviour. A healthy prenatal diet indirectly related to decreased child internalising behaviours via higher alpha diversity of maternal faecal microbiota. These findings support animal studies showing that the composition of maternal prenatal gut microbiota is related to offspring brain development and behaviour. Our findings highlight the need to evaluate potential impacts of the prenatal gut microbiota on early life brain development. This study was funded by the National Health and Medical Research Council of Australia (1082307, 1147980), Murdoch Children's Research Institute, Barwon Health and Deakin University.",
   "relations": [
     {
       "head": "Maternal prenatal gut microbiota",
-      "head_type": "Biological Factor",
+      "head_type": "Microbiota",
       "relation": "influences",
       "tail": "brain development",
-      "tail_type": "Biological Process"
+      "tail_type": "Process"
     },
     {
       "head": "Maternal prenatal gut microbiota",
-      "head_type": "Biological Factor",
+      "head_type": "Microbiota",
       "relation": "influences",
       "tail": "behaviour",
-      "tail_type": "Behavioral Outcome"
+      "tail_type": "Process"
     },
     {
-      "head": "Study",
-      "head_type": "Research Study",
-      "relation": "evaluates",
-      "tail": "prenatal faecal microbiota",
-      "tail_type": "Biological Factor"
+      "head": "faecal microbiota",
+      "head_type": "Microbiota",
+      "relation": "generated using",
+      "tail": "16S rRNA amplicon sequencing",
+      "tail_type": "Method"
     },
     {
-      "head": "Study",
-      "head_type": "Research Study",
-      "relation": "evaluates",
-      "tail": "prenatal diet",
-      "tail_type": "Dietary Intake"
+      "head": "prenatal diet",
+      "head_type": "Diet",
+      "relation": "related to",
+      "tail": "child internalising behaviour",
+      "tail_type": "Behaviour"
     },
     {
-      "head": "Study",
-      "head_type": "Research Study",
-      "relation": "evaluates",
-      "tail": "childhood behaviour",
-      "tail_type": "Behavioral Outcome"
-    },
-    {
-      "head": "Sub-cohort",
-      "head_type": "Sample Group",
-      "relation": "includes",
-      "tail": "213 mothers",
-      "tail_type": "Human Population"
-    },
-    {
-      "head": "Sub-cohort",
-      "head_type": "Sample Group",
-      "relation": "includes",
-      "tail": "215 children",
-      "tail_type": "Human Population"
-    },
-    {
-      "head": "Maternal prenatal exposure measures",
-      "head_type": "Exposure Factor",
-      "relation": "includes",
-      "tail": "faecal microbiota",
-      "tail_type": "Biological Factor"
-    },
-    {
-      "head": "Maternal prenatal exposure measures",
-      "head_type": "Exposure Factor",
-      "relation": "includes",
-      "tail": "dietary intake",
-      "tail_type": "Dietary Intake"
-    },
-    {
-      "head": "Behavioural outcome",
-      "head_type": "Outcome Measure",
-      "relation": "uses",
-      "tail": "Childhood Behaviour Checklist",
-      "tail_type": "Assessment Tool"
-    },
-    {
-      "head": "Childhood Behaviour Checklist",
-      "head_type": "Assessment Tool",
-      "relation": "applies to",
-      "tail": "age two",
-      "tail_type": "Developmental Stage"
-    },
-    {
-      "head": "Models",
-      "head_type": "Statistical Model",
-      "relation": "adjusted for",
-      "tail": "prenatal diet",
-      "tail_type": "Dietary Intake"
-    },
-    {
-      "head": "Models",
-      "head_type": "Statistical Model",
-      "relation": "adjusted for",
-      "tail": "smoking",
-      "tail_type": "Behavioral Factor"
-    },
-    {
-      "head": "Models",
-      "head_type": "Statistical Model",
-      "relation": "adjusted for",
-      "tail": "perceived stress",
-      "tail_type": "Psychological Factor"
-    },
-    {
-      "head": "Models",
-      "head_type": "Statistical Model",
-      "relation": "adjusted for",
-      "tail": "maternal age",
-      "tail_type": "Demographic Factor"
-    },
-    {
-      "head": "Models",
-      "head_type": "Statistical Model",
-      "relation": "adjusted for",
-      "tail": "sample batch",
-      "tail_type": "Experimental Factor"
-    },
-    {
-      "head": "Maternal faecal microbiota",
-      "head_type": "Biological Factor",
+      "head": "alpha diversity of maternal faecal microbiota",
+      "head_type": "Microbiota Diversity",
       "relation": "predicts",
       "tail": "child internalising behaviour",
-      "tail_type": "Behavioral Outcome"
-    },
-    {
-      "head": "Maternal faecal microbiota",
-      "head_type": "Biological Factor",
-      "relation": "has",
-      "tail": "alpha diversity",
-      "tail_type": "Biodiversity Metric"
-    },
-    {
-      "head": "alpha diversity",
-      "head_type": "Biodiversity Metric",
-      "relation": "associated with",
-      "tail": "child internalising behaviour",
-      "tail_type": "Behavioral Outcome"
+      "tail_type": "Behaviour"
     },
     {
       "head": "Lachnospiraceae",
-      "head_type": "Taxonomic Family",
+      "head_type": "Taxa",
       "relation": "abundant in",
       "tail": "mothers of children with normative behaviour",
-      "tail_type": "Human Population"
+      "tail_type": "Mother"
     },
     {
       "head": "Ruminococcaceae",
-      "head_type": "Taxonomic Family",
+      "head_type": "Taxa",
       "relation": "abundant in",
       "tail": "mothers of children with normative behaviour",
-      "tail_type": "Human Population"
+      "tail_type": "Mother"
     },
     {
-      "head": "Healthy prenatal diet",
-      "head_type": "Dietary Intake",
-      "relation": "related to",
-      "tail": "decreased child internalising behaviours",
-      "tail_type": "Behavioral Outcome"
+      "head": "healthy prenatal diet",
+      "head_type": "Diet",
+      "relation": "indirectly related to",
+      "tail": "decreased child internalising behaviour",
+      "tail_type": "Behaviour"
     },
     {
-      "head": "Healthy prenatal diet",
-      "head_type": "Dietary Intake",
-      "relation": "affects",
-      "tail": "alpha diversity",
-      "tail_type": "Biodiversity Metric"
-    },
-    {
-      "head": "alpha diversity",
-      "head_type": "Biodiversity Metric",
-      "relation": "mediates",
-      "tail": "effect of diet on behaviour",
-      "tail_type": "Causal Relationship"
-    },
-    {
-      "head": "Maternal prenatal gut microbiota",
-      "head_type": "Biological Factor",
+      "head": "maternal faecal microbiota",
+      "head_type": "Microbiota",
       "relation": "related to",
       "tail": "offspring brain development",
-      "tail_type": "Biological Process"
+      "tail_type": "Process"
     },
     {
-      "head": "Maternal prenatal gut microbiota",
-      "head_type": "Biological Factor",
+      "head": "maternal faecal microbiota",
+      "head_type": "Microbiota",
       "relation": "related to",
       "tail": "behaviour",
-      "tail_type": "Behavioral Outcome"
-    },
-    {
-      "head": "Findings",
-      "head_type": "Research Finding",
-      "relation": "support",
-      "tail": "animal studies",
-      "tail_type": "Research Study"
-    },
-    {
-      "head": "Findings",
-      "head_type": "Research Finding",
-      "relation": "highlight",
-      "tail": "need to evaluate impacts of prenatal gut microbiota",
-      "tail_type": "Research Need"
-    },
-    {
-      "head": "Study",
-      "head_type": "Research Study",
-      "relation": "funded by",
-      "tail": "National Health and Medical Research Council of Australia",
-      "tail_type": "Funding Organization"
-    },
-    {
-      "head": "Study",
-      "head_type": "Research Study",
-      "relation": "funded by",
-      "tail": "Murdoch Children's Research Institute",
-      "tail_type": "Research Institution"
-    },
-    {
-      "head": "Study",
-      "head_type": "Research Study",
-      "relation": "funded by",
-      "tail": "Barwon Health",
-      "tail_type": "Healthcare Organization"
-    },
-    {
-      "head": "Study",
-      "head_type": "Research Study",
-      "relation": "funded by",
-      "tail": "Deakin University",
-      "tail_type": "Educational Institution"
+      "tail_type": "Process"
     }
   ]
 }

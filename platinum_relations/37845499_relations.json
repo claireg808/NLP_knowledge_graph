@@ -1,69 +1,230 @@
 {
-  "title": "Emerging role of the host microbiome in neuropsychiatric disorders: overview and future directions.",
+  "title": "Emerging role of the host microbiome in neuropsychiatric disorders: overview and future directions",
   "abstract": "The human body harbors a diverse ecosystem of microorganisms, including bacteria, viruses, and fungi, collectively known as the microbiota. Current research is increasingly focusing on the potential association between the microbiota and various neuropsychiatric disorders. The microbiota resides in various parts of the body, such as the oral cavity, nasal passages, lungs, gut, skin, bladder, and vagina. The gut microbiota in the gastrointestinal tract has received particular attention due to its high abundance and its potential role in psychiatric and neurodegenerative disorders. However, the microbiota presents in other body tissues, though less abundant, also plays crucial role in immune system and human homeostasis, thus influencing the development and progression of neuropsychiatric disorders. For example, oral microbiota imbalance and associated periodontitis might increase the risk for neuropsychiatric disorders. Additionally, studies using the postmortem brain samples have detected the widespread presence of oral bacteria in the brains of patients with Alzheimer's disease. This article provides an overview of the emerging role of the host microbiota in neuropsychiatric disorders and discusses future directions, such as underlying biological mechanisms, reliable biomarkers associated with the host microbiota, and microbiota-targeted interventions, for research in this field.",
   "relations": [
     {
-      "head": "host microbiome",
-      "head_type": "biome",
-      "relation": "associated with",
-      "tail": "neuropsychiatric disorders",
-      "tail_type": "disorders"
+      "head": "human body",
+      "head_type": "organism",
+      "relation": "harbors",
+      "tail": "microbiota",
+      "tail_type": "ecosystem"
     },
     {
       "head": "microbiota",
-      "head_type": "microorganisms",
+      "head_type": "ecosystem",
+      "relation": "includes",
+      "tail": "bacteria",
+      "tail_type": "microorganism"
+    },
+    {
+      "head": "microbiota",
+      "head_type": "ecosystem",
+      "relation": "includes",
+      "tail": "viruses",
+      "tail_type": "microorganism"
+    },
+    {
+      "head": "microbiota",
+      "head_type": "ecosystem",
+      "relation": "includes",
+      "tail": "fungi",
+      "tail_type": "microorganism"
+    },
+    {
+      "head": "research",
+      "head_type": "activity",
+      "relation": "focuses on",
+      "tail": "association",
+      "tail_type": "concept"
+    },
+    {
+      "head": "association",
+      "head_type": "concept",
+      "relation": "between",
+      "tail": "microbiota",
+      "tail_type": "ecosystem"
+    },
+    {
+      "head": "association",
+      "head_type": "concept",
+      "relation": "between",
+      "tail": "neuropsychiatric disorders",
+      "tail_type": "disease"
+    },
+    {
+      "head": "microbiota",
+      "head_type": "ecosystem",
       "relation": "resides in",
-      "tail": "various body parts",
-      "tail_type": "body locations"
+      "tail": "oral cavity",
+      "tail_type": "body part"
+    },
+    {
+      "head": "microbiota",
+      "head_type": "ecosystem",
+      "relation": "resides in",
+      "tail": "nasal passages",
+      "tail_type": "body part"
+    },
+    {
+      "head": "microbiota",
+      "head_type": "ecosystem",
+      "relation": "resides in",
+      "tail": "lungs",
+      "tail_type": "body part"
+    },
+    {
+      "head": "microbiota",
+      "head_type": "ecosystem",
+      "relation": "resides in",
+      "tail": "gut",
+      "tail_type": "body part"
+    },
+    {
+      "head": "microbiota",
+      "head_type": "ecosystem",
+      "relation": "resides in",
+      "tail": "skin",
+      "tail_type": "body part"
+    },
+    {
+      "head": "microbiota",
+      "head_type": "ecosystem",
+      "relation": "resides in",
+      "tail": "bladder",
+      "tail_type": "body part"
+    },
+    {
+      "head": "microbiota",
+      "head_type": "ecosystem",
+      "relation": "resides in",
+      "tail": "vagina",
+      "tail_type": "body part"
     },
     {
       "head": "gut microbiota",
-      "head_type": "microbiota",
-      "relation": "associated with",
+      "head_type": "ecosystem",
+      "relation": "located in",
+      "tail": "gastrointestinal tract",
+      "tail_type": "body part"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "ecosystem",
+      "relation": "has potential role in",
       "tail": "psychiatric disorders",
-      "tail_type": "disorders"
+      "tail_type": "disease"
     },
     {
       "head": "gut microbiota",
-      "head_type": "microbiota",
-      "relation": "associated with",
+      "head_type": "ecosystem",
+      "relation": "has potential role in",
       "tail": "neurodegenerative disorders",
-      "tail_type": "disorders"
+      "tail_type": "disease"
     },
     {
-      "head": "oral microbiota",
-      "head_type": "microbiota",
+      "head": "microbiota",
+      "head_type": "ecosystem",
+      "relation": "plays crucial role in",
+      "tail": "immune system",
+      "tail_type": "biological system"
+    },
+    {
+      "head": "microbiota",
+      "head_type": "ecosystem",
+      "relation": "plays crucial role in",
+      "tail": "human homeostasis",
+      "tail_type": "biological process"
+    },
+    {
+      "head": "microbiota",
+      "head_type": "ecosystem",
+      "relation": "influences",
+      "tail": "development",
+      "tail_type": "process"
+    },
+    {
+      "head": "microbiota",
+      "head_type": "ecosystem",
+      "relation": "influences",
+      "tail": "progression",
+      "tail_type": "process"
+    },
+    {
+      "head": "oral microbiota imbalance",
+      "head_type": "condition",
       "relation": "associated with",
       "tail": "periodontitis",
       "tail_type": "disease"
     },
     {
-      "head": "oral microbiota",
-      "head_type": "microbiota",
-      "relation": "linked to",
+      "head": "oral microbiota imbalance",
+      "head_type": "condition",
+      "relation": "increases risk for",
       "tail": "neuropsychiatric disorders",
-      "tail_type": "disorders"
+      "tail_type": "disease"
+    },
+    {
+      "head": "studies",
+      "head_type": "activity",
+      "relation": "detect presence of",
+      "tail": "oral bacteria",
+      "tail_type": "microorganism"
     },
     {
       "head": "oral bacteria",
-      "head_type": "microorganisms",
+      "head_type": "microorganism",
+      "relation": "present in",
+      "tail": "brains",
+      "tail_type": "body part"
+    },
+    {
+      "head": "oral bacteria",
+      "head_type": "microorganism",
       "relation": "detected in",
-      "tail": "brains of Alzheimer's patients",
-      "tail_type": "tissue"
+      "tail": "patients with Alzheimer's disease",
+      "tail_type": "disease"
     },
     {
-      "head": "host microbiota",
-      "head_type": "biome",
-      "relation": "influences",
-      "tail": "development of neuropsychiatric disorders",
-      "tail_type": "process"
+      "head": "article",
+      "head_type": "publication",
+      "relation": "provides overview of",
+      "tail": "role of host microbiota",
+      "tail_type": "concept"
     },
     {
-      "head": "host microbiota",
-      "head_type": "biome",
-      "relation": "influences",
-      "tail": "progression of neuropsychiatric disorders",
-      "tail_type": "process"
+      "head": "role of host microbiota",
+      "head_type": "concept",
+      "relation": "in",
+      "tail": "neuropsychiatric disorders",
+      "tail_type": "disease"
+    },
+    {
+      "head": "article",
+      "head_type": "publication",
+      "relation": "discusses",
+      "tail": "future directions",
+      "tail_type": "concept"
+    },
+    {
+      "head": "future directions",
+      "head_type": "concept",
+      "relation": "include",
+      "tail": "biological mechanisms",
+      "tail_type": "concept"
+    },
+    {
+      "head": "future directions",
+      "head_type": "concept",
+      "relation": "include",
+      "tail": "biomarkers",
+      "tail_type": "concept"
+    },
+    {
+      "head": "future directions",
+      "head_type": "concept",
+      "relation": "include",
+      "tail": "microbiota-targeted interventions",
+      "tail_type": "treatment"
     }
   ]
 }

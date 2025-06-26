@@ -3,242 +3,158 @@
   "abstract": "Autism spectrum disorder (ASD) affects 1% of children and has no cure. Gastrointestinal (GI) problems are common in children with ASD, and although gut microbiota is known to play an important role in ASD through the gut-brain axis, the specific mechanism is unknown. Recent evidence suggests that gut microbiota may participate in the pathogenesis of ASD through immune- and inflammation-mediated pathways. Here, we identified potentially immunogenic epitopes derived from gut microbiota in stool samples from ASD children with and without GI problems and typically developing (TD) children. Candidate gut microbiota-associated epitopes (MEs) were identified by blast shotgun metagenomic sequencing of fecal samples from 43 ASD children (19 with and 24 without GI involvement) and 31 sex- and age-matched typically developing (TD) children. Potentially immunogenic epitopes were screened against a predictive human Immune Epitope Database. The composition and abundance of candidate MEs were compared between the three groups of children. MEs identified in ASD children with GI problems were significantly more diverse than those in TD children. ME composition could discriminate between the three groups of children. We identified 34 MEs that were significantly more or less abundant in ASD children than TD children, most (29/34) of the differences in MEs were reduced in ASD and associated with abnormal gut IgA level and altered gut microbiota composition, these MEs were limited effected by clinical factors such as age, gender, and GI problems, of which eleven MEs were pathogenic microorganisms peptides with strong T or B cell response, nine MEs showed high homology to peptides from human self proteins associated with autoimmune disease occurrence, eliciting immune attack against hematopoietic stem cells and inhibition antigen binding. We also found that the abundance of five MEs were increased in ASD, including three human self proteins, gap junction alpha-1 (GJA1), paired box protein Pax-3 (PAX3) and eyes absent homolog 1 isoform 4 (EYA1) which associated with cancer, and a ME with homology to a Listeriolysin O peptide from the pathogenic bacterium Listeria monocytogenes was significantly increased in ASD children compared with TD children. Our findings demonstrate the abnormal of MEs composition in the gut of children with ASD, moreover, the abnormality in MEs composition was associated with abnormal gut IgA levels and altered gut microbiota composition, this abnormality also suggests that there may be abnormalities in intestinal immunity in children with ASD; In all, thirty-four MEs identified were potential biomarker of ASD, and alterations in MEs may contribute to abnormalities in gut immunity and/or homeostasis in ASD children. Further study of the MEs identified here may advance our understanding of the pathogenesis of ASD.",
   "relations": [
     {
-      "head": "Autism spectrum disorder",
+      "head": "Autism Spectrum Disorder",
       "head_type": "Disease",
-      "relation": "affects",
-      "tail": "children",
-      "tail_type": "Population"
+      "relation": "associated_with",
+      "tail": "Gastrointestinal Problems",
+      "tail_type": "Condition"
     },
     {
-      "head": "Gastrointestinal problems",
-      "head_type": "Condition",
-      "relation": "are common in",
-      "tail": "children with ASD",
-      "tail_type": "Population"
-    },
-    {
-      "head": "Gut microbiota",
+      "head": "Gut Microbiota",
       "head_type": "Organism",
-      "relation": "plays an important role in",
-      "tail": "ASD",
+      "relation": "plays_role_in",
+      "tail": "Autism Spectrum Disorder",
       "tail_type": "Disease"
     },
     {
-      "head": "Gut microbiota",
+      "head": "Gut Microbiota",
       "head_type": "Organism",
-      "relation": "participates in the pathogenesis of",
-      "tail": "ASD",
-      "tail_type": "Disease"
+      "relation": "mediates",
+      "tail": "Pathogenesis",
+      "tail_type": "Process"
     },
     {
-      "head": "Gut microbiota",
+      "head": "Gut Microbiota",
       "head_type": "Organism",
-      "relation": "mediates through",
-      "tail": "immune- and inflammation pathways",
-      "tail_type": "Biological Process"
+      "relation": "derived_from",
+      "tail": "Stool Samples",
+      "tail_type": "Sample"
     },
     {
-      "head": "Immunogenic epitopes",
+      "head": "Stool Samples",
+      "head_type": "Sample",
+      "relation": "collected_from",
+      "tail": "ASD Children",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Stool Samples",
+      "head_type": "Sample",
+      "relation": "collected_from",
+      "tail": "Typically Developing Children",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Gut Microbiota-associated Epitopes",
       "head_type": "Molecule",
-      "relation": "derived from",
-      "tail": "gut microbiota",
+      "relation": "identified_in",
+      "tail": "Stool Samples",
+      "tail_type": "Sample"
+    },
+    {
+      "head": "MEs",
+      "head_type": "Molecule",
+      "relation": "screened_against",
+      "tail": "Immune Epitope Database",
+      "tail_type": "Database"
+    },
+    {
+      "head": "MEs",
+      "head_type": "Molecule",
+      "relation": "compared_between",
+      "tail": "Groups of Children",
+      "tail_type": "Population"
+    },
+    {
+      "head": "MEs",
+      "head_type": "Molecule",
+      "relation": "associated_with",
+      "tail": "Abnormal Gut IgA Levels",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "MEs",
+      "head_type": "Molecule",
+      "relation": "associated_with",
+      "tail": "Altered Gut Microbiota Composition",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "MEs",
+      "head_type": "Molecule",
+      "relation": "elicits_response",
+      "tail": "T or B Cells",
+      "tail_type": "Cell Type"
+    },
+    {
+      "head": "MEs",
+      "head_type": "Molecule",
+      "relation": "has_homology",
+      "tail": "Human Self Proteins",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "MEs",
+      "head_type": "Molecule",
+      "relation": "elicits_attack",
+      "tail": "Hematopoietic Stem Cells",
+      "tail_type": "Cell Type"
+    },
+    {
+      "head": "MEs",
+      "head_type": "Molecule",
+      "relation": "inhibits",
+      "tail": "Antigen Binding",
+      "tail_type": "Process"
+    },
+    {
+      "head": "Gap Junction Alpha-1 (GJA1)",
+      "head_type": "Protein",
+      "relation": "associated_with",
+      "tail": "Cancer",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Paired Box Protein Pax-3 (PAX3)",
+      "head_type": "Protein",
+      "relation": "associated_with",
+      "tail": "Cancer",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Eyes Absent Homolog 1 Isoform 4 (EYA1)",
+      "head_type": "Protein",
+      "relation": "associated_with",
+      "tail": "Cancer",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Listeriolysin O Peptide",
+      "head_type": "Molecule",
+      "relation": "derived_from",
+      "tail": "Listeria monocytogenes",
       "tail_type": "Organism"
     },
     {
-      "head": "Gut microbiota-associated epitopes (MEs)",
+      "head": "MEs",
       "head_type": "Molecule",
-      "relation": "identified by",
-      "tail": "blast shotgun metagenomic sequencing",
-      "tail_type": "Method"
+      "relation": "serves_as",
+      "tail": "Biomarker",
+      "tail_type": "Indicator"
     },
     {
       "head": "MEs",
       "head_type": "Molecule",
-      "relation": "compared between",
-      "tail": "ASD children with GI problems",
-      "tail_type": "Population"
+      "relation": "contributes_to",
+      "tail": "Gut Immunity Abnormalities",
+      "tail_type": "Condition"
     },
     {
       "head": "MEs",
       "head_type": "Molecule",
-      "relation": "compared between",
-      "tail": "ASD children without GI problems",
-      "tail_type": "Population"
-    },
-    {
-      "head": "MEs",
-      "head_type": "Molecule",
-      "relation": "compared between",
-      "tail": "typically developing (TD) children",
-      "tail_type": "Population"
-    },
-    {
-      "head": "MEs in ASD children with GI problems",
-      "head_type": "Molecule",
-      "relation": "are more diverse than",
-      "tail": "MEs in TD children",
-      "tail_type": "Molecule"
-    },
-    {
-      "head": "ME composition",
-      "head_type": "Molecule",
-      "relation": "discriminates between",
-      "tail": "ASD children",
-      "tail_type": "Population"
-    },
-    {
-      "head": "ME composition",
-      "head_type": "Molecule",
-      "relation": "discriminates between",
-      "tail": "TD children",
-      "tail_type": "Population"
-    },
-    {
-      "head": "34 MEs",
-      "head_type": "Molecule",
-      "relation": "are significantly more or less abundant in",
-      "tail": "ASD children",
-      "tail_type": "Population"
-    },
-    {
-      "head": "29/34 MEs",
-      "head_type": "Molecule",
-      "relation": "are reduced in",
-      "tail": "ASD children",
-      "tail_type": "Population"
-    },
-    {
-      "head": "29/34 MEs",
-      "head_type": "Molecule",
-      "relation": "associated with",
-      "tail": "abnormal gut IgA level",
+      "relation": "contributes_to",
+      "tail": "Gut Homeostasis Abnormalities",
       "tail_type": "Condition"
-    },
-    {
-      "head": "29/34 MEs",
-      "head_type": "Molecule",
-      "relation": "associated with",
-      "tail": "altered gut microbiota composition",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "11 MEs",
-      "head_type": "Molecule",
-      "relation": "are pathogenic microorganism peptides",
-      "tail": "with strong T or B cell response",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "9 MEs",
-      "head_type": "Molecule",
-      "relation": "show high homology to",
-      "tail": "peptides from human self proteins",
-      "tail_type": "Molecule"
-    },
-    {
-      "head": "9 MEs",
-      "head_type": "Molecule",
-      "relation": "associated with",
-      "tail": "autoimmune disease occurrence",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "9 MEs",
-      "head_type": "Molecule",
-      "relation": "elicit",
-      "tail": "immune attack against hematopoietic stem cells",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "9 MEs",
-      "head_type": "Molecule",
-      "relation": "inhibit",
-      "tail": "antigen binding",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "5 MEs",
-      "head_type": "Molecule",
-      "relation": "are increased in",
-      "tail": "ASD children",
-      "tail_type": "Population"
-    },
-    {
-      "head": "3 MEs",
-      "head_type": "Molecule",
-      "relation": "are human self proteins",
-      "tail": "gap junction alpha-1 (GJA1)",
-      "tail_type": "Protein"
-    },
-    {
-      "head": "3 MEs",
-      "head_type": "Molecule",
-      "relation": "are human self proteins",
-      "tail": "paired box protein Pax-3 (PAX3)",
-      "tail_type": "Protein"
-    },
-    {
-      "head": "3 MEs",
-      "head_type": "Molecule",
-      "relation": "are human self proteins",
-      "tail": "eyes absent homolog 1 isoform 4 (EYA1)",
-      "tail_type": "Protein"
-    },
-    {
-      "head": "1 ME",
-      "head_type": "Molecule",
-      "relation": "has homology to",
-      "tail": "Listeriolysin O peptide from Listeria monocytogenes",
-      "tail_type": "Molecule"
-    },
-    {
-      "head": "ME",
-      "head_type": "Molecule",
-      "relation": "is significantly increased in",
-      "tail": "ASD children",
-      "tail_type": "Population"
-    },
-    {
-      "head": "ME composition",
-      "head_type": "Molecule",
-      "relation": "is abnormal in",
-      "tail": "children with ASD",
-      "tail_type": "Population"
-    },
-    {
-      "head": "Abnormal ME composition",
-      "head_type": "Condition",
-      "relation": "associated with",
-      "tail": "abnormal gut IgA levels",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "Abnormal ME composition",
-      "head_type": "Condition",
-      "relation": "associated with",
-      "tail": "altered gut microbiota composition",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "Alterations in MEs",
-      "head_type": "Molecule",
-      "relation": "contribute to",
-      "tail": "abnormalities in gut immunity",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "Alterations in MEs",
-      "head_type": "Molecule",
-      "relation": "contribute to",
-      "tail": "abnormalities in gut homeostasis",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "34 MEs",
-      "head_type": "Molecule",
-      "relation": "are potential biomarkers of",
-      "tail": "ASD",
-      "tail_type": "Disease"
     }
   ]
 }

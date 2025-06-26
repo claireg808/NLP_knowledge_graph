@@ -1,76 +1,153 @@
 {
-  "title": "Gut Microbiota Changes and Their Relationship with Inflammation in Patients with Acute and Chronic Insomnia.",
-  "abstract": "The major purpose of this study was to detect the changes in gut microbiota composition and inflammatory cytokines production associated with acute and chronic insomnia. This study also evaluated the relationship between gut microbiota changes and increased inflammatory cytokines in insomnia patients. Outpatients with acute and chronic insomnia (aged 26-55 years; n=20 and 38, respectively) and age/gender-matched healthy controls (n=38) were recruited from a southern China region. Participants' gut microbiome, plasma cytokines, and self-reported sleep quality and psychopathological symptoms were measured. The gut microbiomes of insomnia patients compared with healthy controls were characterized by lower microbial richness and diversity, depletion of anaerobes, and short-chain fatty acid (SCFA)-producing bacteria, and an expansion of potential pathobionts. <i>Lachnospira</i> and <i>Bacteroides</i> were signature bacteria for distinguishing acute insomnia patients from healthy controls, while <i>Faecalibacterium</i> and <i>Blautia</i> were signature bacteria for distinguishing chronic insomnia patients from healthy controls. Acute/chronic insomnia-related signature bacteria also showed correlations with these patients' self-reported sleep quality and plasma IL-1\u03b2. These \ufb01ndings suggest that insomnia symptomology, gut microbiota, and inflammation may be interrelated in complex ways. Gut microbiota may serve as an important indicator for auxiliary diagnosis of insomnia and provide possible new therapeutic targets in the \ufb01eld of sleep disorders.",
+  "title": "Gut Microbiota Changes and Their Relationship with Inflammation in Patients with Acute and Chronic Insomnia",
+  "abstract": "The major purpose of this study was to detect the changes in gut microbiota composition and inflammatory cytokines production associated with acute and chronic insomnia. This study also evaluated the relationship between gut microbiota changes and increased inflammatory cytokines in insomnia patients. Outpatients with acute and chronic insomnia (aged 26-55 years; n=20 and 38, respectively) and age/gender-matched healthy controls (n=38) were recruited from a southern China region. Participants' gut microbiome, plasma cytokines, and self-reported sleep quality and psychopathological symptoms were measured. The gut microbiomes of insomnia patients compared with healthy controls were characterized by lower microbial richness and diversity, depletion of anaerobes, and short-chain fatty acid (SCFA)-producing bacteria, and an expansion of potential pathobionts. Lachnospira and Bacteroides were signature bacteria for distinguishing acute insomnia patients from healthy controls, while Faecalibacterium and Blautia were signature bacteria for distinguishing chronic insomnia patients from healthy controls. Acute/chronic insomnia-related signature bacteria also showed correlations with these patients' self-reported sleep quality and plasma IL-1\u03b2. These \ufb01ndings suggest that insomnia symptomology, gut microbiota, and inflammation may be interrelated in complex ways. Gut microbiota may serve as an important indicator for auxiliary diagnosis of insomnia and provide possible new therapeutic targets in the \ufb01eld of sleep disorders.",
   "relations": [
     {
-      "head": "Gut Microbiota Changes",
-      "head_type": "Biological Process",
-      "relation": "associated with",
-      "tail": "Inflammation",
+      "head": "gut microbiota composition",
+      "head_type": "Biological Entity",
+      "relation": "changes associated with",
+      "tail": "acute and chronic insomnia",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "gut microbiota composition",
+      "head_type": "Biological Entity",
+      "relation": "changes associated with",
+      "tail": "inflammatory cytokines production",
       "tail_type": "Biological Process"
     },
     {
-      "head": "Gut Microbiota",
-      "head_type": "Microbial Community",
-      "relation": "impacts",
-      "tail": "Inflammatory Cytokines",
-      "tail_type": "Protein"
-    },
-    {
-      "head": "Acute Insomnia",
-      "head_type": "Disease",
-      "relation": "linked to",
-      "tail": "Gut Microbiota Composition",
+      "head": "gut microbiota changes",
+      "head_type": "Biological Entity",
+      "relation": "related to",
+      "tail": "increased inflammatory cytokines",
       "tail_type": "Biological Process"
     },
     {
-      "head": "Chronic Insomnia",
-      "head_type": "Disease",
-      "relation": "linked to",
-      "tail": "Gut Microbiota Composition",
-      "tail_type": "Biological Process"
+      "head": "acute insomnia patients",
+      "head_type": "Patient Group",
+      "relation": "characterized by",
+      "tail": "lower microbial richness and diversity",
+      "tail_type": "Biological State"
+    },
+    {
+      "head": "acute insomnia patients",
+      "head_type": "Patient Group",
+      "relation": "characterized by",
+      "tail": "depletion of anaerobes",
+      "tail_type": "Biological State"
+    },
+    {
+      "head": "acute insomnia patients",
+      "head_type": "Patient Group",
+      "relation": "characterized by",
+      "tail": "depletion of SCFA-producing bacteria",
+      "tail_type": "Biological State"
+    },
+    {
+      "head": "acute insomnia patients",
+      "head_type": "Patient Group",
+      "relation": "characterized by",
+      "tail": "expansion of potential pathobionts",
+      "tail_type": "Biological State"
+    },
+    {
+      "head": "chronic insomnia patients",
+      "head_type": "Patient Group",
+      "relation": "characterized by",
+      "tail": "lower microbial richness and diversity",
+      "tail_type": "Biological State"
+    },
+    {
+      "head": "chronic insomnia patients",
+      "head_type": "Patient Group",
+      "relation": "characterized by",
+      "tail": "depletion of anaerobes",
+      "tail_type": "Biological State"
+    },
+    {
+      "head": "chronic insomnia patients",
+      "head_type": "Patient Group",
+      "relation": "characterized by",
+      "tail": "depletion of SCFA-producing bacteria",
+      "tail_type": "Biological State"
+    },
+    {
+      "head": "chronic insomnia patients",
+      "head_type": "Patient Group",
+      "relation": "characterized by",
+      "tail": "expansion of potential pathobionts",
+      "tail_type": "Biological State"
     },
     {
       "head": "Lachnospira",
       "head_type": "Bacteria",
       "relation": "distinguishes",
-      "tail": "Acute Insomnia Patients",
+      "tail": "acute insomnia patients",
       "tail_type": "Patient Group"
     },
     {
       "head": "Bacteroides",
       "head_type": "Bacteria",
       "relation": "distinguishes",
-      "tail": "Acute Insomnia Patients",
+      "tail": "acute insomnia patients",
       "tail_type": "Patient Group"
     },
     {
       "head": "Faecalibacterium",
       "head_type": "Bacteria",
       "relation": "distinguishes",
-      "tail": "Chronic Insomnia Patients",
+      "tail": "chronic insomnia patients",
       "tail_type": "Patient Group"
     },
     {
       "head": "Blautia",
       "head_type": "Bacteria",
       "relation": "distinguishes",
-      "tail": "Chronic Insomnia Patients",
+      "tail": "chronic insomnia patients",
       "tail_type": "Patient Group"
     },
     {
-      "head": "Insomnia Symptomology",
-      "head_type": "Symptom",
-      "relation": "correlates with",
-      "tail": "Gut Microbiota",
-      "tail_type": "Microbial Community"
+      "head": "acute/chronic insomnia-related signature bacteria",
+      "head_type": "Bacteria",
+      "relation": "correlated with",
+      "tail": "self-reported sleep quality",
+      "tail_type": "Behavioral Measure"
     },
     {
-      "head": "Insomnia Symptomology",
+      "head": "acute/chronic insomnia-related signature bacteria",
+      "head_type": "Bacteria",
+      "relation": "correlated with",
+      "tail": "plasma IL-1\u03b2",
+      "tail_type": "Biological Marker"
+    },
+    {
+      "head": "insomnia symptomology",
       "head_type": "Symptom",
-      "relation": "correlates with",
-      "tail": "Inflammation",
+      "relation": "interrelated with",
+      "tail": "gut microbiota",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "insomnia symptomology",
+      "head_type": "Symptom",
+      "relation": "interrelated with",
+      "tail": "inflammation",
       "tail_type": "Biological Process"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "serves as",
+      "tail": "auxiliary diagnosis indicator",
+      "tail_type": "Diagnostic Tool"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "provides",
+      "tail": "therapeutic targets",
+      "tail_type": "Therapeutic Target"
     }
   ]
 }

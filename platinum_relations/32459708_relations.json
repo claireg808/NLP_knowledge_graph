@@ -4,52 +4,24 @@
   "relations": [
     {
       "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "contributes to",
-      "tail": "pathophysiology of mental illnesses",
-      "tail_type": "condition"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "contributes to",
-      "tail": "neurodegenerative disorders",
-      "tail_type": "condition"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "communicates with",
+      "head_type": "microbial community",
+      "relation": "communicate with",
       "tail": "brain",
       "tail_type": "organ"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "affects",
-      "tail": "gut physiology",
-      "tail_type": "physiological process"
+      "head": "perturbation of gut microbiota",
+      "head_type": "biological disturbance",
+      "relation": "contributes to",
+      "tail": "pathophysiology of mental illnesses",
+      "tail_type": "disease condition"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "affects",
-      "tail": "brain function",
-      "tail_type": "physiological process"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "affects",
-      "tail": "behavior",
-      "tail_type": "behavioral process"
-    },
-    {
-      "head": "microbiota-targeted therapies",
-      "head_type": "therapeutic strategy",
-      "relation": "impacts",
-      "tail": "psychiatric disorders",
-      "tail_type": "condition"
+      "head": "perturbation of gut microbiota",
+      "head_type": "biological disturbance",
+      "relation": "contributes to",
+      "tail": "neurodegenerative disorders",
+      "tail_type": "disease condition"
     }
   ]
 }

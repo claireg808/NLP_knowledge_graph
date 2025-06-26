@@ -5,156 +5,436 @@
     {
       "head": "Autoimmune diseases",
       "head_type": "Disease",
-      "relation": "linked_to",
-      "tail": "gut dysbiosis",
-      "tail_type": "Condition"
+      "relation": "connected to",
+      "tail": "underlying factors",
+      "tail_type": "Factor"
     },
     {
-      "head": "diets with elevated fat and sugar content",
+      "head": "underlying factors",
+      "head_type": "Factor",
+      "relation": "include",
+      "tail": "environment",
+      "tail_type": "Environmental Factor"
+    },
+    {
+      "head": "underlying factors",
+      "head_type": "Factor",
+      "relation": "include",
+      "tail": "genetics",
+      "tail_type": "Genetic Factor"
+    },
+    {
+      "head": "underlying factors",
+      "head_type": "Factor",
+      "relation": "include",
+      "tail": "individual microbiomes",
+      "tail_type": "Microbiome"
+    },
+    {
+      "head": "underlying factors",
+      "head_type": "Factor",
+      "relation": "include",
+      "tail": "diet",
+      "tail_type": "Dietary Factor"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbial Community",
+      "relation": "integral aspect of",
+      "tail": "human functioning",
+      "tail_type": "Physiological Function"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbial Community",
+      "relation": "intimately integrated into",
+      "tail": "metabolic pathways",
+      "tail_type": "Biological Pathway"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbial Community",
+      "relation": "intimately integrated into",
+      "tail": "mechanical pathways",
+      "tail_type": "Biological Pathway"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbial Community",
+      "relation": "intimately integrated into",
+      "tail": "immunological pathways",
+      "tail_type": "Biological Pathway"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbial Community",
+      "relation": "intimately integrated into",
+      "tail": "neurologic pathways",
+      "tail_type": "Biological Pathway"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "Microbial Community",
+      "relation": "dynamically changes",
+      "tail": "throughout lifetimes",
+      "tail_type": "Time Period"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "Microbial Community",
+      "relation": "is",
+      "tail": "individually unique",
+      "tail_type": "Characteristic"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "Microbial Community",
+      "relation": "ever-adaptive",
+      "tail": "in physical and mental health",
+      "tail_type": "Health Aspect"
+    },
+    {
+      "head": "gut dysbiosis",
+      "head_type": "Microbial Imbalance",
+      "relation": "exerts influence on",
+      "tail": "physical health",
+      "tail_type": "Health Aspect"
+    },
+    {
+      "head": "gut dysbiosis",
+      "head_type": "Microbial Imbalance",
+      "relation": "exerts influence on",
+      "tail": "mental health",
+      "tail_type": "Health Aspect"
+    },
+    {
+      "head": "gut dysbiosis",
+      "head_type": "Microbial Imbalance",
+      "relation": "common factor in",
+      "tail": "Autoimmune diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "diets",
       "head_type": "Diet",
-      "relation": "linked_to",
+      "relation": "linked to",
       "tail": "gut microbiome alterations",
-      "tail_type": "Condition"
+      "tail_type": "Microbial Change"
+    },
+    {
+      "head": "diets",
+      "head_type": "Diet",
+      "relation": "have elevated",
+      "tail": "fat content",
+      "tail_type": "Nutritional Component"
+    },
+    {
+      "head": "diets",
+      "head_type": "Diet",
+      "relation": "have elevated",
+      "tail": "sugar content",
+      "tail_type": "Nutritional Component"
     },
     {
       "head": "gut microbiome alterations",
-      "head_type": "Condition",
-      "relation": "contribute_to",
+      "head_type": "Microbial Change",
+      "relation": "contribute to",
       "tail": "systemic inflammation",
-      "tail_type": "Condition"
+      "tail_type": "Inflammatory Process"
     },
     {
-      "head": "multiple AI's",
+      "head": "Autoimmune diseases",
       "head_type": "Disease",
-      "relation": "have",
-      "tail": "increased levels of certain inflammatory markers",
-      "tail_type": "Condition"
+      "relation": "have increased levels of",
+      "tail": "inflammatory markers",
+      "tail_type": "Biological Marker"
     },
     {
       "head": "inflammatory markers",
-      "head_type": "Biological_marker",
-      "relation": "contribute_to",
+      "head_type": "Biological Marker",
+      "relation": "include",
+      "tail": "TNF-a",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "inflammatory markers",
+      "head_type": "Biological Marker",
+      "relation": "include",
+      "tail": "IL-6",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "inflammatory markers",
+      "head_type": "Biological Marker",
+      "relation": "include",
+      "tail": "IL-17",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "inflammatory markers",
+      "head_type": "Biological Marker",
+      "relation": "contribute to",
       "tail": "arthropathy",
-      "tail_type": "Condition"
+      "tail_type": "Disease Condition"
     },
     {
       "head": "inflammatory markers",
-      "head_type": "Biological_marker",
-      "relation": "linked_to",
+      "head_type": "Biological Marker",
+      "relation": "linked to",
       "tail": "gut dysbiosis",
-      "tail_type": "Condition"
+      "tail_type": "Microbial Imbalance"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "Microbial_community",
-      "relation": "connected_to",
+      "head": "chronic inflammation",
+      "head_type": "Inflammatory Process",
+      "relation": "affects",
+      "tail": "physiologic systems",
+      "tail_type": "Biological System"
+    },
+    {
+      "head": "review",
+      "head_type": "Literature Review",
+      "relation": "explores connection between",
+      "tail": "gut microbiota",
+      "tail_type": "Microbial Community"
+    },
+    {
+      "head": "review",
+      "head_type": "Literature Review",
+      "relation": "explores connection between",
       "tail": "bone metabolism",
-      "tail_type": "Physiological_process"
+      "tail_type": "Biological Process"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "Microbial_community",
-      "relation": "connected_to",
-      "tail": "skeletal and joint destruction",
-      "tail_type": "Condition"
+      "head": "review",
+      "head_type": "Literature Review",
+      "relation": "explores connection between",
+      "tail": "skeletal destruction",
+      "tail_type": "Pathological Condition"
     },
     {
-      "head": "AI",
+      "head": "review",
+      "head_type": "Literature Review",
+      "relation": "explores connection between",
+      "tail": "joint destruction",
+      "tail_type": "Pathological Condition"
+    },
+    {
+      "head": "Autoimmune diseases",
       "head_type": "Disease",
       "relation": "include",
       "tail": "psoriatic arthritis",
       "tail_type": "Disease"
     },
     {
-      "head": "AI",
+      "head": "Autoimmune diseases",
       "head_type": "Disease",
       "relation": "include",
       "tail": "systemic lupus erythematosus",
       "tail_type": "Disease"
     },
     {
-      "head": "AI",
+      "head": "Autoimmune diseases",
       "head_type": "Disease",
       "relation": "include",
       "tail": "irritable bowel disease",
       "tail_type": "Disease"
     },
     {
-      "head": "AI",
+      "head": "Autoimmune diseases",
       "head_type": "Disease",
       "relation": "include",
       "tail": "rheumatoid arthritis",
       "tail_type": "Disease"
     },
     {
-      "head": "altering an individual's specific gut microbiota",
-      "head_type": "Therapeutic_strategy",
-      "relation": "form_of",
+      "head": "review",
+      "head_type": "Literature Review",
+      "relation": "aims to define mechanisms of",
+      "tail": "microbiome crosstalk",
+      "tail_type": "Biological Interaction"
+    },
+    {
+      "head": "microbiome crosstalk",
+      "head_type": "Biological Interaction",
+      "relation": "between",
+      "tail": "cells of bone",
+      "tail_type": "Cell Type"
+    },
+    {
+      "head": "microbiome crosstalk",
+      "head_type": "Biological Interaction",
+      "relation": "between",
+      "tail": "cells of cartilage",
+      "tail_type": "Cell Type"
+    },
+    {
+      "head": "review",
+      "head_type": "Literature Review",
+      "relation": "investigates potential bidirectional connections between",
+      "tail": "Autoimmune diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "review",
+      "head_type": "Literature Review",
+      "relation": "investigates potential bidirectional connections between",
+      "tail": "bony tissue",
+      "tail_type": "Anatomical Structure"
+    },
+    {
+      "head": "review",
+      "head_type": "Literature Review",
+      "relation": "investigates potential bidirectional connections between",
+      "tail": "cartilaginous tissue",
+      "tail_type": "Anatomical Structure"
+    },
+    {
+      "head": "review",
+      "head_type": "Literature Review",
+      "relation": "investigates potential bidirectional connections between",
+      "tail": "gut microbiome",
+      "tail_type": "Microbial Community"
+    },
+    {
+      "head": "review",
+      "head_type": "Literature Review",
+      "relation": "introduces concept of altering",
+      "tail": "gut microbiota",
+      "tail_type": "Microbial Community"
+    },
+    {
+      "head": "altering gut microbiota",
+      "head_type": "Therapeutic Strategy",
+      "relation": "form of",
       "tail": "regenerative medicine",
-      "tail_type": "Medical_field"
+      "tail_type": "Medical Field"
     },
     {
-      "head": "diet changes",
-      "head_type": "Therapeutic_strategy",
-      "relation": "target",
-      "tail": "microbiome",
-      "tail_type": "Microbial_community"
+      "head": "altering gut microbiota",
+      "head_type": "Therapeutic Strategy",
+      "relation": "potential tailored therapy for",
+      "tail": "joint destruction",
+      "tail_type": "Pathological Condition"
     },
     {
-      "head": "rebalancing microbial diversity",
-      "head_type": "Therapeutic_strategy",
-      "relation": "target",
+      "head": "review",
+      "head_type": "Literature Review",
+      "relation": "hopes to show ways to target",
       "tail": "microbiome",
-      "tail_type": "Microbial_community"
+      "tail_type": "Microbial Community"
+    },
+    {
+      "head": "targeting microbiome",
+      "head_type": "Therapeutic Strategy",
+      "relation": "through",
+      "tail": "diet changes",
+      "tail_type": "Dietary Adjustment"
+    },
+    {
+      "head": "targeting microbiome",
+      "head_type": "Therapeutic Strategy",
+      "relation": "through",
+      "tail": "rebalancing microbial diversity",
+      "tail_type": "Microbial Adjustment"
+    },
+    {
+      "head": "targeting microbiome",
+      "head_type": "Therapeutic Strategy",
+      "relation": "through",
+      "tail": "decreasing specific microbes",
+      "tail_type": "Microbial Adjustment"
+    },
+    {
+      "head": "specific microbes",
+      "head_type": "Microbial Species",
+      "relation": "associated with",
+      "tail": "increased gut permeability",
+      "tail_type": "Physiological Condition"
     },
     {
       "head": "decreasing specific microbes",
-      "head_type": "Therapeutic_strategy",
-      "relation": "target",
-      "tail": "microbiome",
-      "tail_type": "Microbial_community"
+      "head_type": "Microbial Adjustment",
+      "relation": "leads to",
+      "tail": "reduced systemic inflammation",
+      "tail_type": "Inflammatory Process"
+    },
+    {
+      "head": "reduced systemic inflammation",
+      "head_type": "Inflammatory Process",
+      "relation": "contributes to",
+      "tail": "joint pathology",
+      "tail_type": "Pathological Condition"
+    },
+    {
+      "head": "review",
+      "head_type": "Literature Review",
+      "relation": "plans to show that",
+      "tail": "diet alterations",
+      "tail_type": "Dietary Adjustment"
     },
     {
       "head": "diet alterations",
-      "head_type": "Therapeutic_strategy",
-      "relation": "promote",
-      "tail": "beneficial changes in the gut microbiota",
-      "tail_type": "Condition"
+      "head_type": "Dietary Adjustment",
+      "relation": "promote beneficial changes in",
+      "tail": "gut microbiota",
+      "tail_type": "Microbial Community"
     },
     {
-      "head": "beneficial changes in the gut microbiota",
-      "head_type": "Condition",
+      "head": "gut microbiota changes",
+      "head_type": "Microbial Adjustment",
       "relation": "support",
-      "tail": "body's own endogenous processes",
-      "tail_type": "Physiological_process"
+      "tail": "endogenous processes",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "endogenous processes",
+      "head_type": "Biological Process",
+      "relation": "decrease inflammation",
+      "tail": "inflammation",
+      "tail_type": "Inflammatory Process"
+    },
+    {
+      "head": "endogenous processes",
+      "head_type": "Biological Process",
+      "relation": "increase healing",
+      "tail": "healing",
+      "tail_type": "Biological Process"
     },
     {
       "head": "microbial alteration",
-      "head_type": "Therapeutic_strategy",
-      "relation": "fall_under",
+      "head_type": "Therapeutic Strategy",
+      "relation": "falls under",
       "tail": "regenerative medicine",
-      "tail_type": "Medical_field"
+      "tail_type": "Medical Field"
     },
     {
-      "head": "microbial alterations",
-      "head_type": "Therapeutic_strategy",
-      "relation": "support",
-      "tail": "research on associations of the gut microbiota",
-      "tail_type": "Research_topic"
+      "head": "current study",
+      "head_type": "Research Study",
+      "relation": "lends support to",
+      "tail": "research",
+      "tail_type": "Research Field"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "Microbial_community",
-      "relation": "associated_with",
+      "head": "research",
+      "head_type": "Research Field",
+      "relation": "focuses on",
+      "tail": "gut microbiota",
+      "tail_type": "Microbial Community"
+    },
+    {
+      "head": "research",
+      "head_type": "Research Field",
+      "relation": "focuses on",
       "tail": "bone metabolism",
-      "tail_type": "Physiological_process"
+      "tail_type": "Biological Process"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "Microbial_community",
-      "relation": "associated_with",
+      "head": "research",
+      "head_type": "Research Field",
+      "relation": "focuses on",
       "tail": "AI-related musculoskeletal pathology",
-      "tail_type": "Condition"
+      "tail_type": "Pathological Condition"
     }
   ]
 }

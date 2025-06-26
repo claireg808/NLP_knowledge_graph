@@ -1,4 +1,223 @@
 {
   "title": "PROFAST: A Randomized Trial Assessing the Effects of Intermittent Fasting and <i>Lacticaseibacillus rhamnosus</i> Probiotic among People with Prediabetes.",
-  "abstract": "Both intermittent fasting and specific probiotics have shown promise in improving glucose tolerance with a potential for synergistic effects through alterations to gut microbiota. In this randomized, double-blinded, two-arm feasibility study, we investigated whether intermittent fasting, supplemented with <i>Lacticaseibacillus rhamnosus</i> HN001 probiotic, reduces HbA1c in individuals with prediabetes. All participants with HbA1c 40-50 mmol/mol commenced intermittent fasting (2 days per week of calorie restriction to 600-650 kcal/day) and were randomized 1:1 to either daily probiotic (<i>Lacticaseibacillus rhamnosus</i> HN001) or placebo for 12 weeks. The primary outcome was a change in HbA1c. Secondary outcomes included changes in anthropometry, body composition, glucoregulatory markers, lipids, hunger hormones, liver enzymes, inflammatory markers, gut hormones, calorie and macronutrient intake, quality of life, hunger, mood and eating behavior. Of 33 participants who commenced the trial, 26 participants (mean age 52 years, body mass index (BMI) 34.7 kg/m<sup>2</sup>) completed the intervention (<i>n</i> = 11 placebo, <i>n</i> = 15 probiotic). HbA1c decreased from 43 \u00b1 2.7 mmol/mol to 41 \u00b1 2.3 mmol/mol, <i>p</i> < 0.001, with average of 5% weight loss. No significant between-group differences were seen in primary or secondary outcomes except for social functioning (<i>p</i> = 0.050) and mental health (<i>p</i> = 0.007) scores as improvements were seen in the probiotic group, but not in the placebo group. This study shows additional psychological benefits of probiotic supplementation during intermittent fasting to achieve weight loss and glycemic improvement in prediabetes."
+  "abstract": "Both intermittent fasting and specific probiotics have shown promise in improving glucose tolerance with a potential for synergistic effects through alterations to gut microbiota. In this randomized, double-blinded, two-arm feasibility study, we investigated whether intermittent fasting, supplemented with <i>Lacticaseibacillus rhamnosus</i> HN001 probiotic, reduces HbA1c in individuals with prediabetes. All participants with HbA1c 40-50 mmol/mol commenced intermittent fasting (2 days per week of calorie restriction to 600-650 kcal/day) and were randomized 1:1 to either daily probiotic (<i>Lacticaseibacillus rhamnosus</i> HN001) or placebo for 12 weeks. The primary outcome was a change in HbA1c. Secondary outcomes included changes in anthropometry, body composition, glucoregulatory markers, lipids, hunger hormones, liver enzymes, inflammatory markers, gut hormones, calorie and macronutrient intake, quality of life, hunger, mood and eating behavior. Of 33 participants who commenced the trial, 26 participants (mean age 52 years, body mass index (BMI) 34.7 kg/m<sup>2</sup>) completed the intervention (<i>n</i> = 11 placebo, <i>n</i> = 15 probiotic). HbA1c decreased from 43 \u00b1 2.7 mmol/mol to 41 \u00b1 2.3 mmol/mol, <i>p</i> < 0.001, with average of 5% weight loss. No significant between-group differences were seen in primary or secondary outcomes except for social functioning (<i>p</i> = 0.050) and mental health (<i>p</i> = 0.007) scores as improvements were seen in the probiotic group, but not in the placebo group. This study shows additional psychological benefits of probiotic supplementation during intermittent fasting to achieve weight loss and glycemic improvement in prediabetes.",
+  "relations": [
+    {
+      "head": "intermittent fasting",
+      "head_type": "Intervention",
+      "relation": "improves",
+      "tail": "glucose tolerance",
+      "tail_type": "Physiological Process"
+    },
+    {
+      "head": "specific probiotics",
+      "head_type": "Intervention",
+      "relation": "improves",
+      "tail": "glucose tolerance",
+      "tail_type": "Physiological Process"
+    },
+    {
+      "head": "intermittent fasting",
+      "head_type": "Intervention",
+      "relation": "supplemented with",
+      "tail": "Lacticaseibacillus rhamnosus HN001",
+      "tail_type": "Probiotic"
+    },
+    {
+      "head": "intermittent fasting",
+      "head_type": "Intervention",
+      "relation": "reduces",
+      "tail": "HbA1c",
+      "tail_type": "Biological Marker"
+    },
+    {
+      "head": "participants",
+      "head_type": "Human",
+      "relation": "have",
+      "tail": "prediabetes",
+      "tail_type": "Medical Condition"
+    },
+    {
+      "head": "participants",
+      "head_type": "Human",
+      "relation": "commence",
+      "tail": "intermittent fasting",
+      "tail_type": "Intervention"
+    },
+    {
+      "head": "participants",
+      "head_type": "Human",
+      "relation": "randomized to",
+      "tail": "probiotic",
+      "tail_type": "Intervention"
+    },
+    {
+      "head": "participants",
+      "head_type": "Human",
+      "relation": "randomized to",
+      "tail": "placebo",
+      "tail_type": "Intervention"
+    },
+    {
+      "head": "primary outcome",
+      "head_type": "Outcome",
+      "relation": "measured as",
+      "tail": "change in HbA1c",
+      "tail_type": "Measurement"
+    },
+    {
+      "head": "secondary outcomes",
+      "head_type": "Outcome",
+      "relation": "include",
+      "tail": "anthropometry",
+      "tail_type": "Measurement"
+    },
+    {
+      "head": "secondary outcomes",
+      "head_type": "Outcome",
+      "relation": "include",
+      "tail": "body composition",
+      "tail_type": "Measurement"
+    },
+    {
+      "head": "secondary outcomes",
+      "head_type": "Outcome",
+      "relation": "include",
+      "tail": "glucoregulatory markers",
+      "tail_type": "Measurement"
+    },
+    {
+      "head": "secondary outcomes",
+      "head_type": "Outcome",
+      "relation": "include",
+      "tail": "lipids",
+      "tail_type": "Measurement"
+    },
+    {
+      "head": "secondary outcomes",
+      "head_type": "Outcome",
+      "relation": "include",
+      "tail": "hunger hormones",
+      "tail_type": "Measurement"
+    },
+    {
+      "head": "secondary outcomes",
+      "head_type": "Outcome",
+      "relation": "include",
+      "tail": "liver enzymes",
+      "tail_type": "Measurement"
+    },
+    {
+      "head": "secondary outcomes",
+      "head_type": "Outcome",
+      "relation": "include",
+      "tail": "inflammatory markers",
+      "tail_type": "Measurement"
+    },
+    {
+      "head": "secondary outcomes",
+      "head_type": "Outcome",
+      "relation": "include",
+      "tail": "gut hormones",
+      "tail_type": "Measurement"
+    },
+    {
+      "head": "secondary outcomes",
+      "head_type": "Outcome",
+      "relation": "include",
+      "tail": "calorie intake",
+      "tail_type": "Measurement"
+    },
+    {
+      "head": "secondary outcomes",
+      "head_type": "Outcome",
+      "relation": "include",
+      "tail": "macronutrient intake",
+      "tail_type": "Measurement"
+    },
+    {
+      "head": "secondary outcomes",
+      "head_type": "Outcome",
+      "relation": "include",
+      "tail": "quality of life",
+      "tail_type": "Measurement"
+    },
+    {
+      "head": "secondary outcomes",
+      "head_type": "Outcome",
+      "relation": "include",
+      "tail": "hunger",
+      "tail_type": "Measurement"
+    },
+    {
+      "head": "secondary outcomes",
+      "head_type": "Outcome",
+      "relation": "include",
+      "tail": "mood",
+      "tail_type": "Measurement"
+    },
+    {
+      "head": "secondary outcomes",
+      "head_type": "Outcome",
+      "relation": "include",
+      "tail": "eating behavior",
+      "tail_type": "Measurement"
+    },
+    {
+      "head": "HbA1c",
+      "head_type": "Biological Marker",
+      "relation": "decreased from",
+      "tail": "43 \u00b1 2.7 mmol/mol",
+      "tail_type": "Measurement Value"
+    },
+    {
+      "head": "HbA1c",
+      "head_type": "Biological Marker",
+      "relation": "to",
+      "tail": "41 \u00b1 2.3 mmol/mol",
+      "tail_type": "Measurement Value"
+    },
+    {
+      "head": "participants",
+      "head_type": "Human",
+      "relation": "experience",
+      "tail": "weight loss",
+      "tail_type": "Physiological Change"
+    },
+    {
+      "head": "social functioning",
+      "head_type": "Outcome Measure",
+      "relation": "improved in",
+      "tail": "probiotic group",
+      "tail_type": "Group"
+    },
+    {
+      "head": "mental health",
+      "head_type": "Outcome Measure",
+      "relation": "improved in",
+      "tail": "probiotic group",
+      "tail_type": "Group"
+    },
+    {
+      "head": "probiotic supplementation",
+      "head_type": "Intervention",
+      "relation": "provides",
+      "tail": "psychological benefits",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "probiotic supplementation",
+      "head_type": "Intervention",
+      "relation": "achieves",
+      "tail": "weight loss",
+      "tail_type": "Physiological Change"
+    },
+    {
+      "head": "probiotic supplementation",
+      "head_type": "Intervention",
+      "relation": "achieves",
+      "tail": "glycemic improvement",
+      "tail_type": "Physiological Change"
+    }
+  ]
 }

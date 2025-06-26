@@ -1,144 +1,221 @@
 {
-  "title": "Repeated Social Defeat Stress Induces an Inflammatory Gut Milieu by Altering the Mucosal Barrier Integrity and Gut Microbiota Homeostasis",
+  "title": "Repeated Social Defeat Stress Induces an Inflammatory Gut Milieu by Altering the Mucosal Barrier Integrity and Gut Microbiota Homeostasis.",
   "abstract": "Posttraumatic stress disorder (PTSD) is a mental health condition triggered by exposure to traumatic events in an individual's life. Patients with PTSD are also at a higher risk for comorbidities. However, it is not well understood how PTSD affects human health and/or promotes the risk for comorbidities. Nevertheless, patients with PTSD harbor a proinflammatory milieu and dysbiotic gut microbiota. Gut barrier integrity helps to maintain normal gut homeostasis and its dysregulation promotes gut dysbiosis and inflammation. We used a mouse model of repeated social defeat stress (RSDS), a preclinical model of PTSD. Behavioral studies, metagenomics analysis of the microbiome, gut permeability assay (on mouse colon, using an Ussing chamber), immunoblotting, and immunohistochemical analyses were performed. Polarized intestinal epithelial cells and 3-dimensional crypt cultures were used for mechanistic analysis. The RSDS mice harbor a heightened proinflammatory gut environment and microbiota dysbiosis. The RSDS mice further showed significant dysregulation of gut barrier functions, including transepithelial electrical resistance, mucin homeostasis, and antimicrobial responses. RSDS mice also showed a specific increase in intestinal expression of claudin-2, a tight junction protein, and epinephrine, a stress-induced neurotransmitter. Treating intestinal epithelial cells or 3-dimensional cultured crypts with norepinephrine or intestinal luminal contents (fecal contents) upregulated claudin-2 expression and inhibited transepithelial electrical resistance. Traumatic stress induces dysregulation of gut barrier functions, which may underlie the observed gut microbiota changes and proinflammatory gut milieu, all of which may have an interdependent effect on the health and increased risk of comorbidities in patients with PTSD.",
   "relations": [
     {
-      "head": "PTSD",
-      "head_type": "Mental Health Condition",
-      "relation": "Increases Risk For",
-      "tail": "Comorbidities",
-      "tail_type": "Health Condition"
+      "head": "Repeated Social Defeat Stress",
+      "head_type": "Stress Model",
+      "relation": "induces",
+      "tail": "Inflammatory Gut Milieu",
+      "tail_type": "Physiological State"
     },
     {
-      "head": "PTSD",
+      "head": "Repeated Social Defeat Stress",
+      "head_type": "Stress Model",
+      "relation": "alters",
+      "tail": "Mucosal Barrier Integrity",
+      "tail_type": "Physiological Function"
+    },
+    {
+      "head": "Repeated Social Defeat Stress",
+      "head_type": "Stress Model",
+      "relation": "alters",
+      "tail": "Gut Microbiota Homeostasis",
+      "tail_type": "Microbiota State"
+    },
+    {
+      "head": "Posttraumatic Stress Disorder (PTSD)",
       "head_type": "Mental Health Condition",
-      "relation": "Associated With",
+      "relation": "harbors",
       "tail": "Proinflammatory Milieu",
-      "tail_type": "Biological State"
+      "tail_type": "Physiological State"
     },
     {
-      "head": "PTSD",
+      "head": "Posttraumatic Stress Disorder (PTSD)",
       "head_type": "Mental Health Condition",
-      "relation": "Associated With",
+      "relation": "harbors",
       "tail": "Dysbiotic Gut Microbiota",
-      "tail_type": "Microbial State"
+      "tail_type": "Microbiota State"
     },
     {
       "head": "Gut Barrier Integrity",
-      "head_type": "Biological Function",
-      "relation": "Maintains",
+      "head_type": "Physiological Function",
+      "relation": "maintains",
       "tail": "Gut Homeostasis",
-      "tail_type": "Biological State"
+      "tail_type": "Physiological State"
     },
     {
-      "head": "Gut Barrier Integrity",
-      "head_type": "Biological Function",
-      "relation": "Dysregulation Promotes",
+      "head": "Dysregulation",
+      "head_type": "Physiological Process",
+      "relation": "promotes",
       "tail": "Gut Dysbiosis",
-      "tail_type": "Microbial Imbalance"
+      "tail_type": "Microbiota State"
     },
     {
-      "head": "Gut Barrier Integrity",
-      "head_type": "Biological Function",
-      "relation": "Dysregulation Promotes",
+      "head": "Dysregulation",
+      "head_type": "Physiological Process",
+      "relation": "promotes",
       "tail": "Inflammation",
-      "tail_type": "Biological Process"
+      "tail_type": "Physiological State"
     },
     {
       "head": "Repeated Social Defeat Stress (RSDS)",
-      "head_type": "Experimental Model",
-      "relation": "Induces",
+      "head_type": "Stress Model",
+      "relation": "harbors",
       "tail": "Proinflammatory Gut Environment",
-      "tail_type": "Biological State"
+      "tail_type": "Physiological State"
     },
     {
       "head": "Repeated Social Defeat Stress (RSDS)",
-      "head_type": "Experimental Model",
-      "relation": "Induces",
+      "head_type": "Stress Model",
+      "relation": "harbors",
       "tail": "Microbiota Dysbiosis",
-      "tail_type": "Microbial State"
+      "tail_type": "Microbiota State"
     },
     {
-      "head": "Repeated Social Defeat Stress (RSDS)",
-      "head_type": "Experimental Model",
-      "relation": "Causes",
+      "head": "RSDS Mice",
+      "head_type": "Animal Model",
+      "relation": "show",
       "tail": "Dysregulation of Gut Barrier Functions",
-      "tail_type": "Biological Dysfunction"
+      "tail_type": "Physiological Process"
     },
     {
-      "head": "Repeated Social Defeat Stress (RSDS)",
-      "head_type": "Experimental Model",
-      "relation": "Increases",
-      "tail": "Claudin-2 Expression",
-      "tail_type": "Protein Expression"
+      "head": "Dysregulation of Gut Barrier Functions",
+      "head_type": "Physiological Process",
+      "relation": "includes",
+      "tail": "Transepithelial Electrical Resistance",
+      "tail_type": "Physiological Measurement"
     },
     {
-      "head": "Repeated Social Defeat Stress (RSDS)",
-      "head_type": "Experimental Model",
-      "relation": "Increases",
-      "tail": "Epinephrine Expression",
+      "head": "Dysregulation of Gut Barrier Functions",
+      "head_type": "Physiological Process",
+      "relation": "includes",
+      "tail": "Mucin Homeostasis",
+      "tail_type": "Physiological State"
+    },
+    {
+      "head": "Dysregulation of Gut Barrier Functions",
+      "head_type": "Physiological Process",
+      "relation": "includes",
+      "tail": "Antimicrobial Responses",
+      "tail_type": "Physiological Response"
+    },
+    {
+      "head": "RSDS Mice",
+      "head_type": "Animal Model",
+      "relation": "show",
+      "tail": "Increase in Intestinal Expression of Claudin-2",
+      "tail_type": "Gene Expression"
+    },
+    {
+      "head": "Claudin-2",
+      "head_type": "Protein",
+      "relation": "is a",
+      "tail": "Tight Junction Protein",
+      "tail_type": "Protein Type"
+    },
+    {
+      "head": "RSDS Mice",
+      "head_type": "Animal Model",
+      "relation": "show",
+      "tail": "Increase in Intestinal Expression of Epinephrine",
       "tail_type": "Neurotransmitter Expression"
     },
     {
-      "head": "Norepinephrine",
+      "head": "Epinephrine",
       "head_type": "Neurotransmitter",
-      "relation": "Upregulates",
-      "tail": "Claudin-2 Expression",
-      "tail_type": "Protein Expression"
+      "relation": "is a",
+      "tail": "Stress-Induced Neurotransmitter",
+      "tail_type": "Neurotransmitter Type"
+    },
+    {
+      "head": "Intestinal Epithelial Cells",
+      "head_type": "Cell Type",
+      "relation": "treated with",
+      "tail": "Norepinephrine",
+      "tail_type": "Neurotransmitter"
+    },
+    {
+      "head": "Intestinal Epithelial Cells",
+      "head_type": "Cell Type",
+      "relation": "treated with",
+      "tail": "Intestinal Luminal Contents",
+      "tail_type": "Biological Material"
     },
     {
       "head": "Norepinephrine",
       "head_type": "Neurotransmitter",
-      "relation": "Inhibits",
-      "tail": "Transepithelial Electrical Resistance",
-      "tail_type": "Biological Function"
+      "relation": "upregulates",
+      "tail": "Claudin-2 Expression",
+      "tail_type": "Gene Expression"
     },
     {
       "head": "Intestinal Luminal Contents",
-      "head_type": "Biological Substance",
-      "relation": "Upregulates",
+      "head_type": "Biological Material",
+      "relation": "upregulates",
       "tail": "Claudin-2 Expression",
-      "tail_type": "Protein Expression"
+      "tail_type": "Gene Expression"
+    },
+    {
+      "head": "Norepinephrine",
+      "head_type": "Neurotransmitter",
+      "relation": "inhibits",
+      "tail": "Transepithelial Electrical Resistance",
+      "tail_type": "Physiological Measurement"
     },
     {
       "head": "Intestinal Luminal Contents",
-      "head_type": "Biological Substance",
-      "relation": "Inhibits",
+      "head_type": "Biological Material",
+      "relation": "inhibits",
       "tail": "Transepithelial Electrical Resistance",
-      "tail_type": "Biological Function"
+      "tail_type": "Physiological Measurement"
     },
     {
       "head": "Traumatic Stress",
-      "head_type": "Stress",
-      "relation": "Induces",
+      "head_type": "Stress Factor",
+      "relation": "induces",
       "tail": "Dysregulation of Gut Barrier Functions",
-      "tail_type": "Biological Dysfunction"
+      "tail_type": "Physiological Process"
     },
     {
       "head": "Dysregulation of Gut Barrier Functions",
-      "head_type": "Biological Dysfunction",
-      "relation": "Underlies",
+      "head_type": "Physiological Process",
+      "relation": "underlies",
       "tail": "Gut Microbiota Changes",
-      "tail_type": "Microbial State"
+      "tail_type": "Microbiota State"
     },
     {
       "head": "Dysregulation of Gut Barrier Functions",
-      "head_type": "Biological Dysfunction",
-      "relation": "Underlies",
+      "head_type": "Physiological Process",
+      "relation": "underlies",
       "tail": "Proinflammatory Gut Milieu",
-      "tail_type": "Biological State"
+      "tail_type": "Physiological State"
     },
     {
       "head": "Gut Microbiota Changes",
-      "head_type": "Microbial State",
-      "relation": "Contributes To",
-      "tail": "Increased Risk of Comorbidities",
-      "tail_type": "Health Risk"
+      "head_type": "Microbiota State",
+      "relation": "has",
+      "tail": "Interdependent Effect on Health",
+      "tail_type": "Health Outcome"
     },
     {
       "head": "Proinflammatory Gut Milieu",
-      "head_type": "Biological State",
-      "relation": "Contributes To",
+      "head_type": "Physiological State",
+      "relation": "has",
+      "tail": "Interdependent Effect on Health",
+      "tail_type": "Health Outcome"
+    },
+    {
+      "head": "Interdependent Effect on Health",
+      "head_type": "Health Outcome",
+      "relation": "increases",
+      "tail": "Risk of Comorbidities",
+      "tail_type": "Health Risk"
+    },
+    {
+      "head": "Patients with PTSD",
+      "head_type": "Patient Population",
+      "relation": "have",
       "tail": "Increased Risk of Comorbidities",
       "tail_type": "Health Risk"
     }

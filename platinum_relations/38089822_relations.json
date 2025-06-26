@@ -5,127 +5,57 @@
     {
       "head": "Insomnia",
       "head_type": "Mental Health Issue",
-      "relation": "affects",
-      "tail": "sleep balance",
-      "tail_type": "Physiological Function"
-    },
-    {
-      "head": "Insomnia",
-      "head_type": "Mental Health Issue",
-      "relation": "affects",
-      "tail": "immune system",
-      "tail_type": "Physiological Function"
-    },
-    {
-      "head": "Insomnia",
-      "head_type": "Mental Health Issue",
-      "relation": "affects",
-      "tail": "central nervous system",
-      "tail_type": "Physiological Function"
-    },
-    {
-      "head": "Insomnia",
-      "head_type": "Mental Health Issue",
-      "relation": "raises risk of",
-      "tail": "systemic disorders",
-      "tail_type": "Health Condition"
+      "relation": "Linked To",
+      "tail": "Gut Microbiota",
+      "tail_type": "Biological Entity"
     },
     {
       "head": "Gut Microbiota",
       "head_type": "Biological Entity",
-      "relation": "controls",
-      "tail": "host homeostasis",
-      "tail_type": "Physiological Function"
-    },
-    {
-      "head": "Disruption of the gut-brain axis",
-      "head_type": "Physiological Disruption",
-      "relation": "linked to",
+      "relation": "Linked To",
       "tail": "Insomnia",
       "tail_type": "Mental Health Issue"
     },
     {
-      "head": "MR analysis",
-      "head_type": "Research Method",
-      "relation": "conducted between",
-      "tail": "large-scale GWAS data",
-      "tail_type": "Data Type"
+      "head": "Insomnia",
+      "head_type": "Mental Health Issue",
+      "relation": "Linked To",
+      "tail": "Gut-Brain Axis",
+      "tail_type": "Biological Entity"
     },
     {
-      "head": "Ten GM taxa",
-      "head_type": "Microbial Taxa",
-      "relation": "have causal associations with",
+      "head": "Gut-Brain Axis",
+      "head_type": "Biological Entity",
+      "relation": "Linked To",
       "tail": "Insomnia",
       "tail_type": "Mental Health Issue"
     },
     {
-      "head": "class Negativicutes",
-      "head_type": "Microbial Taxon",
-      "relation": "linked to",
-      "tail": "higher risk of insomnia",
-      "tail_type": "Health Risk"
+      "head": "Insomnia",
+      "head_type": "Mental Health Issue",
+      "relation": "Linked To",
+      "tail": "Gut Microbiota Taxa",
+      "tail_type": "Biological Entity"
     },
     {
-      "head": "genus Clostridiuminnocuumgroup",
-      "head_type": "Microbial Taxon",
-      "relation": "linked to",
-      "tail": "higher risk of insomnia",
-      "tail_type": "Health Risk"
-    },
-    {
-      "head": "genus Dorea",
-      "head_type": "Microbial Taxon",
-      "relation": "linked to",
-      "tail": "higher risk of insomnia",
-      "tail_type": "Health Risk"
-    },
-    {
-      "head": "genus Lachnoclostridium",
-      "head_type": "Microbial Taxon",
-      "relation": "linked to",
-      "tail": "higher risk of insomnia",
-      "tail_type": "Health Risk"
-    },
-    {
-      "head": "genus Prevotella7",
-      "head_type": "Microbial Taxon",
-      "relation": "linked to",
-      "tail": "higher risk of insomnia",
-      "tail_type": "Health Risk"
-    },
-    {
-      "head": "order Selenomonadalesare",
-      "head_type": "Microbial Taxon",
-      "relation": "linked to",
-      "tail": "higher risk of insomnia",
-      "tail_type": "Health Risk"
+      "head": "Gut Microbiota Taxa",
+      "head_type": "Biological Entity",
+      "relation": "Linked To",
+      "tail": "Insomnia",
+      "tail_type": "Mental Health Issue"
     },
     {
       "head": "Insomnia",
       "head_type": "Mental Health Issue",
-      "relation": "causally linked to",
-      "tail": "six other GM taxa",
-      "tail_type": "Microbial Taxa"
+      "relation": "Linked To",
+      "tail": "Gut Microbiota",
+      "tail_type": "Biological Entity"
     },
     {
-      "head": "Insomnia",
-      "head_type": "Mental Health Issue",
-      "relation": "suggests relationship with",
-      "tail": "intestinal flora",
-      "tail_type": "Microbial Community"
-    },
-    {
-      "head": "Findings",
-      "head_type": "Research Findings",
-      "relation": "offer beneficial biomarkers for",
-      "tail": "disease development",
-      "tail_type": "Health Condition"
-    },
-    {
-      "head": "Findings",
-      "head_type": "Research Findings",
-      "relation": "offer candidate treatment targets for",
-      "tail": "insomnia",
+      "head": "Gut Microbiota",
+      "head_type": "Biological Entity",
+      "relation": "Linked To",
+      "tail": "Insomnia",
       "tail_type": "Mental Health Issue"
     }
   ]

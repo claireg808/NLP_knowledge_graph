@@ -1,21 +1,7 @@
 {
-  "title": "Flavonoids from Seabuckthorn (Hippophae rhamnoides L.) restore CUMS-induced depressive disorder and regulate the gut microbiota in mice.",
-  "abstract": "Seabuckthorn (Hippophae rhamnoides L.), which is enriched with flavonoids, including isorhamnetin, quercetin and kaempferol, is a representative example of 'medicine food homology' targeting several diseases. Major depressive disorders seriously threaten mental health worldwide and may even lead to death. Chronic unpredictab... [truncated for brevity]",
+  "title": "Flavonoids from Seabuckthorn (<i>Hippophae rhamnoides</i> L.) restore CUMS-induced depressive disorder and regulate the gut microbiota in mice.",
+  "abstract": "Seabuckthorn (<i>Hippophae rhamnoides</i> L.), which is enriched with flavonoids, including isorhamnetin, quercetin and kaempferol, is a representative example of \"medicine food homology\" targeting several diseases. Major depressive disorders seriously threaten mental health worldwide and may even lead to death. Chronic unpredictable mild stress (CUMS)-induced depressive-like symptoms in mice are usually considered as the highest similarity to the situation in humans. Herein, we determined the potential functions of the flavonoid-enriched fraction from Seabuckthorn, which was named SBF, in treating major depressive disorder in mice. In the CUMS-induced mouse model, the intake of SBF reversed their depressive behaviors and relieved the CUMS-disturbed levels of neurotrophins, neurotransmitters, stress-related hormones, and inflammation-related cytokines. Additionally, the treatment of depressive mice with SBF showed ability to regulate the gut microbiota, especially in decreasing the abundance of <i>Lactobacillaceae</i>, while increasing the abundance of <i>Lachnospiraceae</i> at the family level. The results suggest the beneficial effects of Seabuckthorn flavonoids in functioning as a health food supplement to treat major depressive disorders.",
   "relations": [
-    {
-      "head": "Flavonoids",
-      "head_type": "Chemical",
-      "relation": "restore",
-      "tail": "CUMS-induced depressive disorder",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Flavonoids",
-      "head_type": "Chemical",
-      "relation": "regulate",
-      "tail": "gut microbiota",
-      "tail_type": "Organism"
-    },
     {
       "head": "Seabuckthorn",
       "head_type": "Plant",
@@ -24,67 +10,67 @@
       "tail_type": "Chemical"
     },
     {
-      "head": "CUMS",
-      "head_type": "Stress Model",
-      "relation": "induces",
-      "tail": "depressive disorder",
-      "tail_type": "Disease"
+      "head": "Flavonoids",
+      "head_type": "Chemical",
+      "relation": "enriched",
+      "tail": "Seabuckthorn",
+      "tail_type": "Plant"
     },
     {
-      "head": "SBF",
-      "head_type": "Chemical",
+      "head": "Seabuckthorn",
+      "head_type": "Plant",
       "relation": "treats",
       "tail": "Major depressive disorder",
       "tail_type": "Disease"
     },
     {
-      "head": "SBF",
+      "head": "Flavonoids",
       "head_type": "Chemical",
       "relation": "relieves",
-      "tail": "disturbed levels of neurotrophins",
-      "tail_type": "Biological Process"
+      "tail": "Depressive-like symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Chronic unpredictable mild stress (CUMS)",
+      "head_type": "Stress Model",
+      "relation": "induces",
+      "tail": "Depressive-like symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Seabuckthorn",
+      "head_type": "Plant",
+      "relation": "contains",
+      "tail": "SBF",
+      "tail_type": "Chemical"
     },
     {
       "head": "SBF",
       "head_type": "Chemical",
-      "relation": "relieves",
-      "tail": "disturbed levels of neurotransmitters",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "SBF",
-      "head_type": "Chemical",
-      "relation": "relieves",
-      "tail": "disturbed levels of stress-related hormones",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "SBF",
-      "head_type": "Chemical",
-      "relation": "relieves",
-      "tail": "disturbed levels of inflammation-related cytokines",
-      "tail_type": "Biological Process"
+      "relation": "reverses",
+      "tail": "Depressive behaviors",
+      "tail_type": "Behavior"
     },
     {
       "head": "SBF",
       "head_type": "Chemical",
       "relation": "regulates",
-      "tail": "gut microbiota",
-      "tail_type": "Organism"
+      "tail": "Gut microbiota",
+      "tail_type": "Microbial Community"
     },
     {
       "head": "SBF",
       "head_type": "Chemical",
       "relation": "decreases",
-      "tail": "abundance of Lactobacillaceae",
-      "tail_type": "Organism"
+      "tail": "Lactobacillaceae",
+      "tail_type": "Bacterial Family"
     },
     {
       "head": "SBF",
       "head_type": "Chemical",
       "relation": "increases",
-      "tail": "abundance of Lachnospiraceae",
-      "tail_type": "Organism"
+      "tail": "Lachnospiraceae",
+      "tail_type": "Bacterial Family"
     }
   ]
 }

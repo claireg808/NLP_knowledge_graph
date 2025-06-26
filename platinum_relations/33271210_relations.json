@@ -1,146 +1,104 @@
 {
-  "title": "A systematic review of microbiome changes and impact of probiotic supplementation in children and adolescents with neuropsychiatric disorders.",
-  "abstract": "In recent decades, the diagnostic and therapeutic implications of the microbiome changes and the impact of probiotic supplementation have increased rapidly. However, the potential for clinical translation of microbiome research for children and adolescents with psychiatric disorders is unclear. This review examined available evidence related to gut microbiota as well as the impact of probiotic supplementation on psychiatric disorders in the pediatric population reported to date. We performed a literature search for the gut microbiota in child and adolescent population (0-18 years old) with mental health disorders from July 1999 through July 2019 in several databases: ClinicalTrials.gov, Ovid EBM Reviews, Ovid Embase, Ovid Medline, Ovid PsycINFO, Scopus, and Web of Science. A total of 7 studies met inclusion criteria consisting of randomized controlled trials and cohort studies that examined various associations between psychiatric disorders and gut microbiota in youth. Six studies examined the effects of various treatment interventions such as probiotic supplementation on microbiota composition and behaviors. One study showed an increase in prosocial behavior in children with Autism Spectrum Disorder (ASD) and an increase in the Lachnospiraceae family following prebiotic supplementation. Another study suggested that prebiotic supplementation increased bifidobacterial populations for ASD and healthy controls. A study evaluating infant supplementation of prebiotics showed both a decreased likelihood of developing Attention Deficit Hyperactivity Disorder (ADHD) or ASD and decreased gut Bifidobacterium. One study did not find significant differences in microbiome composition after micronutrient treatment. The main goal of this systematic review was to comprehensively examine and summarize the current evidence focused on the potential effect of the relationship between microbiota gut composition as well as the effects of probiotic supplementation on psychiatric disorders in children and adolescents. This is a relatively new area of research and the number of included studies is limited. More studies are needed to determine whether gut dysbiosis leads to the development and/or contributes to the severity of mental disorders or whether gut dysbiosis is a result of other processes that accompany mental disorders. A better understanding of the specific bacteria contributions, gut-brain pathways, and role in pathophysiological mechanisms in neuropsychiatric disorders in the child and adolescent populations can possibly provide alternative tools for a clinical psychiatrist. Moreover, it may ultimately aid the clinician with intervention strategies, or detect populations at risk for developing neuropsychiatric disorders.",
+  "title": "A systematic review of microbiome changes and impact of probiotic supplementation in children and adolescents with neuropsychiatric disorders",
+  "abstract": "In recent decades, the diagnostic and therapeutic implications of the microbiome changes and the impact of probiotic supplementation have increased rapidly. However, the potential for clinical translation of microbiome research for children and adolescents with psychiatric disorders is unclear. This review examined available evidence related to gut microbiota as well as the impact of probiotic supplementation on psychiatric disorders in the pediatric population reported to date. We performed a literature search for the gut microbiota in child and adolescent population (0-18\u00a0years old) with mental health disorders from July 1999 through July 2019 in several databases: ClinicalTrials.gov, Ovid EBM Reviews, Ovid Embase, Ovid Medline, Ovid PsycINFO, Scopus, and Web of Science. A total of 7 studies met inclusion criteria consisting of randomized controlled trials and cohort studies that examined various associations between psychiatric disorders and gut microbiota in youth. Six studies examined the effects of various treatment interventions such as probiotic supplementation on microbiota composition and behaviors. One study showed an increase in prosocial behavior in children with Autism Spectrum Disorder (ASD) and an increase in the Lachnospiraceae family following prebiotic supplementation. Another study suggested that prebiotic supplementation increased bifidobacterial populations for ASD and healthy controls. A study evaluating infant supplementation of prebiotics showed both a decreased likelihood of developing Attention Deficit Hyperactivity Disorder (ADHD) or ASD and decreased gut Bifidobacterium. One study did not find significant differences in microbiome composition after micronutrient treatment. The main goal of this systematic review was to comprehensively examine and summarize the current evidence focused on the potential effect of the relationship between microbiota gut composition as well as the effects of probiotic supplementation on psychiatric disorders in children and adolescents. This is a relatively new area of research and the number of included studies is limited. More studies are needed to determine whether gut dysbiosis leads to the development and/or contributes to the severity of mental disorders or whether gut dysbiosis is a result of other processes that accompany mental disorders. A better understanding of the specific bacteria contributions, gut-brain pathways, and role in pathophysiological mechanisms in neuropsychiatric disorders in the child and adolescent populations can possibly provide alternative tools for a clinical psychiatrist. Moreover, it may ultimately aid the clinician with intervention strategies, or detect populations at risk for developing neuropsychiatric disorders.",
   "relations": [
     {
       "head": "microbiome changes",
       "head_type": "biological process",
-      "relation": "has impact on",
-      "tail": "therapeutic implications",
-      "tail_type": "medical implication"
-    },
-    {
-      "head": "probiotic supplementation",
-      "head_type": "treatment intervention",
-      "relation": "impacts",
-      "tail": "psychiatric disorders",
-      "tail_type": "mental health condition"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
       "relation": "associated with",
-      "tail": "psychiatric disorders",
-      "tail_type": "mental health condition"
+      "tail": "neuropsychiatric disorders",
+      "tail_type": "disease"
     },
     {
       "head": "probiotic supplementation",
-      "head_type": "treatment intervention",
+      "head_type": "treatment",
       "relation": "affects",
-      "tail": "microbiota composition",
+      "tail": "gut microbiota",
       "tail_type": "biological entity"
     },
     {
       "head": "probiotic supplementation",
-      "head_type": "treatment intervention",
+      "head_type": "treatment",
       "relation": "influences",
-      "tail": "behaviors",
-      "tail_type": "behavioral trait"
+      "tail": "psychiatric disorders",
+      "tail_type": "disease"
     },
     {
       "head": "prebiotic supplementation",
-      "head_type": "treatment intervention",
-      "relation": "increases",
-      "tail": "prosocial behavior",
-      "tail_type": "behavioral trait"
-    },
-    {
-      "head": "prebiotic supplementation",
-      "head_type": "treatment intervention",
+      "head_type": "treatment",
       "relation": "increases",
       "tail": "Lachnospiraceae family",
-      "tail_type": "microbial family"
+      "tail_type": "bacterial family"
     },
     {
       "head": "prebiotic supplementation",
-      "head_type": "treatment intervention",
+      "head_type": "treatment",
       "relation": "increases",
       "tail": "bifidobacterial populations",
-      "tail_type": "microbial population"
+      "tail_type": "bacterial population"
     },
     {
-      "head": "infant supplementation of prebiotics",
-      "head_type": "treatment intervention",
-      "relation": "decreases likelihood of",
-      "tail": "Attention Deficit Hyperactivity Disorder (ADHD)",
-      "tail_type": "mental health condition"
-    },
-    {
-      "head": "infant supplementation of prebiotics",
-      "head_type": "treatment intervention",
-      "relation": "decreases likelihood of",
-      "tail": "Autism Spectrum Disorder (ASD)",
-      "tail_type": "mental health condition"
-    },
-    {
-      "head": "infant supplementation of prebiotics",
-      "head_type": "treatment intervention",
+      "head": "prebiotic supplementation",
+      "head_type": "treatment",
       "relation": "decreases",
       "tail": "gut Bifidobacterium",
-      "tail_type": "microbial population"
+      "tail_type": "bacterial population"
     },
     {
       "head": "micronutrient treatment",
-      "head_type": "treatment intervention",
+      "head_type": "treatment",
       "relation": "does not affect",
       "tail": "microbiome composition",
       "tail_type": "biological entity"
     },
     {
       "head": "gut dysbiosis",
-      "head_type": "biological condition",
-      "relation": "may lead to",
-      "tail": "development of mental disorders",
-      "tail_type": "mental health condition"
-    },
-    {
-      "head": "gut dysbiosis",
-      "head_type": "biological condition",
-      "relation": "may contribute to",
-      "tail": "severity of mental disorders",
-      "tail_type": "mental health condition"
-    },
-    {
-      "head": "gut dysbiosis",
-      "head_type": "biological condition",
-      "relation": "is a result of",
-      "tail": "other processes accompanying mental disorders",
-      "tail_type": "biological process"
-    },
-    {
-      "head": "specific bacteria contributions",
-      "head_type": "biological entity",
-      "relation": "contribute to",
-      "tail": "neuropsychiatric disorders",
-      "tail_type": "mental health condition"
+      "head_type": "biological process",
+      "relation": "linked to",
+      "tail": "mental disorders",
+      "tail_type": "disease"
     },
     {
       "head": "gut-brain pathways",
       "head_type": "biological pathway",
-      "relation": "involved in",
+      "relation": "influenced by",
+      "tail": "microbiota",
+      "tail_type": "biological entity"
+    },
+    {
+      "head": "specific bacteria",
+      "head_type": "microbial species",
+      "relation": "contribute to",
       "tail": "pathophysiological mechanisms",
       "tail_type": "biological process"
     },
     {
-      "head": "alternative tools",
-      "head_type": "medical tool",
-      "relation": "provided by",
-      "tail": "better understanding of gut-brain interactions",
-      "tail_type": "knowledge domain"
+      "head": "probiotic supplementation",
+      "head_type": "treatment",
+      "relation": "affects",
+      "tail": "prosocial behavior",
+      "tail_type": "behavioral trait"
     },
     {
-      "head": "intervention strategies",
-      "head_type": "medical intervention",
-      "relation": "aids",
-      "tail": "clinicians",
-      "tail_type": "healthcare professional"
+      "head": "probiotic supplementation",
+      "head_type": "treatment",
+      "relation": "impacts",
+      "tail": "ASD",
+      "tail_type": "disease"
     },
     {
-      "head": "detection of populations at risk",
-      "head_type": "preventive measure",
-      "relation": "aided by",
-      "tail": "better understanding of gut-brain interactions",
-      "tail_type": "knowledge domain"
+      "head": "prebiotic supplementation",
+      "head_type": "treatment",
+      "relation": "decreases likelihood of",
+      "tail": "ADHD",
+      "tail_type": "disease"
+    },
+    {
+      "head": "prebiotic supplementation",
+      "head_type": "treatment",
+      "relation": "decreases likelihood of",
+      "tail": "ASD",
+      "tail_type": "disease"
     }
   ]
 }

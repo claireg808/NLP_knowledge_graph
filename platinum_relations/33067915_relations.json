@@ -1,48 +1,55 @@
 {
-  "title": "Interaction between Maternal Immune Activation and Antibiotic Use during Pregnancy and Child Risk of Autism Spectrum Disorder",
+  "title": "Interaction between Maternal Immune Activation and Antibiotic Use during Pregnancy and Child Risk of Autism Spectrum Disorder.",
   "abstract": "Prenatal exposure to maternal immune activation (MIA) has been implicated as a risk factor for the development of autism spectrum disorder (ASD), though the conditions under which this elevated risk occurs are unclear. Animal literature demonstrates that antibiotic use, which affects the composition of the maternal gut microbiota, modifies the effect of MIA on neurodevelopmental outcomes in the offspring. The aim of this study was to assess whether antibiotic use during pregnancy modifies the association between MIA and subsequent risk of ASD, in a prospective birth cohort with 116 ASD cases and 860 typically developing (TD) child controls. There was no evidence of interaction between fever or genitourinary infection and antibiotic use on the odds of ASD in unadjusted or adjusted analyzes. However, we found evidence of an interaction between flu, specifically in second trimester, and antibiotic use at any point during pregnancy on the odds of ASD in the child. Among women who received an antibiotic during pregnancy, flu in trimester two was not associated with ASD (adjusted odds ratio [aOR] = 0.99 [0.43-2.28]). Among women who were not exposed to an antibiotic at any point during pregnancy, flu in second trimester was significantly associated with increased odds of ASD (aOR = 4.05 [1.14-14.38], P = .03), after adjustment for child sex, child birth year, maternal age, gestational age, C-section delivery, and low birthweight. These findings should be treated as hypothesis-generating and suggest that antibiotic use may modify the influence that MIA has on autism risk in the child. LAY SUMMARY: We looked at whether the association between activation of the immune system during pregnancy and risk of the child developing autism spectrum disorder (ASD) differed among women who did or did not take an antibiotic at any point during pregnancy. We examined 116 children with ASD and 860 without ASD and found that flu in second trimester was associated with increased ASD, but only among women who did not take an antibiotic during pregnancy. No other immune activation exposures seemed to interact with antibiotic use.",
   "relations": [
     {
       "head": "maternal immune activation",
-      "head_type": "Condition",
+      "head_type": "phenomenon",
       "relation": "risk factor for",
       "tail": "autism spectrum disorder",
-      "tail_type": "Condition"
+      "tail_type": "disorder"
     },
     {
       "head": "antibiotic use",
-      "head_type": "Treatment",
-      "relation": "modifies effect on",
-      "tail": "maternal immune activation",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "antibiotic use",
-      "head_type": "Treatment",
+      "head_type": "treatment",
       "relation": "affects",
       "tail": "maternal gut microbiota",
-      "tail_type": "Biological Component"
+      "tail_type": "biological structure"
+    },
+    {
+      "head": "antibiotic use",
+      "head_type": "treatment",
+      "relation": "modifies effect of",
+      "tail": "maternal immune activation",
+      "tail_type": "phenomenon"
     },
     {
       "head": "maternal immune activation",
-      "head_type": "Condition",
-      "relation": "affects",
+      "head_type": "phenomenon",
+      "relation": "influences",
       "tail": "neurodevelopmental outcomes",
-      "tail_type": "Outcome"
+      "tail_type": "outcome"
     },
     {
       "head": "flu",
-      "head_type": "Infection",
+      "head_type": "illness",
       "relation": "associated with",
       "tail": "autism spectrum disorder",
-      "tail_type": "Condition"
+      "tail_type": "disorder"
     },
     {
       "head": "antibiotic use",
-      "head_type": "Treatment",
-      "relation": "modifies",
-      "tail": "association between flu and autism spectrum disorder",
-      "tail_type": "Association"
+      "head_type": "treatment",
+      "relation": "reduces association between",
+      "tail": "flu and autism spectrum disorder",
+      "tail_type": "disorder"
+    },
+    {
+      "head": "flu",
+      "head_type": "illness",
+      "relation": "increases odds of",
+      "tail": "autism spectrum disorder",
+      "tail_type": "disorder"
     }
   ]
 }

@@ -4,80 +4,73 @@
   "relations": [
     {
       "head": "running exercises",
-      "head_type": "Exercise",
-      "relation": "impacts",
+      "head_type": "activity",
+      "relation": "affects",
       "tail": "microbial tryptophan metabolism",
-      "tail_type": "Biological Process"
+      "tail_type": "metabolic process"
     },
     {
-      "head": "running exercises",
-      "head_type": "Exercise",
-      "relation": "induces",
-      "tail": "changes in tryptophan metabolism",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "tryptophan metabolism",
-      "head_type": "Biological Process",
+      "head": "microbial tryptophan metabolism",
+      "head_type": "metabolic process",
       "relation": "influences",
       "tail": "gut-brain axis",
-      "tail_type": "Biological System"
-    },
-    {
-      "head": "microbial metabolites",
-      "head_type": "Chemical",
-      "relation": "originate from",
-      "tail": "tryptophan metabolism",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "fecal microbiota analysis",
-      "head_type": "Analytical Method",
-      "relation": "examines",
-      "tail": "gut microbiota composition",
-      "tail_type": "Biological Entity"
-    },
-    {
-      "head": "taxon-function analysis",
-      "head_type": "Analytical Method",
-      "relation": "explores",
-      "tail": "associations between microbial taxa and tryptophan metabolism",
-      "tail_type": "Biological Process"
+      "tail_type": "biological system"
     },
     {
       "head": "Romboutsia",
-      "head_type": "Microbial Taxon",
-      "relation": "symbiotically associates with",
+      "head_type": "microbial taxon",
+      "relation": "associates with",
       "tail": "A. muciniphila",
-      "tail_type": "Microbial Taxon"
+      "tail_type": "microbial taxon"
     },
     {
       "head": "Romboutsia",
-      "head_type": "Microbial Taxon",
+      "head_type": "microbial taxon",
       "relation": "contributes to",
-      "tail": "modification of gut microenvironment",
-      "tail_type": "Biological Process"
+      "tail": "gut microenvironment",
+      "tail_type": "environment"
     },
     {
       "head": "A. muciniphila",
-      "head_type": "Microbial Taxon",
+      "head_type": "microbial taxon",
+      "relation": "contributes to",
+      "tail": "gut microenvironment",
+      "tail_type": "environment"
+    },
+    {
+      "head": "gut microenvironment",
+      "head_type": "environment",
       "relation": "influences",
       "tail": "tryptophan transport",
-      "tail_type": "Biological Process"
+      "tail_type": "transport process"
     },
     {
-      "head": "tryptophan",
-      "head_type": "Chemical",
-      "relation": "transported to",
+      "head": "tryptophan transport",
+      "head_type": "transport process",
+      "relation": "affects",
       "tail": "hippocampus",
-      "tail_type": "Brain Region"
+      "tail_type": "brain region"
     },
     {
-      "head": "tryptophan",
-      "head_type": "Chemical",
-      "relation": "transported to",
+      "head": "tryptophan transport",
+      "head_type": "transport process",
+      "relation": "affects",
       "tail": "brainstem",
-      "tail_type": "Brain Region"
+      "tail_type": "brain region"
+    },
+    {
+      "head": "running exercises",
+      "head_type": "activity",
+      "relation": "induces",
+      "tail": "shifts in microbiota diversity",
+      "tail_type": "biological change"
+    },
+    {
+      "head": "shifts in microbiota diversity",
+      "head_type": "biological change",
+      "relation": "linked to",
+      "tail": "increased tryptophan transportation",
+      "tail_type": "transport process"
     }
   ]
 }

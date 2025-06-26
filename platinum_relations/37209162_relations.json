@@ -1,4 +1,160 @@
 {
   "title": "Bacillus licheniformis prevents and reduces anxiety-like and depression-like behaviours.",
-  "abstract": "As common mental disorders, depression and anxiety impact people all around the world. Recent studies have found that the gut microbiome plays an important role in mental health. It is becoming possible to treat mental disorders by regulating the composition of the gut microbiota. Bacillus licheniformis is a probiotic used to treat gut diseases through balancing the gut microbiome during lasting years. Considering the role of gut microbiota in the gut-brain axis, this study used chronic unpredictable mild stress (CUMS) model rats to explore whether Bacillus licheniformis can prevent and treat depression and anxiety. We found that B. licheniformis reduced the depressive-like and anxiety-like behaviours of the rats during the CUMS process. Meanwhile, B. licheniformis changed the gut microbiota composition; increased the short chain fatty acids (SCFAs) in the colon, decreased kynurenine, norepinephrine, and glutamate levels; and increased the tryptophan, dopamine, epinephrine, and \u03b3-aminobutyric acid (GABA) in the brain. After correlation analysis, we found Parabacteroides, Anaerostipes, Ruminococcus-2, and Blautia showed significant correlation with neurotransmitters and SCFAs, indicating the gut microbiome plays an important role in B. licheniformis reducing depressive-like behaviours. Therefore, this study suggested B. licheniformis may prevent depressive-like and anxiety-like behaviours while regulating the gut microbiota composition and increasing the SCFA levels in the colon to alter the levels of the neurotransmitters in the brain. KEY POINTS: \u2022 B. licheniformis reduced depressive-like and anxiety-like behaviours induced by the chronic unpredictable mild stress. \u2022 GABA levels in the brain are assonated with B. licheniformis regulating depressive-like and anxiety-like behaviours. \u2022 Gut microbiota composition alteration followed by metabolic changes may play a role in the GABA levels increase."
+  "abstract": "As common mental disorders, depression and anxiety impact people all around the world. Recent studies have found that the gut microbiome plays an important role in mental health. It is becoming possible to treat mental disorders by regulating the composition of the gut microbiota. Bacillus licheniformis is a probiotic used to treat gut diseases through balancing the gut microbiome during lasting years. Considering the role of gut microbiota in the gut-brain axis, this study used chronic unpredictable mild stress (CUMS) model rats to explore whether Bacillus licheniformis can prevent and treat depression and anxiety. We found that B. licheniformis reduced the depressive-like and anxiety-like behaviours of the rats during the CUMS process. Meanwhile, B. licheniformis changed the gut microbiota composition; increased the short chain fatty acids (SCFAs) in the colon, decreased kynurenine, norepinephrine, and glutamate levels; and increased the tryptophan, dopamine, epinephrine, and \u03b3-aminobutyric acid (GABA) in the brain. After correlation analysis, we found Parabacteroides, Anaerostipes, Ruminococcus-2, and Blautia showed significant correlation with neurotransmitters and SCFAs, indicating the gut microbiome plays an important role in B. licheniformis reducing depressive-like behaviours. Therefore, this study suggested B. licheniformis may prevent depressive-like and anxiety-like behaviours while regulating the gut microbiota composition and increasing the SCFA levels in the colon to alter the levels of the neurotransmitters in the brain. KEY POINTS: \u2022 B. licheniformis reduced depressive-like and anxiety-like behaviours induced by the chronic unpredictable mild stress. \u2022 GABA levels in the brain are assonated with B. licheniformis regulating depressive-like and anxiety-like behaviours. \u2022 Gut microbiota composition alteration followed by metabolic changes may play a role in the GABA levels increase.",
+  "relations": [
+    {
+      "head": "Bacillus licheniformis",
+      "head_type": "Probiotic",
+      "relation": "prevents",
+      "tail": "depressive-like behaviours",
+      "tail_type": "Behaviour"
+    },
+    {
+      "head": "Bacillus licheniformis",
+      "head_type": "Probiotic",
+      "relation": "reduces",
+      "tail": "anxiety-like behaviours",
+      "tail_type": "Behaviour"
+    },
+    {
+      "head": "Bacillus licheniformis",
+      "head_type": "Probiotic",
+      "relation": "reduces",
+      "tail": "depressive-like behaviours",
+      "tail_type": "Behaviour"
+    },
+    {
+      "head": "Bacillus licheniformis",
+      "head_type": "Probiotic",
+      "relation": "reduces",
+      "tail": "anxiety-like behaviours",
+      "tail_type": "Behaviour"
+    },
+    {
+      "head": "Bacillus licheniformis",
+      "head_type": "Probiotic",
+      "relation": "balances",
+      "tail": "gut microbiome",
+      "tail_type": "Microbiome"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "Microbiome",
+      "relation": "impacts",
+      "tail": "mental health",
+      "tail_type": "Health Aspect"
+    },
+    {
+      "head": "Bacillus licheniformis",
+      "head_type": "Probiotic",
+      "relation": "increases",
+      "tail": "short chain fatty acids",
+      "tail_type": "Metabolite"
+    },
+    {
+      "head": "Bacillus licheniformis",
+      "head_type": "Probiotic",
+      "relation": "decreases",
+      "tail": "kynurenine",
+      "tail_type": "Metabolite"
+    },
+    {
+      "head": "Bacillus licheniformis",
+      "head_type": "Probiotic",
+      "relation": "decreases",
+      "tail": "norepinephrine",
+      "tail_type": "Neurotransmitter"
+    },
+    {
+      "head": "Bacillus licheniformis",
+      "head_type": "Probiotic",
+      "relation": "decreases",
+      "tail": "glutamate",
+      "tail_type": "Neurotransmitter"
+    },
+    {
+      "head": "Bacillus licheniformis",
+      "head_type": "Probiotic",
+      "relation": "increases",
+      "tail": "tryptophan",
+      "tail_type": "Amino Acid"
+    },
+    {
+      "head": "Bacillus licheniformis",
+      "head_type": "Probiotic",
+      "relation": "increases",
+      "tail": "dopamine",
+      "tail_type": "Neurotransmitter"
+    },
+    {
+      "head": "Bacillus licheniformis",
+      "head_type": "Probiotic",
+      "relation": "increases",
+      "tail": "epinephrine",
+      "tail_type": "Neurotransmitter"
+    },
+    {
+      "head": "Bacillus licheniformis",
+      "head_type": "Probiotic",
+      "relation": "increases",
+      "tail": "GABA",
+      "tail_type": "Neurotransmitter"
+    },
+    {
+      "head": "Parabacteroides",
+      "head_type": "Bacteria",
+      "relation": "correlates with",
+      "tail": "neurotransmitters",
+      "tail_type": "Neurotransmitter"
+    },
+    {
+      "head": "Anaerostipes",
+      "head_type": "Bacteria",
+      "relation": "correlates with",
+      "tail": "neurotransmitters",
+      "tail_type": "Neurotransmitter"
+    },
+    {
+      "head": "Ruminococcus-2",
+      "head_type": "Bacteria",
+      "relation": "correlates with",
+      "tail": "neurotransmitters",
+      "tail_type": "Neurotransmitter"
+    },
+    {
+      "head": "Blautia",
+      "head_type": "Bacteria",
+      "relation": "correlates with",
+      "tail": "neurotransmitters",
+      "tail_type": "Neurotransmitter"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "Microbiome",
+      "relation": "plays a role in",
+      "tail": "reducing depressive-like behaviours",
+      "tail_type": "Behaviour"
+    },
+    {
+      "head": "GABA",
+      "head_type": "Neurotransmitter",
+      "relation": "associated with",
+      "tail": "Bacillus licheniformis",
+      "tail_type": "Probiotic"
+    },
+    {
+      "head": "gut microbiota composition alteration",
+      "head_type": "Microbiome Change",
+      "relation": "leads to",
+      "tail": "metabolic changes",
+      "tail_type": "Metabolic Process"
+    },
+    {
+      "head": "metabolic changes",
+      "head_type": "Metabolic Process",
+      "relation": "affect",
+      "tail": "GABA levels",
+      "tail_type": "Neurotransmitter Level"
+    }
+  ]
 }

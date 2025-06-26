@@ -1,6 +1,6 @@
 {
-  "title": "The small bowel microbiome changes significantly with age and aspects of the ageing process",
-  "abstract": "Gut microbiome changes have been associated with human ageing and implicated in age-related diseases including Alzheimer's disease and Parkinson's disease. However, studies to date have used stool samples, which do not represent the entire gut. Although more challenging to access, the small intestine plays critical roles in host metabolism and immune function. In this paper (Leite et al. (2021), Cell Reports, doi: 10.1016/j.celrep.2021.109765), we demonstrate significant differences in the small intestinal microbiome in older subjects, using duodenal aspirates from 251 subjects aged 18-80 years. Differences included significantly decreased microbial diversity in older subjects, driven by increased relative abundance of phylum Proteobacteria, particularly family Enterobacteriaceae and coliform genera Escherichia and Klebsiella. Moreover, while this decreased diversity was associated with the 'ageing process' (comprising chronologic age, number of medications, and number of concomitant diseases), changes in certain taxa were found to be associated with number of medications alone (Klebsiella), number of diseases alone (Clostridium, Bilophila), or chronologic age alone (Escherichia, Lactobacillus, Enterococcus). Lastly, many taxa associated with increasing chronologic age were anaerobes. These changes may contribute to changes in human health that occur during the ageing process.",
+  "title": "The small bowel microbiome changes significantly with age and aspects of the ageing process.",
+  "abstract": "Gut microbiome changes have been associated with human ageing and implicated in age-related diseases including Alzheimer's disease and Parkinson's disease. However, studies to date have used stool samples, which do not represent the entire gut. Although more challenging to access, the small intestine plays critical roles in host metabolism and immune function. In this paper (Leite <i>et al.</i> (2021), Cell Reports, doi: 10.1016/j.celrep.2021.109765), we demonstrate significant differences in the small intestinal microbiome in older subjects, using duodenal aspirates from 251 subjects aged 18-80 years. Differences included significantly decreased microbial diversity in older subjects, driven by increased relative abundance of phylum Proteobacteria, particularly family Enterobacteriaceae and coliform genera <i>Escherichia</i> and <i>Klebsiella.</i> Moreover, while this decreased diversity was associated with the 'ageing process' (comprising chronologic age, number of medications, and number of concomitant diseases), changes in certain taxa were found to be associated with number of medications alone (<i>Klebsiella</i>), number of diseases alone (<i>Clostridium, Bilophila</i>), or chronologic age alone (<i>Escherichia</i>, <i>Lactobacillus, Enterococcus</i>). Lastly, many taxa associated with increasing chronologic age were anaerobes. These changes may contribute to changes in human health that occur during the ageing process.",
   "relations": [
     {
       "head": "Gut microbiome changes",
@@ -13,20 +13,13 @@
       "head": "Gut microbiome changes",
       "head_type": "Biological Process",
       "relation": "implicated in",
-      "tail": "age-related diseases",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "age-related diseases",
-      "head_type": "Disease",
-      "relation": "includes",
       "tail": "Alzheimer's disease",
       "tail_type": "Disease"
     },
     {
-      "head": "age-related diseases",
-      "head_type": "Disease",
-      "relation": "includes",
+      "head": "Gut microbiome changes",
+      "head_type": "Biological Process",
+      "relation": "implicated in",
       "tail": "Parkinson's disease",
       "tail_type": "Disease"
     },
@@ -34,7 +27,7 @@
       "head": "stool samples",
       "head_type": "Sample Type",
       "relation": "do not represent",
-      "tail": "the entire gut",
+      "tail": "entire gut",
       "tail_type": "Anatomical Structure"
     },
     {
@@ -52,23 +45,30 @@
       "tail_type": "Biological Process"
     },
     {
-      "head": "Leite et al. (2021)",
-      "head_type": "Research Paper",
-      "relation": "demonstrate",
-      "tail": "significant differences in the small intestinal microbiome",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "significant differences",
+      "head": "small intestinal microbiome differences",
       "head_type": "Biological Process",
-      "relation": "found in",
+      "relation": "demonstrated in",
       "tail": "older subjects",
       "tail_type": "Population Group"
     },
     {
-      "head": "microbial diversity",
+      "head": "duodenal aspirates",
+      "head_type": "Sample Type",
+      "relation": "used from",
+      "tail": "251 subjects",
+      "tail_type": "Population Group"
+    },
+    {
+      "head": "subjects",
+      "head_type": "Population Group",
+      "relation": "aged",
+      "tail": "18-80 years",
+      "tail_type": "Age Range"
+    },
+    {
+      "head": "decreased microbial diversity",
       "head_type": "Biological Process",
-      "relation": "decreased in",
+      "relation": "found in",
       "tail": "older subjects",
       "tail_type": "Population Group"
     },
@@ -76,8 +76,15 @@
       "head": "decreased microbial diversity",
       "head_type": "Biological Process",
       "relation": "driven by",
-      "tail": "increased relative abundance of phylum Proteobacteria",
+      "tail": "increased relative abundance",
       "tail_type": "Biological Process"
+    },
+    {
+      "head": "increased relative abundance",
+      "head_type": "Biological Process",
+      "relation": "of",
+      "tail": "phylum Proteobacteria",
+      "tail_type": "Taxonomic Group"
     },
     {
       "head": "phylum Proteobacteria",
@@ -104,106 +111,106 @@
       "head": "decreased diversity",
       "head_type": "Biological Process",
       "relation": "associated with",
-      "tail": "'ageing process'",
+      "tail": "ageing process",
       "tail_type": "Biological Process"
     },
     {
-      "head": "'ageing process'",
+      "head": "ageing process",
       "head_type": "Biological Process",
-      "relation": "comprising",
+      "relation": "comprises",
       "tail": "chronologic age",
-      "tail_type": "Measure"
+      "tail_type": "Measurement"
     },
     {
-      "head": "'ageing process'",
+      "head": "ageing process",
       "head_type": "Biological Process",
-      "relation": "comprising",
+      "relation": "comprises",
       "tail": "number of medications",
-      "tail_type": "Measure"
+      "tail_type": "Measurement"
     },
     {
-      "head": "'ageing process'",
+      "head": "ageing process",
       "head_type": "Biological Process",
-      "relation": "comprising",
+      "relation": "comprises",
       "tail": "number of concomitant diseases",
-      "tail_type": "Measure"
+      "tail_type": "Measurement"
     },
     {
       "head": "changes in certain taxa",
       "head_type": "Biological Process",
       "relation": "associated with",
       "tail": "number of medications alone",
-      "tail_type": "Measure"
+      "tail_type": "Measurement"
     },
     {
       "head": "changes in certain taxa",
       "head_type": "Biological Process",
       "relation": "associated with",
       "tail": "number of diseases alone",
-      "tail_type": "Measure"
+      "tail_type": "Measurement"
     },
     {
       "head": "changes in certain taxa",
       "head_type": "Biological Process",
       "relation": "associated with",
       "tail": "chronologic age alone",
-      "tail_type": "Measure"
+      "tail_type": "Measurement"
     },
     {
       "head": "Klebsiella",
       "head_type": "Taxonomic Group",
       "relation": "associated with",
       "tail": "number of medications alone",
-      "tail_type": "Measure"
+      "tail_type": "Measurement"
     },
     {
       "head": "Clostridium",
       "head_type": "Taxonomic Group",
       "relation": "associated with",
       "tail": "number of diseases alone",
-      "tail_type": "Measure"
+      "tail_type": "Measurement"
     },
     {
       "head": "Bilophila",
       "head_type": "Taxonomic Group",
       "relation": "associated with",
       "tail": "number of diseases alone",
-      "tail_type": "Measure"
+      "tail_type": "Measurement"
     },
     {
       "head": "Escherichia",
       "head_type": "Taxonomic Group",
       "relation": "associated with",
       "tail": "chronologic age alone",
-      "tail_type": "Measure"
+      "tail_type": "Measurement"
     },
     {
       "head": "Lactobacillus",
       "head_type": "Taxonomic Group",
       "relation": "associated with",
       "tail": "chronologic age alone",
-      "tail_type": "Measure"
+      "tail_type": "Measurement"
     },
     {
       "head": "Enterococcus",
       "head_type": "Taxonomic Group",
       "relation": "associated with",
       "tail": "chronologic age alone",
-      "tail_type": "Measure"
+      "tail_type": "Measurement"
     },
     {
-      "head": "many taxa",
+      "head": "taxa",
       "head_type": "Taxonomic Group",
       "relation": "associated with",
       "tail": "increasing chronologic age",
-      "tail_type": "Measure"
+      "tail_type": "Measurement"
     },
     {
-      "head": "many taxa",
+      "head": "taxa",
       "head_type": "Taxonomic Group",
       "relation": "are",
       "tail": "anaerobes",
-      "tail_type": "Taxonomic Group"
+      "tail_type": "Biological Characteristic"
     },
     {
       "head": "changes",
@@ -216,7 +223,7 @@
       "head": "changes in human health",
       "head_type": "Biological Process",
       "relation": "occur during",
-      "tail": "the ageing process",
+      "tail": "ageing process",
       "tail_type": "Biological Process"
     }
   ]

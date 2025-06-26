@@ -4,157 +4,185 @@
   "relations": [
     {
       "head": "Shotgun metagenomics",
-      "head_type": "Technique",
+      "head_type": "Method",
       "relation": "reveals",
-      "tail": "gut microbiota differences",
-      "tail_type": "Biological Entity"
+      "tail": "taxonomic differences",
+      "tail_type": "Trait"
+    },
+    {
+      "head": "Shotgun metagenomics",
+      "head_type": "Method",
+      "relation": "reveals",
+      "tail": "tryptophan pathway differences",
+      "tail_type": "Trait"
     },
     {
       "head": "Microbiome-gut-brain axis",
-      "head_type": "Biological System",
+      "head_type": "Pathway",
       "relation": "is connected to",
       "tail": "bipolar disorder",
       "tail_type": "Disease"
     },
     {
-      "head": "Microbial tryptophan biosynthesis and metabolism pathway",
-      "head_type": "Biological Pathway",
-      "relation": "is part of",
-      "tail": "Microbiome-gut-brain axis",
-      "tail_type": "Biological System"
+      "head": "Microbial tryptophan biosynthesis and metabolism pathway (MiTBamp)",
+      "head_type": "Pathway",
+      "relation": "is connected to",
+      "tail": "bipolar disorder with current major depressive episode (BPD)",
+      "tail_type": "Disease"
     },
     {
-      "head": "Bipolar disorder",
-      "head_type": "Disease",
-      "relation": "has",
-      "tail": "current major depressive episode",
-      "tail_type": "Symptom"
-    },
-    {
-      "head": "Shotgun metagenomics sequencing",
-      "head_type": "Technique",
+      "head": "Shotgun metagenomics sequencing (SMS)",
+      "head_type": "Method",
       "relation": "analyzes",
       "tail": "faecal samples",
       "tail_type": "Sample"
     },
     {
-      "head": "BPD patients",
-      "head_type": "Patient Group",
-      "relation": "have",
-      "tail": "gut microbiota alterations",
-      "tail_type": "Biological Entity"
+      "head": "Shotgun metagenomics sequencing (SMS)",
+      "head_type": "Method",
+      "relation": "performed on",
+      "tail": "25 BPD patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "Shotgun metagenomics sequencing (SMS)",
+      "head_type": "Method",
+      "relation": "performed on",
+      "tail": "28 healthy controls (HCs)",
+      "tail_type": "Control Group"
+    },
+    {
+      "head": "Random Forests (RF)",
+      "head_type": "Algorithm",
+      "relation": "used in",
+      "tail": "classification model",
+      "tail_type": "Model"
+    },
+    {
+      "head": "Boruta algorithm",
+      "head_type": "Algorithm",
+      "relation": "used in",
+      "tail": "classification model",
+      "tail_type": "Model"
+    },
+    {
+      "head": "classification model",
+      "head_type": "Model",
+      "relation": "finds",
+      "tail": "microbial biomarkers",
+      "tail_type": "Biomarker"
     },
     {
       "head": "Phylum Bacteroidetes",
       "head_type": "Taxonomic Group",
-      "relation": "has reduced abundance",
-      "tail": "in BPD patients",
+      "relation": "reduced in",
+      "tail": "BPD patients",
       "tail_type": "Patient Group"
     },
     {
       "head": "Phylum Actinobacteria",
       "head_type": "Taxonomic Group",
-      "relation": "has increased abundance",
-      "tail": "in BPD patients",
+      "relation": "increased in",
+      "tail": "BPD patients",
       "tail_type": "Patient Group"
     },
     {
       "head": "Phylum Firmicutes",
       "head_type": "Taxonomic Group",
-      "relation": "has increased abundance",
-      "tail": "in BPD patients",
+      "relation": "increased in",
+      "tail": "BPD patients",
       "tail_type": "Patient Group"
     },
     {
-      "head": "KEGG orthology K00658",
-      "head_type": "Genomic Entity",
-      "relation": "is lower",
-      "tail": "in BPD patients",
+      "head": "38 species",
+      "head_type": "Taxonomic Group",
+      "relation": "increased in",
+      "tail": "BPD group",
       "tail_type": "Patient Group"
     },
     {
-      "head": "KEGG orthology K00837",
-      "head_type": "Genomic Entity",
-      "relation": "is lower",
-      "tail": "in BPD patients",
+      "head": "6 species",
+      "head_type": "Taxonomic Group",
+      "relation": "decreased in",
+      "tail": "BPD group",
       "tail_type": "Patient Group"
     },
     {
-      "head": "KEGG orthology K01696",
-      "head_type": "Genomic Entity",
-      "relation": "is higher",
-      "tail": "in BPD patients",
-      "tail_type": "Patient Group"
+      "head": "KEGG orthology (KO) K00658",
+      "head_type": "Gene Orthology",
+      "relation": "lower in",
+      "tail": "BPD",
+      "tail_type": "Disease"
     },
     {
-      "head": "KEGG orthology K00382",
-      "head_type": "Genomic Entity",
-      "relation": "is higher",
-      "tail": "in BPD patients",
-      "tail_type": "Patient Group"
+      "head": "KEGG orthology (KO) K00837",
+      "head_type": "Gene Orthology",
+      "relation": "lower in",
+      "tail": "BPD",
+      "tail_type": "Disease"
     },
     {
-      "head": "KEGG orthology K00626",
-      "head_type": "Genomic Entity",
-      "relation": "is higher",
-      "tail": "in BPD patients",
-      "tail_type": "Patient Group"
+      "head": "KEGG orthology (KO) K01696",
+      "head_type": "Gene Orthology",
+      "relation": "higher in",
+      "tail": "BPD",
+      "tail_type": "Disease"
     },
     {
-      "head": "KEGG orthology K01667",
-      "head_type": "Genomic Entity",
-      "relation": "is higher",
-      "tail": "in BPD patients",
-      "tail_type": "Patient Group"
+      "head": "KEGG orthology (KO) K00382",
+      "head_type": "Gene Orthology",
+      "relation": "higher in",
+      "tail": "BPD",
+      "tail_type": "Disease"
     },
     {
-      "head": "KEGG orthology K03781",
-      "head_type": "Genomic Entity",
-      "relation": "is higher",
-      "tail": "in BPD patients",
-      "tail_type": "Patient Group"
+      "head": "KEGG orthology (KO) K00626",
+      "head_type": "Gene Orthology",
+      "relation": "higher in",
+      "tail": "BPD",
+      "tail_type": "Disease"
     },
     {
-      "head": "Random Forests algorithm",
-      "head_type": "Machine Learning Algorithm",
-      "relation": "used for",
-      "tail": "classification model",
-      "tail_type": "Methodology"
+      "head": "KEGG orthology (KO) K01667",
+      "head_type": "Gene Orthology",
+      "relation": "higher in",
+      "tail": "BPD",
+      "tail_type": "Disease"
     },
     {
-      "head": "Boruta algorithm",
-      "head_type": "Feature Selection Algorithm",
-      "relation": "used for",
-      "tail": "finding microbial biomarkers",
-      "tail_type": "Methodology"
-    },
-    {
-      "head": "Gut microbiota",
-      "head_type": "Biological Entity",
-      "relation": "classified at",
-      "tail": "genus level",
-      "tail_type": "Taxonomic Level"
+      "head": "KEGG orthology (KO) K03781",
+      "head_type": "Gene Orthology",
+      "relation": "higher in",
+      "tail": "BPD",
+      "tail_type": "Disease"
     },
     {
       "head": "RF classification",
-      "head_type": "Machine Learning Model",
+      "head_type": "Model",
+      "relation": "based on",
+      "tail": "gut microbiota at genus level",
+      "tail_type": "Taxonomic Group"
+    },
+    {
+      "head": "RF classification",
+      "head_type": "Model",
       "relation": "achieves",
-      "tail": "high area under the ROC curve",
+      "tail": "area under the receiver operating characteristic curve of 0.997",
       "tail_type": "Performance Metric"
     },
     {
       "head": "Alterations of microbes",
-      "head_type": "Biological Change",
+      "head_type": "Trait",
       "relation": "have potential as",
       "tail": "biomarkers",
-      "tail_type": "Diagnostic Tool"
+      "tail_type": "Biomarker"
     },
     {
-      "head": "BPD patients",
-      "head_type": "Patient Group",
-      "relation": "distinguished from",
-      "tail": "healthy controls",
-      "tail_type": "Control Group"
+      "head": "Alterations of microbes",
+      "head_type": "Trait",
+      "relation": "distinguish",
+      "tail": "BPD patients from HCs",
+      "tail_type": "Patient Group"
     }
   ]
 }

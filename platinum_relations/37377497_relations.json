@@ -3,102 +3,102 @@
   "abstract": "In response to environmental challenges, stress is a common reaction, but dysregulation of the stress response can lead to neuropsychiatric disorders, including depression and cognitive impairment. Particularly, there is ample evidence that overexposure to mental stress can have lasting detrimental consequences for psychological health, cognitive function, and ultimately well-being. In fact, some individuals are resilient to the same stressor. A major benefit of enhancing stress resilience in at-risk groups is that it may help prevent the onset of stress-induced mental health problems. A potential therapeutic strategy for maintaining a healthy life is to address stress-induced health problems with botanicals or dietary supplements such as polyphenols. Triphala, also known as Zhe Busong decoction in Tibetan, is a well-recognized Ayurvedic polyherbal medicine comprising dried fruits from three different plant species. As a promising food-sourced phytotherapy, triphala polyphenols have been used throughout history to treat a variety of medical conditions, including brain health maintenance. Nevertheless, a comprehensive review is still lacking. Here, the primary objective of this review article is to provide an overview of the classification, safety, and pharmacokinetics of triphala polyphenols, as well as recommendations for the development of triphala polyphenols as a novel therapeutic strategy for promoting resilience in susceptible individuals. Additionally, we summarize recent advances demonstrating that triphala polyphenols are beneficial to cognitive and psychological resilience by regulating 5-hydroxytryptamine (5-HT) and brain-derived neurotrophic factor (BDNF) receptors, gut microbiota, and antioxidant-related signaling pathways. Overall, scientific exploration of triphala polyphenols is warranted to understand their therapeutic efficacy. In addition to providing novel insights into the mechanisms of triphala polyphenols for promoting stress resilience, blood brain barrier (BBB) permeability and systemic bioavailability of triphala polyphenols also need to be improved by the research community. Moreover, well-designed clinical trials are needed to increase the scientific validity of triphala polyphenols' beneficial effects for preventing and treating cognitive impairment and psychological dysfunction.",
   "relations": [
     {
-      "head": "Triphala polyphenols",
-      "head_type": "Substance",
-      "relation": "used to treat",
-      "tail": "brain health maintenance",
-      "tail_type": "Therapeutic application"
-    },
-    {
       "head": "Triphala",
-      "head_type": "Medicine",
+      "head_type": "Herbal Medicine",
       "relation": "also known as",
       "tail": "Zhe Busong decoction",
-      "tail_type": "Medicine"
+      "tail_type": "Herbal Medicine"
     },
     {
       "head": "Triphala",
-      "head_type": "Medicine",
-      "relation": "is a type of",
+      "head_type": "Herbal Medicine",
+      "relation": "is a",
       "tail": "Ayurvedic polyherbal medicine",
-      "tail_type": "Medicine"
+      "tail_type": "Medicine Type"
+    },
+    {
+      "head": "Triphala",
+      "head_type": "Herbal Medicine",
+      "relation": "comprising",
+      "tail": "dried fruits",
+      "tail_type": "Plant Product"
+    },
+    {
+      "head": "Triphala",
+      "head_type": "Herbal Medicine",
+      "relation": "treats",
+      "tail": "brain health maintenance",
+      "tail_type": "Health Condition"
     },
     {
       "head": "Triphala polyphenols",
-      "head_type": "Substance",
-      "relation": "beneficial for",
+      "head_type": "Botanical Supplement",
+      "relation": "beneficial to",
       "tail": "cognitive resilience",
-      "tail_type": "Therapeutic benefit"
+      "tail_type": "Health Outcome"
     },
     {
       "head": "Triphala polyphenols",
-      "head_type": "Substance",
-      "relation": "beneficial for",
+      "head_type": "Botanical Supplement",
+      "relation": "beneficial to",
       "tail": "psychological resilience",
-      "tail_type": "Therapeutic benefit"
+      "tail_type": "Health Outcome"
     },
     {
       "head": "Triphala polyphenols",
-      "head_type": "Substance",
-      "relation": "regulate",
+      "head_type": "Botanical Supplement",
+      "relation": "regulating",
       "tail": "5-hydroxytryptamine (5-HT) receptors",
-      "tail_type": "Biological receptor"
+      "tail_type": "Biological Component"
     },
     {
       "head": "Triphala polyphenols",
-      "head_type": "Substance",
-      "relation": "regulate",
+      "head_type": "Botanical Supplement",
+      "relation": "regulating",
       "tail": "brain-derived neurotrophic factor (BDNF) receptors",
-      "tail_type": "Biological receptor"
+      "tail_type": "Biological Component"
     },
     {
       "head": "Triphala polyphenols",
-      "head_type": "Substance",
-      "relation": "affect",
+      "head_type": "Botanical Supplement",
+      "relation": "affecting",
       "tail": "gut microbiota",
-      "tail_type": "Biological entity"
+      "tail_type": "Biological Component"
     },
     {
       "head": "Triphala polyphenols",
-      "head_type": "Substance",
-      "relation": "involved in",
+      "head_type": "Botanical Supplement",
+      "relation": "affecting",
       "tail": "antioxidant-related signaling pathways",
-      "tail_type": "Biological process"
+      "tail_type": "Biological Process"
     },
     {
       "head": "Triphala polyphenols",
-      "head_type": "Substance",
-      "relation": "help in",
-      "tail": "promoting stress resilience",
-      "tail_type": "Therapeutic benefit"
-    },
-    {
-      "head": "Triphala polyphenols",
-      "head_type": "Substance",
-      "relation": "affect",
+      "head_type": "Botanical Supplement",
+      "relation": "need improvement in",
       "tail": "blood brain barrier (BBB) permeability",
-      "tail_type": "Biological process"
+      "tail_type": "Physiological Process"
     },
     {
       "head": "Triphala polyphenols",
-      "head_type": "Substance",
-      "relation": "influence",
+      "head_type": "Botanical Supplement",
+      "relation": "need improvement in",
       "tail": "systemic bioavailability",
-      "tail_type": "Biological process"
+      "tail_type": "Physiological Process"
     },
     {
       "head": "Triphala polyphenols",
-      "head_type": "Substance",
-      "relation": "used for",
-      "tail": "preventing cognitive impairment",
-      "tail_type": "Therapeutic application"
+      "head_type": "Botanical Supplement",
+      "relation": "prevent and treat",
+      "tail": "cognitive impairment",
+      "tail_type": "Health Condition"
     },
     {
       "head": "Triphala polyphenols",
-      "head_type": "Substance",
-      "relation": "used for",
-      "tail": "treating psychological dysfunction",
-      "tail_type": "Therapeutic application"
+      "head_type": "Botanical Supplement",
+      "relation": "prevent and treat",
+      "tail": "psychological dysfunction",
+      "tail_type": "Health Condition"
     }
   ]
 }

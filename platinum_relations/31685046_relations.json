@@ -7,19 +7,19 @@
       "head_type": "Method",
       "relation": "reveals",
       "tail": "taxonomic differences",
-      "tail_type": "Characteristic"
+      "tail_type": "Difference"
     },
     {
       "head": "Shotgun metagenomics",
       "head_type": "Method",
       "relation": "reveals",
       "tail": "tryptophan pathway differences",
-      "tail_type": "Characteristic"
+      "tail_type": "Difference"
     },
     {
       "head": "gut microbiota",
-      "head_type": "Microbial Community",
-      "relation": "linked to",
+      "head_type": "Microbiota",
+      "relation": "associated with",
       "tail": "major depressive disorder",
       "tail_type": "Disease"
     },
@@ -27,78 +27,141 @@
       "head": "microbiota-gut-brain axis",
       "head_type": "Biological Axis",
       "relation": "plays a role in",
-      "tail": "pathogenesis",
-      "tail_type": "Pathological Process"
+      "tail": "pathogenesis of major depressive disorder",
+      "tail_type": "Pathogenesis"
     },
     {
-      "head": "MiTBamp",
+      "head": "microbial tryptophan (Trp) biosynthesis and metabolism pathway",
       "head_type": "Pathway",
-      "relation": "biosynthesis and metabolism",
-      "tail": "tryptophan",
-      "tail_type": "Biochemical Compound"
+      "relation": "linked to",
+      "tail": "major depressive disorder",
+      "tail_type": "Disease"
     },
     {
       "head": "MiTBamp",
       "head_type": "Pathway",
       "relation": "analyzed in",
       "tail": "MDD patients",
-      "tail_type": "Patient Group"
+      "tail_type": "Patients"
     },
     {
       "head": "shotgun metagenomic sequencing",
-      "head_type": "Sequencing Method",
+      "head_type": "Method",
       "relation": "performed on",
       "tail": "stool samples",
-      "tail_type": "Sample Type"
+      "tail_type": "Samples"
+    },
+    {
+      "head": "stool samples",
+      "head_type": "Samples",
+      "relation": "collected from",
+      "tail": "MDD patients",
+      "tail_type": "Patients"
+    },
+    {
+      "head": "stool samples",
+      "head_type": "Samples",
+      "relation": "collected from",
+      "tail": "healthy controls",
+      "tail_type": "Controls"
+    },
+    {
+      "head": "Random Forests (RF) algorithm",
+      "head_type": "Algorithm",
+      "relation": "used for",
+      "tail": "classification",
+      "tail_type": "Classification"
+    },
+    {
+      "head": "Boruta algorithm",
+      "head_type": "Algorithm",
+      "relation": "used for",
+      "tail": "feature selection",
+      "tail_type": "Feature Selection"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbiota",
+      "relation": "identified as",
+      "tail": "biomarkers",
+      "tail_type": "Biomarkers"
     },
     {
       "head": "Bacteroidetes",
       "head_type": "Bacterial Phylum",
       "relation": "reduced abundance in",
       "tail": "MDD patients",
-      "tail_type": "Patient Group"
+      "tail_type": "Patients"
     },
     {
       "head": "Actinobacteria",
       "head_type": "Bacterial Phylum",
       "relation": "increased abundance in",
       "tail": "MDD patients",
-      "tail_type": "Patient Group"
+      "tail_type": "Patients"
     },
     {
       "head": "Bifidobacterium",
-      "head_type": "Probiotic",
+      "head_type": "Bacterial Genus",
       "relation": "increased levels in",
       "tail": "MDD patients",
-      "tail_type": "Patient Group"
+      "tail_type": "Patients"
     },
     {
-      "head": "KEGG orthologies (KOs)",
-      "head_type": "Genomic Data",
-      "relation": "abundances lower in",
+      "head": "Bifidobacterium",
+      "head_type": "Bacterial Genus",
+      "relation": "used as",
+      "tail": "probiotic",
+      "tail_type": "Probiotic"
+    },
+    {
+      "head": "K01817",
+      "head_type": "KEGG Orthology",
+      "relation": "abundance lower in",
       "tail": "MDD group",
-      "tail_type": "Patient Group"
+      "tail_type": "Group"
+    },
+    {
+      "head": "K11358",
+      "head_type": "KEGG Orthology",
+      "relation": "abundance lower in",
+      "tail": "MDD group",
+      "tail_type": "Group"
     },
     {
       "head": "K01626",
       "head_type": "KEGG Orthology",
-      "relation": "negative correlation with",
+      "relation": "abundance lower in",
+      "tail": "MDD group",
+      "tail_type": "Group"
+    },
+    {
+      "head": "K01667",
+      "head_type": "KEGG Orthology",
+      "relation": "abundance lower in",
+      "tail": "MDD group",
+      "tail_type": "Group"
+    },
+    {
+      "head": "K01626",
+      "head_type": "KEGG Orthology",
+      "relation": "negatively correlated with",
       "tail": "HAMD scores",
-      "tail_type": "Clinical Measure"
+      "tail_type": "Score"
     },
     {
       "head": "Random Forests (RF) classification",
       "head_type": "Classification Method",
-      "relation": "achieves",
-      "tail": "area under the curve of 0.890",
+      "relation": "achieved",
+      "tail": "area under the receiver operating characteristic curve of 0.890",
       "tail_type": "Performance Metric"
     },
     {
       "head": "gut microbiota alterations",
-      "head_type": "Microbial Changes",
+      "head_type": "Alteration",
       "relation": "potential biomarkers for",
-      "tail": "distinguishing MDD patients",
-      "tail_type": "Diagnostic Use"
+      "tail": "distinguishing MDD patients from HCs",
+      "tail_type": "Biomarker Use"
     }
   ]
 }

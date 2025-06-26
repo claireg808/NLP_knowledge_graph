@@ -5,7 +5,7 @@
     {
       "head": "Parkinson's disease",
       "head_type": "Disease",
-      "relation": "associated_with",
+      "relation": "associated with",
       "tail": "gut microbiota",
       "tail_type": "Microbiota"
     },
@@ -21,76 +21,83 @@
       "head_type": "Microbiota",
       "relation": "impacts",
       "tail": "clinical picture",
-      "tail_type": "Clinical_Picture"
+      "tail_type": "Clinical Picture"
     },
     {
-      "head": "Bacteroides",
-      "head_type": "Bacteria",
-      "relation": "increased_in",
-      "tail": "Parkinson's disease patients",
-      "tail_type": "Patient"
+      "head": "Parkinson's disease",
+      "head_type": "Disease",
+      "relation": "has microbiome changes",
+      "tail": "gut microbiome",
+      "tail_type": "Microbiome"
     },
     {
-      "head": "Firmicutes",
-      "head_type": "Bacteria",
-      "relation": "decreased_in",
-      "tail": "Parkinson's disease patients",
-      "tail_type": "Patient"
+      "head": "PD patients",
+      "head_type": "Patient",
+      "relation": "show",
+      "tail": "increase in Bacteroides",
+      "tail_type": "Bacteria"
     },
     {
-      "head": "Firmicutes / Bacteroidetes ratio",
-      "head_type": "Ratio",
-      "relation": "decreased_in",
-      "tail": "Parkinson's disease patients",
-      "tail_type": "Patient"
+      "head": "PD patients",
+      "head_type": "Patient",
+      "relation": "show",
+      "tail": "decrease in Firmicutes",
+      "tail_type": "Bacteria"
     },
     {
-      "head": "Bifidobacteria",
-      "head_type": "Bacteria",
-      "relation": "decreased_in",
-      "tail": "Parkinson's disease patients",
-      "tail_type": "Patient"
+      "head": "PD patients",
+      "head_type": "Patient",
+      "relation": "show",
+      "tail": "decrease in Firmicutes / Bacteroidetes ratio",
+      "tail_type": "Ratio"
+    },
+    {
+      "head": "PD patients",
+      "head_type": "Patient",
+      "relation": "show",
+      "tail": "decrease in Bifidobacteria",
+      "tail_type": "Bacteria"
     },
     {
       "head": "Prevotella",
       "head_type": "Bacteria",
-      "relation": "decreased_in",
-      "tail": "Parkinson's disease patients",
+      "relation": "decreased in",
+      "tail": "PD patients",
       "tail_type": "Patient"
     },
     {
       "head": "Mixed phenotype",
       "head_type": "Phenotype",
-      "relation": "has_higher",
-      "tail": "Bacteroides",
+      "relation": "has",
+      "tail": "higher Bacteroides",
       "tail_type": "Bacteria"
     },
     {
       "head": "Tremors predominant phenotype",
       "head_type": "Phenotype",
-      "relation": "has_lower",
-      "tail": "Firmicutes",
+      "relation": "has",
+      "tail": "lower Firmicutes",
       "tail_type": "Bacteria"
     },
     {
       "head": "Tremors predominant phenotype",
       "head_type": "Phenotype",
-      "relation": "has_lower",
-      "tail": "Firmicutes / Bacteroidetes ratio",
+      "relation": "has",
+      "tail": "lower Firmicutes / Bacteroidetes ratio",
       "tail_type": "Ratio"
     },
     {
       "head": "PIGD phenotype",
       "head_type": "Phenotype",
-      "relation": "has_lower",
-      "tail": "Bifidobacteria",
+      "relation": "has",
+      "tail": "lower Bifidobacteria",
       "tail_type": "Bacteria"
     },
     {
       "head": "non-tremors predominant phenotype",
       "head_type": "Phenotype",
-      "relation": "has_lower",
-      "tail": "Lactobacilli",
+      "relation": "has",
+      "tail": "decrease in Lactobacilli",
       "tail_type": "Bacteria"
     }
   ]

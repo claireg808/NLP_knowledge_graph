@@ -1,55 +1,41 @@
 {
-  "title": "How Toll-like receptors influence Parkinson's disease in the microbiome-gut-brain axis.",
+  "title": "How Toll-like receptors influence Parkinson's disease in the microbiome-gut-brain axis",
   "abstract": "Recently, a large number of experimenters have found that the pathogenesis of Parkinson's disease may be related to the gut microbiome and proposed the microbiome-gut-brain axis. Studies have shown that Toll-like receptors, especially Toll-like receptor 2 (TLR2) and Toll-like receptor 4 (TLR4), are key mediators of gut homeostasis. In addition to their established role in innate immunity throughout the body, research is increasingly showing that the Toll-like receptor 2 and Toll-like receptor 4 signaling pathways shape the development and function of the gut and enteric nervous system. Notably, Toll-like receptor 2 and Toll-like receptor 4 are dysregulated in Parkinson's disease patients and may therefore be identified as the core of early gut dysfunction in Parkinson's disease. To better understand the contribution of Toll-like receptor 2 and Toll-like receptor 4 dysfunction in the gut to early \u03b1-synuclein aggregation, we discussed the structural function of Toll-like receptor 2 and Toll-like receptor 4 and signal transduction of Toll-like receptor 2 and Toll-like receptor 4 in Parkinson's disease by reviewing clinical, animal models, and in vitro studies. We also present a conceptual model of the pathogenesis of Parkinson's disease, in which microbial dysbiosis alters the gut barrier as well as the Toll-like receptor 2 and Toll-like receptor 4 signaling pathways, ultimately leading to a positive feedback loop for chronic gut dysfunction, promoting \u03b1-synuclein aggregation in the gut and vagus nerve.",
   "relations": [
     {
       "head": "Toll-like receptors",
       "head_type": "Protein",
-      "relation": "mediator_of",
+      "relation": "influences",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Toll-like receptor 2",
+      "head_type": "Protein",
+      "relation": "mediates",
+      "tail": "gut homeostasis",
+      "tail_type": "Physiological Process"
+    },
+    {
+      "head": "Toll-like receptor 4",
+      "head_type": "Protein",
+      "relation": "mediates",
       "tail": "gut homeostasis",
       "tail_type": "Physiological Process"
     },
     {
       "head": "Toll-like receptor 2",
       "head_type": "Protein",
-      "relation": "part_of",
-      "tail": "Toll-like receptors",
-      "tail_type": "Protein"
-    },
-    {
-      "head": "Toll-like receptor 4",
-      "head_type": "Protein",
-      "relation": "part_of",
-      "tail": "Toll-like receptors",
-      "tail_type": "Protein"
-    },
-    {
-      "head": "Toll-like receptor 2",
-      "head_type": "Protein",
-      "relation": "involved_in",
-      "tail": "innate immunity",
-      "tail_type": "Physiological Process"
-    },
-    {
-      "head": "Toll-like receptor 4",
-      "head_type": "Protein",
-      "relation": "involved_in",
-      "tail": "innate immunity",
-      "tail_type": "Physiological Process"
-    },
-    {
-      "head": "Toll-like receptor 2",
-      "head_type": "Protein",
       "relation": "shapes",
       "tail": "gut development",
-      "tail_type": "Physiological Process"
+      "tail_type": "Developmental Process"
     },
     {
       "head": "Toll-like receptor 4",
       "head_type": "Protein",
       "relation": "shapes",
       "tail": "gut development",
-      "tail_type": "Physiological Process"
+      "tail_type": "Developmental Process"
     },
     {
       "head": "Toll-like receptor 2",
@@ -68,28 +54,28 @@
     {
       "head": "Toll-like receptor 2",
       "head_type": "Protein",
-      "relation": "dysregulated_in",
+      "relation": "is dysregulated in",
       "tail": "Parkinson's disease",
       "tail_type": "Disease"
     },
     {
       "head": "Toll-like receptor 4",
       "head_type": "Protein",
-      "relation": "dysregulated_in",
+      "relation": "is dysregulated in",
       "tail": "Parkinson's disease",
       "tail_type": "Disease"
     },
     {
       "head": "Toll-like receptor 2",
       "head_type": "Protein",
-      "relation": "contributes_to",
+      "relation": "contributes to",
       "tail": "\u03b1-synuclein aggregation",
       "tail_type": "Pathological Process"
     },
     {
       "head": "Toll-like receptor 4",
       "head_type": "Protein",
-      "relation": "contributes_to",
+      "relation": "contributes to",
       "tail": "\u03b1-synuclein aggregation",
       "tail_type": "Pathological Process"
     },
@@ -117,41 +103,27 @@
     {
       "head": "Toll-like receptor 2 signaling pathways",
       "head_type": "Physiological Process",
-      "relation": "part_of",
-      "tail": "Toll-like receptors",
-      "tail_type": "Protein"
+      "relation": "leads to",
+      "tail": "chronic gut dysfunction",
+      "tail_type": "Condition"
     },
     {
       "head": "Toll-like receptor 4 signaling pathways",
       "head_type": "Physiological Process",
-      "relation": "part_of",
-      "tail": "Toll-like receptors",
-      "tail_type": "Protein"
-    },
-    {
-      "head": "Toll-like receptor 2 signaling pathways",
-      "head_type": "Physiological Process",
-      "relation": "leads_to",
+      "relation": "leads to",
       "tail": "chronic gut dysfunction",
-      "tail_type": "Pathological Process"
-    },
-    {
-      "head": "Toll-like receptor 4 signaling pathways",
-      "head_type": "Physiological Process",
-      "relation": "leads_to",
-      "tail": "chronic gut dysfunction",
-      "tail_type": "Pathological Process"
+      "tail_type": "Condition"
     },
     {
       "head": "chronic gut dysfunction",
-      "head_type": "Pathological Process",
+      "head_type": "Condition",
       "relation": "promotes",
       "tail": "\u03b1-synuclein aggregation",
       "tail_type": "Pathological Process"
     },
     {
       "head": "chronic gut dysfunction",
-      "head_type": "Pathological Process",
+      "head_type": "Condition",
       "relation": "affects",
       "tail": "vagus nerve",
       "tail_type": "Anatomical Structure"

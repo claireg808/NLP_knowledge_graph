@@ -4,157 +4,52 @@
   "relations": [
     {
       "head": "Anxiety symptoms",
-      "head_type": "Condition",
-      "relation": "related to",
-      "tail": "dysbiosis of intestinal microbiota",
-      "tail_type": "Condition"
+      "head_type": "Mental Disorder",
+      "relation": "related_to",
+      "tail": "Intestinal microbiota",
+      "tail_type": "Biological Entity"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "Organism",
+      "head": "Gut microbiota",
+      "head_type": "Biological Entity",
       "relation": "regulates",
-      "tail": "brain function",
-      "tail_type": "Physiological Process"
+      "tail": "Brain function",
+      "tail_type": "Biological Process"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "Organism",
-      "relation": "communicates through",
-      "tail": "gut-brain axis",
-      "tail_type": "Biological Pathway"
+      "head": "Dysbiosis of intestinal microbiota",
+      "head_type": "Condition",
+      "relation": "related_to",
+      "tail": "Anxiety",
+      "tail_type": "Mental Disorder"
     },
     {
-      "head": "interventions regulating intestinal microbiota",
-      "head_type": "Therapeutic Intervention",
+      "head": "Probiotics",
+      "head_type": "Intervention",
+      "relation": "intervention_for",
+      "tail": "Regulating intestinal microbiota",
+      "tail_type": "Therapeutic Strategy"
+    },
+    {
+      "head": "Non-probiotic interventions",
+      "head_type": "Intervention",
+      "relation": "intervention_for",
+      "tail": "Regulating intestinal microbiota",
+      "tail_type": "Therapeutic Strategy"
+    },
+    {
+      "head": "Regulating intestinal microbiota",
+      "head_type": "Therapeutic Strategy",
       "relation": "improves",
-      "tail": "anxiety symptoms",
-      "tail_type": "Condition"
+      "tail": "Anxiety symptoms",
+      "tail_type": "Mental Disorder"
     },
     {
-      "head": "probiotics",
-      "head_type": "Therapeutic Agent",
-      "relation": "used in",
-      "tail": "interventions regulating intestinal microbiota",
-      "tail_type": "Therapeutic Intervention"
-    },
-    {
-      "head": "non-probiotic ways",
-      "head_type": "Therapeutic Intervention",
-      "relation": "used in",
-      "tail": "interventions regulating intestinal microbiota",
-      "tail_type": "Therapeutic Intervention"
-    },
-    {
-      "head": "randomised controlled trials",
-      "head_type": "Research Study",
-      "relation": "included in",
-      "tail": "systematic review",
-      "tail_type": "Literature Review"
-    },
-    {
-      "head": "PubMed",
-      "head_type": "Database",
-      "relation": "searched in",
-      "tail": "systematic review",
-      "tail_type": "Literature Review"
-    },
-    {
-      "head": "EMBASE",
-      "head_type": "Database",
-      "relation": "searched in",
-      "tail": "systematic review",
-      "tail_type": "Literature Review"
-    },
-    {
-      "head": "Cochrane Library",
-      "head_type": "Database",
-      "relation": "searched in",
-      "tail": "systematic review",
-      "tail_type": "Literature Review"
-    },
-    {
-      "head": "OVID",
-      "head_type": "Database",
-      "relation": "searched in",
-      "tail": "systematic review",
-      "tail_type": "Literature Review"
-    },
-    {
-      "head": "Web of Knowledge",
-      "head_type": "Database",
-      "relation": "searched in",
-      "tail": "systematic review",
-      "tail_type": "Literature Review"
-    },
-    {
-      "head": "CNKI",
-      "head_type": "Database",
-      "relation": "searched in",
-      "tail": "systematic review",
-      "tail_type": "Literature Review"
-    },
-    {
-      "head": "Wanfang Data",
-      "head_type": "Database",
-      "relation": "searched in",
-      "tail": "systematic review",
-      "tail_type": "Literature Review"
-    },
-    {
-      "head": "VIP databases",
-      "head_type": "Database",
-      "relation": "searched in",
-      "tail": "systematic review",
-      "tail_type": "Literature Review"
-    },
-    {
-      "head": "SinoMed",
-      "head_type": "Database",
-      "relation": "searched in",
-      "tail": "systematic review",
-      "tail_type": "Literature Review"
-    },
-    {
-      "head": "Cochrane risk of bias",
-      "head_type": "Quality Assessment Tool",
-      "relation": "used for",
-      "tail": "quality evaluation",
-      "tail_type": "Quality Assessment"
-    },
-    {
-      "head": "Jadad scale",
-      "head_type": "Quality Assessment Tool",
-      "relation": "used for",
-      "tail": "quality evaluation",
-      "tail_type": "Quality Assessment"
-    },
-    {
-      "head": "interventions regulating intestinal flora (IRIF)",
-      "head_type": "Therapeutic Intervention",
-      "relation": "used in",
-      "tail": "studies",
-      "tail_type": "Research Study"
-    },
-    {
-      "head": "non-probiotic ways",
-      "head_type": "Therapeutic Intervention",
-      "relation": "effective in",
-      "tail": "treating anxiety symptoms",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "probiotic ways",
-      "head_type": "Therapeutic Intervention",
-      "relation": "effective in",
-      "tail": "treating anxiety symptoms",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "non-probiotic interventions",
-      "head_type": "Therapeutic Intervention",
-      "relation": "more effective than",
-      "tail": "probiotic interventions",
-      "tail_type": "Therapeutic Intervention"
+      "head": "Non-probiotic interventions",
+      "head_type": "Intervention",
+      "relation": "is_more_effective_than",
+      "tail": "Probiotic interventions",
+      "tail_type": "Intervention"
     }
   ]
 }

@@ -4,45 +4,73 @@
   "relations": [
     {
       "head": "Mice",
-      "head_type": "Organism",
+      "head_type": "Rodent Models",
       "relation": "used to understand",
       "tail": "gut microbiome",
       "tail_type": "Biological Entity"
     },
     {
-      "head": "gut microbiome",
-      "head_type": "Biological Entity",
-      "relation": "plays role in",
+      "head": "Rodent Models",
+      "head_type": "Rodent Models",
+      "relation": "used to understand",
       "tail": "neurological disorders",
       "tail_type": "Disease"
     },
     {
-      "head": "gut microbiome",
-      "head_type": "Biological Entity",
-      "relation": "plays role in",
+      "head": "Rodent Models",
+      "head_type": "Rodent Models",
+      "relation": "used to understand",
       "tail": "psychiatric disorders",
       "tail_type": "Disease"
     },
     {
       "head": "protocol",
-      "head_type": "Method",
+      "head_type": "Protocol",
       "relation": "characterizes",
-      "tail": "rodent gut",
-      "tail_type": "Biological Entity"
+      "tail": "structural phenotype",
+      "tail_type": "Biological Phenotype"
     },
     {
       "head": "protocol",
-      "head_type": "Method",
+      "head_type": "Protocol",
+      "relation": "characterizes",
+      "tail": "functional phenotype",
+      "tail_type": "Biological Phenotype"
+    },
+    {
+      "head": "protocol",
+      "head_type": "Protocol",
       "relation": "examines",
       "tail": "gut microbiota composition",
-      "tail_type": "Biological Entity"
+      "tail_type": "Biological Composition"
     },
     {
       "head": "V4 16S rRNA gene sequencing",
-      "head_type": "Technique",
+      "head_type": "Sequencing Method",
       "relation": "used for",
       "tail": "microbiome profiling",
-      "tail_type": "Method"
+      "tail_type": "Biological Analysis"
+    },
+    {
+      "head": "protocol",
+      "head_type": "Protocol",
+      "relation": "has utility for",
+      "tail": "investigating gut",
+      "tail_type": "Biological Structure"
+    },
+    {
+      "head": "protocol",
+      "head_type": "Protocol",
+      "relation": "has utility for",
+      "tail": "associated microbiota",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "rodent models",
+      "head_type": "Rodent Models",
+      "relation": "used for",
+      "tail": "human disorders",
+      "tail_type": "Disease"
     }
   ]
 }

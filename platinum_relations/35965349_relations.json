@@ -4,199 +4,290 @@
   "relations": [
     {
       "head": "antimicrobial resistance",
-      "head_type": "Threat",
+      "head_type": "Concept",
       "relation": "is a threat to",
       "tail": "global health",
-      "tail_type": "Health"
+      "tail_type": "Concept"
     },
     {
       "head": "antimicrobial resistance",
-      "head_type": "Threat",
-      "relation": "places pressure on",
+      "head_type": "Concept",
+      "relation": "has placed pressure on",
       "tail": "livestock industry",
       "tail_type": "Industry"
     },
     {
-      "head": "AGPs",
-      "head_type": "Feed Additive",
-      "relation": "used as",
-      "tail": "antibiotic growth promotants",
-      "tail_type": "Growth Promotant"
+      "head": "livestock industry",
+      "head_type": "Industry",
+      "relation": "aim to eliminate",
+      "tail": "antibiotic growth promotants (AGPs)",
+      "tail_type": "Substance"
     },
     {
       "head": "AGPs",
-      "head_type": "Feed Additive",
+      "head_type": "Substance",
+      "relation": "are used as",
+      "tail": "feed additives",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "AGPs",
+      "head_type": "Substance",
       "relation": "modulate",
       "tail": "gut microbiome",
-      "tail_type": "Microbiome"
+      "tail_type": "Biological Entity"
     },
     {
-      "head": "AGPs",
-      "head_type": "Feed Additive",
-      "relation": "limit opportunities for",
+      "head": "gut microbiome",
+      "head_type": "Biological Entity",
+      "relation": "limits",
       "tail": "colonization by pathogens",
-      "tail_type": "Pathogen Colonization"
+      "tail_type": "Biological Process"
     },
     {
-      "head": "AGPs",
-      "head_type": "Feed Additive",
-      "relation": "increase",
+      "head": "gut microbiome",
+      "head_type": "Biological Entity",
+      "relation": "increases",
       "tail": "nutrient utilization",
-      "tail_type": "Nutrient Utilization"
+      "tail_type": "Biological Process"
     },
     {
-      "head": "AGPs",
-      "head_type": "Feed Additive",
-      "relation": "reduce",
+      "head": "gut microbiome",
+      "head_type": "Biological Entity",
+      "relation": "reduces",
       "tail": "inflammation",
-      "tail_type": "Inflammation"
+      "tail_type": "Biological Process"
     },
     {
       "head": "AGPs",
-      "head_type": "Feed Additive",
+      "head_type": "Substance",
       "relation": "impact",
       "tail": "community composition",
-      "tail_type": "Community Composition"
+      "tail_type": "Biological Entity"
     },
     {
       "head": "study",
       "head_type": "Research Study",
       "relation": "investigates",
-      "tail": "chicken gut microbiome",
-      "tail_type": "Microbiome"
+      "tail": "impact of AGPs",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "study",
+      "head_type": "Research Study",
+      "relation": "examines",
+      "tail": "composition and function of chicken gut microbiome",
+      "tail_type": "Biological Entity"
     },
     {
       "head": "birds",
-      "head_type": "Livestock",
+      "head_type": "Organism",
       "relation": "raised under",
       "tail": "two different diets",
       "tail_type": "Diet"
     },
     {
       "head": "birds",
-      "head_type": "Livestock",
-      "relation": "exposed to",
+      "head_type": "Organism",
+      "relation": "receive",
       "tail": "AGP treatments",
       "tail_type": "Treatment"
     },
     {
       "head": "16S rDNA surveys",
-      "head_type": "Survey Method",
+      "head_type": "Method",
       "relation": "applied to",
       "tail": "six GI sites",
-      "tail_type": "GI Sites"
+      "tail_type": "Anatomical Location"
     },
     {
-      "head": "16S rDNA surveys",
-      "head_type": "Survey Method",
+      "head": "six GI sites",
+      "head_type": "Anatomical Location",
       "relation": "sampled at",
       "tail": "three key timepoints",
-      "tail_type": "Timepoints"
+      "tail_type": "Timepoint"
     },
     {
       "head": "study",
       "head_type": "Research Study",
-      "relation": "reveals",
-      "tail": "nuanced view of AGP impact",
-      "tail_type": "Impact View"
+      "relation": "performs",
+      "tail": "metatranscriptomics analyses",
+      "tail_type": "Method"
+    },
+    {
+      "head": "study",
+      "head_type": "Research Study",
+      "relation": "performs",
+      "tail": "metabolomics",
+      "tail_type": "Method"
     },
     {
       "head": "AGPs",
-      "head_type": "Feed Additive",
+      "head_type": "Substance",
+      "relation": "have limited impact on",
+      "tail": "taxonomic abundances",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "AGPs",
+      "head_type": "Substance",
       "relation": "redefine",
       "tail": "influential taxa",
-      "tail_type": "Taxa"
+      "tail_type": "Biological Entity"
     },
     {
       "head": "influential taxa",
-      "head_type": "Taxa",
+      "head_type": "Biological Entity",
       "relation": "promote exclusion of",
       "tail": "other taxa",
-      "tail_type": "Taxa"
+      "tail_type": "Biological Entity"
     },
     {
       "head": "microbiome expression profiles",
-      "head_type": "Profile",
+      "head_type": "Biological Entity",
       "relation": "reveal",
       "tail": "complex landscape",
-      "tail_type": "Landscape"
+      "tail_type": "Concept"
     },
     {
       "head": "complex landscape",
-      "head_type": "Landscape",
+      "head_type": "Concept",
       "relation": "includes",
-      "tail": "multiple pathways",
-      "tail_type": "Pathways"
+      "tail": "cell wall biogenesis",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "complex landscape",
+      "head_type": "Concept",
+      "relation": "includes",
+      "tail": "antimicrobial resistance",
+      "tail_type": "Concept"
+    },
+    {
+      "head": "complex landscape",
+      "head_type": "Concept",
+      "relation": "includes",
+      "tail": "energy metabolism",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "complex landscape",
+      "head_type": "Concept",
+      "relation": "includes",
+      "tail": "amino acid metabolism",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "complex landscape",
+      "head_type": "Concept",
+      "relation": "includes",
+      "tail": "nucleotide metabolism",
+      "tail_type": "Biological Process"
     },
     {
       "head": "AGP-induced changes",
-      "head_type": "Changes",
+      "head_type": "Effect",
       "relation": "redirect",
       "tail": "metabolic flux",
-      "tail_type": "Metabolic Flux"
+      "tail_type": "Biological Process"
     },
     {
       "head": "AGP-induced changes",
-      "head_type": "Changes",
+      "head_type": "Effect",
       "relation": "regulate",
       "tail": "bacterial growth",
-      "tail_type": "Growth"
+      "tail_type": "Biological Process"
     },
     {
       "head": "AGP-induced changes",
-      "head_type": "Changes",
+      "head_type": "Effect",
       "relation": "produce",
       "tail": "metabolites",
-      "tail_type": "Metabolites"
+      "tail_type": "Substance"
     },
     {
-      "head": "alternatives",
-      "head_type": "Feed Additives",
-      "relation": "mimic",
-      "tail": "action of AGPs",
-      "tail_type": "AGP Action"
+      "head": "metabolites",
+      "head_type": "Substance",
+      "relation": "impact",
+      "tail": "host",
+      "tail_type": "Organism"
     },
     {
-      "head": "alternatives",
-      "head_type": "Feed Additives",
-      "relation": "result in",
+      "head": "alternative feed additives",
+      "head_type": "Substance",
+      "relation": "mimic action of",
+      "tail": "AGPs",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "study",
+      "head_type": "Research Study",
+      "relation": "highlights need to ensure",
       "tail": "functional changes",
-      "tail_type": "Functional Changes"
+      "tail_type": "Effect"
+    },
+    {
+      "head": "functional changes",
+      "head_type": "Effect",
+      "relation": "consistent with",
+      "tail": "site-associated taxa",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "functional changes",
+      "head_type": "Effect",
+      "relation": "consistent with",
+      "tail": "age-associated taxa",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "functional changes",
+      "head_type": "Effect",
+      "relation": "consistent with",
+      "tail": "diet-associated taxa",
+      "tail_type": "Biological Entity"
     },
     {
       "head": "genes and pathways",
-      "head_type": "Genomic Elements",
-      "relation": "drive",
-      "tail": "future studies",
-      "tail_type": "Studies"
+      "head_type": "Biological Entity",
+      "relation": "identified in study",
+      "tail": "drive future studies",
+      "tail_type": "Research Study"
     },
     {
       "head": "future studies",
-      "head_type": "Studies",
-      "relation": "focus on",
-      "tail": "mechanistic impact",
-      "tail_type": "Impact"
+      "head_type": "Research Study",
+      "relation": "apply",
+      "tail": "community-based metabolic modeling",
+      "tail_type": "Method"
     },
     {
-      "head": "data generated",
+      "head": "future studies",
+      "head_type": "Research Study",
+      "relation": "focus on",
+      "tail": "mechanistic impact of dietary regimes",
+      "tail_type": "Concept"
+    },
+    {
+      "head": "data generated in study",
       "head_type": "Data",
-      "relation": "crucial for",
-      "tail": "development of next-generation feed additives",
-      "tail_type": "Feed Additives"
+      "relation": "crucial for development of",
+      "tail": "next-generation feed additives",
+      "tail_type": "Substance"
     },
     {
       "head": "next-generation feed additives",
-      "head_type": "Feed Additives",
+      "head_type": "Substance",
       "relation": "target",
       "tail": "gut health",
-      "tail_type": "Health"
+      "tail_type": "Concept"
     },
     {
       "head": "next-generation feed additives",
-      "head_type": "Feed Additives",
+      "head_type": "Substance",
       "relation": "target",
       "tail": "poultry production",
-      "tail_type": "Production"
+      "tail_type": "Industry"
     }
   ]
 }

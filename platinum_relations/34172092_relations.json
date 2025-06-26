@@ -3,102 +3,116 @@
   "abstract": "Modification of the gut microbiota has been reported to reduce the incidence of type 1 diabetes mellitus (T1D). We hypothesized that the gut microbiota shifts might also have an effect on cognitive functions in T1D. Herein we used a non-absorbable antibiotic vancomycin to modify the gut microbiota in streptozotocin (STZ)-induced T1D mice and studied the impact of microbial changes on cognitive performances in T1D mice and its potential gut-brain neural mechanism. We found that vancomycin exposure disrupted the gut microbiome, altered host metabolic phenotypes, and facilitated cognitive impairment in T1D mice. Long-term acetate deficiency due to depletion of acetate-producing bacteria resulted in the reduction of synaptophysin (SYP) in the hippocampus as well as learning and memory impairments. Exogenous acetate supplement or fecal microbiota transplant recovered hippocampal SYP level in vancomycin-treated T1D mice, and this effect was attenuated by vagal inhibition or vagotomy. Our results demonstrate the protective role of microbiota metabolite acetate in cognitive functions and suggest long-term acetate deficiency as a risk factor of cognitive decline. Video Abstract.",
   "relations": [
     {
-      "head": "gut microbiota",
-      "head_type": "Organism",
-      "relation": "modifies",
-      "tail": "incidence",
-      "tail_type": "Incidence"
+      "head": "Modification of the gut microbiota",
+      "head_type": "Biological Process",
+      "relation": "reduces",
+      "tail": "incidence of type 1 diabetes mellitus (T1D)",
+      "tail_type": "Disease"
     },
     {
       "head": "gut microbiota shifts",
-      "head_type": "Organism",
-      "relation": "affects",
+      "head_type": "Biological Process",
+      "relation": "has effect on",
       "tail": "cognitive functions",
-      "tail_type": "Function"
+      "tail_type": "Physiological Function"
     },
     {
       "head": "vancomycin",
       "head_type": "Antibiotic",
       "relation": "modifies",
       "tail": "gut microbiota",
-      "tail_type": "Organism"
+      "tail_type": "Microbial Community"
+    },
+    {
+      "head": "vancomycin",
+      "head_type": "Antibiotic",
+      "relation": "used in",
+      "tail": "streptozotocin (STZ)-induced T1D mice",
+      "tail_type": "Experimental Model"
     },
     {
       "head": "vancomycin exposure",
       "head_type": "Exposure",
       "relation": "disrupts",
       "tail": "gut microbiome",
-      "tail_type": "Organism"
+      "tail_type": "Microbial Community"
     },
     {
       "head": "vancomycin exposure",
       "head_type": "Exposure",
       "relation": "alters",
       "tail": "host metabolic phenotypes",
-      "tail_type": "Phenotype"
+      "tail_type": "Physiological State"
     },
     {
       "head": "vancomycin exposure",
       "head_type": "Exposure",
       "relation": "facilitates",
       "tail": "cognitive impairment",
-      "tail_type": "Impairment"
+      "tail_type": "Cognitive Dysfunction"
     },
     {
-      "head": "acetate deficiency",
-      "head_type": "Deficiency",
-      "relation": "results in",
-      "tail": "reduction of synaptophysin (SYP)",
-      "tail_type": "Protein Level"
+      "head": "long-term acetate deficiency",
+      "head_type": "Metabolic Condition",
+      "relation": "due to",
+      "tail": "depletion of acetate-producing bacteria",
+      "tail_type": "Microbial Depletion"
     },
     {
-      "head": "acetate deficiency",
-      "head_type": "Deficiency",
+      "head": "long-term acetate deficiency",
+      "head_type": "Metabolic Condition",
       "relation": "results in",
+      "tail": "reduction of synaptophysin (SYP) in the hippocampus",
+      "tail_type": "Neurobiological Change"
+    },
+    {
+      "head": "long-term acetate deficiency",
+      "head_type": "Metabolic Condition",
+      "relation": "causes",
       "tail": "learning and memory impairments",
-      "tail_type": "Impairment"
+      "tail_type": "Cognitive Dysfunction"
     },
     {
       "head": "exogenous acetate supplement",
-      "head_type": "Supplement",
+      "head_type": "Therapeutic Intervention",
       "relation": "recovers",
       "tail": "hippocampal SYP level",
-      "tail_type": "Protein Level"
+      "tail_type": "Neurobiological Marker"
     },
     {
       "head": "fecal microbiota transplant",
-      "head_type": "Transplant",
+      "head_type": "Therapeutic Intervention",
       "relation": "recovers",
       "tail": "hippocampal SYP level",
-      "tail_type": "Protein Level"
+      "tail_type": "Neurobiological Marker"
     },
     {
       "head": "vagal inhibition",
-      "head_type": "Inhibition",
+      "head_type": "Intervention",
       "relation": "attenuates",
-      "tail": "effect of acetate",
-      "tail_type": "Effect"
+      "tail": "effect of acetate supplement",
+      "tail_type": "Therapeutic Effect"
     },
     {
       "head": "vagotomy",
       "head_type": "Surgical Procedure",
       "relation": "attenuates",
-      "tail": "effect of acetate",
-      "tail_type": "Effect"
+      "tail": "effect of acetate supplement",
+      "tail_type": "Therapeutic Effect"
     },
     {
-      "head": "acetate",
+      "head": "microbiota metabolite acetate",
       "head_type": "Metabolite",
       "relation": "protects",
       "tail": "cognitive functions",
-      "tail_type": "Function"
+      "tail_type": "Physiological Function"
     },
     {
-      "head": "acetate deficiency",
-      "head_type": "Deficiency",
+      "head": "long-term acetate deficiency",
+      "head_type": "Metabolic Condition",
       "relation": "is risk factor for",
       "tail": "cognitive decline",
-      "tail_type": "Decline"
+      "tail_type": "Cognitive Dysfunction"
     }
   ]
 }

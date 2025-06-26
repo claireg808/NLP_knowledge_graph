@@ -5,58 +5,72 @@
     {
       "head": "Xingpijieyu formula",
       "head_type": "Medicine",
-      "relation": "targets",
+      "relation": "hasRelation",
       "tail": "gut microbiota",
-      "tail_type": "Microbiota"
+      "tail_type": "Microorganism"
     },
     {
       "head": "Xingpijieyu formula",
       "head_type": "Medicine",
       "relation": "mediated via",
       "tail": "gut microbiota-brain axis",
-      "tail_type": "Physiological Axis"
+      "tail_type": "Physiological Pathway"
     },
     {
       "head": "Xingpijieyu formula",
       "head_type": "Medicine",
-      "relation": "treats",
-      "tail": "depressive disorder",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "Microbiota",
-      "relation": "derived from",
-      "tail": "depressive disorder",
-      "tail_type": "Disease"
+      "relation": "improved",
+      "tail": "behaviors",
+      "tail_type": "Behavior"
     },
     {
       "head": "Xingpijieyu formula",
       "head_type": "Medicine",
-      "relation": "administered to",
-      "tail": "germ-free rats",
-      "tail_type": "Animal Model"
+      "relation": "repressed",
+      "tail": "astrocyte activation",
+      "tail_type": "Cellular Process"
     },
     {
       "head": "Xingpijieyu formula",
       "head_type": "Medicine",
-      "relation": "improves",
-      "tail": "animal behaviors",
-      "tail_type": "Behavioral Outcome"
+      "relation": "elevated",
+      "tail": "2-DG uptake",
+      "tail_type": "Physiological Process"
     },
     {
       "head": "Xingpijieyu formula",
       "head_type": "Medicine",
-      "relation": "affects",
-      "tail": "HPA axis dysfunction",
-      "tail_type": "Physiological Dysfunction"
+      "relation": "elevated",
+      "tail": "ATP",
+      "tail_type": "Biochemical Substance"
     },
     {
       "head": "Xingpijieyu formula",
       "head_type": "Medicine",
-      "relation": "impacts",
-      "tail": "neurotransmitter synthesis",
-      "tail_type": "Biochemical Process"
+      "relation": "elevated",
+      "tail": "glucose-1-phosphate",
+      "tail_type": "Biochemical Substance"
+    },
+    {
+      "head": "Xingpijieyu formula",
+      "head_type": "Medicine",
+      "relation": "elevated",
+      "tail": "brain-derived neurotrophic factor",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "Xingpijieyu formula",
+      "head_type": "Medicine",
+      "relation": "inhibited",
+      "tail": "cytokines",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "Xingpijieyu formula",
+      "head_type": "Medicine",
+      "relation": "inhibited",
+      "tail": "oxidative stress",
+      "tail_type": "Physiological Process"
     },
     {
       "head": "Xingpijieyu formula",
@@ -69,36 +83,43 @@
       "head": "Xingpijieyu formula",
       "head_type": "Medicine",
       "relation": "targets",
-      "tail": "astrocyte activation",
+      "tail": "activation",
       "tail_type": "Cellular Process"
     },
     {
       "head": "Xingpijieyu formula",
       "head_type": "Medicine",
-      "relation": "affects",
+      "relation": "targets",
       "tail": "glycometabolism",
       "tail_type": "Metabolic Process"
     },
     {
       "head": "Xingpijieyu formula",
       "head_type": "Medicine",
-      "relation": "elevates",
-      "tail": "brain-derived neurotrophic factor (BDNF)",
-      "tail_type": "Protein"
+      "relation": "modulates",
+      "tail": "gut microbiota",
+      "tail_type": "Microorganism"
     },
     {
       "head": "Xingpijieyu formula",
       "head_type": "Medicine",
-      "relation": "inhibits",
-      "tail": "cytokines",
-      "tail_type": "Proteins"
+      "relation": "improves",
+      "tail": "animal behaviors",
+      "tail_type": "Behavior"
     },
     {
       "head": "Xingpijieyu formula",
       "head_type": "Medicine",
-      "relation": "inhibits",
-      "tail": "oxidative stress",
-      "tail_type": "Biological Stress"
+      "relation": "improves",
+      "tail": "HPA axis dysfunction",
+      "tail_type": "Physiological Dysfunction"
+    },
+    {
+      "head": "Xingpijieyu formula",
+      "head_type": "Medicine",
+      "relation": "improves",
+      "tail": "neurotransmitter synthesis",
+      "tail_type": "Biochemical Process"
     }
   ]
 }

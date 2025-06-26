@@ -4,171 +4,199 @@
   "relations": [
     {
       "head": "gut microbiota",
-      "head_type": "biological entity",
+      "head_type": "Biological Entity",
       "relation": "influence",
       "tail": "health",
-      "tail_type": "condition"
+      "tail_type": "Health Condition"
     },
     {
-      "head": "meditation",
-      "head_type": "activity",
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "influence",
+      "tail": "microbiota-gut-brain axis",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "Meditation",
+      "head_type": "Practice",
       "relation": "impact",
       "tail": "physical and mental health",
-      "tail_type": "condition"
+      "tail_type": "Health Condition"
     },
     {
       "head": "long-term deep meditation",
-      "head_type": "activity",
+      "head_type": "Practice",
       "relation": "regulate",
       "tail": "gut microbiota homeostasis",
-      "tail_type": "biological process"
+      "tail_type": "Biological Process"
     },
     {
       "head": "gut microbiota homeostasis",
-      "head_type": "biological process",
+      "head_type": "Biological Process",
       "relation": "affect",
       "tail": "physical and mental health",
-      "tail_type": "condition"
+      "tail_type": "Health Condition"
     },
     {
       "head": "16S rRNA gene sequencing",
-      "head_type": "method",
-      "relation": "analyze",
+      "head_type": "Method",
+      "relation": "performed on",
       "tail": "faecal samples",
-      "tail_type": "sample"
+      "tail_type": "Sample"
     },
     {
-      "head": "LEfSe analysis",
-      "head_type": "method",
-      "relation": "identify",
-      "tail": "differential microbial communities",
-      "tail_type": "biological entity"
+      "head": "faecal samples",
+      "head_type": "Sample",
+      "relation": "from",
+      "tail": "Tibetan Buddhist monks",
+      "tail_type": "Human Group"
+    },
+    {
+      "head": "faecal samples",
+      "head_type": "Sample",
+      "relation": "from",
+      "tail": "neighboring residents",
+      "tail_type": "Human Group"
+    },
+    {
+      "head": "LEfSe",
+      "head_type": "Method",
+      "relation": "employed to identify",
+      "tail": "differential intestinal microbial communities",
+      "tail_type": "Biological Entity"
     },
     {
       "head": "PICRUSt analysis",
-      "head_type": "method",
-      "relation": "predict",
-      "tail": "microbiota function",
-      "tail_type": "biological process"
+      "head_type": "Method",
+      "relation": "used to predict",
+      "tail": "function of faecal microbiota",
+      "tail_type": "Biological Function"
+    },
+    {
+      "head": "\u03b1-diversity indices",
+      "head_type": "Measure",
+      "relation": "differed significantly",
+      "tail": "meditation and control groups",
+      "tail_type": "Human Groups"
     },
     {
       "head": "Prevotella",
-      "head_type": "bacterial genus",
-      "relation": "enrich",
+      "head_type": "Bacterial Genus",
+      "relation": "enriched in",
       "tail": "meditation group",
-      "tail_type": "group"
+      "tail_type": "Human Group"
     },
     {
       "head": "Bacteroides",
-      "head_type": "bacterial genus",
-      "relation": "enrich",
+      "head_type": "Bacterial Genus",
+      "relation": "enriched in",
       "tail": "meditation group",
-      "tail_type": "group"
+      "tail_type": "Human Group"
     },
     {
       "head": "Megamonas",
-      "head_type": "bacterial genus",
-      "relation": "enrich",
+      "head_type": "Bacterial Genus",
+      "relation": "enriched in",
       "tail": "meditation group",
-      "tail_type": "group"
+      "tail_type": "Human Group"
     },
     {
       "head": "Faecalibacterium",
-      "head_type": "bacterial genus",
-      "relation": "enrich",
+      "head_type": "Bacterial Genus",
+      "relation": "enriched in",
       "tail": "meditation group",
-      "tail_type": "group"
+      "tail_type": "Human Group"
     },
     {
       "head": "glycan biosynthesis",
-      "head_type": "biological pathway",
-      "relation": "enrich",
+      "head_type": "Biological Pathway",
+      "relation": "enriched in",
       "tail": "meditation group",
-      "tail_type": "group"
+      "tail_type": "Human Group"
     },
     {
       "head": "metabolism",
-      "head_type": "biological process",
-      "relation": "enrich",
+      "head_type": "Biological Process",
+      "relation": "enriched in",
       "tail": "meditation group",
-      "tail_type": "group"
+      "tail_type": "Human Group"
     },
     {
       "head": "lipopolysaccharide biosynthesis",
-      "head_type": "biological pathway",
-      "relation": "enrich",
+      "head_type": "Biological Pathway",
+      "relation": "enriched in",
       "tail": "meditation group",
-      "tail_type": "group"
+      "tail_type": "Human Group"
     },
     {
       "head": "total cholesterol",
-      "head_type": "biochemical index",
-      "relation": "decrease",
+      "head_type": "Biochemical Index",
+      "relation": "decreased in",
       "tail": "meditation group",
-      "tail_type": "group"
+      "tail_type": "Human Group"
     },
     {
       "head": "apolipoprotein B",
-      "head_type": "biochemical index",
-      "relation": "decrease",
+      "head_type": "Biochemical Index",
+      "relation": "decreased in",
       "tail": "meditation group",
-      "tail_type": "group"
+      "tail_type": "Human Group"
     },
     {
       "head": "Tibetan Buddhist meditation",
-      "head_type": "activity",
+      "head_type": "Practice",
       "relation": "impact",
       "tail": "physical and mental health",
-      "tail_type": "condition"
+      "tail_type": "Health Condition"
     },
     {
       "head": "gut microbiota composition",
-      "head_type": "biological entity",
-      "relation": "differ",
+      "head_type": "Biological Entity",
+      "relation": "differ between",
       "tail": "monks and control subjects",
-      "tail_type": "group"
+      "tail_type": "Human Groups"
     },
     {
       "head": "microbiota",
-      "head_type": "biological entity",
-      "relation": "reduce risk",
-      "tail": "anxiety",
-      "tail_type": "condition"
+      "head_type": "Biological Entity",
+      "relation": "associated with",
+      "tail": "reduced risk of anxiety",
+      "tail_type": "Health Condition"
     },
     {
       "head": "microbiota",
-      "head_type": "biological entity",
-      "relation": "reduce risk",
-      "tail": "depression",
-      "tail_type": "condition"
+      "head_type": "Biological Entity",
+      "relation": "associated with",
+      "tail": "reduced risk of depression",
+      "tail_type": "Health Condition"
     },
     {
       "head": "microbiota",
-      "head_type": "biological entity",
-      "relation": "reduce risk",
-      "tail": "cardiovascular disease",
-      "tail_type": "condition"
+      "head_type": "Biological Entity",
+      "relation": "associated with",
+      "tail": "reduced risk of cardiovascular disease",
+      "tail_type": "Health Condition"
     },
     {
       "head": "microbiota",
-      "head_type": "biological entity",
+      "head_type": "Biological Entity",
       "relation": "enhance",
       "tail": "immune function",
-      "tail_type": "biological process"
+      "tail_type": "Biological Function"
     },
     {
       "head": "meditation",
-      "head_type": "activity",
-      "relation": "play role",
+      "head_type": "Practice",
+      "relation": "play a positive role in",
       "tail": "psychosomatic conditions",
-      "tail_type": "condition"
+      "tail_type": "Health Condition"
     },
     {
       "head": "meditation",
-      "head_type": "activity",
-      "relation": "play role",
+      "head_type": "Practice",
+      "relation": "play a positive role in",
       "tail": "well-being",
-      "tail_type": "condition"
+      "tail_type": "Health Condition"
     }
   ]
 }

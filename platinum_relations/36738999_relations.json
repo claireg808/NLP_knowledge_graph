@@ -6,50 +6,57 @@
       "head": "High-cholesterol diet",
       "head_type": "Diet",
       "relation": "promotes",
-      "tail": "Depression",
-      "tail_type": "Mental Disorder"
+      "tail": "depression- and anxiety-like behaviors",
+      "tail_type": "Behavioral Disorder"
     },
     {
       "head": "High-cholesterol diet",
       "head_type": "Diet",
-      "relation": "promotes",
-      "tail": "Anxiety",
-      "tail_type": "Mental Disorder"
+      "relation": "affects",
+      "tail": "gut microbe",
+      "tail_type": "Microbial Community"
     },
     {
       "head": "High-cholesterol diet",
       "head_type": "Diet",
-      "relation": "impacts",
-      "tail": "Gut Microbe",
-      "tail_type": "Microbial Entity"
+      "relation": "causes",
+      "tail": "neuroinflammation",
+      "tail_type": "Pathological Process"
     },
     {
-      "head": "High-cholesterol diet",
-      "head_type": "Diet",
-      "relation": "induces",
-      "tail": "Neuroinflammation",
-      "tail_type": "Biological Process"
+      "head": "gut microbe",
+      "head_type": "Microbial Community",
+      "relation": "impacted by",
+      "tail": "High-cholesterol diet",
+      "tail_type": "Diet"
     },
     {
-      "head": "Gut Microbe",
-      "head_type": "Microbial Entity",
-      "relation": "associated with",
-      "tail": "Neuroinflammation",
-      "tail_type": "Biological Process"
+      "head": "neuroinflammation",
+      "head_type": "Pathological Process",
+      "relation": "induced by",
+      "tail": "High-cholesterol diet",
+      "tail_type": "Diet"
+    },
+    {
+      "head": "Akkermansia_muciniphila",
+      "head_type": "Microbial Species",
+      "relation": "decreased by",
+      "tail": "High-cholesterol diet",
+      "tail_type": "Diet"
     },
     {
       "head": "Akkermansia_muciniphila",
       "head_type": "Microbial Species",
       "relation": "negatively correlated with",
       "tail": "MCP-1",
-      "tail_type": "Inflammatory Marker"
+      "tail_type": "Cytokine"
     },
     {
       "head": "Akkermansia_muciniphila",
       "head_type": "Microbial Species",
       "relation": "negatively correlated with",
       "tail": "IL-17A",
-      "tail_type": "Inflammatory Marker"
+      "tail_type": "Cytokine"
     },
     {
       "head": "Akkermansia_muciniphila",
@@ -59,46 +66,53 @@
       "tail_type": "Neurotransmitter"
     },
     {
+      "head": "MCP-1",
+      "head_type": "Cytokine",
+      "relation": "increased by",
+      "tail": "High-cholesterol diet",
+      "tail_type": "Diet"
+    },
+    {
+      "head": "IL-17A",
+      "head_type": "Cytokine",
+      "relation": "increased by",
+      "tail": "High-cholesterol diet",
+      "tail_type": "Diet"
+    },
+    {
       "head": "5-HT",
       "head_type": "Neurotransmitter",
-      "relation": "increased concentration in",
-      "tail": "Hippocampus",
+      "relation": "increased in",
+      "tail": "hippocampus",
       "tail_type": "Brain Region"
     },
     {
-      "head": "HTR2A",
+      "head": "5-HT receptor HTR2A",
       "head_type": "Receptor",
       "relation": "expressed in",
-      "tail": "Brain Tissue",
+      "tail": "brain tissue",
       "tail_type": "Anatomical Structure"
     },
     {
       "head": "High-cholesterol diet",
       "head_type": "Diet",
-      "relation": "leads to",
-      "tail": "Increased Body Weight",
+      "relation": "results in",
+      "tail": "increased body weight",
       "tail_type": "Physiological Change"
     },
     {
       "head": "High-cholesterol diet",
       "head_type": "Diet",
-      "relation": "leads to",
-      "tail": "Liver Fat",
+      "relation": "results in",
+      "tail": "liver fat accumulation",
       "tail_type": "Physiological Change"
     },
     {
       "head": "High-cholesterol diet",
       "head_type": "Diet",
-      "relation": "leads to",
-      "tail": "Peripheral Inflammation",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "High-cholesterol diet",
-      "head_type": "Diet",
-      "relation": "leads to",
-      "tail": "Neuroinflammation",
-      "tail_type": "Biological Process"
+      "relation": "results in",
+      "tail": "glucose intolerance",
+      "tail_type": "Physiological Condition"
     }
   ]
 }

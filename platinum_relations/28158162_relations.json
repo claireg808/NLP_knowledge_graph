@@ -4,73 +4,101 @@
   "relations": [
     {
       "head": "migraine headache",
-      "head_type": "Disease",
-      "relation": "associated with",
+      "head_type": "MedicalCondition",
+      "relation": "associated_with",
       "tail": "gastrointestinal diseases",
-      "tail_type": "Disease"
+      "tail_type": "MedicalCondition"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "Organism",
-      "relation": "modulates",
-      "tail": "brain function",
-      "tail_type": "Physiological Process"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "Organism",
-      "relation": "affects",
-      "tail": "migraine headache",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "probiotics",
-      "head_type": "Therapeutic Agent",
-      "relation": "may have beneficial effect on",
-      "tail": "migraine headache",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "gut permeability",
-      "head_type": "Physiological Process",
-      "relation": "linked to",
-      "tail": "migraine headache",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "gut permeability",
-      "head_type": "Physiological Process",
-      "relation": "linked to",
-      "tail": "depression",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "gut permeability",
-      "head_type": "Physiological Process",
-      "relation": "linked to",
-      "tail": "anxiety",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "probiotics",
-      "head_type": "Therapeutic Agent",
-      "relation": "affects",
+      "head": "migraine",
+      "head_type": "MedicalCondition",
+      "relation": "linked_to",
       "tail": "gut microbiota",
-      "tail_type": "Organism"
+      "tail_type": "BiologicalEntity"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "BiologicalEntity",
+      "relation": "affects",
+      "tail": "brain function",
+      "tail_type": "BiologicalProcess"
+    },
+    {
+      "head": "migraine",
+      "head_type": "MedicalCondition",
+      "relation": "linked_to",
+      "tail": "brain function",
+      "tail_type": "BiologicalProcess"
     },
     {
       "head": "probiotics",
-      "head_type": "Therapeutic Agent",
+      "head_type": "Substance",
+      "relation": "has_effect",
+      "tail": "migraine",
+      "tail_type": "MedicalCondition"
+    },
+    {
+      "head": "probiotics",
+      "head_type": "Substance",
+      "relation": "improves",
+      "tail": "gut microbiota",
+      "tail_type": "BiologicalEntity"
+    },
+    {
+      "head": "probiotics",
+      "head_type": "Substance",
       "relation": "reduces",
       "tail": "inflammation",
-      "tail_type": "Physiological Process"
+      "tail_type": "BiologicalProcess"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "Organism",
-      "relation": "linked to",
+      "head": "inflammation",
+      "head_type": "BiologicalProcess",
+      "relation": "contributes_to",
+      "tail": "migraine",
+      "tail_type": "MedicalCondition"
+    },
+    {
+      "head": "gut permeability",
+      "head_type": "BiologicalProcess",
+      "relation": "linked_to",
+      "tail": "migraine",
+      "tail_type": "MedicalCondition"
+    },
+    {
+      "head": "gut permeability",
+      "head_type": "BiologicalProcess",
+      "relation": "linked_to",
+      "tail": "depression",
+      "tail_type": "MedicalCondition"
+    },
+    {
+      "head": "gut permeability",
+      "head_type": "BiologicalProcess",
+      "relation": "linked_to",
+      "tail": "anxiety",
+      "tail_type": "MedicalCondition"
+    },
+    {
+      "head": "improvement in gut microbiota",
+      "head_type": "BiologicalProcess",
+      "relation": "strengthens",
+      "tail": "gut function",
+      "tail_type": "BiologicalProcess"
+    },
+    {
+      "head": "improvement in gut microbiota",
+      "head_type": "BiologicalProcess",
+      "relation": "strengthens",
       "tail": "brain function",
-      "tail_type": "Physiological Process"
+      "tail_type": "BiologicalProcess"
+    },
+    {
+      "head": "probiotics",
+      "head_type": "Substance",
+      "relation": "beneficial_effect",
+      "tail": "migraine",
+      "tail_type": "MedicalCondition"
     }
   ]
 }

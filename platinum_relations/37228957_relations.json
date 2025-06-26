@@ -10,32 +10,25 @@
       "tail_type": "Biological Entity"
     },
     {
-      "head": "gut-brain axis",
-      "head_type": "Biological Process",
-      "relation": "influences",
-      "tail": "neurological disorders",
-      "tail_type": "Disease"
-    },
-    {
       "head": "microbiota-gut-brain axis",
       "head_type": "Biological Process",
-      "relation": "relates to",
+      "relation": "related to",
       "tail": "epilepsy",
-      "tail_type": "Disease"
+      "tail_type": "Neurological Disorder"
     },
     {
       "head": "microbiota-gut-brain axis",
       "head_type": "Biological Process",
-      "relation": "relates to",
+      "relation": "related to",
       "tail": "Parkinson's disease",
-      "tail_type": "Disease"
+      "tail_type": "Neurological Disorder"
     },
     {
       "head": "microbiota-gut-brain axis",
       "head_type": "Biological Process",
-      "relation": "relates to",
+      "relation": "related to",
       "tail": "migraine",
-      "tail_type": "Disease"
+      "tail_type": "Neurological Disorder"
     },
     {
       "head": "gut microbiota",
@@ -50,6 +43,20 @@
       "relation": "influences",
       "tail": "pathophysiology",
       "tail_type": "Biological Process"
+    },
+    {
+      "head": "microbiota-gut-brain axis",
+      "head_type": "Biological Process",
+      "relation": "influences",
+      "tail": "neurological disorders",
+      "tail_type": "Disease Class"
+    },
+    {
+      "head": "microbiota-gut-brain axis",
+      "head_type": "Biological Process",
+      "relation": "influences",
+      "tail": "psychiatric disorders",
+      "tail_type": "Disease Class"
     }
   ]
 }

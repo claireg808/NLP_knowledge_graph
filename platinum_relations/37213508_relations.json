@@ -1,221 +1,88 @@
 {
   "title": "Global research trends and focus on the link between colorectal cancer and gut flora: a bibliometric analysis from 2001 to 2021.",
-  "abstract": "Colorectal cancer (CRC) is a highly prevalent cancer, and the global healthcare system bears a significant burden due to its incidence. Modulating the gut microbiota is a promising approach to enhance the efficacy of CRC treatment and reduce its adverse effects. The causal relationship between specific microorganisms' presence and CRC development has been widely validated. However, few studies have investigated this relationship using bibliometric methods. Therefore, this study analyzed the research hotspots and trends in human gut microbiology and CRC over the last two decades from a bibliometric perspective. The study aims to provide novel insights into basic and clinical research in this field. The articles and reviews on gut microbiota in CRC were obtained from the Web of Science Core Collection (WOSCC) on November 2, 2022. CiteSpace and VOSviewer were used to conduct the bibliometric and knowledge-map analysis. A total of 2,707 publications were obtained, with a rapid increase in the number of publications since 2015. The United States and China are the main contributors in this field and have established a network of partnerships in several countries. 414 academic journals have published articles on this topic. The author with the highest number of publications is Jun Yu from the Chinese University of Hong Kong. In addition to 'intestinal flora' and 'colorectal cancer,' high frequency terms in the keyword co-occurrence network analysis included inflammatory bowel disease, Fusobacterium nucleatum, inflammation, long-chain fatty acids, ulcerative colitis, bile acids, and resistant starch. Analysis of keyword trends using burst testing revealed that biomarkers, abnormal crypt foci, bifidobacteria, \u03b2-glucuronidase, short-chain fatty acids, bile acids, and DNA methylation are at the forefront of research in this area. The findings of this study provide a bibliometric analysis and visualization of the key research areas in gut microbiota and CRC over the past 20 years. The results suggest that the role of gut microbiota in CRC and its underlying mechanisms should be closely monitored, particularly in the areas of biomarkers, metabolic pathways, and DNA methylation, which may emerge as hot topics in this field.",
+  "abstract": "Colorectal cancer (CRC) is a highly prevalent cancer, and the global healthcare system bears a significant burden due to its incidence. Modulating the gut microbiota is a promising approach to enhance the efficacy of CRC treatment and reduce its adverse effects. The causal relationship between specific microorganisms' presence and CRC development has been widely validated. However, few studies have investigated this relationship using bibliometric methods. Therefore, this study analyzed the research hotspots and trends in human gut microbiology and CRC over the last two decades from a bibliometric perspective. The study aims to provide novel insights into basic and clinical research in this field. The articles and reviews on gut microbiota in CRC were obtained from the Web of Science Core Collection (WOSCC) on November 2, 2022. CiteSpace and VOSviewer were used to conduct the bibliometric and knowledge-map analysis. A total of 2,707 publications were obtained, with a rapid increase in the number of publications since 2015. The United States and China are the main contributors in this field and have established a network of partnerships in several countries. 414 academic journals have published articles on this topic. The author with the highest number of publications is Jun Yu from the Chinese University of Hong Kong. In addition to 'intestinal flora' and 'colorectal cancer,' high frequency terms in the keyword co-occurrence network analysis included inflammatory bowel disease, Fusobacterium nucleatum, inflammation, long-chain fatty acids, ulcerative colitis, bile acids, and resistant starch. Analysis of keyword trends using burst testing revealed that biomarkers, abnormal crypt foci, bifidobacteria, \u03b2-glucuronidase, short-chain fatty acids, bile acids, and DNA methylation are at the forefront of research in this area. The findings of this study provide a bibliometric analysis and visualization of the key research areas in gut microbiota and CRC over the past 20\u2009years. The results suggest that the role of gut microbiota in CRC and its underlying mechanisms should be closely monitored, particularly in the areas of biomarkers, metabolic pathways, and DNA methylation, which may emerge as hot topics in this field.",
   "relations": [
     {
       "head": "Colorectal cancer",
       "head_type": "Disease",
-      "relation": "has_modulating_approach",
+      "relation": "is related to",
       "tail": "Gut microbiota",
-      "tail_type": "Biological Entity"
+      "tail_type": "Microbial Community"
     },
     {
       "head": "Gut microbiota",
-      "head_type": "Biological Entity",
-      "relation": "linked_to",
-      "tail": "Colorectal cancer",
-      "tail_type": "Disease"
+      "head_type": "Microbial Community",
+      "relation": "modulates",
+      "tail": "Colorectal cancer treatment efficacy",
+      "tail_type": "Treatment Efficacy"
     },
     {
       "head": "Specific microorganisms",
-      "head_type": "Biological Entity",
-      "relation": "associated_with",
+      "head_type": "Microbial Species",
+      "relation": "contribute to",
       "tail": "Colorectal cancer development",
-      "tail_type": "Disease Process"
+      "tail_type": "Disease Development"
     },
     {
-      "head": "Bibliometric analysis",
-      "head_type": "Research Method",
-      "relation": "analyzes",
+      "head": "Bibliometric methods",
+      "head_type": "Research Methodology",
+      "relation": "analyze",
       "tail": "Research trends",
-      "tail_type": "Research Area"
+      "tail_type": "Research Trends"
     },
     {
-      "head": "Bibliometric analysis",
-      "head_type": "Research Method",
-      "relation": "covers",
-      "tail": "Human gut microbiology",
-      "tail_type": "Scientific Field"
-    },
-    {
-      "head": "Bibliometric analysis",
-      "head_type": "Research Method",
-      "relation": "covers",
-      "tail": "Colorectal cancer",
-      "tail_type": "Disease"
+      "head": "Jun Yu",
+      "head_type": "Researcher",
+      "relation": "authored",
+      "tail": "Publications",
+      "tail_type": "Academic Publications"
     },
     {
       "head": "Web of Science Core Collection",
       "head_type": "Database",
-      "relation": "sources",
+      "relation": "sources of",
       "tail": "Publications",
-      "tail_type": "Publication"
+      "tail_type": "Academic Publications"
     },
     {
       "head": "CiteSpace",
       "head_type": "Software Tool",
-      "relation": "used_for",
+      "relation": "used in",
       "tail": "Bibliometric analysis",
-      "tail_type": "Research Method"
+      "tail_type": "Research Methodology"
     },
     {
       "head": "VOSviewer",
       "head_type": "Software Tool",
-      "relation": "used_for",
+      "relation": "used in",
       "tail": "Knowledge-map analysis",
-      "tail_type": "Research Method"
-    },
-    {
-      "head": "United States",
-      "head_type": "Country",
-      "relation": "contributes_to",
-      "tail": "Research field",
-      "tail_type": "Research Area"
-    },
-    {
-      "head": "China",
-      "head_type": "Country",
-      "relation": "contributes_to",
-      "tail": "Research field",
-      "tail_type": "Research Area"
-    },
-    {
-      "head": "Jun Yu",
-      "head_type": "Person",
-      "relation": "authored",
-      "tail": "Publications",
-      "tail_type": "Publication"
-    },
-    {
-      "head": "Chinese University of Hong Kong",
-      "head_type": "Institution",
-      "relation": "affiliated_with",
-      "tail": "Jun Yu",
-      "tail_type": "Person"
-    },
-    {
-      "head": "Intestinal flora",
-      "head_type": "Biological Entity",
-      "relation": "related_to",
-      "tail": "Colorectal cancer",
-      "tail_type": "Disease"
+      "tail_type": "Research Methodology"
     },
     {
       "head": "Inflammatory bowel disease",
       "head_type": "Disease",
-      "relation": "co-occurs_with",
+      "relation": "co-occurs with",
       "tail": "Colorectal cancer",
       "tail_type": "Disease"
     },
     {
       "head": "Fusobacterium nucleatum",
-      "head_type": "Microorganism",
-      "relation": "linked_to",
-      "tail": "Colorectal cancer",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Inflammation",
-      "head_type": "Biological Process",
-      "relation": "associated_with",
-      "tail": "Colorectal cancer",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Long-chain fatty acids",
-      "head_type": "Chemical Compound",
-      "relation": "related_to",
-      "tail": "Colorectal cancer",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Ulcerative colitis",
-      "head_type": "Disease",
-      "relation": "co-occurs_with",
+      "head_type": "Microbial Species",
+      "relation": "linked to",
       "tail": "Colorectal cancer",
       "tail_type": "Disease"
     },
     {
       "head": "Bile acids",
-      "head_type": "Chemical Compound",
-      "relation": "linked_to",
-      "tail": "Colorectal cancer",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Resistant starch",
-      "head_type": "Food Component",
-      "relation": "affects",
+      "head_type": "Biochemical Compound",
+      "relation": "influenced by",
       "tail": "Gut microbiota",
-      "tail_type": "Biological Entity"
-    },
-    {
-      "head": "Biomarkers",
-      "head_type": "Biological Marker",
-      "relation": "used_in",
-      "tail": "Colorectal cancer research",
-      "tail_type": "Research Area"
-    },
-    {
-      "head": "Abnormal crypt foci",
-      "head_type": "Pathological Feature",
-      "relation": "linked_to",
-      "tail": "Colorectal cancer",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Bifidobacteria",
-      "head_type": "Microorganism",
-      "relation": "related_to",
-      "tail": "Colorectal cancer",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "\u03b2-glucuronidase",
-      "head_type": "Enzyme",
-      "relation": "linked_to",
-      "tail": "Colorectal cancer",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Short-chain fatty acids",
-      "head_type": "Chemical Compound",
-      "relation": "linked_to",
-      "tail": "Colorectal cancer",
-      "tail_type": "Disease"
+      "tail_type": "Microbial Community"
     },
     {
       "head": "DNA methylation",
-      "head_type": "Epigenetic Process",
-      "relation": "linked_to",
-      "tail": "Colorectal cancer",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Gut microbiota",
-      "head_type": "Biological Entity",
-      "relation": "plays_role_in",
-      "tail": "Colorectal cancer",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Underlying mechanisms",
-      "head_type": "Biological Process",
-      "relation": "associated_with",
-      "tail": "Colorectal cancer",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Biomarkers",
-      "head_type": "Biological Marker",
-      "relation": "used_in",
-      "tail": "Research",
-      "tail_type": "Research Area"
-    },
-    {
-      "head": "Metabolic pathways",
-      "head_type": "Biological Process",
-      "relation": "linked_to",
+      "head_type": "Epigenetic Mechanism",
+      "relation": "impacts",
       "tail": "Colorectal cancer",
       "tail_type": "Disease"
     }

@@ -1,160 +1,48 @@
 {
-  "title": "A discussion of the gut microbiome's development, determinants, and dysbiosis in cancers of the esophagus and stomach",
+  "title": "A discussion of the gut microbiome's development, determinants, and dysbiosis in cancers of the esophagus and stomach.",
   "abstract": "The microbiome refers to a population of microbes that colonize the skin, nasopharynx, oral cavity, gastrointestinal tract, and urogenital tract. The human microbiome consists of bacteria, archaea, fungi, viruses, and phages. Recent advances in genomic sequencing have catalyzed a deeper understanding of complex microbe-microbe and host-microbe interactions. Dysregulation of these interactions, or dysbiosis of the gastrointestinal tract, has been implicated in a growing list of pathologies including nonalcoholic fatty liver disease, cardiovascular disease, obesity, diabetes, depression, Parkinson's disease, autism, and various gastrointestinal cancers. Gastric and esophageal cancer, for example, continue to remain as two of the most common causes of cancer-related deaths worldwide, therefore there is an increased emphasis on investigating the role of dysbiosis on these cancers. In this review, we discuss the development and structure of the gut microbiome, its homeostatic and dysbiotic mechanisms, and the key microbes in esophageal and gastric carcinogenesis with a focus on bacterial biology. Further clarification of these pathways and discovery of diagnostic or therapeutic targets could have broad impacts on global subpopulations. It is important to understand the nature of the gastrointestinal tract microbiome and its potentional risk factors for dysbiosis in order to tailor its application to the individual patient and create an era of highly personalized, precision medicine.",
   "relations": [
     {
-      "head": "microbiome",
-      "head_type": "Concept",
-      "relation": "consists_of",
-      "tail": "bacteria",
-      "tail_type": "Organism"
+      "head": "Microbiome",
+      "head_type": "Biological Entity",
+      "relation": "Colonizes",
+      "tail": "Gastrointestinal Tract",
+      "tail_type": "Anatomical Structure"
     },
     {
-      "head": "microbiome",
-      "head_type": "Concept",
-      "relation": "consists_of",
-      "tail": "archaea",
-      "tail_type": "Organism"
+      "head": "Gut Microbiome",
+      "head_type": "Biological Entity",
+      "relation": "Implicated In",
+      "tail": "Dysbiosis",
+      "tail_type": "Pathological Condition"
     },
     {
-      "head": "microbiome",
-      "head_type": "Concept",
-      "relation": "consists_of",
-      "tail": "fungi",
-      "tail_type": "Organism"
-    },
-    {
-      "head": "microbiome",
-      "head_type": "Concept",
-      "relation": "consists_of",
-      "tail": "viruses",
-      "tail_type": "Organism"
-    },
-    {
-      "head": "microbiome",
-      "head_type": "Concept",
-      "relation": "consists_of",
-      "tail": "phages",
-      "tail_type": "Organism"
-    },
-    {
-      "head": "genomic sequencing",
-      "head_type": "Technology",
-      "relation": "catalyzed",
-      "tail": "understanding",
-      "tail_type": "Concept"
-    },
-    {
-      "head": "dysbiosis",
-      "head_type": "Condition",
-      "relation": "implicated_in",
-      "tail": "nonalcoholic fatty liver disease",
+      "head": "Dysbiosis",
+      "head_type": "Pathological Condition",
+      "relation": "Associated With",
+      "tail": "Gastric Cancer",
       "tail_type": "Disease"
     },
     {
-      "head": "dysbiosis",
-      "head_type": "Condition",
-      "relation": "implicated_in",
-      "tail": "cardiovascular disease",
+      "head": "Dysbiosis",
+      "head_type": "Pathological Condition",
+      "relation": "Associated With",
+      "tail": "Esophageal Cancer",
       "tail_type": "Disease"
     },
     {
-      "head": "dysbiosis",
-      "head_type": "Condition",
-      "relation": "implicated_in",
-      "tail": "obesity",
-      "tail_type": "Condition"
+      "head": "Gut Microbiome",
+      "head_type": "Biological Entity",
+      "relation": "Involved In",
+      "tail": "Carcinogenesis",
+      "tail_type": "Biological Process"
     },
     {
-      "head": "dysbiosis",
-      "head_type": "Condition",
-      "relation": "implicated_in",
-      "tail": "diabetes",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "dysbiosis",
-      "head_type": "Condition",
-      "relation": "implicated_in",
-      "tail": "depression",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "dysbiosis",
-      "head_type": "Condition",
-      "relation": "implicated_in",
-      "tail": "Parkinson's disease",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "dysbiosis",
-      "head_type": "Condition",
-      "relation": "implicated_in",
-      "tail": "autism",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "dysbiosis",
-      "head_type": "Condition",
-      "relation": "implicated_in",
-      "tail": "gastrointestinal cancers",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "gastric cancer",
-      "head_type": "Disease",
-      "relation": "associated_with",
-      "tail": "dysbiosis",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "esophageal cancer",
-      "head_type": "Disease",
-      "relation": "associated_with",
-      "tail": "dysbiosis",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "gut microbiome",
-      "head_type": "Concept",
-      "relation": "has_mechanism",
-      "tail": "homeostatic mechanisms",
-      "tail_type": "Mechanism"
-    },
-    {
-      "head": "gut microbiome",
-      "head_type": "Concept",
-      "relation": "has_mechanism",
-      "tail": "dysbiotic mechanisms",
-      "tail_type": "Mechanism"
-    },
-    {
-      "head": "esophageal cancer",
-      "head_type": "Disease",
-      "relation": "involves",
-      "tail": "microbes",
-      "tail_type": "Organism"
-    },
-    {
-      "head": "gastric cancer",
-      "head_type": "Disease",
-      "relation": "involves",
-      "tail": "microbes",
-      "tail_type": "Organism"
-    },
-    {
-      "head": "microbes",
-      "head_type": "Organism",
-      "relation": "focus_on",
-      "tail": "bacterial biology",
-      "tail_type": "Biology"
-    },
-    {
-      "head": "gastrointestinal tract microbiome",
-      "head_type": "Concept",
-      "relation": "has_risk_factor",
-      "tail": "dysbiosis",
-      "tail_type": "Condition"
+      "head": "Gut Microbiome",
+      "head_type": "Biological Entity",
+      "relation": "Contains",
+      "tail": "Bacteria",
+      "tail_type": "Microbial Entity"
     }
   ]
 }

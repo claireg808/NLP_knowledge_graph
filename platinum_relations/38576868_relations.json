@@ -1,76 +1,97 @@
 {
-  "title": "Bipolar disorder and the gut microbiota: a bibliometric analysis.",
+  "title": "Bipolar disorder and the gut microbiota: a bibliometric analysis",
   "abstract": "Previous studies have explored the relationship between bipolar disorder and gut microbiota. However, there has been no bibliometric analysis to summarize and analyze these publications. Our objective was to perform a bibliometric analysis to investigate the current status and frontiers of the publications in the field of the association between bipolar disorder and the gut microbiota. We retrieved publications concerning the interplay between the gut microbiota and bipolar disorder from the Web of Science Core Collection (WoSCC). The analysis was executed using WoSCC's literature analysis tool and VOSviewer 1.6.16. In total, we identified 177 publications originating from 362 institutions across 39 countries/regions, and these articles were disseminated in 104 different journals. The most productive institutions, authors, countries/regions, and journals were Zhejiang University contributing 18 publications, Shaohua Hu authoring 12 publications, China with 53 publications, and <i>Frontiers in Psychiatry</i> with 11 publications. The first high-cited document was published in the Journal of Psychiatric Research in 2017, and authored by Evans. In this article, they found gut microbiome composition was associated with BD and its illness severity, and they concluded that targeting the gut microbiota may be helpful to develop the effective treatment for bipolar disorder. The top 5 keywords with the highest frequency except for bipolar disorder and gut microbiota were as follows: depression, inflammation, probiotic, gut-brain axis, and anxiety. In conclusion, this is the first bibliometric analysis to explore the publications in the field of the association between bipolar disorder and the gut microbiota. The main research hotspots regarding this field were the characteristics, abundance, and diversity of gut microbiome in bipolar disorder, the role of treatment and gut microbiome in bipolar disorder, microbiome-brain connections in bipolar disorder, and interventions for bipolar disorder based on microbiota composition modification. The number of studies about the association between gut microbiota and bipolar disorder is relatively small, and more studies are needed to expand our understanding the association between gut microbiota and bipolar disorder.",
   "relations": [
     {
-      "head": "Bipolar disorder",
+      "head": "bipolar disorder",
       "head_type": "Disease",
-      "relation": "associated_with",
-      "tail": "Gut microbiota",
+      "relation": "associated with",
+      "tail": "gut microbiota",
       "tail_type": "Organism"
     },
     {
-      "head": "Bipolar disorder",
+      "head": "bipolar disorder",
       "head_type": "Disease",
-      "relation": "has_association",
-      "tail": "Gut microbiome",
-      "tail_type": "Organism"
+      "relation": "has characteristic",
+      "tail": "gut microbiome composition",
+      "tail_type": "Biological Entity"
     },
     {
-      "head": "Gut microbiome",
+      "head": "gut microbiota",
       "head_type": "Organism",
-      "relation": "associated_with",
-      "tail": "Bipolar disorder",
+      "relation": "has role",
+      "tail": "treatment for bipolar disorder",
+      "tail_type": "Therapy"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Organism",
+      "relation": "related to",
+      "tail": "gut-brain axis",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Organism",
+      "relation": "related to",
+      "tail": "inflammation",
+      "tail_type": "Pathological Process"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Organism",
+      "relation": "related to",
+      "tail": "depression",
       "tail_type": "Disease"
     },
     {
-      "head": "Gut microbiome",
+      "head": "gut microbiota",
       "head_type": "Organism",
-      "relation": "impacts",
-      "tail": "Bipolar disorder severity",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "Targeting gut microbiota",
-      "head_type": "Therapeutic approach",
-      "relation": "useful_for",
-      "tail": "Treatment of bipolar disorder",
-      "tail_type": "Treatment"
-    },
-    {
-      "head": "Gut-brain axis",
-      "head_type": "Physiological system",
-      "relation": "related_to",
-      "tail": "Bipolar disorder",
+      "relation": "related to",
+      "tail": "anxiety",
       "tail_type": "Disease"
     },
     {
-      "head": "Gut microbiota",
-      "head_type": "Organism",
-      "relation": "linked_with",
-      "tail": "Depression",
-      "tail_type": "Disease"
+      "head": "Zhejiang University",
+      "head_type": "Institution",
+      "relation": "contributed to",
+      "tail": "publications",
+      "tail_type": "Publication"
     },
     {
-      "head": "Gut microbiota",
-      "head_type": "Organism",
-      "relation": "linked_with",
-      "tail": "Anxiety",
-      "tail_type": "Disease"
+      "head": "Shaohua Hu",
+      "head_type": "Author",
+      "relation": "authored",
+      "tail": "publications",
+      "tail_type": "Publication"
     },
     {
-      "head": "Gut microbiota",
-      "head_type": "Organism",
-      "relation": "linked_with",
-      "tail": "Inflammation",
-      "tail_type": "Biological process"
+      "head": "China",
+      "head_type": "Country",
+      "relation": "contributed to",
+      "tail": "publications",
+      "tail_type": "Publication"
     },
     {
-      "head": "Probiotic",
-      "head_type": "Therapeutic agent",
-      "relation": "related_to",
-      "tail": "Bipolar disorder",
-      "tail_type": "Disease"
+      "head": "Frontiers in Psychiatry",
+      "head_type": "Journal",
+      "relation": "published",
+      "tail": "publications",
+      "tail_type": "Publication"
+    },
+    {
+      "head": "Journal of Psychiatric Research",
+      "head_type": "Journal",
+      "relation": "published",
+      "tail": "high-cited document",
+      "tail_type": "Publication"
+    },
+    {
+      "head": "Evans",
+      "head_type": "Author",
+      "relation": "authored",
+      "tail": "high-cited document",
+      "tail_type": "Publication"
     }
   ]
 }

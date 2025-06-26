@@ -4,122 +4,136 @@
   "relations": [
     {
       "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "differed",
-      "tail": "MDD group",
-      "tail_type": "group"
+      "head_type": "Biological Entity",
+      "relation": "associated with",
+      "tail": "first-episode depression",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "short-chain fatty acids (SCFAs)",
+      "head_type": "Biological Molecule",
+      "relation": "metabolites of",
+      "tail": "gut microbiota",
+      "tail_type": "Biological Entity"
     },
     {
       "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "differed",
-      "tail": "C group",
-      "tail_type": "group"
+      "head_type": "Biological Entity",
+      "relation": "analyzed using",
+      "tail": "16S RNA method",
+      "tail_type": "Method"
     },
     {
-      "head": "short-chain fatty acids",
-      "head_type": "metabolite",
-      "relation": "differed",
-      "tail": "MDD group",
-      "tail_type": "group"
+      "head": "serum SCFAs",
+      "head_type": "Biological Molecule",
+      "relation": "detected using",
+      "tail": "ELISA kit",
+      "tail_type": "Method"
     },
     {
-      "head": "short-chain fatty acids",
-      "head_type": "metabolite",
-      "relation": "differed",
-      "tail": "C group",
-      "tail_type": "group"
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "correlated with",
+      "tail": "MDD clinical indicators",
+      "tail_type": "Clinical Measure"
     },
     {
       "head": "Akkermansia",
-      "head_type": "bacteria",
-      "relation": "lower abundance",
+      "head_type": "Microbial Species",
+      "relation": "abundance lower in",
       "tail": "MDD group",
-      "tail_type": "group"
+      "tail_type": "Patient Group"
     },
     {
       "head": "Megamonas",
-      "head_type": "bacteria",
-      "relation": "lower abundance",
+      "head_type": "Microbial Species",
+      "relation": "abundance lower in",
       "tail": "MDD group",
-      "tail_type": "group"
+      "tail_type": "Patient Group"
     },
     {
       "head": "Prevotellaceae NK3B31 group",
-      "head_type": "bacteria",
-      "relation": "lower abundance",
+      "head_type": "Microbial Species",
+      "relation": "abundance lower in",
       "tail": "MDD group",
-      "tail_type": "group"
+      "tail_type": "Patient Group"
     },
     {
       "head": "butyrate-producing bacteria",
-      "head_type": "bacteria",
-      "relation": "lower abundance",
+      "head_type": "Microbial Species",
+      "relation": "abundance lower in",
       "tail": "MDD group",
-      "tail_type": "group"
+      "tail_type": "Patient Group"
     },
     {
       "head": "Lachnospira",
-      "head_type": "bacteria",
-      "relation": "lower abundance",
+      "head_type": "Microbial Species",
+      "relation": "abundance lower in",
       "tail": "MDD group",
-      "tail_type": "group"
+      "tail_type": "Patient Group"
     },
     {
       "head": "Subdoligranulum",
-      "head_type": "bacteria",
-      "relation": "lower abundance",
+      "head_type": "Microbial Species",
+      "relation": "abundance lower in",
       "tail": "MDD group",
-      "tail_type": "group"
+      "tail_type": "Patient Group"
     },
     {
       "head": "Blautia",
-      "head_type": "bacteria",
-      "relation": "lower abundance",
+      "head_type": "Microbial Species",
+      "relation": "abundance lower in",
       "tail": "MDD group",
-      "tail_type": "group"
+      "tail_type": "Patient Group"
     },
     {
       "head": "Dialister",
-      "head_type": "bacteria",
-      "relation": "lower abundance",
+      "head_type": "Microbial Species",
+      "relation": "abundance lower in",
       "tail": "MDD group",
-      "tail_type": "group"
+      "tail_type": "Patient Group"
     },
     {
       "head": "Streptococcus",
-      "head_type": "bacteria",
-      "relation": "lower abundance",
+      "head_type": "Microbial Species",
+      "relation": "abundance lower in",
       "tail": "MDD group",
-      "tail_type": "group"
+      "tail_type": "Patient Group"
     },
     {
       "head": "Parasutterella",
-      "head_type": "bacteria",
-      "relation": "higher abundance",
+      "head_type": "Microbial Species",
+      "relation": "abundance higher in",
       "tail": "MDD group",
-      "tail_type": "group"
+      "tail_type": "Patient Group"
     },
     {
       "head": "Dialister",
-      "head_type": "bacteria",
-      "relation": "negatively correlated",
+      "head_type": "Microbial Species",
+      "relation": "negatively correlated with",
       "tail": "clinical symptoms",
-      "tail_type": "symptoms"
+      "tail_type": "Clinical Measure"
     },
     {
-      "head": "short-chain fatty acids",
-      "head_type": "metabolite",
-      "relation": "higher content",
+      "head": "serum SCFA content",
+      "head_type": "Biological Molecule",
+      "relation": "higher in",
       "tail": "MDD group",
-      "tail_type": "group"
+      "tail_type": "Patient Group"
     },
     {
-      "head": "short-chain fatty acids",
-      "head_type": "metabolite",
-      "relation": "positively correlated",
+      "head": "serum SCFA content",
+      "head_type": "Biological Molecule",
+      "relation": "positively correlated with",
       "tail": "Hamilton anxiety scale scores",
-      "tail_type": "assessment tool"
+      "tail_type": "Clinical Measure"
+    },
+    {
+      "head": "change in certain intestinal bacteria",
+      "head_type": "Biological Process",
+      "relation": "participates in",
+      "tail": "pathogenic mechanism of MDD",
+      "tail_type": "Pathogenic Mechanism"
     }
   ]
 }

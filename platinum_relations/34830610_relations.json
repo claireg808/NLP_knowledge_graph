@@ -4,38 +4,59 @@
   "relations": [
     {
       "head": "gut microbiome",
-      "head_type": "biological entity",
+      "head_type": "biological system",
       "relation": "plays a role in",
       "tail": "development of diseases",
-      "tail_type": "process"
+      "tail_type": "disease development"
     },
     {
-      "head": "interventions targeting the gut microbiome",
-      "head_type": "therapeutic strategy",
-      "relation": "investigated for",
-      "tail": "treating diseases",
-      "tail_type": "process"
+      "head": "gut microbiome",
+      "head_type": "biological system",
+      "relation": "targeted by",
+      "tail": "interventions",
+      "tail_type": "therapeutic strategy"
     },
     {
-      "head": "Prader-Willi syndrome",
+      "head": "obesity",
       "head_type": "disease",
-      "relation": "characterized by",
-      "tail": "obesity and mental health symptoms",
-      "tail_type": "symptoms"
+      "relation": "is a hallmark of",
+      "tail": "Prader-Willi syndrome",
+      "tail_type": "syndrome"
+    },
+    {
+      "head": "mental health symptoms",
+      "head_type": "symptom",
+      "relation": "is a hallmark of",
+      "tail": "Prader-Willi syndrome",
+      "tail_type": "syndrome"
     },
     {
       "head": "targeting the gut microbiome",
       "head_type": "therapeutic strategy",
-      "relation": "promising for",
+      "relation": "is a promising strategy for",
       "tail": "treating Prader-Willi syndrome",
-      "tail_type": "disease"
+      "tail_type": "syndrome treatment"
     },
     {
       "head": "probiotic supplementation",
       "head_type": "therapeutic intervention",
       "relation": "improves",
-      "tail": "metabolic and mental health aspects",
-      "tail_type": "health outcomes"
+      "tail": "metabolic aspects",
+      "tail_type": "health aspect"
+    },
+    {
+      "head": "probiotic supplementation",
+      "head_type": "therapeutic intervention",
+      "relation": "improves",
+      "tail": "mental health aspects",
+      "tail_type": "health aspect"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "biological system",
+      "relation": "is the focus of",
+      "tail": "studies",
+      "tail_type": "research"
     }
   ]
 }

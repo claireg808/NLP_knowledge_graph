@@ -17,116 +17,102 @@
       "tail_type": "Biological Process"
     },
     {
-      "head": "gut microbiome composition alterations",
-      "head_type": "Biological Process",
-      "relation": "contribute to",
-      "tail": "pathogenesis of Parkinson's disease",
-      "tail_type": "Disease Process"
-    },
-    {
-      "head": "gut microbiota alterations",
-      "head_type": "Biological Process",
-      "relation": "correlate with",
-      "tail": "host cytokine responses",
-      "tail_type": "Biological Response"
-    },
-    {
       "head": "gut microbiota",
-      "head_type": "Microbiome",
-      "relation": "dominated by",
+      "head_type": "Organism",
+      "relation": "dominated_by",
       "tail": "Verrucomicrobia",
-      "tail_type": "Microbial Species"
+      "tail_type": "Organism"
     },
     {
       "head": "gut microbiota",
-      "head_type": "Microbiome",
-      "relation": "dominated by",
+      "head_type": "Organism",
+      "relation": "dominated_by",
       "tail": "Mucispirillum",
-      "tail_type": "Microbial Species"
+      "tail_type": "Organism"
     },
     {
       "head": "gut microbiota",
-      "head_type": "Microbiome",
-      "relation": "dominated by",
+      "head_type": "Organism",
+      "relation": "dominated_by",
       "tail": "Porphyromonas",
-      "tail_type": "Microbial Species"
+      "tail_type": "Organism"
     },
     {
       "head": "gut microbiota",
-      "head_type": "Microbiome",
-      "relation": "dominated by",
+      "head_type": "Organism",
+      "relation": "dominated_by",
       "tail": "Lactobacillus",
-      "tail_type": "Microbial Species"
+      "tail_type": "Organism"
     },
     {
       "head": "gut microbiota",
-      "head_type": "Microbiome",
-      "relation": "dominated by",
+      "head_type": "Organism",
+      "relation": "dominated_by",
       "tail": "Parabacteroides",
-      "tail_type": "Microbial Species"
+      "tail_type": "Organism"
     },
     {
       "head": "Prevotella",
-      "head_type": "Microbial Species",
-      "relation": "more abundant in",
+      "head_type": "Organism",
+      "relation": "more_abundant_in",
       "tail": "controls",
-      "tail_type": "Population Group"
+      "tail_type": "Group"
     },
     {
       "head": "Bacteroides",
-      "head_type": "Microbial Species",
-      "relation": "more increased in",
-      "tail": "patients with non-tremor PD subtype",
-      "tail_type": "Patient Population"
+      "head_type": "Organism",
+      "relation": "more_abundant_in",
+      "tail": "non-tremor PD subtype",
+      "tail_type": "Disease Subtype"
     },
     {
-      "head": "Bacteroides abundance",
-      "head_type": "Microbial Abundance",
-      "relation": "correlated with",
+      "head": "Bacteroides",
+      "head_type": "Organism",
+      "relation": "correlated_with",
       "tail": "motor symptom severity",
       "tail_type": "Clinical Measurement"
     },
     {
       "head": "altered microbiota",
-      "head_type": "Microbiome",
-      "relation": "correlated with",
+      "head_type": "Organism",
+      "relation": "correlated_with",
       "tail": "plasma concentrations of IFN\u03b3",
-      "tail_type": "Cytokine Level"
+      "tail_type": "Biochemical Measurement"
     },
     {
       "head": "altered microbiota",
-      "head_type": "Microbiome",
-      "relation": "correlated with",
+      "head_type": "Organism",
+      "relation": "correlated_with",
       "tail": "plasma concentrations of TNF\u03b1",
-      "tail_type": "Cytokine Level"
+      "tail_type": "Biochemical Measurement"
     },
     {
       "head": "Bacteroides",
-      "head_type": "Microbial Species",
-      "relation": "correlated with",
+      "head_type": "Organism",
+      "relation": "correlated_with",
       "tail": "plasma level of TNF\u03b1",
-      "tail_type": "Cytokine Level"
+      "tail_type": "Biochemical Measurement"
     },
     {
-      "head": "Verrucomicrobia abundance",
-      "head_type": "Microbial Abundance",
-      "relation": "correlated with",
+      "head": "Verrucomicrobia",
+      "head_type": "Organism",
+      "relation": "correlated_with",
       "tail": "plasma concentrations of IFN\u03b3",
-      "tail_type": "Cytokine Level"
+      "tail_type": "Biochemical Measurement"
     },
     {
-      "head": "elevated plasma cytokine responses",
-      "head_type": "Cytokine Response",
-      "relation": "associated with",
-      "tail": "gut microbiome composition alterations",
-      "tail_type": "Microbiome"
+      "head": "TNF\u03b1",
+      "head_type": "Protein",
+      "relation": "elevated_in",
+      "tail": "patients with PD",
+      "tail_type": "Patient Group"
     },
     {
-      "head": "aberrant immune responses",
-      "head_type": "Immune Response",
-      "relation": "contribute to",
-      "tail": "inflammatory processes",
-      "tail_type": "Biological Process"
+      "head": "IFN\u03b3",
+      "head_type": "Protein",
+      "relation": "elevated_in",
+      "tail": "patients with PD",
+      "tail_type": "Patient Group"
     }
   ]
 }

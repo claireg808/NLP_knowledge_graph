@@ -4,185 +4,171 @@
   "relations": [
     {
       "head": "human microbiome",
-      "head_type": "Biological Entity",
-      "relation": "consists_of",
-      "tail": "bacteria",
-      "tail_type": "Organism"
+      "head_type": "Microbial Community",
+      "relation": "plays a central role in",
+      "tail": "maturation and development of the immune system",
+      "tail_type": "Biological Process"
     },
     {
       "head": "human microbiome",
-      "head_type": "Biological Entity",
-      "relation": "consists_of",
-      "tail": "viruses",
-      "tail_type": "Organism"
+      "head_type": "Microbial Community",
+      "relation": "plays a central role in",
+      "tail": "central nervous system",
+      "tail_type": "Biological System"
     },
     {
       "head": "human microbiome",
-      "head_type": "Biological Entity",
-      "relation": "consists_of",
-      "tail": "fungi",
-      "tail_type": "Organism"
+      "head_type": "Microbial Community",
+      "relation": "plays a central role in",
+      "tail": "gastrointestinal tract (GIT) system",
+      "tail_type": "Biological System"
     },
     {
-      "head": "microbiota",
-      "head_type": "Biological Entity",
-      "relation": "acquired_from",
-      "tail": "external environments",
-      "tail_type": "Environment"
-    },
-    {
-      "head": "microbiota",
-      "head_type": "Biological Entity",
-      "relation": "acquired_from",
-      "tail": "maternal environments",
-      "tail_type": "Environment"
-    },
-    {
-      "head": "microbial communities",
-      "head_type": "Biological Entity",
-      "relation": "play_role_in",
-      "tail": "maturation of immune system",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "microbial communities",
-      "head_type": "Biological Entity",
-      "relation": "play_role_in",
-      "tail": "development of central nervous system",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "microbial communities",
-      "head_type": "Biological Entity",
-      "relation": "play_role_in",
-      "tail": "development of GIT system",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "microbial communities",
-      "head_type": "Biological Entity",
-      "relation": "responsible_for",
+      "head": "human microbiome",
+      "head_type": "Microbial Community",
+      "relation": "responsible for",
       "tail": "essential metabolic pathways",
       "tail_type": "Biological Process"
     },
     {
-      "head": "host genetic predisposition",
-      "head_type": "Genetic Factor",
-      "relation": "affects",
-      "tail": "gut microbiota composition",
-      "tail_type": "Biological Entity"
+      "head": "gut microbiota",
+      "head_type": "Microbial Community",
+      "relation": "affected by",
+      "tail": "host genetic predisposition",
+      "tail_type": "Genetic Factor"
     },
     {
-      "head": "environmental factors",
-      "head_type": "Environmental Factor",
-      "relation": "affects",
-      "tail": "gut microbiota composition",
-      "tail_type": "Biological Entity"
+      "head": "gut microbiota",
+      "head_type": "Microbial Community",
+      "relation": "affected by",
+      "tail": "environmental factors",
+      "tail_type": "Environmental Factor"
     },
     {
-      "head": "lifestyle",
-      "head_type": "Behavioral Factor",
-      "relation": "affects",
-      "tail": "gut microbiota composition",
-      "tail_type": "Biological Entity"
+      "head": "gut microbiota",
+      "head_type": "Microbial Community",
+      "relation": "affected by",
+      "tail": "lifestyle",
+      "tail_type": "Lifestyle Factor"
     },
     {
-      "head": "diet",
-      "head_type": "Dietary Factor",
-      "relation": "affects",
-      "tail": "gut microbiota composition",
-      "tail_type": "Biological Entity"
+      "head": "gut microbiota",
+      "head_type": "Microbial Community",
+      "relation": "affected by",
+      "tail": "diet",
+      "tail_type": "Dietary Factor"
     },
     {
-      "head": "antibiotic drug use",
-      "head_type": "Medical Treatment",
-      "relation": "affects",
-      "tail": "gut microbiota composition",
-      "tail_type": "Biological Entity"
-    },
-    {
-      "head": "nonantibiotic drug use",
-      "head_type": "Medical Treatment",
-      "relation": "affects",
-      "tail": "gut microbiota composition",
-      "tail_type": "Biological Entity"
+      "head": "gut microbiota",
+      "head_type": "Microbial Community",
+      "relation": "affected by",
+      "tail": "antibiotic or nonantibiotic drug use",
+      "tail_type": "Drug Use"
     },
     {
       "head": "dysbiosis",
-      "head_type": "Pathological Condition",
-      "relation": "associated_with",
-      "tail": "onset of neurological disorders",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "dysbiosis",
-      "head_type": "Pathological Condition",
-      "relation": "associated_with",
-      "tail": "progression of neurological disorders",
-      "tail_type": "Disease"
+      "head_type": "Microbial Imbalance",
+      "relation": "associated with",
+      "tail": "onset and progression of neurological disorders",
+      "tail_type": "Disease Process"
     },
     {
       "head": "microbiome-host cross talk pathways",
-      "head_type": "Biological Pathway",
-      "relation": "provides_insight_into",
-      "tail": "therapeutic strategies",
-      "tail_type": "Medical Strategy"
+      "head_type": "Communication Pathway",
+      "relation": "provides insight into",
+      "tail": "novel therapeutic strategies",
+      "tail_type": "Therapeutic Strategy"
     },
     {
       "head": "gut microbiome",
-      "head_type": "Biological Entity",
-      "relation": "involved_in",
-      "tail": "pathogenesis of neurological disorders",
-      "tail_type": "Pathogenesis"
+      "head_type": "Microbial Community",
+      "relation": "related to",
+      "tail": "autism spectrum disorders",
+      "tail_type": "Neurological Disorder"
     },
     {
       "head": "gut microbiome",
-      "head_type": "Biological Entity",
-      "relation": "used_in",
-      "tail": "microbe-based therapies",
-      "tail_type": "Therapeutic Method"
+      "head_type": "Microbial Community",
+      "relation": "related to",
+      "tail": "Parkinson's disease",
+      "tail_type": "Neurological Disorder"
     },
     {
       "head": "gut microbiome",
-      "head_type": "Biological Entity",
-      "relation": "used_in",
+      "head_type": "Microbial Community",
+      "relation": "related to",
+      "tail": "schizophrenia",
+      "tail_type": "Neurological Disorder"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "Microbial Community",
+      "relation": "related to",
+      "tail": "multiple sclerosis",
+      "tail_type": "Neurological Disorder"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "Microbial Community",
+      "relation": "related to",
+      "tail": "Alzheimer's disease",
+      "tail_type": "Neurological Disorder"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "Microbial Community",
+      "relation": "related to",
+      "tail": "epilepsy",
+      "tail_type": "Neurological Disorder"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "Microbial Community",
+      "relation": "related to",
+      "tail": "stroke",
+      "tail_type": "Neurological Disorder"
+    },
+    {
+      "head": "microbe-based therapies",
+      "head_type": "Therapeutic Approach",
+      "relation": "potential for",
       "tail": "diagnostic microbial biomarkers",
       "tail_type": "Diagnostic Tool"
     },
     {
       "head": "probiotics",
       "head_type": "Therapeutic Agent",
-      "relation": "administered_for",
-      "tail": "neurological disorders",
-      "tail_type": "Disease"
+      "relation": "administered for",
+      "tail": "health benefits in neurological disorders",
+      "tail_type": "Health Outcome"
     },
     {
       "head": "prebiotics",
       "head_type": "Therapeutic Agent",
-      "relation": "administered_for",
-      "tail": "neurological disorders",
-      "tail_type": "Disease"
+      "relation": "administered for",
+      "tail": "health benefits in neurological disorders",
+      "tail_type": "Health Outcome"
     },
     {
       "head": "postbiotics",
       "head_type": "Therapeutic Agent",
-      "relation": "administered_for",
-      "tail": "neurological disorders",
-      "tail_type": "Disease"
+      "relation": "administered for",
+      "tail": "health benefits in neurological disorders",
+      "tail_type": "Health Outcome"
     },
     {
       "head": "synbiotics",
       "head_type": "Therapeutic Agent",
-      "relation": "administered_for",
-      "tail": "neurological disorders",
-      "tail_type": "Disease"
+      "relation": "administered for",
+      "tail": "health benefits in neurological disorders",
+      "tail_type": "Health Outcome"
     },
     {
       "head": "fecal microbiota transplantation",
-      "head_type": "Medical Procedure",
-      "relation": "administered_for",
-      "tail": "neurological disorders",
-      "tail_type": "Disease"
+      "head_type": "Therapeutic Procedure",
+      "relation": "administered for",
+      "tail": "health benefits in neurological disorders",
+      "tail_type": "Health Outcome"
     }
   ]
 }

@@ -1,83 +1,62 @@
 {
-  "title": "Gut microbiota analysis and its significance in vasovagal syncope in children",
+  "title": "Gut microbiota analysis and its significance in vasovagal syncope in children.",
   "abstract": "Vasovagal syncope (VVS) is common in children and greatly affect both physical and mental health. But the mechanisms have not been completely explained. This study was designed to analyze the gut microbiota in children with VVS and explore its clinical significance. Fecal samples from 20 VVS children and 20 matched controls were collected, and the microbiota were analyzed by 16S rRNA gene sequencing. The diversity and microbiota compositions of the VVS cases and controls were compared with the independent sample t test or Mann-Whitney U test. The correlation between the predominant bacteria and clinical symptoms was analyzed using Pearson or Spearman correlation test. No significant differences in diversity were evident between VVS and controls (P\u200a>\u200a0.05). At the family level, the relative abundance of Ruminococcaceae was significantly higher in VVS children than in controls (median [Q1, Q3]: 22.10% [16.89%, 27.36%] vs. 13.92% [10.31%, 20.18%], Z\u200a=\u200a-2.40, P\u200a<\u200a0.05), and LEfSe analysis revealed Ruminococcaceae as a discriminative feature (linear discriminant analysis [LDA] score\u200a>\u200a4, P\u200a<\u200a0.05). The relative abundance of Ruminococcaceae in VVS patients was positively correlated with the frequency of syncope (r\u200a=\u200a0.616, P\u200a<\u200a0.01). In terms of its correlation with hemodynamics, we showed that relative abundance of Ruminococcaceae was negatively correlated with the systolic and diastolic pressure reduction at the positive response in head-up tilt test (HUTT; r\u200a=\u200a-0.489 and -0.448, all P\u200a<\u200a0.05), but was positively correlated with the mean pressure drop and decline rate (r\u200a=\u200a0.489 and 0.467, all P\u200a<\u200a0.05) as well as diastolic pressure drop and decline rate at the HUTT positive response (r\u200a=\u200a0.579 and 0.589, all P\u200a<\u200a0.01) in VVS patients. Ruminococcaceae was the predominant gut bacteria and was associated with the clinical symptoms and hemodynamics of VVS, suggesting that gut microbiota might be involved in the development of VVS.",
   "relations": [
     {
+      "head": "Vasovagal syncope",
+      "head_type": "Medical Condition",
+      "relation": "associated with",
+      "tail": "Gut microbiota",
+      "tail_type": "Biological Entity"
+    },
+    {
       "head": "Gut microbiota",
       "head_type": "Biological Entity",
-      "relation": "associated_with",
-      "tail": "Vasovagal syncope",
-      "tail_type": "Disease"
+      "relation": "analyzed using",
+      "tail": "16S rRNA gene sequencing",
+      "tail_type": "Method"
     },
     {
       "head": "Ruminococcaceae",
-      "head_type": "Bacterial Family",
-      "relation": "increased_abundance_in",
-      "tail": "Children with VVS",
-      "tail_type": "Patient Population"
+      "head_type": "Microbial Family",
+      "relation": "more abundant in",
+      "tail": "Vasovagal syncope patients",
+      "tail_type": "Patient Group"
     },
     {
       "head": "Ruminococcaceae",
-      "head_type": "Bacterial Family",
-      "relation": "correlates_with",
+      "head_type": "Microbial Family",
+      "relation": "correlated with",
       "tail": "Frequency of syncope",
       "tail_type": "Clinical Symptom"
     },
     {
       "head": "Ruminococcaceae",
-      "head_type": "Bacterial Family",
-      "relation": "negatively_correlated_with",
+      "head_type": "Microbial Family",
+      "relation": "negatively correlated with",
       "tail": "Systolic pressure reduction",
       "tail_type": "Hemodynamic Measure"
     },
     {
       "head": "Ruminococcaceae",
-      "head_type": "Bacterial Family",
-      "relation": "negatively_correlated_with",
+      "head_type": "Microbial Family",
+      "relation": "negatively correlated with",
       "tail": "Diastolic pressure reduction",
       "tail_type": "Hemodynamic Measure"
     },
     {
       "head": "Ruminococcaceae",
-      "head_type": "Bacterial Family",
-      "relation": "positively_correlated_with",
+      "head_type": "Microbial Family",
+      "relation": "positively correlated with",
       "tail": "Mean pressure drop",
       "tail_type": "Hemodynamic Measure"
     },
     {
       "head": "Ruminococcaceae",
-      "head_type": "Bacterial Family",
-      "relation": "positively_correlated_with",
-      "tail": "Pressure drop decline rate",
+      "head_type": "Microbial Family",
+      "relation": "positively correlated with",
+      "tail": "Diastolic pressure drop",
       "tail_type": "Hemodynamic Measure"
-    },
-    {
-      "head": "Gut microbiota",
-      "head_type": "Biological Entity",
-      "relation": "analyzed_using",
-      "tail": "16S rRNA gene sequencing",
-      "tail_type": "Method"
-    },
-    {
-      "head": "Vasovagal syncope",
-      "head_type": "Disease",
-      "relation": "affects",
-      "tail": "Children",
-      "tail_type": "Population"
-    },
-    {
-      "head": "Vasovagal syncope",
-      "head_type": "Disease",
-      "relation": "impacts",
-      "tail": "Physical health",
-      "tail_type": "Health Aspect"
-    },
-    {
-      "head": "Vasovagal syncope",
-      "head_type": "Disease",
-      "relation": "impacts",
-      "tail": "Mental health",
-      "tail_type": "Health Aspect"
     }
   ]
 }
