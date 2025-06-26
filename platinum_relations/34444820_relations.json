@@ -1,0 +1,83 @@
+{
+  "title": "Effects of Probiotic NVP-1704 on Mental Health and Sleep in Healthy Adults: An 8-Week Randomized, Double-Blind, Placebo-Controlled Trial.",
+  "abstract": "The human gut microbiome is closely linked to mental health and sleep. We aimed to verify the efficacy and safety of probiotic NVP-1704, a mixture of <i>Lactobacillus reuteri</i> NK33 and <i>Bifidobacterium adolescentis</i> NK98, in improving stress, depression, anxiety, and sleep disturbances, along with the measurement of some blood biomarkers. A total of 156 healthy adults with subclinical symptoms of depression, anxiety, and insomnia were retrospectively registered and randomly assigned to receive either NVP-1704 (<i>n</i> = 78) or a placebo (<i>n</i> = 78) for eight weeks. Participants completed the Stress Response Inventory, Beck's Depression and Anxiety Inventory, Pittsburg Sleep Quality Index, and Insomnia Severity Index at baseline, at four and eight weeks of treatment. Pre- and post-treatment blood tests for biomarkers were conducted. After intervention, gut microbiota composition was quantified by pyrosequencing the bacterial 16S rRNA gene. The NVP-1704 group had a more significant reduction in depressive symptoms at four and eight weeks of treatment, and anxiety symptoms at four weeks compared to the placebo group. Those receiving NVP-1704 also experienced an improvement in sleep quality. NVP-1704 treatment led to a decrease in serum interleukin-6 levels. Furthermore, NVP-1704 increased <i>Bifidobacteriaceae</i> and <i>Lactobacillacea</i>, whereas it decreased <i>Enterobacteriaceae</i> in the gut microbiota composition. Our findings suggest that probiotic NVP-1704 could be beneficial for mental health and sleep.",
+  "relations": [
+    {
+      "head": "Probiotic NVP-1704",
+      "head_type": "Probiotic",
+      "relation": "improves",
+      "tail": "mental health",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Probiotic NVP-1704",
+      "head_type": "Probiotic",
+      "relation": "improves",
+      "tail": "sleep",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "NVP-1704",
+      "head_type": "Probiotic",
+      "relation": "contains",
+      "tail": "Lactobacillus reuteri NK33",
+      "tail_type": "Bacteria"
+    },
+    {
+      "head": "NVP-1704",
+      "head_type": "Probiotic",
+      "relation": "contains",
+      "tail": "Bifidobacterium adolescentis NK98",
+      "tail_type": "Bacteria"
+    },
+    {
+      "head": "NVP-1704",
+      "head_type": "Probiotic",
+      "relation": "reduces",
+      "tail": "depressive symptoms",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "NVP-1704",
+      "head_type": "Probiotic",
+      "relation": "reduces",
+      "tail": "anxiety symptoms",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "NVP-1704",
+      "head_type": "Probiotic",
+      "relation": "improves",
+      "tail": "sleep quality",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "NVP-1704",
+      "head_type": "Probiotic",
+      "relation": "decreases",
+      "tail": "serum interleukin-6 levels",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "NVP-1704",
+      "head_type": "Probiotic",
+      "relation": "increases",
+      "tail": "Bifidobacteriaceae",
+      "tail_type": "Bacteria"
+    },
+    {
+      "head": "NVP-1704",
+      "head_type": "Probiotic",
+      "relation": "increases",
+      "tail": "Lactobacillacea",
+      "tail_type": "Bacteria"
+    },
+    {
+      "head": "NVP-1704",
+      "head_type": "Probiotic",
+      "relation": "decreases",
+      "tail": "Enterobacteriaceae",
+      "tail_type": "Bacteria"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "title": "Global research trends and focus on the link between colorectal cancer and gut flora: a bibliometric analysis from 2001 to 2021.",
+  "abstract": "Colorectal cancer (CRC) is a highly prevalent cancer, and the global healthcare system bears a significant burden due to its incidence. Modulating the gut microbiota is a promising approach to enhance the efficacy of CRC treatment and reduce its adverse effects. The causal relationship between specific microorganisms' presence and CRC development has been widely validated. However, few studies have investigated this relationship using bibliometric methods. Therefore, this study analyzed the research hotspots and trends in human gut microbiology and CRC over the last two decades from a bibliometric perspective. The study aims to provide novel insights into basic and clinical research in this field. The articles and reviews on gut microbiota in CRC were obtained from the Web of Science Core Collection (WOSCC) on November 2, 2022. CiteSpace and VOSviewer were used to conduct the bibliometric and knowledge-map analysis. A total of 2,707 publications were obtained, with a rapid increase in the number of publications since 2015. The United States and China are the main contributors in this field and have established a network of partnerships in several countries. 414 academic journals have published articles on this topic. The author with the highest number of publications is Jun Yu from the Chinese University of Hong Kong. In addition to \"intestinal flora\" and \"colorectal cancer,\" high frequency terms in the keyword co-occurrence network analysis included inflammatory bowel disease, <i>Fusobacterium nucleatum</i>, inflammation, long-chain fatty acids, ulcerative colitis, bile acids, and resistant starch. Analysis of keyword trends using burst testing revealed that biomarkers, abnormal crypt foci, bifidobacteria, \u03b2-glucuronidase, short-chain fatty acids, bile acids, and DNA methylation are at the forefront of research in this area. The findings of this study provide a bibliometric analysis and visualization of the key research areas in gut microbiota and CRC over the past 20\u2009years. The results suggest that the role of gut microbiota in CRC and its underlying mechanisms should be closely monitored, particularly in the areas of biomarkers, metabolic pathways, and DNA methylation, which may emerge as hot topics in this field.",
+  "relations": [
+    {
+      "head": "Colorectal cancer",
+      "head_type": "Disease",
+      "relation": "MODULATED_BY",
+      "tail": "Gut microbiota",
+      "tail_type": "Microbial_Ecosystem"
+    },
+    {
+      "head": "Gut microbiota",
+      "head_type": "Microbial_Ecosystem",
+      "relation": "CONTRIBUTES_TO",
+      "tail": "CRC development",
+      "tail_type": "Disease_Development"
+    },
+    {
+      "head": "United States",
+      "head_type": "Country",
+      "relation": "CONTRIBUTES_TO",
+      "tail": "Research",
+      "tail_type": "Research_Field"
+    },
+    {
+      "head": "China",
+      "head_type": "Country",
+      "relation": "CONTRIBUTES_TO",
+      "tail": "Research",
+      "tail_type": "Research_Field"
+    },
+    {
+      "head": "Jun Yu",
+      "head_type": "Person",
+      "relation": "AUTHORED",
+      "tail": "Publications",
+      "tail_type": "Publication"
+    },
+    {
+      "head": "Web of Science Core Collection",
+      "head_type": "Database",
+      "relation": "SOURCE_OF",
+      "tail": "Publications",
+      "tail_type": "Publication"
+    },
+    {
+      "head": "CiteSpace",
+      "head_type": "Software",
+      "relation": "USED_FOR",
+      "tail": "Bibliometric analysis",
+      "tail_type": "Analysis_Method"
+    },
+    {
+      "head": "VOSviewer",
+      "head_type": "Software",
+      "relation": "USED_FOR",
+      "tail": "Knowledge-map analysis",
+      "tail_type": "Analysis_Method"
+    },
+    {
+      "head": "Gut microbiota",
+      "head_type": "Microbial_Ecosystem",
+      "relation": "ASSOCIATED_WITH",
+      "tail": "Inflammatory bowel disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Gut microbiota",
+      "head_type": "Microbial_Ecosystem",
+      "relation": "ASSOCIATED_WITH",
+      "tail": "Fusobacterium nucleatum",
+      "tail_type": "Microorganism"
+    },
+    {
+      "head": "Gut microbiota",
+      "head_type": "Microbial_Ecosystem",
+      "relation": "ASSOCIATED_WITH",
+      "tail": "Inflammation",
+      "tail_type": "Biological_Process"
+    },
+    {
+      "head": "Gut microbiota",
+      "head_type": "Microbial_Ecosystem",
+      "relation": "ASSOCIATED_WITH",
+      "tail": "Long-chain fatty acids",
+      "tail_type": "Biochemical_Substance"
+    },
+    {
+      "head": "Gut microbiota",
+      "head_type": "Microbial_Ecosystem",
+      "relation": "ASSOCIATED_WITH",
+      "tail": "Ulcerative colitis",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Gut microbiota",
+      "head_type": "Microbial_Ecosystem",
+      "relation": "ASSOCIATED_WITH",
+      "tail": "Bile acids",
+      "tail_type": "Biochemical_Substance"
+    },
+    {
+      "head": "Gut microbiota",
+      "head_type": "Microbial_Ecosystem",
+      "relation": "ASSOCIATED_WITH",
+      "tail": "Resistant starch",
+      "tail_type": "Dietary_Substance"
+    },
+    {
+      "head": "Biomarkers",
+      "head_type": "Biological_Marker",
+      "relation": "FOCUSED_ON",
+      "tail": "Research",
+      "tail_type": "Research_Field"
+    },
+    {
+      "head": "Abnormal crypt foci",
+      "head_type": "Pathological_Feature",
+      "relation": "FOCUSED_ON",
+      "tail": "Research",
+      "tail_type": "Research_Field"
+    },
+    {
+      "head": "Bifidobacteria",
+      "head_type": "Microorganism",
+      "relation": "FOCUSED_ON",
+      "tail": "Research",
+      "tail_type": "Research_Field"
+    },
+    {
+      "head": "\u03b2-glucuronidase",
+      "head_type": "Enzyme",
+      "relation": "FOCUSED_ON",
+      "tail": "Research",
+      "tail_type": "Research_Field"
+    },
+    {
+      "head": "Short-chain fatty acids",
+      "head_type": "Biochemical_Substance",
+      "relation": "FOCUSED_ON",
+      "tail": "Research",
+      "tail_type": "Research_Field"
+    },
+    {
+      "head": "DNA methylation",
+      "head_type": "Epigenetic_Process",
+      "relation": "FOCUSED_ON",
+      "tail": "Research",
+      "tail_type": "Research_Field"
+    }
+  ]
+}

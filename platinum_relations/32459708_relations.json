@@ -1,0 +1,55 @@
+{
+  "title": "The role of the gut microbiota in the pathophysiology of mental and neurological disorders.",
+  "abstract": "In recent decades, the concept of the gut microbiota as a potential novel therapeutic strategy for mental health has emerged. The tiny microbes inhabiting our gut communicate through a bidirectional communication signaling with the brain that influences gut physiology, brain function and behavior. Accumulating evidence suggests that perturbation of the gut microbiota contributes to the pathophysiology of mental illnesses including autism, depression and anxiety as well as neurodegenerative disorders such as Alzheimer's and Parkinson's diseases. This review will highlight recent findings in both human and animal studies indicating how changes in the gut microbiota can impact the pathophysiology of such diseases. The current work will also provide an understanding of the efficacy of microbiota-targeted therapies on psychiatric disorders.",
+  "relations": [
+    {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "contributes to",
+      "tail": "pathophysiology",
+      "tail_type": "biological process"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "influences",
+      "tail": "gut physiology",
+      "tail_type": "biological process"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "influences",
+      "tail": "brain function",
+      "tail_type": "biological process"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "influences",
+      "tail": "behavior",
+      "tail_type": "biological process"
+    },
+    {
+      "head": "perturbation of the gut microbiota",
+      "head_type": "biological process",
+      "relation": "contributes to",
+      "tail": "mental illnesses",
+      "tail_type": "disease"
+    },
+    {
+      "head": "perturbation of the gut microbiota",
+      "head_type": "biological process",
+      "relation": "contributes to",
+      "tail": "neurodegenerative disorders",
+      "tail_type": "disease"
+    },
+    {
+      "head": "microbiota-targeted therapies",
+      "head_type": "therapeutic strategy",
+      "relation": "affects",
+      "tail": "psychiatric disorders",
+      "tail_type": "disease"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Probiotics in Treatment of Viral Respiratory Infections and Neuroinflammatory Disorders",
+  "abstract": "Inflammation is a biological response to the activation of the immune system by various infectious or non-infectious agents, which may lead to tissue damage and various diseases. Gut commensal bacteria maintain a symbiotic relationship with the host and display a critical function in the homeostasis of the host immune system. Disturbance to the gut microbiota leads to immune dysfunction both locally and at distant sites, which causes inflammatory conditions not only in the intestine but also in the other organs such as lungs and brain, and may induce a disease state. Probiotics are well known to reinforce immunity and counteract inflammation by restoring symbiosis within the gut microbiota. As a result, probiotics protect against various diseases, including respiratory infections and neuroinflammatory disorders. A growing body of research supports the beneficial role of probiotics in lung and mental health through modulating the gut-lung and gut-brain axes. In the current paper, we discuss the potential role of probiotics in the treatment of viral respiratory infections, including the COVID-19 disease, as major public health crisis in 2020, and influenza virus infection, as well as treatment of neurological disorders like multiple sclerosis and other mental illnesses.",
+  "relations": [
+    {
+      "head": "Inflammation",
+      "head_type": "Biological Process",
+      "relation": "is a response to",
+      "tail": "Activation of the immune system",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "Gut commensal bacteria",
+      "head_type": "Organism",
+      "relation": "maintain",
+      "tail": "Symbiotic relationship",
+      "tail_type": "Relationship"
+    },
+    {
+      "head": "Gut commensal bacteria",
+      "head_type": "Organism",
+      "relation": "display",
+      "tail": "Critical function in homeostasis",
+      "tail_type": "Biological Function"
+    },
+    {
+      "head": "Disturbance to gut microbiota",
+      "head_type": "Condition",
+      "relation": "leads to",
+      "tail": "Immune dysfunction",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Disturbance to gut microbiota",
+      "head_type": "Condition",
+      "relation": "causes",
+      "tail": "Inflammatory conditions",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "reinforce",
+      "tail": "Immunity",
+      "tail_type": "Biological Function"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "counteract",
+      "tail": "Inflammation",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "restore",
+      "tail": "Symbiosis",
+      "tail_type": "Relationship"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "protect against",
+      "tail": "Respiratory infections",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "protect against",
+      "tail": "Neuroinflammatory disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "support beneficial role in",
+      "tail": "Lung health",
+      "tail_type": "Organ Function"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "support beneficial role in",
+      "tail": "Mental health",
+      "tail_type": "Health Condition"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "Gut-lung axis",
+      "tail_type": "Physiological Axis"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "Gut-brain axis",
+      "tail_type": "Physiological Axis"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "treat",
+      "tail": "Viral respiratory infections",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "treat",
+      "tail": "COVID-19 disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "treat",
+      "tail": "Influenza virus infection",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "treat",
+      "tail": "Neurological disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "treat",
+      "tail": "Multiple sclerosis",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Substance",
+      "relation": "treat",
+      "tail": "Mental illnesses",
+      "tail_type": "Health Condition"
+    }
+  ]
+}

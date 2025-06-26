@@ -1,0 +1,153 @@
+{
+  "title": "The Gut and Its Microbiome as Related to Central Nervous System Functioning and Psychological Well-being: Introduction to the Special Issue of Psychosomatic Medicine",
+  "abstract": "Accumulating evidence indicates bidirectional associations between the brain and the gut microbiome with both top-down and bottom-up processes. This article describes new developments in brain-gut interactions as an introduction to a special issue of Psychosomatic Medicine, based on a joint symposium of the American Psychosomatic Society and the American Gastroenterological Association. Literature review articles indicate that several psychiatric disorders are associated with altered gut microbiota, whereas evidence linking functional gastrointestinal disorders and dysbiosis has not been firmly established. The association between dysbiosis with obesity, metabolic syndrome, and Type 2 diabetes mellitus is still inconclusive, but evidence suggests that bariatric surgery may favorably alter the gut microbial community structure. Consistent with the literature linking psychiatric disorders with dysbiosis is that life adversity during childhood and certain temperaments that develop early in life are associated with altered gut microbiota, particularly the Prevotella species. Some studies reported in this issue support the hypothesis that brain-gut interactions are adversely influenced by reduced functional activation of the hippocampus and autonomic nervous system dysregulation. The evidence for the effects of probiotics in the treatment of Clostridium difficile colitis is relatively well established, but effects on mental health and psychophysiological stress reactivity are either inconclusive or still in progress. To conceptualize brain-gut interactions, a holistic, systems-based perspective on health and disease is needed, integrating gut microbial with environmental ecology. More translational research is needed to examine the mental and physical health effects of prebiotics and probiotics, in well-phenotyped human populations with sufficiently large sample sizes.",
+  "relations": [
+    {
+      "head": "brain",
+      "head_type": "biological structure",
+      "relation": "associated with",
+      "tail": "gut microbiome",
+      "tail_type": "microbial community"
+    },
+    {
+      "head": "psychiatric disorders",
+      "head_type": "mental health condition",
+      "relation": "associated with",
+      "tail": "altered gut microbiota",
+      "tail_type": "microbial community state"
+    },
+    {
+      "head": "dysbiosis",
+      "head_type": "microbial imbalance",
+      "relation": "associated with",
+      "tail": "obesity",
+      "tail_type": "health condition"
+    },
+    {
+      "head": "dysbiosis",
+      "head_type": "microbial imbalance",
+      "relation": "associated with",
+      "tail": "metabolic syndrome",
+      "tail_type": "health condition"
+    },
+    {
+      "head": "dysbiosis",
+      "head_type": "microbial imbalance",
+      "relation": "associated with",
+      "tail": "Type 2 diabetes mellitus",
+      "tail_type": "health condition"
+    },
+    {
+      "head": "bariatric surgery",
+      "head_type": "medical procedure",
+      "relation": "altered",
+      "tail": "gut microbial community structure",
+      "tail_type": "microbial community state"
+    },
+    {
+      "head": "life adversity during childhood",
+      "head_type": "life event",
+      "relation": "associated with",
+      "tail": "altered gut microbiota",
+      "tail_type": "microbial community state"
+    },
+    {
+      "head": "certain temperaments",
+      "head_type": "personality trait",
+      "relation": "associated with",
+      "tail": "altered gut microbiota",
+      "tail_type": "microbial community state"
+    },
+    {
+      "head": "altered gut microbiota",
+      "head_type": "microbial community state",
+      "relation": "particularly",
+      "tail": "Prevotella species",
+      "tail_type": "microbial species"
+    },
+    {
+      "head": "brain-gut interactions",
+      "head_type": "biological process",
+      "relation": "influenced by",
+      "tail": "reduced functional activation of the hippocampus",
+      "tail_type": "biological process"
+    },
+    {
+      "head": "brain-gut interactions",
+      "head_type": "biological process",
+      "relation": "influenced by",
+      "tail": "autonomic nervous system dysregulation",
+      "tail_type": "biological process"
+    },
+    {
+      "head": "probiotics",
+      "head_type": "biological agent",
+      "relation": "effective in treating",
+      "tail": "Clostridium difficile colitis",
+      "tail_type": "infectious disease"
+    },
+    {
+      "head": "probiotics",
+      "head_type": "biological agent",
+      "relation": "have inconclusive effects on",
+      "tail": "mental health",
+      "tail_type": "health aspect"
+    },
+    {
+      "head": "probiotics",
+      "head_type": "biological agent",
+      "relation": "have inconclusive effects on",
+      "tail": "psychophysiological stress reactivity",
+      "tail_type": "physiological response"
+    },
+    {
+      "head": "brain-gut interactions",
+      "head_type": "biological process",
+      "relation": "require",
+      "tail": "holistic, systems-based perspective",
+      "tail_type": "conceptual framework"
+    },
+    {
+      "head": "holistic, systems-based perspective",
+      "head_type": "conceptual framework",
+      "relation": "integrates",
+      "tail": "gut microbial",
+      "tail_type": "microbial community"
+    },
+    {
+      "head": "holistic, systems-based perspective",
+      "head_type": "conceptual framework",
+      "relation": "integrates",
+      "tail": "environmental ecology",
+      "tail_type": "environmental system"
+    },
+    {
+      "head": "more translational research",
+      "head_type": "research effort",
+      "relation": "needed to examine",
+      "tail": "mental health effects",
+      "tail_type": "health outcome"
+    },
+    {
+      "head": "more translational research",
+      "head_type": "research effort",
+      "relation": "needed to examine",
+      "tail": "physical health effects",
+      "tail_type": "health outcome"
+    },
+    {
+      "head": "translational research",
+      "head_type": "research effort",
+      "relation": "focuses on",
+      "tail": "prebiotics",
+      "tail_type": "biological agent"
+    },
+    {
+      "head": "translational research",
+      "head_type": "research effort",
+      "relation": "focuses on",
+      "tail": "probiotics",
+      "tail_type": "biological agent"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "title": "Affective disorders impact prevalence of Flavonifractor and abundance of Christensenellaceae in gut microbiota",
+  "abstract": "Background Affective disorders (AD) have been associated with a higher prevalence of the gut Flavonifractor genus and a lower abundance of the gut Christensenellaceae family. Objective and methods By pooling two independent study samples of patients with AD (n\u00a0=\u00a0176), their unaffected first-degree relatives (n\u00a0=\u00a070) and healthy controls (n\u00a0=\u00a0101) we aimed to replicate and extend our prior findings of differential Flavonifractor prevalence and Christensenellaceae abundance when comparing patients with AD and healthy controls. The gut microbiota was profiled using 16S rRNA gene amplicon sequencing. Results The pattern of higher prevalence of Flavonifractor and lower Centered Log-Ratio (CLR) abundance of Christensenellaceae was associated with AD. In generalized linear models the CLR abundance of Christensenellaceae was lower in patients with AD (p\u00a0=\u00a00.024), and in smokers (p\u00a0=\u00a01.9*10<sup>-4</sup>), and inversely associated with increasing waist circumference (p\u00a0=\u00a00.031). The prevalence of Flavonifractor was higher in patients with AD (p\u00a0=\u00a00.033) and in smokers (p\u00a0=\u00a00.036). No impact of psychotropic medication was found. The CLR abundance of Christensenellaceae (p\u00a0=\u00a00.041), but not the prevalence of Flavonifractor (p\u00a0=\u00a00.20) could distinguish non-smoking patients with AD from non-smoking healthy controls, whereas no such associations were found in smokers. Unaffected relatives neither differed from patients with AD nor from healthy controls. Conclusion Compared with findings in healthy controls, AD was associated with a significantly lower CLR abundance of the health-linked Christensenellaceae and a significantly higher prevalence of Flavonifractor; findings that are associated with enhanced oxidative stress and systemic low-grade inflammation. If our observations are validated in future independent studies, they support the notion that parts of aberrant gut microbiota are shared by AD and states of dysmetabolism.",
+  "relations": [
+    {
+      "head": "Affective disorders",
+      "head_type": "Disease",
+      "relation": "associated_with",
+      "tail": "Flavonifractor",
+      "tail_type": "Microbial Genus"
+    },
+    {
+      "head": "Affective disorders",
+      "head_type": "Disease",
+      "relation": "associated_with",
+      "tail": "Christensenellaceae",
+      "tail_type": "Microbial Family"
+    },
+    {
+      "head": "Flavonifractor",
+      "head_type": "Microbial Genus",
+      "relation": "has_prevalence",
+      "tail": "higher",
+      "tail_type": "Prevalence Level"
+    },
+    {
+      "head": "Christensenellaceae",
+      "head_type": "Microbial Family",
+      "relation": "has_abundance",
+      "tail": "lower",
+      "tail_type": "Abundance Level"
+    },
+    {
+      "head": "Christensenellaceae",
+      "head_type": "Microbial Family",
+      "relation": "associated_with",
+      "tail": "smokers",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Flavonifractor",
+      "head_type": "Microbial Genus",
+      "relation": "associated_with",
+      "tail": "smokers",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Christensenellaceae",
+      "head_type": "Microbial Family",
+      "relation": "inversely_associated_with",
+      "tail": "waist circumference",
+      "tail_type": "Physiological Measurement"
+    },
+    {
+      "head": "Christensenellaceae",
+      "head_type": "Microbial Family",
+      "relation": "distinguishes",
+      "tail": "non-smoking patients with AD",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Christensenellaceae",
+      "head_type": "Microbial Family",
+      "relation": "linked_with",
+      "tail": "health",
+      "tail_type": "Health Indicator"
+    },
+    {
+      "head": "Flavonifractor",
+      "head_type": "Microbial Genus",
+      "relation": "linked_with",
+      "tail": "oxidative stress",
+      "tail_type": "Physiological State"
+    },
+    {
+      "head": "Flavonifractor",
+      "head_type": "Microbial Genus",
+      "relation": "linked_with",
+      "tail": "systemic low-grade inflammation",
+      "tail_type": "Physiological State"
+    },
+    {
+      "head": "Affective disorders",
+      "head_type": "Disease",
+      "relation": "shared_aberrant_gut_microbiota_with",
+      "tail": "dysmetabolism",
+      "tail_type": "Metabolic State"
+    }
+  ]
+}

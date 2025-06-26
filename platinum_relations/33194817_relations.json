@@ -1,0 +1,139 @@
+{
+  "title": "Multiomics Study of Gut Bacteria and Host Metabolism in Irritable Bowel Syndrome and Depression Patients",
+  "abstract": "Irritable bowel syndrome (IBS) and depression have high tendencies of comorbidity. In particular, diarrhea-predominant IBS (IBS-D) and depression exhibit similar fecal microbiota signatures, yet little is known about their pathogenic mechanism. Here, we propose that the differences in structure and composition of IBS-D and depression gut microbiota give rise to different downstream functions, which lead to distinct clinical phenotypes via host metabolism and further influence the interaction of brain-gut axis. We performed multiomics study, including fecal metagenome-wide sequencing and serum metabolomics profiling in 65 individuals with IBS-D (n=22), depression (n=15), comorbid patients (n=13), and healthy controls (n=15). We analyzed functional genes contributed by the primary genus and evaluated their correlations with clinical indices and host metabolites. Metagenomic analysis revealed 26 clusters of orthologous groups of protein (COG) categories consisting of a total of 4,631 functional genes. Trehalose and maltose hydrolase (COG1554) and fucose permease (COG0738) were the most relevant and enriched functional genes in the IBS-D patients; urease accessory proteins UreE (COG2371) was that in the depression patients. Context based genome annotation suggest that an alteration of Escherichia coli and Enterobacter cloacae in IBS-D and depression respectively may be responsible for the enrichment described above. Correlation with host metabolites, such as maltotriose and isomaltose in carbohydrate metabolism and anandamide in neuroactive metabolism, drew further connections between these findings. These changes led us to propose a connection between genomic signatures and clinical differences observed in IBS-D and depression. Our findings provide further insights into the involvement of gut microbiota in diseases related to brain-gut disorder.",
+  "relations": [
+    {
+      "head": "Irritable Bowel Syndrome",
+      "head_type": "Disease",
+      "relation": "has_comorbidity",
+      "tail": "Depression",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Irritable Bowel Syndrome",
+      "head_type": "Disease",
+      "relation": "exhibits",
+      "tail": "fecal microbiota signatures",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "Depression",
+      "head_type": "Disease",
+      "relation": "exhibits",
+      "tail": "fecal microbiota signatures",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "gut microbiota structure",
+      "head_type": "Biological Entity",
+      "relation": "differs_in",
+      "tail": "IBS-D",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "gut microbiota structure",
+      "head_type": "Biological Entity",
+      "relation": "differs_in",
+      "tail": "Depression",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "affects",
+      "tail": "host metabolism",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "host metabolism",
+      "head_type": "Biological Process",
+      "relation": "influences",
+      "tail": "brain-gut axis interaction",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "multiomics study",
+      "head_type": "Research Method",
+      "relation": "includes",
+      "tail": "fecal metagenome-wide sequencing",
+      "tail_type": "Research Method"
+    },
+    {
+      "head": "multiomics study",
+      "head_type": "Research Method",
+      "relation": "includes",
+      "tail": "serum metabolomics profiling",
+      "tail_type": "Research Method"
+    },
+    {
+      "head": "Escherichia coli",
+      "head_type": "Microorganism",
+      "relation": "altered_in",
+      "tail": "IBS-D",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Enterobacter cloacae",
+      "head_type": "Microorganism",
+      "relation": "altered_in",
+      "tail": "Depression",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Trehalose and maltose hydrolase (COG1554)",
+      "head_type": "Functional Gene",
+      "relation": "enriched_in",
+      "tail": "IBS-D patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "fucose permease (COG0738)",
+      "head_type": "Functional Gene",
+      "relation": "enriched_in",
+      "tail": "IBS-D patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "urease accessory proteins UreE (COG2371)",
+      "head_type": "Functional Gene",
+      "relation": "enriched_in",
+      "tail": "Depression patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "maltotriose",
+      "head_type": "Metabolite",
+      "relation": "correlates_with",
+      "tail": "carbohydrate metabolism",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "isomaltose",
+      "head_type": "Metabolite",
+      "relation": "correlates_with",
+      "tail": "carbohydrate metabolism",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "anandamide",
+      "head_type": "Metabolite",
+      "relation": "correlates_with",
+      "tail": "neuroactive metabolism",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "genomic signatures",
+      "head_type": "Genomic Entity",
+      "relation": "connected_to",
+      "tail": "clinical differences",
+      "tail_type": "Clinical Observation"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "involved_in",
+      "tail": "brain-gut disorder",
+      "tail_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "title": "Along the microbiota-gut-brain axis: Use of plant polysaccharides to improve mental disorders.",
+  "abstract": "With the development of gut microbiota-specific interventions for mental disorders, the interactions between plant polysaccharides and microbiota in the intestinal and their consequent effects are becoming increasingly important. In this review, we discussed the role of plant polysaccharides in improving various mental disorders via the microbiota-gut-brain axis. The chemical and structural characteristics and metabolites of these plant polysaccharides were summarised. Plant polysaccharides and their metabolites have great potential for reshaping gut microbiota profiles through gut microbiota-dependent fermentation. Along the microbiota-gut-brain axis, the consequent pharmacological processes that lead to the elimination of the symptoms of mental disorders include 1) regulation of the central monoamine neurotransmitters, amino acid transmitters and cholinergic signalling system; 2) alleviation of central and peripheral inflammation mainly through the NLRP3/NF-\u03baB-related signalling pathway; 3) inhibition of neuronal apoptosis; and 4) enhancement of antioxidant activities. According to this review, monosaccharide glucose and structure -4-\u03b1-Glcp-(1\u2192 are the most potent compositions of the most reported plant polysaccharides. However, the causal structure-activity relationship remains to be extensively explored. Moreover, mechanistic elucidation, safety verification, and additional rigorous human studies are expected to advance plant polysaccharide-based product development targeting the microbiota-gut-brain axis for people with mental disorders.",
+  "relations": [
+    {
+      "head": "plant polysaccharides",
+      "head_type": "Substance",
+      "relation": "improve",
+      "tail": "mental disorders",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "plant polysaccharides",
+      "head_type": "Substance",
+      "relation": "used via",
+      "tail": "microbiota-gut-brain axis",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "plant polysaccharides",
+      "head_type": "Substance",
+      "relation": "reshape",
+      "tail": "gut microbiota profiles",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "ferment",
+      "tail": "plant polysaccharides",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "plant polysaccharides",
+      "head_type": "Substance",
+      "relation": "regulate",
+      "tail": "monoamine neurotransmitters",
+      "tail_type": "Biological Molecule"
+    },
+    {
+      "head": "plant polysaccharides",
+      "head_type": "Substance",
+      "relation": "regulate",
+      "tail": "amino acid transmitters",
+      "tail_type": "Biological Molecule"
+    },
+    {
+      "head": "plant polysaccharides",
+      "head_type": "Substance",
+      "relation": "regulate",
+      "tail": "cholinergic signalling system",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "plant polysaccharides",
+      "head_type": "Substance",
+      "relation": "alleviate",
+      "tail": "inflammation",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "plant polysaccharides",
+      "head_type": "Substance",
+      "relation": "inhibit",
+      "tail": "neuronal apoptosis",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "plant polysaccharides",
+      "head_type": "Substance",
+      "relation": "enhance",
+      "tail": "antioxidant activities",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "monosaccharide glucose",
+      "head_type": "Biological Molecule",
+      "relation": "compose",
+      "tail": "plant polysaccharides",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "structure -4-\u03b1-Glcp-(1\u2192",
+      "head_type": "Chemical Structure",
+      "relation": "compose",
+      "tail": "plant polysaccharides",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "plant polysaccharide-based products",
+      "head_type": "Product",
+      "relation": "target",
+      "tail": "microbiota-gut-brain axis",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "plant polysaccharide-based products",
+      "head_type": "Product",
+      "relation": "treat",
+      "tail": "mental disorders",
+      "tail_type": "Condition"
+    }
+  ]
+}

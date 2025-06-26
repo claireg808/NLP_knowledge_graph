@@ -1,0 +1,55 @@
+{
+  "title": "Maternal prenatal gut microbiota composition predicts child behaviour.",
+  "abstract": "Murine studies demonstrate that maternal prenatal gut microbiota influences brain development and behaviour of offspring. No human study has related maternal gut microbiota to behavioural outcomes during early life. This study aimed to evaluate relationships between the prenatal faecal microbiota, prenatal diet and childhood behaviour. A sub-cohort of 213 mothers and 215 children were selected from a longitudinal pre-birth cohort. Maternal prenatal exposure measures collected during the third trimester included the faecal microbiota (generated using 16S rRNA amplicon sequencing), and dietary intake. The behavioural outcome used the Childhood Behaviour Checklist at age two. Models were adjusted for prenatal diet, smoking, perceived stress, maternal age and sample batch. We found evidence that the alpha diversity of the maternal faecal microbiota during the third trimester of pregnancy predicts child internalising behaviour at two years of age (-2\u00b774, (-4\u00b771, -0\u00b778), p\u00a0=\u00a00\u00b701 (Wald test), R<sup>2</sup>=0\u00b707). Taxa from butyrate-producing families, Lachnospiraceae and Ruminococcaceae, were more abundant in mothers of children with normative behaviour. A healthy prenatal diet indirectly related to decreased child internalising behaviours via higher alpha diversity of maternal faecal microbiota. These findings support animal studies showing that the composition of maternal prenatal gut microbiota is related to offspring brain development and behaviour. Our findings highlight the need to evaluate potential impacts of the prenatal gut microbiota on early life brain development. This study was funded by the National Health and Medical Research Council of Australia (1082307, 1147980), Murdoch Children's Research Institute, Barwon Health and Deakin University.",
+  "relations": [
+    {
+      "head": "maternal prenatal gut microbiota",
+      "head_type": "biological factor",
+      "relation": "influences",
+      "tail": "brain development",
+      "tail_type": "developmental outcome"
+    },
+    {
+      "head": "maternal prenatal gut microbiota",
+      "head_type": "biological factor",
+      "relation": "influences",
+      "tail": "behaviour",
+      "tail_type": "behavioural outcome"
+    },
+    {
+      "head": "alpha diversity",
+      "head_type": "microbiota characteristic",
+      "relation": "predicts",
+      "tail": "child internalising behaviour",
+      "tail_type": "behavioural outcome"
+    },
+    {
+      "head": "Lachnospiraceae",
+      "head_type": "microbial family",
+      "relation": "is more abundant in",
+      "tail": "mothers of children with normative behaviour",
+      "tail_type": "maternal characteristic"
+    },
+    {
+      "head": "Ruminococcaceae",
+      "head_type": "microbial family",
+      "relation": "is more abundant in",
+      "tail": "mothers of children with normative behaviour",
+      "tail_type": "maternal characteristic"
+    },
+    {
+      "head": "healthy prenatal diet",
+      "head_type": "dietary factor",
+      "relation": "indirectly relates to",
+      "tail": "decreased child internalising behaviours",
+      "tail_type": "behavioural outcome"
+    },
+    {
+      "head": "healthy prenatal diet",
+      "head_type": "dietary factor",
+      "relation": "increases",
+      "tail": "alpha diversity",
+      "tail_type": "microbiota characteristic"
+    }
+  ]
+}

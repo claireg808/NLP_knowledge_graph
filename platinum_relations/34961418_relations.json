@@ -1,0 +1,104 @@
+{
+  "title": "Effects of Berberine on Gut Microbiota in Patients with Mild Metabolic Disorders Induced by Olanzapine",
+  "abstract": "Secondary metabolic disturbances in patients with schizophrenia or bipolar disorder may be attributed to olanzapine. It is important to prevent mild metabolic disorders progressing to metabolic syndrome. This study aims to investigate the effects of berberine on intestinal flora in patients with mild metabolic disorders induced by olanzapine. A total of 132 patients with schizophrenia, bipolar disorder, or schizoaffective psychosis that had been treated with olanzapine for at least 9 months were randomly assigned ([Formula: see text] = 66 each) to receive berberine or placebo tablets for 12 weeks. Metabolic assessments and intestinal flora were quantified at baseline and after 4, 8, and 12 weeks of treatment. Incidence rates of adverse reactions were recorded. FPG, FPI, HOMA-IR, HbA1, TG, BMI, and WC were significantly lower in patients who received berberine compared to placebo after 12 weeks of treatment ([Formula: see text]< 0.05). The abundance of firmicutes and coliform were significantly lower and the abundance of bacteroides significantly higher in patients who received berberine compared to placebo after 12 weeks of treatment ([Formula: see text]< 0.05). In patients who received berberine, the abundance of firmicutes was significantly decreased, and the abundance of bacteroides was significantly increased, and in patients who received placebo, the abundance of firmicutes was significantly increased post-treatment, compared to baseline (both [Formula: see text]< 0.05). In conclusions, berberine may regulate intestinal flora and metabolism in patients with schizophrenia or bipolar disorder and mild metabolic disturbances induced by olanzapine.",
+  "relations": [
+    {
+      "head": "Berberine",
+      "head_type": "Substance",
+      "relation": "treats",
+      "tail": "Mild Metabolic Disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Olanzapine",
+      "head_type": "Medication",
+      "relation": "causes",
+      "tail": "Metabolic Disturbances",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Schizophrenia",
+      "head_type": "Disease",
+      "relation": "associated_with",
+      "tail": "Metabolic Disturbances",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Bipolar Disorder",
+      "head_type": "Disease",
+      "relation": "associated_with",
+      "tail": "Metabolic Disturbances",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Berberine",
+      "head_type": "Substance",
+      "relation": "affects",
+      "tail": "Intestinal Flora",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "Firmicutes",
+      "head_type": "Microbial Taxon",
+      "relation": "decreased_by",
+      "tail": "Berberine",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "Bacteroides",
+      "head_type": "Microbial Taxon",
+      "relation": "increased_by",
+      "tail": "Berberine",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "Coliform",
+      "head_type": "Microbial Taxon",
+      "relation": "decreased_by",
+      "tail": "Berberine",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "Metabolic Assessments",
+      "head_type": "Assessment Type",
+      "relation": "measured_in",
+      "tail": "Patients",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Intestinal Flora",
+      "head_type": "Biological Entity",
+      "relation": "measured_in",
+      "tail": "Patients",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Adverse Reactions",
+      "head_type": "Event",
+      "relation": "recorded_in",
+      "tail": "Patients",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Berberine",
+      "head_type": "Substance",
+      "relation": "administered_to",
+      "tail": "Patients",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Placebo",
+      "head_type": "Control",
+      "relation": "administered_to",
+      "tail": "Patients",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Metabolic Syndrome",
+      "head_type": "Disease",
+      "relation": "prevented_by",
+      "tail": "Berberine",
+      "tail_type": "Substance"
+    }
+  ]
+}

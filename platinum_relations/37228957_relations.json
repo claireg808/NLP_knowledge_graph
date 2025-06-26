@@ -1,0 +1,76 @@
+{
+  "title": "The microbiota-gut-brain axis and three common neurological disorders: a mini-review",
+  "abstract": "Neurological disorders are an important cause of disability and death globally. Recently, a large body of research shows that the gut microbiome affects the brain and its conditions, through the gut-brain axis. The purpose of this mini-review is to provide a brief overview of the relationship between the microbiota-gut-brain axis in three neurological disorders: epilepsy, Parkinson's disease, and migraine. The authors chose these three disorders because of their burdensome and great effect on health care. We live on a microbial planet. Before humans, microorganisms existed for a hundred million years. Today, there are trillions of these microbes living in our bodies, it is called human microbiota. These organisms have a crucial role in our homeostasis and survival. Most of the human microbiota live in the gut. The number of gut microbiota is much more than the number of body cells. Gut microbiota has been regarded as a crucial regulator of the gut-brain axis. The discovery of the microbiota-gut-brain axis is described as a major advancement in neuroscience because it influences the pathophysiology of several neurological and psychiatric disorders. From this, more studies of the microbiota-gut-brain axis are needed in the future, to provide a better understanding of brain disorders and so that better treatment and prognosis.",
+  "relations": [
+    {
+      "head": "gut microbiome",
+      "head_type": "Biological Entity",
+      "relation": "affects",
+      "tail": "brain",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "gut-brain axis",
+      "head_type": "Biological Process",
+      "relation": "mediates",
+      "tail": "gut microbiome",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "microbiota-gut-brain axis",
+      "head_type": "Biological Process",
+      "relation": "relates to",
+      "tail": "epilepsy",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "microbiota-gut-brain axis",
+      "head_type": "Biological Process",
+      "relation": "relates to",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "microbiota-gut-brain axis",
+      "head_type": "Biological Process",
+      "relation": "relates to",
+      "tail": "migraine",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "human microbiota",
+      "head_type": "Biological Entity",
+      "relation": "inhabits",
+      "tail": "human body",
+      "tail_type": "Organism"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "regulates",
+      "tail": "gut-brain axis",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "microbiota-gut-brain axis",
+      "head_type": "Biological Process",
+      "relation": "influences",
+      "tail": "pathophysiology",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "neuroscience",
+      "head_type": "Scientific Field",
+      "relation": "benefits from",
+      "tail": "discovery of the microbiota-gut-brain axis",
+      "tail_type": "Discovery"
+    },
+    {
+      "head": "brain disorders",
+      "head_type": "Disease",
+      "relation": "understood through",
+      "tail": "microbiota-gut-brain axis studies",
+      "tail_type": "Research Study"
+    }
+  ]
+}

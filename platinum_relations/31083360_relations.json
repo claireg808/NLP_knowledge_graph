@@ -1,0 +1,90 @@
+{
+  "title": "A Systematic Review of the Role of Prebiotics and Probiotics in Autism Spectrum Disorders",
+  "abstract": "Background: Autism spectrum disorder (ASD) is a complex developmental condition typically characterized by deficits in social and communicative behaviors as well as repetitive patterns of behaviors. Despite its prevalence (affecting 0.1% to 1.8% of the global population), the pathogenesis of ASD remains incompletely understood. Patients with ASD are reported to have more frequent gastrointestinal (GI) complaints. There is some anecdotal evidence that probiotics are able to alleviate GI symptoms as well as improve behavioral issues in children with ASD. However, systematic reviews of the effect of prebiotics/probiotics on ASD and its associated symptoms are lacking. Methods: Using the keywords (prebiotics OR probiotics OR microbiota OR gut) AND (autism OR social OR ASD), a systematic literature search was conducted on PubMed, EMBASE, Medline, Clinicaltrials.gov and Google Scholar databases. The inclusion criteria were original clinical trials, published in English between the period 1st January 1988 and 1st February 2019. Results: A total of eight clinical trials were systematically reviewed. Two clinical trials examined the use of prebiotic and/or diet exclusion while six involved the use of probiotic supplementation in children with ASD. Most of these were prospective, open-label studies. Prebiotics only improved certain GI symptoms; however, when combined with an exclusion diet (gluten and casein free) showed a significant reduction in anti-sociability scores. As for probiotics, there is limited evidence to support the role of probiotics in alleviating the GI or behavioral symptoms in children with ASD. The two available double-blind, randomized, placebo-controlled trials found no significant difference in GI symptoms and behavior. Conclusion: Despite promising preclinical findings, prebiotics and probiotics have demonstrated an overall limited efficacy in the management of GI or behavioral symptoms in children with ASD. In addition, there was no standardized probiotics regimen, with multiple different strains and concentrations of probiotics, and variable duration of treatments.",
+  "relations": [
+    {
+      "head": "Autism spectrum disorder (ASD)",
+      "head_type": "Disorder",
+      "relation": "characterized by",
+      "tail": "deficits in social and communicative behaviors",
+      "tail_type": "Behavior"
+    },
+    {
+      "head": "Autism spectrum disorder (ASD)",
+      "head_type": "Disorder",
+      "relation": "characterized by",
+      "tail": "repetitive patterns of behaviors",
+      "tail_type": "Behavior"
+    },
+    {
+      "head": "Autism spectrum disorder (ASD)",
+      "head_type": "Disorder",
+      "relation": "has prevalence",
+      "tail": "0.1% to 1.8% of the global population",
+      "tail_type": "Population statistic"
+    },
+    {
+      "head": "Patients with ASD",
+      "head_type": "Patient group",
+      "relation": "have",
+      "tail": "more frequent gastrointestinal (GI) complaints",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Therapeutic agent",
+      "relation": "able to alleviate",
+      "tail": "GI symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Therapeutic agent",
+      "relation": "able to improve",
+      "tail": "behavioral issues",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Prebiotics",
+      "head_type": "Therapeutic agent",
+      "relation": "improved",
+      "tail": "GI symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Prebiotics",
+      "head_type": "Therapeutic agent",
+      "relation": "combined with exclusion diet",
+      "tail": "significant reduction in anti-sociability scores",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Therapeutic agent",
+      "relation": "limited evidence to support role in",
+      "tail": "alleviating GI or behavioral symptoms",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Double-blind, randomized, placebo-controlled trials",
+      "head_type": "Trial type",
+      "relation": "found no significant difference in",
+      "tail": "GI symptoms and behavior",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Prebiotics and probiotics",
+      "head_type": "Therapeutic agents",
+      "relation": "demonstrated limited efficacy in",
+      "tail": "management of GI or behavioral symptoms",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Probiotics regimen",
+      "head_type": "Treatment regimen",
+      "relation": "lacked standardization",
+      "tail": "multiple different strains and concentrations",
+      "tail_type": "Characteristic"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "title": "The human gut microbiota and depression: widely reviewed, yet poorly understood.",
+  "abstract": "A large number of existing reviews have discussed the role of the gut microbiota in affective disorders, though syntheses have been overwhelmingly narrative in their focus. In this correspondence, we compliment Sanada et\u00a0al. (2020) on their recent systematic review of the gut microbiota in Major Depressive Disorder (MDD), the first to incorporate a meta-analysis. We also comment on how this synthesis should be extended in future research. Sanada et\u00a0al. (2020) conducted a meta-analysis of alpha diversity in participants with MDD compared to controls, whereby they unexpectedly observed no significant difference between groups. A meta-analysis was only able to be performed on alpha diversity indices. Future research should consider research quality, other forms of depression, incorporate comprehensive meta-analyses, where possible, as well as investigate associations between anxiety/depression symptom measures and the gut microbiota. Further consideration of papers which incorporate functional analyses (e.g., metabolomics) is required to integrate this body of literature. Research investigating the microbiota-gut-brain axis in affective disorders has been met with great enthusiasm, offering promising direction for novel therapeutics in conditions such as depression. We encourage further systematic reviews in this space, particularly which consider research quality and incorporate comprehensive meta-analyses.",
+  "relations": [
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "associated_with",
+      "tail": "affective disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "reviewed_in",
+      "tail": "systematic review",
+      "tail_type": "Research Methodology"
+    },
+    {
+      "head": "Sanada et al. (2020)",
+      "head_type": "Research Group",
+      "relation": "conducted",
+      "tail": "meta-analysis",
+      "tail_type": "Research Methodology"
+    },
+    {
+      "head": "meta-analysis",
+      "head_type": "Research Methodology",
+      "relation": "focused_on",
+      "tail": "alpha diversity",
+      "tail_type": "Scientific Measurement"
+    },
+    {
+      "head": "participants with MDD",
+      "head_type": "Patient Group",
+      "relation": "compared_to",
+      "tail": "controls",
+      "tail_type": "Control Group"
+    },
+    {
+      "head": "future research",
+      "head_type": "Research Field",
+      "relation": "should_consider",
+      "tail": "research quality",
+      "tail_type": "Research Quality Metric"
+    },
+    {
+      "head": "future research",
+      "head_type": "Research Field",
+      "relation": "should_investigate",
+      "tail": "anxiety/depression symptom measures",
+      "tail_type": "Clinical Measurement"
+    },
+    {
+      "head": "future research",
+      "head_type": "Research Field",
+      "relation": "should_investigate",
+      "tail": "gut microbiota",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "papers",
+      "head_type": "Research Publications",
+      "relation": "incorporate",
+      "tail": "functional analyses",
+      "tail_type": "Research Methodology"
+    },
+    {
+      "head": "microbiota-gut-brain axis",
+      "head_type": "Biological System",
+      "relation": "investigated_in",
+      "tail": "affective disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "research",
+      "head_type": "Research Activity",
+      "relation": "offers_direction_for",
+      "tail": "novel therapeutics",
+      "tail_type": "Therapeutic Approach"
+    },
+    {
+      "head": "research",
+      "head_type": "Research Activity",
+      "relation": "targets",
+      "tail": "depression",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "We",
+      "head_type": "Research Group",
+      "relation": "encourage",
+      "tail": "systematic reviews",
+      "tail_type": "Research Methodology"
+    }
+  ]
+}

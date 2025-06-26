@@ -1,0 +1,111 @@
+{
+  "title": "Key role of the gut-microbiota-brain axis via the subdiaphragmatic vagus nerve in demyelination of the cuprizone-treated mouse brain.",
+  "abstract": "Multiple sclerosis (MS) is the most common demyelinating disease that attacks the central nervous system. Dietary intake of cuprizone (CPZ) produces demyelination resembling that of patients with MS. Given the role of the vagus nerve in gut-microbiota-brain axis in development of MS, we performed this study to investigate whether subdiaphragmatic vagotomy (SDV) affects demyelination in CPZ-treated mice. SDV significantly ameliorated demyelination and microglial activation in the brain compared with sham-operated CPZ-treated mice. Furthermore, 16S ribosomal RNA analysis revealed that SDV significantly improved the abnormal gut microbiota composition of CPZ-treated mice. An untargeted metabolomic analysis demonstrated that SDV significantly improved abnormal blood levels of metabolites in CPZ-treated mice compared with sham-operated CPZ-treated mice. Notably, there were correlations between demyelination or microglial activation in the brain and the relative abundance of several microbiome populations, suggesting a link between gut microbiota and the brain. There were also correlations between demyelination or microglial activation in the brain and blood levels of metabolites. Together, these data suggest that CPZ produces demyelination in the brain through the gut-microbiota-brain axis via the subdiaphragmatic vagus nerve.",
+  "relations": [
+    {
+      "head": "Multiple sclerosis (MS)",
+      "head_type": "Disease",
+      "relation": "is the most common demyelinating disease that attacks",
+      "tail": "central nervous system",
+      "tail_type": "Anatomical Structure"
+    },
+    {
+      "head": "cuprizone (CPZ)",
+      "head_type": "Chemical",
+      "relation": "produces",
+      "tail": "demyelination",
+      "tail_type": "Pathological Process"
+    },
+    {
+      "head": "vagus nerve",
+      "head_type": "Anatomical Structure",
+      "relation": "plays a role in",
+      "tail": "gut-microbiota-brain axis",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "subdiaphragmatic vagotomy (SDV)",
+      "head_type": "Medical Procedure",
+      "relation": "affects",
+      "tail": "demyelination",
+      "tail_type": "Pathological Process"
+    },
+    {
+      "head": "subdiaphragmatic vagotomy (SDV)",
+      "head_type": "Medical Procedure",
+      "relation": "ameliorates",
+      "tail": "demyelination",
+      "tail_type": "Pathological Process"
+    },
+    {
+      "head": "subdiaphragmatic vagotomy (SDV)",
+      "head_type": "Medical Procedure",
+      "relation": "reduces",
+      "tail": "microglial activation",
+      "tail_type": "Pathological Process"
+    },
+    {
+      "head": "subdiaphragmatic vagotomy (SDV)",
+      "head_type": "Medical Procedure",
+      "relation": "improves",
+      "tail": "gut microbiota composition",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "subdiaphragmatic vagotomy (SDV)",
+      "head_type": "Medical Procedure",
+      "relation": "improves",
+      "tail": "blood levels of metabolites",
+      "tail_type": "Physiological Process"
+    },
+    {
+      "head": "demyelination",
+      "head_type": "Pathological Process",
+      "relation": "correlates with",
+      "tail": "relative abundance of microbiome populations",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "microglial activation",
+      "head_type": "Pathological Process",
+      "relation": "correlates with",
+      "tail": "relative abundance of microbiome populations",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "demyelination",
+      "head_type": "Pathological Process",
+      "relation": "correlates with",
+      "tail": "blood levels of metabolites",
+      "tail_type": "Physiological Process"
+    },
+    {
+      "head": "microglial activation",
+      "head_type": "Pathological Process",
+      "relation": "correlates with",
+      "tail": "blood levels of metabolites",
+      "tail_type": "Physiological Process"
+    },
+    {
+      "head": "cuprizone (CPZ)",
+      "head_type": "Chemical",
+      "relation": "produces",
+      "tail": "demyelination",
+      "tail_type": "Pathological Process"
+    },
+    {
+      "head": "cuprizone (CPZ)",
+      "head_type": "Chemical",
+      "relation": "affects through",
+      "tail": "gut-microbiota-brain axis",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "gut-microbiota-brain axis",
+      "head_type": "Biological Process",
+      "relation": "involves",
+      "tail": "subdiaphragmatic vagus nerve",
+      "tail_type": "Anatomical Structure"
+    }
+  ]
+}

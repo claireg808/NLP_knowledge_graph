@@ -1,0 +1,293 @@
+{
+  "title": "Melanin: a unifying theory of disease as exemplified by Parkinson's, Alzheimer's, and Lewy body dementia.",
+  "abstract": "Melanin, a ubiquitous dark pigment, plays important roles in the immune system, including scavenging reactive oxygen species formed in response to ultraviolet radiation absorption, absorbing metals, thermal regulation, drug uptake, innate immune system functions, redox, and energy transduction. Many tissue types, including brain, heart, arteries, ovaries, and others, contain melanin. Almost all cells contain precursors to melanin. A growing number of diseases in which there is a loss of melanin and/or neuromelanin are increasingly thought to have infectious etiologies, for example, Alzheimer's disease (AD), Parkinson's disease (PD), Lewy Body Dementia (LBD), and vitiligo. AD, PD, LBD, and vitiligo have been linked with herpesvirus, which enters melanosomes and causes apoptosis, and with gut dysbiosis and inflammation. Herpesvirus is also linked with gut dysbiosis and inflammation. We theorize that under normal healthy states, melanin retains some of the energy it absorbs from electromagnetic radiation, which is then used to fuel cells, and energy from ATP is used to compliment that energy supply. We further theorize that loss of melanin reduces the energy supply of cells, which in the case of AD, PD, and LBD results in an inability to sustain immune system defenses and remove the plaques associated with the disease, which appear to be part of the immune system's attempt to eradicate the pathogens seen in these neurodegenerative diseases. In addition, in an attempt to explain why removing these plaques does not result in improvements in cognition and mood and why cognitions and moods in these individuals have ebbs and flows, we postulate that it is not the plaques that cause the cognitive symptoms but, rather, inflammation in the brain resulting from the immune system's response to pathogens. Our theory that energy retained in melanin fuels cells in an inverse relationship with ATP is supported by studies showing alterations in ATP production in relationship to melanin levels in melanomas, vitiligo, and healthy cells. Therefore, alteration of melanin levels may be at the core of many diseases. We propose regulating melanin levels may offer new avenues for treatment development.",
+  "relations": [
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "plays role in",
+      "tail": "Immune system",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "scavenges",
+      "tail": "Reactive oxygen species",
+      "tail_type": "Chemical compound"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "absorbs",
+      "tail": "Ultraviolet radiation",
+      "tail_type": "Radiation"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "absorbs",
+      "tail": "Metals",
+      "tail_type": "Chemical element"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "regulates",
+      "tail": "Thermal regulation",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "affects",
+      "tail": "Drug uptake",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "participates in",
+      "tail": "Innate immune system functions",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "involved in",
+      "tail": "Redox reactions",
+      "tail_type": "Chemical process"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "performs",
+      "tail": "Energy transduction",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "present in",
+      "tail": "Brain",
+      "tail_type": "Organ"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "present in",
+      "tail": "Heart",
+      "tail_type": "Organ"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "present in",
+      "tail": "Arteries",
+      "tail_type": "Organ"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "present in",
+      "tail": "Ovaries",
+      "tail_type": "Organ"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "has precursors in",
+      "tail": "Almost all cells",
+      "tail_type": "Cell"
+    },
+    {
+      "head": "Loss of melanin",
+      "head_type": "Condition",
+      "relation": "linked with",
+      "tail": "Alzheimer's disease (AD)",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Loss of melanin",
+      "head_type": "Condition",
+      "relation": "linked with",
+      "tail": "Parkinson's disease (PD)",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Loss of melanin",
+      "head_type": "Condition",
+      "relation": "linked with",
+      "tail": "Lewy Body Dementia (LBD)",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Loss of melanin",
+      "head_type": "Condition",
+      "relation": "linked with",
+      "tail": "Vitiligo",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "AD",
+      "head_type": "Disease",
+      "relation": "linked with",
+      "tail": "Herpesvirus",
+      "tail_type": "Pathogen"
+    },
+    {
+      "head": "PD",
+      "head_type": "Disease",
+      "relation": "linked with",
+      "tail": "Herpesvirus",
+      "tail_type": "Pathogen"
+    },
+    {
+      "head": "LBD",
+      "head_type": "Disease",
+      "relation": "linked with",
+      "tail": "Herpesvirus",
+      "tail_type": "Pathogen"
+    },
+    {
+      "head": "Vitiligo",
+      "head_type": "Disease",
+      "relation": "linked with",
+      "tail": "Herpesvirus",
+      "tail_type": "Pathogen"
+    },
+    {
+      "head": "Herpesvirus",
+      "head_type": "Pathogen",
+      "relation": "enters",
+      "tail": "Melanosomes",
+      "tail_type": "Cellular component"
+    },
+    {
+      "head": "Herpesvirus",
+      "head_type": "Pathogen",
+      "relation": "causes",
+      "tail": "Apoptosis",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Herpesvirus",
+      "head_type": "Pathogen",
+      "relation": "linked with",
+      "tail": "Gut dysbiosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Herpesvirus",
+      "head_type": "Pathogen",
+      "relation": "linked with",
+      "tail": "Inflammation",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "retains",
+      "tail": "Energy from electromagnetic radiation",
+      "tail_type": "Energy"
+    },
+    {
+      "head": "Energy from ATP",
+      "head_type": "Energy",
+      "relation": "complements",
+      "tail": "Energy retained in melanin",
+      "tail_type": "Energy"
+    },
+    {
+      "head": "Loss of melanin",
+      "head_type": "Condition",
+      "relation": "reduces",
+      "tail": "Energy supply of cells",
+      "tail_type": "Energy"
+    },
+    {
+      "head": "AD",
+      "head_type": "Disease",
+      "relation": "results in",
+      "tail": "Inability to sustain immune system defenses",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "AD",
+      "head_type": "Disease",
+      "relation": "results in",
+      "tail": "Inability to remove plaques",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Plaques",
+      "head_type": "Pathological feature",
+      "relation": "part of",
+      "tail": "Immune system's attempt to eradicate pathogens",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Inflammation",
+      "head_type": "Biological process",
+      "relation": "results from",
+      "tail": "Immune system's response to pathogens",
+      "tail_type": "Biological process"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "fuels",
+      "tail": "Cells",
+      "tail_type": "Cell"
+    },
+    {
+      "head": "Melanin",
+      "head_type": "Substance",
+      "relation": "has inverse relationship with",
+      "tail": "ATP",
+      "tail_type": "Energy"
+    },
+    {
+      "head": "Alterations in ATP production",
+      "head_type": "Biological process",
+      "relation": "related to",
+      "tail": "Melanin levels",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "Alterations in ATP production",
+      "head_type": "Biological process",
+      "relation": "observed in",
+      "tail": "Melanomas",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Alterations in ATP production",
+      "head_type": "Biological process",
+      "relation": "observed in",
+      "tail": "Vitiligo",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Alterations in ATP production",
+      "head_type": "Biological process",
+      "relation": "observed in",
+      "tail": "Healthy cells",
+      "tail_type": "Cell"
+    },
+    {
+      "head": "Alteration of melanin levels",
+      "head_type": "Condition",
+      "relation": "at core of",
+      "tail": "Many diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Regulating melanin levels",
+      "head_type": "Therapeutic intervention",
+      "relation": "offers",
+      "tail": "New avenues for treatment development",
+      "tail_type": "Therapeutic strategy"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Depletion of acetate-producing bacteria from the gut microbiota facilitates cognitive impairment through the gut-brain neural mechanism in diabetic mice.",
+  "abstract": "Modification of the gut microbiota has been reported to reduce the incidence of type 1 diabetes mellitus (T1D). We hypothesized that the gut microbiota shifts might also have an effect on cognitive functions in T1D. Herein we used a non-absorbable antibiotic vancomycin to modify the gut microbiota in streptozotocin (STZ)-induced T1D mice and studied the impact of microbial changes on cognitive performances in T1D mice and its potential gut-brain neural mechanism. We found that vancomycin exposure disrupted the gut microbiome, altered host metabolic phenotypes, and facilitated cognitive impairment in T1D mice. Long-term acetate deficiency due to depletion of acetate-producing bacteria resulted in the reduction of synaptophysin (SYP) in the hippocampus as well as learning and memory impairments. Exogenous acetate supplement or fecal microbiota transplant recovered hippocampal SYP level in vancomycin-treated T1D mice, and this effect was attenuated by vagal inhibition or vagotomy. Our results demonstrate the protective role of microbiota metabolite acetate in cognitive functions and suggest long-term acetate deficiency as a risk factor of cognitive decline. Video Abstract.",
+  "relations": [
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "MODIFIES",
+      "tail": "type 1 diabetes mellitus",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "gut microbiota shifts",
+      "head_type": "Biological Process",
+      "relation": "AFFECTS",
+      "tail": "cognitive functions",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "vancomycin",
+      "head_type": "Chemical",
+      "relation": "USED TO",
+      "tail": "modify gut microbiota",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "vancomycin",
+      "head_type": "Chemical",
+      "relation": "DISRUPTS",
+      "tail": "gut microbiome",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "acetate deficiency",
+      "head_type": "State",
+      "relation": "RESULTS FROM",
+      "tail": "depletion of acetate-producing bacteria",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "acetate deficiency",
+      "head_type": "State",
+      "relation": "LEADS TO",
+      "tail": "cognitive impairment",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "exogenous acetate supplement",
+      "head_type": "Treatment",
+      "relation": "RECOVERS",
+      "tail": "hippocampal SYP level",
+      "tail_type": "Biological Marker"
+    },
+    {
+      "head": "vagal inhibition",
+      "head_type": "Biological Process",
+      "relation": "ATTENUATES",
+      "tail": "recovery effect",
+      "tail_type": "Effect"
+    }
+  ]
+}

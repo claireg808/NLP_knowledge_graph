@@ -1,0 +1,90 @@
+{
+  "title": "Oral ingestion of the environmental toxicant trichloroethylene in rats induces alterations in the gut microbiome: Relevance to idiopathic Parkinson's disease.",
+  "abstract": "Microbial alterations within the gut microbiome appear to be a common feature of individuals with Parkinson's disease (PD), providing further evidence for the role of the gut-brain axis in PD development. As a major site of contact with the environment, questions have emerged surrounding the cause and effect of alterations to the gut microbiome by environmental contaminants associated with PD risk, such as pesticides, metals, and organic solvents. Recent data from our lab shows that ingestion of the industrial byproduct and environmental pollutant trichloroethylene (TCE) induces key Parkinsonian pathology within aged rats, including the degeneration of dopaminergic neurons, \u03b1-synuclein accumulation, neuroinflammation, and endolysosomal deficits. As TCE is the most common organic contaminant within drinking water, we postulated that ingestion of TCE associated with PD-related neurodegeneration may alter the gut microbiome to a similar extent as observed in persons with PD. To assess this, we collected fecal samples from adult rats treated with 200\u00a0mg/kg TCE over 6\u00a0weeks via oral gavage - the dose that produced nigrostriatal neurodegeneration - and analyzed the gut microbiome via whole genome shotgun sequencing. Our results showed changes in gut microorganisms reflective of the microbial signatures observed in individuals with idiopathic PD, such as decreased abundance of short-chain fatty acid producing Blautia and elevated lactic-acid producing Bifidobacteria, as well as genera who contain species previously reported as opportunistic pathogens such as Clostridium. From these experimental data, we postulate that TCE exposure within contaminated drinking water could induce alterations of the gut microbiome that contributes to chronic disease risk, including idiopathic PD.",
+  "relations": [
+    {
+      "head": "oral ingestion",
+      "head_type": "process",
+      "relation": "induces",
+      "tail": "alterations in the gut microbiome",
+      "tail_type": "effect"
+    },
+    {
+      "head": "trichloroethylene",
+      "head_type": "chemical",
+      "relation": "linked to",
+      "tail": "Parkinson's disease",
+      "tail_type": "disease"
+    },
+    {
+      "head": "trichloroethylene",
+      "head_type": "chemical",
+      "relation": "induces",
+      "tail": "Parkinsonian pathology",
+      "tail_type": "pathology"
+    },
+    {
+      "head": "trichloroethylene",
+      "head_type": "chemical",
+      "relation": "causes",
+      "tail": "degeneration of dopaminergic neurons",
+      "tail_type": "biological process"
+    },
+    {
+      "head": "trichloroethylene",
+      "head_type": "chemical",
+      "relation": "leads to",
+      "tail": "\u03b1-synuclein accumulation",
+      "tail_type": "biological process"
+    },
+    {
+      "head": "trichloroethylene",
+      "head_type": "chemical",
+      "relation": "causes",
+      "tail": "neuroinflammation",
+      "tail_type": "biological process"
+    },
+    {
+      "head": "trichloroethylene",
+      "head_type": "chemical",
+      "relation": "results in",
+      "tail": "endolysosomal deficits",
+      "tail_type": "biological process"
+    },
+    {
+      "head": "trichloroethylene",
+      "head_type": "chemical",
+      "relation": "found in",
+      "tail": "drinking water",
+      "tail_type": "environmental medium"
+    },
+    {
+      "head": "gut microbiome alterations",
+      "head_type": "physiological change",
+      "relation": "associated with",
+      "tail": "Parkinson's disease",
+      "tail_type": "disease"
+    },
+    {
+      "head": "Blautia",
+      "head_type": "bacterial genus",
+      "relation": "decreased abundance",
+      "tail": "short-chain fatty acid production",
+      "tail_type": "metabolic process"
+    },
+    {
+      "head": "Bifidobacteria",
+      "head_type": "bacterial genus",
+      "relation": "elevated lactic-acid production",
+      "tail": "lactic acid",
+      "tail_type": "metabolite"
+    },
+    {
+      "head": "Clostridium",
+      "head_type": "bacterial genus",
+      "relation": "contains",
+      "tail": "opportunistic pathogens",
+      "tail_type": "microbial species"
+    }
+  ]
+}

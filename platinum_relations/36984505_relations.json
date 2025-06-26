@@ -1,0 +1,139 @@
+{
+  "title": "Controlling the Impact of Helicobacter pylori-Related Hyperhomocysteinemia on Neurodegeneration",
+  "abstract": "Helicobacter pylori infection consists a high global burden affecting more than 50% of the world's population. It is implicated, beyond substantiated local gastric pathologies, i.e., peptic ulcers and gastric cancer, in the pathophysiology of several neurodegenerative disorders, mainly by inducing hyperhomocysteinemia-related brain cortical thinning (BCT). BCT has been advocated as a possible biomarker associated with neurodegenerative central nervous system disorders such as Alzheimer's disease, Parkinson's disease, multiple sclerosis, and/or glaucoma, termed as 'ocular Alzheimer's disease'. According to the infection hypothesis in relation to neurodegeneration, Helicobacter pylori as non-commensal gut microbiome has been advocated as trigger and/or mediator of neurodegenerative diseases, such as the development of Alzheimer's disease. Among others, Helicobacter pylori-related inflammatory mediators, defensins, autophagy, vitamin D, dietary factors, role of probiotics, and some pathogenetic considerations including relevant involved genes are discussed within this opinion article. In conclusion, by controlling the impact of Helicobacter pylori-related hyperhomocysteinemia on neurodegenerative disorders might offer benefits, and additional research is warranted to clarify this crucial topic currently representing a major worldwide burden.",
+  "relations": [
+    {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "implicated in",
+      "tail": "gastric pathologies",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "induces",
+      "tail": "hyperhomocysteinemia",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "hyperhomocysteinemia",
+      "head_type": "Condition",
+      "relation": "associated with",
+      "tail": "brain cortical thinning",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "brain cortical thinning",
+      "head_type": "Condition",
+      "relation": "biomarker for",
+      "tail": "neurodegenerative disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "neurodegenerative disorders",
+      "head_type": "Disease",
+      "relation": "include",
+      "tail": "Alzheimer's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "neurodegenerative disorders",
+      "head_type": "Disease",
+      "relation": "include",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "neurodegenerative disorders",
+      "head_type": "Disease",
+      "relation": "include",
+      "tail": "multiple sclerosis",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "neurodegenerative disorders",
+      "head_type": "Disease",
+      "relation": "include",
+      "tail": "glaucoma",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "glaucoma",
+      "head_type": "Disease",
+      "relation": "termed as",
+      "tail": "ocular Alzheimer's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "trigger of",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "mediator of",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "related to",
+      "tail": "inflammatory mediators",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "related to",
+      "tail": "defensins",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "related to",
+      "tail": "autophagy",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "related to",
+      "tail": "vitamin D",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "related to",
+      "tail": "dietary factors",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "related to",
+      "tail": "probiotics",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "related to",
+      "tail": "pathogenetic considerations",
+      "tail_type": "Concept"
+    },
+    {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "related to",
+      "tail": "relevant involved genes",
+      "tail_type": "Gene"
+    }
+  ]
+}

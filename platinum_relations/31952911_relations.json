@@ -1,0 +1,62 @@
+{
+  "title": "Gut microbial changes of patients with psychotic and affective disorders: A systematic review.",
+  "abstract": "Many diverse inflammatory pathophysiologic mechanisms have been linked to mental disorders, and through the past decade an increasing interest in the gut microbiota and its relation to mental health has been arising. We aimed to systematically review studies of alterations in gut microbiota of patients suffering from psychotic disorders, bipolar disorder or depression compared to healthy controls. We systematically searched the databases CENTRAL, PubMed, EMBASE, PsycINFO and LILACS. Primary outcome was to compare the gut microbiota of patients suffering from psychotic disorders, bipolar disorder or depression with healthy controls. We identified 17 studies, covering 744 patients and 620 healthy controls. The most consistent microbiota changes were a tendency towards higher abundance of Actinobacteria and lower abundance of Firmicutes at the phylum level, lower abundance of Lachnospiraceae at family level and lower abundance of Faecalibacterium at genus level for the mental disorders overall. However, we found that all studies had risk of bias and that the included studies displayed great variability in methods of storage, analysis of the fecal samples, reporting of results and statistics used. Due to the many limitations of the included studies the findings should be interpreted with caution. Larger studies (especially of schizophrenia and major depressive disorder) are needed, but it is also of great importance to gather information of and control for factors that influence the result of a microbiota analysis including body mass index (BMI), smoking, alcohol consumption, diet habits, antibiotics, sample handling, wet laboratory methods and statistics.",
+  "relations": [
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "linked_to",
+      "tail": "mental disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "associated_with",
+      "tail": "psychotic disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "associated_with",
+      "tail": "bipolar disorder",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "associated_with",
+      "tail": "depression",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Firmicutes",
+      "head_type": "Microbial Phylum",
+      "relation": "lower_abundance",
+      "tail": "mental disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Actinobacteria",
+      "head_type": "Microbial Phylum",
+      "relation": "higher_abundance",
+      "tail": "mental disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Lachnospiraceae",
+      "head_type": "Microbial Family",
+      "relation": "lower_abundance",
+      "tail": "mental disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Faecalibacterium",
+      "head_type": "Microbial Genus",
+      "relation": "lower_abundance",
+      "tail": "mental disorders",
+      "tail_type": "Disease"
+    }
+  ]
+}

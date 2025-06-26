@@ -1,0 +1,76 @@
+{
+  "title": "Pharmacomicrobiomics of Antidepressants in Depression: A Systematic Review",
+  "abstract": "This systematic review evaluated the animal and human evidence for pharmacomicrobiomics (PMx) interactions of antidepressant medications. Studies of gut microbiota effects on functional and behavioral effects of antidepressants in human and animal models were identified from PubMed up to December 2022. Risk of bias was assessed, and results are presented as a systematic review following PRISMA guidelines. A total of 28 (21 animal, 7 human) studies were included in the review. The reviewed papers converged on three themes: (1) Antidepressants can alter the composition and metabolites of gut microbiota, (2) gut microbiota can alter the bioavailability of certain antidepressants, and (3) gut microbiota may modulate the clinical or modeled mood modifying effects of antidepressants. The majority (n = 22) of studies had at least moderate levels of bias present. While strong evidence is still lacking to understand the clinical role of antidepressant PMx in human health, there is evidence for interactions among antidepressants, microbiota changes, microbiota metabolite changes, and behavior. Well-controlled studies of the mediating and moderating effects of baseline and treatment-emergent changes in microbiota on therapeutic and adverse responses to antidepressants are needed to better establish a potential role of PMx in personalizing antidepressant treatment selection and response prediction.",
+  "relations": [
+    {
+      "head": "Pharmacomicrobiomics",
+      "head_type": "Scientific Field",
+      "relation": "involves",
+      "tail": "Antidepressants",
+      "tail_type": "Medication"
+    },
+    {
+      "head": "Antidepressants",
+      "head_type": "Medication",
+      "relation": "alter",
+      "tail": "Gut Microbiota Composition",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "Gut Microbiota",
+      "head_type": "Biological Process",
+      "relation": "alter",
+      "tail": "Bioavailability of Antidepressants",
+      "tail_type": "Pharmacokinetic Process"
+    },
+    {
+      "head": "Gut Microbiota",
+      "head_type": "Biological Process",
+      "relation": "modulate",
+      "tail": "Clinical Effects of Antidepressants",
+      "tail_type": "Therapeutic Outcome"
+    },
+    {
+      "head": "Gut Microbiota Changes",
+      "head_type": "Biological Process",
+      "relation": "interact with",
+      "tail": "Antidepressants",
+      "tail_type": "Medication"
+    },
+    {
+      "head": "Gut Microbiota Metabolites",
+      "head_type": "Biochemical Process",
+      "relation": "influence",
+      "tail": "Behavioral Effects",
+      "tail_type": "Behavioral Outcome"
+    },
+    {
+      "head": "PubMed",
+      "head_type": "Database",
+      "relation": "used for",
+      "tail": "Literature Search",
+      "tail_type": "Research Methodology"
+    },
+    {
+      "head": "Systematic Review",
+      "head_type": "Research Methodology",
+      "relation": "follows",
+      "tail": "PRISMA Guidelines",
+      "tail_type": "Methodological Framework"
+    },
+    {
+      "head": "Bias Assessment",
+      "head_type": "Research Methodology",
+      "relation": "conducted on",
+      "tail": "Studies",
+      "tail_type": "Research Studies"
+    },
+    {
+      "head": "Antidepressant Treatment",
+      "head_type": "Therapeutic Intervention",
+      "relation": "influenced by",
+      "tail": "Microbiota Changes",
+      "tail_type": "Biological Process"
+    }
+  ]
+}

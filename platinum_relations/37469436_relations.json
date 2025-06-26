@@ -1,0 +1,125 @@
+{
+  "title": "Exopolysaccharide is the potential effector of <i>Lactobacillus fermentum</i> PS150, a hypnotic psychobiotic strain.",
+  "abstract": "Psychobiotics are a class of probiotics that confer beneficial effects on the mental health of the host. We have previously reported hypnotic effects of a psychobiotic strain, <i>Lactobacillus fermentum</i> PS150 (PS150), which significantly shortens sleep latency in experimental mice, and effectively ameliorate sleep disturbances caused by either caffeine consumption or a novel environment. In the present study, we discovered a <i>L. fermentum</i> strain, GR1009, isolated from the same source of PS150, and found that GR1009 is phenotypically distinct but genetically similar to PS150. Compared with PS150, GR1009 have no significant hypnotic effects in the pentobarbital-induced sleep test in mice. In addition, we found that heat-killed PS150 exhibited hypnotic effects and altered the gut microbiota in a manner similar to live bacteria, suggesting that a heat-stable effector, such as exopolysaccharide (EPS), could be responsible for these effects. Our comparative genomics analysis also revealed distinct genetic characteristics in EPS biosynthesis between GR1009 and PS150. Furthermore, scanning electron microscopy imaging showed a sheet-like EPS structure in PS150, while GR1009 displayed no apparent EPS structure. Using the phenol-sulfate assay, we found that the sugar content value of the crude extract containing EPS (C-EPS) from PS150 was approximately five times higher than that of GR1009, indicating that GR1009 has a lower EPS production activity than PS150. Through the pentobarbital-induced sleep test, we confirmed the hypnotic effects of the C-EPS isolated from PS150, as evidenced by a significant reduction in sleep latency and recovery time following oral administration in mice. In summary, we utilized a comparative approach to delineate differences between PS150 and GR1009 and proposed that EPS may serve as a key factor that mediates the observed hypnotic effect.",
+  "relations": [
+    {
+      "head": "Exopolysaccharide",
+      "head_type": "Substance",
+      "relation": "is the potential effector of",
+      "tail": "Lactobacillus fermentum PS150",
+      "tail_type": "Bacterial Strain"
+    },
+    {
+      "head": "Lactobacillus fermentum PS150",
+      "head_type": "Bacterial Strain",
+      "relation": "has",
+      "tail": "hypnotic effects",
+      "tail_type": "Effect"
+    },
+    {
+      "head": "Lactobacillus fermentum PS150",
+      "head_type": "Bacterial Strain",
+      "relation": "shortens",
+      "tail": "sleep latency",
+      "tail_type": "Physiological Parameter"
+    },
+    {
+      "head": "Lactobacillus fermentum PS150",
+      "head_type": "Bacterial Strain",
+      "relation": "ameliorates",
+      "tail": "sleep disturbances",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "GR1009",
+      "head_type": "Bacterial Strain",
+      "relation": "is phenotypically distinct but genetically similar to",
+      "tail": "PS150",
+      "tail_type": "Bacterial Strain"
+    },
+    {
+      "head": "GR1009",
+      "head_type": "Bacterial Strain",
+      "relation": "has no significant",
+      "tail": "hypnotic effects",
+      "tail_type": "Effect"
+    },
+    {
+      "head": "heat-killed PS150",
+      "head_type": "Bacterial Strain",
+      "relation": "exhibits",
+      "tail": "hypnotic effects",
+      "tail_type": "Effect"
+    },
+    {
+      "head": "heat-killed PS150",
+      "head_type": "Bacterial Strain",
+      "relation": "alters",
+      "tail": "gut microbiota",
+      "tail_type": "Physiological Parameter"
+    },
+    {
+      "head": "exopolysaccharide (EPS)",
+      "head_type": "Substance",
+      "relation": "is a heat-stable effector",
+      "tail": "PS150",
+      "tail_type": "Bacterial Strain"
+    },
+    {
+      "head": "comparative genomics analysis",
+      "head_type": "Method",
+      "relation": "reveals",
+      "tail": "distinct genetic characteristics",
+      "tail_type": "Genetic Feature"
+    },
+    {
+      "head": "PS150",
+      "head_type": "Bacterial Strain",
+      "relation": "has",
+      "tail": "sheet-like EPS structure",
+      "tail_type": "Structural Feature"
+    },
+    {
+      "head": "GR1009",
+      "head_type": "Bacterial Strain",
+      "relation": "displays no apparent",
+      "tail": "EPS structure",
+      "tail_type": "Structural Feature"
+    },
+    {
+      "head": "crude extract containing EPS (C-EPS) from PS150",
+      "head_type": "Substance",
+      "relation": "has higher sugar content value than",
+      "tail": "GR1009",
+      "tail_type": "Bacterial Strain"
+    },
+    {
+      "head": "C-EPS isolated from PS150",
+      "head_type": "Substance",
+      "relation": "has",
+      "tail": "hypnotic effects",
+      "tail_type": "Effect"
+    },
+    {
+      "head": "C-EPS isolated from PS150",
+      "head_type": "Substance",
+      "relation": "reduces",
+      "tail": "sleep latency",
+      "tail_type": "Physiological Parameter"
+    },
+    {
+      "head": "C-EPS isolated from PS150",
+      "head_type": "Substance",
+      "relation": "reduces",
+      "tail": "recovery time",
+      "tail_type": "Physiological Parameter"
+    },
+    {
+      "head": "EPS",
+      "head_type": "Substance",
+      "relation": "mediates",
+      "tail": "hypnotic effect",
+      "tail_type": "Effect"
+    }
+  ]
+}

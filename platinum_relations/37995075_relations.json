@@ -1,0 +1,146 @@
+{
+  "title": "Microbiota Alters and Its Correlation with Molecular Regulation Underlying Depression in PCOS Patients",
+  "abstract": "Depression is one of the complications in patients with polycystic ovary syndrome (PCOS) that leads to considerable mental health. Accumulating evidence suggests that human gut microbiomes are associated with the progression of PCOS and depression. However, whether microbiota influences depression development in PCOS patients is still uncharacterized. In this study, we employed metagenomic sequencing and transcriptome sequencing (RNA-seq) to profile the composition of the fecal microbiota and gene expression of peripheral blood mononuclear cells in depressed women with PCOS (PCOS-DP, n\u2009=\u200927) in comparison to mentally healthy women with PCOS (PCOS, n\u2009=\u200918) and compared with healthy control (HC, n\u2009=\u200927) and patients with major depressive disorder (MDD, n\u2009=\u200929). Gut microbiota assessment revealed distinct patterns in the relative abundance in the PCOS-DP compared to HC, MDD, and PCOS groups. Several gut microbes exhibited uniquely and significantly higher abundance in the PCOS-DP compared to PCOS patients, inducing EC Ruminococcus torques, Coprococcus comes, Megasphaera elsdenii, Acidaminococcus intestini, and Barnesiella viscericola. Bacteroides eggerthii was a potential gut microbial biomarker for the PCOS-DP. RNA-seq profiling identified that 35 and 37 genes were significantly elevated and downregulated in the PCOS-DP, respectively. The enhanced differential expressed genes (DEGs) in the PCOS-DP were enriched in pathways involved in signal transduction and endocrine and metabolic diseases, whereas several lipid metabolism pathways were downregulated. Intriguingly, genes correlated with the gut microbiota were found to be significantly enriched in pathways of neurodegenerative diseases and the immune system, suggesting that changes in the microbiota may have a systemic impact on the expression of neurodegenerative diseases and immune genes. Gut microbe-related DEGs of CREB3L3 and CCDC173 were possible molecular biomarkers and therapeutic targets of women with PCOS-DP. Our multi-omics data indicate shifts in the gut microbiome and host gene regulation in PCOS patients with depression, which is of possible etiological and diagnostic importance.",
+  "relations": [
+    {
+      "head": "Depression",
+      "head_type": "Disease",
+      "relation": "is complication of",
+      "tail": "Polycystic Ovary Syndrome (PCOS)",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Gut Microbiomes",
+      "head_type": "Organism",
+      "relation": "associated with",
+      "tail": "Progression of PCOS",
+      "tail_type": "Disease Progression"
+    },
+    {
+      "head": "Gut Microbiomes",
+      "head_type": "Organism",
+      "relation": "associated with",
+      "tail": "Depression",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Metagenomic Sequencing",
+      "head_type": "Method",
+      "relation": "used for",
+      "tail": "Profiling Fecal Microbiota",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "Transcriptome Sequencing (RNA-seq)",
+      "head_type": "Method",
+      "relation": "used for",
+      "tail": "Gene Expression Profiling",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "PCOS-DP",
+      "head_type": "Patient Group",
+      "relation": "has higher abundance of",
+      "tail": "Ruminococcus torques",
+      "tail_type": "Microbial Species"
+    },
+    {
+      "head": "PCOS-DP",
+      "head_type": "Patient Group",
+      "relation": "has higher abundance of",
+      "tail": "Coprococcus comes",
+      "tail_type": "Microbial Species"
+    },
+    {
+      "head": "PCOS-DP",
+      "head_type": "Patient Group",
+      "relation": "has higher abundance of",
+      "tail": "Megasphaera elsdenii",
+      "tail_type": "Microbial Species"
+    },
+    {
+      "head": "PCOS-DP",
+      "head_type": "Patient Group",
+      "relation": "has higher abundance of",
+      "tail": "Acidaminococcus intestini",
+      "tail_type": "Microbial Species"
+    },
+    {
+      "head": "PCOS-DP",
+      "head_type": "Patient Group",
+      "relation": "has higher abundance of",
+      "tail": "Barnesiella viscericola",
+      "tail_type": "Microbial Species"
+    },
+    {
+      "head": "Bacteroides eggerthii",
+      "head_type": "Microbial Species",
+      "relation": "is biomarker for",
+      "tail": "PCOS-DP",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "RNA-seq",
+      "head_type": "Method",
+      "relation": "identified",
+      "tail": "Differential Expressed Genes (DEGs)",
+      "tail_type": "Genetic Entity"
+    },
+    {
+      "head": "DEGs",
+      "head_type": "Genetic Entity",
+      "relation": "enriched in",
+      "tail": "Signal Transduction Pathways",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "DEGs",
+      "head_type": "Genetic Entity",
+      "relation": "enriched in",
+      "tail": "Endocrine and Metabolic Diseases",
+      "tail_type": "Disease Category"
+    },
+    {
+      "head": "DEGs",
+      "head_type": "Genetic Entity",
+      "relation": "downregulated in",
+      "tail": "Lipid Metabolism Pathways",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "DEGs",
+      "head_type": "Genetic Entity",
+      "relation": "correlated with",
+      "tail": "Gut Microbiota",
+      "tail_type": "Organism"
+    },
+    {
+      "head": "DEGs",
+      "head_type": "Genetic Entity",
+      "relation": "enriched in",
+      "tail": "Neurodegenerative Diseases",
+      "tail_type": "Disease Category"
+    },
+    {
+      "head": "DEGs",
+      "head_type": "Genetic Entity",
+      "relation": "enriched in",
+      "tail": "Immune System Pathways",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "CREB3L3",
+      "head_type": "Gene",
+      "relation": "is biomarker for",
+      "tail": "PCOS-DP",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "CCDC173",
+      "head_type": "Gene",
+      "relation": "is biomarker for",
+      "tail": "PCOS-DP",
+      "tail_type": "Patient Group"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "title": "Causality Investigation between Gut Microbiota, Derived Metabolites, and Obstructive Sleep Apnea: A Bidirectional Mendelian Randomization Study",
+  "abstract": "Various studies have highlighted the important associations between obstructive sleep apnea (OSA) and gut microbiota and related metabolites. Nevertheless, the establishment of causal relationships between these associations remains to be determined. Multiple mendelian randomization (MR) analyses were performed to genetically predict the causative impact of 196 gut microbiota and 83 metabolites on OSA. Two-sample MR was used to assess the potential association, and causality was evaluated using inverse variance weighted (IVW), MR-Egger, and weighted median (WM) methods. Multivariable MR (MVMR) was employed to ascertain the causal independence between gut microbiota and the metabolites linked to OSA. Additionally, Cochran's Q test, the MR Egger intercept test and the MR Steiger test were used for the sensitivity analyses. The analysis of the 196 gut microbiota revealed that <i>genus</i>_<i>Ruminococcaceae</i> (<i>UCG009</i>) (P<sub>IVW</sub> = 0.010) and <i>genus</i>_<i>Subdoligranulum</i> (P<sub>IVW</sub> = 0.041) were associated with an increased risk of OSA onset. Conversely, <i>Family</i>_<i>Ruminococcaceae</i> (P<sub>IVW</sub> = 0.030), <i>genus</i>_<i>Coprococcus2</i> (P<sub>WM</sub> = 0.025), <i>genus</i>_<i>Eggerthella</i> (P<sub>IVW</sub> = 0.011), and <i>genus</i>_<i>Eubacterium</i> (<i>xylanophilum</i>_<i>group</i>) (P<sub>IVW</sub> = 0.001) were negatively related to the risk of OSA. Among the 83 metabolites evaluated, 3-dehydrocarnitine, epiandrosterone sulfate, and leucine were determined to be potential independent risk factors associated with OSA. Moreover, the reverse MR analysis demonstrated a suggestive association between OSA exposure and six microbiota taxa. This study offers compelling evidence regarding the potential beneficial or detrimental causative impact of the gut microbiota and its associated metabolites on OSA risk, thereby providing new insights into the mechanisms of gut microbiome-mediated OSA development.",
+  "relations": [
+    {
+      "head": "genus_Ruminococcaceae (UCG009)",
+      "head_type": "Gut Microbiota",
+      "relation": "associated with",
+      "tail": "Obstructive Sleep Apnea",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "genus_Subdoligranulum",
+      "head_type": "Gut Microbiota",
+      "relation": "associated with",
+      "tail": "Obstructive Sleep Apnea",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Family_Ruminococcaceae",
+      "head_type": "Gut Microbiota",
+      "relation": "negatively related to",
+      "tail": "Obstructive Sleep Apnea",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "genus_Coprococcus2",
+      "head_type": "Gut Microbiota",
+      "relation": "negatively related to",
+      "tail": "Obstructive Sleep Apnea",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "genus_Eggerthella",
+      "head_type": "Gut Microbiota",
+      "relation": "negatively related to",
+      "tail": "Obstructive Sleep Apnea",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "genus_Eubacterium (xylanophilum group)",
+      "head_type": "Gut Microbiota",
+      "relation": "negatively related to",
+      "tail": "Obstructive Sleep Apnea",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "3-dehydrocarnitine",
+      "head_type": "Metabolite",
+      "relation": "risk factor for",
+      "tail": "Obstructive Sleep Apnea",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "epiandrosterone sulfate",
+      "head_type": "Metabolite",
+      "relation": "risk factor for",
+      "tail": "Obstructive Sleep Apnea",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "leucine",
+      "head_type": "Metabolite",
+      "relation": "risk factor for",
+      "tail": "Obstructive Sleep Apnea",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Obstructive Sleep Apnea",
+      "head_type": "Disease",
+      "relation": "suggestively associated with",
+      "tail": "six microbiota taxa",
+      "tail_type": "Gut Microbiota"
+    }
+  ]
+}

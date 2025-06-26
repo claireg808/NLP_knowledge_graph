@@ -1,0 +1,55 @@
+{
+  "title": "PROFAST: A Randomized Trial Assessing the Effects of Intermittent Fasting and Lacticaseibacillus rhamnosus Probiotic among People with Prediabetes.",
+  "abstract": "Both intermittent fasting and specific probiotics have shown promise in improving glucose tolerance with a potential for synergistic effects through alterations to gut microbiota. In this randomized, double-blinded, two-arm feasibility study, we investigated whether intermittent fasting, supplemented with Lacticaseibacillus rhamnosus HN001 probiotic, reduces HbA1c in individuals with prediabetes. All participants with HbA1c 40-50 mmol/mol commenced intermittent fasting (2 days per week of calorie restriction to 600-650 kcal/day) and were randomized 1:1 to either daily probiotic (Lacticaseibacillus rhamnosus HN001) or placebo for 12 weeks. The primary outcome was a change in HbA1c. Secondary outcomes included changes in anthropometry, body composition, glucoregulatory markers, lipids, hunger hormones, liver enzymes, inflammatory markers, gut hormones, calorie and macronutrient intake, quality of life, hunger, mood and eating behavior. Of 33 participants who commenced the trial, 26 participants (mean age 52 years, body mass index (BMI) 34.7 kg/m\u00b2) completed the intervention (n = 11 placebo, n = 15 probiotic). HbA1c decreased from 43 \u00b1 2.7 mmol/mol to 41 \u00b1 2.3 mmol/mol, p < 0.001, with average of 5% weight loss. No significant between-group differences were seen in primary or secondary outcomes except for social functioning (p = 0.050) and mental health (p = 0.007) scores as improvements were seen in the probiotic group, but not in the placebo group. This study shows additional psychological benefits of probiotic supplementation during intermittent fasting to achieve weight loss and glycemic improvement in prediabetes.",
+  "relations": [
+    {
+      "head": "Intermittent Fasting",
+      "head_type": "Intervention",
+      "relation": "Improves",
+      "tail": "Glucose Tolerance",
+      "tail_type": "Physiological Process"
+    },
+    {
+      "head": "Probiotic",
+      "head_type": "Intervention",
+      "relation": "Improves",
+      "tail": "Glucose Tolerance",
+      "tail_type": "Physiological Process"
+    },
+    {
+      "head": "Intermittent Fasting",
+      "head_type": "Intervention",
+      "relation": "Reduces",
+      "tail": "HbA1c",
+      "tail_type": "Biological Marker"
+    },
+    {
+      "head": "Probiotic",
+      "head_type": "Intervention",
+      "relation": "Improves",
+      "tail": "Social Functioning",
+      "tail_type": "Psychological Outcome"
+    },
+    {
+      "head": "Probiotic",
+      "head_type": "Intervention",
+      "relation": "Improves",
+      "tail": "Mental Health",
+      "tail_type": "Psychological Outcome"
+    },
+    {
+      "head": "Intermittent Fasting",
+      "head_type": "Intervention",
+      "relation": "Reduces",
+      "tail": "Weight",
+      "tail_type": "Anthropometric Measure"
+    },
+    {
+      "head": "Probiotic",
+      "head_type": "Intervention",
+      "relation": "Improves",
+      "tail": "Glycemic Control",
+      "tail_type": "Physiological Process"
+    }
+  ]
+}

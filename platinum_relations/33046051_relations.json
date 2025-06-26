@@ -1,0 +1,83 @@
+{
+  "title": "Using data science for medical decision making case: role of gut microbiome in multiple sclerosis.",
+  "abstract": "A decade ago, the advancements in the microbiome data sequencing techniques initiated the development of research of the microbiome and its relationship with the host organism. The development of sophisticated bioinformatics and data science tools for the analysis of large amounts of data followed. Since then, the analyzed gut microbiome data, where microbiome is defined as a network of microorganisms inhabiting the human intestinal system, has been associated with several conditions such as irritable bowel syndrome - IBS, colorectal cancer, diabetes, obesity, and metabolic syndrome, and lately in the study of Parkinson's and Alzheimer's diseases as well. This paper aims to provide an understanding of differences between microbial data of individuals who have been diagnosed with multiple sclerosis and those who were not by exploiting data science techniques on publicly available data. This study examines the relationship between multiple sclerosis (MS), an autoimmune central nervous system disease, and gut microbial community composition, using the samples acquired by 16s rRNA sequencing technique. We have used three different sets of MS samples sequenced during three independent studies (Jangi et al, Nat Commun 7:1-11, 2016), (Miyake et al, PLoS ONE 10:0137429, 2015), (McDonald et al, Msystems 3:00031-18, 2018) and this approach strengthens our results. Analyzed sequences were from healthy control and MS groups of sequences. The extracted set of statistically significant bacteria from the (Jangi et al, Nat Commun 7:1-11, 2016) dataset samples and their statistically significant predictive functions were used to develop a Random Forest classifier. In total, 8 models based on two criteria: bacteria abundance (at six taxonomic levels) and predictive functions (at two levels), were constructed and evaluated. These include using taxa abundances at different taxonomy levels as well as predictive function analysis at different hierarchical levels of KEGG pathways. The highest accuracy of the classification model was obtained at the genus level of taxonomy (76.82%) and the third hierarchical level of KEGG pathways (70.95%). The second dataset's 18 MS samples (Miyake et al, PLoS ONE 10:0137429, 2015) and 18 self-reported healthy samples from the (McDonald et al, Msystems 3:00031-18, 2018) dataset were used to validate the developed classification model. The significance of this step is to show that the model is not overtrained for a specific dataset but can also be used on other independent datasets. Again, the highest classification model accuracy for both validating datasets combined was obtained at the genus level of taxonomy (70.98%) and third hierarchical level of KEGG pathways (67.24%). The accuracy of the independent set remained very relevant. Our results demonstrate that the developed classification model provides a good tool that can be used to suggest the presence or absence of MS condition by collecting and analyzing gut microbiome samples. The accuracy of the model can be further increased by using sequencing methods that allow higher taxa resolution (i.e. shotgun metagenomic sequencing).",
+  "relations": [
+    {
+      "head": "data science techniques",
+      "head_type": "Technique",
+      "relation": "used_for",
+      "tail": "analyzing gut microbiome data",
+      "tail_type": "Analysis"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "Microbiome",
+      "relation": "associated_with",
+      "tail": "multiple sclerosis",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "16s rRNA sequencing technique",
+      "head_type": "Sequencing Method",
+      "relation": "used_for",
+      "tail": "analyzing gut microbial community composition",
+      "tail_type": "Analysis"
+    },
+    {
+      "head": "Jangi et al study",
+      "head_type": "Study",
+      "relation": "used_for",
+      "tail": "developing classification model",
+      "tail_type": "Model"
+    },
+    {
+      "head": "Miyake et al study",
+      "head_type": "Study",
+      "relation": "used_for",
+      "tail": "validating classification model",
+      "tail_type": "Validation"
+    },
+    {
+      "head": "McDonald et al study",
+      "head_type": "Study",
+      "relation": "used_for",
+      "tail": "validating classification model",
+      "tail_type": "Validation"
+    },
+    {
+      "head": "Random Forest classifier",
+      "head_type": "Machine Learning Model",
+      "relation": "developed_from",
+      "tail": "statistically significant bacteria",
+      "tail_type": "Bacteria Data"
+    },
+    {
+      "head": "Random Forest classifier",
+      "head_type": "Machine Learning Model",
+      "relation": "achieves",
+      "tail": "76.82% accuracy",
+      "tail_type": "Accuracy"
+    },
+    {
+      "head": "genus level taxonomy",
+      "head_type": "Taxonomic Level",
+      "relation": "associated_with",
+      "tail": "highest classification accuracy",
+      "tail_type": "Accuracy"
+    },
+    {
+      "head": "KEGG pathways",
+      "head_type": "Pathway Analysis",
+      "relation": "analyzed_at",
+      "tail": "third hierarchical level",
+      "tail_type": "Pathway Level"
+    },
+    {
+      "head": "shotgun metagenomic sequencing",
+      "head_type": "Sequencing Method",
+      "relation": "improves",
+      "tail": "model accuracy",
+      "tail_type": "Accuracy"
+    }
+  ]
+}

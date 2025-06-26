@@ -1,0 +1,160 @@
+{
+  "title": "Shotgun metagenomics reveals both taxonomic and tryptophan pathway differences of gut microbiota in major depressive disorder patients.",
+  "abstract": "The microbiota-gut-brain axis, especially the microbial tryptophan (Trp) biosynthesis and metabolism pathway (MiTBamp), may play a critical role in the pathogenesis of major depressive disorder (MDD). However, studies on the MiTBamp in MDD are lacking. The aim of the present study was to analyze the gut microbiota composition and the MiTBamp in MDD patients. We performed shotgun metagenomic sequencing of stool samples from 26 MDD patients and 29 healthy controls (HCs). In addition to the microbiota community and the MiTBamp analyses, we also built a classification based on the Random Forests (RF) and Boruta algorithm to identify the gut microbiota as biomarkers for MDD. The Bacteroidetes abundance was strongly reduced whereas that of Actinobacteria was significantly increased in the MDD patients compared with the abundance in the HCs. Most noteworthy, the MDD patients had increased levels of Bifidobacterium, which is commonly used as a probiotic. Four Kyoto Encyclopedia of Genes and Genomes (KEGG) orthologies (KOs) (K01817, K11358, K01626, K01667) abundances in the MiTBamp were significantly lower in the MDD group. Furthermore, we found a negative correlation between the K01626 abundance and the HAMD scores in the MDD group. Finally, RF classification at the genus level can achieve an area under the receiver operating characteristic curve of 0.890. The present findings enabled a better understanding of the changes in gut microbiota and the related Trp pathway in MDD. Alterations of the gut microbiota may have the potential as biomarkers for distinguishing MDD patients form HCs.",
+  "relations": [
+    {
+      "head": "Shotgun metagenomics",
+      "head_type": "Method",
+      "relation": "reveals",
+      "tail": "taxonomic differences",
+      "tail_type": "Finding"
+    },
+    {
+      "head": "Shotgun metagenomics",
+      "head_type": "Method",
+      "relation": "reveals",
+      "tail": "tryptophan pathway differences",
+      "tail_type": "Finding"
+    },
+    {
+      "head": "Shotgun metagenomics",
+      "head_type": "Method",
+      "relation": "reveals",
+      "tail": "gut microbiota differences",
+      "tail_type": "Finding"
+    },
+    {
+      "head": "microbiota-gut-brain axis",
+      "head_type": "Pathway",
+      "relation": "plays a role in",
+      "tail": "pathogenesis of major depressive disorder (MDD)",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "microbial tryptophan (Trp) biosynthesis and metabolism pathway (MiTBamp)",
+      "head_type": "Pathway",
+      "relation": "plays a role in",
+      "tail": "pathogenesis of major depressive disorder (MDD)",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "study",
+      "head_type": "Research",
+      "relation": "aims to analyze",
+      "tail": "gut microbiota composition",
+      "tail_type": "Biological Data"
+    },
+    {
+      "head": "study",
+      "head_type": "Research",
+      "relation": "aims to analyze",
+      "tail": "MiTBamp",
+      "tail_type": "Pathway"
+    },
+    {
+      "head": "shotgun metagenomic sequencing",
+      "head_type": "Method",
+      "relation": "performed on",
+      "tail": "stool samples",
+      "tail_type": "Sample"
+    },
+    {
+      "head": "stool samples",
+      "head_type": "Sample",
+      "relation": "collected from",
+      "tail": "26 MDD patients",
+      "tail_type": "Population"
+    },
+    {
+      "head": "stool samples",
+      "head_type": "Sample",
+      "relation": "collected from",
+      "tail": "29 healthy controls (HCs)",
+      "tail_type": "Population"
+    },
+    {
+      "head": "classification",
+      "head_type": "Model",
+      "relation": "built using",
+      "tail": "Random Forests (RF)",
+      "tail_type": "Algorithm"
+    },
+    {
+      "head": "classification",
+      "head_type": "Model",
+      "relation": "built using",
+      "tail": "Boruta algorithm",
+      "tail_type": "Algorithm"
+    },
+    {
+      "head": "classification",
+      "head_type": "Model",
+      "relation": "aims to identify",
+      "tail": "gut microbiota as biomarkers",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Organism",
+      "relation": "used as",
+      "tail": "biomarkers",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Bacteroidetes abundance",
+      "head_type": "Microbial Abundance",
+      "relation": "reduced in",
+      "tail": "MDD patients",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Actinobacteria abundance",
+      "head_type": "Microbial Abundance",
+      "relation": "increased in",
+      "tail": "MDD patients",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Bifidobacterium",
+      "head_type": "Probiotic",
+      "relation": "increased levels in",
+      "tail": "MDD patients",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Four KEGG orthologies (KOs) (K01817, K11358, K01626, K01667) abundances",
+      "head_type": "Genomic Data",
+      "relation": "significantly lower in",
+      "tail": "MDD group",
+      "tail_type": "Population"
+    },
+    {
+      "head": "K01626 abundance",
+      "head_type": "Genomic Data",
+      "relation": "negatively correlated with",
+      "tail": "HAMD scores",
+      "tail_type": "Clinical Data"
+    },
+    {
+      "head": "RF classification",
+      "head_type": "Model",
+      "relation": "achieves",
+      "tail": "area under the receiver operating characteristic curve of 0.890",
+      "tail_type": "Performance Metric"
+    },
+    {
+      "head": "gut microbiota alterations",
+      "head_type": "Biological Change",
+      "relation": "potential as",
+      "tail": "biomarkers",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "gut microbiota alterations",
+      "head_type": "Biological Change",
+      "relation": "distinguishes",
+      "tail": "MDD patients from HCs",
+      "tail_type": "Population"
+    }
+  ]
+}

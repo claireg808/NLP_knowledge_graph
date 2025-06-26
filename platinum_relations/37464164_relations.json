@@ -1,0 +1,55 @@
+{
+  "title": "Gastrointestinal and Microbiome Profiling in Rodent Models of Neurological and Psychiatric Disorders",
+  "abstract": "Mice and other rodent models have been widely used to understand the role of the gut microbiome in various neurological and psychiatric disorders. Here we describe a protocol to characterize the structural and functional phenotype of the rodent gut and to examine the gut microbiota composition through V4 16S rRNA gene sequencing and microbiome profiling. This protocol will have utility for those investigating the gut, and associated microbiota, in a wide range of different rodent models of human disorders.",
+  "relations": [
+    {
+      "head": "Gastrointestinal",
+      "head_type": "Biological System",
+      "relation": "relates_to",
+      "tail": "Microbiome Profiling",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "Microbiome Profiling",
+      "head_type": "Biological Process",
+      "relation": "used_in",
+      "tail": "Rodent Models",
+      "tail_type": "Experimental Model"
+    },
+    {
+      "head": "Rodent Models",
+      "head_type": "Experimental Model",
+      "relation": "used_to_study",
+      "tail": "Neurological Disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Rodent Models",
+      "head_type": "Experimental Model",
+      "relation": "used_to_study",
+      "tail": "Psychiatric Disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Gut Microbiome",
+      "head_type": "Biological System",
+      "relation": "associated_with",
+      "tail": "Neurological Disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Gut Microbiome",
+      "head_type": "Biological System",
+      "relation": "associated_with",
+      "tail": "Psychiatric Disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "V4 16S rRNA Gene Sequencing",
+      "head_type": "Laboratory Technique",
+      "relation": "used_for",
+      "tail": "Microbiome Profiling",
+      "tail_type": "Biological Process"
+    }
+  ]
+}

@@ -2,9 +2,8 @@ import requests
 import os
 import re
 import json
-from dotenv import load_dotenv
 import getpass
-from langchain_deepseek import ChatDeepSeek
+from langchain_openai import ChatOpenAI
 from typing import List
 from typing_extensions import Annotated, TypedDict
 
@@ -20,12 +19,6 @@ class FullOutput(TypedDict):
     abstract: Annotated[str, "The provided abstract"]
     relations: Annotated[List[Relations], "List of extracted relations from the text"]
 
-
-load_dotenv()
-
-if not os.getenv("DEEPSEEK_API_KEY"):
-    os.environ["DEEPSEEK_API_KEY"] = getpass.getpass("Enter your DeepSeek API key: ")
-
 # set headers for the request
 headers = {"Content-Type": "application/json"}
 
@@ -34,7 +27,7 @@ with open('prompt_template.txt', 'r', encoding='utf-8') as file:
     prompt_template = file.read()
 
 # read the sample text
-with open('test.txt', 'r', encoding='utf-8') as file:
+with open('articles_train_platinum.txt', 'r', encoding='utf-8') as file:
     all_samples = file.read().splitlines()
 
 # extract and group title + abstract by PMID
@@ -55,12 +48,13 @@ for line in all_samples:
         abstract = a_match.group(2).strip()
         samples.setdefault(pmid, {})['abstract'] = abstract
 
-llm = ChatDeepSeek(
-    model="deepseek-chat",
+llm = ChatOpenAI(
+    base_url="http://localhost:8000/v1",
+    api_key="dummy-key",
+    model="deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
     temperature=0.6,
     max_tokens=2048,
-    timeout=None,
-    max_retries=2
+    timeout=120
 )
 
 structured_llm = llm.with_structured_output(FullOutput)
@@ -79,7 +73,7 @@ for pmid, sections in samples.items():
         response = structured_llm.invoke(full_prompt)
 
         # save JSON
-        folder = "test_platinum_relations"
+        folder = "platinum_relations"
         os.makedirs(folder, exist_ok=True)
         output_path = os.path.join(folder, f"{pmid}_relations.json")
 
@@ -90,3 +84,5 @@ for pmid, sections in samples.items():
 
     except Exception as e:
         print(f"Error processing PMID {pmid}: {str(e)}")
+
+print("\n\nComplete")

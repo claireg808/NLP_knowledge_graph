@@ -1,0 +1,181 @@
+{
+  "title": "Gastrointestinal involvement in post-acute Coronavirus disease (COVID)-19 syndrome.",
+  "abstract": "Ten percentage of patients with coronavirus disease (COVID)-19 report having gastrointestinal (GI) symptoms as severe acute respiratory syndrome coronavirus-2 (SARS-CoV2) not only infects the pulmonary but also the GI tract. GI infections including that due to viral infection is known to cause postinfection disorders of gut-brain interaction (DGBI); hence, we wish to review the long-term GI consequences following COVID-19, particularly post-COVID-19 DGBI. At least 12 cohort studies, four of which also included controls documented the occurrence of post-COVID-19 DGBI, particularly IBS following COVID-19. The risk factors for post-COVID-19 DGBI included female gender, symptomatic COVID-19, particularly GI symptoms, the severity of COVID-19, the occurrence of anosmia and ageusia, use of antibiotics and hospitalization during the acute illness, persistent GI symptoms beyond 1 month after recovery, presence of mental health factors, The putative mechanisms for post-COVID-19 DGBI include altered gut motility, visceral hypersensitivity, gut microbiota dysbiosis, GI inflammation, and immune activation, changes in intestinal permeability, and alterations in the enteroendocrine system and serotonin metabolism. Long-term sequelae of SARS-CoV2 infection may persist even after recovery from COVID-19. Patients with COVID-19 are more likely to develop post-COVID-19 IBS than healthy controls. Post-COVID-19 IBS may pose a substantial healthcare burden to society.",
+  "relations": [
+    {
+      "head": "coronavirus disease (COVID)-19",
+      "head_type": "Disease",
+      "relation": "CAUSES",
+      "tail": "gastrointestinal symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "severe acute respiratory syndrome coronavirus-2 (SARS-CoV2)",
+      "head_type": "Virus",
+      "relation": "INFECTS",
+      "tail": "GI tract",
+      "tail_type": "Organ"
+    },
+    {
+      "head": "GI infections",
+      "head_type": "Infection",
+      "relation": "CAUSE",
+      "tail": "postinfection disorders of gut-brain interaction (DGBI)",
+      "tail_type": "Disorder"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "INCLUDES",
+      "tail": "IBS",
+      "tail_type": "Disorder"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_RISK_FACTOR",
+      "tail": "female gender",
+      "tail_type": "Demographic"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_RISK_FACTOR",
+      "tail": "symptomatic COVID-19",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_RISK_FACTOR",
+      "tail": "GI symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_RISK_FACTOR",
+      "tail": "severity of COVID-19",
+      "tail_type": "Severity"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_RISK_FACTOR",
+      "tail": "anosmia",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_RISK_FACTOR",
+      "tail": "ageusia",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_RISK_FACTOR",
+      "tail": "use of antibiotics",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_RISK_FACTOR",
+      "tail": "hospitalization",
+      "tail_type": "Medical Procedure"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_RISK_FACTOR",
+      "tail": "persistent GI symptoms beyond 1 month after recovery",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_RISK_FACTOR",
+      "tail": "presence of mental health factors",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_MECHANISM",
+      "tail": "altered gut motility",
+      "tail_type": "Physiological Mechanism"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_MECHANISM",
+      "tail": "visceral hypersensitivity",
+      "tail_type": "Physiological Mechanism"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_MECHANISM",
+      "tail": "gut microbiota dysbiosis",
+      "tail_type": "Physiological Mechanism"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_MECHANISM",
+      "tail": "GI inflammation",
+      "tail_type": "Physiological Mechanism"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_MECHANISM",
+      "tail": "immune activation",
+      "tail_type": "Physiological Mechanism"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_MECHANISM",
+      "tail": "changes in intestinal permeability",
+      "tail_type": "Physiological Mechanism"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_MECHANISM",
+      "tail": "alterations in the enteroendocrine system",
+      "tail_type": "Physiological Mechanism"
+    },
+    {
+      "head": "post-COVID-19 DGBI",
+      "head_type": "Disorder",
+      "relation": "HAS_MECHANISM",
+      "tail": "serotonin metabolism",
+      "tail_type": "Physiological Mechanism"
+    },
+    {
+      "head": "SARS-CoV2 infection",
+      "head_type": "Infection",
+      "relation": "HAS_SEQUELAE",
+      "tail": "post-COVID-19 DGBI",
+      "tail_type": "Disorder"
+    },
+    {
+      "head": "patients with COVID-19",
+      "head_type": "Patient Group",
+      "relation": "ARE_MORE_LIKELY_TO_DEVELOP",
+      "tail": "post-COVID-19 IBS",
+      "tail_type": "Disorder"
+    },
+    {
+      "head": "post-COVID-19 IBS",
+      "head_type": "Disorder",
+      "relation": "POSES",
+      "tail": "substantial healthcare burden",
+      "tail_type": "Healthcare Impact"
+    }
+  ]
+}

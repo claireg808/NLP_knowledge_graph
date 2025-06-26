@@ -1,0 +1,97 @@
+{
+  "title": "Potential Beneficial Effects of Probiotics on Human Migraine Headache: A Literature Review",
+  "abstract": "Recent studies have shown that migraine headache is often associated with concomitant gastrointestinal diseases. There is a higher prevalence of headaches in patients with gastrointestinal disorders. These associations between migraine and gastrointestinal disorders suggest a potential link to a bidirectional modulation of gut microbiota and brain function. The underlying working mechanistic links between migraine and gastrointestinal diseases may include increased intestinal epithelial permeability and inflammation. This review presents an overview of the relationship between gut microbiota and brain function, especially with regard to migraine headache. Literature review. Anesthesia and Operation Center, Department of Anesthesiology, Chinese PLA General Hospital. The present investigation included a PubMed search using the following terms: migraine headache, gut microbiota, brain function, and probiotics. In this literature review, we mainly discussed the relationship between gut microbiota and brain function, especially with regard to migraine headache. The potential effects of probiotics supplement on migraine headache were also included. There is limited evidence from clinical studies of the positive effects of probiotics in patients with migraine headache. Large-scale randomized, placebo-controlled clinical trials are warranted to evaluate the clinical efficacy and safety of probiotics in patients with migraine headache. Similar to migraine headache, disorders of the brain involving depression and anxiety have been demonstrated to be associated with increased gut permeability. An improvement in gut microbiota and reduction of inflammation can have positive effects on strengthening gut and brain function. Moreover, it can be inferred that probiotics may have a beneficial effect on the frequency and severity of migraine headache attacks. Large-scale randomized, placebo-controlled studies are warranted in the future to evaluate the clinical efficacy and safety of probiotics in patients with migraine headache.Key words: Migraine headache, gut microbiota, brain function, probiotics.",
+  "relations": [
+    {
+      "head": "Migraine Headache",
+      "head_type": "Medical Condition",
+      "relation": "Associated With",
+      "tail": "Gastrointestinal Diseases",
+      "tail_type": "Medical Condition"
+    },
+    {
+      "head": "Migraine Headache",
+      "head_type": "Medical Condition",
+      "relation": "Linked To",
+      "tail": "Gut Microbiota",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "Migraine Headache",
+      "head_type": "Medical Condition",
+      "relation": "Linked To",
+      "tail": "Brain Function",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "Gut Microbiota",
+      "head_type": "Biological Entity",
+      "relation": "Modulates",
+      "tail": "Brain Function",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "Migraine Headache",
+      "head_type": "Medical Condition",
+      "relation": "Associated With",
+      "tail": "Increased Intestinal Epithelial Permeability",
+      "tail_type": "Pathological Condition"
+    },
+    {
+      "head": "Migraine Headache",
+      "head_type": "Medical Condition",
+      "relation": "Associated With",
+      "tail": "Inflammation",
+      "tail_type": "Pathological Process"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Therapeutic Agent",
+      "relation": "May Have Beneficial Effect On",
+      "tail": "Migraine Headache",
+      "tail_type": "Medical Condition"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Therapeutic Agent",
+      "relation": "Improves",
+      "tail": "Gut Microbiota",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "Improvement In Gut Microbiota",
+      "head_type": "Therapeutic Outcome",
+      "relation": "Reduces",
+      "tail": "Inflammation",
+      "tail_type": "Pathological Process"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Therapeutic Agent",
+      "relation": "May Reduce",
+      "tail": "Frequency Of Migraine Headache Attacks",
+      "tail_type": "Medical Condition Aspect"
+    },
+    {
+      "head": "Probiotics",
+      "head_type": "Therapeutic Agent",
+      "relation": "May Reduce",
+      "tail": "Severity Of Migraine Headache Attacks",
+      "tail_type": "Medical Condition Aspect"
+    },
+    {
+      "head": "Depression",
+      "head_type": "Mental Disorder",
+      "relation": "Associated With",
+      "tail": "Increased Gut Permeability",
+      "tail_type": "Pathological Condition"
+    },
+    {
+      "head": "Anxiety",
+      "head_type": "Mental Disorder",
+      "relation": "Associated With",
+      "tail": "Increased Gut Permeability",
+      "tail_type": "Pathological Condition"
+    }
+  ]
+}

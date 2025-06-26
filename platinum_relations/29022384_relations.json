@@ -1,0 +1,76 @@
+{
+  "title": "Does the maternal vaginal microbiota play a role in seeding the microbiota of neonatal gut and nose?",
+  "abstract": "The acquisition and early maturation of infant microbiota is not well understood despite its likely influence on later health. We investigated the contribution of the maternal microbiota to the microbiota of infant gut and nose in the context of mode of delivery and feeding. Using 16S rRNA sequencing and specific qPCR, we profiled microbiota of 42 mother-infant pairs from the GUSTO birth cohort, at body sites including maternal vagina, rectum and skin; and infant stool and nose. In our study, overlap between maternal vaginal microbiota and infant faecal microbiota was minimal, while the similarity between maternal rectal microbiota and infant microbiota was more pronounced. However, an infant's nasal and gut microbiota were no more similar to that of its own mother, than to that of unrelated mothers. These findings were independent of delivery mode. We conclude that the transfer of maternal vaginal microbes play a minor role in seeding infant stool microbiota. Transfer of maternal rectal microbiota could play a larger role in seeding infant stool microbiota, but approaches other than the generally used analyses of community similarity measures are likely to be needed to quantify bacterial transmission. We confirmed the clear difference between microbiota of infants born by Caesarean section compared to vaginally delivered infants and the impact of feeding mode on infant gut microbiota. Only vaginally delivered, fully breastfed infants had gut microbiota dominated by Bifidobacteria. Our data suggest that reduced transfer of maternal vaginal microbial is not the main mechanism underlying the differential infant microbiota composition associated with Caesarean delivery. The sources of a large proportion of infant microbiota could not be identified in maternal microbiota, and the sources of seeding of infant gut and nasal microbiota remain to be elucidated.",
+  "relations": [
+    {
+      "head": "maternal vaginal microbiota",
+      "head_type": "microbiota",
+      "relation": "play a role in",
+      "tail": "seeding the microbiota",
+      "tail_type": "process"
+    },
+    {
+      "head": "maternal vaginal microbiota",
+      "head_type": "microbiota",
+      "relation": "overlap with",
+      "tail": "infant faecal microbiota",
+      "tail_type": "microbiota"
+    },
+    {
+      "head": "maternal rectal microbiota",
+      "head_type": "microbiota",
+      "relation": "similarity with",
+      "tail": "infant microbiota",
+      "tail_type": "microbiota"
+    },
+    {
+      "head": "infant nasal microbiota",
+      "head_type": "microbiota",
+      "relation": "similarity with",
+      "tail": "mother's microbiota",
+      "tail_type": "microbiota"
+    },
+    {
+      "head": "infant nasal microbiota",
+      "head_type": "microbiota",
+      "relation": "similarity with",
+      "tail": "unrelated mothers' microbiota",
+      "tail_type": "microbiota"
+    },
+    {
+      "head": "transfer of maternal vaginal microbes",
+      "head_type": "process",
+      "relation": "play a minor role in",
+      "tail": "seeding infant stool microbiota",
+      "tail_type": "process"
+    },
+    {
+      "head": "transfer of maternal rectal microbiota",
+      "head_type": "process",
+      "relation": "play a larger role in",
+      "tail": "seeding infant stool microbiota",
+      "tail_type": "process"
+    },
+    {
+      "head": "Caesarean section delivery",
+      "head_type": "delivery mode",
+      "relation": "differential infant microbiota composition",
+      "tail": "Caesarean delivery",
+      "tail_type": "delivery mode"
+    },
+    {
+      "head": "vaginally delivered, fully breastfed infants",
+      "head_type": "infants",
+      "relation": "gut microbiota dominated by",
+      "tail": "Bifidobacteria",
+      "tail_type": "bacteria"
+    },
+    {
+      "head": "maternal vaginal microbial transfer",
+      "head_type": "process",
+      "relation": "not the main mechanism",
+      "tail": "differential infant microbiota composition",
+      "tail_type": "process"
+    }
+  ]
+}

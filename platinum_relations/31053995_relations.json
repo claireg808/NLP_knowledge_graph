@@ -1,0 +1,41 @@
+{
+  "title": "Gender specific decrease of a set of circulating N-acylphosphatidyl ethanolamines (NAPEs) in the plasma of Parkinson's disease patients.",
+  "abstract": "Current markers of Parkinson's disease (PD) fail to detect the early progression of disease state. Conversely, current omics techniques allow the investigation of hundreds of molecules potentially altered by disease conditions. Based on evidence previously collected by our group in a mouse model of PD, we speculated that a particular set of circulating lipids might be significantly altered by the pathology. The aim of current study was to evaluate the potential of a particular set of N-acyl-phosphatidylethanolamines (NAPEs) as potential non-invasive plasma markers of ongoing neurodegeneration from Parkinson's disease in human subjects. A panel of seven NAPEs were quantified by LC-MS/MS in the plasma of 587 individuals (healthy controls, n\u2009=\u2009319; Parkinson's disease, n\u2009=\u2009268); Random Forest classification and statistical modeling was applied to compare Parkinson's disease versus controls. All p-values obtained in different tests were corrected for multiplicity by controlling the false discovery rate (FDR). The results indicate that this panel of NAPEs is able to distinguish female PD patients from the corresponding healthy controls. Further to this, the observed downregulation of these NAPEs is in line with the results in plasma of a mouse model of Parkinson's (6-OHDA). In the current study we have shown the downregulation of NAPEs in plasma of PD patients and we thus speculate that these lipids might serve as candidate biomarkers for PD. We also suggest a molecular mechanism, explaining our findings, which involves gut microbiota.",
+  "relations": [
+    {
+      "head": "N-acylphosphatidyl ethanolamines (NAPEs)",
+      "head_type": "Lipid",
+      "relation": "are potential markers for",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "NAPEs",
+      "head_type": "Lipid",
+      "relation": "are decreased in",
+      "tail": "Parkinson's disease patients",
+      "tail_type": "Patient"
+    },
+    {
+      "head": "NAPEs",
+      "head_type": "Lipid",
+      "relation": "are associated with",
+      "tail": "neurodegeneration",
+      "tail_type": "Pathological Process"
+    },
+    {
+      "head": "NAPEs",
+      "head_type": "Lipid",
+      "relation": "are downregulated in",
+      "tail": "mouse model of Parkinson's",
+      "tail_type": "Animal Model"
+    },
+    {
+      "head": "NAPEs",
+      "head_type": "Lipid",
+      "relation": "are influenced by",
+      "tail": "gut microbiota",
+      "tail_type": "Microbial Community"
+    }
+  ]
+}

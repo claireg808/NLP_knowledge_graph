@@ -8,4 +8,4 @@ module load python/3.11
 module load cuda/12.4
 source ds_kg_venv/bin/activate
 
-vllm serve deepseek-ai/DeepSeek-R1-Distill-Qwen-8B --max-model-len 35904
+vllm serve deepseek-ai/DeepSeek-R1-Distill-Qwen-32B --max-model-len 35904

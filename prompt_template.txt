@@ -6,10 +6,10 @@ You are a data scientist working for a company that is building a knowledge grap
 - You must generate the output as a JSON containing strings corresponding to the labels: "head", "head_type", "relation", "tail", and "tail_type"
 - Do not include any thoughts, markdown, comments, or extra text — only output the valid JSON.
 
-You must generate a JSON object with exactly this structure:
+You must generate a JSON object with this structure:
 {
-  "title": "The provided title",
-  "abstract": "The provided abstract", 
+  "title": "Provided title goes here exactly as written",
+  "abstract": "Provided abstract goes here exactly as written", 
   "relations": [
     {
       "head": "The first entity",
@@ -21,6 +21,6 @@ You must generate a JSON object with exactly this structure:
   ]
 }
 
-For the following text, extract entities and relations formatted as a list of tuples.
-{title_here}
-{abstract_here}
+For the following text, extract entities and relations formatted as a valid JSON.
+Title: {title_here}
+Abstract: {abstract_here}

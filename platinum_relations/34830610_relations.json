@@ -1,0 +1,55 @@
+{
+  "title": "Targeting the Gut Microbiome in Prader-Willi Syndrome",
+  "abstract": "Overwhelming evidence demonstrates an important role of the gut microbiome in the development of a wide range of diseases, including obesity, metabolic disorders, and mental health symptoms. Indeed, interventions targeting the gut microbiome are being actively investigated as a therapeutic strategy to tackle these diseases. Given that obesity and mental health symptoms are both hallmarks of Prader-Willi syndrome, targeting the gut microbiome may be a promising therapeutical strategy. Only a few studies have investigated the gut microbiome in the context of Prader-Willi syndrome and assessed the efficacy of probiotic supplementation as a therapeutic strategy for this disease. Here, we review the knowledge obtained to this date regarding the gut microbiome in individuals with Prader-Willi syndrome. The limited evidence available indicate that probiotic supplementation improves some metabolic and mental health aspects, however further studies are warranted to determine whether targeting the gut microbiome may constitute a safe and efficient strategy to treat individuals with Prader-Willi syndrome.",
+  "relations": [
+    {
+      "head": "gut microbiome",
+      "head_type": "Biological Process",
+      "relation": "plays role in",
+      "tail": "development of diseases",
+      "tail_type": "Disease Process"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "Biological Process",
+      "relation": "targeted by",
+      "tail": "therapeutic strategy",
+      "tail_type": "Therapeutic Method"
+    },
+    {
+      "head": "obesity",
+      "head_type": "Disease",
+      "relation": "is hallmark of",
+      "tail": "Prader-Willi syndrome",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "mental health symptoms",
+      "head_type": "Symptom",
+      "relation": "is hallmark of",
+      "tail": "Prader-Willi syndrome",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "Biological Process",
+      "relation": "targeted by",
+      "tail": "probiotic supplementation",
+      "tail_type": "Therapeutic Method"
+    },
+    {
+      "head": "probiotic supplementation",
+      "head_type": "Therapeutic Method",
+      "relation": "improves",
+      "tail": "metabolic aspects",
+      "tail_type": "Physiological Process"
+    },
+    {
+      "head": "probiotic supplementation",
+      "head_type": "Therapeutic Method",
+      "relation": "improves",
+      "tail": "mental health aspects",
+      "tail_type": "Mental Health"
+    }
+  ]
+}

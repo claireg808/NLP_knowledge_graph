@@ -1,0 +1,146 @@
+{
+  "title": "Changes in the Gut Microbiome and Predicted Functional Metabolic Effects in an Australian Parkinson's Disease Cohort",
+  "abstract": "Background: There has been increasing recognition of the importance of the gut microbiome in Parkinson's disease (PD), but the influence of geographic location has received little attention. The present study characterized the gut microbiota and associated changes in host metabolic pathways in an Australian cohort of people with PD (PwP). Methods: The study involved recruitment and assessment of 87 PwP from multiple Movement Disorders Clinics in Australia and 47 healthy controls. Illumina sequencing of the V3 and V4 regions of the 16S rRNA gene was used to distinguish inter-cohort differences in gut microbiota; KEGG analysis was subsequently performed to predict functional changes in host metabolic pathways. Results: The current findings identified significant differences in relative abundance and diversity of microbial operational taxonomic units (OTUs), and specific bacterial taxa between PwP and control groups. Alpha diversity was significantly reduced in PwP when compared to controls. Differences were found in two phyla (Synergistetes and Proteobacteria; both increased in PwP), and five genera (Colidextribacter, Intestinibacter, Kineothrix, Agathobaculum, and Roseburia; all decreased in PwP). Within the PD cohort, there was no association identified between microbial composition and gender, constipation or use of gastrointestinal medication. Furthermore, KEGG analysis identified 15 upregulated and 11 downregulated metabolic pathways which were predicted to be significantly altered in PwP. Conclusion: This study provides the first comprehensive characterization of the gut microbiome and predicted functional metabolic effects in a southern hemisphere PD population, further exploring the possible mechanisms whereby the gut microbiota may exert their influence on this disease, and providing evidence for the incorporation of such data in future individualized therapeutic strategies.",
+  "relations": [
+    {
+      "head": "gut microbiome",
+      "head_type": "biological entity",
+      "relation": "associated with",
+      "tail": "Parkinson's disease",
+      "tail_type": "disease"
+    },
+    {
+      "head": "geographic location",
+      "head_type": "location",
+      "relation": "influences",
+      "tail": "gut microbiome",
+      "tail_type": "biological entity"
+    },
+    {
+      "head": "study",
+      "head_type": "research study",
+      "relation": "characterizes",
+      "tail": "gut microbiota",
+      "tail_type": "biological entity"
+    },
+    {
+      "head": "study",
+      "head_type": "research study",
+      "relation": "analyzes",
+      "tail": "host metabolic pathways",
+      "tail_type": "biological process"
+    },
+    {
+      "head": "Illumina sequencing",
+      "head_type": "methodology",
+      "relation": "used to",
+      "tail": "distinguish gut microbiota differences",
+      "tail_type": "biological analysis"
+    },
+    {
+      "head": "KEGG analysis",
+      "head_type": "methodology",
+      "relation": "predicts",
+      "tail": "functional changes",
+      "tail_type": "biological function"
+    },
+    {
+      "head": "Parkinson's disease",
+      "head_type": "disease",
+      "relation": "exhibits",
+      "tail": "reduced alpha diversity",
+      "tail_type": "biological characteristic"
+    },
+    {
+      "head": "PwP",
+      "head_type": "patient group",
+      "relation": "has",
+      "tail": "increased Synergistetes",
+      "tail_type": "biological entity"
+    },
+    {
+      "head": "PwP",
+      "head_type": "patient group",
+      "relation": "has",
+      "tail": "increased Proteobacteria",
+      "tail_type": "biological entity"
+    },
+    {
+      "head": "PwP",
+      "head_type": "patient group",
+      "relation": "has",
+      "tail": "decreased Colidextribacter",
+      "tail_type": "biological entity"
+    },
+    {
+      "head": "PwP",
+      "head_type": "patient group",
+      "relation": "has",
+      "tail": "decreased Intestinibacter",
+      "tail_type": "biological entity"
+    },
+    {
+      "head": "PwP",
+      "head_type": "patient group",
+      "relation": "has",
+      "tail": "decreased Kineothrix",
+      "tail_type": "biological entity"
+    },
+    {
+      "head": "PwP",
+      "head_type": "patient group",
+      "relation": "has",
+      "tail": "decreased Agathobaculum",
+      "tail_type": "biological entity"
+    },
+    {
+      "head": "PwP",
+      "head_type": "patient group",
+      "relation": "has",
+      "tail": "decreased Roseburia",
+      "tail_type": "biological entity"
+    },
+    {
+      "head": "microbial composition",
+      "head_type": "biological entity",
+      "relation": "not associated with",
+      "tail": "gender",
+      "tail_type": "demographic characteristic"
+    },
+    {
+      "head": "microbial composition",
+      "head_type": "biological entity",
+      "relation": "not associated with",
+      "tail": "constipation",
+      "tail_type": "symptom"
+    },
+    {
+      "head": "microbial composition",
+      "head_type": "biological entity",
+      "relation": "not associated with",
+      "tail": "gastrointestinal medication use",
+      "tail_type": "treatment"
+    },
+    {
+      "head": "KEGG analysis",
+      "head_type": "methodology",
+      "relation": "identifies",
+      "tail": "upregulated metabolic pathways",
+      "tail_type": "biological process"
+    },
+    {
+      "head": "KEGG analysis",
+      "head_type": "methodology",
+      "relation": "identifies",
+      "tail": "downregulated metabolic pathways",
+      "tail_type": "biological process"
+    },
+    {
+      "head": "study",
+      "head_type": "research study",
+      "relation": "provides evidence for",
+      "tail": "future therapeutic strategies",
+      "tail_type": "treatment"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "title": "Consumption of Butylated Starch Alleviates the Chronic Restraint Stress-Induced Neurobehavioral and Gut Barrier Deficits Through Reshaping the Gut Microbiota",
+  "abstract": "The beneficial effect of short-chain fatty acids (SCFAs) on host health has been well recognized based on the booming knowledge from gut microbiome research. The role of SCFA in influencing psychological function is highlighted in recent years but has not been fully elucidated. In this study, the SCFA-acylated starches were used to accomplish a sizeable intestine-targeted release of the SCFAs, and the neurobehavioral, immunological, and microbial effects were further investigated. Acetylated-, butylated-, and isobutylated-starch could attenuate the depression-like behaviors and excessive corticosterone production in chronically stressed mice. Butylated- starch significantly reduced the colonic permeability via increasing the tight junction proteins (including ZO-1, Claudin, and Occludin) gene expression and reduced the level of the inflammatory cytokines (including IL-1\u03b2 and IL-6). The butylated starch's neurological and immunological benefits may be derived from the gut microbiome modifications, including normalizing the abundance of certain beneficial microbes (Odoribacter and Oscillibacter) and metabolomic pathways (Tryptophan synthesis and Inositol degradation). The present findings further validate the brain-beneficial effect of butyrate and offer novel guidance for developing novel food or dietary supplements for improving mental health.",
+  "relations": [
+    {
+      "head": "Butylated Starch",
+      "head_type": "Substance",
+      "relation": "Alleviates",
+      "tail": "Chronic Restraint Stress",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Butylated Starch",
+      "head_type": "Substance",
+      "relation": "Improves",
+      "tail": "Neurobehavioral Deficits",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Butylated Starch",
+      "head_type": "Substance",
+      "relation": "Improves",
+      "tail": "Gut Barrier Deficits",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Butylated Starch",
+      "head_type": "Substance",
+      "relation": "Reduces",
+      "tail": "Colonic Permeability",
+      "tail_type": "Physiological State"
+    },
+    {
+      "head": "Butylated Starch",
+      "head_type": "Substance",
+      "relation": "Increases",
+      "tail": "Tight Junction Proteins",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "Tight Junction Proteins",
+      "head_type": "Protein",
+      "relation": "Includes",
+      "tail": "ZO-1",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "Tight Junction Proteins",
+      "head_type": "Protein",
+      "relation": "Includes",
+      "tail": "Claudin",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "Tight Junction Proteins",
+      "head_type": "Protein",
+      "relation": "Includes",
+      "tail": "Occludin",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "Butylated Starch",
+      "head_type": "Substance",
+      "relation": "Reduces",
+      "tail": "Inflammatory Cytokines",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "Inflammatory Cytokines",
+      "head_type": "Protein",
+      "relation": "Includes",
+      "tail": "IL-1\u03b2",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "Inflammatory Cytokines",
+      "head_type": "Protein",
+      "relation": "Includes",
+      "tail": "IL-6",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "Butylated Starch",
+      "head_type": "Substance",
+      "relation": "Modifies",
+      "tail": "Gut Microbiome",
+      "tail_type": "Microbial Community"
+    },
+    {
+      "head": "Gut Microbiome",
+      "head_type": "Microbial Community",
+      "relation": "Includes",
+      "tail": "Odoribacter",
+      "tail_type": "Microbe"
+    },
+    {
+      "head": "Gut Microbiome",
+      "head_type": "Microbial Community",
+      "relation": "Includes",
+      "tail": "Oscillibacter",
+      "tail_type": "Microbe"
+    },
+    {
+      "head": "Gut Microbiome",
+      "head_type": "Microbial Community",
+      "relation": "Includes",
+      "tail": "Tryptophan Synthesis",
+      "tail_type": "Metabolic Pathway"
+    },
+    {
+      "head": "Gut Microbiome",
+      "head_type": "Microbial Community",
+      "relation": "Includes",
+      "tail": "Inositol Degradation",
+      "tail_type": "Metabolic Pathway"
+    },
+    {
+      "head": "Butylated Starch",
+      "head_type": "Substance",
+      "relation": "Improves",
+      "tail": "Brain Function",
+      "tail_type": "Physiological Function"
+    },
+    {
+      "head": "Butylated Starch",
+      "head_type": "Substance",
+      "relation": "Suggested For",
+      "tail": "Food",
+      "tail_type": "Product"
+    },
+    {
+      "head": "Butylated Starch",
+      "head_type": "Substance",
+      "relation": "Suggested For",
+      "tail": "Dietary Supplements",
+      "tail_type": "Product"
+    },
+    {
+      "head": "Food",
+      "head_type": "Product",
+      "relation": "Improves",
+      "tail": "Mental Health",
+      "tail_type": "Health Condition"
+    },
+    {
+      "head": "Dietary Supplements",
+      "head_type": "Product",
+      "relation": "Improves",
+      "tail": "Mental Health",
+      "tail_type": "Health Condition"
+    }
+  ]
+}

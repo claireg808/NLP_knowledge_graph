@@ -1,0 +1,125 @@
+{
+  "title": "Study of the gut microbiome in Egyptian patients with Parkinson's Disease.",
+  "abstract": "Recently, an important relationship between Parkinson's disease and the gut microbiota, through the brain-gut axis interactions, has been established. Previous studies have declared that alterations in the gut microbiota have a great impact on the pathogenesis and clinical picture of Parkinson's disease (PD). The present study aimed to identify the gut microbiome that is likely related to Parkinson's disease as well as their possible relation to clinical phenotypes. Thirty patients with Parkinson's disease, who presented to the Parkinson's disease Neurology Clinic of Alexandria University Hospital were enrolled in our study. A cross-matching control group of 35 healthy subjects of similar age and sex were included. Stool specimens were taken from each. Quantitative SYBR Green Real-Time PCR was done for the identification and quantitation of selected bacterial phyla, genera and/or species. There was a significant increase in Bacteroides and a significant decrease of Firmicutes and Firmicutes / Bacteroidetes ratio and Bifidobacteria in PD patients. Although Prevotella was decreased among PD patients relative to the healthy control, the difference was not statistically significant. Comparing the PD clinical phenotypes with the control group, the Mixed phenotype had significantly higher Bacteroides, Tremors predominant had lower Firmicutes and Firmicutes / Bacteroidetes ratio, and both tremors and postural instability and gait disability (PIGD) phenotypes had lower Bifidobacteria. However, there was no statistically significant difference between these phenotypes. Furthermore, when comparing tremors and non-tremors predominant phenotypes; Lactobacilli showed a significant decrease in non-tremors predominant phenotypes. The current study showed evidence of changes in the gut microbiome of Parkinson's disease patients compared to the healthy controls. These observations may highlight the importance of the identification of microbiome and specific bacterial changes that can be targeted for the treatment of Parkinson's disease.",
+  "relations": [
+    {
+      "head": "Parkinson's disease",
+      "head_type": "Disease",
+      "relation": "has_relationship",
+      "tail": "gut microbiota",
+      "tail_type": "Microbial Community"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbial Community",
+      "relation": "impacts",
+      "tail": "pathogenesis of Parkinson's disease",
+      "tail_type": "Pathogenesis"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbial Community",
+      "relation": "impacts",
+      "tail": "clinical picture of Parkinson's disease",
+      "tail_type": "Clinical Presentation"
+    },
+    {
+      "head": "Parkinson's disease",
+      "head_type": "Disease",
+      "relation": "associated_with",
+      "tail": "Alterations in gut microbiota",
+      "tail_type": "Microbial Alteration"
+    },
+    {
+      "head": "Alterations in gut microbiota",
+      "head_type": "Microbial Alteration",
+      "relation": "linked_to",
+      "tail": "PD patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "PD patients",
+      "head_type": "Patient Group",
+      "relation": "exhibit",
+      "tail": "significant increase in Bacteroides",
+      "tail_type": "Microbial Change"
+    },
+    {
+      "head": "PD patients",
+      "head_type": "Patient Group",
+      "relation": "exhibit",
+      "tail": "significant decrease in Firmicutes",
+      "tail_type": "Microbial Change"
+    },
+    {
+      "head": "PD patients",
+      "head_type": "Patient Group",
+      "relation": "exhibit",
+      "tail": "significant decrease in Bifidobacteria",
+      "tail_type": "Microbial Change"
+    },
+    {
+      "head": "Prevotella",
+      "head_type": "Microbial Species",
+      "relation": "decreased_in",
+      "tail": "PD patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "Mixed phenotype",
+      "head_type": "Clinical Phenotype",
+      "relation": "has",
+      "tail": "significantly higher Bacteroides",
+      "tail_type": "Microbial Change"
+    },
+    {
+      "head": "Tremors predominant phenotype",
+      "head_type": "Clinical Phenotype",
+      "relation": "has",
+      "tail": "lower Firmicutes",
+      "tail_type": "Microbial Change"
+    },
+    {
+      "head": "Tremors predominant phenotype",
+      "head_type": "Clinical Phenotype",
+      "relation": "has",
+      "tail": "lower Firmicutes / Bacteroidetes ratio",
+      "tail_type": "Microbial Ratio"
+    },
+    {
+      "head": "PIGD phenotype",
+      "head_type": "Clinical Phenotype",
+      "relation": "has",
+      "tail": "lower Bifidobacteria",
+      "tail_type": "Microbial Change"
+    },
+    {
+      "head": "Non-tremors predominant phenotype",
+      "head_type": "Clinical Phenotype",
+      "relation": "has",
+      "tail": "significant decrease in Lactobacilli",
+      "tail_type": "Microbial Change"
+    },
+    {
+      "head": "Current study",
+      "head_type": "Research Study",
+      "relation": "demonstrates",
+      "tail": "changes in gut microbiome",
+      "tail_type": "Microbial Change"
+    },
+    {
+      "head": "changes in gut microbiome",
+      "head_type": "Microbial Change",
+      "relation": "highlight",
+      "tail": "importance of microbiome identification",
+      "tail_type": "Research Focus"
+    },
+    {
+      "head": "specific bacterial changes",
+      "head_type": "Microbial Change",
+      "relation": "can_be_targeted_for",
+      "tail": "treatment of Parkinson's disease",
+      "tail_type": "Therapeutic Approach"
+    }
+  ]
+}

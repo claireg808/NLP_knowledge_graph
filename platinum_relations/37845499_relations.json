@@ -1,0 +1,76 @@
+{
+  "title": "Emerging role of the host microbiome in neuropsychiatric disorders: overview and future directions.",
+  "abstract": "The human body harbors a diverse ecosystem of microorganisms, including bacteria, viruses, and fungi, collectively known as the microbiota. Current research is increasingly focusing on the potential association between the microbiota and various neuropsychiatric disorders. The microbiota resides in various parts of the body, such as the oral cavity, nasal passages, lungs, gut, skin, bladder, and vagina. The gut microbiota in the gastrointestinal tract has received particular attention due to its high abundance and its potential role in psychiatric and neurodegenerative disorders. However, the microbiota presents in other body tissues, though less abundant, also plays crucial role in immune system and human homeostasis, thus influencing the development and progression of neuropsychiatric disorders. For example, oral microbiota imbalance and associated periodontitis might increase the risk for neuropsychiatric disorders. Additionally, studies using the postmortem brain samples have detected the widespread presence of oral bacteria in the brains of patients with Alzheimer's disease. This article provides an overview of the emerging role of the host microbiota in neuropsychiatric disorders and discusses future directions, such as underlying biological mechanisms, reliable biomarkers associated with the host microbiota, and microbiota-targeted interventions, for research in this field.",
+  "relations": [
+    {
+      "head": "microbiota",
+      "head_type": "Biological Entity",
+      "relation": "associated_with",
+      "tail": "neuropsychiatric disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "located_in",
+      "tail": "gastrointestinal tract",
+      "tail_type": "Anatomical Structure"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "has_role",
+      "tail": "psychiatric disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "has_role",
+      "tail": "neurodegenerative disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "oral microbiota",
+      "head_type": "Biological Entity",
+      "relation": "associated_with",
+      "tail": "periodontitis",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "oral microbiota imbalance",
+      "head_type": "Biological Entity",
+      "relation": "increases_risk",
+      "tail": "neuropsychiatric disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "oral bacteria",
+      "head_type": "Biological Entity",
+      "relation": "detected_in",
+      "tail": "brains",
+      "tail_type": "Anatomical Structure"
+    },
+    {
+      "head": "oral bacteria",
+      "head_type": "Biological Entity",
+      "relation": "linked_to",
+      "tail": "Alzheimer's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "microbiota",
+      "head_type": "Biological Entity",
+      "relation": "influences",
+      "tail": "immune system",
+      "tail_type": "Biological System"
+    },
+    {
+      "head": "microbiota",
+      "head_type": "Biological Entity",
+      "relation": "influences",
+      "tail": "human homeostasis",
+      "tail_type": "Biological Process"
+    }
+  ]
+}

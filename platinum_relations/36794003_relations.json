@@ -1,0 +1,139 @@
+{
+  "title": "High-fiber diet ameliorates gut microbiota, serum metabolism and emotional mood in type 2 diabetes patients",
+  "abstract": "Previous studies have demonstrated that patients with type 2 diabetes mellitus (T2DM) often had the problems of fecal microbiota dysbiosis, and were usually accompanied with psychiatric comorbidities (such as depression and anxiety). Here, we conducted a randomized clinical study to analyze the changes in gut microbiota, serum metabolism and emotional mood of patients with T2DM after consumption of a high-fiber diet. The glucose homeostasis of participants with T2DM was improved by the high-fiber diet, and the serum metabolome, systemic inflammation and psychiatric comorbidities were also altered. The increased abundances of <i>Lactobacillus</i>, <i>Bifidobacterium</i> and <i>Akkermansias</i> revealed that the proportions of beneficial gut microbes were enriched by the high-fiber diet, while the abundances of <i>Desulfovibrio</i>, <i>Klebsiella</i> and other opportunistic pathogens were decreased. Therefore, the current study demonstrated that the intestinal microbiota alterations which were influenced by the high-fiber diet could improve the serum metabolism and emotional mood of patients with T2DM.",
+  "relations": [
+    {
+      "head": "High-fiber diet",
+      "head_type": "Diet",
+      "relation": "ameliorates",
+      "tail": "gut microbiota",
+      "tail_type": "Microbiota"
+    },
+    {
+      "head": "High-fiber diet",
+      "head_type": "Diet",
+      "relation": "ameliorates",
+      "tail": "serum metabolism",
+      "tail_type": "Metabolism"
+    },
+    {
+      "head": "High-fiber diet",
+      "head_type": "Diet",
+      "relation": "ameliorates",
+      "tail": "emotional mood",
+      "tail_type": "Mood"
+    },
+    {
+      "head": "Type 2 diabetes",
+      "head_type": "Disease",
+      "relation": "has complication",
+      "tail": "fecal microbiota dysbiosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Type 2 diabetes",
+      "head_type": "Disease",
+      "relation": "has complication",
+      "tail": "psychiatric comorbidities",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Type 2 diabetes",
+      "head_type": "Disease",
+      "relation": "has complication",
+      "tail": "depression",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Type 2 diabetes",
+      "head_type": "Disease",
+      "relation": "has complication",
+      "tail": "anxiety",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "High-fiber diet",
+      "head_type": "Diet",
+      "relation": "improves",
+      "tail": "glucose homeostasis",
+      "tail_type": "Physiological Process"
+    },
+    {
+      "head": "High-fiber diet",
+      "head_type": "Diet",
+      "relation": "alters",
+      "tail": "serum metabolome",
+      "tail_type": "Metabolome"
+    },
+    {
+      "head": "High-fiber diet",
+      "head_type": "Diet",
+      "relation": "alters",
+      "tail": "systemic inflammation",
+      "tail_type": "Inflammation"
+    },
+    {
+      "head": "High-fiber diet",
+      "head_type": "Diet",
+      "relation": "alters",
+      "tail": "psychiatric comorbidities",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "High-fiber diet",
+      "head_type": "Diet",
+      "relation": "increases",
+      "tail": "Lactobacillus",
+      "tail_type": "Microbe"
+    },
+    {
+      "head": "High-fiber diet",
+      "head_type": "Diet",
+      "relation": "increases",
+      "tail": "Bifidobacterium",
+      "tail_type": "Microbe"
+    },
+    {
+      "head": "High-fiber diet",
+      "head_type": "Diet",
+      "relation": "increases",
+      "tail": "Akkermansias",
+      "tail_type": "Microbe"
+    },
+    {
+      "head": "High-fiber diet",
+      "head_type": "Diet",
+      "relation": "decreases",
+      "tail": "Desulfovibrio",
+      "tail_type": "Microbe"
+    },
+    {
+      "head": "High-fiber diet",
+      "head_type": "Diet",
+      "relation": "decreases",
+      "tail": "Klebsiella",
+      "tail_type": "Microbe"
+    },
+    {
+      "head": "High-fiber diet",
+      "head_type": "Diet",
+      "relation": "influences",
+      "tail": "intestinal microbiota alterations",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "intestinal microbiota alterations",
+      "head_type": "Condition",
+      "relation": "improves",
+      "tail": "serum metabolism",
+      "tail_type": "Metabolism"
+    },
+    {
+      "head": "intestinal microbiota alterations",
+      "head_type": "Condition",
+      "relation": "improves",
+      "tail": "emotional mood",
+      "tail_type": "Mood"
+    }
+  ]
+}

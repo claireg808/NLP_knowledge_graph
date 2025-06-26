@@ -1,0 +1,111 @@
+{
+  "title": "Fermented Wheat Germ Alleviates Depression-like Behavior in Rats with Chronic and Unpredictable Mild Stress.",
+  "abstract": "Depression is a chronic mental illness with devastating effects on a person's physical and mental health. Studies have reported that food fermentation with probiotics can enrich the nutritional values of food and produce functional microorganisms that can alleviate depression and anxiety. Wheat germ is an inexpensive raw material that is rich in bioactive ingredients. For example, gamma-aminobutyric acid (GABA) is reported to have antidepressant effects. Several studies concluded that <i>Lactobacillus plantarum</i> is a GABA-producing bacteria and can alleviate depression. Herein, fermented wheat germs (FWGs) were used to treat stress-induced depression. FWG was prepared by fermenting wheat germs with <i>Lactobacillus plantarum</i>. The chronic unpredictable mild stress (CUMS) model was established in rats, and these rats were treated with FWG for four weeks to evaluate the effects of FWG in relieving depression. In addition, the study also analyzed the potential anti-depressive mechanism of FWG based on behavioral changes, physiological and biochemical index changes, and intestinal flora changes in depressed rats. The results demonstrated that FWG improved depression-like behaviors and increased neurotransmitter levels in the hippocampus of CUMS model rats. In addition, FWG effectively altered the gut microbiota structure and remodeled the gut microbiota in CUMS rats, restored neurotransmitter levels in depressed rats through the brain-gut axis, and restored amino acid metabolic functions. In conclusion, we suggest that FWG has antidepressant effects, and its potential mechanism may act by restoring the disordered brain-gut axis.",
+  "relations": [
+    {
+      "head": "Fermented Wheat Germ",
+      "head_type": "Food",
+      "relation": "Alleviates",
+      "tail": "Depression-like Behavior",
+      "tail_type": "Behavior"
+    },
+    {
+      "head": "Food Fermentation",
+      "head_type": "Process",
+      "relation": "Produces",
+      "tail": "Functional Microorganisms",
+      "tail_type": "Organism"
+    },
+    {
+      "head": "Lactobacillus plantarum",
+      "head_type": "Bacteria",
+      "relation": "Produces",
+      "tail": "Gamma-aminobutyric acid (GABA)",
+      "tail_type": "Chemical"
+    },
+    {
+      "head": "Gamma-aminobutyric acid (GABA)",
+      "head_type": "Chemical",
+      "relation": "Has Effect",
+      "tail": "Antidepressant Effects",
+      "tail_type": "Effect"
+    },
+    {
+      "head": "Fermented Wheat Germs (FWGs)",
+      "head_type": "Food",
+      "relation": "Treat",
+      "tail": "Stress-induced Depression",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Fermented Wheat Germs (FWGs)",
+      "head_type": "Food",
+      "relation": "Prepared By",
+      "tail": "Fermenting Wheat Germs",
+      "tail_type": "Process"
+    },
+    {
+      "head": "Lactobacillus plantarum",
+      "head_type": "Bacteria",
+      "relation": "Used In",
+      "tail": "Fermenting Wheat Germs",
+      "tail_type": "Process"
+    },
+    {
+      "head": "Chronic Unpredictable Mild Stress (CUMS) Model",
+      "head_type": "Model",
+      "relation": "Established In",
+      "tail": "Rats",
+      "tail_type": "Animal"
+    },
+    {
+      "head": "Fermented Wheat Germs (FWGs)",
+      "head_type": "Food",
+      "relation": "Treated",
+      "tail": "CUMS Model Rats",
+      "tail_type": "Organism"
+    },
+    {
+      "head": "Fermented Wheat Germs (FWGs)",
+      "head_type": "Food",
+      "relation": "Improves",
+      "tail": "Depression-like Behaviors",
+      "tail_type": "Behavior"
+    },
+    {
+      "head": "Fermented Wheat Germs (FWGs)",
+      "head_type": "Food",
+      "relation": "Increases",
+      "tail": "Neurotransmitter Levels",
+      "tail_type": "Physiological Measure"
+    },
+    {
+      "head": "Fermented Wheat Germs (FWGs)",
+      "head_type": "Food",
+      "relation": "Alters",
+      "tail": "Gut Microbiota Structure",
+      "tail_type": "Physiological Measure"
+    },
+    {
+      "head": "Fermented Wheat Germs (FWGs)",
+      "head_type": "Food",
+      "relation": "Restores",
+      "tail": "Neurotransmitter Levels",
+      "tail_type": "Physiological Measure"
+    },
+    {
+      "head": "Fermented Wheat Germs (FWGs)",
+      "head_type": "Food",
+      "relation": "Restores",
+      "tail": "Amino Acid Metabolic Functions",
+      "tail_type": "Physiological Measure"
+    },
+    {
+      "head": "Brain-gut Axis",
+      "head_type": "Physiological System",
+      "relation": "Restored By",
+      "tail": "Fermented Wheat Germs (FWGs)",
+      "tail_type": "Food"
+    }
+  ]
+}

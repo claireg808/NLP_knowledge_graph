@@ -1,0 +1,202 @@
+{
+  "title": "Multi-Omics Approach Reveals Prebiotic and Potential Antioxidant Effects of Essential Oils from the Mediterranean Diet on Cardiometabolic Disorder Using Humanized Gnotobiotic Mice.",
+  "abstract": "Essential oils sourced from herbs commonly used in the Mediterranean diet have demonstrated advantageous attributes as nutraceuticals and prebiotics within a model of severe cardiometabolic disorder. The primary objective of this study was to assess the influences exerted by essential oils derived from thyme (Thymus vulgaris) and oregano (Origanum vulgare) via a comprehensive multi-omics approach within a gnotobiotic murine model featuring colonic microbiota acquired from patients diagnosed with coronary artery disease (CAD) and type-2 diabetes mellitus (T2DM). Our findings demonstrated prebiotic and potential antioxidant effects elicited by these essential oils. We observed a substantial increase in the relative abundance of the Lactobacillus genus in the gut microbiota, accompanied by higher levels of short-chain fatty acids and a reduction in trimethylamine N-oxide levels and protein oxidation in the plasma. Moreover, functional enrichment analysis of the cardiac tissue proteome unveiled an over-representation of pathways related to mitochondrial function, oxidative stress, and cardiac contraction. These findings provide compelling evidence of the prebiotic and antioxidant actions of thyme- and oregano-derived essential oils, which extend to cardiac function. These results encourage further investigation into the promising utility of essential oils derived from herbs commonly used in the Mediterranean diet as potential nutraceutical interventions for mitigating chronic diseases linked to CAD and T2DM.",
+  "relations": [
+    {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "have advantage as",
+      "tail": "nutraceuticals",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "have advantage as",
+      "tail": "prebiotics",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "derived from",
+      "tail": "thyme",
+      "tail_type": "Plant"
+    },
+    {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "derived from",
+      "tail": "oregano",
+      "tail_type": "Plant"
+    },
+    {
+      "head": "Thyme",
+      "head_type": "Plant",
+      "relation": "belongs to",
+      "tail": "Thymus vulgaris",
+      "tail_type": "Scientific name"
+    },
+    {
+      "head": "Oregano",
+      "head_type": "Plant",
+      "relation": "belongs to",
+      "tail": "Origanum vulgare",
+      "tail_type": "Scientific name"
+    },
+    {
+      "head": "Study",
+      "head_type": "Research",
+      "relation": "assesses influences of",
+      "tail": "essential oils",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "Study",
+      "head_type": "Research",
+      "relation": "uses",
+      "tail": "gnotobiotic murine model",
+      "tail_type": "Model"
+    },
+    {
+      "head": "Gnotobiotic murine model",
+      "head_type": "Model",
+      "relation": "features",
+      "tail": "colonic microbiota",
+      "tail_type": "Microbiota"
+    },
+    {
+      "head": "Colonic microbiota",
+      "head_type": "Microbiota",
+      "relation": "acquired from",
+      "tail": "patients",
+      "tail_type": "Human"
+    },
+    {
+      "head": "Patients",
+      "head_type": "Human",
+      "relation": "diagnosed with",
+      "tail": "coronary artery disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Patients",
+      "head_type": "Human",
+      "relation": "diagnosed with",
+      "tail": "type-2 diabetes mellitus",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "demonstrate",
+      "tail": "prebiotic effects",
+      "tail_type": "Effect"
+    },
+    {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "demonstrate",
+      "tail": "antioxidant effects",
+      "tail_type": "Effect"
+    },
+    {
+      "head": "Lactobacillus",
+      "head_type": "Genus",
+      "relation": "increase in",
+      "tail": "gut microbiota",
+      "tail_type": "Microbiota"
+    },
+    {
+      "head": "Gut microbiota",
+      "head_type": "Microbiota",
+      "relation": "has higher levels of",
+      "tail": "short-chain fatty acids",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "Plasma",
+      "head_type": "Biological fluid",
+      "relation": "has reduction in",
+      "tail": "trimethylamine N-oxide",
+      "tail_type": "Substance"
+    },
+    {
+      "head": "Plasma",
+      "head_type": "Biological fluid",
+      "relation": "has reduction in",
+      "tail": "protein oxidation",
+      "tail_type": "Process"
+    },
+    {
+      "head": "Cardiac tissue proteome",
+      "head_type": "Proteome",
+      "relation": "shows over-representation of",
+      "tail": "mitochondrial function",
+      "tail_type": "Process"
+    },
+    {
+      "head": "Cardiac tissue proteome",
+      "head_type": "Proteome",
+      "relation": "shows over-representation of",
+      "tail": "oxidative stress",
+      "tail_type": "Process"
+    },
+    {
+      "head": "Cardiac tissue proteome",
+      "head_type": "Proteome",
+      "relation": "shows over-representation of",
+      "tail": "cardiac contraction",
+      "tail_type": "Process"
+    },
+    {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "have",
+      "tail": "prebiotic actions",
+      "tail_type": "Effect"
+    },
+    {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "have",
+      "tail": "antioxidant actions",
+      "tail_type": "Effect"
+    },
+    {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "extend to",
+      "tail": "cardiac function",
+      "tail_type": "Process"
+    },
+    {
+      "head": "Essential oils",
+      "head_type": "Substance",
+      "relation": "are potential",
+      "tail": "nutraceutical interventions",
+      "tail_type": "Intervention"
+    },
+    {
+      "head": "Nutraceutical interventions",
+      "head_type": "Intervention",
+      "relation": "mitigate",
+      "tail": "chronic diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Chronic diseases",
+      "head_type": "Disease",
+      "relation": "linked to",
+      "tail": "CAD",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Chronic diseases",
+      "head_type": "Disease",
+      "relation": "linked to",
+      "tail": "T2DM",
+      "tail_type": "Disease"
+    }
+  ]
+}
