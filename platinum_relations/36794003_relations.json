@@ -5,55 +5,6 @@
     {
       "head": "High-fiber diet",
       "head_type": "Diet",
-      "relation": "ameliorates",
-      "tail": "gut microbiota",
-      "tail_type": "Microbiota"
-    },
-    {
-      "head": "High-fiber diet",
-      "head_type": "Diet",
-      "relation": "ameliorates",
-      "tail": "serum metabolism",
-      "tail_type": "Metabolism"
-    },
-    {
-      "head": "High-fiber diet",
-      "head_type": "Diet",
-      "relation": "ameliorates",
-      "tail": "emotional mood",
-      "tail_type": "Mood"
-    },
-    {
-      "head": "Type 2 diabetes",
-      "head_type": "Disease",
-      "relation": "has complication",
-      "tail": "fecal microbiota dysbiosis",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "Type 2 diabetes",
-      "head_type": "Disease",
-      "relation": "has complication",
-      "tail": "psychiatric comorbidities",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "Type 2 diabetes",
-      "head_type": "Disease",
-      "relation": "has complication",
-      "tail": "depression",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "Type 2 diabetes",
-      "head_type": "Disease",
-      "relation": "has complication",
-      "tail": "anxiety",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "High-fiber diet",
-      "head_type": "Diet",
       "relation": "improves",
       "tail": "glucose homeostasis",
       "tail_type": "Physiological Process"
@@ -77,63 +28,56 @@
       "head_type": "Diet",
       "relation": "alters",
       "tail": "psychiatric comorbidities",
-      "tail_type": "Condition"
+      "tail_type": "Psychiatric Condition"
     },
     {
       "head": "High-fiber diet",
       "head_type": "Diet",
       "relation": "increases",
       "tail": "Lactobacillus",
-      "tail_type": "Microbe"
+      "tail_type": "Microbial Species"
     },
     {
       "head": "High-fiber diet",
       "head_type": "Diet",
       "relation": "increases",
       "tail": "Bifidobacterium",
-      "tail_type": "Microbe"
+      "tail_type": "Microbial Species"
     },
     {
       "head": "High-fiber diet",
       "head_type": "Diet",
       "relation": "increases",
       "tail": "Akkermansias",
-      "tail_type": "Microbe"
+      "tail_type": "Microbial Species"
     },
     {
       "head": "High-fiber diet",
       "head_type": "Diet",
       "relation": "decreases",
       "tail": "Desulfovibrio",
-      "tail_type": "Microbe"
+      "tail_type": "Microbial Species"
     },
     {
       "head": "High-fiber diet",
       "head_type": "Diet",
       "relation": "decreases",
       "tail": "Klebsiella",
-      "tail_type": "Microbe"
+      "tail_type": "Microbial Species"
     },
     {
       "head": "High-fiber diet",
       "head_type": "Diet",
-      "relation": "influences",
-      "tail": "intestinal microbiota alterations",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "intestinal microbiota alterations",
-      "head_type": "Condition",
       "relation": "improves",
       "tail": "serum metabolism",
       "tail_type": "Metabolism"
     },
     {
-      "head": "intestinal microbiota alterations",
-      "head_type": "Condition",
+      "head": "High-fiber diet",
+      "head_type": "Diet",
       "relation": "improves",
       "tail": "emotional mood",
-      "tail_type": "Mood"
+      "tail_type": "Emotional State"
     }
   ]
 }

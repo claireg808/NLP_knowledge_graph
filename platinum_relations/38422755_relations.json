@@ -1,5 +1,5 @@
 {
-  "title": "Gut microbiota disturbances in hospitalized older adults with malnutrition and clinical outcomes.",
+  "title": "Gut microbiota disturbances in hospitalized older adults with malnutrition and clinical outcomes",
   "abstract": "Malnutrition is one of the most threatening conditions in geriatric populations. The gut microbiota has an important role in the host's metabolic and muscular health: however, its interplay with disease-related malnutrition is not well understood. We aimed to identify the association of malnutrition with the gut microbiota and predict clinical outcomes in hospitalized acutely ill older adults. We performed a secondary longitudinal analysis in 108 geriatric patients from a prospective cohort evaluated at admission and 72 h of hospitalization. We collected clinical, demographic, nutritional, and 16S rRNA gene-sequenced gut microbiota data. Microbiota diversity, overall composition, and differential abundance were calculated and compared between patients with and without malnutrition. Microbiota features associated with malnutrition were used to predict clinical outcomes. Patients with malnutrition (51%) had a different microbiota composition compared to those who were well-nourished during hospitalization (ANOSIM R = 0.079, P = 0.003). Patients with severe malnutrition showed poorer \u03b1-diversity at admission (Shannon P = 0.012, Simpson P = 0.018) and follow-up (Shannon P = 0.023, Chao1 P = 0.008). Differential abundance of Lachnospiraceae NK4A136 group, Subdoligranulum, and Faecalibacterium prausnitzii were significantly lower and inversely associated with malnutrition, while Corynebacterium, Ruminococcaceae Incertae Sedis, and Fusobacterium were significantly increased and positively associated with malnutrition. Corynebacterium, Ruminococcaceae Incertae Sedis, and the overall composition were important predictors of critical care in patients with malnutrition during hospitalization. Older adults with malnutrition, especially in a severe stage, may be subject to substantial gut microbial disturbances during hospitalization. The gut microbiota profile of patients with malnutrition might help us to predict worse clinical outcomes.",
   "relations": [
     {
@@ -7,98 +7,133 @@
       "head_type": "Condition",
       "relation": "associated_with",
       "tail": "Gut microbiota disturbances",
-      "tail_type": "Biological Process"
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Malnutrition",
+      "head_type": "Condition",
+      "relation": "has_impact_on",
+      "tail": "Metabolic health",
+      "tail_type": "Physiological state"
+    },
+    {
+      "head": "Malnutrition",
+      "head_type": "Condition",
+      "relation": "has_impact_on",
+      "tail": "Muscular health",
+      "tail_type": "Physiological state"
     },
     {
       "head": "Gut microbiota",
-      "head_type": "Biological Process",
+      "head_type": "Organism community",
       "relation": "plays_role_in",
       "tail": "Metabolic health",
-      "tail_type": "Physiological Function"
+      "tail_type": "Physiological state"
     },
     {
       "head": "Gut microbiota",
-      "head_type": "Biological Process",
+      "head_type": "Organism community",
       "relation": "plays_role_in",
       "tail": "Muscular health",
-      "tail_type": "Physiological Function"
+      "tail_type": "Physiological state"
     },
     {
       "head": "Malnutrition",
       "head_type": "Condition",
       "relation": "affects",
       "tail": "Microbiota diversity",
-      "tail_type": "Biological Process"
+      "tail_type": "Biological property"
     },
     {
       "head": "Malnutrition",
       "head_type": "Condition",
       "relation": "affects",
       "tail": "Microbiota composition",
-      "tail_type": "Biological Process"
+      "tail_type": "Biological property"
     },
     {
       "head": "Malnutrition",
       "head_type": "Condition",
-      "relation": "associated_with",
-      "tail": "Lachnospiraceae NK4A136 group",
-      "tail_type": "Microbial Taxon"
+      "relation": "affects",
+      "tail": "Differential abundance of gut microbiota",
+      "tail_type": "Biological property"
     },
     {
-      "head": "Malnutrition",
-      "head_type": "Condition",
-      "relation": "associated_with",
-      "tail": "Subdoligranulum",
-      "tail_type": "Microbial Taxon"
+      "head": "Lachnospiraceae NK4A136 group",
+      "head_type": "Microbial group",
+      "relation": "has_lower_abundance_in",
+      "tail": "Malnutrition",
+      "tail_type": "Condition"
     },
     {
-      "head": "Malnutrition",
-      "head_type": "Condition",
-      "relation": "associated_with",
-      "tail": "Faecalibacterium prausnitzii",
-      "tail_type": "Microbial Taxon"
+      "head": "Subdoligranulum",
+      "head_type": "Microbial group",
+      "relation": "has_lower_abundance_in",
+      "tail": "Malnutrition",
+      "tail_type": "Condition"
     },
     {
-      "head": "Malnutrition",
-      "head_type": "Condition",
-      "relation": "associated_with",
-      "tail": "Corynebacterium",
-      "tail_type": "Microbial Taxon"
-    },
-    {
-      "head": "Malnutrition",
-      "head_type": "Condition",
-      "relation": "associated_with",
-      "tail": "Ruminococcaceae Incertae Sedis",
-      "tail_type": "Microbial Taxon"
-    },
-    {
-      "head": "Malnutrition",
-      "head_type": "Condition",
-      "relation": "associated_with",
-      "tail": "Fusobacterium",
-      "tail_type": "Microbial Taxon"
+      "head": "Faecalibacterium prausnitzii",
+      "head_type": "Microbial group",
+      "relation": "has_lower_abundance_in",
+      "tail": "Malnutrition",
+      "tail_type": "Condition"
     },
     {
       "head": "Corynebacterium",
-      "head_type": "Microbial Taxon",
-      "relation": "predicts",
-      "tail": "Critical care",
-      "tail_type": "Clinical Outcome"
+      "head_type": "Microbial group",
+      "relation": "has_higher_abundance_in",
+      "tail": "Malnutrition",
+      "tail_type": "Condition"
     },
     {
       "head": "Ruminococcaceae Incertae Sedis",
-      "head_type": "Microbial Taxon",
+      "head_type": "Microbial group",
+      "relation": "has_higher_abundance_in",
+      "tail": "Malnutrition",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Fusobacterium",
+      "head_type": "Microbial group",
+      "relation": "has_higher_abundance_in",
+      "tail": "Malnutrition",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Corynebacterium",
+      "head_type": "Microbial group",
       "relation": "predicts",
       "tail": "Critical care",
-      "tail_type": "Clinical Outcome"
+      "tail_type": "Clinical outcome"
+    },
+    {
+      "head": "Ruminococcaceae Incertae Sedis",
+      "head_type": "Microbial group",
+      "relation": "predicts",
+      "tail": "Critical care",
+      "tail_type": "Clinical outcome"
+    },
+    {
+      "head": "Gut microbiota composition",
+      "head_type": "Biological property",
+      "relation": "predicts",
+      "tail": "Clinical outcomes",
+      "tail_type": "Clinical outcome"
+    },
+    {
+      "head": "Malnutrition",
+      "head_type": "Condition",
+      "relation": "linked_to",
+      "tail": "Gut microbial disturbances",
+      "tail_type": "Condition"
     },
     {
       "head": "Gut microbiota profile",
-      "head_type": "Biological Process",
-      "relation": "predicts",
+      "head_type": "Biological property",
+      "relation": "used_to_predict",
       "tail": "Worse clinical outcomes",
-      "tail_type": "Clinical Outcome"
+      "tail_type": "Clinical outcome"
     }
   ]
 }

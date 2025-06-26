@@ -26,27 +26,27 @@
     {
       "head": "Schizophrenia",
       "head_type": "Condition",
-      "relation": "linked_with",
+      "relation": "linked_to",
       "tail": "Autoimmune disorders",
       "tail_type": "Condition"
     },
     {
       "head": "Schizophrenia",
       "head_type": "Condition",
-      "relation": "linked_with",
+      "relation": "linked_to",
       "tail": "Enteropathic celiac disease",
       "tail_type": "Condition"
     },
     {
-      "head": "Wheat gluten",
-      "head_type": "Substance",
+      "head": "Exposure to wheat gluten",
+      "head_type": "Exposure",
       "relation": "contributes_to",
       "tail": "Non-celiac food sensitivities",
       "tail_type": "Condition"
     },
     {
-      "head": "Bovine milk casein",
-      "head_type": "Substance",
+      "head": "Exposure to bovine milk casein",
+      "head_type": "Exposure",
       "relation": "contributes_to",
       "tail": "Non-celiac food sensitivities",
       "tail_type": "Condition"
@@ -66,11 +66,18 @@
       "tail_type": "Condition"
     },
     {
+      "head": "Co-morbid GI inflammation",
+      "head_type": "Condition",
+      "relation": "independent_from",
+      "tail": "Antipsychotic-generated motility effects",
+      "tail_type": "Side Effect"
+    },
+    {
       "head": "GI inflammation",
       "head_type": "Condition",
       "relation": "impacts",
       "tail": "Endothelial barrier permeability",
-      "tail_type": "Physiological Process"
+      "tail_type": "Biological Process"
     },
     {
       "head": "GI inflammation",
@@ -96,9 +103,9 @@
     {
       "head": "Innate immunity",
       "head_type": "Immune Response",
-      "relation": "includes",
-      "tail": "Activation of complement C1q",
-      "tail_type": "Biological Process"
+      "relation": "activates",
+      "tail": "Complement C1q",
+      "tail_type": "Protein"
     },
     {
       "head": "Complement C1q",
@@ -112,70 +119,56 @@
       "head_type": "Research Field",
       "relation": "contributes_to",
       "tail": "Digestion",
-      "tail_type": "Physiological Process"
+      "tail_type": "Biological Process"
     },
     {
       "head": "Microbiome research",
       "head_type": "Research Field",
       "relation": "contributes_to",
       "tail": "Inflammation",
-      "tail_type": "Condition"
+      "tail_type": "Biological Process"
     },
     {
       "head": "Microbiome research",
       "head_type": "Research Field",
       "relation": "contributes_to",
       "tail": "Gut permeability",
-      "tail_type": "Physiological Process"
+      "tail_type": "Biological Process"
     },
     {
       "head": "Microbiome research",
       "head_type": "Research Field",
       "relation": "contributes_to",
       "tail": "Behavior",
-      "tail_type": "Behavior"
+      "tail_type": "Behavioral Process"
     },
     {
       "head": "Dietary modifications",
       "head_type": "Intervention",
-      "relation": "modifies",
+      "relation": "modify",
       "tail": "Core bacterial compositions",
-      "tail_type": "Microbial Community"
+      "tail_type": "Microbiome"
     },
     {
-      "head": "Dietary modifications",
-      "head_type": "Intervention",
-      "relation": "explains",
-      "tail": "Inefficient gluten digestion",
-      "tail_type": "Physiological Process"
+      "head": "Inefficient gluten digestion",
+      "head_type": "Condition",
+      "relation": "explained_by",
+      "tail": "Dietary modifications",
+      "tail_type": "Intervention"
     },
     {
       "head": "Immigrant status",
       "head_type": "Demographic Factor",
-      "relation": "is_risk_factor_for",
+      "relation": "risk_factor_for",
       "tail": "Schizophrenia",
       "tail_type": "Condition"
     },
     {
-      "head": "Gut microbiome",
-      "head_type": "Microbial Community",
-      "relation": "associated_with",
-      "tail": "Schizophrenia",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "Gut microbiome",
-      "head_type": "Microbial Community",
-      "relation": "has",
-      "tail": "Altered phylogenetic compositions",
-      "tail_type": "Biological Characteristic"
-    },
-    {
-      "head": "Disrupted biological pathways",
-      "head_type": "Biological Process",
-      "relation": "related_to",
-      "tail": "Pathogenesis of complex, polygenic brain disorders",
-      "tail_type": "Disease Mechanism"
+      "head": "Gut microbiome research",
+      "head_type": "Research Field",
+      "relation": "suggests",
+      "tail": "Disease-associated altered phylogenetic compositions",
+      "tail_type": "Biological Process"
     }
   ]
 }

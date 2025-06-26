@@ -10,102 +10,95 @@
       "tail_type": "disease"
     },
     {
-      "head": "geographic location",
-      "head_type": "location",
-      "relation": "influences",
-      "tail": "gut microbiome",
-      "tail_type": "biological entity"
-    },
-    {
-      "head": "study",
-      "head_type": "research study",
-      "relation": "characterizes",
-      "tail": "gut microbiota",
-      "tail_type": "biological entity"
-    },
-    {
-      "head": "study",
-      "head_type": "research study",
-      "relation": "analyzes",
-      "tail": "host metabolic pathways",
-      "tail_type": "biological process"
-    },
-    {
-      "head": "Illumina sequencing",
-      "head_type": "methodology",
-      "relation": "used to",
-      "tail": "distinguish gut microbiota differences",
-      "tail_type": "biological analysis"
-    },
-    {
-      "head": "KEGG analysis",
-      "head_type": "methodology",
-      "relation": "predicts",
-      "tail": "functional changes",
-      "tail_type": "biological function"
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "characterized in",
+      "tail": "Australian cohort",
+      "tail_type": "study population"
     },
     {
       "head": "Parkinson's disease",
       "head_type": "disease",
-      "relation": "exhibits",
-      "tail": "reduced alpha diversity",
-      "tail_type": "biological characteristic"
+      "relation": "influenced by",
+      "tail": "geographic location",
+      "tail_type": "geographic factor"
     },
     {
-      "head": "PwP",
-      "head_type": "patient group",
-      "relation": "has",
-      "tail": "increased Synergistetes",
-      "tail_type": "biological entity"
+      "head": "Illumina sequencing",
+      "head_type": "method",
+      "relation": "used to",
+      "tail": "distinguish inter-cohort differences",
+      "tail_type": "result"
     },
     {
-      "head": "PwP",
-      "head_type": "patient group",
-      "relation": "has",
-      "tail": "increased Proteobacteria",
-      "tail_type": "biological entity"
+      "head": "KEGG analysis",
+      "head_type": "method",
+      "relation": "performed to",
+      "tail": "predict functional changes",
+      "tail_type": "result"
     },
     {
-      "head": "PwP",
-      "head_type": "patient group",
-      "relation": "has",
-      "tail": "decreased Colidextribacter",
-      "tail_type": "biological entity"
+      "head": "alpha diversity",
+      "head_type": "biological metric",
+      "relation": "reduced in",
+      "tail": "people with PD",
+      "tail_type": "patient group"
     },
     {
-      "head": "PwP",
-      "head_type": "patient group",
-      "relation": "has",
-      "tail": "decreased Intestinibacter",
-      "tail_type": "biological entity"
+      "head": "Synergistetes",
+      "head_type": "phylum",
+      "relation": "increased in",
+      "tail": "PwP",
+      "tail_type": "patient group"
     },
     {
-      "head": "PwP",
-      "head_type": "patient group",
-      "relation": "has",
-      "tail": "decreased Kineothrix",
-      "tail_type": "biological entity"
+      "head": "Proteobacteria",
+      "head_type": "phylum",
+      "relation": "increased in",
+      "tail": "PwP",
+      "tail_type": "patient group"
     },
     {
-      "head": "PwP",
-      "head_type": "patient group",
-      "relation": "has",
-      "tail": "decreased Agathobaculum",
-      "tail_type": "biological entity"
+      "head": "Colidextribacter",
+      "head_type": "genus",
+      "relation": "decreased in",
+      "tail": "PwP",
+      "tail_type": "patient group"
     },
     {
-      "head": "PwP",
-      "head_type": "patient group",
-      "relation": "has",
-      "tail": "decreased Roseburia",
-      "tail_type": "biological entity"
+      "head": "Intestinibacter",
+      "head_type": "genus",
+      "relation": "decreased in",
+      "tail": "PwP",
+      "tail_type": "patient group"
+    },
+    {
+      "head": "Kineothrix",
+      "head_type": "genus",
+      "relation": "decreased in",
+      "tail": "PwP",
+      "tail_type": "patient group"
+    },
+    {
+      "head": "Agathobaculum",
+      "head_type": "genus",
+      "relation": "decreased in",
+      "tail": "PwP",
+      "tail_type": "patient group"
+    },
+    {
+      "head": "Roseburia",
+      "head_type": "genus",
+      "relation": "decreased in",
+      "tail": "PwP",
+      "tail_type": "patient group"
     },
     {
       "head": "microbial composition",
       "head_type": "biological entity",
       "relation": "not associated with",
       "tail": "gender",
-      "tail_type": "demographic characteristic"
+      "tail_type": "demographic factor"
     },
     {
       "head": "microbial composition",
@@ -118,29 +111,22 @@
       "head": "microbial composition",
       "head_type": "biological entity",
       "relation": "not associated with",
-      "tail": "gastrointestinal medication use",
+      "tail": "use of gastrointestinal medication",
       "tail_type": "treatment"
     },
     {
       "head": "KEGG analysis",
-      "head_type": "methodology",
-      "relation": "identifies",
-      "tail": "upregulated metabolic pathways",
-      "tail_type": "biological process"
+      "head_type": "method",
+      "relation": "identified",
+      "tail": "15 upregulated metabolic pathways",
+      "tail_type": "result"
     },
     {
       "head": "KEGG analysis",
-      "head_type": "methodology",
-      "relation": "identifies",
-      "tail": "downregulated metabolic pathways",
-      "tail_type": "biological process"
-    },
-    {
-      "head": "study",
-      "head_type": "research study",
-      "relation": "provides evidence for",
-      "tail": "future therapeutic strategies",
-      "tail_type": "treatment"
+      "head_type": "method",
+      "relation": "identified",
+      "tail": "11 downregulated metabolic pathways",
+      "tail_type": "result"
     }
   ]
 }

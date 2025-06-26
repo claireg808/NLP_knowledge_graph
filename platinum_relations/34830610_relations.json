@@ -4,52 +4,38 @@
   "relations": [
     {
       "head": "gut microbiome",
-      "head_type": "Biological Process",
-      "relation": "plays role in",
+      "head_type": "biological entity",
+      "relation": "plays a role in",
       "tail": "development of diseases",
-      "tail_type": "Disease Process"
+      "tail_type": "process"
     },
     {
-      "head": "gut microbiome",
-      "head_type": "Biological Process",
-      "relation": "targeted by",
-      "tail": "therapeutic strategy",
-      "tail_type": "Therapeutic Method"
+      "head": "interventions targeting the gut microbiome",
+      "head_type": "therapeutic strategy",
+      "relation": "investigated for",
+      "tail": "treating diseases",
+      "tail_type": "process"
     },
     {
-      "head": "obesity",
-      "head_type": "Disease",
-      "relation": "is hallmark of",
-      "tail": "Prader-Willi syndrome",
-      "tail_type": "Disease"
+      "head": "Prader-Willi syndrome",
+      "head_type": "disease",
+      "relation": "characterized by",
+      "tail": "obesity and mental health symptoms",
+      "tail_type": "symptoms"
     },
     {
-      "head": "mental health symptoms",
-      "head_type": "Symptom",
-      "relation": "is hallmark of",
-      "tail": "Prader-Willi syndrome",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "gut microbiome",
-      "head_type": "Biological Process",
-      "relation": "targeted by",
-      "tail": "probiotic supplementation",
-      "tail_type": "Therapeutic Method"
+      "head": "targeting the gut microbiome",
+      "head_type": "therapeutic strategy",
+      "relation": "promising for",
+      "tail": "treating Prader-Willi syndrome",
+      "tail_type": "disease"
     },
     {
       "head": "probiotic supplementation",
-      "head_type": "Therapeutic Method",
+      "head_type": "therapeutic intervention",
       "relation": "improves",
-      "tail": "metabolic aspects",
-      "tail_type": "Physiological Process"
-    },
-    {
-      "head": "probiotic supplementation",
-      "head_type": "Therapeutic Method",
-      "relation": "improves",
-      "tail": "mental health aspects",
-      "tail_type": "Mental Health"
+      "tail": "metabolic and mental health aspects",
+      "tail_type": "health outcomes"
     }
   ]
 }

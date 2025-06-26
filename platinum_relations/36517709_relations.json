@@ -1,167 +1,146 @@
 {
-  "title": "Porphyra haitanensis Polysaccharides Attenuates Blood Lipid via Gut-Liver Axis in Diet-Induced High-Fat Mesocricetus auratus through Multiple Integrated Omics",
-  "abstract": "Hyperlipidemia is currently a global public health problem severely affecting people's physical and mental health, as well as their quality of life. The present study is aimed at revealing the mechanism of Porphyra haitanensis polysaccharide (PHP) in decreasing blood lipids by acting through gut-liver axis in Mesocricetus auratus fed a high-fat diet. PHP significantly prevented increases in serum total cholesterol, triglycerides and low-density lipoprotein cholesterol, and alleviated damage to liver cells induced by a high-fat diet M. auratus, in a dose-dependent manner. PHP promotes proliferation of Muribaculaceae and Faecalibaculum, thereby enhancing the production of butyric acid both in the colon and liver, particularly high-dose PHP (HPHP). Low-dose PHP (LPHP) promotes the expression of phosphatidylcholine metabolites and fatty acid transport genes, and inhibits the expression of genes involved in fat degradation (Abhd5), adipogenesis (Me1), fatty acid synthesis (Fasn and Pnpla3), and fatty acid chain elongation (Elovl6) in the liver. However, HPHP inhibits the expression of triglyceride metabolites and promotes the expression of fatty acid transporter (CD36), fatty acid oxidation (Acacb), and peroxisome proliferator-activated receptor gamma (PPARg) genes in the liver. PHP regulates lipid metabolism through the gut microbiota, and the gut-liver axis plays an important role in its hypolipidemic effects.",
+  "title": "Porphyra haitanensis Polysaccharides Attenuates Blood Lipid via Gut-Liver Axis in Diet-Induced High-Fat Mesocricetus auratus through Multiple Integrated Omics.",
+  "abstract": "Hyperlipidemia is currently a global public health problem severely affecting people's physical and mental health, as well as their quality of life. The present study is aimed at revealing the mechanism of Porphyra haitanensis polysaccharide (PHP) in decreasing blood lipids by acting through gut-liver axis in Mesocricetus auratus fed a high-fat diet. PHP significantly prevented increases in serum total cholesterol, triglycerides and low-density lipoprotein cholesterol, and alleviated damage to liver cells induced by a high-fat diet M. auratus, in a dose-dependent manner. PHP promotes proliferation of Muribaculaceae and Faecalibaculum, thereby enhancing the production of butyric acid both in the colon and liver, particularly high-dose PHP (HPHP). Low-dose PHP (LPHP) promotes the expression of phosphatidylcholine metabolites and fatty acid transport genes, and inhibits the expression of genes involved in fat degradation (Abhd5), adipogenesis (Me1), fatty acid synthesis (Fasn and Pnpla3), and fatty acid chain elongation (Elovl6) in the liver. However, HPHP inhibits the expression of triglyceride metabolites and promotes the expression of fatty acid transporter (CD36), fatty acid oxidation (Acacb), and peroxisome proliferator-activated receptor gamma (PPARg)\u00a0genes in the liver. PHP regulates lipid metabolism through the gut microbiota, and the gut-liver axis plays an important role in its hypolipidemic effects.",
   "relations": [
     {
       "head": "Porphyra haitanensis polysaccharide",
       "head_type": "Substance",
       "relation": "attenuates",
       "tail": "blood lipid",
-      "tail_type": "PhysiologicalParameter"
+      "tail_type": "Physiological Parameter"
     },
     {
       "head": "gut-liver axis",
-      "head_type": "PhysiologicalProcess",
-      "relation": "mediates",
-      "tail": "hypolipidemic effect",
-      "tail_type": "PhysiologicalEffect"
+      "head_type": "Anatomical Structure",
+      "relation": "plays a role in",
+      "tail": "hypolipidemic effects",
+      "tail_type": "Physiological Effect"
     },
     {
-      "head": "Porphyra haitanensis polysaccharide",
+      "head": "PHP",
       "head_type": "Substance",
       "relation": "prevents increase in",
       "tail": "serum total cholesterol",
-      "tail_type": "PhysiologicalParameter"
+      "tail_type": "Biochemical Parameter"
     },
     {
-      "head": "Porphyra haitanensis polysaccharide",
+      "head": "PHP",
       "head_type": "Substance",
       "relation": "prevents increase in",
       "tail": "triglycerides",
-      "tail_type": "PhysiologicalParameter"
+      "tail_type": "Biochemical Parameter"
     },
     {
-      "head": "Porphyra haitanensis polysaccharide",
+      "head": "PHP",
       "head_type": "Substance",
       "relation": "prevents increase in",
       "tail": "low-density lipoprotein cholesterol",
-      "tail_type": "PhysiologicalParameter"
+      "tail_type": "Biochemical Parameter"
     },
     {
-      "head": "Porphyra haitanensis polysaccharide",
+      "head": "PHP",
       "head_type": "Substance",
-      "relation": "alleviates",
-      "tail": "liver cell damage",
-      "tail_type": "PhysiologicalCondition"
+      "relation": "alleviates damage to",
+      "tail": "liver cells",
+      "tail_type": "Cellular Structure"
     },
     {
-      "head": "Porphyra haitanensis polysaccharide",
+      "head": "PHP",
       "head_type": "Substance",
       "relation": "promotes proliferation of",
       "tail": "Muribaculaceae",
-      "tail_type": "MicrobialTaxon"
+      "tail_type": "Microbial Taxon"
     },
     {
-      "head": "Porphyra haitanensis polysaccharide",
+      "head": "PHP",
       "head_type": "Substance",
       "relation": "promotes proliferation of",
       "tail": "Faecalibaculum",
-      "tail_type": "MicrobialTaxon"
+      "tail_type": "Microbial Taxon"
     },
     {
-      "head": "Muribaculaceae",
-      "head_type": "MicrobialTaxon",
+      "head": "PHP",
+      "head_type": "Substance",
       "relation": "enhances production of",
       "tail": "butyric acid",
-      "tail_type": "BiochemicalSubstance"
+      "tail_type": "Biochemical Compound"
     },
     {
-      "head": "Faecalibaculum",
-      "head_type": "MicrobialTaxon",
-      "relation": "enhances production of",
-      "tail": "butyric acid",
-      "tail_type": "BiochemicalSubstance"
+      "head": "HPHP",
+      "head_type": "Substance",
+      "relation": "inhibits expression of",
+      "tail": "triglyceride metabolites",
+      "tail_type": "Biochemical Compound"
     },
     {
-      "head": "low-dose PHP",
+      "head": "HPHP",
+      "head_type": "Substance",
+      "relation": "promotes expression of",
+      "tail": "fatty acid transporter (CD36)",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "HPHP",
+      "head_type": "Substance",
+      "relation": "promotes expression of",
+      "tail": "fatty acid oxidation (Acacb)",
+      "tail_type": "Enzyme"
+    },
+    {
+      "head": "HPHP",
+      "head_type": "Substance",
+      "relation": "promotes expression of",
+      "tail": "peroxisome proliferator-activated receptor gamma (PPARg)",
+      "tail_type": "Transcription Factor"
+    },
+    {
+      "head": "LPHP",
       "head_type": "Substance",
       "relation": "promotes expression of",
       "tail": "phosphatidylcholine metabolites",
-      "tail_type": "BiochemicalSubstance"
+      "tail_type": "Biochemical Compound"
     },
     {
-      "head": "low-dose PHP",
+      "head": "LPHP",
       "head_type": "Substance",
       "relation": "promotes expression of",
       "tail": "fatty acid transport genes",
-      "tail_type": "GeneticEntity"
+      "tail_type": "Gene"
     },
     {
-      "head": "low-dose PHP",
+      "head": "LPHP",
       "head_type": "Substance",
       "relation": "inhibits expression of",
       "tail": "Abhd5",
       "tail_type": "Gene"
     },
     {
-      "head": "low-dose PHP",
+      "head": "LPHP",
       "head_type": "Substance",
       "relation": "inhibits expression of",
       "tail": "Me1",
       "tail_type": "Gene"
     },
     {
-      "head": "low-dose PHP",
+      "head": "LPHP",
       "head_type": "Substance",
       "relation": "inhibits expression of",
       "tail": "Fasn",
       "tail_type": "Gene"
     },
     {
-      "head": "low-dose PHP",
+      "head": "LPHP",
       "head_type": "Substance",
       "relation": "inhibits expression of",
       "tail": "Pnpla3",
       "tail_type": "Gene"
     },
     {
-      "head": "low-dose PHP",
+      "head": "LPHP",
       "head_type": "Substance",
       "relation": "inhibits expression of",
       "tail": "Elovl6",
       "tail_type": "Gene"
-    },
-    {
-      "head": "high-dose PHP",
-      "head_type": "Substance",
-      "relation": "inhibits expression of",
-      "tail": "triglyceride metabolites",
-      "tail_type": "BiochemicalSubstance"
-    },
-    {
-      "head": "high-dose PHP",
-      "head_type": "Substance",
-      "relation": "promotes expression of",
-      "tail": "fatty acid transporter CD36",
-      "tail_type": "GeneticEntity"
-    },
-    {
-      "head": "high-dose PHP",
-      "head_type": "Substance",
-      "relation": "promotes expression of",
-      "tail": "fatty acid oxidation Acacb",
-      "tail_type": "GeneticEntity"
-    },
-    {
-      "head": "high-dose PHP",
-      "head_type": "Substance",
-      "relation": "promotes expression of",
-      "tail": "PPARg",
-      "tail_type": "Gene"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "MicrobialCommunity",
-      "relation": "regulates",
-      "tail": "lipid metabolism",
-      "tail_type": "PhysiologicalProcess"
-    },
-    {
-      "head": "gut-liver axis",
-      "head_type": "PhysiologicalProcess",
-      "relation": "plays role in",
-      "tail": "hypolipidemic effect",
-      "tail_type": "PhysiologicalEffect"
     }
   ]
 }

@@ -53,7 +53,7 @@ llm = ChatOpenAI(
     api_key="dummy-key",
     model="deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
     temperature=0.6,
-    max_tokens=2048,
+    max_tokens=4500,
     timeout=120
 )
 

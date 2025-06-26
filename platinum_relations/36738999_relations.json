@@ -6,61 +6,54 @@
       "head": "High-cholesterol diet",
       "head_type": "Diet",
       "relation": "promotes",
-      "tail": "depression- and anxiety-like behaviors",
-      "tail_type": "Behavior"
+      "tail": "Depression",
+      "tail_type": "Mental Disorder"
+    },
+    {
+      "head": "High-cholesterol diet",
+      "head_type": "Diet",
+      "relation": "promotes",
+      "tail": "Anxiety",
+      "tail_type": "Mental Disorder"
     },
     {
       "head": "High-cholesterol diet",
       "head_type": "Diet",
       "relation": "impacts",
-      "tail": "gut microbe",
-      "tail_type": "Microbial Community"
+      "tail": "Gut Microbe",
+      "tail_type": "Microbial Entity"
     },
     {
       "head": "High-cholesterol diet",
       "head_type": "Diet",
       "relation": "induces",
-      "tail": "neuroinflammation",
-      "tail_type": "Neurobiological Process"
+      "tail": "Neuroinflammation",
+      "tail_type": "Biological Process"
     },
     {
-      "head": "gut microbe",
-      "head_type": "Microbial Community",
-      "relation": "influences",
-      "tail": "neuroinflammation",
-      "tail_type": "Neurobiological Process"
-    },
-    {
-      "head": "neuroinflammation",
-      "head_type": "Neurobiological Process",
-      "relation": "contributes to",
-      "tail": "depression- and anxiety-like behaviors",
-      "tail_type": "Behavior"
-    },
-    {
-      "head": "High-cholesterol diet",
-      "head_type": "Diet",
-      "relation": "decreases",
-      "tail": "intestinal flora diversity",
-      "tail_type": "Microbial Diversity"
+      "head": "Gut Microbe",
+      "head_type": "Microbial Entity",
+      "relation": "associated with",
+      "tail": "Neuroinflammation",
+      "tail_type": "Biological Process"
     },
     {
       "head": "Akkermansia_muciniphila",
-      "head_type": "Bacterial Species",
+      "head_type": "Microbial Species",
       "relation": "negatively correlated with",
       "tail": "MCP-1",
       "tail_type": "Inflammatory Marker"
     },
     {
       "head": "Akkermansia_muciniphila",
-      "head_type": "Bacterial Species",
+      "head_type": "Microbial Species",
       "relation": "negatively correlated with",
       "tail": "IL-17A",
       "tail_type": "Inflammatory Marker"
     },
     {
       "head": "Akkermansia_muciniphila",
-      "head_type": "Bacterial Species",
+      "head_type": "Microbial Species",
       "relation": "negatively correlated with",
       "tail": "5-HT",
       "tail_type": "Neurotransmitter"
@@ -68,72 +61,44 @@
     {
       "head": "5-HT",
       "head_type": "Neurotransmitter",
-      "relation": "increases in",
-      "tail": "hippocampus",
+      "relation": "increased concentration in",
+      "tail": "Hippocampus",
       "tail_type": "Brain Region"
     },
     {
-      "head": "5-HT receptor HTR2A",
+      "head": "HTR2A",
       "head_type": "Receptor",
       "relation": "expressed in",
-      "tail": "brain tissue",
+      "tail": "Brain Tissue",
       "tail_type": "Anatomical Structure"
     },
     {
       "head": "High-cholesterol diet",
       "head_type": "Diet",
-      "relation": "increases",
-      "tail": "body weight",
-      "tail_type": "Physiological Measurement"
+      "relation": "leads to",
+      "tail": "Increased Body Weight",
+      "tail_type": "Physiological Change"
     },
     {
       "head": "High-cholesterol diet",
       "head_type": "Diet",
-      "relation": "increases",
-      "tail": "liver fat",
-      "tail_type": "Physiological Measurement"
+      "relation": "leads to",
+      "tail": "Liver Fat",
+      "tail_type": "Physiological Change"
     },
     {
       "head": "High-cholesterol diet",
       "head_type": "Diet",
-      "relation": "increases",
-      "tail": "LDL-C",
-      "tail_type": "Cholesterol Marker"
+      "relation": "leads to",
+      "tail": "Peripheral Inflammation",
+      "tail_type": "Biological Process"
     },
     {
       "head": "High-cholesterol diet",
       "head_type": "Diet",
-      "relation": "increases",
-      "tail": "TC",
-      "tail_type": "Cholesterol Marker"
-    },
-    {
-      "head": "High-cholesterol diet",
-      "head_type": "Diet",
-      "relation": "increases",
-      "tail": "TG",
-      "tail_type": "Lipid Marker"
-    },
-    {
-      "head": "High-cholesterol diet",
-      "head_type": "Diet",
-      "relation": "increases",
-      "tail": "IL-1\u03b2",
-      "tail_type": "Inflammatory Marker"
-    },
-    {
-      "head": "High-cholesterol diet",
-      "head_type": "Diet",
-      "relation": "increases",
-      "tail": "MCP-1",
-      "tail_type": "Inflammatory Marker"
-    },
-    {
-      "head": "High-cholesterol diet",
-      "head_type": "Diet",
-      "relation": "increases",
-      "tail": "IL-17A",
-      "tail_type": "Inflammatory Marker"
+      "relation": "leads to",
+      "tail": "Neuroinflammation",
+      "tail_type": "Biological Process"
     }
   ]
 }

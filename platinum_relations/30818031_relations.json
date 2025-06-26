@@ -4,98 +4,24 @@
   "relations": [
     {
       "head": "Fear of cancer recurrence",
-      "head_type": "Psychological Disorder",
+      "head_type": "Psychological condition",
       "relation": "associated with",
       "tail": "Gut microbiota",
-      "tail_type": "Biological Entity"
+      "tail_type": "Biological entity"
     },
     {
       "head": "Chemotherapy",
-      "head_type": "Medical Treatment",
-      "relation": "affects",
+      "head_type": "Medical treatment",
+      "relation": "induces changes in",
       "tail": "Gut microbiota",
-      "tail_type": "Biological Entity"
+      "tail_type": "Biological entity"
     },
     {
       "head": "Gut microbiota",
-      "tail_type": "Biological Entity"
-    },
-    {
-      "head": "Microbiota-gut-brain axis",
-      "head_type": "Physiological System",
-      "relation": "affects",
-      "tail": "Depressive disorders",
-      "tail_type": "Psychological Disorder"
-    },
-    {
-      "head": "Microbiota-gut-brain axis",
-      "head_type": "Physiological System",
-      "relation": "affects",
-      "tail": "Anxiety disorders",
-      "tail_type": "Psychological Disorder"
-    },
-    {
-      "head": "Chemotherapy",
-      "head_type": "Medical Treatment",
-      "relation": "associated with",
-      "tail": "Psychological distress",
-      "tail_type": "Psychological State"
-    },
-    {
-      "head": "Fear of cancer recurrence",
-      "head_type": "Psychological Disorder",
-      "relation": "assessed using",
-      "tail": "Concerns About Recurrence Scale (CARS)",
-      "tail_type": "Assessment Tool"
-    },
-    {
-      "head": "Bacteroides genus",
-      "head_type": "Microbial Taxon",
-      "relation": "associated with",
+      "head_type": "Biological entity",
+      "relation": "influences",
       "tail": "Fear of cancer recurrence",
-      "tail_type": "Psychological Disorder"
-    },
-    {
-      "head": "Chemotherapy",
-      "head_type": "Medical Treatment",
-      "relation": "associated with",
-      "tail": "Lower microbial diversity",
-      "tail_type": "Biological State"
-    },
-    {
-      "head": "Chemotherapy",
-      "head_type": "Medical Treatment",
-      "relation": "associated with",
-      "tail": "Lower relative abundance of Firmicutes",
-      "tail_type": "Biological State"
-    },
-    {
-      "head": "Chemotherapy",
-      "head_type": "Medical Treatment",
-      "relation": "associated with",
-      "tail": "Higher relative abundance of Bacteroidetes",
-      "tail_type": "Biological State"
-    },
-    {
-      "head": "Chemotherapy",
-      "head_type": "Medical Treatment",
-      "relation": "associated with",
-      "tail": "Higher relative abundance of Bacteroides",
-      "tail_type": "Biological State"
-    },
-    {
-      "head": "Chemotherapy",
-      "head_type": "Medical Treatment",
-      "relation": "associated with",
-      "tail": "Lower relative abundance of Lachnospiraceae.g",
-      "tail_type": "Biological State"
-    },
-    {
-      "head": "Chemotherapy",
-      "head_type": "Medical Treatment",
-      "relation": "associated with",
-      "tail": "Lower relative abundance of Ruminococcus",
-      "tail_type": "Biological State"
+      "tail_type": "Psychological condition"
     }
   ]
 }

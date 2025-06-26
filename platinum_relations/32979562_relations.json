@@ -1,0 +1,160 @@
+{
+  "title": "Shotgun metagenomics reveals both taxonomic and tryptophan pathway differences of gut microbiota in bipolar disorder with current major depressive episode patients.",
+  "abstract": "The microbiome-gut-brain axis, especially the microbial tryptophan biosynthesis and metabolism pathway (MiTBamp), is closely connected to bipolar disorder with current major depressive episode (BPD). We performed shotgun metagenomics sequencing (SMS) of faecal samples from 25 BPD patients and 28 healthy controls (HCs). Except for the microbiota taxa and MiTBamp analyses, we also built a classification model using the Random Forests (RF) and Boruta algorithm to find the microbial biomarkers for BPD. Compared to HCs, the phylum Bacteroidetes abundance was significantly reduced, whereas that of the Actinobacteria and Firmicutes were significantly increased in BPD patients. We also identified 38 species increased and 6 species decreased significantly in the BPD group. In the MiTBamp, we identified that two Kyoto Encyclopedia of Genes and Genomes (KEGG) orthologies (KOs) (K00658 and K00837) were significantly lower in the BPD, and five KOs (K01696, K00382, K00626, K01667, and K03781) were significantly higher in the BPD group. We also identified significant genera and species which were closely related to these KOs. Finally, RF classification based on gut microbiota at the genus level can achieve an area under the receiver operating characteristic curve of 0.997. The features of cross-sectional design, limited sample size, the heterogeneity of bipolar disorders, and a lack of serum/plasma tryptophan concentration measurements. The present findings enable a better understanding of changes in gastrointestinal microbiome and MiTBamp in BPD. Alterations of microbes may have potential as biomarkers for distinguishing the BPD patients form HCs.",
+  "relations": [
+    {
+      "head": "Shotgun metagenomics",
+      "head_type": "Technique",
+      "relation": "reveals",
+      "tail": "gut microbiota differences",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "Microbiome-gut-brain axis",
+      "head_type": "Biological System",
+      "relation": "is connected to",
+      "tail": "bipolar disorder",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Microbial tryptophan biosynthesis and metabolism pathway",
+      "head_type": "Biological Pathway",
+      "relation": "is part of",
+      "tail": "Microbiome-gut-brain axis",
+      "tail_type": "Biological System"
+    },
+    {
+      "head": "Bipolar disorder",
+      "head_type": "Disease",
+      "relation": "has",
+      "tail": "current major depressive episode",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Shotgun metagenomics sequencing",
+      "head_type": "Technique",
+      "relation": "analyzes",
+      "tail": "faecal samples",
+      "tail_type": "Sample"
+    },
+    {
+      "head": "BPD patients",
+      "head_type": "Patient Group",
+      "relation": "have",
+      "tail": "gut microbiota alterations",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "Phylum Bacteroidetes",
+      "head_type": "Taxonomic Group",
+      "relation": "has reduced abundance",
+      "tail": "in BPD patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "Phylum Actinobacteria",
+      "head_type": "Taxonomic Group",
+      "relation": "has increased abundance",
+      "tail": "in BPD patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "Phylum Firmicutes",
+      "head_type": "Taxonomic Group",
+      "relation": "has increased abundance",
+      "tail": "in BPD patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "KEGG orthology K00658",
+      "head_type": "Genomic Entity",
+      "relation": "is lower",
+      "tail": "in BPD patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "KEGG orthology K00837",
+      "head_type": "Genomic Entity",
+      "relation": "is lower",
+      "tail": "in BPD patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "KEGG orthology K01696",
+      "head_type": "Genomic Entity",
+      "relation": "is higher",
+      "tail": "in BPD patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "KEGG orthology K00382",
+      "head_type": "Genomic Entity",
+      "relation": "is higher",
+      "tail": "in BPD patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "KEGG orthology K00626",
+      "head_type": "Genomic Entity",
+      "relation": "is higher",
+      "tail": "in BPD patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "KEGG orthology K01667",
+      "head_type": "Genomic Entity",
+      "relation": "is higher",
+      "tail": "in BPD patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "KEGG orthology K03781",
+      "head_type": "Genomic Entity",
+      "relation": "is higher",
+      "tail": "in BPD patients",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "Random Forests algorithm",
+      "head_type": "Machine Learning Algorithm",
+      "relation": "used for",
+      "tail": "classification model",
+      "tail_type": "Methodology"
+    },
+    {
+      "head": "Boruta algorithm",
+      "head_type": "Feature Selection Algorithm",
+      "relation": "used for",
+      "tail": "finding microbial biomarkers",
+      "tail_type": "Methodology"
+    },
+    {
+      "head": "Gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "classified at",
+      "tail": "genus level",
+      "tail_type": "Taxonomic Level"
+    },
+    {
+      "head": "RF classification",
+      "head_type": "Machine Learning Model",
+      "relation": "achieves",
+      "tail": "high area under the ROC curve",
+      "tail_type": "Performance Metric"
+    },
+    {
+      "head": "Alterations of microbes",
+      "head_type": "Biological Change",
+      "relation": "have potential as",
+      "tail": "biomarkers",
+      "tail_type": "Diagnostic Tool"
+    },
+    {
+      "head": "BPD patients",
+      "head_type": "Patient Group",
+      "relation": "distinguished from",
+      "tail": "healthy controls",
+      "tail_type": "Control Group"
+    }
+  ]
+}

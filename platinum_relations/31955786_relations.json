@@ -4,143 +4,59 @@
   "relations": [
     {
       "head": "Neuroactive compounds",
-      "head_type": "Chemical",
-      "relation": "synthesized by",
-      "tail": "plants",
+      "head_type": "Biological Compound",
+      "relation": "Synthesized by",
+      "tail": "Plants",
       "tail_type": "Organism"
     },
     {
       "head": "Neuroactive compounds",
-      "head_type": "Chemical",
-      "relation": "synthesized by",
-      "tail": "microorganisms",
+      "head_type": "Biological Compound",
+      "relation": "Synthesized by",
+      "tail": "Microorganisms",
       "tail_type": "Organism"
     },
     {
-      "head": "gamma-aminobutyric acid (GABA)",
-      "head_type": "Chemical",
-      "relation": "is a type of",
-      "tail": "neuroactive compound",
-      "tail_type": "Chemical"
-    },
-    {
-      "head": "serotonin",
-      "head_type": "Chemical",
-      "relation": "is a type of",
-      "tail": "neuroactive compound",
-      "tail_type": "Chemical"
-    },
-    {
-      "head": "melatonin",
-      "head_type": "Chemical",
-      "relation": "is a type of",
-      "tail": "neuroactive compound",
-      "tail_type": "Chemical"
-    },
-    {
-      "head": "kynurenine",
-      "head_type": "Chemical",
-      "relation": "is a type of",
-      "tail": "neuroactive compound",
-      "tail_type": "Chemical"
-    },
-    {
-      "head": "kynurenic acid",
-      "head_type": "Chemical",
-      "relation": "is a type of",
-      "tail": "neuroactive compound",
-      "tail_type": "Chemical"
-    },
-    {
-      "head": "dopamine",
-      "head_type": "Chemical",
-      "relation": "is a type of",
-      "tail": "neuroactive compound",
-      "tail_type": "Chemical"
-    },
-    {
-      "head": "norepinephrine",
-      "head_type": "Chemical",
-      "relation": "is a type of",
-      "tail": "neuroactive compound",
-      "tail_type": "Chemical"
-    },
-    {
-      "head": "histamine",
-      "head_type": "Chemical",
-      "relation": "is a type of",
-      "tail": "neuroactive compound",
-      "tail_type": "Chemical"
-    },
-    {
-      "head": "tryptamine",
-      "head_type": "Chemical",
-      "relation": "is a type of",
-      "tail": "neuroactive compound",
-      "tail_type": "Chemical"
-    },
-    {
-      "head": "tyramine",
-      "head_type": "Chemical",
-      "relation": "is a type of",
-      "tail": "neuroactive compound",
-      "tail_type": "Chemical"
-    },
-    {
-      "head": "\u03b2-phenylethylamine",
-      "head_type": "Chemical",
-      "relation": "is a type of",
-      "tail": "neuroactive compound",
-      "tail_type": "Chemical"
-    },
-    {
-      "head": "fermented foods",
+      "head": "Fermented foods",
       "head_type": "Food",
-      "relation": "contain",
-      "tail": "neuroactive compounds",
-      "tail_type": "Chemical"
+      "relation": "Contain",
+      "tail": "Neuroactive compounds",
+      "tail_type": "Biological Compound"
     },
     {
-      "head": "food processing",
+      "head": "Food processing",
       "head_type": "Process",
-      "relation": "affects",
-      "tail": "amount of neuroactive compounds",
-      "tail_type": "Chemical"
+      "relation": "Alter",
+      "tail": "Neuroactive compounds",
+      "tail_type": "Biological Compound"
     },
     {
-      "head": "food processing",
-      "head_type": "Process",
-      "relation": "affects",
-      "tail": "profile of neuroactive compounds",
-      "tail_type": "Chemical"
+      "head": "Gut microbiota",
+      "head_type": "Organism",
+      "relation": "Form",
+      "tail": "Neuroactive compounds",
+      "tail_type": "Biological Compound"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "Microorganism",
-      "relation": "forms",
-      "tail": "neuroactive compounds",
-      "tail_type": "Chemical"
+      "head": "Microbiota-gut-brain axis",
+      "head_type": "Biological System",
+      "relation": "Investigate effects of",
+      "tail": "Diet",
+      "tail_type": "Dietary Intake"
     },
     {
-      "head": "microbiota-gut-brain axis",
-      "head_type": "Biological Process",
-      "relation": "investigates",
-      "tail": "effects of diet",
-      "tail_type": "Diet"
+      "head": "Probiotics",
+      "head_type": "Biological Agent",
+      "relation": "Contribute to understanding",
+      "tail": "Food-mood relationship",
+      "tail_type": "Concept"
     },
     {
-      "head": "probiotics",
-      "head_type": "Food",
-      "relation": "affects",
-      "tail": "food-mood relationship",
-      "tail_type": "Relationship"
-    },
-    {
-      "head": "prebiotics",
-      "head_type": "Food",
-      "relation": "affects",
-      "tail": "food-mood relationship",
-      "tail_type": "Relationship"
+      "head": "Prebiotics",
+      "head_type": "Biological Agent",
+      "relation": "Contribute to understanding",
+      "tail": "Food-mood relationship",
+      "tail_type": "Concept"
     }
   ]
 }

@@ -1,139 +1,125 @@
 {
-  "title": "Letter to the Editor: The Surge of Type 2 Diabetes Mellitus in China - an International Alert: Physical Exercise and Low-Caloric Diet May Reduce the Risks of Type 2 Diabetes Mellitus and Dementia.",
+  "title": "Letter to the Editor: The Surge of Type 2 Diabetes Mellitus in China - an International Alert: Physical Exercise and Low-Caloric Diet May Reduce the Risks of Type 2 Diabetes Mellitus and Dementia",
   "abstract": "The prevalence of diabetes in China has surged from 0.67% before 1980 to 11.6% currently. It is even higher than the prevalence in the United States. Certainly, China's economic open-ups, improving living standard, and modernization have propagated the surge. From a traditional public-health point of view, increased food intake and decreased exercise were the main contributors. A new knowledge of colon microbiota could be applied to provide a second harvest of food energy; for example, large molecules of carbohydrates, which are undigested by the stomach and small intestine, produce by-products that the body can absorb in the colon. Colon microbiota can ferment these carbohydrates to the short-chain fatty acid butyrate. This is an energy source that may even cause nonalcoholic fatty liver. How these colon microbiota contribute to the surge of diabetes and whether this new knowledge can be used to control diabetes and metabolic syndrome are questions for future scientific studies. Clinically, however, colon microbiota have had immediate applications; fecal microbiota have been transplanted from healthy persons to treat recurrent Clostridium difficile infection at Mayo Clinic. In addition, a stool biobank of healthy persons was established at Mayo Clinic for future clinical applications.",
   "relations": [
     {
       "head": "China",
       "head_type": "Country",
-      "relation": "hasPrevalenceOf",
+      "relation": "has_prevalence_of",
       "tail": "Type 2 Diabetes Mellitus",
       "tail_type": "Disease"
     },
     {
       "head": "China",
       "head_type": "Country",
-      "relation": "hasPrevalenceOf",
+      "relation": "has_prevalence_of",
       "tail": "Diabetes",
       "tail_type": "Disease"
     },
     {
       "head": "China",
       "head_type": "Country",
-      "relation": "hasPrevalenceOf",
-      "tail": "Type 2 Diabetes Mellitus",
-      "tail_type": "Disease"
+      "relation": "has_higher_prevalence_than",
+      "tail": "United States",
+      "tail_type": "Country"
     },
     {
-      "head": "China",
-      "head_type": "Country",
-      "relation": "hasPrevalenceOf",
-      "tail": "Diabetes",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "China",
-      "head_type": "Country",
-      "relation": "hasEconomicOpenUps",
-      "tail": "Economic Open-ups",
-      "tail_type": "Event"
-    },
-    {
-      "head": "China",
-      "head_type": "Country",
-      "relation": "hasImprovingLivingStandard",
-      "tail": "Improving Living Standard",
-      "tail_type": "Social Indicator"
-    },
-    {
-      "head": "China",
-      "head_type": "Country",
-      "relation": "hasModernization",
-      "tail": "Modernization",
-      "tail_type": "Process"
-    },
-    {
-      "head": "Economic Open-ups",
-      "head_type": "Event",
-      "relation": "contributeTo",
+      "head": "China's economic open-ups",
+      "head_type": "Economic Policy",
+      "relation": "contributes_to",
       "tail": "Surge in Diabetes",
-      "tail_type": "Event"
+      "tail_type": "Phenomenon"
     },
     {
-      "head": "Improving Living Standard",
-      "head_type": "Social Indicator",
-      "relation": "contributeTo",
+      "head": "Improving living standard",
+      "head_type": "Socioeconomic Factor",
+      "relation": "contributes_to",
       "tail": "Surge in Diabetes",
-      "tail_type": "Event"
+      "tail_type": "Phenomenon"
     },
     {
       "head": "Modernization",
-      "head_type": "Process",
-      "relation": "contributeTo",
+      "head_type": "Socioeconomic Factor",
+      "relation": "contributes_to",
       "tail": "Surge in Diabetes",
-      "tail_type": "Event"
+      "tail_type": "Phenomenon"
     },
     {
-      "head": "Increased Food Intake",
+      "head": "Increased food intake",
       "head_type": "Behavior",
-      "relation": "contributeTo",
+      "relation": "contributes_to",
       "tail": "Surge in Diabetes",
-      "tail_type": "Event"
+      "tail_type": "Phenomenon"
     },
     {
-      "head": "Decreased Exercise",
+      "head": "Decreased exercise",
       "head_type": "Behavior",
-      "relation": "contributeTo",
+      "relation": "contributes_to",
       "tail": "Surge in Diabetes",
-      "tail_type": "Event"
+      "tail_type": "Phenomenon"
     },
     {
-      "head": "Colon Microbiota",
-      "head_type": "Organism",
-      "relation": "ferment",
+      "head": "Colon microbiota",
+      "head_type": "Microbial Entity",
+      "relation": "ferments",
       "tail": "Carbohydrates",
+      "tail_type": "Nutrient"
+    },
+    {
+      "head": "Colon microbiota",
+      "head_type": "Microbial Entity",
+      "relation": "produces",
+      "tail": "Butyrate",
       "tail_type": "Chemical Compound"
     },
     {
-      "head": "Colon Microbiota",
-      "head_type": "Organism",
-      "relation": "produce",
-      "tail": "Short-Chain Fatty Acid Butyrate",
-      "tail_type": "Chemical Compound"
-    },
-    {
-      "head": "Short-Chain Fatty Acid Butyrate",
+      "head": "Butyrate",
       "head_type": "Chemical Compound",
-      "relation": "cause",
+      "relation": "is_energy_source_for",
       "tail": "Nonalcoholic Fatty Liver",
       "tail_type": "Disease"
     },
     {
-      "head": "Colon Microbiota",
-      "head_type": "Organism",
-      "relation": "treat",
-      "tail": "Recurrent Clostridium Difficile Infection",
+      "head": "Colon microbiota",
+      "head_type": "Microbial Entity",
+      "relation": "contributes_to",
+      "tail": "Diabetes",
       "tail_type": "Disease"
     },
     {
-      "head": "Fecal Microbiota Transplant",
-      "head_type": "Medical Procedure",
-      "relation": "treat",
-      "tail": "Recurrent Clostridium Difficile Infection",
+      "head": "Colon microbiota",
+      "head_type": "Microbial Entity",
+      "relation": "contributes_to",
+      "tail": "Metabolic Syndrome",
       "tail_type": "Disease"
+    },
+    {
+      "head": "Fecal microbiota transplantation",
+      "head_type": "Medical Procedure",
+      "relation": "treats",
+      "tail": "Recurrent Clostridium difficile infection",
+      "tail_type": "Infection"
     },
     {
       "head": "Mayo Clinic",
-      "head_type": "Institution",
-      "relation": "conduct",
-      "tail": "Fecal Microbiota Transplant",
+      "head_type": "Medical Institution",
+      "relation": "conducts",
+      "tail": "Fecal microbiota transplantation",
       "tail_type": "Medical Procedure"
     },
     {
       "head": "Mayo Clinic",
-      "head_type": "Institution",
-      "relation": "establish",
+      "head_type": "Medical Institution",
+      "relation": "establishes",
       "tail": "Stool Biobank",
-      "tail_type": "Repository"
+      "tail_type": "Biobank"
+    },
+    {
+      "head": "Stool Biobank",
+      "head_type": "Biobank",
+      "relation": "used_for",
+      "tail": "Future Clinical Applications",
+      "tail_type": "Application"
     }
   ]
 }

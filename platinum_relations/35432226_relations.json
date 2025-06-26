@@ -12,79 +12,58 @@
     {
       "head": "Parkinson's disease",
       "head_type": "Disease",
-      "relation": "originatesIn",
-      "tail": "Brain",
-      "tail_type": "AnatomicalStructure"
-    },
-    {
-      "head": "Parkinson's disease",
-      "head_type": "Disease",
-      "relation": "originatesIn",
-      "tail": "Gut",
-      "tail_type": "AnatomicalStructure"
-    },
-    {
-      "head": "Parkinson's disease",
-      "head_type": "Disease",
       "relation": "hasProgressionType",
-      "tail": "Body-First Progression",
+      "tail": "body-first progression",
       "tail_type": "ProgressionType"
     },
     {
       "head": "Parkinson's disease",
       "head_type": "Disease",
       "relation": "hasProgressionType",
-      "tail": "Brain-First Progression",
+      "tail": "brain-first progression",
       "tail_type": "ProgressionType"
     },
     {
-      "head": "Parkinson's disease",
-      "head_type": "Disease",
-      "relation": "hasAltered",
-      "tail": "Gut Microbiome",
-      "tail_type": "BiologicalSystem"
-    },
-    {
-      "head": "Gut Microbiome",
-      "head_type": "BiologicalSystem",
+      "head": "body-first progression",
+      "head_type": "ProgressionType",
       "relation": "associatedWith",
-      "tail": "Short-Chain Fatty Acid Producing Bacteria",
-      "tail_type": "MicrobialTaxon"
+      "tail": "altered gut microbiome",
+      "tail_type": "BiologicalState"
     },
     {
-      "head": "Body-First Progression",
+      "head": "brain-first progression",
       "head_type": "ProgressionType",
-      "relation": "exhibitsAltered",
-      "tail": "Gut Microbiome",
-      "tail_type": "BiologicalSystem"
+      "relation": "associatedWith",
+      "tail": "no altered gut microbiome",
+      "tail_type": "BiologicalState"
     },
     {
-      "head": "Brain-First Progression",
+      "head": "gut microbiome",
+      "head_type": "BiologicalEntity",
+      "relation": "produces",
+      "tail": "short-chain fatty acids",
+      "tail_type": "Biochemical"
+    },
+    {
+      "head": "body-first progression",
       "head_type": "ProgressionType",
-      "relation": "doesNotExhibit",
-      "tail": "Gut Microbiome Alteration",
-      "tail_type": "BiologicalChange"
+      "relation": "characterizedBy",
+      "tail": "reduced short-chain fatty acid producing bacteria",
+      "tail_type": "BiologicalState"
     },
     {
-      "head": "Future Microbiome Research",
-      "head_type": "ResearchArea",
+      "head": "future microbiome research",
+      "head_type": "Research",
       "relation": "investigates",
-      "tail": "Gut Microbiome Differences",
-      "tail_type": "BiologicalChange"
+      "tail": "gut microbiome differences between progression types",
+      "tail_type": "InvestigationTopic"
     },
     {
-      "head": "Gut Microbiome",
-      "head_type": "BiologicalSystem",
+      "head": "gut microbiome",
+      "head_type": "BiologicalEntity",
       "relation": "impacts",
-      "tail": "Parkinson's Disease",
+      "tail": "Parkinson's disease",
       "tail_type": "Disease"
-    },
-    {
-      "head": "Gut Microbiome",
-      "head_type": "BiologicalSystem",
-      "relation": "variesAmong",
-      "tail": "Individuals with Parkinson's Disease",
-      "tail_type": "PatientPopulation"
     }
   ]
 }

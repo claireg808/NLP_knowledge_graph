@@ -1,5 +1,5 @@
 {
-  "title": "The influence of the gut-brain axis on anxiety and depression: A review of the literature on the use of probiotics",
+  "title": "The influence of the gut-brain axis on anxiety and depression: A review of the literature on the use of probiotics.",
   "abstract": "This review aims to argue how using probiotics can improve anxiety and depressive behaviour without adverse effects, also exploring the impact of postbiotics on it. Specifically, probiotics have drawn more attention as effective alternative treatments, considering the rising cost of antidepressant and anti-anxiety drugs and the high risk of side effects. Depression and anxiety disorders are among the most common mental illnesses in the world's population, characterised by low mood, poor general interest, and cognitive or motor dysfunction. Thus, this study analysed published literature on anxiety, depression, and probiotic supplementation from PubMed and Scopus, focusing on the last twenty years. This study focused on the effect of probiotics on mental health as they have drawn more attention because of their extensive clinical applications and positive impact on various diseases. Numerous studies have demonstrated how the gut microbiota might be critical for mood regulation and how probiotics can affect host health by regulating the gut-brain axis. By comparing the different works analysed, it was possible to identify a strategy by which they are selected and employed and, at the same time, to assess how the effect of probiotics can be optimised using postbiotics, an innovation to improve mental well-being in humans.",
   "relations": [
     {
@@ -19,44 +19,86 @@
     {
       "head": "probiotics",
       "head_type": "Substance",
+      "relation": "reduce",
+      "tail": "side effects",
+      "tail_type": "Health Issue"
+    },
+    {
+      "head": "depression",
+      "head_type": "Mental Disorder",
+      "relation": "characterised by",
+      "tail": "low mood",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "depression",
+      "head_type": "Mental Disorder",
+      "relation": "characterised by",
+      "tail": "poor general interest",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "depression",
+      "head_type": "Mental Disorder",
+      "relation": "characterised by",
+      "tail": "cognitive dysfunction",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "depression",
+      "head_type": "Mental Disorder",
+      "relation": "characterised by",
+      "tail": "motor dysfunction",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "probiotic supplementation",
+      "head_type": "Treatment",
+      "relation": "studied in",
+      "tail": "PubMed",
+      "tail_type": "Database"
+    },
+    {
+      "head": "probiotic supplementation",
+      "head_type": "Treatment",
+      "relation": "studied in",
+      "tail": "Scopus",
+      "tail_type": "Database"
+    },
+    {
+      "head": "probiotics",
+      "head_type": "Substance",
       "relation": "affect",
       "tail": "host health",
-      "tail_type": "Health"
+      "tail_type": "Health Aspect"
     },
     {
       "head": "gut microbiota",
-      "head_type": "Organism",
+      "head_type": "Biological Entity",
       "relation": "regulate",
       "tail": "mood",
-      "tail_type": "Physiological Process"
+      "tail_type": "Physiological Function"
     },
     {
       "head": "probiotics",
       "head_type": "Substance",
       "relation": "regulate",
       "tail": "gut-brain axis",
-      "tail_type": "Biological Process"
+      "tail_type": "Biological System"
+    },
+    {
+      "head": "postbiotics",
+      "head_type": "Substance",
+      "relation": "optimise",
+      "tail": "effect of probiotics",
+      "tail_type": "Effect"
     },
     {
       "head": "postbiotics",
       "head_type": "Substance",
       "relation": "improve",
       "tail": "mental well-being",
-      "tail_type": "Health"
-    },
-    {
-      "head": "antidepressant drugs",
-      "head_type": "Medication",
-      "relation": "have",
-      "tail": "high risk of side effects",
-      "tail_type": "Risk"
-    },
-    {
-      "head": "anti-anxiety drugs",
-      "head_type": "Medication",
-      "relation": "have",
-      "tail": "high risk of side effects",
-      "tail_type": "Risk"
+      "tail_type": "Health Aspect"
     }
   ]
 }

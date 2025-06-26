@@ -1,0 +1,209 @@
+{
+  "title": "Inflammatory microbes and genes as potential biomarkers of Parkinson's disease",
+  "abstract": "As the second-largest neurodegenerative disease in the world, Parkinson's disease (PD) has brought a severe economic and medical burden to our society. Growing evidence in recent years suggests that the gut microbiome may influence PD, but the exact pathogenesis of PD remains unclear. In addition, the current diagnosis of PD could be inaccurate and expensive. In this study, the largest meta-analysis currently of the gut microbiome in PD was analyzed, including 2269 samples by 16S rRNA gene and 236 samples by shotgun metagenomics, aiming to reveal the connection between PD and gut microbiome and establish a model to predict PD. The results showed that the relative abundances of potential pro-inflammatory bacteria, genes and pathways were significantly increased in PD, while potential anti-inflammatory bacteria, genes and pathways were significantly decreased. These changes may lead to a decrease in potential anti-inflammatory substances (short-chain fatty acids) and an increase in potential pro-inflammatory substances (lipopolysaccharides, hydrogen sulfide and glutamate). Notably, the results of 16S rRNA gene and shotgun metagenomic analysis have consistently identified five decreased genera (Roseburia, Faecalibacterium, Blautia, Lachnospira, and Prevotella) and five increased genera (Streptococcus, Bifidobacterium, Lactobacillus, Akkermansia, and Desulfovibrio) in PD. Furthermore, random forest models performed well for PD prediction based on 11 genera (accuracy > 80%) or 6 genes (accuracy > 90%) related to inflammation. Finally, a possible mechanism was presented to explain the pathogenesis of inflammation leading to PD. Our results provided further insights into the prediction and treatment of PD based on inflammation.",
+  "relations": [
+    {
+      "head": "Parkinson's disease",
+      "head_type": "Disease",
+      "relation": "influenced by",
+      "tail": "gut microbiome",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "Biological Entity",
+      "relation": "contains",
+      "tail": "pro-inflammatory bacteria",
+      "tail_type": "Bacteria"
+    },
+    {
+      "head": "gut microbiome",
+      "head_type": "Biological Entity",
+      "relation": "contains",
+      "tail": "anti-inflammatory bacteria",
+      "tail_type": "Bacteria"
+    },
+    {
+      "head": "pro-inflammatory bacteria",
+      "head_type": "Bacteria",
+      "relation": "related to",
+      "tail": "pro-inflammatory genes",
+      "tail_type": "Genes"
+    },
+    {
+      "head": "anti-inflammatory bacteria",
+      "head_type": "Bacteria",
+      "relation": "related to",
+      "tail": "anti-inflammatory genes",
+      "tail_type": "Genes"
+    },
+    {
+      "head": "pro-inflammatory genes",
+      "head_type": "Genes",
+      "relation": "increased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "anti-inflammatory genes",
+      "head_type": "Genes",
+      "relation": "decreased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "pro-inflammatory bacteria",
+      "head_type": "Bacteria",
+      "relation": "increased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "anti-inflammatory bacteria",
+      "head_type": "Bacteria",
+      "relation": "decreased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "short-chain fatty acids",
+      "head_type": "Substance",
+      "relation": "decreased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "lipopolysaccharides",
+      "head_type": "Substance",
+      "relation": "increased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "hydrogen sulfide",
+      "head_type": "Substance",
+      "relation": "increased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "glutamate",
+      "head_type": "Substance",
+      "relation": "increased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Roseburia",
+      "head_type": "Genus",
+      "relation": "decreased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Faecalibacterium",
+      "head_type": "Genus",
+      "relation": "decreased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Blautia",
+      "head_type": "Genus",
+      "relation": "decreased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Lachnospira",
+      "head_type": "Genus",
+      "relation": "decreased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Prevotella",
+      "head_type": "Genus",
+      "relation": "decreased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Streptococcus",
+      "head_type": "Genus",
+      "relation": "increased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Bifidobacterium",
+      "head_type": "Genus",
+      "relation": "increased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Lactobacillus",
+      "head_type": "Genus",
+      "relation": "increased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Akkermansia",
+      "head_type": "Genus",
+      "relation": "increased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Desulfovibrio",
+      "head_type": "Genus",
+      "relation": "increased in",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "random forest models",
+      "head_type": "Model",
+      "relation": "used for",
+      "tail": "PD prediction",
+      "tail_type": "Method"
+    },
+    {
+      "head": "PD prediction",
+      "head_type": "Method",
+      "relation": "based on",
+      "tail": "11 genera",
+      "tail_type": "Genus Collection"
+    },
+    {
+      "head": "PD prediction",
+      "head_type": "Method",
+      "relation": "based on",
+      "tail": "6 genes",
+      "tail_type": "Gene Collection"
+    },
+    {
+      "head": "11 genera",
+      "head_type": "Genus Collection",
+      "relation": "related to",
+      "tail": "inflammation",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "6 genes",
+      "head_type": "Gene Collection",
+      "relation": "related to",
+      "tail": "inflammation",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "inflammation",
+      "head_type": "Biological Process",
+      "relation": "leads to",
+      "tail": "Parkinson's disease",
+      "tail_type": "Disease"
+    }
+  ]
+}

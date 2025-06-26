@@ -4,101 +4,38 @@
   "relations": [
     {
       "head": "Berberine",
-      "head_type": "Substance",
+      "head_type": "Medicine",
       "relation": "treats",
       "tail": "Mild Metabolic Disorders",
       "tail_type": "Disease"
     },
     {
       "head": "Olanzapine",
-      "head_type": "Medication",
+      "head_type": "Medicine",
       "relation": "causes",
-      "tail": "Metabolic Disturbances",
+      "tail": "Secondary Metabolic Disturbances",
       "tail_type": "Condition"
     },
     {
       "head": "Schizophrenia",
       "head_type": "Disease",
       "relation": "associated_with",
-      "tail": "Metabolic Disturbances",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "Bipolar Disorder",
-      "head_type": "Disease",
-      "relation": "associated_with",
-      "tail": "Metabolic Disturbances",
-      "tail_type": "Condition"
+      "tail": "Bipolar Disorder",
+      "tail_type": "Disease"
     },
     {
       "head": "Berberine",
-      "head_type": "Substance",
+      "head_type": "Medicine",
       "relation": "affects",
       "tail": "Intestinal Flora",
       "tail_type": "Biological Entity"
     },
     {
-      "head": "Firmicutes",
-      "head_type": "Microbial Taxon",
-      "relation": "decreased_by",
-      "tail": "Berberine",
-      "tail_type": "Substance"
-    },
-    {
-      "head": "Bacteroides",
-      "head_type": "Microbial Taxon",
-      "relation": "increased_by",
-      "tail": "Berberine",
-      "tail_type": "Substance"
-    },
-    {
-      "head": "Coliform",
-      "head_type": "Microbial Taxon",
-      "relation": "decreased_by",
-      "tail": "Berberine",
-      "tail_type": "Substance"
-    },
-    {
-      "head": "Metabolic Assessments",
-      "head_type": "Assessment Type",
-      "relation": "measured_in",
-      "tail": "Patients",
-      "tail_type": "Population"
-    },
-    {
       "head": "Intestinal Flora",
       "head_type": "Biological Entity",
-      "relation": "measured_in",
-      "tail": "Patients",
-      "tail_type": "Population"
-    },
-    {
-      "head": "Adverse Reactions",
-      "head_type": "Event",
-      "relation": "recorded_in",
-      "tail": "Patients",
-      "tail_type": "Population"
-    },
-    {
-      "head": "Berberine",
-      "head_type": "Substance",
-      "relation": "administered_to",
-      "tail": "Patients",
-      "tail_type": "Population"
-    },
-    {
-      "head": "Placebo",
-      "head_type": "Control",
-      "relation": "administered_to",
-      "tail": "Patients",
-      "tail_type": "Population"
-    },
-    {
-      "head": "Metabolic Syndrome",
-      "head_type": "Disease",
-      "relation": "prevented_by",
-      "tail": "Berberine",
-      "tail_type": "Substance"
+      "relation": "regulates",
+      "tail": "Metabolism",
+      "tail_type": "Biological Process"
     }
   ]
 }

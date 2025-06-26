@@ -5,175 +5,182 @@
     {
       "head": "coronavirus disease (COVID)-19",
       "head_type": "Disease",
-      "relation": "CAUSES",
-      "tail": "gastrointestinal symptoms",
+      "relation": "has symptom",
+      "tail": "gastrointestinal (GI) symptoms",
       "tail_type": "Symptom"
     },
     {
       "head": "severe acute respiratory syndrome coronavirus-2 (SARS-CoV2)",
       "head_type": "Virus",
-      "relation": "INFECTS",
+      "relation": "infects",
+      "tail": "pulmonary",
+      "tail_type": "Organ"
+    },
+    {
+      "head": "severe acute respiratory syndrome coronavirus-2 (SARS-CoV2)",
+      "head_type": "Virus",
+      "relation": "infects",
       "tail": "GI tract",
       "tail_type": "Organ"
     },
     {
       "head": "GI infections",
       "head_type": "Infection",
-      "relation": "CAUSE",
-      "tail": "postinfection disorders of gut-brain interaction (DGBI)",
+      "relation": "cause",
+      "tail": "disorders of gut-brain interaction (DGBI)",
       "tail_type": "Disorder"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "INCLUDES",
+      "relation": "includes",
       "tail": "IBS",
       "tail_type": "Disorder"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_RISK_FACTOR",
+      "relation": "has risk factor",
       "tail": "female gender",
-      "tail_type": "Demographic"
+      "tail_type": "Demographic Factor"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_RISK_FACTOR",
+      "relation": "has risk factor",
       "tail": "symptomatic COVID-19",
       "tail_type": "Condition"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_RISK_FACTOR",
+      "relation": "has risk factor",
       "tail": "GI symptoms",
       "tail_type": "Symptom"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_RISK_FACTOR",
+      "relation": "has risk factor",
       "tail": "severity of COVID-19",
-      "tail_type": "Severity"
+      "tail_type": "Condition"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_RISK_FACTOR",
+      "relation": "has risk factor",
       "tail": "anosmia",
       "tail_type": "Symptom"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_RISK_FACTOR",
+      "relation": "has risk factor",
       "tail": "ageusia",
       "tail_type": "Symptom"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_RISK_FACTOR",
+      "relation": "has risk factor",
       "tail": "use of antibiotics",
       "tail_type": "Treatment"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_RISK_FACTOR",
-      "tail": "hospitalization",
-      "tail_type": "Medical Procedure"
+      "relation": "has risk factor",
+      "tail": "hospitalization during the acute illness",
+      "tail_type": "Medical Event"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_RISK_FACTOR",
+      "relation": "has risk factor",
       "tail": "persistent GI symptoms beyond 1 month after recovery",
       "tail_type": "Symptom"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_RISK_FACTOR",
+      "relation": "has risk factor",
       "tail": "presence of mental health factors",
-      "tail_type": "Condition"
+      "tail_type": "Psychological Factor"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_MECHANISM",
+      "relation": "has mechanism",
       "tail": "altered gut motility",
-      "tail_type": "Physiological Mechanism"
+      "tail_type": "Mechanism"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_MECHANISM",
+      "relation": "has mechanism",
       "tail": "visceral hypersensitivity",
-      "tail_type": "Physiological Mechanism"
+      "tail_type": "Mechanism"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_MECHANISM",
+      "relation": "has mechanism",
       "tail": "gut microbiota dysbiosis",
-      "tail_type": "Physiological Mechanism"
+      "tail_type": "Mechanism"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_MECHANISM",
+      "relation": "has mechanism",
       "tail": "GI inflammation",
-      "tail_type": "Physiological Mechanism"
+      "tail_type": "Mechanism"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_MECHANISM",
+      "relation": "has mechanism",
       "tail": "immune activation",
-      "tail_type": "Physiological Mechanism"
+      "tail_type": "Mechanism"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_MECHANISM",
+      "relation": "has mechanism",
       "tail": "changes in intestinal permeability",
-      "tail_type": "Physiological Mechanism"
+      "tail_type": "Mechanism"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_MECHANISM",
+      "relation": "has mechanism",
       "tail": "alterations in the enteroendocrine system",
-      "tail_type": "Physiological Mechanism"
+      "tail_type": "Mechanism"
     },
     {
       "head": "post-COVID-19 DGBI",
       "head_type": "Disorder",
-      "relation": "HAS_MECHANISM",
+      "relation": "has mechanism",
       "tail": "serotonin metabolism",
-      "tail_type": "Physiological Mechanism"
+      "tail_type": "Mechanism"
     },
     {
       "head": "SARS-CoV2 infection",
       "head_type": "Infection",
-      "relation": "HAS_SEQUELAE",
-      "tail": "post-COVID-19 DGBI",
-      "tail_type": "Disorder"
+      "relation": "has long-term sequela",
+      "tail": "COVID-19",
+      "tail_type": "Disease"
     },
     {
       "head": "patients with COVID-19",
-      "head_type": "Patient Group",
-      "relation": "ARE_MORE_LIKELY_TO_DEVELOP",
+      "head_type": "Patient Population",
+      "relation": "are more likely to develop",
       "tail": "post-COVID-19 IBS",
       "tail_type": "Disorder"
     },
     {
       "head": "post-COVID-19 IBS",
       "head_type": "Disorder",
-      "relation": "POSES",
+      "relation": "poses",
       "tail": "substantial healthcare burden",
       "tail_type": "Healthcare Impact"
     }

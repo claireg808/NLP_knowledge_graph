@@ -6,50 +6,50 @@
       "head": "gut microbiota",
       "head_type": "biological entity",
       "relation": "contributes to",
-      "tail": "pathophysiology",
-      "tail_type": "biological process"
+      "tail": "pathophysiology of mental illnesses",
+      "tail_type": "condition"
     },
     {
       "head": "gut microbiota",
       "head_type": "biological entity",
-      "relation": "influences",
-      "tail": "gut physiology",
-      "tail_type": "biological process"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "influences",
-      "tail": "brain function",
-      "tail_type": "biological process"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "influences",
-      "tail": "behavior",
-      "tail_type": "biological process"
-    },
-    {
-      "head": "perturbation of the gut microbiota",
-      "head_type": "biological process",
-      "relation": "contributes to",
-      "tail": "mental illnesses",
-      "tail_type": "disease"
-    },
-    {
-      "head": "perturbation of the gut microbiota",
-      "head_type": "biological process",
       "relation": "contributes to",
       "tail": "neurodegenerative disorders",
-      "tail_type": "disease"
+      "tail_type": "condition"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "communicates with",
+      "tail": "brain",
+      "tail_type": "organ"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "affects",
+      "tail": "gut physiology",
+      "tail_type": "physiological process"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "affects",
+      "tail": "brain function",
+      "tail_type": "physiological process"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "affects",
+      "tail": "behavior",
+      "tail_type": "behavioral process"
     },
     {
       "head": "microbiota-targeted therapies",
       "head_type": "therapeutic strategy",
-      "relation": "affects",
+      "relation": "impacts",
       "tail": "psychiatric disorders",
-      "tail_type": "disease"
+      "tail_type": "condition"
     }
   ]
 }

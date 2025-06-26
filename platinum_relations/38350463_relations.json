@@ -1,132 +1,97 @@
 {
-  "title": "Gut production of GABA by a probiotic formula: an in vitro study",
+  "title": "Gut production of GABA by a probiotic formula: an in vitro study.",
   "abstract": "The objective of this study was to evaluate the influence of a probiotic formula on the production of neuroactive compounds in different parts of the colon in batch culture and in vitro gut simulator experiments. Thirteen lactic acid bacterial strains, belonging to the species Levilactobacillus brevis, Lactiplantibacillus plantarum, Lacticaseibacillus paracasei, Ligilactobacillus salivarius, Streptococcus thermophilus, were characterised for their in vitro ability to produce neurotransmitters. L. brevis P30021 and L. plantarum P30025 were selected based on their capability to produce \u03b3-aminobutyric acid (GABA) and acetylcholine in vitro. A probiotic formulation with potential psychobiotic activity was prepared and tested in a batch culture of human microbiota monitoring the formation of GABA and acetylcholine. Samples of the three colonic tracts were taken from the Simulator of the Human Intestinal Microbiota (SHIME\u00ae) evaluating the production of GABA and other neurotransmitters by LC-MS. Short chain fatty acids (SCFA) by GC and microbiota composition by 16S rRNA gene sequencing were also determined. Probiotic supplementation led to the formation of GABA and acetylcholine with a decrease in glutamate concentrations in the in vitro batch fermentation. Production of GABA after the treatment with probiotics was confirmed in the SHIME\u00ae short-term experiment. No differences in short-chain fatty acids were observed up to 72\u00a0h of fermentation. Different microbiota composition was found in the three different parts of the colon, with a higher abundance of Veillonellaceae in the ascending colon vessels. The probiotic-exposed microbiota showed higher levels of Bacteroides, a gut microbe associated with anti-inflammatory activities and a potential GABA producer. Results demonstrate the impact of the tested probiotic formula on gut microbiota structure and GABA production. In conclusion, the probiotic treatment changed the microbiota composition and increased neuroactive metabolites production, indicating promising potential as psychobiotics, even if further clinical evidence is needed to confirm the effectiveness of these probiotics in improving mental health.",
   "relations": [
     {
       "head": "probiotic formula",
-      "head_type": "formula",
+      "head_type": "Substance",
       "relation": "produces",
       "tail": "GABA",
-      "tail_type": "neuroactive compound"
+      "tail_type": "Neurotransmitter"
     },
     {
       "head": "probiotic formula",
-      "head_type": "formula",
+      "head_type": "Substance",
       "relation": "produces",
       "tail": "acetylcholine",
-      "tail_type": "neuroactive compound"
+      "tail_type": "Neurotransmitter"
     },
     {
       "head": "L. brevis P30021",
-      "head_type": "strain",
+      "head_type": "Bacterial Strain",
       "relation": "produces",
       "tail": "GABA",
-      "tail_type": "neuroactive compound"
+      "tail_type": "Neurotransmitter"
     },
     {
       "head": "L. brevis P30021",
-      "head_type": "strain",
+      "head_type": "Bacterial Strain",
       "relation": "produces",
       "tail": "acetylcholine",
-      "tail_type": "neuroactive compound"
+      "tail_type": "Neurotransmitter"
     },
     {
       "head": "L. plantarum P30025",
-      "head_type": "strain",
+      "head_type": "Bacterial Strain",
       "relation": "produces",
       "tail": "GABA",
-      "tail_type": "neuroactive compound"
+      "tail_type": "Neurotransmitter"
     },
     {
       "head": "L. plantarum P30025",
-      "head_type": "strain",
+      "head_type": "Bacterial Strain",
       "relation": "produces",
       "tail": "acetylcholine",
-      "tail_type": "neuroactive compound"
+      "tail_type": "Neurotransmitter"
+    },
+    {
+      "head": "probiotic supplementation",
+      "head_type": "Treatment",
+      "relation": "leads to",
+      "tail": "formation of GABA",
+      "tail_type": "Process"
+    },
+    {
+      "head": "probiotic supplementation",
+      "head_type": "Treatment",
+      "relation": "leads to",
+      "tail": "formation of acetylcholine",
+      "tail_type": "Process"
+    },
+    {
+      "head": "probiotic supplementation",
+      "head_type": "Treatment",
+      "relation": "decreases",
+      "tail": "glutamate concentrations",
+      "tail_type": "Compound"
     },
     {
       "head": "probiotic formula",
-      "head_type": "formula",
-      "relation": "contains",
-      "tail": "L. brevis P30021",
-      "tail_type": "strain"
+      "head_type": "Substance",
+      "relation": "impacts",
+      "tail": "gut microbiota structure",
+      "tail_type": "Biological Structure"
     },
     {
       "head": "probiotic formula",
-      "head_type": "formula",
-      "relation": "contains",
-      "tail": "L. plantarum P30025",
-      "tail_type": "strain"
-    },
-    {
-      "head": "probiotic formula",
-      "head_type": "formula",
-      "relation": "affects",
-      "tail": "gut microbiota",
-      "tail_type": "microbiota"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "microbiota",
-      "relation": "produces",
-      "tail": "GABA",
-      "tail_type": "neuroactive compound"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "microbiota",
-      "relation": "produces",
-      "tail": "acetylcholine",
-      "tail_type": "neuroactive compound"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "microbiota",
-      "relation": "contains",
-      "tail": "Bacteroides",
-      "tail_type": "microbe"
+      "head_type": "Substance",
+      "relation": "increases",
+      "tail": "neuroactive metabolites production",
+      "tail_type": "Process"
     },
     {
       "head": "Bacteroides",
-      "head_type": "microbe",
+      "head_type": "Microbial Species",
       "relation": "associated with",
       "tail": "anti-inflammatory activities",
-      "tail_type": "activity"
+      "tail_type": "Biological Process"
     },
     {
       "head": "Bacteroides",
-      "head_type": "microbe",
+      "head_type": "Microbial Species",
       "relation": "produces",
       "tail": "GABA",
-      "tail_type": "neuroactive compound"
-    },
-    {
-      "head": "probiotic formula",
-      "head_type": "formula",
-      "relation": "tested in",
-      "tail": "SHIME\u00ae",
-      "tail_type": "simulator"
-    },
-    {
-      "head": "SHIME\u00ae",
-      "head_type": "simulator",
-      "relation": "used for",
-      "tail": "evaluation of GABA production",
-      "tail_type": "evaluation"
-    },
-    {
-      "head": "probiotic formula",
-      "head_type": "formula",
-      "relation": "impacts",
-      "tail": "microbiota composition",
-      "tail_type": "composition"
-    },
-    {
-      "head": "probiotic formula",
-      "head_type": "formula",
-      "relation": "increases",
-      "tail": "neuroactive metabolites",
-      "tail_type": "metabolites"
+      "tail_type": "Neurotransmitter"
     }
   ]
 }

@@ -4,150 +4,73 @@
   "relations": [
     {
       "head": "Butylated Starch",
-      "head_type": "Substance",
+      "head_type": "Food Supplement",
       "relation": "Alleviates",
-      "tail": "Chronic Restraint Stress",
-      "tail_type": "Condition"
+      "tail": "Chronic Restraint Stress-Induced Neurobehavioral Deficits",
+      "tail_type": "Health Condition"
     },
     {
       "head": "Butylated Starch",
-      "head_type": "Substance",
-      "relation": "Improves",
-      "tail": "Neurobehavioral Deficits",
-      "tail_type": "Condition"
-    },
-    {
-      "head": "Butylated Starch",
-      "head_type": "Substance",
-      "relation": "Improves",
+      "head_type": "Food Supplement",
+      "relation": "Alleviates",
       "tail": "Gut Barrier Deficits",
-      "tail_type": "Condition"
+      "tail_type": "Health Condition"
     },
     {
       "head": "Butylated Starch",
-      "head_type": "Substance",
+      "head_type": "Food Supplement",
       "relation": "Reduces",
       "tail": "Colonic Permeability",
-      "tail_type": "Physiological State"
+      "tail_type": "Physiological Process"
     },
     {
       "head": "Butylated Starch",
-      "head_type": "Substance",
+      "head_type": "Food Supplement",
       "relation": "Increases",
       "tail": "Tight Junction Proteins",
       "tail_type": "Protein"
     },
     {
-      "head": "Tight Junction Proteins",
-      "head_type": "Protein",
-      "relation": "Includes",
-      "tail": "ZO-1",
-      "tail_type": "Protein"
-    },
-    {
-      "head": "Tight Junction Proteins",
-      "head_type": "Protein",
-      "relation": "Includes",
-      "tail": "Claudin",
-      "tail_type": "Protein"
-    },
-    {
-      "head": "Tight Junction Proteins",
-      "head_type": "Protein",
-      "relation": "Includes",
-      "tail": "Occludin",
-      "tail_type": "Protein"
-    },
-    {
       "head": "Butylated Starch",
-      "head_type": "Substance",
+      "head_type": "Food Supplement",
       "relation": "Reduces",
       "tail": "Inflammatory Cytokines",
       "tail_type": "Protein"
     },
     {
-      "head": "Inflammatory Cytokines",
-      "head_type": "Protein",
-      "relation": "Includes",
-      "tail": "IL-1\u03b2",
-      "tail_type": "Protein"
-    },
-    {
-      "head": "Inflammatory Cytokines",
-      "head_type": "Protein",
-      "relation": "Includes",
-      "tail": "IL-6",
-      "tail_type": "Protein"
-    },
-    {
       "head": "Butylated Starch",
-      "head_type": "Substance",
+      "head_type": "Food Supplement",
       "relation": "Modifies",
       "tail": "Gut Microbiome",
       "tail_type": "Microbial Community"
     },
     {
-      "head": "Gut Microbiome",
-      "head_type": "Microbial Community",
-      "relation": "Includes",
+      "head": "Butylated Starch",
+      "head_type": "Food Supplement",
+      "relation": "Normalizes",
       "tail": "Odoribacter",
-      "tail_type": "Microbe"
+      "tail_type": "Microbial Species"
     },
     {
-      "head": "Gut Microbiome",
-      "head_type": "Microbial Community",
-      "relation": "Includes",
+      "head": "Butylated Starch",
+      "head_type": "Food Supplement",
+      "relation": "Normalizes",
       "tail": "Oscillibacter",
-      "tail_type": "Microbe"
+      "tail_type": "Microbial Species"
     },
     {
-      "head": "Gut Microbiome",
-      "head_type": "Microbial Community",
-      "relation": "Includes",
+      "head": "Butylated Starch",
+      "head_type": "Food Supplement",
+      "relation": "Affects",
       "tail": "Tryptophan Synthesis",
-      "tail_type": "Metabolic Pathway"
+      "tail_type": "Metabolomic Pathway"
     },
     {
-      "head": "Gut Microbiome",
-      "head_type": "Microbial Community",
-      "relation": "Includes",
+      "head": "Butylated Starch",
+      "head_type": "Food Supplement",
+      "relation": "Affects",
       "tail": "Inositol Degradation",
-      "tail_type": "Metabolic Pathway"
-    },
-    {
-      "head": "Butylated Starch",
-      "head_type": "Substance",
-      "relation": "Improves",
-      "tail": "Brain Function",
-      "tail_type": "Physiological Function"
-    },
-    {
-      "head": "Butylated Starch",
-      "head_type": "Substance",
-      "relation": "Suggested For",
-      "tail": "Food",
-      "tail_type": "Product"
-    },
-    {
-      "head": "Butylated Starch",
-      "head_type": "Substance",
-      "relation": "Suggested For",
-      "tail": "Dietary Supplements",
-      "tail_type": "Product"
-    },
-    {
-      "head": "Food",
-      "head_type": "Product",
-      "relation": "Improves",
-      "tail": "Mental Health",
-      "tail_type": "Health Condition"
-    },
-    {
-      "head": "Dietary Supplements",
-      "head_type": "Product",
-      "relation": "Improves",
-      "tail": "Mental Health",
-      "tail_type": "Health Condition"
+      "tail_type": "Metabolomic Pathway"
     }
   ]
 }

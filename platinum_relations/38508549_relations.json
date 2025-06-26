@@ -4,101 +4,94 @@
   "relations": [
     {
       "head": "plant polysaccharides",
-      "head_type": "Substance",
-      "relation": "improve",
-      "tail": "mental disorders",
-      "tail_type": "Condition"
+      "head_type": "Biological Molecule",
+      "relation": "interacts with",
+      "tail": "gut microbiota",
+      "tail_type": "Organism"
     },
     {
       "head": "plant polysaccharides",
-      "head_type": "Substance",
-      "relation": "used via",
+      "head_type": "Biological Molecule",
+      "relation": "improves",
+      "tail": "mental disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Organism",
+      "relation": "part of",
       "tail": "microbiota-gut-brain axis",
       "tail_type": "Biological Process"
     },
     {
       "head": "plant polysaccharides",
-      "head_type": "Substance",
-      "relation": "reshape",
-      "tail": "gut microbiota profiles",
-      "tail_type": "Biological Entity"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "Biological Entity",
-      "relation": "ferment",
-      "tail": "plant polysaccharides",
-      "tail_type": "Substance"
+      "head_type": "Biological Molecule",
+      "relation": "fermented by",
+      "tail": "gut microbiota",
+      "tail_type": "Organism"
     },
     {
       "head": "plant polysaccharides",
-      "head_type": "Substance",
-      "relation": "regulate",
-      "tail": "monoamine neurotransmitters",
-      "tail_type": "Biological Molecule"
+      "head_type": "Biological Molecule",
+      "relation": "regulates",
+      "tail": "central monoamine neurotransmitters",
+      "tail_type": "Biological Process"
     },
     {
       "head": "plant polysaccharides",
-      "head_type": "Substance",
-      "relation": "regulate",
+      "head_type": "Biological Molecule",
+      "relation": "regulates",
       "tail": "amino acid transmitters",
-      "tail_type": "Biological Molecule"
+      "tail_type": "Biological Process"
     },
     {
       "head": "plant polysaccharides",
-      "head_type": "Substance",
-      "relation": "regulate",
+      "head_type": "Biological Molecule",
+      "relation": "regulates",
       "tail": "cholinergic signalling system",
       "tail_type": "Biological Process"
     },
     {
       "head": "plant polysaccharides",
-      "head_type": "Substance",
-      "relation": "alleviate",
+      "head_type": "Biological Molecule",
+      "relation": "alleviates",
+      "tail": "central and peripheral inflammation",
+      "tail_type": "Pathological Process"
+    },
+    {
+      "head": "NLRP3/NF-\u03baB-related signalling pathway",
+      "head_type": "Biological Pathway",
+      "relation": "mediates",
       "tail": "inflammation",
-      "tail_type": "Condition"
+      "tail_type": "Pathological Process"
     },
     {
       "head": "plant polysaccharides",
-      "head_type": "Substance",
-      "relation": "inhibit",
+      "head_type": "Biological Molecule",
+      "relation": "inhibits",
       "tail": "neuronal apoptosis",
       "tail_type": "Biological Process"
     },
     {
       "head": "plant polysaccharides",
-      "head_type": "Substance",
-      "relation": "enhance",
+      "head_type": "Biological Molecule",
+      "relation": "enhances",
       "tail": "antioxidant activities",
       "tail_type": "Biological Process"
     },
     {
       "head": "monosaccharide glucose",
-      "head_type": "Biological Molecule",
-      "relation": "compose",
+      "head_type": "Chemical Compound",
+      "relation": "component of",
       "tail": "plant polysaccharides",
-      "tail_type": "Substance"
+      "tail_type": "Biological Molecule"
     },
     {
-      "head": "structure -4-\u03b1-Glcp-(1\u2192",
+      "head": "-4-\u03b1-Glcp-(1\u2192",
       "head_type": "Chemical Structure",
-      "relation": "compose",
+      "relation": "component of",
       "tail": "plant polysaccharides",
-      "tail_type": "Substance"
-    },
-    {
-      "head": "plant polysaccharide-based products",
-      "head_type": "Product",
-      "relation": "target",
-      "tail": "microbiota-gut-brain axis",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "plant polysaccharide-based products",
-      "head_type": "Product",
-      "relation": "treat",
-      "tail": "mental disorders",
-      "tail_type": "Condition"
+      "tail_type": "Biological Molecule"
     }
   ]
 }

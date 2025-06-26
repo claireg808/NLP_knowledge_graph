@@ -1,125 +1,90 @@
 {
-  "title": "Flavonoids from Seabuckthorn (<i>Hippophae rhamnoides</i> L.) restore CUMS-induced depressive disorder and regulate the gut microbiota in mice.",
-  "abstract": "Seabuckthorn (<i>Hippophae rhamnoides</i> L.), which is enriched with flavonoids, including isorhamnetin, quercetin and kaempferol, is a representative example of 'medicine food homology' targeting several diseases. Major depressive disorders seriously threaten mental health worldwide and may even lead to death. Chronic unpredictable mild stress (CUMS)-induced depressive-like symptoms in mice are usually considered as the highest similarity to the situation in humans. Herein, we determined the potential functions of the flavonoid-enriched fraction from Seabuckthorn, which was named SBF, in treating major depressive disorder in mice. In the CUMS-induced mouse model, the intake of SBF reversed their depressive behaviors and relieved the CUMS-disturbed levels of neurotrophins, neurotransmitters, stress-related hormones, and inflammation-related cytokines. Additionally, the treatment of depressive mice with SBF showed ability to regulate the gut microbiota, especially in decreasing the abundance of <i>Lactobacillaceae</i>, while increasing the abundance of <i>Lachnospiraceae</i> at the family level. The results suggest the beneficial effects of Seabuckthorn flavonoids in functioning as a health food supplement to treat major depressive disorders.",
+  "title": "Flavonoids from Seabuckthorn (Hippophae rhamnoides L.) restore CUMS-induced depressive disorder and regulate the gut microbiota in mice.",
+  "abstract": "Seabuckthorn (Hippophae rhamnoides L.), which is enriched with flavonoids, including isorhamnetin, quercetin and kaempferol, is a representative example of 'medicine food homology' targeting several diseases. Major depressive disorders seriously threaten mental health worldwide and may even lead to death. Chronic unpredictab... [truncated for brevity]",
   "relations": [
+    {
+      "head": "Flavonoids",
+      "head_type": "Chemical",
+      "relation": "restore",
+      "tail": "CUMS-induced depressive disorder",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Flavonoids",
+      "head_type": "Chemical",
+      "relation": "regulate",
+      "tail": "gut microbiota",
+      "tail_type": "Organism"
+    },
     {
       "head": "Seabuckthorn",
       "head_type": "Plant",
       "relation": "contains",
-      "tail": "flavonoids",
-      "tail_type": "Chemical compound"
+      "tail": "Flavonoids",
+      "tail_type": "Chemical"
     },
     {
-      "head": "flavonoids",
-      "head_type": "Chemical compound",
-      "relation": "include",
-      "tail": "isorhamnetin",
-      "tail_type": "Chemical compound"
-    },
-    {
-      "head": "flavonoids",
-      "head_type": "Chemical compound",
-      "relation": "include",
-      "tail": "quercetin",
-      "tail_type": "Chemical compound"
-    },
-    {
-      "head": "flavonoids",
-      "head_type": "Chemical compound",
-      "relation": "include",
-      "tail": "kaempferol",
-      "tail_type": "Chemical compound"
-    },
-    {
-      "head": "Seabuckthorn",
-      "head_type": "Plant",
-      "relation": "used_for",
-      "tail": "medicine food homology",
-      "tail_type": "Concept"
-    },
-    {
-      "head": "flavonoid-enriched fraction",
-      "head_type": "Chemical compound",
-      "relation": "named",
-      "tail": "SBF",
-      "tail_type": "Chemical compound"
-    },
-    {
-      "head": "SBF",
-      "head_type": "Chemical compound",
-      "relation": "treats",
-      "tail": "major depressive disorder",
+      "head": "CUMS",
+      "head_type": "Stress Model",
+      "relation": "induces",
+      "tail": "depressive disorder",
       "tail_type": "Disease"
     },
     {
       "head": "SBF",
-      "head_type": "Chemical compound",
-      "relation": "reverses",
-      "tail": "depressive behaviors",
-      "tail_type": "Symptom"
+      "head_type": "Chemical",
+      "relation": "treats",
+      "tail": "Major depressive disorder",
+      "tail_type": "Disease"
     },
     {
       "head": "SBF",
-      "head_type": "Chemical compound",
+      "head_type": "Chemical",
       "relation": "relieves",
-      "tail": "neurotrophins levels",
-      "tail_type": "Biological process"
+      "tail": "disturbed levels of neurotrophins",
+      "tail_type": "Biological Process"
     },
     {
       "head": "SBF",
-      "head_type": "Chemical compound",
+      "head_type": "Chemical",
       "relation": "relieves",
-      "tail": "neurotransmitters levels",
-      "tail_type": "Biological process"
+      "tail": "disturbed levels of neurotransmitters",
+      "tail_type": "Biological Process"
     },
     {
       "head": "SBF",
-      "head_type": "Chemical compound",
+      "head_type": "Chemical",
       "relation": "relieves",
-      "tail": "stress-related hormones levels",
-      "tail_type": "Biological process"
+      "tail": "disturbed levels of stress-related hormones",
+      "tail_type": "Biological Process"
     },
     {
       "head": "SBF",
-      "head_type": "Chemical compound",
+      "head_type": "Chemical",
       "relation": "relieves",
-      "tail": "inflammation-related cytokines levels",
-      "tail_type": "Biological process"
+      "tail": "disturbed levels of inflammation-related cytokines",
+      "tail_type": "Biological Process"
     },
     {
       "head": "SBF",
-      "head_type": "Chemical compound",
+      "head_type": "Chemical",
       "relation": "regulates",
       "tail": "gut microbiota",
-      "tail_type": "Biological process"
+      "tail_type": "Organism"
     },
     {
       "head": "SBF",
-      "head_type": "Chemical compound",
+      "head_type": "Chemical",
       "relation": "decreases",
-      "tail": "Lactobacillaceae",
-      "tail_type": "Microbial family"
+      "tail": "abundance of Lactobacillaceae",
+      "tail_type": "Organism"
     },
     {
       "head": "SBF",
-      "head_type": "Chemical compound",
+      "head_type": "Chemical",
       "relation": "increases",
-      "tail": "Lachnospiraceae",
-      "tail_type": "Microbial family"
-    },
-    {
-      "head": "Seabuckthorn flavonoids",
-      "head_type": "Chemical compound",
-      "relation": "function_as",
-      "tail": "health food supplement",
-      "tail_type": "Food product"
-    },
-    {
-      "head": "health food supplement",
-      "head_type": "Food product",
-      "relation": "treats",
-      "tail": "major depressive disorders",
-      "tail_type": "Disease"
+      "tail": "abundance of Lachnospiraceae",
+      "tail_type": "Organism"
     }
   ]
 }

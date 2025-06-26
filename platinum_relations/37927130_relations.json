@@ -1,80 +1,94 @@
 {
-  "title": "<i>Lactobacillus reuteri</i> ATG-F4 Alleviates Chronic Stress-induced Anhedonia by Modulating the Prefrontal Serotonergic System",
+  "title": "<i>Lactobacillus reuteri</i> ATG-F4 Alleviates Chronic Stress-induced Anhedonia by Modulating the Prefrontal Serotonergic System.",
   "abstract": "Mental health is influenced by the gut-brain axis; for example, gut dysbiosis has been observed in patients with major depressive disorder (MDD). Gut microbial changes by fecal microbiota transplantation or probiotics treatment reportedly modulates depressive symptoms. However, it remains unclear how gut dysbiosis contributes to mental dysfunction, and how correction of the gut microbiota alleviates neuropsychiatric disorders. Our previous study showed that chronic consumption of <i>Lactobacillus reuteri</i> ATG-F4 (F4) induced neurometabolic alterations in healthy mice. Here, we investigated whether F4 exerted therapeutic effects on depressive-like behavior by influencing the central nervous system. Using chronic unpredictable stress (CUS) to induce anhedonia, a key symptom of MDD, we found that chronic F4 consumption alleviated CUS-induced anhedonic behaviors, accompanied by biochemical changes in the gut, serum, and brain. Serum and brain metabolite concentrations involved in tryptophan metabolism were regulated by CUS and F4. F4 consumption reduced the elevated levels of serotonin (5-HT) in the brain observed in the CUS group. Additionally, the increased expression of <i>Htr1a</i>, a subtype of the 5-HT receptor, in the medial prefrontal cortex (mPFC) of stressed mice was restored to levels observed in stress-na\u00efve mice following F4 supplementation. We further demonstrated the role of <i>Htr1a</i> using AAV-shRNA to downregulate <i>Htr1a</i> in the mPFC of CUS mice, effectively reversing CUS-induced anhedonic behavior. Together, our findings suggest F4 as a potential therapeutic approach for relieving some depressive symptoms and highlight the involvement of the tryptophan metabolism in mitigating CUS-induced depressive-like behaviors through the action of this bacterium.",
   "relations": [
     {
       "head": "Lactobacillus reuteri ATG-F4",
-      "head_type": "Bacteria",
+      "head_type": "Probiotic Bacterium",
       "relation": "Alleviates",
       "tail": "Chronic Stress-induced Anhedonia",
-      "tail_type": "Condition"
+      "tail_type": "Symptom"
     },
     {
-      "head": "Gut-brain axis",
-      "head_type": "Physiological System",
-      "relation": "Influences",
-      "tail": "Mental Health",
-      "tail_type": "Health Aspect"
+      "head": "Lactobacillus reuteri ATG-F4",
+      "head_type": "Probiotic Bacterium",
+      "relation": "Modulates",
+      "tail": "Prefrontal Serotonergic System",
+      "tail_type": "Neurological System"
     },
     {
       "head": "Gut Dysbiosis",
       "head_type": "Condition",
-      "relation": "Observed In",
-      "tail": "Patients with Major Depressive Disorder",
-      "tail_type": "Patient Group"
+      "relation": "Contributes to",
+      "tail": "Mental Dysfunction",
+      "tail_type": "Condition"
     },
     {
-      "head": "Gut Microbial Changes",
-      "head_type": "Biological Change",
-      "relation": "Modulates",
-      "tail": "Depressive Symptoms",
-      "tail_type": "Symptoms"
+      "head": "Gut Microbiota",
+      "head_type": "Microbial Community",
+      "relation": "Alleviates",
+      "tail": "Neuropsychiatric Disorders",
+      "tail_type": "Condition"
     },
     {
       "head": "Lactobacillus reuteri ATG-F4",
-      "head_type": "Bacteria",
+      "head_type": "Probiotic Bacterium",
       "relation": "Induces",
       "tail": "Neurometabolic Alterations",
-      "tail_type": "Biological Change"
+      "tail_type": "Biological Process"
     },
     {
-      "head": "F4",
-      "head_type": "Probiotic",
-      "relation": "Consumed Chronic",
-      "tail": "Alleviates Anhedonic Behaviors",
-      "tail_type": "Behavioral Change"
+      "head": "Lactobacillus reuteri ATG-F4",
+      "head_type": "Probiotic Bacterium",
+      "relation": "Elicits",
+      "tail": "Therapeutic Effects",
+      "tail_type": "Effect"
     },
     {
-      "head": "F4",
-      "head_type": "Probiotic",
-      "relation": "Consumed Chronic",
-      "tail": "Regulates Metabolite Concentrations",
-      "tail_type": "Biochemical Process"
+      "head": "Chronic Unpredictable Stress",
+      "head_type": "Stress Model",
+      "relation": "Induces",
+      "tail": "Anhedonia",
+      "tail_type": "Symptom"
     },
     {
-      "head": "F4",
-      "head_type": "Probiotic",
-      "relation": "Consumed Chronic",
-      "tail": "Reduces Serotonin Levels",
-      "tail_type": "Neurotransmitter Change"
+      "head": "Lactobacillus reuteri ATG-F4",
+      "head_type": "Probiotic Bacterium",
+      "relation": "Alleviates",
+      "tail": "CUS-induced Anhedonic Behaviors",
+      "tail_type": "Symptom"
     },
     {
-      "head": "F4",
-      "head_type": "Probiotic",
-      "relation": "Consumed Chronic",
-      "tail": "Restores Htr1a Expression",
-      "tail_type": "Gene Expression Change"
+      "head": "Lactobacillus reuteri ATG-F4",
+      "head_type": "Probiotic Bacterium",
+      "relation": "Regulates",
+      "tail": "Tryptophan Metabolism",
+      "tail_type": "Metabolic Process"
+    },
+    {
+      "head": "Lactobacillus reuteri ATG-F4",
+      "head_type": "Probiotic Bacterium",
+      "relation": "Reduces",
+      "tail": "Serotonin Levels",
+      "tail_type": "Neurotransmitter"
     },
     {
       "head": "Htr1a",
       "head_type": "Gene",
-      "relation": "Expressed Increased",
-      "tail": "Medial Prefrontal Cortex",
-      "tail_type": "Brain Region"
+      "relation": "Increases",
+      "tail": "Expression",
+      "tail_type": "Gene Expression"
+    },
+    {
+      "head": "Lactobacillus reuteri ATG-F4",
+      "head_type": "Probiotic Bacterium",
+      "relation": "Restores",
+      "tail": "Htr1a Expression",
+      "tail_type": "Gene Expression"
     },
     {
       "head": "AAV-shRNA",
-      "head_type": "Biological Tool",
+      "head_type": "Gene Editing Tool",
       "relation": "Downregulates",
       "tail": "Htr1a",
       "tail_type": "Gene"
@@ -83,8 +97,22 @@
       "head": "Htr1a Downregulation",
       "head_type": "Gene Expression Change",
       "relation": "Reverses",
-      "tail": "Anhedonic Behavior",
-      "tail_type": "Behavioral Symptom"
+      "tail": "CUS-induced Anhedonic Behavior",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Lactobacillus reuteri ATG-F4",
+      "head_type": "Probiotic Bacterium",
+      "relation": "Suggests",
+      "tail": "Therapeutic Approach",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Tryptophan Metabolism",
+      "head_type": "Metabolic Pathway",
+      "relation": "Mitigates",
+      "tail": "CUS-induced Depressive-like Behaviors",
+      "tail_type": "Symptom"
     }
   ]
 }

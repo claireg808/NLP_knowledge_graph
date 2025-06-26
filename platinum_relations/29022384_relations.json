@@ -5,72 +5,44 @@
     {
       "head": "maternal vaginal microbiota",
       "head_type": "microbiota",
-      "relation": "play a role in",
-      "tail": "seeding the microbiota",
-      "tail_type": "process"
-    },
-    {
-      "head": "maternal vaginal microbiota",
-      "head_type": "microbiota",
-      "relation": "overlap with",
-      "tail": "infant faecal microbiota",
+      "relation": "play a minor role in",
+      "tail": "seeding infant stool microbiota",
       "tail_type": "microbiota"
     },
     {
       "head": "maternal rectal microbiota",
       "head_type": "microbiota",
-      "relation": "similarity with",
+      "relation": "play a larger role in",
+      "tail": "seeding infant stool microbiota",
+      "tail_type": "microbiota"
+    },
+    {
+      "head": "delivery mode",
+      "head_type": "delivery mode",
+      "relation": "independent of",
+      "tail": "findings",
+      "tail_type": "findings"
+    },
+    {
+      "head": "maternal vaginal microbes",
+      "head_type": "microbiota",
+      "relation": "reduced transfer of",
+      "tail": "main mechanism",
+      "tail_type": "mechanism"
+    },
+    {
+      "head": "maternal microbiota",
+      "head_type": "microbiota",
+      "relation": "sources of",
       "tail": "infant microbiota",
       "tail_type": "microbiota"
     },
     {
-      "head": "infant nasal microbiota",
+      "head": "infant gut microbiota",
       "head_type": "microbiota",
-      "relation": "similarity with",
-      "tail": "mother's microbiota",
-      "tail_type": "microbiota"
-    },
-    {
-      "head": "infant nasal microbiota",
-      "head_type": "microbiota",
-      "relation": "similarity with",
-      "tail": "unrelated mothers' microbiota",
-      "tail_type": "microbiota"
-    },
-    {
-      "head": "transfer of maternal vaginal microbes",
-      "head_type": "process",
-      "relation": "play a minor role in",
-      "tail": "seeding infant stool microbiota",
-      "tail_type": "process"
-    },
-    {
-      "head": "transfer of maternal rectal microbiota",
-      "head_type": "process",
-      "relation": "play a larger role in",
-      "tail": "seeding infant stool microbiota",
-      "tail_type": "process"
-    },
-    {
-      "head": "Caesarean section delivery",
-      "head_type": "delivery mode",
-      "relation": "differential infant microbiota composition",
-      "tail": "Caesarean delivery",
-      "tail_type": "delivery mode"
-    },
-    {
-      "head": "vaginally delivered, fully breastfed infants",
-      "head_type": "infants",
-      "relation": "gut microbiota dominated by",
+      "relation": "dominated by",
       "tail": "Bifidobacteria",
       "tail_type": "bacteria"
-    },
-    {
-      "head": "maternal vaginal microbial transfer",
-      "head_type": "process",
-      "relation": "not the main mechanism",
-      "tail": "differential infant microbiota composition",
-      "tail_type": "process"
     }
   ]
 }

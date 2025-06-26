@@ -4,150 +4,150 @@
   "relations": [
     {
       "head": "brain",
-      "head_type": "biological structure",
+      "head_type": "Organ",
       "relation": "associated with",
       "tail": "gut microbiome",
-      "tail_type": "microbial community"
+      "tail_type": "Microbial Community"
+    },
+    {
+      "head": "brain",
+      "head_type": "Organ",
+      "relation": "interacts with",
+      "tail": "gut",
+      "tail_type": "Organ"
     },
     {
       "head": "psychiatric disorders",
-      "head_type": "mental health condition",
+      "head_type": "Disease",
       "relation": "associated with",
       "tail": "altered gut microbiota",
-      "tail_type": "microbial community state"
+      "tail_type": "Microbial Community"
+    },
+    {
+      "head": "functional gastrointestinal disorders",
+      "head_type": "Disease",
+      "relation": "linked with",
+      "tail": "dysbiosis",
+      "tail_type": "Microbial Imbalance"
     },
     {
       "head": "dysbiosis",
-      "head_type": "microbial imbalance",
+      "head_type": "Microbial Imbalance",
       "relation": "associated with",
       "tail": "obesity",
-      "tail_type": "health condition"
+      "tail_type": "Condition"
     },
     {
       "head": "dysbiosis",
-      "head_type": "microbial imbalance",
+      "head_type": "Microbial Imbalance",
       "relation": "associated with",
       "tail": "metabolic syndrome",
-      "tail_type": "health condition"
+      "tail_type": "Condition"
     },
     {
       "head": "dysbiosis",
-      "head_type": "microbial imbalance",
+      "head_type": "Microbial Imbalance",
       "relation": "associated with",
       "tail": "Type 2 diabetes mellitus",
-      "tail_type": "health condition"
+      "tail_type": "Disease"
     },
     {
       "head": "bariatric surgery",
-      "head_type": "medical procedure",
-      "relation": "altered",
+      "head_type": "Medical Procedure",
+      "relation": "alters",
       "tail": "gut microbial community structure",
-      "tail_type": "microbial community state"
+      "tail_type": "Microbial Community"
     },
     {
       "head": "life adversity during childhood",
-      "head_type": "life event",
+      "head_type": "Environmental Factor",
       "relation": "associated with",
       "tail": "altered gut microbiota",
-      "tail_type": "microbial community state"
+      "tail_type": "Microbial Community"
     },
     {
       "head": "certain temperaments",
-      "head_type": "personality trait",
+      "head_type": "Psychological Trait",
       "relation": "associated with",
       "tail": "altered gut microbiota",
-      "tail_type": "microbial community state"
+      "tail_type": "Microbial Community"
     },
     {
-      "head": "altered gut microbiota",
-      "head_type": "microbial community state",
-      "relation": "particularly",
-      "tail": "Prevotella species",
-      "tail_type": "microbial species"
+      "head": "Prevotella species",
+      "head_type": "Microbial Species",
+      "relation": "linked with",
+      "tail": "altered gut microbiota",
+      "tail_type": "Microbial Community"
     },
     {
       "head": "brain-gut interactions",
-      "head_type": "biological process",
+      "head_type": "Physiological Process",
       "relation": "influenced by",
       "tail": "reduced functional activation of the hippocampus",
-      "tail_type": "biological process"
+      "tail_type": "Neurological Process"
     },
     {
       "head": "brain-gut interactions",
-      "head_type": "biological process",
+      "head_type": "Physiological Process",
       "relation": "influenced by",
       "tail": "autonomic nervous system dysregulation",
-      "tail_type": "biological process"
+      "tail_type": "Neurological Process"
     },
     {
       "head": "probiotics",
-      "head_type": "biological agent",
+      "head_type": "Treatment",
       "relation": "effective in treating",
       "tail": "Clostridium difficile colitis",
-      "tail_type": "infectious disease"
+      "tail_type": "Infection"
     },
     {
       "head": "probiotics",
-      "head_type": "biological agent",
-      "relation": "have inconclusive effects on",
+      "head_type": "Treatment",
+      "relation": "has inconclusive effects on",
       "tail": "mental health",
-      "tail_type": "health aspect"
+      "tail_type": "Health Outcome"
     },
     {
       "head": "probiotics",
-      "head_type": "biological agent",
-      "relation": "have inconclusive effects on",
+      "head_type": "Treatment",
+      "relation": "has inconclusive effects on",
       "tail": "psychophysiological stress reactivity",
-      "tail_type": "physiological response"
+      "tail_type": "Health Outcome"
     },
     {
-      "head": "brain-gut interactions",
-      "head_type": "biological process",
-      "relation": "require",
-      "tail": "holistic, systems-based perspective",
-      "tail_type": "conceptual framework"
-    },
-    {
-      "head": "holistic, systems-based perspective",
-      "head_type": "conceptual framework",
-      "relation": "integrates",
-      "tail": "gut microbial",
-      "tail_type": "microbial community"
-    },
-    {
-      "head": "holistic, systems-based perspective",
-      "head_type": "conceptual framework",
-      "relation": "integrates",
+      "head": "gut microbial",
+      "head_type": "Microbial Community",
+      "relation": "integrates with",
       "tail": "environmental ecology",
-      "tail_type": "environmental system"
+      "tail_type": "Environmental Factor"
     },
     {
-      "head": "more translational research",
-      "head_type": "research effort",
-      "relation": "needed to examine",
+      "head": "prebiotics",
+      "head_type": "Nutrient",
+      "relation": "needs research on",
       "tail": "mental health effects",
-      "tail_type": "health outcome"
+      "tail_type": "Health Outcome"
     },
     {
-      "head": "more translational research",
-      "head_type": "research effort",
-      "relation": "needed to examine",
+      "head": "prebiotics",
+      "head_type": "Nutrient",
+      "relation": "needs research on",
       "tail": "physical health effects",
-      "tail_type": "health outcome"
+      "tail_type": "Health Outcome"
     },
     {
-      "head": "translational research",
-      "head_type": "research effort",
-      "relation": "focuses on",
-      "tail": "prebiotics",
-      "tail_type": "biological agent"
+      "head": "probiotics",
+      "head_type": "Treatment",
+      "relation": "needs research on",
+      "tail": "mental health effects",
+      "tail_type": "Health Outcome"
     },
     {
-      "head": "translational research",
-      "head_type": "research effort",
-      "relation": "focuses on",
-      "tail": "probiotics",
-      "tail_type": "biological agent"
+      "head": "probiotics",
+      "head_type": "Treatment",
+      "relation": "needs research on",
+      "tail": "physical health effects",
+      "tail_type": "Health Outcome"
     }
   ]
 }

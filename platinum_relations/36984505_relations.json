@@ -6,7 +6,14 @@
       "head": "Helicobacter pylori",
       "head_type": "Organism",
       "relation": "implicated in",
-      "tail": "gastric pathologies",
+      "tail": "gastric cancer",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "Helicobacter pylori",
+      "head_type": "Organism",
+      "relation": "implicated in",
+      "tail": "peptic ulcers",
       "tail_type": "Disease"
     },
     {
@@ -19,7 +26,7 @@
     {
       "head": "hyperhomocysteinemia",
       "head_type": "Condition",
-      "relation": "associated with",
+      "relation": "related to",
       "tail": "brain cortical thinning",
       "tail_type": "Condition"
     },
@@ -27,49 +34,35 @@
       "head": "brain cortical thinning",
       "head_type": "Condition",
       "relation": "biomarker for",
-      "tail": "neurodegenerative disorders",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "neurodegenerative disorders",
-      "head_type": "Disease",
-      "relation": "include",
       "tail": "Alzheimer's disease",
       "tail_type": "Disease"
     },
     {
-      "head": "neurodegenerative disorders",
-      "head_type": "Disease",
-      "relation": "include",
+      "head": "brain cortical thinning",
+      "head_type": "Condition",
+      "relation": "biomarker for",
       "tail": "Parkinson's disease",
       "tail_type": "Disease"
     },
     {
-      "head": "neurodegenerative disorders",
-      "head_type": "Disease",
-      "relation": "include",
+      "head": "brain cortical thinning",
+      "head_type": "Condition",
+      "relation": "biomarker for",
       "tail": "multiple sclerosis",
       "tail_type": "Disease"
     },
     {
-      "head": "neurodegenerative disorders",
-      "head_type": "Disease",
-      "relation": "include",
+      "head": "brain cortical thinning",
+      "head_type": "Condition",
+      "relation": "biomarker for",
       "tail": "glaucoma",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "glaucoma",
-      "head_type": "Disease",
-      "relation": "termed as",
-      "tail": "ocular Alzheimer's disease",
       "tail_type": "Disease"
     },
     {
       "head": "Helicobacter pylori",
       "head_type": "Organism",
       "relation": "trigger of",
-      "tail": "neurodegenerative diseases",
+      "tail": "Alzheimer's disease",
       "tail_type": "Disease"
     },
     {
@@ -78,62 +71,6 @@
       "relation": "mediator of",
       "tail": "neurodegenerative diseases",
       "tail_type": "Disease"
-    },
-    {
-      "head": "Helicobacter pylori",
-      "head_type": "Organism",
-      "relation": "related to",
-      "tail": "inflammatory mediators",
-      "tail_type": "Substance"
-    },
-    {
-      "head": "Helicobacter pylori",
-      "head_type": "Organism",
-      "relation": "related to",
-      "tail": "defensins",
-      "tail_type": "Substance"
-    },
-    {
-      "head": "Helicobacter pylori",
-      "head_type": "Organism",
-      "relation": "related to",
-      "tail": "autophagy",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "Helicobacter pylori",
-      "head_type": "Organism",
-      "relation": "related to",
-      "tail": "vitamin D",
-      "tail_type": "Substance"
-    },
-    {
-      "head": "Helicobacter pylori",
-      "head_type": "Organism",
-      "relation": "related to",
-      "tail": "dietary factors",
-      "tail_type": "Substance"
-    },
-    {
-      "head": "Helicobacter pylori",
-      "head_type": "Organism",
-      "relation": "related to",
-      "tail": "probiotics",
-      "tail_type": "Substance"
-    },
-    {
-      "head": "Helicobacter pylori",
-      "head_type": "Organism",
-      "relation": "related to",
-      "tail": "pathogenetic considerations",
-      "tail_type": "Concept"
-    },
-    {
-      "head": "Helicobacter pylori",
-      "head_type": "Organism",
-      "relation": "related to",
-      "tail": "relevant involved genes",
-      "tail_type": "Gene"
     }
   ]
 }

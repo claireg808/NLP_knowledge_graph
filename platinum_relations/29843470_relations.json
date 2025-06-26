@@ -5,65 +5,51 @@
     {
       "head": "Major depression",
       "head_type": "Disease",
-      "relation": "is a",
-      "tail": "leading cause",
-      "tail_type": "Cause"
-    },
-    {
-      "head": "Major depression",
-      "head_type": "Disease",
-      "relation": "associated with",
+      "relation": "contributes_to",
       "tail": "disability",
       "tail_type": "Condition"
     },
     {
       "head": "Major depression",
       "head_type": "Disease",
-      "relation": "associated with",
+      "relation": "contributes_to",
       "tail": "morbidity",
       "tail_type": "Condition"
     },
     {
       "head": "Major depression",
       "head_type": "Disease",
-      "relation": "associated with",
+      "relation": "contributes_to",
       "tail": "mortality",
       "tail_type": "Condition"
     },
     {
-      "head": "Brain\u207bgut axis",
+      "head": "brain-gut axis",
       "head_type": "Biological System",
-      "relation": "functions are disturbed",
-      "tail": "dysfunction",
-      "tail_type": "Condition"
+      "relation": "dysfunction_of",
+      "tail": "brain",
+      "tail_type": "Organ"
     },
     {
-      "head": "Brain",
-      "head_type": "Organ",
-      "relation": "part of",
-      "tail": "brain\u207bgut axis",
+      "head": "brain-gut axis",
+      "head_type": "Biological System",
+      "relation": "dysfunction_of",
+      "tail": "immune system",
       "tail_type": "Biological System"
     },
     {
-      "head": "Immune system",
-      "head_type": "System",
-      "relation": "part of",
-      "tail": "brain\u207bgut axis",
+      "head": "brain-gut axis",
+      "head_type": "Biological System",
+      "relation": "dysfunction_of",
+      "tail": "endocrine system",
       "tail_type": "Biological System"
     },
     {
-      "head": "Endocrine system",
-      "head_type": "System",
-      "relation": "part of",
-      "tail": "brain\u207bgut axis",
-      "tail_type": "Biological System"
-    },
-    {
-      "head": "Gut",
-      "head_type": "Organ",
-      "relation": "part of",
-      "tail": "brain\u207bgut axis",
-      "tail_type": "Biological System"
+      "head": "brain-gut axis",
+      "head_type": "Biological System",
+      "relation": "dysfunction_of",
+      "tail": "gut",
+      "tail_type": "Organ"
     },
     {
       "head": "Traditional depression treatments",
@@ -73,74 +59,53 @@
       "tail_type": "Organ"
     },
     {
-      "head": "Traditional depression treatments",
-      "head_type": "Treatment",
-      "relation": "include",
-      "tail": "drugs",
-      "tail_type": "Medication"
-    },
-    {
-      "head": "Traditional depression treatments",
-      "head_type": "Treatment",
-      "relation": "include",
-      "tail": "psychotherapy",
-      "tail_type": "Therapy"
-    },
-    {
-      "head": "Gut microbiota",
+      "head": "gut microbiota",
       "head_type": "Microbial Community",
-      "relation": "could be a direct cause",
-      "tail": "depression",
+      "relation": "direct_cause_of",
+      "tail": "Major depression",
       "tail_type": "Disease"
     },
     {
-      "head": "Abnormal microbiota",
-      "head_type": "Condition",
-      "relation": "may cause",
+      "head": "abnormal microbiota",
+      "head_type": "Microbial Condition",
+      "relation": "causes",
       "tail": "mental disorders",
       "tail_type": "Disease"
     },
     {
-      "head": "Microbiota\u207bgut\u207bbrain dysfunction",
-      "head_type": "Condition",
-      "relation": "may cause",
+      "head": "microbiota-gut-brain dysfunction",
+      "head_type": "Biological Dysfunction",
+      "relation": "causes",
       "tail": "mental disorders",
       "tail_type": "Disease"
     },
     {
-      "head": "Correcting disturbance",
-      "head_type": "Action",
-      "relation": "could alleviate",
-      "tail": "depression",
+      "head": "correcting disturbance",
+      "head_type": "Therapeutic Intervention",
+      "relation": "alleviates",
+      "tail": "Major depression",
       "tail_type": "Disease"
     },
     {
-      "head": "Gut microbiota modulation",
-      "head_type": "Treatment",
-      "relation": "topic in",
-      "tail": "treatment research",
-      "tail_type": "Research Field"
+      "head": "gut microbiota modulation",
+      "head_type": "Therapeutic Approach",
+      "relation": "topic_in",
+      "tail": "treatment research of mental disorders",
+      "tail_type": "Research Area"
     },
     {
       "head": "Depression",
       "head_type": "Disease",
-      "relation": "related to",
-      "tail": "brain\u207bgut axis health",
+      "relation": "related_to",
+      "tail": "health condition of brain-gut axis",
       "tail_type": "Health Condition"
     },
     {
-      "head": "Maintaining normal gut microbiota",
-      "head_type": "Action",
-      "relation": "helps in",
-      "tail": "prevention",
-      "tail_type": "Preventive Measure"
-    },
-    {
-      "head": "Restoring normal gut microbiota",
-      "head_type": "Action",
-      "relation": "helps in",
-      "tail": "therapy",
-      "tail_type": "Therapeutic Measure"
+      "head": "maintaining/restoring normal condition of gut microbiota",
+      "head_type": "Therapeutic Strategy",
+      "relation": "helps_in",
+      "tail": "prevention/therapy of mental disorders",
+      "tail_type": "Therapeutic Outcome"
     }
   ]
 }

@@ -5,140 +5,112 @@
     {
       "head": "Depression",
       "head_type": "Disease",
-      "relation": "is complication of",
-      "tail": "Polycystic Ovary Syndrome (PCOS)",
+      "relation": "is_complication_of",
+      "tail": "PCOS",
       "tail_type": "Disease"
     },
     {
-      "head": "Gut Microbiomes",
+      "head": "Gut microbiomes",
       "head_type": "Organism",
-      "relation": "associated with",
+      "relation": "associated_with",
       "tail": "Progression of PCOS",
       "tail_type": "Disease Progression"
     },
     {
-      "head": "Gut Microbiomes",
+      "head": "Gut microbiomes",
       "head_type": "Organism",
-      "relation": "associated with",
+      "relation": "associated_with",
       "tail": "Depression",
       "tail_type": "Disease"
     },
     {
-      "head": "Metagenomic Sequencing",
-      "head_type": "Method",
-      "relation": "used for",
-      "tail": "Profiling Fecal Microbiota",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "Transcriptome Sequencing (RNA-seq)",
-      "head_type": "Method",
-      "relation": "used for",
-      "tail": "Gene Expression Profiling",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "PCOS-DP",
-      "head_type": "Patient Group",
-      "relation": "has higher abundance of",
-      "tail": "Ruminococcus torques",
-      "tail_type": "Microbial Species"
-    },
-    {
-      "head": "PCOS-DP",
-      "head_type": "Patient Group",
-      "relation": "has higher abundance of",
-      "tail": "Coprococcus comes",
-      "tail_type": "Microbial Species"
-    },
-    {
-      "head": "PCOS-DP",
-      "head_type": "Patient Group",
-      "relation": "has higher abundance of",
-      "tail": "Megasphaera elsdenii",
-      "tail_type": "Microbial Species"
-    },
-    {
-      "head": "PCOS-DP",
-      "head_type": "Patient Group",
-      "relation": "has higher abundance of",
-      "tail": "Acidaminococcus intestini",
-      "tail_type": "Microbial Species"
-    },
-    {
-      "head": "PCOS-DP",
-      "head_type": "Patient Group",
-      "relation": "has higher abundance of",
-      "tail": "Barnesiella viscericola",
-      "tail_type": "Microbial Species"
-    },
-    {
-      "head": "Bacteroides eggerthii",
-      "head_type": "Microbial Species",
-      "relation": "is biomarker for",
+      "head": "EC Ruminococcus torques",
+      "head_type": "Microbe",
+      "relation": "found_in",
       "tail": "PCOS-DP",
       "tail_type": "Patient Group"
     },
     {
-      "head": "RNA-seq",
-      "head_type": "Method",
-      "relation": "identified",
-      "tail": "Differential Expressed Genes (DEGs)",
-      "tail_type": "Genetic Entity"
+      "head": "Coprococcus comes",
+      "head_type": "Microbe",
+      "relation": "found_in",
+      "tail": "PCOS-DP",
+      "tail_type": "Patient Group"
     },
     {
-      "head": "DEGs",
-      "head_type": "Genetic Entity",
-      "relation": "enriched in",
-      "tail": "Signal Transduction Pathways",
-      "tail_type": "Biological Process"
+      "head": "Megasphaera elsdenii",
+      "head_type": "Microbe",
+      "relation": "found_in",
+      "tail": "PCOS-DP",
+      "tail_type": "Patient Group"
     },
     {
-      "head": "DEGs",
-      "head_type": "Genetic Entity",
-      "relation": "enriched in",
-      "tail": "Endocrine and Metabolic Diseases",
-      "tail_type": "Disease Category"
+      "head": "Acidaminococcus intestini",
+      "head_type": "Microbe",
+      "relation": "found_in",
+      "tail": "PCOS-DP",
+      "tail_type": "Patient Group"
     },
     {
-      "head": "DEGs",
-      "head_type": "Genetic Entity",
-      "relation": "downregulated in",
-      "tail": "Lipid Metabolism Pathways",
-      "tail_type": "Biological Process"
+      "head": "Barnesiella viscericola",
+      "head_type": "Microbe",
+      "relation": "found_in",
+      "tail": "PCOS-DP",
+      "tail_type": "Patient Group"
     },
     {
-      "head": "DEGs",
-      "head_type": "Genetic Entity",
-      "relation": "correlated with",
-      "tail": "Gut Microbiota",
-      "tail_type": "Organism"
-    },
-    {
-      "head": "DEGs",
-      "head_type": "Genetic Entity",
-      "relation": "enriched in",
-      "tail": "Neurodegenerative Diseases",
-      "tail_type": "Disease Category"
-    },
-    {
-      "head": "DEGs",
-      "head_type": "Genetic Entity",
-      "relation": "enriched in",
-      "tail": "Immune System Pathways",
-      "tail_type": "Biological Process"
+      "head": "Bacteroides eggerthii",
+      "head_type": "Microbe",
+      "relation": "biomarker_of",
+      "tail": "PCOS-DP",
+      "tail_type": "Patient Group"
     },
     {
       "head": "CREB3L3",
       "head_type": "Gene",
-      "relation": "is biomarker for",
+      "relation": "biomarker_of",
       "tail": "PCOS-DP",
       "tail_type": "Patient Group"
     },
     {
       "head": "CCDC173",
       "head_type": "Gene",
-      "relation": "is biomarker for",
+      "relation": "biomarker_of",
+      "tail": "PCOS-DP",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "Signal transduction pathways",
+      "head_type": "Biological Process",
+      "relation": "enriched_in",
+      "tail": "PCOS-DP",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "Endocrine and metabolic diseases",
+      "head_type": "Biological Process",
+      "relation": "enriched_in",
+      "tail": "PCOS-DP",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "Lipid metabolism pathways",
+      "head_type": "Biological Process",
+      "relation": "downregulated_in",
+      "tail": "PCOS-DP",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "Neurodegenerative diseases",
+      "head_type": "Biological Process",
+      "relation": "enriched_in",
+      "tail": "PCOS-DP",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "Immune system",
+      "head_type": "Biological Process",
+      "relation": "enriched_in",
       "tail": "PCOS-DP",
       "tail_type": "Patient Group"
     }

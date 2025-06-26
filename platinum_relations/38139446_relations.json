@@ -3,29 +3,29 @@
   "abstract": "Excessive predominance of pathological species in the gut microbiota could increase the production of inflammatory mediators at the gut level and, via modification of the gut-blood barrier, at the systemic level. This pro-inflammatory state could, in turn, increase biological aging that is generally proxied by telomere shortening. In this study, we present findings from a secondary interaction analysis of gut microbiota, aging, and inflammatory marker data from a cohort of patients with different diagnoses of severe mental disorders. We analyzed 15 controls, 35 patients with schizophrenia (SCZ), and 31 patients with major depressive disorder (MDD) recruited among those attending a community mental health center (50 males and 31 females, mean and median age 46.8 and 46.3 years, respectively). We performed 16S rRNA sequencing as well as measurement of telomere length via quantitative fluorescence in situ hybridization and high-sensitivity C-reactive protein. We applied statistical modeling with logistic regression to test for interaction between gut microbiota and these markers. Our results showed statistically significant interactions between telomere length and gut microbiota pointing to the genus <i>Lachnostridium</i>, which remained significantly associated with a reduced likelihood of MDD even after adjustment for a series of covariates. Although exploratory, these findings show that specific gut microbiota signatures overexpressing <i>Lachnoclostridium</i> and interacting with biological aging could modulate the liability for MDD.",
   "relations": [
     {
-      "head": "gut microbiota",
-      "head_type": "Biological Entity",
-      "relation": "increases production of",
-      "tail": "inflammatory mediators",
-      "tail_type": "Biological Entity"
+      "head": "Excessive predominance of pathological species",
+      "head_type": "Condition",
+      "relation": "increases",
+      "tail": "production of inflammatory mediators",
+      "tail_type": "Biological Process"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "Biological Entity",
-      "relation": "modifies",
-      "tail": "gut-blood barrier",
-      "tail_type": "Biological Entity"
+      "head": "inflammatory mediators",
+      "head_type": "Biological Process",
+      "relation": "affect",
+      "tail": "gut level",
+      "tail_type": "Anatomical Location"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "Biological Entity",
-      "relation": "contributes to",
-      "tail": "pro-inflammatory state",
-      "tail_type": "Biological State"
+      "head": "inflammatory mediators",
+      "head_type": "Biological Process",
+      "relation": "affect",
+      "tail": "systemic level",
+      "tail_type": "Anatomical Location"
     },
     {
       "head": "pro-inflammatory state",
-      "head_type": "Biological State",
+      "head_type": "Condition",
       "relation": "increases",
       "tail": "biological aging",
       "tail_type": "Biological Process"
@@ -39,45 +39,45 @@
     },
     {
       "head": "gut microbiota",
-      "head_type": "Biological Entity",
+      "head_type": "Organism",
       "relation": "interacts with",
       "tail": "aging",
       "tail_type": "Biological Process"
     },
     {
       "head": "gut microbiota",
-      "head_type": "Biological Entity",
+      "head_type": "Organism",
       "relation": "interacts with",
       "tail": "inflammatory markers",
       "tail_type": "Biological Marker"
     },
     {
       "head": "gut microbiota",
-      "head_type": "Biological Entity",
-      "relation": "is associated with",
-      "tail": "reduced likelihood of MDD",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "Lachnoclostridium",
-      "head_type": "Microbial Genus",
-      "relation": "overexpresses",
-      "tail": "gut microbiota",
-      "tail_type": "Biological Entity"
-    },
-    {
-      "head": "Lachnoclostridium",
-      "head_type": "Microbial Genus",
+      "head_type": "Organism",
       "relation": "interacts with",
-      "tail": "biological aging",
-      "tail_type": "Biological Process"
+      "tail": "telomere length",
+      "tail_type": "Biological Marker"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Organism",
+      "relation": "interacts with",
+      "tail": "high-sensitivity C-reactive protein",
+      "tail_type": "Biological Marker"
     },
     {
       "head": "Lachnoclostridium",
       "head_type": "Microbial Genus",
-      "relation": "modulates",
+      "relation": "associated with",
+      "tail": "reduced likelihood of MDD",
+      "tail_type": "Disease Outcome"
+    },
+    {
+      "head": "gut microbiota signatures",
+      "head_type": "Organism",
+      "relation": "modulate",
       "tail": "liability for MDD",
-      "tail_type": "Disease"
+      "tail_type": "Disease Outcome"
     }
   ]
 }

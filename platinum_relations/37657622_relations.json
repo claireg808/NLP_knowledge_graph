@@ -4,94 +4,94 @@
   "relations": [
     {
       "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "associated with",
-      "tail": "pathogenesis of major depressive disorder",
-      "tail_type": "disease process"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "affects",
+      "head_type": "Biological Entity",
+      "relation": "has association with",
       "tail": "cognitive function",
-      "tail_type": "cognitive process"
+      "tail_type": "Cognitive Function"
     },
     {
       "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "has abundance differences in",
-      "tail": "Bifidobacterium",
-      "tail_type": "bacterial genus"
+      "head_type": "Biological Entity",
+      "relation": "has association with",
+      "tail": "major depressive disorder",
+      "tail_type": "Disease"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "has abundance differences in",
-      "tail": "Blautia",
-      "tail_type": "bacterial genus"
+      "head": "Bifidobacterium",
+      "head_type": "Microbial Strain",
+      "relation": "has difference in abundance",
+      "tail": "patients with MDD",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "Blautia",
+      "head_type": "Microbial Strain",
+      "relation": "has difference in abundance",
+      "tail": "patients with MDD",
+      "tail_type": "Patient Group"
     },
     {
       "head": "bin_32",
-      "head_type": "microbial strain",
-      "relation": "significantly increased in",
+      "head_type": "Microbial Strain",
+      "relation": "is increased in",
       "tail": "patients with MDD",
-      "tail_type": "patient group"
+      "tail_type": "Patient Group"
     },
     {
       "head": "bin_55",
-      "head_type": "microbial strain",
-      "relation": "significantly increased in",
+      "head_type": "Microbial Strain",
+      "relation": "is increased in",
       "tail": "patients with MDD",
-      "tail_type": "patient group"
+      "tail_type": "Patient Group"
     },
     {
       "head": "bin_31",
-      "head_type": "microbial strain",
-      "relation": "significantly decreased in",
+      "head_type": "Microbial Strain",
+      "relation": "is decreased in",
       "tail": "patients with MDD",
-      "tail_type": "patient group"
+      "tail_type": "Patient Group"
     },
     {
-      "head": "time to complete the Stroop-C",
-      "head_type": "cognitive task",
-      "relation": "has significant negative correlation with",
-      "tail": "bin_31",
-      "tail_type": "microbial strain"
-    },
-    {
-      "head": "time to complete the Stroop-C",
-      "head_type": "cognitive task",
-      "relation": "has significant negative correlation with",
-      "tail": "bin_32",
-      "tail_type": "microbial strain"
-    },
-    {
-      "head": "bin_55",
-      "head_type": "microbial strain",
-      "relation": "has significant negative correlation with",
+      "head": "bin_31",
+      "head_type": "Microbial Strain",
+      "relation": "has negative correlation with",
       "tail": "time to complete the Stroop-C",
-      "tail_type": "cognitive task"
+      "tail_type": "Cognitive Test Measure"
+    },
+    {
+      "head": "bin_32",
+      "head_type": "Microbial Strain",
+      "relation": "has negative correlation with",
+      "tail": "time to complete the Stroop-C",
+      "tail_type": "Cognitive Test Measure"
     },
     {
       "head": "bin_55",
-      "head_type": "microbial strain",
-      "relation": "has significant negative correlation with",
+      "head_type": "Microbial Strain",
+      "relation": "has negative correlation with",
+      "tail": "time to complete the Stroop-C",
+      "tail_type": "Cognitive Test Measure"
+    },
+    {
+      "head": "bin_55",
+      "head_type": "Microbial Strain",
+      "relation": "has negative correlation with",
       "tail": "time to complete the Stroop-CW",
-      "tail_type": "cognitive task"
+      "tail_type": "Cognitive Test Measure"
     },
     {
       "head": "bin_55",
-      "head_type": "microbial strain",
-      "relation": "has significant negative correlation with",
-      "tail": "repeated animal words in 60\u00a0s",
-      "tail_type": "cognitive task"
+      "head_type": "Microbial Strain",
+      "relation": "has negative correlation with",
+      "tail": "repeated animal words in 60s",
+      "tail_type": "Cognitive Test Measure"
     },
     {
       "head": "bin_55",
-      "head_type": "microbial strain",
-      "relation": "has significant positive correlation with",
-      "tail": "correct answers in 120\u00a0s on the Stroop-CW",
-      "tail_type": "cognitive task"
+      "head_type": "Microbial Strain",
+      "relation": "has positive correlation with",
+      "tail": "correct answers in 120s on the Stroop-CW",
+      "tail_type": "Cognitive Test Measure"
     }
   ]
 }

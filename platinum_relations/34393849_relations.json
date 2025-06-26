@@ -1,55 +1,76 @@
 {
-  "title": "Association Between Abundance of Haemophilus in the Gut Microbiota and Negative Symptoms of Schizophrenia",
-  "abstract": "Increasing evidence indicates an interaction between dysbiosis of the microbiota and the pathogenesis of schizophrenia. However, limited information is available on the specific microbial communities associated with symptoms of schizophrenia. Therefore, this study aimed to investigate gut microbiota dysbiosis and its relationship with psychopathologies in schizophrenia. We recruited 126 participants and divided them into three groups according to the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, criteria-acute group (patients with acute schizophrenia), remission group (patients with schizophrenia in remission), and control group (healthy controls). Psychotic symptoms were evaluated using the Positive and Negative Syndrome Scale. Microbiota compositions, diversity and community structure were evaluated using 16S rRNA sequencing. Pearson's correlation analysis was used to evaluate the association between bacterial taxa and psychotic symptoms. The beta-diversity of microbiota composition in the acute group was distinct from that in the remission and control groups (PC1 = 21.11% vs. PC2 = 12.86%, P = 0.021). Furthermore, Pearson's correlation analysis revealed that abundance of Haemophilu s was positively correlated with negative psychiatric symptoms (r = 0.303, P = 0.021), while abundance of Coprococcus was negatively correlated with negative psychiatric symptoms (r = -0.285, P = 0.025). Moreover, abundance of Haemophilus was positively correlated with cognition (r = 0.428, P = 0.009), excitement (r = 0.266, P = 0.037), and depression (r = 0.295, P = 0.020). The study findings suggest that alterations in certain gut microbiota may interfere with psychological symptoms in schizophrenia. Our results provide evidence that may help in the development of therapeutic strategies using microbial-based targets. The data that support the findings of this study have been deposited in the NCBI (https://submit.ncbi.nlm.nih.gov/) with accession number SUB9453991.",
+  "title": "Association Between Abundance of <i>Haemophilus</i> in the Gut Microbiota and Negative Symptoms of Schizophrenia",
+  "abstract": "Increasing evidence indicates an interaction between dysbiosis of the microbiota and the pathogenesis of schizophrenia. However, limited information is available on the specific microbial communities associated with symptoms of schizophrenia. Therefore, this study aimed to investigate gut microbiota dysbiosis and its relationship with psychopathologies in schizophrenia. We recruited 126 participants and divided them into three groups according to the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, criteria-acute group (patients with acute schizophrenia), remission group (patients with schizophrenia in remission), and control group (healthy controls). Psychotic symptoms were evaluated using the Positive and Negative Syndrome Scale. Microbiota compositions, diversity and community structure were evaluated using 16S rRNA sequencing. Pearson's correlation analysis was used to evaluate the association between bacterial taxa and psychotic symptoms. The beta-diversity of microbiota composition in the acute group was distinct from that in the remission and control groups (PC1 = 21.11% vs. PC2 = 12.86%, <i>P</i> = 0.021). Furthermore, Pearson's correlation analysis revealed that abundance of <i>Haemophilu</i>s was positively correlated with negative psychiatric symptoms (<i>r</i> = 0.303, <i>P</i> = 0.021), while abundance of <i>Coprococcus</i> was negatively correlated with negative psychiatric symptoms (<i>r</i> = -<i>0.285, P</i> = <i>0.025</i>). Moreover, abundance of <i>Haemophilus</i> was positively correlated with cognition (<i>r</i> = 0.428, <i>P</i> = 0.009), excitement (<i>r</i> = 0.266, <i>P</i> = 0.037), and depression (<i>r</i> = 0.295, <i>P</i> = 0.020). The study findings suggest that alterations in certain gut microbiota may interfere with psychological symptoms in schizophrenia. Our results provide evidence that may help in the development of therapeutic strategies using microbial-based targets. The data that support the findings of this study have been deposited in the NCBI (https://submit.ncbi.nlm.nih.gov/) with accession number SUB9453991.",
   "relations": [
     {
       "head": "Haemophilus",
-      "head_type": "Bacteria",
+      "head_type": "Bacterial Taxon",
       "relation": "is positively correlated with",
       "tail": "negative psychiatric symptoms",
       "tail_type": "Psychiatric Symptoms"
     },
     {
       "head": "Coprococcus",
-      "head_type": "Bacteria",
+      "head_type": "Bacterial Taxon",
       "relation": "is negatively correlated with",
       "tail": "negative psychiatric symptoms",
       "tail_type": "Psychiatric Symptoms"
     },
     {
       "head": "Haemophilus",
-      "head_type": "Bacteria",
+      "head_type": "Bacterial Taxon",
       "relation": "is positively correlated with",
       "tail": "cognition",
       "tail_type": "Cognitive Function"
     },
     {
       "head": "Haemophilus",
-      "head_type": "Bacteria",
+      "head_type": "Bacterial Taxon",
       "relation": "is positively correlated with",
       "tail": "excitement",
-      "tail_type": "Emotional State"
+      "tail_type": "Psychiatric Symptoms"
     },
     {
       "head": "Haemophilus",
-      "head_type": "Bacteria",
+      "head_type": "Bacterial Taxon",
       "relation": "is positively correlated with",
       "tail": "depression",
-      "tail_type": "Mental Health Condition"
+      "tail_type": "Mental Disorder"
     },
     {
       "head": "Gut Microbiota",
       "head_type": "Microbial Community",
-      "relation": "associated with",
-      "tail": "Psychopathologies in Schizophrenia",
-      "tail_type": "Psychiatric Disorders"
+      "relation": "alters",
+      "tail": "psychological symptoms",
+      "tail_type": "Psychological Symptoms"
     },
     {
-      "head": "Abundance of Haemophilus",
-      "head_type": "Bacterial Abundance",
-      "relation": "interferes with",
-      "tail": "Psychological Symptoms",
-      "tail_type": "Symptoms"
+      "head": "Gut Microbiota",
+      "head_type": "Microbial Community",
+      "relation": "is associated with",
+      "tail": "schizophrenia",
+      "tail_type": "Mental Disorder"
+    },
+    {
+      "head": "16S rRNA sequencing",
+      "head_type": "Sequencing Method",
+      "relation": "evaluates",
+      "tail": "microbiota compositions",
+      "tail_type": "Microbial Community"
+    },
+    {
+      "head": "Positive and Negative Syndrome Scale",
+      "head_type": "Assessment Tool",
+      "relation": "evaluates",
+      "tail": "psychotic symptoms",
+      "tail_type": "Psychiatric Symptoms"
+    },
+    {
+      "head": "NCBI",
+      "head_type": "Database",
+      "relation": "contains",
+      "tail": "data",
+      "tail_type": "Research Data"
     }
   ]
 }

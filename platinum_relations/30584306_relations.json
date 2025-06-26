@@ -1,0 +1,48 @@
+{
+  "title": "Possible association of Firmicutes in the gut microbiota of patients with major depressive disorder",
+  "abstract": "Gut microbiota can affect human behavior and mood in many ways. Several studies have shown that patients with depression were also accompanied with gut microbiota disorder, in which Firmicutes are related to the protective function of intestinal barrier. In this study, we explore the changes and effects of Firmicutes in the patients with major depressive disorder (MDD). We recruited 54 subjects, including 27 patients with MDD. Fecal samples were collected for identification by 16S rRNA sequencing and bioinformatics analysis. The study shows that the alpha diversity indices of MDD patients are lower than those of the healthy controls. Firmicutes is the most significantly decreased phylum in the MDD samples. There are totally 13 taxonomic biomarkers with <i>P</i>-value <0.01 from Firmicutes. There are differences in 17 KEGG pathways between the two groups. This study found that there is a significant disorder of gut microbiota in the patients with depression, in which the Firmicutes decreased significantly. Defects of the Firmicutes may lead to the depression in short-chain fatty acids, which could account for the physiological basis of low-level inflammation of depression. This is a cross-sectional study and the sample size is comparatively small. Though several diet-related factors were controlled in the study, there is no quantified assessment of it.",
+  "relations": [
+    {
+      "head": "Gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "affects",
+      "tail": "human behavior and mood",
+      "tail_type": "Behavioral Trait"
+    },
+    {
+      "head": "patients with depression",
+      "head_type": "Patient Group",
+      "relation": "have",
+      "tail": "gut microbiota disorder",
+      "tail_type": "Medical Condition"
+    },
+    {
+      "head": "Firmicutes",
+      "head_type": "Microbial Phylum",
+      "relation": "related to",
+      "tail": "protective function of intestinal barrier",
+      "tail_type": "Physiological Function"
+    },
+    {
+      "head": "Firmicutes",
+      "head_type": "Microbial Phylum",
+      "relation": "decreased in",
+      "tail": "patients with major depressive disorder",
+      "tail_type": "Patient Group"
+    },
+    {
+      "head": "Firmicutes",
+      "head_type": "Microbial Phylum",
+      "relation": "associated with",
+      "tail": "short-chain fatty acids",
+      "tail_type": "Biochemical Compound"
+    },
+    {
+      "head": "Firmicutes",
+      "head_type": "Microbial Phylum",
+      "relation": "linked to",
+      "tail": "low-level inflammation",
+      "tail_type": "Inflammatory Response"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "title": "Underlying Mechanisms of Brain Aging and Neurodegenerative Diseases as Potential Targets for Preventive or Therapeutic Strategies Using Phytochemicals",
+  "abstract": "During aging, several tissues and biological systems undergo a progressive decline in function, leading to age-associated diseases such as neurodegenerative, inflammatory, metabolic, and cardiovascular diseases and cancer. In this review, we focus on the molecular underpinning of senescence and neurodegeneration related to age-associated brain diseases, in particular, Alzheimer's and Parkinson's diseases, along with introducing nutrients or phytochemicals that modulate age-associated molecular dysfunctions, potentially offering preventive or therapeutic benefits. Based on current knowledge, the dysregulation of microglia genes and neuroinflammation, telomere attrition, neuronal stem cell degradation, vascular system dysfunction, reactive oxygen species, loss of chromosome X inactivation in females, and gut microbiome dysbiosis have been seen to play pivotal roles in neurodegeneration in an interactive manner. There are several phytochemicals (e.g., curcumin, EGCG, fucoidan, galangin, astin C, apigenin, resveratrol, phytic acid, acacetin, daucosterol, silibinin, sulforaphane, withaferin A, and betulinic acid) that modulate the dysfunction of one or several key genes (e.g., TREM2, C3, C3aR1, TNFA, NF-kb, TGFB1&2, SIRT1&6, HMGB1, and STING) affected in the aged brain. Although phytochemicals have shown promise in slowing down the progression of age-related brain diseases, more studies to identify their efficacy, alone or in combinations, in preclinical systems can help to design novel nutritional strategies for the management of neurodegenerative diseases in humans.",
+  "relations": [
+    {
+      "head": "aging",
+      "head_type": "Process",
+      "relation": "leads to",
+      "tail": "neurodegenerative diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "aging",
+      "head_type": "Process",
+      "relation": "leads to",
+      "tail": "inflammatory diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "aging",
+      "head_type": "Process",
+      "relation": "leads to",
+      "tail": "metabolic diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "aging",
+      "head_type": "Process",
+      "relation": "leads to",
+      "tail": "cardiovascular diseases",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "aging",
+      "head_type": "Process",
+      "relation": "leads to",
+      "tail": "cancer",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "dysfunction of key genes",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "microglia genes",
+      "tail_type": "Gene"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "neuroinflammation",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "telomere attrition",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "neuronal stem cell degradation",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "vascular system dysfunction",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "reactive oxygen species",
+      "tail_type": "Molecule"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "chromosome X inactivation",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "gut microbiome dysbiosis",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "TREM2",
+      "tail_type": "Gene"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "C3",
+      "tail_type": "Gene"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "C3aR1",
+      "tail_type": "Gene"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "TNFA",
+      "tail_type": "Gene"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "NF-kb",
+      "tail_type": "Gene"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "TGFB1&2",
+      "tail_type": "Gene"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "SIRT1&6",
+      "tail_type": "Gene"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "HMGB1",
+      "tail_type": "Gene"
+    },
+    {
+      "head": "phytochemicals",
+      "head_type": "Substance",
+      "relation": "modulate",
+      "tail": "STING",
+      "tail_type": "Gene"
+    }
+  ]
+}

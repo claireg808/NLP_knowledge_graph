@@ -5,9 +5,30 @@
     {
       "head": "Inflammation",
       "head_type": "Biological Process",
-      "relation": "is a response to",
+      "relation": "is a",
+      "tail": "Biological response",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "Inflammation",
+      "head_type": "Biological Process",
+      "relation": "caused by",
       "tail": "Activation of the immune system",
       "tail_type": "Biological Process"
+    },
+    {
+      "head": "Activation of the immune system",
+      "head_type": "Biological Process",
+      "relation": "triggered by",
+      "tail": "Infectious agents",
+      "tail_type": "Agent"
+    },
+    {
+      "head": "Activation of the immune system",
+      "head_type": "Biological Process",
+      "relation": "triggered by",
+      "tail": "Non-infectious agents",
+      "tail_type": "Agent"
     },
     {
       "head": "Gut commensal bacteria",
@@ -20,36 +41,85 @@
       "head": "Gut commensal bacteria",
       "head_type": "Organism",
       "relation": "display",
-      "tail": "Critical function in homeostasis",
-      "tail_type": "Biological Function"
+      "tail": "Critical function",
+      "tail_type": "Function"
+    },
+    {
+      "head": "Critical function",
+      "head_type": "Function",
+      "relation": "pertains to",
+      "tail": "Host immune system homeostasis",
+      "tail_type": "Biological Process"
     },
     {
       "head": "Disturbance to gut microbiota",
-      "head_type": "Condition",
+      "head_type": "Disruption",
       "relation": "leads to",
       "tail": "Immune dysfunction",
       "tail_type": "Condition"
     },
     {
-      "head": "Disturbance to gut microbiota",
+      "head": "Immune dysfunction",
       "head_type": "Condition",
+      "relation": "affects",
+      "tail": "Locally",
+      "tail_type": "Location"
+    },
+    {
+      "head": "Immune dysfunction",
+      "head_type": "Condition",
+      "relation": "affects",
+      "tail": "Distant sites",
+      "tail_type": "Location"
+    },
+    {
+      "head": "Disturbance to gut microbiota",
+      "head_type": "Disruption",
       "relation": "causes",
       "tail": "Inflammatory conditions",
-      "tail_type": "Disease"
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Inflammatory conditions",
+      "head_type": "Condition",
+      "relation": "occur in",
+      "tail": "Intestine",
+      "tail_type": "Anatomical Structure"
+    },
+    {
+      "head": "Inflammatory conditions",
+      "head_type": "Condition",
+      "relation": "occur in",
+      "tail": "Lungs",
+      "tail_type": "Anatomical Structure"
+    },
+    {
+      "head": "Inflammatory conditions",
+      "head_type": "Condition",
+      "relation": "occur in",
+      "tail": "Brain",
+      "tail_type": "Anatomical Structure"
+    },
+    {
+      "head": "Disturbance to gut microbiota",
+      "head_type": "Disruption",
+      "relation": "may induce",
+      "tail": "Disease state",
+      "tail_type": "Condition"
     },
     {
       "head": "Probiotics",
       "head_type": "Substance",
       "relation": "reinforce",
       "tail": "Immunity",
-      "tail_type": "Biological Function"
+      "tail_type": "Biological Process"
     },
     {
       "head": "Probiotics",
       "head_type": "Substance",
       "relation": "counteract",
       "tail": "Inflammation",
-      "tail_type": "Biological Process"
+      "tail_type": "Condition"
     },
     {
       "head": "Probiotics",
@@ -75,16 +145,16 @@
     {
       "head": "Probiotics",
       "head_type": "Substance",
-      "relation": "support beneficial role in",
+      "relation": "benefit",
       "tail": "Lung health",
-      "tail_type": "Organ Function"
+      "tail_type": "Health Aspect"
     },
     {
       "head": "Probiotics",
       "head_type": "Substance",
-      "relation": "support beneficial role in",
+      "relation": "benefit",
       "tail": "Mental health",
-      "tail_type": "Health Condition"
+      "tail_type": "Health Aspect"
     },
     {
       "head": "Probiotics",
@@ -103,44 +173,51 @@
     {
       "head": "Probiotics",
       "head_type": "Substance",
-      "relation": "treat",
+      "relation": "discussed for treatment of",
       "tail": "Viral respiratory infections",
       "tail_type": "Disease"
     },
     {
-      "head": "Probiotics",
-      "head_type": "Substance",
-      "relation": "treat",
+      "head": "Viral respiratory infections",
+      "head_type": "Disease",
+      "relation": "include",
       "tail": "COVID-19 disease",
       "tail_type": "Disease"
     },
     {
-      "head": "Probiotics",
-      "head_type": "Substance",
-      "relation": "treat",
+      "head": "COVID-19 disease",
+      "head_type": "Disease",
+      "relation": "is a",
+      "tail": "Major public health crisis",
+      "tail_type": "Crisis"
+    },
+    {
+      "head": "Viral respiratory infections",
+      "head_type": "Disease",
+      "relation": "include",
       "tail": "Influenza virus infection",
       "tail_type": "Disease"
     },
     {
       "head": "Probiotics",
       "head_type": "Substance",
-      "relation": "treat",
+      "relation": "discussed for treatment of",
       "tail": "Neurological disorders",
       "tail_type": "Disease"
     },
     {
-      "head": "Probiotics",
-      "head_type": "Substance",
-      "relation": "treat",
+      "head": "Neurological disorders",
+      "head_type": "Disease",
+      "relation": "include",
       "tail": "Multiple sclerosis",
       "tail_type": "Disease"
     },
     {
-      "head": "Probiotics",
-      "head_type": "Substance",
-      "relation": "treat",
+      "head": "Neurological disorders",
+      "head_type": "Disease",
+      "relation": "include",
       "tail": "Mental illnesses",
-      "tail_type": "Health Condition"
+      "tail_type": "Disease"
     }
   ]
 }

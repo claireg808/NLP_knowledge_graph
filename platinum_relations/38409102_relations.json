@@ -1,0 +1,118 @@
+{
+  "title": "Microbial composition, functionality, and stress resilience or susceptibility: unraveling sex-specific patterns.",
+  "abstract": "Following exposure to traumatic stress, women are twice as likely as men to develop mood disorders. Yet, individual responses to such stress vary, with some people developing stress-induced psychopathologies while others exhibit resilience. The factors influencing sex-related disparities in affective disorders as well as variations in resilience remain unclear; however, emerging evidence suggests differences in the gut microbiota play a role. In this study, using the single prolonged stress (SPS) model of post-traumatic stress disorder, we investigated pre- and post-existing differences in microbial composition, functionality, and metabolites that affect stress susceptibility or resilience in each sex. Male and female Sprague-Dawley rats were randomly assigned to control or SPS groups. Two weeks following SPS, the animals were exposed to a battery of behavioral tests and decapitated a day later. Based on their anxiety index, they were further categorized as SPS-resilient (SPS-R) or SPS-susceptible (SPS-S). On the day of dissection, cecum, and selected brain tissues were isolated. Stool samples were collected before and after SPS, whereas urine samples were taken before and 30\u00a0min into the SPS. Before SPS exposure, the sympathoadrenal axis exhibited alterations within male subgroups only. Expression of tight junction protein claudin-5 was lower in brain of SPS-S males, but higher in SPS-R females following SPS. Across the study, alpha diversity remained consistently lower in males compared to females. Beta diversity revealed distinct separations between male and female susceptible groups before SPS, with this separation becoming evident in the resilient groups following SPS. At the genus level, Lactobacillus, Lachnospiraceae_Incertae_Sedis, and Barnesiella exhibited sex-specific alterations, displaying opposing abundances in each sex. Additionally, sex-specific changes were observed in microbial predictive functionality and targeted functional modules both before and after SPS. Alterations in the microbial short-chain fatty acids (SCFAs), were also observed, with major and minor SCFAs being lower in SPS-susceptible males whereas branched-chain SCFAs being higher in SPS-susceptible females. This study highlights distinct pre- and post-trauma differences in microbial composition, functionality, and metabolites, associated with stress resilience in male and female rats. The findings underscore the importance of developing sex-specific therapeutic strategies to effectively address stress-related disorders. Highlights SPS model induces divergent anxiety and social behavioral responses to traumatic stress in both male and female rodents. SPS-resilient females displayed less anxiety-like behavior and initiated more interactions towards a juvenile rat than SPS-resilient males. Sex-specific pre-existing and SPS-induced differences in the gut microbial composition and predictive functionality were observed in susceptible and resilient rats. SPS-resilient males displayed elevated cecal acetate levels, whereas SPS-susceptible females exhibited heightened branched-chain SCFAs.",
+  "relations": [
+    {
+      "head": "women",
+      "head_type": "Demographic",
+      "relation": "more likely to develop",
+      "tail": "mood disorders",
+      "tail_type": "Health Condition"
+    },
+    {
+      "head": "traumatic stress",
+      "head_type": "Stress Type",
+      "relation": "leads to",
+      "tail": "mood disorders",
+      "tail_type": "Health Condition"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Biological Entity",
+      "relation": "influences",
+      "tail": "sex-related disparities",
+      "tail_type": "Health Disparity"
+    },
+    {
+      "head": "single prolonged stress (SPS) model",
+      "head_type": "Research Model",
+      "relation": "investigates",
+      "tail": "microbial composition",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "Sprague-Dawley rats",
+      "head_type": "Research Subject",
+      "relation": "assigned to",
+      "tail": "control or SPS groups",
+      "tail_type": "Experimental Group"
+    },
+    {
+      "head": "SPS exposure",
+      "head_type": "Experimental Condition",
+      "relation": "alters",
+      "tail": "sympathoadrenal axis",
+      "tail_type": "Biological System"
+    },
+    {
+      "head": "SPS-S males",
+      "head_type": "Experimental Group",
+      "relation": "has lower",
+      "tail": "claudin-5 expression",
+      "tail_type": "Biological Marker"
+    },
+    {
+      "head": "SPS-R females",
+      "head_type": "Experimental Group",
+      "relation": "has higher",
+      "tail": "claudin-5 expression",
+      "tail_type": "Biological Marker"
+    },
+    {
+      "head": "alpha diversity",
+      "head_type": "Biodiversity Metric",
+      "relation": "is lower in",
+      "tail": "males",
+      "tail_type": "Demographic"
+    },
+    {
+      "head": "beta diversity",
+      "head_type": "Biodiversity Metric",
+      "relation": "shows separation between",
+      "tail": "susceptible groups",
+      "tail_type": "Experimental Group"
+    },
+    {
+      "head": "Lactobacillus",
+      "head_type": "Microbial Genus",
+      "relation": "shows sex-specific alterations",
+      "tail": "gut microbiota",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "SPS-susceptible males",
+      "head_type": "Experimental Group",
+      "relation": "has lower",
+      "tail": "SCFAs",
+      "tail_type": "Metabolite"
+    },
+    {
+      "head": "SPS-susceptible females",
+      "head_type": "Experimental Group",
+      "relation": "has higher",
+      "tail": "branched-chain SCFAs",
+      "tail_type": "Metabolite"
+    },
+    {
+      "head": "SPS model",
+      "head_type": "Research Model",
+      "relation": "induces",
+      "tail": "anxiety",
+      "tail_type": "Behavioral Response"
+    },
+    {
+      "head": "SPS-resilient females",
+      "head_type": "Experimental Group",
+      "relation": "display",
+      "tail": "less anxiety-like behavior",
+      "tail_type": "Behavioral Response"
+    },
+    {
+      "head": "SPS-resilient males",
+      "head_type": "Experimental Group",
+      "relation": "display",
+      "tail": "elevated cecal acetate levels",
+      "tail_type": "Metabolite"
+    }
+  ]
+}

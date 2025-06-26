@@ -19,30 +19,58 @@
     {
       "head": "voluntary wheel running",
       "head_type": "activity",
-      "relation": "changes",
-      "tail": "brain inflammatory activity",
-      "tail_type": "physiological process"
+      "relation": "affects",
+      "tail": "mental health",
+      "tail_type": "health aspect"
     },
     {
       "head": "voluntary wheel running",
       "head_type": "activity",
       "relation": "changes",
-      "tail": "cecal microbiota composition",
-      "tail_type": "microbiota composition"
+      "tail": "gut microbiota",
+      "tail_type": "microbial community"
     },
     {
       "head": "voluntary wheel running",
       "head_type": "activity",
-      "relation": "changes",
-      "tail": "inferred microbiota function",
-      "tail_type": "microbiota function"
+      "relation": "influences",
+      "tail": "immune system",
+      "tail_type": "biological system"
     },
     {
       "head": "voluntary wheel running",
       "head_type": "activity",
-      "relation": "reduces",
-      "tail": "jejunal expression of pro-inflammatory markers",
-      "tail_type": "gene expression"
+      "relation": "impacts",
+      "tail": "brain function",
+      "tail_type": "neurological function"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "microbial community",
+      "relation": "influences",
+      "tail": "mental health",
+      "tail_type": "health aspect"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "microbial community",
+      "relation": "affects",
+      "tail": "immune system",
+      "tail_type": "biological system"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "microbial community",
+      "relation": "interacts with",
+      "tail": "brain",
+      "tail_type": "neurological structure"
+    },
+    {
+      "head": "sex",
+      "head_type": "biological characteristic",
+      "relation": "modulates",
+      "tail": "response to exercise",
+      "tail_type": "physiological response"
     }
   ]
 }

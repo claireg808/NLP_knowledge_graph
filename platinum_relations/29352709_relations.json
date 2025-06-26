@@ -3,130 +3,172 @@
   "abstract": "With the advent of sequencing technology, characterization of schizophrenia with underlying probing of gut microbiome can provide abundant clues for diagnosis and prognosis of schizophrenia. In this study, we first compared the difference of gut microbiota between schizophrenia patients and healthy controls by 16S rRNA sequencing. We further explored whether gut microbiota can be used as a biomarker to assist in the diagnosis of schizophrenia. We restricted inclusion criteria strictly to control confounding bias. Finally, we investigated differences in fecal microbiota between 64 schizophrenia patients and 53 healthy controls. At the phylum level, we found that the abundance of Proteobacteria in the schizophrenia patients was significantly increased. At the genus level, the relative abundance of Succinivibrio, Megasphaera, Collinsella, Clostridium, Klebsiella and Methanobrevibacter was significantly higher whereas the abundance of Blautia, Coprococcus, Roseburia was decreased compared to health controls. The receiver operating characteristic curve analysis demonstrated that 12 significant microbiota biomarkers were capable of being used as diagnostic factors for distinguishing the schizophrenia cohort from those in the control cohort (AUC\u202f=\u202f0.837). We performed PICRUSt analysis and found that several metabolic pathways differed significantly between healthy controls and schizophrenia patients, including vitamin B6 and fatty acid. In conclusion, there are some difference of gut microbiota between schizophrenia patients and healthy controls and the insights from this study could be used to develop microbiota-based diagnosis for schizophrenia.",
   "relations": [
     {
-      "head": "gut microbiota",
-      "head_type": "microbiota",
-      "relation": "associated_with",
+      "head": "gut microbiome",
+      "head_type": "biological entity",
+      "relation": "characterizes",
       "tail": "schizophrenia",
-      "tail_type": "disease"
+      "tail_type": "mental disorder"
     },
     {
       "head": "gut microbiota",
-      "head_type": "microbiota",
-      "relation": "used_for",
-      "tail": "diagnosis",
-      "tail_type": "diagnostic_method"
+      "head_type": "biological entity",
+      "relation": "difference compared between",
+      "tail": "schizophrenia patients",
+      "tail_type": "patient group"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "difference compared between",
+      "tail": "healthy controls",
+      "tail_type": "control group"
     },
     {
       "head": "16S rRNA sequencing",
-      "head_type": "sequencing_technology",
-      "relation": "used_for",
-      "tail": "comparison",
-      "tail_type": "study_method"
+      "head_type": "genetic sequencing method",
+      "relation": "used to compare",
+      "tail": "gut microbiota",
+      "tail_type": "biological entity"
     },
     {
       "head": "gut microbiota",
-      "head_type": "microbiota",
-      "relation": "used_as",
+      "head_type": "biological entity",
+      "relation": "used as",
       "tail": "biomarker",
-      "tail_type": "biomarker"
+      "tail_type": "diagnostic tool"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "assists in",
+      "tail": "diagnosis of schizophrenia",
+      "tail_type": "diagnostic process"
     },
     {
       "head": "Proteobacteria",
-      "head_type": "phylum",
-      "relation": "increased_in",
-      "tail": "schizophrenia_patients",
-      "tail_type": "patient_group"
+      "head_type": "microbial phylum",
+      "relation": "abundance increased in",
+      "tail": "schizophrenia patients",
+      "tail_type": "patient group"
     },
     {
       "head": "Succinivibrio",
-      "head_type": "genus",
-      "relation": "increased_in",
-      "tail": "schizophrenia_patients",
-      "tail_type": "patient_group"
+      "head_type": "microbial genus",
+      "relation": "abundance higher in",
+      "tail": "schizophrenia patients",
+      "tail_type": "patient group"
     },
     {
       "head": "Megasphaera",
-      "head_type": "genus",
-      "relation": "increased_in",
-      "tail": "schizophrenia_patients",
-      "tail_type": "patient_group"
+      "head_type": "microbial genus",
+      "relation": "abundance higher in",
+      "tail": "schizophrenia patients",
+      "tail_type": "patient group"
     },
     {
       "head": "Collinsella",
-      "head_type": "genus",
-      "relation": "increased_in",
-      "tail": "schizophrenia_patients",
-      "tail_type": "patient_group"
+      "head_type": "microbial genus",
+      "relation": "abundance higher in",
+      "tail": "schizophrenia patients",
+      "tail_type": "patient group"
     },
     {
       "head": "Clostridium",
-      "head_type": "genus",
-      "relation": "increased_in",
-      "tail": "schizophrenia_patients",
-      "tail_type": "patient_group"
+      "head_type": "microbial genus",
+      "relation": "abundance higher in",
+      "tail": "schizophrenia patients",
+      "tail_type": "patient group"
     },
     {
       "head": "Klebsiella",
-      "head_type": "genus",
-      "relation": "increased_in",
-      "tail": "schizophrenia_patients",
-      "tail_type": "patient_group"
+      "head_type": "microbial genus",
+      "relation": "abundance higher in",
+      "tail": "schizophrenia patients",
+      "tail_type": "patient group"
     },
     {
       "head": "Methanobrevibacter",
-      "head_type": "genus",
-      "relation": "increased_in",
-      "tail": "schizophrenia_patients",
-      "tail_type": "patient_group"
+      "head_type": "microbial genus",
+      "relation": "abundance higher in",
+      "tail": "schizophrenia patients",
+      "tail_type": "patient group"
     },
     {
       "head": "Blautia",
-      "head_type": "genus",
-      "relation": "decreased_in",
-      "tail": "schizophrenia_patients",
-      "tail_type": "patient_group"
+      "head_type": "microbial genus",
+      "relation": "abundance decreased in",
+      "tail": "schizophrenia patients",
+      "tail_type": "patient group"
     },
     {
       "head": "Coprococcus",
-      "head_type": "genus",
-      "relation": "decreased_in",
-      "tail": "schizophrenia_patients",
-      "tail_type": "patient_group"
+      "head_type": "microbial genus",
+      "relation": "abundance decreased in",
+      "tail": "schizophrenia patients",
+      "tail_type": "patient group"
     },
     {
       "head": "Roseburia",
-      "head_type": "genus",
-      "relation": "decreased_in",
-      "tail": "schizophrenia_patients",
-      "tail_type": "patient_group"
+      "head_type": "microbial genus",
+      "relation": "abundance decreased in",
+      "tail": "schizophrenia patients",
+      "tail_type": "patient group"
     },
     {
       "head": "12 significant microbiota biomarkers",
       "head_type": "biomarkers",
-      "relation": "used_for",
-      "tail": "diagnosis",
-      "tail_type": "diagnostic_method"
+      "relation": "capable of being used as",
+      "tail": "diagnostic factors",
+      "tail_type": "diagnostic tool"
+    },
+    {
+      "head": "receiver operating characteristic curve analysis",
+      "head_type": "statistical method",
+      "relation": "demonstrated capability of",
+      "tail": "microbiota biomarkers",
+      "tail_type": "biomarkers"
     },
     {
       "head": "PICRUSt analysis",
-      "head_type": "bioinformatics_analysis",
-      "relation": "used_for",
-      "tail": "metabolic_pathway_analysis",
-      "tail_type": "analysis_method"
+      "head_type": "bioinformatics method",
+      "relation": "found significant differences in",
+      "tail": "metabolic pathways",
+      "tail_type": "biological process"
     },
     {
       "head": "vitamin B6",
-      "head_type": "metabolite",
-      "relation": "differently_expressed",
-      "tail": "schizophrenia_patients",
-      "tail_type": "patient_group"
+      "head_type": "nutrient",
+      "relation": "metabolic pathway differed between",
+      "tail": "healthy controls",
+      "tail_type": "control group"
     },
     {
       "head": "fatty acid",
-      "head_type": "metabolite",
-      "relation": "differently_expressed",
-      "tail": "schizophrenia_patients",
-      "tail_type": "patient_group"
+      "head_type": "biochemical compound",
+      "relation": "metabolic pathway differed between",
+      "tail": "healthy controls",
+      "tail_type": "control group"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "difference between",
+      "tail": "schizophrenia patients",
+      "tail_type": "patient group"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "biological entity",
+      "relation": "difference between",
+      "tail": "healthy controls",
+      "tail_type": "control group"
+    },
+    {
+      "head": "microbiota-based diagnosis",
+      "head_type": "diagnostic method",
+      "relation": "could be used for",
+      "tail": "schizophrenia",
+      "tail_type": "mental disorder"
     }
   ]
 }

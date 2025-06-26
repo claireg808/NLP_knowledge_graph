@@ -1,0 +1,188 @@
+{
+  "title": "Positive mood-related gut microbiota in a long-term closed environment: a multiomics study based on the \"Lunar Palace 365\" experiment.",
+  "abstract": "Psychological health risk is one of the most severe and complex risks in manned deep-space exploration and long-term closed environments. Recently, with the in-depth research of the microbiota-gut-brain axis, gut microbiota has been considered a new approach to maintain and improve psychological health. However, the correlation between gut microbiota and psychological changes inside long-term closed environments is still poorly understood. Herein, we used the \"Lunar Palace 365\" mission, a 1-year-long isolation study in the Lunar Palace 1 (a closed manned Bioregenerative Life Support System facility with excellent performance), to investigate the correlation between gut microbiota and psychological changes, in order to find some new potential psychobiotics to maintain and improve the psychological health of crew members. We report some altered gut microbiota that were associated with psychological changes in the long-term closed environment. Four potential psychobiotics (Bacteroides uniformis, Roseburia inulinivorans, Eubacterium rectale, and Faecalibacterium prausnitzii) were identified. On the basis of metagenomic, metaproteomic, and metabolomic analyses, the four potential psychobiotics improved mood mainly through three pathways related to nervous system functions: first, by fermenting dietary fibers, they may produce short-chain fatty acids, such as butyric and propionic acids; second, they may regulate amino acid metabolism pathways of aspartic acid, glutamic acid, tryptophan, etc. (e.g., converting glutamic acid to gamma-aminobutyric acid; converting tryptophan to serotonin, kynurenic acid, or tryptamine); and third, they may regulate other pathways, such as taurine and cortisol metabolism. Furthermore, the results of animal experiments confirmed the positive regulatory effect and mechanism of these potential psychobiotics on mood. These observations reveal that gut microbiota contributed to a robust effect on the maintenance and improvement of mental health in a long-term closed environment. Our findings represent a key step towards a better understanding the role of the gut microbiome in mammalian mental health during space flight and provide a basis for future efforts to develop microbiota-based countermeasures that mitigate risks to crew mental health during future long-term human space expeditions on the moon or Mars. This study also provides an essential reference for future applications of psychobiotics to neuropsychiatric treatments. Video Abstract.",
+  "relations": [
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbiota",
+      "relation": "improves",
+      "tail": "psychological health",
+      "tail_type": "Health"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbiota",
+      "relation": "associated_with",
+      "tail": "psychological changes",
+      "tail_type": "Psychological Changes"
+    },
+    {
+      "head": "Lunar Palace 365",
+      "head_type": "Mission",
+      "relation": "investigated",
+      "tail": "correlation between gut microbiota and psychological changes",
+      "tail_type": "Correlation"
+    },
+    {
+      "head": "potential psychobiotics",
+      "head_type": "Microbiota",
+      "relation": "identified",
+      "tail": "Bacteroides uniformis, Roseburia inulinivorans, Eubacterium rectale, Faecalibacterium prausnitzii",
+      "tail_type": "Species"
+    },
+    {
+      "head": "potential psychobiotics",
+      "head_type": "Microbiota",
+      "relation": "improve",
+      "tail": "mood",
+      "tail_type": "Mood"
+    },
+    {
+      "head": "fermenting dietary fibers",
+      "head_type": "Process",
+      "relation": "produces",
+      "tail": "short-chain fatty acids",
+      "tail_type": "Chemical Compounds"
+    },
+    {
+      "head": "short-chain fatty acids",
+      "head_type": "Chemical Compounds",
+      "relation": "includes",
+      "tail": "butyric acid",
+      "tail_type": "Chemical Compound"
+    },
+    {
+      "head": "short-chain fatty acids",
+      "head_type": "Chemical Compounds",
+      "relation": "includes",
+      "tail": "propionic acid",
+      "tail_type": "Chemical Compound"
+    },
+    {
+      "head": "potential psychobiotics",
+      "head_type": "Microbiota",
+      "relation": "regulate",
+      "tail": "amino acid metabolism pathways",
+      "tail_type": "Metabolic Pathway"
+    },
+    {
+      "head": "amino acid metabolism pathways",
+      "head_type": "Metabolic Pathway",
+      "relation": "includes",
+      "tail": "aspartic acid",
+      "tail_type": "Chemical Compound"
+    },
+    {
+      "head": "amino acid metabolism pathways",
+      "head_type": "Metabolic Pathway",
+      "relation": "includes",
+      "tail": "glutamic acid",
+      "tail_type": "Chemical Compound"
+    },
+    {
+      "head": "amino acid metabolism pathways",
+      "head_type": "Metabolic Pathway",
+      "relation": "includes",
+      "tail": "tryptophan",
+      "tail_type": "Chemical Compound"
+    },
+    {
+      "head": "glutamic acid",
+      "head_type": "Chemical Compound",
+      "relation": "converted_to",
+      "tail": "gamma-aminobutyric acid",
+      "tail_type": "Chemical Compound"
+    },
+    {
+      "head": "tryptophan",
+      "head_type": "Chemical Compound",
+      "relation": "converted_to",
+      "tail": "serotonin",
+      "tail_type": "Chemical Compound"
+    },
+    {
+      "head": "tryptophan",
+      "head_type": "Chemical Compound",
+      "relation": "converted_to",
+      "tail": "kynurenic acid",
+      "tail_type": "Chemical Compound"
+    },
+    {
+      "head": "tryptophan",
+      "head_type": "Chemical Compound",
+      "relation": "converted_to",
+      "tail": "tryptamine",
+      "tail_type": "Chemical Compound"
+    },
+    {
+      "head": "potential psychobiotics",
+      "head_type": "Microbiota",
+      "relation": "regulate",
+      "tail": "taurine metabolism",
+      "tail_type": "Metabolic Pathway"
+    },
+    {
+      "head": "potential psychobiotics",
+      "head_type": "Microbiota",
+      "relation": "regulate",
+      "tail": "cortisol metabolism",
+      "tail_type": "Metabolic Pathway"
+    },
+    {
+      "head": "animal experiments",
+      "head_type": "Experiment",
+      "relation": "confirmed",
+      "tail": "positive regulatory effect",
+      "tail_type": "Effect"
+    },
+    {
+      "head": "positive regulatory effect",
+      "head_type": "Effect",
+      "relation": "on",
+      "tail": "mood",
+      "tail_type": "Mood"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbiota",
+      "relation": "contributes_to",
+      "tail": "maintenance and improvement of mental health",
+      "tail_type": "Health Outcome"
+    },
+    {
+      "head": "findings",
+      "head_type": "Research Findings",
+      "relation": "represent",
+      "tail": "key step",
+      "tail_type": "Research Progress"
+    },
+    {
+      "head": "findings",
+      "head_type": "Research Findings",
+      "relation": "provide_basis_for",
+      "tail": "future countermeasures",
+      "tail_type": "Countermeasure"
+    },
+    {
+      "head": "future countermeasures",
+      "head_type": "Countermeasure",
+      "relation": "mitigate",
+      "tail": "risks to crew mental health",
+      "tail_type": "Health Risk"
+    },
+    {
+      "head": "study",
+      "head_type": "Research Study",
+      "relation": "provides_reference_for",
+      "tail": "applications of psychobiotics",
+      "tail_type": "Application"
+    },
+    {
+      "head": "applications of psychobiotics",
+      "head_type": "Application",
+      "relation": "treat",
+      "tail": "neuropsychiatric conditions",
+      "tail_type": "Disease"
+    }
+  ]
+}

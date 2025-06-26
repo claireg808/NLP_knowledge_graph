@@ -1,0 +1,202 @@
+{
+  "title": "The impact of dextran sodium sulphate and probiotic pre-treatment in a murine model of Parkinson's disease.",
+  "abstract": "Recent work has established that Parkinson's disease (PD) patients have an altered gut microbiome, along with signs of intestinal inflammation. This could help explain the high degree of gastric disturbances in PD patients, as well as potentially be linked to the migration of peripheral inflammatory factors into the brain. To our knowledge, this is the first study to examine microbiome alteration prior to the induction of a PD murine model. We presently assessed whether pre-treatment with the probiotic, VSL #3, or the inflammatory inducer, dextran sodium sulphate (DSS), would influence the PD-like pathology provoked by a dual hit toxin model using lipopolysaccharide (LPS) and paraquat exposure. While VSL #3 has been reported to have anti-inflammatory effects, DSS is often used as a model of colitis because of the gut inflammation and the breach of the intestinal barrier that it induces. We found that VSL#3 did not have any significant effects (beyond a blunting of LPS paraquat-induced weight loss). However, the DSS treatment caused marked changes in the gut microbiome and was also associated with augmented behavioral and inflammatory outcomes. In fact, DSS markedly increased taxa belonging to the Bacteroidaceae and Porphyromonadaceae families but reduced those from Rikencellaceae and S24-7, as well as provoking colonic pro-inflammatory cytokine expression, consistent with an inflamed gut. The DSS also increased the impact of LPS plus paraquat upon microglial morphology, along with circulating lipocalin-2 (neutrophil marker) and IL-6. Yet, neither DSS nor VSL#3 influenced the loss of substantia nigra dopamine neurons or the astrocytic and cytoskeleton remodeling protein changes that were provoked by the LPS followed by paraquat treatment. These data suggest that disruption of the intestinal integrity and the associated microbiome can interact with systemic inflammatory events to promote widespread brain-gut changes that could be relevant for PD and at the very least, suggestive of novel neuro-immune communication.",
+  "relations": [
+    {
+      "head": "Parkinson's disease",
+      "head_type": "Disease",
+      "relation": "has altered",
+      "tail": "gut microbiome",
+      "tail_type": "Biological Entity"
+    },
+    {
+      "head": "Parkinson's disease",
+      "head_type": "Disease",
+      "relation": "has signs of",
+      "tail": "intestinal inflammation",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Parkinson's disease",
+      "head_type": "Disease",
+      "relation": "has",
+      "tail": "gastric disturbances",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "gut inflammation",
+      "head_type": "Condition",
+      "relation": "linked to",
+      "tail": "migration of peripheral inflammatory factors into the brain",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "VSL #3",
+      "head_type": "Probiotic",
+      "relation": "has",
+      "tail": "anti-inflammatory effects",
+      "tail_type": "Effect"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "used as model of",
+      "tail": "colitis",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "induces",
+      "tail": "gut inflammation",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "causes",
+      "tail": "breach of intestinal barrier",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "causes",
+      "tail": "marked changes in gut microbiome",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "associated with",
+      "tail": "augmented behavioral outcomes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "associated with",
+      "tail": "augmented inflammatory outcomes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "increases",
+      "tail": "Bacteroidaceae",
+      "tail_type": "Taxa"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "increases",
+      "tail": "Porphyromonadaceae",
+      "tail_type": "Taxa"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "reduces",
+      "tail": "Rikencellaceae",
+      "tail_type": "Taxa"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "reduces",
+      "tail": "S24-7",
+      "tail_type": "Taxa"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "provokes",
+      "tail": "colonic pro-inflammatory cytokine expression",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "increases",
+      "tail": "impact of LPS plus paraquat upon microglial morphology",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "increases",
+      "tail": "circulating lipocalin-2",
+      "tail_type": "Protein"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "increases",
+      "tail": "IL-6",
+      "tail_type": "Cytokine"
+    },
+    {
+      "head": "VSL#3",
+      "head_type": "Probiotic",
+      "relation": "blunts",
+      "tail": "LPS paraquat-induced weight loss",
+      "tail_type": "Effect"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "does not influence",
+      "tail": "loss of substantia nigra dopamine neurons",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "VSL#3",
+      "head_type": "Probiotic",
+      "relation": "does not influence",
+      "tail": "loss of substantia nigra dopamine neurons",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "DSS",
+      "head_type": "Inflammatory Inducer",
+      "relation": "does not influence",
+      "tail": "astrocytic and cytoskeleton remodeling protein changes",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "VSL#3",
+      "head_type": "Probiotic",
+      "relation": "does not influence",
+      "tail": "astrocytic and cytoskeleton remodeling protein changes",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "disruption of intestinal integrity",
+      "head_type": "Condition",
+      "relation": "interacts with",
+      "tail": "systemic inflammatory events",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "associated microbiome disruption",
+      "head_type": "Condition",
+      "relation": "interacts with",
+      "tail": "systemic inflammatory events",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "disruption of intestinal integrity",
+      "head_type": "Condition",
+      "relation": "promotes",
+      "tail": "brain-gut changes",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "associated microbiome disruption",
+      "head_type": "Condition",
+      "relation": "promotes",
+      "tail": "brain-gut changes",
+      "tail_type": "Biological Process"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "title": "Using the Microbiome as a Regenerative Medicine Strategy for Autoimmune Diseases",
+  "abstract": "Autoimmune (AI) diseases, which present in a multitude of systemic manifestations, have been connected to many underlying factors. These factors include the environment, genetics, individual microbiomes, and diet. An individual's gut microbiota is an integral aspect of human functioning, as it is intimately integrated into the metabolic, mechanical, immunological, and neurologic pathways of the body. The microbiota dynamically changes throughout our lifetimes and is individually unique. While the gut microbiome is ever-adaptive, gut dysbiosis can exert a significant influence on physical and mental health. Gut dysbiosis is a common factor in various AI, and diets with elevated fat and sugar content have been linked to gut microbiome alterations, contributing to increased systemic inflammation. Additionally, multiple AI's have increased levels of certain inflammatory markers such as TNF-a, IL-6, and IL-17 that have been shown to contribute to arthropathy and are also linked to increased levels of gut dysbiosis. While chronic inflammation has been shown to affect many physiologic systems, this review explores the connection between gut microbiota, bone metabolism, and the skeletal and joint destruction associated with various AI, including psoriatic arthritis, systemic lupus erythematosus, irritable bowel disease, and rheumatoid arthritis. This review aims to define the mechanisms of microbiome crosstalk between the cells of bone and cartilage, as well as to investigate the potential bidirectional connections between AI, bony and cartilaginous tissue, and the gut microbiome. By doing this, the review also introduces the concept of altering an individual's specific gut microbiota as a form of regenerative medicine and potential tailored therapy for joint destruction seen in AI. We hope to show multiple, specific ways to target the microbiome through diet changes, rebalancing microbial diversity, or decreasing specific microbes associated with increased gut permeability, leading to reduced systemic inflammation contributing to joint pathology. Additionally, we plan to show that diet alterations can promote beneficial changes in the gut microbiota, supporting the body's own endogenous processes to decrease inflammation and increase healing. This concept of microbial alteration falls under the definition of regenerative medicine and should be included accordingly. By implementing microbial alterations in regenerative medicine, this current study could lend increasing support to the current research on the associations of the gut microbiota, bone metabolism, and AI-related musculoskeletal pathology.",
+  "relations": [
+    {
+      "head": "Autoimmune diseases",
+      "head_type": "Disease",
+      "relation": "linked_to",
+      "tail": "gut dysbiosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "diets with elevated fat and sugar content",
+      "head_type": "Diet",
+      "relation": "linked_to",
+      "tail": "gut microbiome alterations",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "gut microbiome alterations",
+      "head_type": "Condition",
+      "relation": "contribute_to",
+      "tail": "systemic inflammation",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "multiple AI's",
+      "head_type": "Disease",
+      "relation": "have",
+      "tail": "increased levels of certain inflammatory markers",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "inflammatory markers",
+      "head_type": "Biological_marker",
+      "relation": "contribute_to",
+      "tail": "arthropathy",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "inflammatory markers",
+      "head_type": "Biological_marker",
+      "relation": "linked_to",
+      "tail": "gut dysbiosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbial_community",
+      "relation": "connected_to",
+      "tail": "bone metabolism",
+      "tail_type": "Physiological_process"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbial_community",
+      "relation": "connected_to",
+      "tail": "skeletal and joint destruction",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "AI",
+      "head_type": "Disease",
+      "relation": "include",
+      "tail": "psoriatic arthritis",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "AI",
+      "head_type": "Disease",
+      "relation": "include",
+      "tail": "systemic lupus erythematosus",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "AI",
+      "head_type": "Disease",
+      "relation": "include",
+      "tail": "irritable bowel disease",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "AI",
+      "head_type": "Disease",
+      "relation": "include",
+      "tail": "rheumatoid arthritis",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "altering an individual's specific gut microbiota",
+      "head_type": "Therapeutic_strategy",
+      "relation": "form_of",
+      "tail": "regenerative medicine",
+      "tail_type": "Medical_field"
+    },
+    {
+      "head": "diet changes",
+      "head_type": "Therapeutic_strategy",
+      "relation": "target",
+      "tail": "microbiome",
+      "tail_type": "Microbial_community"
+    },
+    {
+      "head": "rebalancing microbial diversity",
+      "head_type": "Therapeutic_strategy",
+      "relation": "target",
+      "tail": "microbiome",
+      "tail_type": "Microbial_community"
+    },
+    {
+      "head": "decreasing specific microbes",
+      "head_type": "Therapeutic_strategy",
+      "relation": "target",
+      "tail": "microbiome",
+      "tail_type": "Microbial_community"
+    },
+    {
+      "head": "diet alterations",
+      "head_type": "Therapeutic_strategy",
+      "relation": "promote",
+      "tail": "beneficial changes in the gut microbiota",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "beneficial changes in the gut microbiota",
+      "head_type": "Condition",
+      "relation": "support",
+      "tail": "body's own endogenous processes",
+      "tail_type": "Physiological_process"
+    },
+    {
+      "head": "microbial alteration",
+      "head_type": "Therapeutic_strategy",
+      "relation": "fall_under",
+      "tail": "regenerative medicine",
+      "tail_type": "Medical_field"
+    },
+    {
+      "head": "microbial alterations",
+      "head_type": "Therapeutic_strategy",
+      "relation": "support",
+      "tail": "research on associations of the gut microbiota",
+      "tail_type": "Research_topic"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbial_community",
+      "relation": "associated_with",
+      "tail": "bone metabolism",
+      "tail_type": "Physiological_process"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbial_community",
+      "relation": "associated_with",
+      "tail": "AI-related musculoskeletal pathology",
+      "tail_type": "Condition"
+    }
+  ]
+}

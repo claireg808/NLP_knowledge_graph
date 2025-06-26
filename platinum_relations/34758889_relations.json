@@ -1,0 +1,76 @@
+{
+  "title": "A fiber-deprived diet causes cognitive impairment and hippocampal microglia-mediated synaptic loss through the gut microbiota and metabolites.",
+  "abstract": "Cognitive impairment, an increasing mental health issue, is a core feature of the aging brain and neurodegenerative diseases. Industrialized nations especially, have experienced a marked decrease in dietary fiber intake, but the potential mechanism linking low fiber intake and cognitive impairment is poorly understood. Emerging research reported that the diversity of gut microbiota in Western populations is significantly reduced. However, it is unknown whether a fiber-deficient diet (which alters gut microbiota) could impair cognition and brain functional elements through the gut-brain axis. In this study, a mouse model of long-term (15 weeks) dietary fiber deficiency (FD) was used to mimic a sustained low fiber intake in humans. We found that FD mice showed impaired cognition, including deficits in object location memory, temporal order memory, and the ability to perform daily living activities. The hippocampal synaptic ultrastructure was damaged in FD mice, characterized by widened synaptic clefts and thinned postsynaptic densities. A hippocampal proteomic analysis further identified a deficit of CaMKIId and its associated synaptic proteins (including GAP43 and SV2C) in the FD mice, along with neuroinflammation and microglial engulfment of synapses. The FD mice also exhibited gut microbiota dysbiosis (decreased Bacteroidetes and increased Proteobacteria), which was significantly associated with the cognitive deficits. Of note, a rapid differentiating microbiota change was observed in the mice with a short-term FD diet (7 days) before cognitive impairment, highlighting a possible causal impact of the gut microbiota profile on cognitive outcomes. Moreover, the FD diet compromised the intestinal barrier and reduced short-chain fatty acid (SCFA) production. We exploit these findings for SCFA receptor knockout mice and oral SCFA supplementation that verified SCFA playing a critical role linking the altered gut microbiota and cognitive impairment. This study, for the first time, reports that a fiber-deprived diet leads to cognitive impairment through altering the gut microbiota-hippocampal axis, which is pathologically distinct from normal brain aging. These findings alert the adverse impact of dietary fiber deficiency on brain function, and highlight an increase in fiber intake as a nutritional strategy to reduce the risk of developing diet-associated cognitive decline and neurodegenerative diseases. Video Abstract.",
+  "relations": [
+    {
+      "head": "Fiber-deprived diet",
+      "head_type": "Diet Type",
+      "relation": "causes",
+      "tail": "Cognitive impairment",
+      "tail_type": "Health Condition"
+    },
+    {
+      "head": "Fiber-deprived diet",
+      "head_type": "Diet Type",
+      "relation": "leads to",
+      "tail": "Gut microbiota dysbiosis",
+      "tail_type": "Microbial Condition"
+    },
+    {
+      "head": "Gut microbiota dysbiosis",
+      "head_type": "Microbial Condition",
+      "relation": "associated with",
+      "tail": "Cognitive deficits",
+      "tail_type": "Health Condition"
+    },
+    {
+      "head": "Fiber-deprived diet",
+      "head_type": "Diet Type",
+      "relation": "impairs",
+      "tail": "Hippocampal synaptic ultrastructure",
+      "tail_type": "Brain Structure"
+    },
+    {
+      "head": "Fiber-deprived diet",
+      "head_type": "Diet Type",
+      "relation": "reduces",
+      "tail": "Short-chain fatty acid production",
+      "tail_type": "Metabolite Production"
+    },
+    {
+      "head": "Short-chain fatty acids",
+      "head_type": "Metabolite",
+      "relation": "play a role in",
+      "tail": "Cognitive impairment",
+      "tail_type": "Health Condition"
+    },
+    {
+      "head": "Fiber-deprived diet",
+      "head_type": "Diet Type",
+      "relation": "compromises",
+      "tail": "Intestinal barrier",
+      "tail_type": "Physiological Barrier"
+    },
+    {
+      "head": "SCFA receptor knockout mice",
+      "head_type": "Experimental Model",
+      "relation": "used to study",
+      "tail": "Role of SCFAs",
+      "tail_type": "Metabolite Function"
+    },
+    {
+      "head": "SCFA supplementation",
+      "head_type": "Therapeutic Intervention",
+      "relation": "mitigates",
+      "tail": "Cognitive impairment",
+      "tail_type": "Health Condition"
+    },
+    {
+      "head": "Fiber deficiency",
+      "head_type": "Nutritional Deficiency",
+      "relation": "associated with",
+      "tail": "Neurodegenerative diseases",
+      "tail_type": "Health Condition"
+    }
+  ]
+}

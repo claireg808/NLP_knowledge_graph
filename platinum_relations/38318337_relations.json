@@ -1,181 +1,83 @@
 {
-  "title": "Exploring the interplay between running exercises, microbial diversity, and tryptophan metabolism along the microbiota-gut-brain axis",
+  "title": "Exploring the interplay between running exercises, microbial diversity, and tryptophan metabolism along the microbiota-gut-brain axis.",
   "abstract": "The emergent recognition of the gut-brain axis connection has shed light on the role of the microbiota in modulating the gut-brain axis's functions. Several microbial metabolites, such as serotonin, kynurenine, tryptamine, indole, and their derivatives originating from tryptophan metabolism have been implicated in influencing this axis. In our study, we aimed to investigate the impact of running exercises on microbial tryptophan metabolism using a mouse model. We conducted a multi-omics analysis to obtain a comprehensive insight into the changes in tryptophan metabolism along the microbiota-gut-brain axis induced by running exercises. The analyses integrated multiple components, such as tryptophan changes and metabolite levels in the gut, blood, hippocampus, and brainstem. Fecal microbiota analysis aimed to examine the composition and diversity of the gut microbiota, and taxon-function analysis explored the associations between specific microbial taxa and functional activities in tryptophan metabolism. Our findings revealed significant alterations in tryptophan metabolism across multiple sites, including the gut, blood, hippocampus, and brainstem. The outcomes indicate a shift in microbiota diversity and tryptophan metabolizing capabilities within the running group, linked to increased tryptophan transportation to the hippocampus and brainstem through circulation. Moreover, the symbiotic association between <i>Romboutsia</i> and <i>A. muciniphila</i> indicated their potential contribution to modifying the gut microenvironment and influencing tryptophan transport to the hippocampus and brainstem. These findings have potential applications for developing microbiota-based approaches in the context of exercise for neurological diseases, especially on mental health and overall well-being.",
   "relations": [
     {
-      "head": "gut-brain axis",
-      "head_type": "biological system",
-      "relation": "modulated by",
-      "tail": "microbiota",
-      "tail_type": "biological entity"
-    },
-    {
-      "head": "microbial metabolites",
-      "head_type": "chemical compound",
-      "relation": "originate from",
-      "tail": "tryptophan metabolism",
-      "tail_type": "biological process"
+      "head": "running exercises",
+      "head_type": "Exercise",
+      "relation": "impacts",
+      "tail": "microbial tryptophan metabolism",
+      "tail_type": "Biological Process"
     },
     {
       "head": "running exercises",
-      "head_type": "activity",
-      "relation": "investigated impact on",
-      "tail": "microbial tryptophan metabolism",
-      "tail_type": "biological process"
-    },
-    {
-      "head": "multi-omics analysis",
-      "head_type": "research method",
-      "relation": "conducted to",
-      "tail": "comprehensive insight",
-      "tail_type": "knowledge"
+      "head_type": "Exercise",
+      "relation": "induces",
+      "tail": "changes in tryptophan metabolism",
+      "tail_type": "Biological Process"
     },
     {
       "head": "tryptophan metabolism",
-      "head_type": "biological process",
-      "relation": "changes induced by",
-      "tail": "running exercises",
-      "tail_type": "activity"
+      "head_type": "Biological Process",
+      "relation": "influences",
+      "tail": "gut-brain axis",
+      "tail_type": "Biological System"
+    },
+    {
+      "head": "microbial metabolites",
+      "head_type": "Chemical",
+      "relation": "originate from",
+      "tail": "tryptophan metabolism",
+      "tail_type": "Biological Process"
     },
     {
       "head": "fecal microbiota analysis",
-      "head_type": "research method",
-      "relation": "aimed to examine",
+      "head_type": "Analytical Method",
+      "relation": "examines",
       "tail": "gut microbiota composition",
-      "tail_type": "biological entity"
+      "tail_type": "Biological Entity"
     },
     {
       "head": "taxon-function analysis",
-      "head_type": "research method",
-      "relation": "explored associations between",
-      "tail": "microbial taxa",
-      "tail_type": "biological entity"
-    },
-    {
-      "head": "microbial taxa",
-      "head_type": "biological entity",
-      "relation": "linked to",
-      "tail": "functional activities",
-      "tail_type": "biological process"
-    },
-    {
-      "head": "tryptophan metabolism",
-      "head_type": "biological process",
-      "relation": "revealed alterations",
-      "tail": "gut",
-      "tail_type": "anatomical structure"
-    },
-    {
-      "head": "tryptophan metabolism",
-      "head_type": "biological process",
-      "relation": "revealed alterations",
-      "tail": "blood",
-      "tail_type": "biological fluid"
-    },
-    {
-      "head": "tryptophan metabolism",
-      "head_type": "biological process",
-      "relation": "revealed alterations",
-      "tail": "hippocampus",
-      "tail_type": "brain region"
-    },
-    {
-      "head": "tryptophan metabolism",
-      "head_type": "biological process",
-      "relation": "revealed alterations",
-      "tail": "brainstem",
-      "tail_type": "brain region"
-    },
-    {
-      "head": "microbiota diversity",
-      "head_type": "biological diversity",
-      "relation": "shifted in",
-      "tail": "running group",
-      "tail_type": "experimental group"
-    },
-    {
-      "head": "tryptophan transportation",
-      "head_type": "biological process",
-      "relation": "linked to",
-      "tail": "hippocampus",
-      "tail_type": "brain region"
-    },
-    {
-      "head": "tryptophan transportation",
-      "head_type": "biological process",
-      "relation": "linked to",
-      "tail": "brainstem",
-      "tail_type": "brain region"
+      "head_type": "Analytical Method",
+      "relation": "explores",
+      "tail": "associations between microbial taxa and tryptophan metabolism",
+      "tail_type": "Biological Process"
     },
     {
       "head": "Romboutsia",
-      "head_type": "microbial species",
-      "relation": "symbiotic association with",
+      "head_type": "Microbial Taxon",
+      "relation": "symbiotically associates with",
       "tail": "A. muciniphila",
-      "tail_type": "microbial species"
+      "tail_type": "Microbial Taxon"
     },
     {
       "head": "Romboutsia",
-      "head_type": "microbial species",
-      "relation": "potential contribution to",
-      "tail": "gut microenvironment",
-      "tail_type": "biological environment"
+      "head_type": "Microbial Taxon",
+      "relation": "contributes to",
+      "tail": "modification of gut microenvironment",
+      "tail_type": "Biological Process"
     },
     {
       "head": "A. muciniphila",
-      "head_type": "microbial species",
-      "relation": "potential contribution to",
+      "head_type": "Microbial Taxon",
+      "relation": "influences",
       "tail": "tryptophan transport",
-      "tail_type": "biological process"
+      "tail_type": "Biological Process"
     },
     {
-      "head": "tryptophan transport",
-      "head_type": "biological process",
-      "relation": "influenced by",
+      "head": "tryptophan",
+      "head_type": "Chemical",
+      "relation": "transported to",
       "tail": "hippocampus",
-      "tail_type": "brain region"
+      "tail_type": "Brain Region"
     },
     {
-      "head": "tryptophan transport",
-      "head_type": "biological process",
-      "relation": "influenced by",
+      "head": "tryptophan",
+      "head_type": "Chemical",
+      "relation": "transported to",
       "tail": "brainstem",
-      "tail_type": "brain region"
-    },
-    {
-      "head": "findings",
-      "head_type": "research outcome",
-      "relation": "have potential applications for",
-      "tail": "microbiota-based approaches",
-      "tail_type": "therapeutic approach"
-    },
-    {
-      "head": "microbiota-based approaches",
-      "head_type": "therapeutic approach",
-      "relation": "developed in context of",
-      "tail": "exercise",
-      "tail_type": "activity"
-    },
-    {
-      "head": "exercise",
-      "head_type": "activity",
-      "relation": "linked to",
-      "tail": "neurological diseases",
-      "tail_type": "disease"
-    },
-    {
-      "head": "neurological diseases",
-      "head_type": "disease",
-      "relation": "especially affecting",
-      "tail": "mental health",
-      "tail_type": "health aspect"
-    },
-    {
-      "head": "neurological diseases",
-      "head_type": "disease",
-      "relation": "especially affecting",
-      "tail": "overall well-being",
-      "tail_type": "health aspect"
+      "tail_type": "Brain Region"
     }
   ]
 }

@@ -1,132 +1,146 @@
 {
-  "title": "Gut microbial metabolites in depression: understanding the biochemical mechanisms",
+  "title": "Gut microbial metabolites in depression: understanding the biochemical mechanisms.",
   "abstract": "Gastrointestinal and central function are intrinsically connected by the gut microbiota, an ecosystem that has co-evolved with the host to expand its biotransformational capabilities and interact with host physiological processes by means of its metabolic products. Abnormalities in this microbiota-gut-brain axis have emerged as a key component in the pathophysiology of depression, leading to more research attempting to understand the neuroactive potential of the products of gut microbial metabolism. This review explores the potential for the gut microbiota to contribute to depression and focuses on the role that microbially-derived molecules - neurotransmitters, short-chain fatty acids, indoles, bile acids, choline metabolites, lactate and vitamins - play in the context of emotional behavior. The future of gut-brain axis research lies is moving away from association, towards the mechanisms underlying the relationship between the gut bacteria and depressive behavior. We propose that direct and indirect mechanisms exist through which gut microbial metabolites affect depressive behavior: these include (i) direct stimulation of central receptors, (ii) peripheral stimulation of neural, endocrine, and immune mediators, and (iii) epigenetic regulation of histone acetylation and DNA methylation. Elucidating these mechanisms is essential to expand our understanding of the etiology of depression, and to develop new strategies to harness the beneficial psychotropic effects of these molecules. Overall, the review highlights the potential for dietary interventions to represent such novel therapeutic strategies for major depressive disorder.",
   "relations": [
     {
       "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "contribute to",
-      "tail": "depression",
-      "tail_type": "disease"
+      "head_type": "ecosystem",
+      "relation": "interacts with",
+      "tail": "host",
+      "tail_type": "host"
     },
     {
       "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "produce",
-      "tail": "neurotransmitters",
-      "tail_type": "biochemical molecule"
+      "head_type": "ecosystem",
+      "relation": "produces",
+      "tail": "metabolic products",
+      "tail_type": "metabolites"
     },
     {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "produce",
-      "tail": "short-chain fatty acids",
-      "tail_type": "biochemical molecule"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "produce",
-      "tail": "indoles",
-      "tail_type": "biochemical molecule"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "produce",
-      "tail": "bile acids",
-      "tail_type": "biochemical molecule"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "produce",
-      "tail": "choline metabolites",
-      "tail_type": "biochemical molecule"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "produce",
-      "tail": "lactate",
-      "tail_type": "biochemical molecule"
-    },
-    {
-      "head": "gut microbiota",
-      "head_type": "biological entity",
-      "relation": "produce",
-      "tail": "vitamins",
-      "tail_type": "biochemical molecule"
+      "head": "gut-brain axis",
+      "head_type": "axis",
+      "relation": "contributes to",
+      "tail": "pathophysiology of depression",
+      "tail_type": "pathophysiology"
     },
     {
       "head": "gut microbial metabolites",
-      "head_type": "biochemical molecule",
+      "head_type": "metabolites",
       "relation": "affect",
       "tail": "depressive behavior",
-      "tail_type": "behavioral phenotype"
+      "tail_type": "behavior"
+    },
+    {
+      "head": "microbially-derived molecules",
+      "head_type": "molecules",
+      "relation": "include",
+      "tail": "neurotransmitters",
+      "tail_type": "neurotransmitters"
+    },
+    {
+      "head": "microbially-derived molecules",
+      "head_type": "molecules",
+      "relation": "include",
+      "tail": "short-chain fatty acids",
+      "tail_type": "fatty acids"
+    },
+    {
+      "head": "microbially-derived molecules",
+      "head_type": "molecules",
+      "relation": "include",
+      "tail": "indoles",
+      "tail_type": "indoles"
+    },
+    {
+      "head": "microbially-derived molecules",
+      "head_type": "molecules",
+      "relation": "include",
+      "tail": "bile acids",
+      "tail_type": "bile acids"
+    },
+    {
+      "head": "microbially-derived molecules",
+      "head_type": "molecules",
+      "relation": "include",
+      "tail": "choline metabolites",
+      "tail_type": "metabolites"
+    },
+    {
+      "head": "microbially-derived molecules",
+      "head_type": "molecules",
+      "relation": "include",
+      "tail": "lactate",
+      "tail_type": "lactate"
+    },
+    {
+      "head": "microbially-derived molecules",
+      "head_type": "molecules",
+      "relation": "include",
+      "tail": "vitamins",
+      "tail_type": "vitamins"
     },
     {
       "head": "gut microbial metabolites",
-      "head_type": "biochemical molecule",
+      "head_type": "metabolites",
       "relation": "stimulate",
       "tail": "central receptors",
-      "tail_type": "biological entity"
+      "tail_type": "receptors"
     },
     {
       "head": "gut microbial metabolites",
-      "head_type": "biochemical molecule",
+      "head_type": "metabolites",
       "relation": "stimulate",
       "tail": "neural mediators",
-      "tail_type": "biological entity"
+      "tail_type": "mediators"
     },
     {
       "head": "gut microbial metabolites",
-      "head_type": "biochemical molecule",
+      "head_type": "metabolites",
       "relation": "stimulate",
       "tail": "endocrine mediators",
-      "tail_type": "biological entity"
+      "tail_type": "mediators"
     },
     {
       "head": "gut microbial metabolites",
-      "head_type": "biochemical molecule",
+      "head_type": "metabolites",
       "relation": "stimulate",
       "tail": "immune mediators",
-      "tail_type": "biological entity"
+      "tail_type": "mediators"
     },
     {
       "head": "gut microbial metabolites",
-      "head_type": "biochemical molecule",
+      "head_type": "metabolites",
       "relation": "regulate",
-      "tail": "epigenetic regulation",
-      "tail_type": "biological process"
+      "tail": "epigenetic processes",
+      "tail_type": "processes"
     },
     {
       "head": "gut microbial metabolites",
-      "head_type": "biochemical molecule",
-      "relation": "regulate",
-      "tail": "histone acetylation",
-      "tail_type": "biological process"
-    },
-    {
-      "head": "gut microbial metabolites",
-      "head_type": "biochemical molecule",
-      "relation": "regulate",
+      "head_type": "metabolites",
+      "relation": "affect",
       "tail": "DNA methylation",
-      "tail_type": "biological process"
+      "tail_type": "epigenetic modification"
+    },
+    {
+      "head": "gut microbial metabolites",
+      "head_type": "metabolites",
+      "relation": "affect",
+      "tail": "histone acetylation",
+      "tail_type": "epigenetic modification"
     },
     {
       "head": "dietary interventions",
-      "head_type": "therapeutic strategy",
+      "head_type": "interventions",
       "relation": "represent",
-      "tail": "novel therapeutic strategies",
-      "tail_type": "therapeutic strategy"
+      "tail": "therapeutic strategies",
+      "tail_type": "strategies"
     },
     {
       "head": "dietary interventions",
-      "head_type": "therapeutic strategy",
+      "head_type": "interventions",
       "relation": "target",
       "tail": "major depressive disorder",
-      "tail_type": "disease"
+      "tail_type": "disorder"
     }
   ]
 }

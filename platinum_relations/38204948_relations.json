@@ -3,44 +3,51 @@
   "abstract": "Polycystic ovarian syndrome (PCOS) is the most common endocrine disorder in women, affecting up to 15% of reproductive-aged women. Polycystic ovarian syndrome is a heterogeneous disorder, both in the sense that many different factors may play a role in its manifestation and that multiple systems throughout the body can be affected. Polycystic ovarian syndrome has been linked to an increased prevalence of various psychiatric disorders, including depression and anxiety. Despite the socioeconomic effect that these disorders may have on patients with PCOS and society as a whole, this association is largely lacking in research. There are currently several theories regarding the link between PCOS and mental health. Some suggest that the overactive hypothalamic-pituitary-ovarian and hypothalamic-pituitary-adrenal axes in PCOS patients may alter the hormonal profile and contribute to the development of psychiatric disorders. Other studies speculate that abnormal levels of neurotransmitters and neuronal signaling may play a role. Recently, more research has begun to focus on the gut-brain axis, addressing the nutritional needs of PCOS patients. Studies show that dietary factors such as probiotics and micronutrient supplementation may significantly improve psychiatric symptoms in PCOS patients while helping regulate neurotransmitter levels in the body. In this review, we examine different theories regarding the association between PCOS and psychiatric disorders and point out different areas of research that are needed to broaden our understanding of this association.",
   "relations": [
     {
-      "head": "Polycystic ovarian syndrome",
+      "head": "Polycystic ovarian syndrome (PCOS)",
       "head_type": "Disease",
-      "relation": "linked_to",
+      "relation": "linked to",
       "tail": "psychiatric disorders",
       "tail_type": "Disease"
     },
     {
-      "head": "Polycystic ovarian syndrome",
+      "head": "Polycystic ovarian syndrome (PCOS)",
       "head_type": "Disease",
-      "relation": "linked_to",
+      "relation": "affects",
+      "tail": "reproductive-aged women",
+      "tail_type": "Population"
+    },
+    {
+      "head": "PCOS",
+      "head_type": "Disease",
+      "relation": "associated with",
       "tail": "depression",
       "tail_type": "Disease"
     },
     {
-      "head": "Polycystic ovarian syndrome",
+      "head": "PCOS",
       "head_type": "Disease",
-      "relation": "linked_to",
+      "relation": "associated with",
       "tail": "anxiety",
       "tail_type": "Disease"
     },
     {
-      "head": "hypothalamic-pituitary-ovarian axes",
-      "head_type": "Biological Process",
-      "relation": "contribute_to",
-      "tail": "psychiatric disorders",
-      "tail_type": "Disease"
+      "head": "PCOS",
+      "head_type": "Disease",
+      "relation": "has",
+      "tail": "heterogeneous disorder",
+      "tail_type": "Characteristic"
     },
     {
-      "head": "hypothalamic-pituitary-adrenal axes",
+      "head": "overactive hypothalamic-pituitary-ovarian axes",
       "head_type": "Biological Process",
-      "relation": "contribute_to",
-      "tail": "psychiatric disorders",
-      "tail_type": "Disease"
+      "relation": "contribute to",
+      "tail": "development of psychiatric disorders",
+      "tail_type": "Biological Process"
     },
     {
       "head": "abnormal levels of neurotransmitters",
-      "head_type": "Physiological State",
-      "relation": "contribute_to",
+      "head_type": "Biological Process",
+      "relation": "play a role in",
       "tail": "psychiatric disorders",
       "tail_type": "Disease"
     },
@@ -49,17 +56,10 @@
       "head_type": "Biological Process",
       "relation": "address",
       "tail": "nutritional needs",
-      "tail_type": "Physiological Need"
+      "tail_type": "Biological Process"
     },
     {
-      "head": "probiotics",
-      "head_type": "Nutrient",
-      "relation": "improve",
-      "tail": "psychiatric symptoms",
-      "tail_type": "Symptom"
-    },
-    {
-      "head": "micronutrient supplementation",
+      "head": "dietary factors",
       "head_type": "Nutrient",
       "relation": "improve",
       "tail": "psychiatric symptoms",
@@ -68,16 +68,23 @@
     {
       "head": "probiotics",
       "head_type": "Nutrient",
-      "relation": "regulate",
+      "relation": "help regulate",
       "tail": "neurotransmitter levels",
-      "tail_type": "Physiological Process"
+      "tail_type": "Biological Process"
     },
     {
       "head": "micronutrient supplementation",
       "head_type": "Nutrient",
-      "relation": "regulate",
+      "relation": "help regulate",
       "tail": "neurotransmitter levels",
-      "tail_type": "Physiological Process"
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "PCOS",
+      "head_type": "Disease",
+      "relation": "has",
+      "tail": "socioeconomic effect",
+      "tail_type": "Impact"
     }
   ]
 }

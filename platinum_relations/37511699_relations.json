@@ -14,63 +14,70 @@
       "head_type": "Medication",
       "relation": "alter",
       "tail": "Gut Microbiota Composition",
-      "tail_type": "Biological Process"
+      "tail_type": "Biological Entity"
     },
     {
       "head": "Gut Microbiota",
-      "head_type": "Biological Process",
+      "head_type": "Biological Entity",
       "relation": "alter",
-      "tail": "Bioavailability of Antidepressants",
-      "tail_type": "Pharmacokinetic Process"
+      "tail": "Bioavailability",
+      "tail_type": "Pharmacokinetic Property"
     },
     {
       "head": "Gut Microbiota",
-      "head_type": "Biological Process",
+      "head_type": "Biological Entity",
       "relation": "modulate",
-      "tail": "Clinical Effects of Antidepressants",
-      "tail_type": "Therapeutic Outcome"
-    },
-    {
-      "head": "Gut Microbiota Changes",
-      "head_type": "Biological Process",
-      "relation": "interact with",
-      "tail": "Antidepressants",
-      "tail_type": "Medication"
-    },
-    {
-      "head": "Gut Microbiota Metabolites",
-      "head_type": "Biochemical Process",
-      "relation": "influence",
-      "tail": "Behavioral Effects",
-      "tail_type": "Behavioral Outcome"
+      "tail": "Mood Modifying Effects",
+      "tail_type": "Physiological Effect"
     },
     {
       "head": "PubMed",
       "head_type": "Database",
-      "relation": "used for",
-      "tail": "Literature Search",
+      "relation": "contains",
+      "tail": "Studies",
+      "tail_type": "Research Study"
+    },
+    {
+      "head": "Studies",
+      "head_type": "Research Study",
+      "relation": "assess",
+      "tail": "Risk of Bias",
       "tail_type": "Research Methodology"
     },
     {
-      "head": "Systematic Review",
-      "head_type": "Research Methodology",
-      "relation": "follows",
-      "tail": "PRISMA Guidelines",
-      "tail_type": "Methodological Framework"
+      "head": "Pharmacomicrobiomics",
+      "head_type": "Scientific Field",
+      "relation": "relates to",
+      "tail": "Human Health",
+      "tail_type": "Health Domain"
     },
     {
-      "head": "Bias Assessment",
-      "head_type": "Research Methodology",
-      "relation": "conducted on",
-      "tail": "Studies",
-      "tail_type": "Research Studies"
+      "head": "Baseline Changes",
+      "head_type": "Change Type",
+      "relation": "affect",
+      "tail": "Therapeutic Responses",
+      "tail_type": "Treatment Outcome"
     },
     {
-      "head": "Antidepressant Treatment",
-      "head_type": "Therapeutic Intervention",
-      "relation": "influenced by",
-      "tail": "Microbiota Changes",
-      "tail_type": "Biological Process"
+      "head": "Treatment-Emergent Changes",
+      "head_type": "Change Type",
+      "relation": "affect",
+      "tail": "Adverse Responses",
+      "tail_type": "Treatment Outcome"
+    },
+    {
+      "head": "Pharmacomicrobiomics",
+      "head_type": "Scientific Field",
+      "relation": "influences",
+      "tail": "Antidepressant Treatment Selection",
+      "tail_type": "Medical Decision"
+    },
+    {
+      "head": "Pharmacomicrobiomics",
+      "head_type": "Scientific Field",
+      "relation": "influences",
+      "tail": "Response Prediction",
+      "tail_type": "Predictive Analytics"
     }
   ]
 }

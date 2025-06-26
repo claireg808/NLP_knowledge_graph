@@ -1,0 +1,132 @@
+{
+  "title": "Fecal Microbiota Analysis in Patients Going through a Depressive Episode during Treatment in a Psychiatric Hospital Setting.",
+  "abstract": "There is a worldwide prevalence of generalized anxiety and major depressive disorders (MDD). Gut\u207bbrain axis dysfunction, antibacterial activity, and modulatory effects of antidepressants toward intestinal bacteria have been shown both in vitro and in vivo. In this study, we aimed to investigate the effects of hospital stay, including escitalopram administration, on gut microbiota in patients with depressive episodes. After admission to the hospital and 7-days washout from all medications the composition of fecal microbiota samples was evaluated at baseline (W0) and after 6 weeks (W6), using 16S rRNA sequencing. The study was conducted on 17 inpatients (52.9% females), who followed the same daily hospital routine, including a standard diet and received 5\u207b20 mg daily doses of escitalopram. At the end of treatment (W6), no change was observed in the Chao1 index. However, Shannon (median (Q1\u207bQ3): W0 2.78 (2.67\u207b3.02) vs. W6 3.11 (2.80\u207b3.30)), and inverse Simpson (median (Q1\u207bQ3): W0 9.26 (7.26\u207b13.76) vs. W6 12.13 (9.17\u207b15.73)) indices increased significantly compared to baseline values (False Discovery Rate <i>p</i> (<i>q</i>) = 0.031 and <i>q</i> = 0.011, respectively). We also found that between-subject W0 Bray\u207bCurtis dissimilarities were significantly higher than W0\u207bW6 within-subject dissimilarities (median (Q1\u207bQ3): 0.68 (0.56\u207b0.77) vs. 0.38 (0.35\u207b0.52), two sided Mann\u207bWhitney test <i>p</i> < 0.00001. The within-subject dissimilarities did not depend on sex, age, BMI, illness duration and a daily dose of escitalopram. No significant differences between taxa levels, at the studied time points, were observed when adjusted for multiple hypotheses testing procedures. We conclude that a six-week treatment in a psychiatric hospital setting resulted in increased alpha biodiversity in fecal microbiota, however its causal relationship with patients' mental health was not proved. We have also found that individual microbiome stability was not affected by hospitalization.",
+  "relations": [
+    {
+      "head": "Fecal Microbiota",
+      "head_type": "Biological Entity",
+      "relation": "Analysis Conducted On",
+      "tail": "Patients",
+      "tail_type": "Human Entity"
+    },
+    {
+      "head": "Patients",
+      "head_type": "Human Entity",
+      "relation": "Experiencing",
+      "tail": "Depressive Episodes",
+      "tail_type": "Mental Health Condition"
+    },
+    {
+      "head": "Depressive Episodes",
+      "head_type": "Mental Health Condition",
+      "relation": "Treated With",
+      "tail": "Escitalopram",
+      "tail_type": "Medication"
+    },
+    {
+      "head": "Escitalopram",
+      "head_type": "Medication",
+      "relation": "Administered During",
+      "tail": "Hospital Stay",
+      "tail_type": "Healthcare Setting"
+    },
+    {
+      "head": "Hospital Stay",
+      "head_type": "Healthcare Setting",
+      "relation": "Conducted In",
+      "tail": "Psychiatric Hospital",
+      "tail_type": "Institution"
+    },
+    {
+      "head": "Fecal Microbiota Samples",
+      "head_type": "Biological Sample",
+      "relation": "Evaluated At",
+      "tail": "Baseline (W0)",
+      "tail_type": "Time Point"
+    },
+    {
+      "head": "Fecal Microbiota Samples",
+      "head_type": "Biological Sample",
+      "relation": "Evaluated After",
+      "tail": "6 Weeks (W6)",
+      "tail_type": "Time Point"
+    },
+    {
+      "head": "16S rRNA Sequencing",
+      "head_type": "Methodology",
+      "relation": "Used For",
+      "tail": "Microbiota Evaluation",
+      "tail_type": "Research Method"
+    },
+    {
+      "head": "Patients",
+      "head_type": "Human Entity",
+      "relation": "Followed",
+      "tail": "Standard Diet",
+      "tail_type": "Dietary Regime"
+    },
+    {
+      "head": "Escitalopram",
+      "head_type": "Medication",
+      "relation": "Administered At Dosage",
+      "tail": "5\u207b20 mg Daily",
+      "tail_type": "Dosage"
+    },
+    {
+      "head": "Shannon Index",
+      "head_type": "Biodiversity Metric",
+      "relation": "Increased From",
+      "tail": "Baseline (W0)",
+      "tail_type": "Time Point"
+    },
+    {
+      "head": "Inverse Simpson Index",
+      "head_type": "Biodiversity Metric",
+      "relation": "Increased From",
+      "tail": "Baseline (W0)",
+      "tail_type": "Time Point"
+    },
+    {
+      "head": "Within-Subject Dissimilarities",
+      "head_type": "Statistical Measure",
+      "relation": "Did Not Depend On",
+      "tail": "Sex",
+      "tail_type": "Demographic Factor"
+    },
+    {
+      "head": "Within-Subject Dissimilarities",
+      "head_type": "Statistical Measure",
+      "relation": "Did Not Depend On",
+      "tail": "Age",
+      "tail_type": "Demographic Factor"
+    },
+    {
+      "head": "Within-Subject Dissimilarities",
+      "head_type": "Statistical Measure",
+      "relation": "Did Not Depend On",
+      "tail": "BMI",
+      "tail_type": "Health Indicator"
+    },
+    {
+      "head": "Within-Subject Dissimilarities",
+      "head_type": "Statistical Measure",
+      "relation": "Did Not Depend On",
+      "tail": "Illness Duration",
+      "tail_type": "Health Indicator"
+    },
+    {
+      "head": "Within-Subject Dissimilarities",
+      "head_type": "Statistical Measure",
+      "relation": "Did Not Depend On",
+      "tail": "Daily Dose Of Escitalopram",
+      "tail_type": "Medication Dosage"
+    },
+    {
+      "head": "Microbiome Stability",
+      "head_type": "Biological Stability",
+      "relation": "Not Affected By",
+      "tail": "Hospitalization",
+      "tail_type": "Healthcare Setting"
+    }
+  ]
+}

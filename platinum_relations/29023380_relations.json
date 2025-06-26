@@ -1,167 +1,216 @@
 {
-  "title": "The Gut Microbiome Feelings of the Brain: A Perspective for Non-Microbiologists",
-  "abstract": "To comprehensively review the scientific knowledge on the gut-brain axis. Various publications on the gut-brain axis, until 31 July 2017, were screened using the Medline, Google, and Cochrane Library databases. The search was performed using the following keywords: 'gut-brain axis', 'gut-microbiota-brain axis', 'nutrition microbiome/microbiota', 'enteric nervous system', 'enteric glial cells/network', 'gut-brain pathways', 'microbiome immune system', 'microbiome neuroendocrine system' and 'intestinal/gut/enteric neuropeptides'. Relevant articles were selected and reviewed. Tremendous progress has been made in exploring the interactions between nutrients, the microbiome, and the intestinal, epithelium-enteric nervous, endocrine and immune systems and the brain. The basis of the gut-brain axis comprises of an array of multichannel sensing and trafficking pathways that are suggested to convey the enteric signals to the brain. These are mediated by neuroanatomy (represented by the vagal and spinal afferent neurons), the neuroendocrine-hypothalamic-pituitary-adrenal (HPA) axis (represented by the gut hormones), immune routes (represented by multiple cytokines), microbially-derived neurotransmitters, and finally the gate keepers of the intestinal and brain barriers. Their mutual and harmonious but intricate interaction is essential for human life and brain performance. However, a failure in the interaction leads to a number of inflammatory-, autoimmune-, neurodegenerative-, metabolic-, mood-, behavioral-, cognitive-, autism-spectrum-, stress- and pain-related disorders. The limited availability of information on the mechanisms, pathways and cause-and-effect relationships hinders us from translating and implementing the knowledge from the bench to the clinic. Further understanding of this intricate field might potentially shed light on novel preventive and therapeutic strategies to combat these disorders. Nutritional approaches, microbiome manipulations, enteric and brain barrier reinforcement and sensing and trafficking modulation might improve physical and mental health outcomes.",
+  "title": "The Gut Microbiome Feelings of the Brain: A Perspective for Non-Microbiologists.",
+  "abstract": "Objective: To comprehensively review the scientific knowledge on the gut-brain axis. Methods: Various publications on the gut-brain axis, until 31 July 2017, were screened using the Medline, Google, and Cochrane Library databases. The search was performed using the following keywords: 'gut-brain axis', 'gut-microbiota-brain axis', 'nutrition microbiome/microbiota', 'enteric nervous system', 'enteric glial cells/network', 'gut-brain pathways', 'microbiome immune system', 'microbiome neuroendocrine system' and 'intestinal/gut/enteric neuropeptides'. Relevant articles were selected and reviewed. Results: Tremendous progress has been made in exploring the interactions between nutrients, the microbiome, and the intestinal, epithelium-enteric nervous, endocrine and immune systems and the brain. The basis of the gut-brain axis comprises of an array of multichannel sensing and trafficking pathways that are suggested to convey the enteric signals to the brain. These are mediated by neuroanatomy (represented by the vagal and spinal afferent neurons), the neuroendocrine-hypothalamic-pituitary-adrenal (HPA) axis (represented by the gut hormones), immune routes (represented by multiple cytokines), microbially-derived neurotransmitters, and finally the gate keepers of the intestinal and brain barriers. Their mutual and harmonious but intricate interaction is essential for human life and brain performance. However, a failure in the interaction leads to a number of inflammatory-, autoimmune-, neurodegenerative-, metabolic-, mood-, behavioral-, cognitive-, autism-spectrum-, stress- and pain-related disorders. The limited availability of information on the mechanisms, pathways and cause-and-effect relationships hinders us from translating and implementing the knowledge from the bench to the clinic. Implications: Further understanding of this intricate field might potentially shed light on novel preventive and therapeutic strategies to combat these disorders. Nutritional approaches, microbiome manipulations, enteric and brain barrier reinforcement and sensing and trafficking modulation might improve physical and mental health outcomes.",
   "relations": [
     {
       "head": "gut-brain axis",
-      "head_type": "biological concept",
+      "head_type": "Biological System",
       "relation": "comprises",
-      "tail": "multichannel sensing pathways",
-      "tail_type": "biological pathways"
+      "tail": "gut-brain pathways",
+      "tail_type": "Biological Pathway"
     },
     {
       "head": "gut-brain axis",
-      "head_type": "biological concept",
+      "head_type": "Biological System",
       "relation": "mediated by",
       "tail": "neuroanatomy",
-      "tail_type": "biological structure"
+      "tail_type": "Biological Structure"
     },
     {
       "head": "gut-brain axis",
-      "head_type": "biological concept",
+      "head_type": "Biological System",
       "relation": "mediated by",
       "tail": "HPA axis",
-      "tail_type": "biological system"
+      "tail_type": "Hormonal System"
     },
     {
       "head": "gut-brain axis",
-      "head_type": "biological concept",
+      "head_type": "Biological System",
       "relation": "mediated by",
       "tail": "immune routes",
-      "tail_type": "biological pathways"
+      "tail_type": "Immune System"
     },
     {
       "head": "gut-brain axis",
-      "head_type": "biological concept",
+      "head_type": "Biological System",
       "relation": "mediated by",
       "tail": "microbially-derived neurotransmitters",
-      "tail_type": "biological molecules"
+      "tail_type": "Chemical Substance"
     },
     {
       "head": "gut-brain axis",
-      "head_type": "biological concept",
+      "head_type": "Biological System",
       "relation": "mediated by",
       "tail": "intestinal and brain barriers",
-      "tail_type": "biological structures"
-    },
-    {
-      "head": "failure in interaction",
-      "head_type": "biological dysfunction",
-      "relation": "leads to",
-      "tail": "inflammatory disorders",
-      "tail_type": "disease category"
-    },
-    {
-      "head": "failure in interaction",
-      "head_type": "biological dysfunction",
-      "relation": "leads to",
-      "tail": "autoimmune disorders",
-      "tail_type": "disease category"
-    },
-    {
-      "head": "failure in interaction",
-      "head_type": "biological dysfunction",
-      "relation": "leads to",
-      "tail": "neurodegenerative disorders",
-      "tail_type": "disease category"
-    },
-    {
-      "head": "failure in interaction",
-      "head_type": "biological dysfunction",
-      "relation": "leads to",
-      "tail": "metabolic disorders",
-      "tail_type": "disease category"
-    },
-    {
-      "head": "failure in interaction",
-      "head_type": "biological dysfunction",
-      "relation": "leads to",
-      "tail": "mood disorders",
-      "tail_type": "mental health condition"
-    },
-    {
-      "head": "failure in interaction",
-      "head_type": "biological dysfunction",
-      "relation": "leads to",
-      "tail": "behavioral disorders",
-      "tail_type": "mental health condition"
-    },
-    {
-      "head": "failure in interaction",
-      "head_type": "biological dysfunction",
-      "relation": "leads to",
-      "tail": "cognitive disorders",
-      "tail_type": "mental health condition"
-    },
-    {
-      "head": "failure in interaction",
-      "head_type": "biological dysfunction",
-      "relation": "leads to",
-      "tail": "autism-spectrum disorders",
-      "tail_type": "mental health condition"
-    },
-    {
-      "head": "failure in interaction",
-      "head_type": "biological dysfunction",
-      "relation": "leads to",
-      "tail": "stress-related disorders",
-      "tail_type": "mental health condition"
-    },
-    {
-      "head": "failure in interaction",
-      "head_type": "biological dysfunction",
-      "relation": "leads to",
-      "tail": "pain-related disorders",
-      "tail_type": "health condition"
+      "tail_type": "Biological Barrier"
     },
     {
       "head": "gut-brain axis",
-      "head_type": "biological concept",
+      "head_type": "Biological System",
       "relation": "interacts with",
       "tail": "nutrients",
-      "tail_type": "biological molecules"
+      "tail_type": "Nutrient"
     },
     {
       "head": "gut-brain axis",
-      "head_type": "biological concept",
+      "head_type": "Biological System",
       "relation": "interacts with",
       "tail": "microbiome",
-      "tail_type": "biological system"
+      "tail_type": "Microbial Community"
     },
     {
       "head": "gut-brain axis",
-      "head_type": "biological concept",
+      "head_type": "Biological System",
       "relation": "interacts with",
-      "tail": "intestinal system",
-      "tail_type": "biological system"
+      "tail": "intestine",
+      "tail_type": "Organ"
     },
     {
       "head": "gut-brain axis",
-      "head_type": "biological concept",
+      "head_type": "Biological System",
       "relation": "interacts with",
-      "tail": "epithelium-enteric nervous system",
-      "tail_type": "biological system"
+      "tail": "epithelium",
+      "tail_type": "Tissue"
     },
     {
       "head": "gut-brain axis",
-      "head_type": "biological concept",
+      "head_type": "Biological System",
+      "relation": "interacts with",
+      "tail": "enteric nervous system",
+      "tail_type": "Nervous System"
+    },
+    {
+      "head": "gut-brain axis",
+      "head_type": "Biological System",
       "relation": "interacts with",
       "tail": "endocrine system",
-      "tail_type": "biological system"
+      "tail_type": "Endocrine System"
     },
     {
       "head": "gut-brain axis",
-      "head_type": "biological concept",
+      "head_type": "Biological System",
       "relation": "interacts with",
       "tail": "immune system",
-      "tail_type": "biological system"
+      "tail_type": "Immune System"
     },
     {
       "head": "gut-brain axis",
-      "head_type": "biological concept",
+      "head_type": "Biological System",
       "relation": "interacts with",
       "tail": "brain",
-      "tail_type": "biological organ"
+      "tail_type": "Organ"
+    },
+    {
+      "head": "failure in interaction",
+      "head_type": "Biological Process",
+      "relation": "leads to",
+      "tail": "inflammatory disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "failure in interaction",
+      "head_type": "Biological Process",
+      "relation": "leads to",
+      "tail": "autoimmune disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "failure in interaction",
+      "head_type": "Biological Process",
+      "relation": "leads to",
+      "tail": "neurodegenerative disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "failure in interaction",
+      "head_type": "Biological Process",
+      "relation": "leads to",
+      "tail": "metabolic disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "failure in interaction",
+      "head_type": "Biological Process",
+      "relation": "leads to",
+      "tail": "mood disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "failure in interaction",
+      "head_type": "Biological Process",
+      "relation": "leads to",
+      "tail": "behavioral disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "failure in interaction",
+      "head_type": "Biological Process",
+      "relation": "leads to",
+      "tail": "cognitive disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "failure in interaction",
+      "head_type": "Biological Process",
+      "relation": "leads to",
+      "tail": "autism-spectrum disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "failure in interaction",
+      "head_type": "Biological Process",
+      "relation": "leads to",
+      "tail": "stress-related disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "failure in interaction",
+      "head_type": "Biological Process",
+      "relation": "leads to",
+      "tail": "pain-related disorders",
+      "tail_type": "Disease"
+    },
+    {
+      "head": "further understanding",
+      "head_type": "Knowledge",
+      "relation": "might shed light on",
+      "tail": "preventive strategies",
+      "tail_type": "Strategy"
+    },
+    {
+      "head": "further understanding",
+      "head_type": "Knowledge",
+      "relation": "might shed light on",
+      "tail": "therapeutic strategies",
+      "tail_type": "Strategy"
+    },
+    {
+      "head": "preventive strategies",
+      "head_type": "Strategy",
+      "relation": "include",
+      "tail": "nutritional approaches",
+      "tail_type": "Method"
+    },
+    {
+      "head": "preventive strategies",
+      "head_type": "Strategy",
+      "relation": "include",
+      "tail": "microbiome manipulations",
+      "tail_type": "Method"
+    },
+    {
+      "head": "preventive strategies",
+      "head_type": "Strategy",
+      "relation": "include",
+      "tail": "enteric and brain barrier reinforcement",
+      "tail_type": "Method"
+    },
+    {
+      "head": "preventive strategies",
+      "head_type": "Strategy",
+      "relation": "include",
+      "tail": "sensing and trafficking modulation",
+      "tail_type": "Method"
     }
   ]
 }

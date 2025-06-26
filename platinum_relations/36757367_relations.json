@@ -13,8 +13,8 @@
       "head": "brain-gut axis",
       "head_type": "biological system",
       "relation": "connects",
-      "tail": "gastrointestinal tract",
-      "tail_type": "anatomical system"
+      "tail": "gastrointestinal (GI) tract",
+      "tail_type": "anatomical structure"
     },
     {
       "head": "brain-gut axis",
@@ -24,186 +24,214 @@
       "tail_type": "brain areas"
     },
     {
-      "head": "disturbances",
-      "head_type": "system disturbance",
-      "relation": "have consequences for",
-      "tail": "neuronal activity",
-      "tail_type": "biological process"
+      "head": "inflammatory bowel disease",
+      "head_type": "disease",
+      "relation": "disturbs",
+      "tail": "brain-gut axis",
+      "tail_type": "biological system"
     },
     {
-      "head": "disturbances",
-      "head_type": "system disturbance",
-      "relation": "have consequences for",
+      "head": "disturbances to brain-gut axis",
+      "head_type": "pathological state",
+      "relation": "has consequence",
+      "tail": "neuronal activity",
+      "tail_type": "physiological process"
+    },
+    {
+      "head": "disturbances to brain-gut axis",
+      "head_type": "pathological state",
+      "relation": "has consequence",
       "tail": "cognitive function",
-      "tail_type": "cognitive process"
+      "tail_type": "physiological process"
     },
     {
       "head": "gut-microbiota-brain axis",
       "head_type": "biological system",
       "relation": "refers to",
-      "tail": "communication between gut-resident bacteria and brain",
-      "tail_type": "communication process"
+      "tail": "communication",
+      "tail_type": "process"
+    },
+    {
+      "head": "gut-microbiota-brain axis",
+      "head_type": "biological system",
+      "relation": "involves",
+      "tail": "gut-resident bacteria",
+      "tail_type": "microorganism"
+    },
+    {
+      "head": "gut-microbiota-brain axis",
+      "head_type": "biological system",
+      "relation": "involves",
+      "tail": "brain",
+      "tail_type": "organ"
     },
     {
       "head": "gut-microbiota-brain axis",
       "head_type": "biological system",
       "relation": "detects",
       "tail": "gut microorganisms",
-      "tail_type": "microbial entities"
+      "tail_type": "microorganism"
     },
     {
       "head": "gut-microbiota-brain axis",
       "head_type": "biological system",
       "relation": "relays information to",
-      "tail": "central nervous system",
-      "tail_type": "nervous system"
+      "tail": "central nervous system (CNS)",
+      "tail_type": "physiological system"
     },
     {
       "head": "central nervous system",
-      "head_type": "nervous system",
+      "head_type": "physiological system",
       "relation": "regulates",
       "tail": "gut physiology",
       "tail_type": "physiological process"
     },
     {
-      "head": "changes in stability and diversity of gut microbiota",
-      "head_type": "microbial changes",
+      "head": "changes in gut microbiota stability",
+      "head_type": "physiological change",
       "relation": "implicated in",
       "tail": "neuronal disorders",
-      "tail_type": "disease states"
+      "tail_type": "disease"
     },
     {
-      "head": "changes in stability and diversity of gut microbiota",
-      "head_type": "microbial changes",
+      "head": "changes in gut microbiota diversity",
+      "head_type": "physiological change",
       "relation": "implicated in",
+      "tail": "neuronal disorders",
+      "tail_type": "disease"
+    },
+    {
+      "head": "neuronal disorders",
+      "head_type": "disease",
+      "relation": "include",
       "tail": "depression",
-      "tail_type": "mental disorder"
+      "tail_type": "disease"
     },
     {
-      "head": "changes in stability and diversity of gut microbiota",
-      "head_type": "microbial changes",
-      "relation": "implicated in",
+      "head": "neuronal disorders",
+      "head_type": "disease",
+      "relation": "include",
       "tail": "autism spectrum disorder",
-      "tail_type": "developmental disorder"
+      "tail_type": "disease"
     },
     {
-      "head": "changes in stability and diversity of gut microbiota",
-      "head_type": "microbial changes",
-      "relation": "implicated in",
+      "head": "neuronal disorders",
+      "head_type": "disease",
+      "relation": "include",
       "tail": "Parkinson's disease",
-      "tail_type": "neurodegenerative disease"
+      "tail_type": "disease"
     },
     {
-      "head": "changes in stability and diversity of gut microbiota",
-      "head_type": "microbial changes",
-      "relation": "implicated in",
+      "head": "neuronal disorders",
+      "head_type": "disease",
+      "relation": "include",
       "tail": "Alzheimer's disease",
-      "tail_type": "neurodegenerative disease"
+      "tail_type": "disease"
     },
     {
-      "head": "changes in stability and diversity of gut microbiota",
-      "head_type": "microbial changes",
-      "relation": "implicated in",
+      "head": "neuronal disorders",
+      "head_type": "disease",
+      "relation": "include",
       "tail": "multiple sclerosis",
-      "tail_type": "autoimmune disease"
+      "tail_type": "disease"
     },
     {
       "head": "medicinal herbs",
-      "head_type": "herbal treatment",
-      "relation": "used to correct",
-      "tail": "imbalance in gut microbiota",
-      "tail_type": "microbial imbalance"
+      "head_type": "treatment",
+      "relation": "correct imbalance",
+      "tail": "gut microbiota",
+      "tail_type": "microbial community"
     },
     {
       "head": "metabolic products of dysregulated bacteria",
-      "head_type": "biological products",
-      "relation": "used to correct",
-      "tail": "imbalance in gut microbiota",
-      "tail_type": "microbial imbalance"
+      "head_type": "biological product",
+      "relation": "correct imbalance",
+      "tail": "gut microbiota",
+      "tail_type": "microbial community"
     },
     {
       "head": "probiotics",
-      "head_type": "microbial treatment",
-      "relation": "used to correct",
-      "tail": "imbalance in gut microbiota",
-      "tail_type": "microbial imbalance"
+      "head_type": "treatment",
+      "relation": "correct imbalance",
+      "tail": "gut microbiota",
+      "tail_type": "microbial community"
     },
     {
       "head": "medicinal herbs",
-      "head_type": "herbal treatment",
-      "relation": "show hope for",
+      "head_type": "treatment",
+      "relation": "used for",
       "tail": "treatment of neuronal disorders",
-      "tail_type": "disease treatment"
+      "tail_type": "disease management"
     },
     {
       "head": "metabolic products of dysregulated bacteria",
-      "head_type": "biological products",
-      "relation": "show hope for",
+      "head_type": "biological product",
+      "relation": "used for",
       "tail": "treatment of neuronal disorders",
-      "tail_type": "disease treatment"
+      "tail_type": "disease management"
     },
     {
       "head": "probiotics",
-      "head_type": "microbial treatment",
-      "relation": "show hope for",
+      "head_type": "treatment",
+      "relation": "used for",
       "tail": "treatment of neuronal disorders",
-      "tail_type": "disease treatment"
+      "tail_type": "disease management"
     },
     {
       "head": "gut microbiota",
       "head_type": "microbial community",
       "relation": "contributes to",
       "tail": "neuronal disorders",
-      "tail_type": "disease states"
+      "tail_type": "disease"
     },
     {
       "head": "gut microbiota",
       "head_type": "microbial community",
-      "relation": "has tangible links with",
-      "tail": "diseases of the GI tract",
-      "tail_type": "gastrointestinal diseases"
+      "relation": "linked to",
+      "tail": "diseases of GI tract",
+      "tail_type": "disease"
     },
     {
       "head": "gut microbiota",
       "head_type": "microbial community",
-      "relation": "has tangible links with",
+      "relation": "linked to",
       "tail": "cognitive function",
-      "tail_type": "cognitive process"
+      "tail_type": "physiological process"
     },
     {
       "head": "gut microbiota",
       "head_type": "microbial community",
-      "relation": "has tangible links with",
+      "relation": "linked to",
       "tail": "behaviour",
-      "tail_type": "behavioral process"
+      "tail_type": "physiological process"
     },
     {
       "head": "irritable bowel syndrome (IBS)",
-      "head_type": "gastrointestinal disease",
-      "relation": "has strong links to",
+      "head_type": "disease",
+      "relation": "has link",
       "tail": "brain function",
-      "tail_type": "brain activity"
+      "tail_type": "physiological process"
     },
     {
       "head": "irritable bowel syndrome (IBS)",
-      "head_type": "gastrointestinal disease",
-      "relation": "has strong links to",
+      "head_type": "disease",
+      "relation": "has link",
       "tail": "anxiety disorders",
-      "tail_type": "mental disorder"
+      "tail_type": "disease"
     },
     {
       "head": "targeted therapeutic strategies",
-      "head_type": "therapeutic approach",
-      "relation": "support",
-      "tail": "modulation of gut microbiota",
-      "tail_type": "microbial modulation"
+      "head_type": "treatment approach",
+      "relation": "modulate",
+      "tail": "gut microbiota",
+      "tail_type": "microbial community"
     },
     {
       "head": "targeted therapeutic strategies",
-      "head_type": "therapeutic approach",
-      "relation": "aim to treat",
-      "tail": "brain/mental-health-related disease",
-      "tail_type": "mental health disease"
+      "head_type": "treatment approach",
+      "relation": "used for",
+      "tail": "treatment of brain/mental-health-related disease",
+      "tail_type": "disease management"
     }
   ]
 }

@@ -1,153 +1,216 @@
 {
-  "title": "Analysis of the Efficacy of Diet and Short-Term Probiotic Intervention on Depressive Symptoms in Patients after Bariatric Surgery: A Randomized Double-Blind Placebo Controlled Pilot Study",
+  "title": "Analysis of the Efficacy of Diet and Short-Term Probiotic Intervention on Depressive Symptoms in Patients after Bariatric Surgery: A Randomized Double-Blind Placebo Controlled Pilot Study.",
   "abstract": "(1) Background: studies have shown that some patients experience mental deterioration after bariatric surgery. (2) Methods: We examined whether the use of probiotics and improved eating habits can improve the mental health of people who suffered from mood disorders after bariatric surgery. We also analyzed patients' mental states, eating habits and microbiota. (3) Results: Depressive symptoms were observed in 45% of 200 bariatric patients. After 5 weeks, we noted an improvement in patients' mental functioning (reduction in BDI and HRSD), but it was not related to the probiotic used. The consumption of vegetables and whole grain cereals increased (DQI-I adequacy), the consumption of simple sugars and SFA decreased (moderation DQI-I), and the consumption of monounsaturated fatty acids increased it. In the feces of patients after RYGB, there was a significantly higher abundance of two members of the Muribaculaceae family, namely Veillonella and Roseburia, while those after SG had more Christensenellaceae R-7 group, Subdoligranulum, Oscillibacter, and UCG-005. (4) Conclusions: the noted differences in the composition of the gut microbiota (RYGB vs. SG) may be one of the determinants of the proper functioning of the gut-brain microbiota axis, although there is currently a need for further research into this topic using a larger group of patients and different probiotic doses.",
   "relations": [
     {
       "head": "patients",
-      "head_type": "Human",
+      "head_type": "group",
       "relation": "experienced",
       "tail": "mental deterioration",
-      "tail_type": "Condition"
+      "tail_type": "condition"
     },
     {
       "head": "probiotics",
-      "head_type": "Substance",
-      "relation": "improve",
-      "tail": "mental health",
-      "tail_type": "Condition"
+      "head_type": "treatment",
+      "relation": "used_to",
+      "tail": "improve mental health",
+      "tail_type": "outcome"
     },
     {
       "head": "improved eating habits",
-      "head_type": "Behavior",
-      "relation": "improve",
-      "tail": "mental health",
-      "tail_type": "Condition"
+      "head_type": "lifestyle change",
+      "relation": "used_to",
+      "tail": "improve mental health",
+      "tail_type": "outcome"
     },
     {
       "head": "patients",
-      "head_type": "Human",
-      "relation": "suffered from",
+      "head_type": "group",
+      "relation": "suffered_from",
       "tail": "mood disorders",
-      "tail_type": "Condition"
+      "tail_type": "condition"
     },
     {
       "head": "patients",
-      "head_type": "Human",
+      "head_type": "group",
+      "relation": "analyzed",
+      "tail": "mental states",
+      "tail_type": "assessment"
+    },
+    {
+      "head": "patients",
+      "head_type": "group",
+      "relation": "analyzed",
+      "tail": "eating habits",
+      "tail_type": "behavior"
+    },
+    {
+      "head": "patients",
+      "head_type": "group",
+      "relation": "analyzed",
+      "tail": "microbiota",
+      "tail_type": "biological entity"
+    },
+    {
+      "head": "45% of 200 bariatric patients",
+      "head_type": "group",
       "relation": "exhibited",
       "tail": "depressive symptoms",
-      "tail_type": "Condition"
+      "tail_type": "condition"
     },
     {
-      "head": "mental functioning",
-      "head_type": "Condition",
+      "head": "patients' mental functioning",
+      "head_type": "mental state",
       "relation": "improved",
+      "tail": "5 weeks",
+      "tail_type": "time period"
+    },
+    {
+      "head": "reduction in BDI",
+      "head_type": "outcome",
+      "relation": "observed",
       "tail": "patients",
-      "tail_type": "Human"
+      "tail_type": "group"
+    },
+    {
+      "head": "reduction in HRSD",
+      "head_type": "outcome",
+      "relation": "observed",
+      "tail": "patients",
+      "tail_type": "group"
     },
     {
       "head": "BDI",
-      "head_type": "Assessment Tool",
-      "relation": "reduction in",
-      "tail": "patients",
-      "tail_type": "Human"
+      "head_type": "assessment tool",
+      "relation": "measured",
+      "tail": "depressive symptoms",
+      "tail_type": "condition"
     },
     {
       "head": "HRSD",
-      "head_type": "Assessment Tool",
-      "relation": "reduction in",
+      "head_type": "assessment tool",
+      "relation": "measured",
+      "tail": "depressive symptoms",
+      "tail_type": "condition"
+    },
+    {
+      "head": "consumption of vegetables",
+      "head_type": "dietary habit",
+      "relation": "increased",
       "tail": "patients",
-      "tail_type": "Human"
+      "tail_type": "group"
     },
     {
-      "head": "consumption",
-      "head_type": "Behavior",
+      "head": "consumption of whole grain cereals",
+      "head_type": "dietary habit",
       "relation": "increased",
-      "tail": "vegetables",
-      "tail_type": "Food"
+      "tail": "patients",
+      "tail_type": "group"
     },
     {
-      "head": "consumption",
-      "head_type": "Behavior",
-      "relation": "increased",
-      "tail": "whole grain cereals",
-      "tail_type": "Food"
+      "head": "DQI-I adequacy",
+      "head_type": "dietary assessment",
+      "relation": "measured",
+      "tail": "increased consumption",
+      "tail_type": "outcome"
     },
     {
-      "head": "consumption",
-      "head_type": "Behavior",
+      "head": "consumption of simple sugars",
+      "head_type": "dietary habit",
       "relation": "decreased",
-      "tail": "simple sugars",
-      "tail_type": "Food"
+      "tail": "patients",
+      "tail_type": "group"
     },
     {
-      "head": "consumption",
-      "head_type": "Behavior",
+      "head": "consumption of SFA",
+      "head_type": "dietary habit",
       "relation": "decreased",
-      "tail": "SFA",
-      "tail_type": "Food"
+      "tail": "patients",
+      "tail_type": "group"
     },
     {
-      "head": "consumption",
-      "head_type": "Behavior",
+      "head": "moderation DQI-I",
+      "head_type": "dietary assessment",
+      "relation": "measured",
+      "tail": "decreased consumption",
+      "tail_type": "outcome"
+    },
+    {
+      "head": "consumption of monounsaturated fatty acids",
+      "head_type": "dietary habit",
       "relation": "increased",
-      "tail": "monounsaturated fatty acids",
-      "tail_type": "Food"
+      "tail": "patients",
+      "tail_type": "group"
     },
     {
-      "head": "patients after RYGB",
-      "head_type": "Human",
-      "relation": "had higher abundance of",
-      "tail": "Veillonella",
-      "tail_type": "Microorganism"
+      "head": "Veillonella",
+      "head_type": "microbial species",
+      "relation": "abundant in",
+      "tail": "RYGB patients",
+      "tail_type": "group"
     },
     {
-      "head": "patients after RYGB",
-      "head_type": "Human",
-      "relation": "had higher abundance of",
-      "tail": "Roseburia",
-      "tail_type": "Microorganism"
+      "head": "Roseburia",
+      "head_type": "microbial species",
+      "relation": "abundant in",
+      "tail": "RYGB patients",
+      "tail_type": "group"
     },
     {
-      "head": "patients after SG",
-      "head_type": "Human",
-      "relation": "had higher abundance of",
-      "tail": "Christensenellaceae R-7 group",
-      "tail_type": "Microorganism"
+      "head": "Christensenellaceae R-7 group",
+      "head_type": "microbial species",
+      "relation": "abundant in",
+      "tail": "SG patients",
+      "tail_type": "group"
     },
     {
-      "head": "patients after SG",
-      "head_type": "Human",
-      "relation": "had higher abundance of",
-      "tail": "Subdoligranulum",
-      "tail_type": "Microorganism"
+      "head": "Subdoligranulum",
+      "head_type": "microbial species",
+      "relation": "abundant in",
+      "tail": "SG patients",
+      "tail_type": "group"
     },
     {
-      "head": "patients after SG",
-      "head_type": "Human",
-      "relation": "had higher abundance of",
-      "tail": "Oscillibacter",
-      "tail_type": "Microorganism"
+      "head": "Oscillibacter",
+      "head_type": "microbial species",
+      "relation": "abundant in",
+      "tail": "SG patients",
+      "tail_type": "group"
     },
     {
-      "head": "patients after SG",
-      "head_type": "Human",
-      "relation": "had higher abundance of",
-      "tail": "UCG-005",
-      "tail_type": "Microorganism"
+      "head": "UCG-005",
+      "head_type": "microbial species",
+      "relation": "abundant in",
+      "tail": "SG patients",
+      "tail_type": "group"
     },
     {
       "head": "gut microbiota composition",
-      "head_type": "Biological Process",
-      "relation": "differed between",
-      "tail": "RYGB vs. SG",
-      "tail_type": "Surgical Procedures"
+      "head_type": "biological entity",
+      "relation": "differs between",
+      "tail": "RYGB and SG",
+      "tail_type": "surgical procedures"
     },
     {
-      "head": "gut-brain microbiota axis",
-      "head_type": "Biological Process",
-      "relation": "proper functioning",
-      "tail": "gut microbiota composition",
-      "tail_type": "Biological Process"
+      "head": "differences in gut microbiota",
+      "head_type": "biological entity",
+      "relation": "may influence",
+      "tail": "gut-brain microbiota axis",
+      "tail_type": "biological system"
+    },
+    {
+      "head": "further research",
+      "head_type": "research need",
+      "relation": "required",
+      "tail": "larger patient group",
+      "tail_type": "research requirement"
+    },
+    {
+      "head": "further research",
+      "head_type": "research need",
+      "relation": "required",
+      "tail": "different probiotic doses",
+      "tail_type": "research requirement"
     }
   ]
 }

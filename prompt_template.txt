@@ -21,6 +21,6 @@ You must generate a JSON object with this structure:
   ]
 }
 
-For the following text, extract entities and relations formatted as a valid JSON.
+For the following text, extract the entities and relations:
 Title: {title_here}
 Abstract: {abstract_here}

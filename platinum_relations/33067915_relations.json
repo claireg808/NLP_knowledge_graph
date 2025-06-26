@@ -4,66 +4,45 @@
   "relations": [
     {
       "head": "maternal immune activation",
-      "head_type": "condition",
+      "head_type": "Condition",
       "relation": "risk factor for",
       "tail": "autism spectrum disorder",
-      "tail_type": "disorder"
+      "tail_type": "Condition"
     },
     {
       "head": "antibiotic use",
-      "head_type": "treatment",
-      "relation": "modifies effect of",
+      "head_type": "Treatment",
+      "relation": "modifies effect on",
       "tail": "maternal immune activation",
-      "tail_type": "condition"
+      "tail_type": "Condition"
+    },
+    {
+      "head": "antibiotic use",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "maternal gut microbiota",
+      "tail_type": "Biological Component"
     },
     {
       "head": "maternal immune activation",
-      "head_type": "condition",
+      "head_type": "Condition",
       "relation": "affects",
       "tail": "neurodevelopmental outcomes",
-      "tail_type": "outcome"
+      "tail_type": "Outcome"
     },
     {
       "head": "flu",
-      "head_type": "illness",
+      "head_type": "Infection",
       "relation": "associated with",
       "tail": "autism spectrum disorder",
-      "tail_type": "disorder"
-    },
-    {
-      "head": "flu",
-      "head_type": "illness",
-      "relation": "in second trimester",
-      "tail": "pregnancy",
-      "tail_type": "pregnancy stage"
+      "tail_type": "Condition"
     },
     {
       "head": "antibiotic use",
-      "head_type": "treatment",
-      "relation": "during",
-      "tail": "pregnancy",
-      "tail_type": "pregnancy stage"
-    },
-    {
-      "head": "flu",
-      "head_type": "illness",
-      "relation": "interacts with",
-      "tail": "antibiotic use",
-      "tail_type": "treatment"
-    },
-    {
-      "head": "antibiotic use",
-      "head_type": "treatment",
+      "head_type": "Treatment",
       "relation": "modifies",
-      "tail": "risk of autism spectrum disorder",
-      "tail_type": "disorder"
-    },
-    {
-      "head": "maternal immune activation",
-      "head_type": "condition",
-      "relation": "influenced by",
-      "tail": "antibiotic use",
-      "tail_type": "treatment"
+      "tail": "association between flu and autism spectrum disorder",
+      "tail_type": "Association"
     }
   ]
 }

@@ -7,196 +7,126 @@
       "head_type": "Disease",
       "relation": "associated with",
       "tail": "microbiome composition",
-      "tail_type": "Biological Process"
+      "tail_type": "Biological Entity"
     },
     {
       "head": "Parkinson's disease",
       "head_type": "Disease",
       "relation": "associated with",
       "tail": "colonic microbiome",
-      "tail_type": "Biological Process"
+      "tail_type": "Biological Entity"
     },
     {
       "head": "Parkinson's disease",
       "head_type": "Disease",
-      "relation": "associated with",
+      "relation": "compared to",
       "tail": "Alzheimer's disease",
       "tail_type": "Disease"
     },
     {
       "head": "Parkinson's disease",
       "head_type": "Disease",
-      "relation": "associated with",
+      "relation": "compared to",
       "tail": "multiple system atrophy",
       "tail_type": "Disease"
     },
     {
       "head": "Parkinson's disease",
       "head_type": "Disease",
-      "relation": "associated with",
+      "relation": "compared to",
       "tail": "multiple sclerosis",
       "tail_type": "Disease"
     },
     {
       "head": "Parkinson's disease",
       "head_type": "Disease",
-      "relation": "associated with",
+      "relation": "compared to",
       "tail": "neuromyelitis optica",
       "tail_type": "Disease"
     },
     {
       "head": "Parkinson's disease",
       "head_type": "Disease",
-      "relation": "associated with",
+      "relation": "compared to",
       "tail": "amyotrophic lateral sclerosis",
       "tail_type": "Disease"
     },
     {
       "head": "Lactobacillus",
       "head_type": "Bacteria",
-      "relation": "increase in",
+      "relation": "increased in",
       "tail": "Parkinson's disease",
       "tail_type": "Disease"
     },
     {
       "head": "Bifidobacterium",
       "head_type": "Bacteria",
-      "relation": "increase in",
+      "relation": "increased in",
       "tail": "Parkinson's disease",
       "tail_type": "Disease"
     },
     {
       "head": "Verrucomicrobiaceae",
       "head_type": "Bacteria",
-      "relation": "increase in",
+      "relation": "increased in",
       "tail": "Parkinson's disease",
       "tail_type": "Disease"
     },
     {
       "head": "Akkermansia",
       "head_type": "Bacteria",
-      "relation": "increase in",
+      "relation": "increased in",
       "tail": "Parkinson's disease",
       "tail_type": "Disease"
     },
     {
-      "head": "Faecalibacterium",
+      "head": "Faecalibacterium spp.",
       "head_type": "Bacteria",
-      "relation": "decrease in",
+      "relation": "decreased in",
       "tail": "Parkinson's disease",
       "tail_type": "Disease"
     },
     {
-      "head": "Coprococcus",
+      "head": "Coprococcus spp.",
       "head_type": "Bacteria",
-      "relation": "decrease in",
+      "relation": "decreased in",
       "tail": "Parkinson's disease",
       "tail_type": "Disease"
     },
     {
-      "head": "Blautia",
+      "head": "Blautia spp.",
       "head_type": "Bacteria",
-      "relation": "decrease in",
+      "relation": "decreased in",
       "tail": "Parkinson's disease",
       "tail_type": "Disease"
     },
     {
-      "head": "Prevotella",
+      "head": "Prevotella spp.",
       "head_type": "Bacteria",
-      "relation": "decrease in",
+      "relation": "decreased in",
       "tail": "Parkinson's disease",
       "tail_type": "Disease"
     },
     {
       "head": "Prevotellaceae",
       "head_type": "Bacteria",
-      "relation": "decrease in",
+      "relation": "decreased in",
       "tail": "Parkinson's disease",
       "tail_type": "Disease"
     },
     {
       "head": "Parkinson's disease",
       "head_type": "Disease",
-      "relation": "overlap with",
+      "relation": "shares overlap with",
       "tail": "multiple system atrophy",
       "tail_type": "Disease"
     },
     {
       "head": "Parkinson's disease",
       "head_type": "Disease",
-      "relation": "overlap with",
+      "relation": "shares overlap with",
       "tail": "alpha synucleinopathies",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "multiple system atrophy",
-      "head_type": "Disease",
-      "relation": "overlap with",
-      "tail": "alpha synucleinopathies",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "standardization",
-      "head_type": "Process",
-      "relation": "necessary for",
-      "tail": "reproducibility",
-      "tail_type": "Process"
-    },
-    {
-      "head": "standardization",
-      "head_type": "Process",
-      "relation": "necessary for",
-      "tail": "comparability",
-      "tail_type": "Process"
-    },
-    {
-      "head": "microbiota composition",
-      "head_type": "Biological Process",
-      "relation": "assessed at",
-      "tail": "high taxonomic resolution",
-      "tail_type": "Process"
-    },
-    {
-      "head": "high taxonomic resolution",
-      "head_type": "Process",
-      "relation": "reveals changes in",
-      "tail": "relative abundance",
-      "tail_type": "Biological Process"
-    },
-    {
-      "head": "relative abundance",
-      "head_type": "Biological Process",
-      "relation": "specific to",
-      "tail": "disease",
-      "tail_type": "Disease"
-    },
-    {
-      "head": "relative abundance",
-      "head_type": "Biological Process",
-      "relation": "characteristic of",
-      "tail": "disease group",
       "tail_type": "Disease Group"
-    },
-    {
-      "head": "interactions",
-      "head_type": "Process",
-      "relation": "between",
-      "tail": "bacterial species",
-      "tail_type": "Bacteria"
-    },
-    {
-      "head": "interactions",
-      "head_type": "Process",
-      "relation": "between",
-      "tail": "strains",
-      "tail_type": "Bacteria"
-    },
-    {
-      "head": "co-abundances",
-      "head_type": "Biological Process",
-      "relation": "investigated before",
-      "tail": "effects on host",
-      "tail_type": "Host"
     }
   ]
 }

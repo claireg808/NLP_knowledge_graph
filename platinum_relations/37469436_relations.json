@@ -7,112 +7,98 @@
       "head_type": "Substance",
       "relation": "is the potential effector of",
       "tail": "Lactobacillus fermentum PS150",
-      "tail_type": "Bacterial Strain"
+      "tail_type": "Microbial Strain"
     },
     {
       "head": "Lactobacillus fermentum PS150",
-      "head_type": "Bacterial Strain",
-      "relation": "has",
-      "tail": "hypnotic effects",
-      "tail_type": "Effect"
-    },
-    {
-      "head": "Lactobacillus fermentum PS150",
-      "head_type": "Bacterial Strain",
-      "relation": "shortens",
-      "tail": "sleep latency",
-      "tail_type": "Physiological Parameter"
-    },
-    {
-      "head": "Lactobacillus fermentum PS150",
-      "head_type": "Bacterial Strain",
-      "relation": "ameliorates",
-      "tail": "sleep disturbances",
-      "tail_type": "Condition"
+      "head_type": "Microbial Strain",
+      "relation": "is a",
+      "tail": "hypnotic psychobiotic strain",
+      "tail_type": "Strain Type"
     },
     {
       "head": "GR1009",
-      "head_type": "Bacterial Strain",
+      "head_type": "Microbial Strain",
       "relation": "is phenotypically distinct but genetically similar to",
       "tail": "PS150",
-      "tail_type": "Bacterial Strain"
+      "tail_type": "Microbial Strain"
     },
     {
       "head": "GR1009",
-      "head_type": "Bacterial Strain",
-      "relation": "has no significant",
+      "head_type": "Microbial Strain",
+      "relation": "has no significant hypnotic effects in",
+      "tail": "pentobarbital-induced sleep test",
+      "tail_type": "Test"
+    },
+    {
+      "head": "heat-killed PS150",
+      "head_type": "Microbial Strain",
+      "relation": "exhibited hypnotic effects",
       "tail": "hypnotic effects",
       "tail_type": "Effect"
     },
     {
       "head": "heat-killed PS150",
-      "head_type": "Bacterial Strain",
-      "relation": "exhibits",
-      "tail": "hypnotic effects",
-      "tail_type": "Effect"
-    },
-    {
-      "head": "heat-killed PS150",
-      "head_type": "Bacterial Strain",
-      "relation": "alters",
+      "head_type": "Microbial Strain",
+      "relation": "altered",
       "tail": "gut microbiota",
-      "tail_type": "Physiological Parameter"
+      "tail_type": "Biological Entity"
     },
     {
-      "head": "exopolysaccharide (EPS)",
+      "head": "Exopolysaccharide (EPS)",
       "head_type": "Substance",
-      "relation": "is a heat-stable effector",
-      "tail": "PS150",
-      "tail_type": "Bacterial Strain"
-    },
-    {
-      "head": "comparative genomics analysis",
-      "head_type": "Method",
-      "relation": "reveals",
-      "tail": "distinct genetic characteristics",
-      "tail_type": "Genetic Feature"
+      "relation": "could be responsible for",
+      "tail": "hypnotic effects",
+      "tail_type": "Effect"
     },
     {
       "head": "PS150",
-      "head_type": "Bacterial Strain",
-      "relation": "has",
-      "tail": "sheet-like EPS structure",
-      "tail_type": "Structural Feature"
+      "head_type": "Microbial Strain",
+      "relation": "has distinct genetic characteristics in",
+      "tail": "EPS biosynthesis",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "PS150",
+      "head_type": "Microbial Strain",
+      "relation": "showed a sheet-like EPS structure",
+      "tail": "EPS structure",
+      "tail_type": "Structure"
     },
     {
       "head": "GR1009",
-      "head_type": "Bacterial Strain",
-      "relation": "displays no apparent",
+      "head_type": "Microbial Strain",
+      "relation": "displayed no apparent EPS structure",
       "tail": "EPS structure",
-      "tail_type": "Structural Feature"
+      "tail_type": "Structure"
     },
     {
       "head": "crude extract containing EPS (C-EPS) from PS150",
       "head_type": "Substance",
       "relation": "has higher sugar content value than",
-      "tail": "GR1009",
-      "tail_type": "Bacterial Strain"
+      "tail": "crude extract containing EPS from GR1009",
+      "tail_type": "Substance"
     },
     {
       "head": "C-EPS isolated from PS150",
       "head_type": "Substance",
-      "relation": "has",
+      "relation": "has hypnotic effects",
       "tail": "hypnotic effects",
       "tail_type": "Effect"
     },
     {
       "head": "C-EPS isolated from PS150",
       "head_type": "Substance",
-      "relation": "reduces",
+      "relation": "reduced",
       "tail": "sleep latency",
-      "tail_type": "Physiological Parameter"
+      "tail_type": "Biological Process"
     },
     {
       "head": "C-EPS isolated from PS150",
       "head_type": "Substance",
-      "relation": "reduces",
+      "relation": "reduced",
       "tail": "recovery time",
-      "tail_type": "Physiological Parameter"
+      "tail_type": "Biological Process"
     },
     {
       "head": "EPS",

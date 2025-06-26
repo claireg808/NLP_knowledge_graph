@@ -1,0 +1,202 @@
+{
+  "title": "Bugs and Brains, the Gut and Mental Health Study: a mixed-methods study investigating microbiota composition and function in anxiety, depression and irritable bowel syndrome.",
+  "abstract": "Research has highlighted relationships between the micro-organisms that inhabit our gastrointestinal tract (oral and gut microbiota) with host mood and gastrointestinal functioning. Mental health disorders and functional gastrointestinal disorders co-occur at high rates, although the mechanisms underlying these associations remain unclear. The Bugs and Brains Study aims to investigate complex relationships between anxiety/depression and irritable bowel syndrome (IBS) in two ways. First, its primary component will compare the gut and oral microbiota in females with anxiety/depression and/or IBS relative to controls, and investigate underlying physiological, endocrine and immune factors, as well as associations with diet and psychosocial factors. In an ancillary component, the study will also investigate gastrointestinal and mental health symptoms in a larger sample, and explore relationships with diet, exercise, oral health, substance use, medical history, early life adversity and psychosocial factors. The Bugs and Brains Study aims to recruit 160 females to the primary component: (1) 40 controls; (2) 40 participants with a depressive/anxiety disorder, but no IBS; (3) 40 participants with IBS, but no depressive/anxiety disorder and (4) 40 participants with both depressive/anxiety disorder and IBS. Participation is completed within 1\u2009month, and involves comprehensive questionnaires, anthropometrics, a diagnostic clinical interview, collection of two saliva samples, and stool, urine and hair samples. This study aims to use a systems biology approach to characterise oral and gut microbial composition and function using 16S rRNA gene sequencing and nuclear MR spectroscopy. As part of the ancillary component, it will collect questionnaire data from 1000 participants aged 18-40 years, capturing mental health, gastrointestinal health, oral health, diet and psychosocial factors. Approval was granted by the University of Melbourne Human Research Ethics Committee (#1749221). All participants voluntarily provided informed consent. Results will be published in peer-reviewed journals and presented at scientific conferences.",
+  "relations": [
+    {
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "investigates",
+      "tail": "microbiota composition",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "investigates",
+      "tail": "function",
+      "tail_type": "Biological Process"
+    },
+    {
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "investigates",
+      "tail": "anxiety",
+      "tail_type": "Mental Disorder"
+    },
+    {
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "investigates",
+      "tail": "depression",
+      "tail_type": "Mental Disorder"
+    },
+    {
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "investigates",
+      "tail": "irritable bowel syndrome",
+      "tail_type": "Gastrointestinal Disorder"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbiota",
+      "relation": "associated with",
+      "tail": "host mood",
+      "tail_type": "Physiological State"
+    },
+    {
+      "head": "gut microbiota",
+      "head_type": "Microbiota",
+      "relation": "associated with",
+      "tail": "gastrointestinal functioning",
+      "tail_type": "Physiological Function"
+    },
+    {
+      "head": "mental health disorders",
+      "head_type": "Health Condition",
+      "relation": "co-occur with",
+      "tail": "functional gastrointestinal disorders",
+      "tail_type": "Health Condition"
+    },
+    {
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "compares",
+      "tail": "gut microbiota",
+      "tail_type": "Microbiota"
+    },
+    {
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "compares",
+      "tail": "oral microbiota",
+      "tail_type": "Microbiota"
+    },
+    {
+      "head": "participants",
+      "head_type": "Human",
+      "relation": "have",
+      "tail": "depressive/anxiety disorder",
+      "tail_type": "Mental Disorder"
+    },
+    {
+      "head": "participants",
+      "head_type": "Human",
+      "relation": "have",
+      "tail": "IBS",
+      "tail_type": "Gastrointestinal Disorder"
+    },
+    {
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "investigates",
+      "tail": "diet",
+      "tail_type": "Nutritional Factor"
+    },
+    {
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "investigates",
+      "tail": "psychosocial factors",
+      "tail_type": "Social Factor"
+    },
+    {
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "investigates",
+      "tail": "gastrointestinal symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "investigates",
+      "tail": "mental health symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "participants",
+      "head_type": "Human",
+      "relation": "report",
+      "tail": "oral health",
+      "tail_type": "Health Condition"
+    },
+    {
+      "head": "participants",
+      "head_type": "Human",
+      "relation": "report",
+      "tail": "substance use",
+      "tail_type": "Behavior"
+    },
+    {
+      "head": "participants",
+      "head_type": "Human",
+      "relation": "report",
+      "tail": "medical history",
+      "tail_type": "Health History"
+    },
+    {
+      "head": "participants",
+      "head_type": "Human",
+      "relation": "report",
+      "tail": "early life adversity",
+      "tail_type": "Life Event"
+    },
+    {
+      "head": "participants",
+      "head_type": "Human",
+      "relation": "report",
+      "tail": "diet",
+      "tail_type": "Nutritional Factor"
+    },
+    {
+      "head": "participants",
+      "head_type": "Human",
+      "relation": "report",
+      "tail": "exercise",
+      "tail_type": "Activity"
+    },
+    {
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "uses",
+      "tail": "16S rRNA gene sequencing",
+      "tail_type": "Methodology"
+    },
+    {
+      "head": "Bugs and Brains Study",
+      "head_type": "Study",
+      "relation": "uses",
+      "tail": "nuclear MR spectroscopy",
+      "tail_type": "Methodology"
+    },
+    {
+      "head": "University of Melbourne Human Research Ethics Committee",
+      "head_type": "Ethics Committee",
+      "relation": "approved",
+      "tail": "Bugs and Brains Study",
+      "tail_type": "Study"
+    },
+    {
+      "head": "participants",
+      "head_type": "Human",
+      "relation": "provided",
+      "tail": "informed consent",
+      "tail_type": "Legal Document"
+    },
+    {
+      "head": "results",
+      "head_type": "Research Outcome",
+      "relation": "will be published in",
+      "tail": "peer-reviewed journals",
+      "tail_type": "Publication"
+    },
+    {
+      "head": "results",
+      "head_type": "Research Outcome",
+      "relation": "will be presented at",
+      "tail": "scientific conferences",
+      "tail_type": "Event"
+    }
+  ]
+}

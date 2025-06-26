@@ -4,59 +4,101 @@
   "relations": [
     {
       "head": "gut microbiota",
-      "head_type": "Biological Entity",
-      "relation": "MODIFIES",
-      "tail": "type 1 diabetes mellitus",
-      "tail_type": "Disease"
+      "head_type": "Organism",
+      "relation": "modifies",
+      "tail": "incidence",
+      "tail_type": "Incidence"
     },
     {
       "head": "gut microbiota shifts",
-      "head_type": "Biological Process",
-      "relation": "AFFECTS",
+      "head_type": "Organism",
+      "relation": "affects",
       "tail": "cognitive functions",
-      "tail_type": "Biological Process"
+      "tail_type": "Function"
     },
     {
       "head": "vancomycin",
-      "head_type": "Chemical",
-      "relation": "USED TO",
-      "tail": "modify gut microbiota",
-      "tail_type": "Biological Process"
+      "head_type": "Antibiotic",
+      "relation": "modifies",
+      "tail": "gut microbiota",
+      "tail_type": "Organism"
     },
     {
-      "head": "vancomycin",
-      "head_type": "Chemical",
-      "relation": "DISRUPTS",
+      "head": "vancomycin exposure",
+      "head_type": "Exposure",
+      "relation": "disrupts",
       "tail": "gut microbiome",
-      "tail_type": "Biological Entity"
+      "tail_type": "Organism"
     },
     {
-      "head": "acetate deficiency",
-      "head_type": "State",
-      "relation": "RESULTS FROM",
-      "tail": "depletion of acetate-producing bacteria",
-      "tail_type": "Biological Process"
+      "head": "vancomycin exposure",
+      "head_type": "Exposure",
+      "relation": "alters",
+      "tail": "host metabolic phenotypes",
+      "tail_type": "Phenotype"
     },
     {
-      "head": "acetate deficiency",
-      "head_type": "State",
-      "relation": "LEADS TO",
+      "head": "vancomycin exposure",
+      "head_type": "Exposure",
+      "relation": "facilitates",
       "tail": "cognitive impairment",
-      "tail_type": "Condition"
+      "tail_type": "Impairment"
+    },
+    {
+      "head": "acetate deficiency",
+      "head_type": "Deficiency",
+      "relation": "results in",
+      "tail": "reduction of synaptophysin (SYP)",
+      "tail_type": "Protein Level"
+    },
+    {
+      "head": "acetate deficiency",
+      "head_type": "Deficiency",
+      "relation": "results in",
+      "tail": "learning and memory impairments",
+      "tail_type": "Impairment"
     },
     {
       "head": "exogenous acetate supplement",
-      "head_type": "Treatment",
-      "relation": "RECOVERS",
+      "head_type": "Supplement",
+      "relation": "recovers",
       "tail": "hippocampal SYP level",
-      "tail_type": "Biological Marker"
+      "tail_type": "Protein Level"
+    },
+    {
+      "head": "fecal microbiota transplant",
+      "head_type": "Transplant",
+      "relation": "recovers",
+      "tail": "hippocampal SYP level",
+      "tail_type": "Protein Level"
     },
     {
       "head": "vagal inhibition",
-      "head_type": "Biological Process",
-      "relation": "ATTENUATES",
-      "tail": "recovery effect",
+      "head_type": "Inhibition",
+      "relation": "attenuates",
+      "tail": "effect of acetate",
       "tail_type": "Effect"
+    },
+    {
+      "head": "vagotomy",
+      "head_type": "Surgical Procedure",
+      "relation": "attenuates",
+      "tail": "effect of acetate",
+      "tail_type": "Effect"
+    },
+    {
+      "head": "acetate",
+      "head_type": "Metabolite",
+      "relation": "protects",
+      "tail": "cognitive functions",
+      "tail_type": "Function"
+    },
+    {
+      "head": "acetate deficiency",
+      "head_type": "Deficiency",
+      "relation": "is risk factor for",
+      "tail": "cognitive decline",
+      "tail_type": "Decline"
     }
   ]
 }
