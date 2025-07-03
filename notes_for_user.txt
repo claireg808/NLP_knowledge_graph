@@ -2,6 +2,10 @@
         - Replace "myenv" with your desired name
     - Activate the environment to install necessary dependencies:
         - source myenv/bin/activate
+    - Install these dependencies first:
+        pip install --upgrade pip
+        torch==2.5.1 
+        llm==0.7.3
 
     - Run the following script first to get deepseek running
         -sbatch run.sh
