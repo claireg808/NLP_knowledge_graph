@@ -1,0 +1,23 @@
+    - Create a new virtual environment: python -m venv myenv 
+        - Replace "myenv" with your desired name
+    - Activate the environment to install necessary dependencies:
+        - source myenv/bin/activate
+
+    - Run the following script first to get deepseek running
+        -sbatch run.sh
+    
+    - Check the job status in output_serve.log: tail -f output_serve.log
+        -  Wait for this line to appear: INFO:     Application startup complete.
+
+    -Once that is done run the prompt script: sbatch generate_json.sh
+    
+
+
+    -To check the current hickory queue: squeue
+    -To cancel your job: scancel <job number>
+
+NOTE: DO NOT CALL ANY OF THIS DEEPSEEK THIS IS DS EVERYTIME
+also less important note: the first few samples from the dev file were used as examples for the tagged sample
+not sure that this is an issue now given how bad at tagging it is but if we wanted to make it more official 
+we should either take those samples out of the files we are testing it on or replace ecxample dev tagged samples
+with something from test/train or something like that
