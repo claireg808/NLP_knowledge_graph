@@ -4,6 +4,7 @@
 #SBATCH --output=output_serve.log
 #SBATCH --qos=short
 #SBATCH --job-name=ds
+
 module load python/3.11
 module load cuda/12.4
 source ds_kg_venv/bin/activate
