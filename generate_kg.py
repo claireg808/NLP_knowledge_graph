@@ -1,14 +1,19 @@
 import os
+from dotenv import load_dotenv
 import pickle
 import json
 from typing import Any, List
 from pydantic import BaseModel
 from langchain_core.documents import Document
-from langchain_community.graphs import Neo4jGraph
+from langchain_neo4j import Neo4jGraph
 from langchain_community.graphs.graph_document import GraphDocument, Node, Relationship
 
 
-graph = Neo4jGraph()
+load_dotenv()
+uri = os.environ['URI']
+usr = os.environ['USERNAME']
+psw = os.environ['PASSWORD']
+graph = Neo4jGraph(url=uri, username=usr, password=psw)
 
 
 class Element(BaseModel):
@@ -65,29 +70,7 @@ def process_json_response(json_data, filename) -> GraphDocument:
     )
     
     # return constructed GraphDocument
-    return GraphDocument(nodes=nodes, relationships=relationships, source=document)
-
-
-# flatten a nested JSON
-def flatten_json(y):
-    out = {}
-
-    def flatten(x, name=''):
-        if type(x) is dict:
-            for a in x:
-                flatten(x[a], name + a + '_')
-
-        elif type(x) is list:
-            i = 0
-            for a in x:
-                flatten(a, name + str(i) + '_')
-                i += 1
-
-        else:
-            out[name[:-1]] = x
-
-    flatten(y)
-    return out
+    return GraphDocument(nodes=nodes, relationships=relationships, source=source_doc)
 
 
 # process all JSONs in given folder and create Neo4j graph
@@ -112,7 +95,7 @@ def process_json_folder(folder_path: str = "platinum_relations") -> None:
         
         for i, filename in enumerate(json_files):
             file_path = os.path.join(folder_path, filename)
-            print(f"Processing {filename}")
+            print(f"Opening {filename}")
             
             try:
                 # load JSON

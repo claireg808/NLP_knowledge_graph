@@ -1,3 +1,4 @@
 .vscode/
 ds_kg_venv/
-output*
+*output*
+.env

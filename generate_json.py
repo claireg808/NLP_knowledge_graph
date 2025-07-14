@@ -49,12 +49,12 @@ for line in all_samples:
         samples.setdefault(pmid, {})['abstract'] = abstract
 
 llm = ChatOpenAI(
-    base_url="http://localhost:8000/v1",
-    api_key="dummy-key",
-    model="deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
-    temperature=0.6,
+    base_url=os.environ['BASE_URL'],
+    api_key='dummy-key',
+    model=os.environ['MODEL'],
+    temperature=os.environ['TEMPERATURE'],
     max_tokens=4500,
-    timeout=200
+    timeout=os.environ['TIMEOUT']
 )
 
 structured_llm = llm.with_structured_output(FullOutput)
