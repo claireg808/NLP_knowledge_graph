@@ -1,4 +1,5 @@
 import os
+import re
 import pandas as pd
 import numpy as np
 from dotenv import load_dotenv
@@ -36,11 +37,13 @@ gds = GraphDataScience(
     auth=(os.environ["USERNAME"], os.environ["PASSWORD"])
 )
 
+# create the communities graph
 graph_name = "communities"
 
-if gds.graph.exists(graph_name)[0]:
+if gds.graph.exists(graph_name).iloc[0]:  # drop the graph if it already exists
     gds.graph.drop(graph_name)
 
+# project the graph as an undirected weighted network
 G, result = gds.graph.project(
     graph_name,
     "__Entity__",
@@ -59,11 +62,13 @@ G, result = gds.graph.project(
 )
 
 
+# use WCC algorithm to assess graph connectivity
 wcc = gds.wcc.stats(G)
 print(f"Component count: {wcc['componentCount']}")
 print(f"Component distribution: {wcc['componentDistribution']}")
 
 
+# use weighted Leiden algorithm to store communities as a node property
 gds.leiden.write(
     G,
     writeProperty="communities",
@@ -72,8 +77,10 @@ gds.leiden.write(
 )
 
 
+# ensure community IDs must be unique
 graph.query("CREATE CONSTRAINT IF NOT EXISTS FOR (c:__Community__) REQUIRE c.id IS UNIQUE;")
 
+# create node per community
 graph.query("""
 MATCH (e:`__Entity__`)
 UNWIND range(0, size(e.communities) - 1 , 1) AS index
@@ -100,12 +107,15 @@ CALL {
 RETURN count(*)
 """)
 
+# rank = number of distinct text chunks in which the community entities appear
 graph.query("""
 MATCH (c:__Community__)<-[:IN_COMMUNITY*]-(:__Entity__)<-[:MENTIONS]-(d:Document)
 WITH c, count(distinct d) AS rank
 SET c.community_rank = rank;
 """)
 
+
+# return number of communities and their sizes
 community_size = graph.query(
     """
 MATCH (c:__Community__)<-[:IN_COMMUNITY*]-(e:__Entity__)
@@ -132,7 +142,7 @@ for level in community_size_df["level"].unique():
         ]
     )
 
-# Create a DataFrame with the percentiles
+# create a DF with the percentiles
 percentiles_df = pd.DataFrame(
     percentiles_data,
     columns=[
@@ -146,11 +156,12 @@ percentiles_df = pd.DataFrame(
         "Max"
     ],
 )
-percentiles_df
+percentiles_df.to_csv('community_percentiles_df.csv', index=False)
 
+
+# retrieve community info from graph
 community_info = graph.query("""
 MATCH (c:`__Community__`)<-[:IN_COMMUNITY*]-(e:__Entity__)
-WHERE c.level IN [0,1,4]
 WITH c, collect(e ) AS nodes
 WHERE size(nodes) > 1
 CALL apoc.path.subgraphAll(nodes[0], {
@@ -163,15 +174,12 @@ RETURN c.id AS communityId,
 """)
 
 
-community_info[5]
-
-
+# prompt for producing community summaries
 community_template = """Based on the provided nodes and relationships that belong to the same graph community,
 generate a natural language summary of the provided information:
 {community_info}
 
 Summary:"""  # noqa: E501
-
 
 community_prompt = ChatPromptTemplate.from_messages(
     [
@@ -183,10 +191,10 @@ community_prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-
 community_chain = community_prompt | llm | StrOutputParser()
 
 
+# convert communities into strings to reduce number of tokens
 def prepare_string(data):
     nodes_str = "Nodes are:\n"
     for node in data['nodes']:
@@ -211,15 +219,16 @@ def prepare_string(data):
 
     return nodes_str + "\n" + rels_str
 
-
 def process_community(community):
     stringify_info = prepare_string(community)
     summary = community_chain.invoke({'community_info': stringify_info})
+    match = re.search(r".*<\/think>\s*(.*)", summary)
+    if match:
+        summary = match.group(1)
     return {"community": community['communityId'], "summary": summary}
 
-print(prepare_string(community_info[3]))
 
-
+# generate summaries for all communities
 summaries = []
 with ThreadPoolExecutor() as executor:
     futures = {executor.submit(process_community, community): community for community in community_info}
@@ -233,3 +242,6 @@ UNWIND $data AS row
 MERGE (c:__Community__ {id:row.community})
 SET c.summary = row.summary
 """, params={"data": summaries})
+
+
+print('\nComplete')

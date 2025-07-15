@@ -31,7 +31,7 @@
             Local instances -> Create instance
             Create an instance name and password
             The default username should be 'neo4j'
-        Install the APOC plug-in (Three dots -> Plugins -> Install APOC)
+        Install the APOC plug-in (Three dots -> Plugins)
         Open the neo4j.conf file (Three dots -> Open neo4j.conf)
             Add, update, and/or uncomment these lines:
                 dbms.security.auth_enabled=true
@@ -73,11 +73,22 @@ try:
 except Exception as e:
     print(f'Connection failed: {e}')"
 
+
+
+    --- Generate a Neo4j Knowledge Graph DB ---
     Run 'generate_kg.py':
         - sbatch kg.sh
 
 
 
+    --- Add Community Summaries ---
+    In the Neo4j desktop app, install the Graph Datascience plug-in (Three dots -> Plugins)
+
+    Run 'community_detection.py':
+        - sbatch cd.sh
+    
+    
+    
     --- General Notes ---
     To check the current hickory queue: squeue
     To cancel your job: scancel <job number>
