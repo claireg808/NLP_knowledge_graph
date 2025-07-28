@@ -9,10 +9,13 @@ from langchain_neo4j import Neo4jGraph
 from langchain_community.graphs.graph_document import GraphDocument, Node, Relationship
 
 
+# load .env file
 load_dotenv()
+
+# initialize graph and llm
 uri = os.environ['URI']
 usr = os.environ['USERNAME']
-psw = os.environ['PASSWORD']
+psw = os.environ['PASSWORD_DD']
 graph = Neo4jGraph(url=uri, username=usr, password=psw)
 
 
@@ -113,6 +116,9 @@ def process_json_folder(folder_path: str = "platinum_relations") -> None:
         # cache the results for future re-use
         with open(pickle_file, "wb") as f:
             pickle.dump(graph_documents, f)
+
+    # clear graph if already populated
+    graph.query("MATCH (n) DETACH DELETE n")
     
     # add GraphDocument to Neo4j graph
     graph.add_graph_documents(

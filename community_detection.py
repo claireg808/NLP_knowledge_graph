@@ -11,13 +11,14 @@ from graphdatascience import GraphDataScience
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
+
 # load .env file
 load_dotenv()
 
 # initialize graph and llm
 uri = os.environ['URI']
 usr = os.environ['USERNAME']
-psw = os.environ['PASSWORD']
+psw = os.environ['PASSWORD_DD']
 
 graph = Neo4jGraph(url=uri, username=usr, password=psw)
 
@@ -26,22 +27,39 @@ llm = ChatOpenAI(
     api_key=os.environ['API_KEY'],
     model=os.environ['MODEL'],
     temperature=float(os.environ['TEMPERATURE']),
-    max_tokens=10000,
+    max_tokens=7000,
     timeout=float(os.environ['TIMEOUT'])
 )
 
 
 # project graph
 gds = GraphDataScience(
-    os.environ["URI"],
-    auth=(os.environ["USERNAME"], os.environ["PASSWORD"])
+    uri,
+    auth=(usr, psw)
 )
 
 # create the communities graph
 graph_name = "communities"
 
-if gds.graph.exists(graph_name).iloc[0]:  # drop the graph if it already exists
+# drop the graph if it already exists
+if gds.graph.exists(graph_name).iloc[0]:
     gds.graph.drop(graph_name)
+
+    graph.query("""
+    MATCH (c:__Community__)
+    DETACH DELETE c
+    """)
+
+    graph.query("""
+    MATCH (e:__Entity__)-[r:IN_COMMUNITY]->()
+    DELETE r
+    """)
+    
+    graph.query("""
+    MATCH (c:__Community__)
+    REMOVE c.community_rank, c.summary
+    """)
+
 
 # project the graph as an undirected weighted network
 G, result = gds.graph.project(
@@ -185,7 +203,7 @@ community_prompt = ChatPromptTemplate.from_messages(
     [
         (
             "system",
-            "Given an input triples, generate the information summary. No pre-amble.",
+            "Given an input triples, generate the information summary. Do not explain your thinking process, only output the result.",
         ),
         ("human", community_template),
     ]
@@ -222,7 +240,7 @@ def prepare_string(data):
 def process_community(community):
     stringify_info = prepare_string(community)
     summary = community_chain.invoke({'community_info': stringify_info})
-    match = re.search(r".*<\/think>\s*(.*)", summary)
+    match = re.search(r".*<\/think>\s*(.*)", summary, re.DOTALL)
     if match:
         summary = match.group(1)
     return {"community": community['communityId'], "summary": summary}
