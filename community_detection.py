@@ -1,7 +1,5 @@
 import os
 import re
-import pandas as pd
-import numpy as np
 from dotenv import load_dotenv
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
@@ -26,7 +24,6 @@ llm = ChatOpenAI(
     base_url=os.environ['BASE_URL'],
     api_key=os.environ['API_KEY'],
     model=os.environ['MODEL'],
-    temperature=float(os.environ['TEMPERATURE']),
     max_tokens=7000,
     timeout=float(os.environ['TIMEOUT'])
 )
@@ -39,9 +36,9 @@ gds = GraphDataScience(
 )
 
 # create the communities graph
-graph_name = "communities"
+graph_name = 'communities'
 
-# drop the graph if it already exists
+# drop the graph if it already exists and delete previous community info
 if gds.graph.exists(graph_name).iloc[0]:
     gds.graph.drop(graph_name)
 
@@ -54,12 +51,6 @@ if gds.graph.exists(graph_name).iloc[0]:
     MATCH (e:__Entity__)-[r:IN_COMMUNITY]->()
     DELETE r
     """)
-    
-    graph.query("""
-    MATCH (c:__Community__)
-    REMOVE c.community_rank, c.summary
-    """)
-
 
 # project the graph as an undirected weighted network
 G, result = gds.graph.project(
@@ -70,7 +61,7 @@ G, result = gds.graph.project(
             "type": "*",
             "orientation": "UNDIRECTED",
             "properties": {
-                "weight": {
+                "weight": {  # weight = # of relationships
                     "property": "*",
                     "aggregation": "COUNT"
                 }
@@ -89,9 +80,9 @@ print(f"Component distribution: {wcc['componentDistribution']}")
 # use weighted Leiden algorithm to store communities as a node property
 gds.leiden.write(
     G,
-    writeProperty="communities",
+    writeProperty='communities',
     includeIntermediateCommunities=True,
-    relationshipWeightProperty="weight",
+    relationshipWeightProperty='weight',
 )
 
 
@@ -133,7 +124,7 @@ SET c.community_rank = rank;
 """)
 
 
-# return number of communities and their sizes
+# return number of communities and the number of entities
 community_size = graph.query(
     """
 MATCH (c:__Community__)<-[:IN_COMMUNITY*]-(e:__Entity__)
@@ -141,43 +132,9 @@ WITH c, count(distinct e) AS entities
 RETURN split(c.id, '-')[0] AS level, entities
 """
 )
-community_size_df = pd.DataFrame.from_records(community_size)
-percentiles_data = []
-for level in community_size_df["level"].unique():
-    subset = community_size_df[community_size_df["level"] == level]["entities"]
-    num_communities = len(subset)
-    percentiles = np.percentile(subset, [25, 50, 75, 90, 99])
-    percentiles_data.append(
-        [
-            level,
-            num_communities,
-            percentiles[0],
-            percentiles[1],
-            percentiles[2],
-            percentiles[3],
-            percentiles[4],
-            max(subset)
-        ]
-    )
-
-# create a DF with the percentiles
-percentiles_df = pd.DataFrame(
-    percentiles_data,
-    columns=[
-        "Level",
-        "Number of communities",
-        "25th Percentile",
-        "50th Percentile",
-        "75th Percentile",
-        "90th Percentile",
-        "99th Percentile",
-        "Max"
-    ],
-)
-percentiles_df.to_csv('community_percentiles_df.csv', index=False)
 
 
-# retrieve community info from graph
+# return nodes & relationships
 community_info = graph.query("""
 MATCH (c:`__Community__`)<-[:IN_COMMUNITY*]-(e:__Entity__)
 WITH c, collect(e ) AS nodes
@@ -197,7 +154,7 @@ community_template = """Based on the provided nodes and relationships that belon
 generate a natural language summary of the provided information:
 {community_info}
 
-Summary:"""  # noqa: E501
+Summary:"""
 
 community_prompt = ChatPromptTemplate.from_messages(
     [
@@ -212,9 +169,9 @@ community_prompt = ChatPromptTemplate.from_messages(
 community_chain = community_prompt | llm | StrOutputParser()
 
 
-# convert communities into strings to reduce number of tokens
+# convert community nodes + relationships into strings to reduce number of tokens
 def prepare_string(data):
-    nodes_str = "Nodes are:\n"
+    nodes_str = 'Nodes are:\n'
     for node in data['nodes']:
         node_id = node['id']
         node_type = node['type']
@@ -224,7 +181,7 @@ def prepare_string(data):
             node_description = ""
         nodes_str += f"id: {node_id}, type: {node_type}{node_description}\n"
 
-    rels_str = "Relationships are:\n"
+    rels_str = 'Relationships are:\n'
     for rel in data['rels']:
         start = rel['start']
         end = rel['end']
@@ -235,7 +192,7 @@ def prepare_string(data):
             description = ""
         rels_str += f"({start})-[:{rel_type}]->({end}){description}\n"
 
-    return nodes_str + "\n" + rels_str
+    return nodes_str + '\n' + rels_str
 
 def process_community(community):
     stringify_info = prepare_string(community)
@@ -259,7 +216,7 @@ graph.query("""
 UNWIND $data AS row
 MERGE (c:__Community__ {id:row.community})
 SET c.summary = row.summary
-""", params={"data": summaries})
+""", params={'data': summaries})
 
 
 print('\nComplete')

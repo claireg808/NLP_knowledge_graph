@@ -23,7 +23,6 @@ def process_json_response(json_data, filename):
     # extract relations from JSON
     relations = json_data.get('relations', [])
 
-    ### do we want to deduplicate by document or globally??
     nodes_set = set()
     relationships = []
 

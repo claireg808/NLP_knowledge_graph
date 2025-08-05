@@ -1,5 +1,4 @@
 import os
-import re
 from dotenv import load_dotenv
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
@@ -34,7 +33,7 @@ llm = ChatOpenAI(
 )
 
 
-# calculate text embeddings for entity name & description
+# calculate text embeddings for entity id & description
 vector = Neo4jVector.from_existing_graph(
     HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2'),
     node_label='__Entity__',
@@ -52,13 +51,11 @@ def project_graph():
         auth=(usr, psw)
     )
 
-    # create knn graph named 'entities'
     graph_name = 'entities'
-
     # drop the graph if it already exists
     if gds.graph.exists(graph_name).iloc[0]:
         gds.graph.drop(graph_name)
-
+    # create knn graph
     G, _ = gds.graph.project(
         graph_name,                   #  graph name
         '__Entity__',                 #  node projection
@@ -68,31 +65,8 @@ def project_graph():
 
     return G, gds
 
-# count number of uppercase letters
-def count_uppercase(idx):
-    return len([letter for letter in idx if letter.isupper()])
 
-# deduplicate different capitalization
-def merge_capitalization_variants(entities: List[str]) -> List[List[str]]:
-    normalized_groups = defaultdict(list)
-    
-    # make dict with lowercase entity & list all OG forms of this entity
-    for entity in entities:
-        normalized = entity.lower()
-        normalized_groups[normalized].append(entity)
-    
-    to_merge = []
-    for group in normalized_groups.values():
-        # find groups with differing capitalization
-        if len(group) > 1:
-            # sort by number of uppercase characters descending
-            sorted_entities = sorted(group, key=count_uppercase, reverse=True)
-            to_merge.append(sorted_entities)
-    
-    return to_merge
-
-
-# re-project graph with dropped nodes
+# project graph
 G, gds = project_graph()
 
 # construct knn graph
@@ -120,18 +94,18 @@ word_edit_distance = 4  # max character difference
 
 potential_duplicate_candidates = graph.query(
     """MATCH (e:`__Entity__`)
-    // remove nodes with 3 or less characters
-    WHERE size(e.id) > 4
+    // filter to nodes with more than 3 characters
+    WHERE size(e.id) > 3
     // group by connected nodes into list nodes
     WITH e.wcc AS community, collect(e) AS nodes, count(*) AS count
     // keep lists with more than one node
     WHERE count > 1
     // flatten node list
     UNWIND nodes AS node
-    // keep nodes with three characters or less differene
+    // keep nodes with three characters or less difference
     WITH distinct
       [n IN nodes WHERE apoc.text.distance(toLower(node.id), toLower(n.id)) < $distance | n.id] AS intermediate_results
-    // remove single node groups
+    // keep results with more than one node
     WHERE size(intermediate_results) > 1
     // create results list of all similar id's
     WITH collect(intermediate_results) AS results
@@ -245,6 +219,7 @@ CALL {
   MATCH (e:__Entity__) 
   WHERE e.id IN candidates
   WITH candidates, collect(e) AS nodes
+  // choose the first node as the survivor
   WITH nodes, head([n IN nodes WHERE n.id = candidates[0]]) AS survivor
   WHERE size(nodes) > 1 AND survivor IS NOT NULL
   CALL apoc.refactor.mergeNodes(nodes, {
@@ -256,7 +231,7 @@ CALL {
 }
 RETURN count(*)
 
-""", params={"data": merged_entities})
+""", params={'data': merged_entities})
 
 G.drop()
 
