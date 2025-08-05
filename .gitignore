@@ -2,3 +2,4 @@
 ds_kg_venv/
 *output*
 .env
+.hf_token
