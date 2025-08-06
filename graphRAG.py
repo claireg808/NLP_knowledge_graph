@@ -174,7 +174,7 @@ reduce_prompt = ChatPromptTemplate.from_messages(
 )
 reduce_chain = reduce_prompt | llm | StrOutputParser()
 
-response_type: str = "multiple paragraphs"
+response_type: str = 'multiple paragraphs'
 
 
 def global_retriever(query: str, level: int, response_type: str = response_type) -> str:
@@ -190,19 +190,19 @@ def global_retriever(query: str, level: int, response_type: str = response_type)
 
     # append all community info together
     community_info = []
-    for community in tqdm(community_data, desc="Processing communities"):
+    for community in tqdm(community_data, desc='Processing communities'):
         community_info.append(community['output']['summary'] + '\n')
 
      # query for intermediate + final response
     intermediate_response = map_chain.invoke(
-            {"question": query, "context_data": community_info}
+            {'question': query, 'context_data': community_info}
         )
     
     final_response = reduce_chain.invoke(
         {
-            "report_data": intermediate_response,
-            "question": query,
-            "response_type": response_type,
+            'report_data': intermediate_response,
+            'question': query,
+            'response_type': response_type,
         }
     )
 
@@ -222,4 +222,4 @@ def global_retriever(query: str, level: int, response_type: str = response_type)
 
     return final_response
 
-print(global_retriever("What is the relationship between depression and the gut?", 2))
+print(global_retriever('What is the relationship between depression and the gut?', 2))

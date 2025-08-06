@@ -27,7 +27,6 @@ llm = ChatOpenAI(
     base_url=os.environ['BASE_URL'],
     api_key=os.environ['API_KEY'],
     model=os.environ['MODEL'],
-    temperature=float(os.environ['TEMPERATURE']),
     max_tokens=7000,
     timeout=float(os.environ['TIMEOUT'])
 )
